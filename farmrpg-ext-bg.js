@@ -232,11 +232,14 @@ const connectToContentScript = () =>
                 case "SIDEBAR_CLICK":
                     console.log("sidebar click", msg.target)
                     if (msg.target.startsWith("item:")) {
-                        buyItem(globalState.inventory, msg.target.substr(5)).then(inv => {
-                            globalState.inventory = inv
-                            renderSidebar(globalState.inventory)
-                            globalState.port.postMessage({ action: "RELOAD_VIEW", url: "workshop.php"})
-                        })
+                        const item = msg.target.substr(5)
+                        if (item === "Iron" || item === "Nails") {
+                            buyItem(globalState.inventory, item).then(inv => {
+                                globalState.inventory = inv
+                                renderSidebar(globalState.inventory)
+                                globalState.port.postMessage({ action: "RELOAD_VIEW", url: "workshop.php"})
+                            })
+                        }
                     }
                     break
                 }
