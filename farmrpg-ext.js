@@ -35,12 +35,6 @@
                 // FS already has code in place to restore the scroll position, just use that.
                 const scrollTop = view.container.querySelector('.page-on-center .page-content').scrollTop
                 window.wrappedJSObject.currentScroll = scrollTop
-                // const handler = () => {
-                //     view.container.querySelector('.page-on-center .page-content').scrollTop = scrollTop
-                //     view.router.off("pageAfterIn", handler)
-                //     return true
-                // }
-                // view.router.on("pageAfterIn", handler)
                 view.router.refreshPage()
             }
             break
