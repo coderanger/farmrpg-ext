@@ -171,7 +171,7 @@ const renderSidebar = (inventory) => {
         return `
             <div class="farmrpg-ext-item ${isMax ? "farmrpg-ext-max" : ""} ${sidebarItem.buy ? "farmrpg-ext-buy" : ""}" data-farmrpgextsidebarclick="item:${sidebarItem.name}">
                 <div class="farmrpg-ext-image">
-                    <img src="${invItem ? invItem.image : sidebarItem.image}" />
+                    <img src="${invItem ? invItem.image || sidebarItem.image : sidebarItem.image}" />
                 </div>
                 <div class="farmrpg-ext-quantity">
                     ${invItem ? invItem.quantity : 0}
