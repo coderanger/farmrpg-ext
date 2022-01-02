@@ -292,7 +292,7 @@ const main = async () => {
     })
 
     // Set up a periodic refresh of the inventory.
-    browser.alarms.create("inventory-refresh", {periodInMinutes: 1})
+    browser.alarms.create("inventory-refresh", {periodInMinutes: 5})
     browser.alarms.onAlarm.addListener(async alarm => {
         switch (alarm.name) {
         case "inventory-refresh":
