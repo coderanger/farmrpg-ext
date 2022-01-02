@@ -1,0 +1,25 @@
+#farmrpg-ext-sidebar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.farmrpg-ext-item {
+    border: 1px solid #c8c7cc;
+    border-radius: 8px;
+    padding: 5px;
+    margin: 5px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.farmrpg-ext-buy {
+    cursor: pointer;
+}
+
+.farmrpg-ext-max {
+    background-color: #FBB;
+}
+
+.farmrpg-ext-image img {
+    width: 50px;
+}
