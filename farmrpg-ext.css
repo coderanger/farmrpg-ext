@@ -3,8 +3,15 @@
     margin-bottom: 15px;
 }
 
-.farmrpg-ext-status-cropimg {
-    width: 14px;
+.farmrpg-ext-status {
+    font-size: 17px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.farmrpg-ext-status-cropimg, .farmrpg-ext-perk img {
+    width: 17px;
 }
 
 .farmrpg-ext-crop-done {
@@ -25,7 +32,7 @@
     background-color: rgba(255, 255, 255, 0.7);
 }
 
-.farmrpg-ext-buy {
+.farmrpg-ext-buy, .farmrpg-ext-perk, .farmrpg-ext-crop {
     cursor: pointer;
 }
 

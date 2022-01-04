@@ -25,6 +25,7 @@
             "farmrpg-ext-bg.js"
         ]
     },
+    "web_accessible_resources": ["images/*"],
     "permissions": [
         "*://*.farmrpg.com/*",
         "webRequest",

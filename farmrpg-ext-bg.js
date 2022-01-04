@@ -193,7 +193,7 @@ const getCropTimesFromFarmStatus = page => {
 }
 
 const renderSidebar = state => {
-    // Generate the statusbar HTML.
+    // Generate the crop statusbar HTML.
     let soonestPosition = null
     let soonestTime = null
     for (const [pos, time] of Object.entries(state.crops.times)) {
@@ -204,24 +204,45 @@ const renderSidebar = state => {
     }
     let cropHtml = ""
     if (soonestPosition === null) {
-        cropHtml = "None"
+        cropHtml = `
+            <img class="farmrpg-ext-status-cropimg" src="/img/items/item.png">
+            <span>Unknown</span>
+        `
     } else {
-        const timeLeft = Math.ceil((soonestTime - Date.now()) / 60000)
+        let timeLeft = Math.ceil((soonestTime - Date.now()) / 60000)
         let timeLeftUnits = "m"
         if (timeLeft >= 90) {
             timeLeft = Math.ceil(timeLeft / 60)
             timeLeftUnits = "h"
         }
+        if (timeLeft <= 0) {
+            timeLeft = "READY"
+            timeLeftUnits = ""
+        }
         cropHtml = `
-        <span class="${timeLeft == 0 ? "farmrpg-ext-crop-done" : ""}">
             <img class="farmrpg-ext-status-cropimg" src="${state.crops.images[soonestPosition] || "/img/items/item.png"}">
-            ${timeLeft}${timeLeftUnits}
-        </span>
+            <span class="${timeLeft === "READY" ? "farmrpg-ext-crop-done" : ""}">${timeLeft}${timeLeftUnits}</span>
         `
     }
-    if (state.farmId) {
-        cropHtml = `<a href="https://farmrpg.com/index.php#!/xfarm.php?id=${state.farmId}" data-farmrpgextsidebarclick="farm">${cropHtml}</a>`
+    cropHtml = `
+        <div class="farmrpg-ext-crop" data-farmrpgextsidebarclick="farm">
+            ${cropHtml}
+        </div>
+    `
+    // Generate the perks statusbar HTML.
+    let perkIcon = "/img/items/item.png"
+    if (state.perksetLoading) {
+        perkIcon = browser.runtime.getURL("images/spinner.png")
+    } else if (state.perksetId === "2735") {
+        perkIcon = "/img/items/5868.png"
+    } else if (state.perksetId === "2734") {
+        perkIcon = "/img/items/6137.png?1"
     }
+    const perkHtml = `
+        <div class="farmrpg-ext-perk" data-farmrpgextsidebarclick="perk">
+            <img src="${perkIcon}">
+        </div>
+    `
     // Generate the items HTML.
     const fragments = sidebarConfig.map(sidebarItem => {
         const invItem = state.inventory.items[sidebarItem.name]
@@ -239,7 +260,7 @@ const renderSidebar = state => {
     })
     // Make the overall HTML.
     const html = `
-        <div class="farmrpg-ext-status">${cropHtml}</div>
+        <div class="farmrpg-ext-status">${cropHtml}${perkHtml}</div>
         <div class="farmrpg-ext-items">${fragments.join("")}</div>
     `
     // Ship it over to the content script for injection.
@@ -283,6 +304,43 @@ const setupPageFilter = (url, callback) => {
     )
 }
 
+const handleSidbarClick = async target => {
+    console.log("sidebar click", target)
+    const [targetType, targetArg] = target.split(":", 2)
+    switch (targetType) {
+    case "item":
+        if (targetArg === "Iron" || targetArg === "Nails") {
+            globalState.inventory= await buyItem(globalState.inventory, targetArg).
+            renderSidebarFromGlobalState()
+            globalState.port.postMessage({ action: "RELOAD_VIEW", url: "workshop.php"})
+        }
+        break
+    case "farm":
+        if (globalState.farmId) {
+            globalState.port.postMessage({ action: "RELOAD_VIEW", url: `xfarm.php?id=${globalState.farmId}`})
+        } else {
+            console.log("Can't navigate to farm without Farm ID")
+        }
+        break
+    case "perk":
+        globalState.perksetLoading = true
+        renderSidebarFromGlobalState()
+        const nextPerksetId = globalState.perksetId === "2735" ? "2734" : "2735"
+        let resp = await fetch("https://farmrpg.com/worker.php?go=resetperks", {method: "POST"})
+        if (!resp.ok) {
+            throw "Error reseting perks"
+        }
+        resp = await fetch(`https://farmrpg.com/worker.php?go=activateperkset&id=${nextPerksetId}`, {method: "POST"})
+        if (!resp.ok) {
+            throw "Error activating perkset"
+        }
+        globalState.perksetId = nextPerksetId
+        globalState.perksetLoading = false
+        renderSidebarFromGlobalState()
+        break
+    }
+}
+
 const connectToContentScript = () =>
     new Promise(resolve =>
         browser.runtime.onConnect.addListener(port => {
@@ -295,23 +353,7 @@ const connectToContentScript = () =>
             globalState.port.onMessage.addListener(msg => {
                 switch (msg.action) {
                 case "SIDEBAR_CLICK":
-                    console.log("sidebar click", msg.target)
-                    if (msg.target.startsWith("item:")) {
-                        const item = msg.target.substr(5)
-                        if (item === "Iron" || item === "Nails") {
-                            buyItem(globalState.inventory, item).then(inv => {
-                                globalState.inventory = inv
-                                renderSidebarFromGlobalState()
-                                globalState.port.postMessage({ action: "RELOAD_VIEW", url: "workshop.php"})
-                            })
-                        }
-                    } else if (msg.target === "farm") {
-                        if (globalState.farmId) {
-                            globalState.port.postMessage({ action: "RELOAD_VIEW", url: `xfarm.php?id=${state.farmId}`})
-                        } else {
-                            console.log("Can't navigate to farm without Farm ID")
-                        }
-                    }
+                    handleSidbarClick(msg.target)
                     break
                 }
             })
@@ -376,8 +418,8 @@ const main = async () => {
     })
 
     // Set up a periodic refresh of the inventory.
-    browser.alarms.create("inventory-refresh", {periodInMinutes: 5})
-    browser.alarms.create("render-sidebar", {periodInMinutes: 1})
+    // browser.alarms.create("inventory-refresh", {periodInMinutes: 5})
+    // browser.alarms.create("render-sidebar", {periodInMinutes: 1})
     browser.alarms.onAlarm.addListener(async alarm => {
         switch (alarm.name) {
         case "inventory-refresh":

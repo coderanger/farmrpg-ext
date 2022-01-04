@@ -1,5 +1,5 @@
 (() => {
-    const port = browser.runtime.connect()
+    let port = browser.runtime.connect()
     let lastSidebar = [""]
 
     const renderSidebar = (html) => {
@@ -16,6 +16,7 @@
                 while (target && !target.dataset.farmrpgextsidebarclick) {
                     target = target.parentElement
                 }
+                console.log("farmrpg-ext sidebar click", target)
                 if (!target) {
                     return true
                 }
@@ -41,9 +42,14 @@
                 window.wrappedJSObject.currentScroll = scrollTop
                 view.router.refreshPage()
             } else {
-                view.router.navigate(msg.url, {ignoreCache: true})
+                view.router.loadPage(msg.url, {ignoreCache: true})
             }
             break
+        }
+    })
+    port.onDisconnect.addListener(disPort => {
+        if (port === disPort) {
+            port = browser.runtime.connect()
         }
     })
 
