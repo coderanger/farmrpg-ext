@@ -1,14 +1,27 @@
 #farmrpg-ext-sidebar {
+    padding: 0 10px;
+    margin-bottom: 15px;
+}
+
+.farmrpg-ext-status-cropimg {
+    width: 14px;
+}
+
+.farmrpg-ext-crop-done {
+    color: #F00;
+}
+
+.farmrpg-ext-items {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .farmrpg-ext-item {
     border: 1px solid #c8c7cc;
     border-radius: 8px;
     padding: 5px;
-    margin: 5px;
+    margin: 5px 0;
     background-color: rgba(255, 255, 255, 0.7);
 }
 

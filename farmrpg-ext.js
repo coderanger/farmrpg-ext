@@ -1,7 +1,10 @@
 (() => {
     const port = browser.runtime.connect()
+    let lastSidebar = [""]
 
     const renderSidebar = (html) => {
+        // Store the HTML for re-rendering if needed.
+        lastSidebar[0] = html
         // Find or create the sidebar holder.
         let sidebarElm = document.getElementById("farmrpg-ext-sidebar")
         if (!sidebarElm) {
@@ -17,6 +20,7 @@
                     return true
                 }
                 port.postMessage({action: "SIDEBAR_CLICK", target: target.dataset.farmrpgextsidebarclick})
+                evt.stopImmediatePropagation()
                 return false
             })
         }
@@ -36,6 +40,8 @@
                 const scrollTop = view.container.querySelector('.page-on-center .page-content').scrollTop
                 window.wrappedJSObject.currentScroll = scrollTop
                 view.router.refreshPage()
+            } else {
+                view.router.navigate(msg.url, {ignoreCache: true})
             }
             break
         }

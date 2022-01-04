@@ -15,7 +15,11 @@ const sidebarConfig = [
 const globalState = {
     inventory: {
         items: [],
-    }
+    },
+    crops: {
+        images: {},
+        times: {},
+    },
 }
 
 const buyItem = async (inventory, item, quantity = undefined, retry=0) => {
@@ -47,7 +51,7 @@ const buyItem = async (inventory, item, quantity = undefined, retry=0) => {
             throw "Too many retries on buying"
         }
         await new Promise(r => setTimeout(r, 1000))
-        return await buyItem(inventory, item, quantity, retry+1)
+        return await buyItem(inventory, item, parseInt(respText, 10), retry+1)
     } else {
         console.error("error while buying items", respText)
         return inventory
@@ -163,11 +167,65 @@ const getInventoryFromWorkshopHTML = (workshopPage, existingInventory) => {
     return inventory
 }
 
-const renderSidebar = (inventory) => {
-    // Generate the HTML.
+const getCropImagesFromPanelCrops = page => {
+    const parser = new DOMParser()
+    const dom = parser.parseFromString(page, "text/html")
+    const images = {}
+    for (const elm of dom.querySelectorAll(".cropitem")) {
+        images[elm.dataset.pb.substr(1)] = elm.getAttribute("src")
+    }
+    return images
+}
+
+const getCropTimesFromFarmStatus = page => {
+    const now = Date.now()
+    const times = {}
+    // 11-39-147;12-39-147;13-39-147;14-39-147;21-39-147;
+    for (const part of page.split(";")) {
+        if (page === "") {
+            continue
+        }
+        const segments = part.split("-", 3)
+        const secondsLeft = segments[2] == "" ? 0 : parseInt(segments[2], 10)
+        times[segments[0]] = now + (secondsLeft * 1000)
+    }
+    return times
+}
+
+const renderSidebar = state => {
+    // Generate the statusbar HTML.
+    let soonestPosition = null
+    let soonestTime = null
+    for (const [pos, time] of Object.entries(state.crops.times)) {
+        if (soonestTime === null || time < soonestTime) {
+            soonestTime = time
+            soonestPosition = pos
+        }
+    }
+    let cropHtml = ""
+    if (soonestPosition === null) {
+        cropHtml = "None"
+    } else {
+        const timeLeft = Math.ceil((soonestTime - Date.now()) / 60000)
+        let timeLeftUnits = "m"
+        if (timeLeft >= 90) {
+            timeLeft = Math.ceil(timeLeft / 60)
+            timeLeftUnits = "h"
+        }
+        cropHtml = `
+        <span class="${timeLeft == 0 ? "farmrpg-ext-crop-done" : ""}">
+            <img class="farmrpg-ext-status-cropimg" src="${state.crops.images[soonestPosition] || "/img/items/item.png"}">
+            ${timeLeft}${timeLeftUnits}
+        </span>
+        `
+    }
+    if (state.farmId) {
+        cropHtml = `<a href="https://farmrpg.com/index.php#!/xfarm.php?id=${state.farmId}" data-farmrpgextsidebarclick="farm">${cropHtml}</a>`
+    }
+    // Generate the items HTML.
     const fragments = sidebarConfig.map(sidebarItem => {
-        const invItem = inventory.items[sidebarItem.name]
-        const isMax = sidebarItem.buy ? (!invItem || invItem.quantity <= 10) : (invItem && invItem.quantity >= inventory.max)
+        const invItem = state.inventory.items[sidebarItem.name]
+        const isMax = sidebarItem.buy ? (!invItem || invItem.quantity <= 10) : (invItem && invItem.quantity >= state.inventory.max)
         return `
             <div class="farmrpg-ext-item ${isMax ? "farmrpg-ext-max" : ""} ${sidebarItem.buy ? "farmrpg-ext-buy" : ""}" data-farmrpgextsidebarclick="item:${sidebarItem.name}">
                 <div class="farmrpg-ext-image">
@@ -179,9 +237,16 @@ const renderSidebar = (inventory) => {
             </div>
         `
     })
+    // Make the overall HTML.
+    const html = `
+        <div class="farmrpg-ext-status">${cropHtml}</div>
+        <div class="farmrpg-ext-items">${fragments.join("")}</div>
+    `
     // Ship it over to the content script for injection.
-    globalState.port.postMessage({ action: "UPDATE_SIDEBAR", html: fragments.join("") })
+    globalState.port.postMessage({ action: "UPDATE_SIDEBAR", html })
 }
+
+const renderSidebarFromGlobalState = () => renderSidebar(globalState)
 
 const setupPageFilter = (url, callback) => {
     const listener = details => {
@@ -207,7 +272,7 @@ const setupPageFilter = (url, callback) => {
             page += decoder.decode() // end-of-stream
             filter.close()
 
-            callback(page)
+            callback(page, details.url)
         };
     }
 
@@ -236,9 +301,15 @@ const connectToContentScript = () =>
                         if (item === "Iron" || item === "Nails") {
                             buyItem(globalState.inventory, item).then(inv => {
                                 globalState.inventory = inv
-                                renderSidebar(globalState.inventory)
+                                renderSidebarFromGlobalState()
                                 globalState.port.postMessage({ action: "RELOAD_VIEW", url: "workshop.php"})
                             })
+                        }
+                    } else if (msg.target === "farm") {
+                        if (globalState.farmId) {
+                            globalState.port.postMessage({ action: "RELOAD_VIEW", url: `xfarm.php?id=${state.farmId}`})
+                        } else {
+                            console.log("Can't navigate to farm without Farm ID")
                         }
                     }
                     break
@@ -255,7 +326,7 @@ const main = async () => {
     console.log("FarmRPG-Ext loaded (background)!")
     await connectToContentScript()
     globalState.inventory = await getInventory()
-    renderSidebar(globalState.inventory)
+    renderSidebarFromGlobalState()
 
     // Munge outgoing requests to fix the origin and referer headers.
     browser.webRequest.onBeforeSendHeaders.addListener(
@@ -284,20 +355,37 @@ const main = async () => {
     // Setup page filters for data capture.
     setupPageFilter("https://farmrpg.com/inventory.php", page => {
         globalState.inventory = getInventoryFromInventoryHTML(page)
-        renderSidebar(globalState.inventory)
+        renderSidebarFromGlobalState()
     })
     setupPageFilter("https://farmrpg.com/workshop.php", page => {
         globalState.inventory = getInventoryFromWorkshopHTML(page, globalState.inventory)
-        renderSidebar(globalState.inventory)
+        renderSidebarFromGlobalState()
+    })
+    setupPageFilter("https://farmrpg.com/panel_crops.php?*", page => {
+        globalState.crops.images = getCropImagesFromPanelCrops(page)
+        renderSidebarFromGlobalState()
+    })
+    setupPageFilter("https://farmrpg.com/worker.php?*go=farmstatus*", (page, url) => {
+        // Parse the farm ID from the URL.
+        const urlMatch = url.match(itemLinkRE)
+        if (urlMatch) {
+            globalState.farmId = urlMatch[1]
+        }
+        globalState.crops.times = getCropTimesFromFarmStatus(page)
+        renderSidebarFromGlobalState()
     })
 
     // Set up a periodic refresh of the inventory.
     browser.alarms.create("inventory-refresh", {periodInMinutes: 5})
+    browser.alarms.create("render-sidebar", {periodInMinutes: 1})
     browser.alarms.onAlarm.addListener(async alarm => {
         switch (alarm.name) {
         case "inventory-refresh":
             globalState.inventory = await getInventory()
-            renderSidebar(globalState.inventory)
+            renderSidebarFromGlobalState()
+            break
+        case "render-sidebar":
+            renderSidebarFromGlobalState()
             break
         }
     })
