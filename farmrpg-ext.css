@@ -11,11 +11,12 @@
 }
 
 .farmrpg-ext-status-cropimg, .farmrpg-ext-perk img {
-    width: 17px;
+    height: 13px;
 }
 
 .farmrpg-ext-crop-done {
-    color: #F00;
+    color: lime;
+    filter: drop-shadow(0 0 3px black);
 }
 
 .farmrpg-ext-items {

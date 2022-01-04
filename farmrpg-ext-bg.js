@@ -192,6 +192,25 @@ const getCropTimesFromFarmStatus = page => {
     return times
 }
 
+const getPerksetId = async () => {
+    const resp = await fetch("https://farmrpg.com/perks.php")
+    if (!resp.ok) {
+        throw "Error getting perks"
+    }
+    const page = await resp.text()
+    return getPerksetIdFromPerks(page)
+}
+
+const getPerksetIdFromPerks = page => {
+    const parser = new DOMParser()
+    const dom = parser.parseFromString(page, "text/html")
+    const activeSet = dom.querySelector('div[style="color:teal;font-weight:bold"]')
+    if (!activeSet) {
+        return null
+    }
+    return activeSet.parentElement.querySelector(".activateperksetbtn").dataset.id
+}
+
 const renderSidebar = state => {
     // Generate the crop statusbar HTML.
     let soonestPosition = null
@@ -310,7 +329,7 @@ const handleSidbarClick = async target => {
     switch (targetType) {
     case "item":
         if (targetArg === "Iron" || targetArg === "Nails") {
-            globalState.inventory= await buyItem(globalState.inventory, targetArg).
+            globalState.inventory= await buyItem(globalState.inventory, targetArg)
             renderSidebarFromGlobalState()
             globalState.port.postMessage({ action: "RELOAD_VIEW", url: "workshop.php"})
         }
@@ -367,8 +386,17 @@ const connectToContentScript = () =>
 const main = async () => {
     console.log("FarmRPG-Ext loaded (background)!")
     await connectToContentScript()
-    globalState.inventory = await getInventory()
-    renderSidebarFromGlobalState()
+
+    // Kick off some initial data population.
+    getInventory().then(inv => {
+        globalState.inventory = inv
+        renderSidebarFromGlobalState()
+    })
+    getPerksetId().then(perksetId => {
+        console.log("Found initial perksetId", perksetId)
+        globalState.perksetId = perksetId
+        renderSidebarFromGlobalState()
+    })
 
     // Munge outgoing requests to fix the origin and referer headers.
     browser.webRequest.onBeforeSendHeaders.addListener(
@@ -418,8 +446,8 @@ const main = async () => {
     })
 
     // Set up a periodic refresh of the inventory.
-    // browser.alarms.create("inventory-refresh", {periodInMinutes: 5})
-    // browser.alarms.create("render-sidebar", {periodInMinutes: 1})
+    browser.alarms.create("inventory-refresh", {periodInMinutes: 5})
+    browser.alarms.create("render-sidebar", {periodInMinutes: 1})
     browser.alarms.onAlarm.addListener(async alarm => {
         switch (alarm.name) {
         case "inventory-refresh":

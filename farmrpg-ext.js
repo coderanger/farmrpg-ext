@@ -32,6 +32,9 @@
     port.onMessage.addListener(msg => {
         switch (msg.action) {
         case "UPDATE_SIDEBAR":
+            if (window.wrappedJSObject.__pause_sidebar__) {
+                return
+            }
             renderSidebar(msg.html)
             break
         case "RELOAD_VIEW":
