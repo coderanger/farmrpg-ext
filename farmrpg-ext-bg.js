@@ -444,14 +444,26 @@ const main = async () => {
         globalState.crops.times = getCropTimesFromFarmStatus(page)
         renderSidebarFromGlobalState()
     })
+    setupPageFilter("https://farmrpg.com/worker.php?go=activateperkset*", (page, url) => {
+        const urlMatch = url.match(itemLinkRE)
+        if (urlMatch) {
+            globalState.perksetId = urlMatch[1]
+            renderSidebarFromGlobalState()
+        }
+    })
 
     // Set up a periodic refresh of the inventory.
     browser.alarms.create("inventory-refresh", {periodInMinutes: 5})
+    browser.alarms.create("perk-refresh", {periodInMinutes: 15})
     browser.alarms.create("render-sidebar", {periodInMinutes: 1})
     browser.alarms.onAlarm.addListener(async alarm => {
         switch (alarm.name) {
         case "inventory-refresh":
             globalState.inventory = await getInventory()
+            renderSidebarFromGlobalState()
+            break
+        case "perk-refresh":
+            globalState.perksetId = await getPerksetId()
             renderSidebarFromGlobalState()
             break
         case "render-sidebar":
