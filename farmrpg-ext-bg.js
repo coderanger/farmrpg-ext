@@ -222,10 +222,15 @@ const renderSidebar = state => {
         }
     }
     let cropHtml = ""
-    if (soonestPosition === null) {
+    if (!state.crops.hasData) {
         cropHtml = `
             <img class="farmrpg-ext-status-cropimg" src="/img/items/item.png">
             <span>Unknown</span>
+        `
+    } else if (soonestPosition === null) {
+        cropHtml = `
+            <img class="farmrpg-ext-status-cropimg" src="/img/items/farm2_sm.png">
+            <span class="farmrpg-ext-crop-empty">Empty</span>
         `
     } else {
         let timeLeft = Math.ceil((soonestTime - Date.now()) / 60000)
@@ -442,6 +447,7 @@ const main = async () => {
             globalState.farmId = urlMatch[1]
         }
         globalState.crops.times = getCropTimesFromFarmStatus(page)
+        globalState.crops.hasData = true
         renderSidebarFromGlobalState()
     })
     setupPageFilter("https://farmrpg.com/worker.php?go=activateperkset*", (page, url) => {

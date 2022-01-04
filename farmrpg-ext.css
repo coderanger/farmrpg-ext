@@ -19,6 +19,11 @@
     filter: drop-shadow(0 0 3px black);
 }
 
+.farmrpg-ext-crop-empty {
+    color: red;
+    filter: drop-shadow(0 0 3px black);
+}
+
 .farmrpg-ext-items {
     display: flex;
     flex-flow: row wrap;
