@@ -10,7 +10,12 @@
     justify-content: space-between;
 }
 
-.farmrpg-ext-status-cropimg, .farmrpg-ext-perk img {
+.farmrpg-ext-log, .farmrpg-ext-perk {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.farmrpg-ext-status-cropimg, .farmrpg-ext-log img, .farmrpg-ext-perk img {
     height: 13px;
 }
 
@@ -38,7 +43,7 @@
     background-color: rgba(255, 255, 255, 0.7);
 }
 
-.farmrpg-ext-buy, .farmrpg-ext-perk, .farmrpg-ext-crop {
+.farmrpg-ext-buy, .farmrpg-ext-log, .farmrpg-ext-perk, .farmrpg-ext-crop {
     cursor: pointer;
 }
 

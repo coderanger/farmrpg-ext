@@ -29,6 +29,7 @@
         "webRequest",
         "webRequestBlocking",
         "unlimitedStorage",
-        "alarms"
+        "alarms",
+        "downloads"
     ]
 }

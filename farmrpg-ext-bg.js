@@ -3,6 +3,7 @@ import { renderSidebarFromGlobalState } from './lib/sidebar.js'
 import { setupExplore } from './lib/explore.js'
 import { setupPageFilter } from './lib/pageFilter.js'
 import syncFixtures from './lib/fixtures/index.js'
+import { setupLog, downloadLog } from './lib/log.js'
 
 const maxInventoryRE = /more than <strong>([0-9,]+)<\/strong> of any/
 const itemLinkRE = /id=(\d+)/
@@ -242,6 +243,9 @@ const handleSidbarClick = async target => {
         globalState.perksetLoading = false
         await renderSidebarFromGlobalState()
         break
+    case "log":
+        await downloadLog(globalState)
+        break
     }
 }
 
@@ -293,6 +297,7 @@ const main = async () => {
             zones.createIndex("byID", "id", {unique: true})
         },
     })
+    setupLog(globalState)
     await syncFixtures(globalState.db)
     globalState.items = new ItemDB(globalState.db)
 
