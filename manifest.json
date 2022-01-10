@@ -21,9 +21,7 @@
         }
     ],
     "background": {
-        "scripts": [
-            "farmrpg-ext-bg.js"
-        ]
+        "page": "background.html"
     },
     "web_accessible_resources": ["images/*"],
     "permissions": [

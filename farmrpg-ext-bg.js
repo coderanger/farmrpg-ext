@@ -1,16 +1,10 @@
+import ItemDB from './lib/itemdb.js'
+import { renderSidebarFromGlobalState } from './lib/sidebar.js'
+
 const maxInventoryRE = /more than <strong>([0-9,]+)<\/strong> of any/
 const itemLinkRE = /id=(\d+)/
 const workshopTitleRE = /\s*(\S.*\S)\s+\((\d+)\)/
 const workshopIngredientRE = /(\d+)\s*\/\s*\d+\s*(\S.*?\S)\s*$/mg
-
-const sidebarConfig = [
-    { name: "Nails", buy: true, image: "/img/items/5860.png" },
-    { name: "Iron", buy: true, image: "/img/items/5779.PNG" },
-    { name: "Wood", image: "/img/items/6143.PNG" },
-    { name: "Board", image: "/img/items/5885.png" },
-    { name: "Straw", image: "/img/items/5908.png" },
-    { name: "Stone", image: "/img/items/6174.PNG" },
-]
 
 const globalState = {
     inventory: {
@@ -211,87 +205,7 @@ const getPerksetIdFromPerks = page => {
     return activeSet.parentElement.querySelector(".activateperksetbtn").dataset.id
 }
 
-const renderSidebar = state => {
-    // Generate the crop statusbar HTML.
-    let soonestPosition = null
-    let soonestTime = null
-    for (const [pos, time] of Object.entries(state.crops.times)) {
-        if (soonestTime === null || time < soonestTime) {
-            soonestTime = time
-            soonestPosition = pos
-        }
-    }
-    let cropHtml = ""
-    if (!state.crops.hasData) {
-        cropHtml = `
-            <img class="farmrpg-ext-status-cropimg" src="/img/items/item.png">
-            <span>Unknown</span>
-        `
-    } else if (soonestPosition === null) {
-        cropHtml = `
-            <img class="farmrpg-ext-status-cropimg" src="/img/items/farm2_sm.png">
-            <span class="farmrpg-ext-crop-empty">Empty</span>
-        `
-    } else {
-        let timeLeft = Math.ceil((soonestTime - Date.now()) / 60000)
-        let timeLeftUnits = "m"
-        if (timeLeft >= 90) {
-            timeLeft = Math.ceil(timeLeft / 60)
-            timeLeftUnits = "h"
-        }
-        if (timeLeft <= 0) {
-            timeLeft = "READY"
-            timeLeftUnits = ""
-        }
-        cropHtml = `
-            <img class="farmrpg-ext-status-cropimg" src="${state.crops.images[soonestPosition] || "/img/items/item.png"}">
-            <span class="${timeLeft === "READY" ? "farmrpg-ext-crop-done" : ""}">${timeLeft}${timeLeftUnits}</span>
-        `
-    }
-    cropHtml = `
-        <div class="farmrpg-ext-crop" data-farmrpgextsidebarclick="farm">
-            ${cropHtml}
-        </div>
-    `
-    // Generate the perks statusbar HTML.
-    let perkIcon = "/img/items/item.png"
-    if (state.perksetLoading) {
-        perkIcon = browser.runtime.getURL("images/spinner.png")
-    } else if (state.perksetId === "2735") {
-        perkIcon = "/img/items/5868.png"
-    } else if (state.perksetId === "2734") {
-        perkIcon = "/img/items/6137.png?1"
-    }
-    const perkHtml = `
-        <div class="farmrpg-ext-perk" data-farmrpgextsidebarclick="perk">
-            <img src="${perkIcon}">
-        </div>
-    `
-    // Generate the items HTML.
-    const fragments = sidebarConfig.map(sidebarItem => {
-        const invItem = state.inventory.items[sidebarItem.name]
-        const isMax = sidebarItem.buy ? (!invItem || invItem.quantity <= 10) : (invItem && invItem.quantity >= state.inventory.max)
-        return `
-            <div class="farmrpg-ext-item ${isMax ? "farmrpg-ext-max" : ""} ${sidebarItem.buy ? "farmrpg-ext-buy" : ""}" data-farmrpgextsidebarclick="item:${sidebarItem.name}">
-                <div class="farmrpg-ext-image">
-                    <img src="${invItem ? invItem.image || sidebarItem.image : sidebarItem.image}" />
-                </div>
-                <div class="farmrpg-ext-quantity">
-                    ${invItem ? invItem.quantity : 0}
-                </div>
-            </div>
-        `
-    })
-    // Make the overall HTML.
-    const html = `
-        <div class="farmrpg-ext-status">${cropHtml}${perkHtml}</div>
-        <div class="farmrpg-ext-items">${fragments.join("")}</div>
-    `
-    // Ship it over to the content script for injection.
-    globalState.port.postMessage({ action: "UPDATE_SIDEBAR", html })
-}
 
-const renderSidebarFromGlobalState = () => renderSidebar(globalState)
 
 const setupPageFilter = (url, callback) => {
     const listener = details => {
@@ -335,7 +249,7 @@ const handleSidbarClick = async target => {
     case "item":
         if (targetArg === "Iron" || targetArg === "Nails") {
             globalState.inventory= await buyItem(globalState.inventory, targetArg)
-            renderSidebarFromGlobalState()
+            await renderSidebarFromGlobalState()
             globalState.port.postMessage({ action: "RELOAD_VIEW", url: "workshop.php"})
         }
         break
@@ -348,7 +262,7 @@ const handleSidbarClick = async target => {
         break
     case "perk":
         globalState.perksetLoading = true
-        renderSidebarFromGlobalState()
+        await renderSidebarFromGlobalState()
         const nextPerksetId = globalState.perksetId === "2735" ? "2734" : "2735"
         let resp = await fetch("https://farmrpg.com/worker.php?go=resetperks", {method: "POST"})
         if (!resp.ok) {
@@ -360,7 +274,7 @@ const handleSidbarClick = async target => {
         }
         globalState.perksetId = nextPerksetId
         globalState.perksetLoading = false
-        renderSidebarFromGlobalState()
+        await renderSidebarFromGlobalState()
         break
     }
 }
@@ -390,7 +304,28 @@ const connectToContentScript = () =>
 
 const main = async () => {
     console.log("FarmRPG-Ext loaded (background)!")
+    window.globalState = globalState
     await connectToContentScript()
+
+    // A debugging helper to quickly clear the idb state.
+    window.resetdb = async () => {
+        if (globalState.db) {
+            globalState.db.close()
+        }
+        await idb.deleteDB("farmrpg-ext")
+    }
+
+    // Initialize the database.
+    globalState.db = await idb.openDB("farmrpg-ext", 1, {
+        upgrade(db) {
+            console.log("Running DB migrations")
+            db.createObjectStore("log", { keyPath: "id", autoIncrement: true })
+            const items = db.createObjectStore("items", { keyPath: "name" })
+            items.createIndex("byImage", "image", {unique: false})
+            items.createIndex("byID", "id", {unique: true})
+        },
+    })
+    globalState.items = new ItemDB(globalState.db)
 
     // Kick off some initial data population.
     getInventory().then(inv => {
@@ -428,9 +363,12 @@ const main = async () => {
     )
 
     // Setup page filters for data capture.
-    setupPageFilter("https://farmrpg.com/inventory.php", page => {
+    setupPageFilter("https://farmrpg.com/inventory.php", async page => {
         globalState.inventory = getInventoryFromInventoryHTML(page)
-        renderSidebarFromGlobalState()
+        for (const item in globalState.inventory.items) {
+            await globalState.items.learn(globalState.inventory.items[item])
+        }
+        await renderSidebarFromGlobalState()
     })
     setupPageFilter("https://farmrpg.com/workshop.php", page => {
         globalState.inventory = getInventoryFromWorkshopHTML(page, globalState.inventory)
@@ -466,14 +404,14 @@ const main = async () => {
         switch (alarm.name) {
         case "inventory-refresh":
             globalState.inventory = await getInventory()
-            renderSidebarFromGlobalState()
+            await renderSidebarFromGlobalState()
             break
         case "perk-refresh":
             globalState.perksetId = await getPerksetId()
-            renderSidebarFromGlobalState()
+            await renderSidebarFromGlobalState()
             break
         case "render-sidebar":
-            renderSidebarFromGlobalState()
+            await renderSidebarFromGlobalState()
             break
         }
     })
