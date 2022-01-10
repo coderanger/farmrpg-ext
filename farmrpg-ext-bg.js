@@ -1,5 +1,7 @@
 import ItemDB from './lib/itemdb.js'
 import { renderSidebarFromGlobalState } from './lib/sidebar.js'
+import { setupExplore } from './lib/explore.js'
+import { setupPageFilter } from './lib/pageFilter.js'
 
 const maxInventoryRE = /more than <strong>([0-9,]+)<\/strong> of any/
 const itemLinkRE = /id=(\d+)/
@@ -205,43 +207,6 @@ const getPerksetIdFromPerks = page => {
     return activeSet.parentElement.querySelector(".activateperksetbtn").dataset.id
 }
 
-
-
-const setupPageFilter = (url, callback) => {
-    const listener = details => {
-        if (details.originUrl.startsWith("moz-extension://")) {
-            return
-        }
-        const filter = browser.webRequest.filterResponseData(details.requestId)
-        const decoder = new TextDecoder("utf-8")
-
-        // Capture the page XHRs for processing.
-        const data = []
-        filter.ondata = event => {
-            data.push(event.data)
-            filter.write(event.data)
-        }
-
-        // Request is done, let it complete and then run the callback
-        filter.onstop = () => {
-            let page = ""
-            for (const buffer of data) {
-                page += decoder.decode(buffer, { stream: true })
-            }
-            page += decoder.decode() // end-of-stream
-            filter.close()
-
-            callback(page, details.url)
-        };
-    }
-
-    browser.webRequest.onBeforeRequest.addListener(
-        listener,
-        { urls: [url] },
-        ["blocking"] // We aren't blocking anything but it's required for the filter API.
-    )
-}
-
 const handleSidbarClick = async target => {
     console.log("sidebar click", target)
     const [targetType, targetArg] = target.split(":", 2)
@@ -323,6 +288,8 @@ const main = async () => {
             const items = db.createObjectStore("items", { keyPath: "name" })
             items.createIndex("byImage", "image", {unique: false})
             items.createIndex("byID", "id", {unique: true})
+            const zones = db.createObjectStore("zones", { keyPath: "name" })
+            zones.createIndex("byID", "id", {unique: true})
         },
     })
     globalState.items = new ItemDB(globalState.db)
@@ -395,6 +362,7 @@ const main = async () => {
             renderSidebarFromGlobalState()
         }
     })
+    setupExplore(globalState)
 
     // Set up a periodic refresh of the inventory.
     browser.alarms.create("inventory-refresh", {periodInMinutes: 5})
