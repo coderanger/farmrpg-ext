@@ -2,6 +2,7 @@ import ItemDB from './lib/itemdb.js'
 import { renderSidebarFromGlobalState } from './lib/sidebar.js'
 import { setupExplore } from './lib/explore.js'
 import { setupPageFilter } from './lib/pageFilter.js'
+import syncFixtures from './lib/fixtures/index.js'
 
 const maxInventoryRE = /more than <strong>([0-9,]+)<\/strong> of any/
 const itemLinkRE = /id=(\d+)/
@@ -292,6 +293,7 @@ const main = async () => {
             zones.createIndex("byID", "id", {unique: true})
         },
     })
+    await syncFixtures(globalState.db)
     globalState.items = new ItemDB(globalState.db)
 
     // Kick off some initial data population.
