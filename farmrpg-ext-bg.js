@@ -4,6 +4,7 @@ import { setupExplore } from './lib/explore.js'
 import { setupPageFilter } from './lib/pageFilter.js'
 import syncFixtures from './lib/fixtures/index.js'
 import { setupLog, downloadLog } from './lib/log.js'
+import { setupLocations } from './lib/locations.js'
 
 const maxInventoryRE = /more than <strong>([0-9,]+)<\/strong> of any/
 const itemLinkRE = /id=(\d+)/
@@ -293,8 +294,8 @@ const main = async () => {
             const items = db.createObjectStore("items", { keyPath: "name" })
             items.createIndex("byImage", "image", {unique: false})
             items.createIndex("byID", "id", {unique: true})
-            const zones = db.createObjectStore("zones", { keyPath: "name" })
-            zones.createIndex("byID", "id", {unique: true})
+            const locations = db.createObjectStore("locations", { keyPath: ["type", "name"] })
+            locations.createIndex("byID", ["type", "id"], {unique: true})
         },
     })
     setupLog(globalState)
@@ -369,6 +370,7 @@ const main = async () => {
             renderSidebarFromGlobalState()
         }
     })
+    setupLocations(globalState)
     setupExplore(globalState)
 
     // Set up a periodic refresh of the inventory.
