@@ -1,10 +1,11 @@
-import ItemDB from './lib/itemdb.js'
 import { renderSidebarFromGlobalState } from './lib/sidebar.js'
 import { setupExplore } from './lib/explore.js'
 import { setupPageFilter } from './lib/pageFilter.js'
 import syncFixtures from './lib/fixtures/index.js'
 import { setupLog, downloadLog } from './lib/log.js'
 import { setupLocations } from './lib/locations.js'
+import { setupFishing } from './lib/fishing.js'
+import { setupItems } from './lib/item.js'
 
 const maxInventoryRE = /more than <strong>([0-9,]+)<\/strong> of any/
 const itemLinkRE = /id=(\d+)/
@@ -300,7 +301,6 @@ const main = async () => {
     })
     setupLog(globalState)
     await syncFixtures(globalState.db)
-    globalState.items = new ItemDB(globalState.db)
 
     // Kick off some initial data population.
     getInventory().then(inv => {
@@ -370,8 +370,10 @@ const main = async () => {
             renderSidebarFromGlobalState()
         }
     })
+    setupItems(globalState)
     setupLocations(globalState)
     setupExplore(globalState)
+    setupFishing(globalState)
 
     // Set up a periodic refresh of the inventory.
     browser.alarms.create("inventory-refresh", {periodInMinutes: 5})
