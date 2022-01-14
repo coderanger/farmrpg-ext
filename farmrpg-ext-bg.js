@@ -287,6 +287,12 @@ const main = async () => {
         await idb.deleteDB("farmrpg-ext")
     }
 
+    // Make sure the DB is persisted.
+    const persist = await navigator.storage.persist()
+    if (!persist) {
+        throw "Unable to set persist mode for storage"
+    }
+
     // Initialize the database.
     globalState.db = await idb.openDB("farmrpg-ext", 1, {
         upgrade(db) {
@@ -301,6 +307,10 @@ const main = async () => {
     })
     setupLog(globalState)
     await syncFixtures(globalState.db)
+    const itemCount = await globalState.db.count("items")
+    const locationCount = await globalState.db.count("locations")
+    const logCount = await globalState.db.count("log")
+    console.log(`Database loaded, items ${itemCount} locations ${locationCount} log ${logCount}`)
 
     // Kick off some initial data population.
     getInventory().then(inv => {
