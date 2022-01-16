@@ -6,6 +6,7 @@ import { setupLog, downloadLog } from './lib/log.js'
 import { setupLocations } from './lib/locations.js'
 import { setupFishing } from './lib/fishing.js'
 import { setupItems } from './lib/item.js'
+import { setupInventory } from './lib/inventory.js'
 
 const maxInventoryRE = /more than <strong>([0-9,]+)<\/strong> of any/
 const itemLinkRE = /id=(\d+)/
@@ -348,19 +349,13 @@ const main = async () => {
     )
 
     // Setup page filters for data capture.
-    setupPageFilter("https://farmrpg.com/inventory.php", async page => {
-        globalState.inventory = getInventoryFromInventoryHTML(page)
-        for (const item in globalState.inventory.items) {
-            await globalState.items.learn(globalState.inventory.items[item])
-        }
-        await renderSidebarFromGlobalState()
-    })
     setupPageFilter("https://farmrpg.com/workshop.php", page => {
         globalState.inventory = getInventoryFromWorkshopHTML(page, globalState.inventory)
         renderSidebarFromGlobalState()
     })
     setupPageFilter("https://farmrpg.com/panel_crops.php?*", page => {
         globalState.crops.images = getCropImagesFromPanelCrops(page)
+        globalState.lastView = "farm"
         renderSidebarFromGlobalState()
     })
     setupPageFilter("https://farmrpg.com/worker.php?*go=farmstatus*", (page, url) => {
@@ -382,6 +377,7 @@ const main = async () => {
     })
     setupItems(globalState)
     setupLocations(globalState)
+    setupInventory(globalState)
     setupExplore(globalState)
     setupFishing(globalState)
 

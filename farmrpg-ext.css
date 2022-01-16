@@ -51,6 +51,15 @@
     background-color: #FBB;
 }
 
+.farmrpg-ext-warning {
+    background-color: #FFE8BB;
+}
+
+.farmrpg-ext-seeds {
+    background-image: url(https://farmrpg.com/img/items/dirt_light.png);
+    color: white;
+}
+
 .farmrpg-ext-image img {
-    width: 50px;
+    width: 38px;
 }
