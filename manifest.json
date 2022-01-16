@@ -23,7 +23,9 @@
     "background": {
         "page": "background.html"
     },
-    "web_accessible_resources": ["images/*"],
+    "web_accessible_resources": [
+        "images/*"
+    ],
     "permissions": [
         "*://*.farmrpg.com/*",
         "webRequest",
@@ -31,5 +33,10 @@
         "unlimitedStorage",
         "alarms",
         "downloads"
-    ]
+    ],
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "farmrpg-ext@coderanger.net"
+        }
+    }
 }
