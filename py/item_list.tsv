@@ -1,0 +1,493 @@
+Amethyst Necklace	800 	1,000 	5	50	Yes
+Apple Cider	N/A	100 	30	5,000	Yes
+Aquamarine Ring	750 	1,000 	5	50	Yes
+Axe	200 	450 	3	25	Yes
+Black Powder	60 	1,500 	12	50	Yes
+Board	N/A	25 	1	1	Yes
+Bottle Rocket	150 	300 	12	100	Yes
+Broom	300 	250 	3	15	Yes
+Bucket	90 	250 	1	5	Yes
+Coin Purse	250 	750 	8	25	Yes
+Compass	N/A	50,000 	70	250,000	No
+Emerald	2,000 	450 	10	100	Yes
+Emerald Ring	2,500 	2,500 	15	300	Yes
+Explosive	300 	350 	14	100	Yes
+Fancy Guitar	65,000 	55,000 	80	8,550	Yes
+Fancy Pipe	5,000 	5,000 	46	150	Yes
+Fishing Net	N/A	1,500 	19	100	Yes
+Flywheel	10,000 	2,500 	50	50,000	Yes
+Garnet	15,000 	15,000 	43	750	Yes
+Garnet Ring	30,000 	30,000 	51	1,500	Yes
+Glass Bottle	10 	150 	5	25	Yes
+Glass Orb	60 	300 	5	10	Yes
+Grape Juice	N/A	100 	1	500	Yes
+Green Cloak	125,000 	125,000 	55	2,500	Yes
+Green Diary	150 	200 	6	10	Yes
+Green Dye	35 	500 	5	2	Yes
+Green Parchment	50 	100 	2	2	Yes
+Green Scarf	3,200 	1,750 	30	1,000	Yes
+Green Shield	5,500 	5,500 	30	500	Yes
+Hammer	150 	350 	2	10	Yes
+Horn Canteen	2,500 	2,500 	16	150	Yes
+Horseshoe	1,000 	1,000 	24	100	Yes
+Hourglass	25,000 	25,000 	59	2,000	Yes
+Inferno Sphere	2,000,000 	50,000 	22	1,000,000	No
+Iron Cup	165 	100 	1	15	Yes
+Iron Ring	110 	25 	4	10	Yes
+Jade	5,000 	3,000 	33	500	Yes
+Jade Charm	15,000 	8,000 	42	1,000	Yes
+Ladder	500 	500 	9	10	Yes
+Lantern	40,000 	40,000 	70	4,000	Yes
+Lava Sphere	4,000,000 	150,000 	35	2,000,000	No
+Leather	250 	250 	1	25	Yes
+Leather Bag	3,000 	3,000 	17	250	Yes
+Leather Diary	250 	250 	8	25	Yes
+Leather Waterskin	3,250 	3,250 	18	275	Yes
+Lemon Quartz Ring	1,500 	1,000 	7	75	Yes
+Lemonade	35 	500 	5	2	Yes
+Looking Glass	250 	2,500 	8	50	Yes
+Magicite	25,000 	3,000 	21	5,000	Yes
+Magna Core	2,000,000 	50,000 	60	500,000	No
+Magnifying Glass	5,250 	5,250 	25	300	Yes
+Mushroom Paste	50 	25 	3	2	Yes
+Mystic Ring	5,000 	5,000 	23	600	Yes
+Orange Juice	35 	500 	5	2	Yes
+Pearl Necklace	1,000 	1,000 	16	100	Yes
+Purple Diary	150 	200 	6	10	Yes
+Purple Parchment	50 	100 	2	2	Yes
+Rope	100 	1,500 	18	50	Yes
+Ruby	1,500 	350 	8	50	Yes
+Ruby Ring	2,000 	1,500 	10	100	Yes
+Salt	50,000 	5,000 	70	10,000	Yes
+Sand	500 	250 	44	750	Yes
+Scissors	1,750 	1,750 	37	250	Yes
+Shimmer Ring	5,000 	5,000 	26	1,000	Yes
+Shimmer Stone	25 	250 	4	5	Yes
+Shimmer Topaz	2,500 	2,500 	19	500	Yes
+Shovel	300 	550 	4	45	Yes
+Steel	800 	100 	15	250	Yes
+Steel Wire	2,000 	1,000 	50	100	Yes
+Sturdy Bow	80,000 	40,000 	60	25,000	Yes
+Sturdy Box	275 	500 	7	15	Yes
+Sturdy Shield	4,000 	4,000 	20	500	Yes
+Sturdy Sword	11,000 	11,000 	45	1,500	Yes
+Treasure Chest	7,500 	7,500 	32	1,000	Yes
+Twine	150 	250 	5	10	Yes
+Unpolished Shimmer Stone	10 	50 	65	10	Yes
+Wagon Wheel	1,750 	1,750 	31	250	Yes
+White Parchment	50 	100 	2	2	Yes
+Wine	1,000 	2,000 	1	250	Yes
+Wizard Hat	3,300 	3,300 	17	300	Yes
+Wood Plank	N/A	50 	1	2	Yes
+Wooden Barrel	315 	350 	10	25	Yes
+Wooden Bow	2,500 	2,500 	30	400	Yes
+Wooden Box	165 	200 	1	10	Yes
+Wooden Shield	500 	450 	13	75	Yes
+Wooden Sword	1,750 	1,750 	27	250	Yes
+Yarn	100 	1,750 	50	100	Yes
+Beet	230,000 	90,720 	No	Yes
+Broccoli	50,000 	20,160 	No	Yes
+Cabbage	7,000 	3,360 	No	Yes
+Carrot	20 	20 	Yes	Yes
+Corn	3,400 	1,680 	No	Yes
+Cotton	100,000 	40,320 	No	Yes
+Cucumber	42 	40 	Yes	Yes
+Eggplant	53 	50 	Yes	Yes
+Hops	240 	200 	Yes	Yes
+Leek	775 	600 	Yes	Yes
+Mushroom	1 	10 	Yes	Yes
+Onion	180 	150 	Yes	Yes
+Potato	303 	250 	Yes	Yes
+Pumpkin	10,800 	5,040 	No	Yes
+Radish	113 	100 	Yes	Yes
+Sunflower	153,000 	60,480 	No	Yes
+Tomato	375 	300 	Yes	Yes
+Watermelon	1,600 	840 	No	Yes
+Wheat	22,500 	10,080 	No	Yes
+Beet Seeds	90,720
+Broccoli Seeds	20,160
+Cabbage Seeds	3,360
+Carrot Seeds	20
+Corn Seeds	1,680
+Cotton Seeds	40,320
+Cucumber Seeds	40
+Eggplant Seeds	50
+Gold Carrot Seeds	56
+Gold Cucumber Seeds	63
+Gold Eggplant Seeds	66
+Gold Pea Seeds	60
+Gold Pepper Seeds	53
+Hops Seeds	200
+Leek Seeds	600
+Onion Seeds	150
+Pea Seeds	30
+Pepper Seeds	10
+Pine Seeds	5,000
+Potato Seeds	250
+Pumpkin Seeds	5,040
+Radish Seeds	100
+Sunflower Seeds	60,480
+Tomato Seeds	300
+Watermelon Seeds	840
+Wheat Seeds	10,080
+Runestone 01	1,000 	1,000 	N/A
+Runestone 02	2,000 	2,000 	Farm Pond
+Runestone 03	3,000 	3,000 	Forest Pond
+Runestone 04	4,000 	4,000 	Small Cave
+Runestone 05	5,000 	5,000 	Misty Forest
+Runestone 06	6,000 	6,000 	N/A
+Runestone 07	7,000 	7,000 	N/A
+Runestone 08	8,000 	8,000 	Small Pond
+Runestone 09	9,000 	9,000 	Black Rock Canyon
+Runestone 10	10,000 	10,000 	N/A
+Runestone 11	11,000 	11,000 	N/A
+Runestone 12	12,000 	12,000 	Crystal River
+Runestone 13	13,000 	13,000 	Black Rock Canyon
+Runestone 14	14,000 	14,000 	Highland Hills
+Runestone 15	15,000 	15,000 	Lake Tempest
+Runestone 16	16,000 	16,000 	N/A
+Runestone 17	17,000 	17,000 	Ember Lagoon
+Runestone 18	18,000 	18,000 	Vast Ocean
+Runestone 19	19,000 	19,000 	Mount Banon
+Runestone 20	20,000 	20,000 	N/A
+Book of Clues	1,000
+Book of Flora	1,000
+Book of Insects	1,000
+Book of Knots	1,000
+Book of Maps	1,000
+Book of Schemas	1,000
+Book of Skill	1,000
+Book of Time	1,000
+Amber	100,000 	5,000 	Misty Forest
+Buddystone	1,750 	1,750 	N/A
+Cid's Stone Ale	100,000 	5,000 	N/A
+Compass	N/A	50,000 	N/A
+Diamond	100,000 	5,000 	Ember Lagoon
+Diving Helmet	100,000 	5,000 	Vast Ocean
+Dragon Skull	100,000 	5,000 	Mount Banon
+Flame Orb	100,000 	5,000 	N/A
+Gold Boot	500,000 	5,000 	Large Island
+Hockey Mask	100,000 	5,000 	N/A
+Holiday Candles	N/A	1,750 	N/A
+Inferno Sphere	2,000,000 	50,000 	N/A
+Lava Sphere	4,000,000 	150,000 	N/A
+Lima Bean	100,000 	5,000 	Cane Pole Ridge
+Magic Conch Shell	100,000 	5,000 	Emerald Beach
+Milk and Cookies	100,000 	100,000 	N/A
+Model Ship	100,000 	5,000 	Small Cave
+Mystical Staff	50,000 	1,750 	N/A
+Piece of Heart	100,000 	5,000 	N/A
+Raptor Claw	100,000 	5,000 	Whispering Creek
+Raptor Egg	N/A	5,000 	Whispering Creek
+Seeing Stone	100,000 	5,000 	N/A
+Skull Coin	100,000 	5,000 	Small Spring
+Strange Ring	100,000 	5,000 	Lake Minerva
+Tribal Mask	N/A	5,000 	N/A
+Tribal Staff	100,000 	5,000 	Large Island
+Trident of Poseidon	100,000 	5,000 	N/A
+Winged Amulet	100,000 	5,000 	N/A
+3-leaf Clover	50 	50 	Misty Forest
+4-leaf Clover	2,500 	2,000 	Misty Forest
+Acorn	50 	50 	Misty Forest
+Amber	100,000 	5,000 	Misty Forest
+Amethyst	500 	50 	Highland Hills
+Ancient Coin	1,000 	1,000 	Black Rock Canyon, Ember Lagoon
+Antler	250 	250 	Forest
+Apple	N/A	25 	Small Spring, Whispering Creek
+Aquamarine	250 	250 	Small Spring
+Arrowhead	150 	150 	Forest
+Bacon	5,000 	2,500 	Mount Banon
+Bird Egg	300 	300 	Forest
+Blue Feathers	10 	150 	Misty Forest
+Blue Gel	150 	150 	Whispering Creek
+Bone	150 	150 	Small Cave
+Carbon Sphere	500 	200 	Mount Banon
+Caterpillar	250 	1,750 	Highland Hills
+Coal	50 	50 	Black Rock Canyon, Mount Banon
+Diamond	100,000 	5,000 	Ember Lagoon
+Dice	1,750 	1,750 	Small Spring
+Dragon Skull	100,000 	5,000 	Mount Banon
+Emberstone	500 	500 	Ember Lagoon
+Feathers	1 	15 	Small Spring, Highland Hills
+Fern Leaf	1 	25 	Highland Hills, Misty Forest
+Fire Ant	250 	1,750 	Forest
+Giant Centipede	250 	1,750 	Black Rock Canyon
+Glass Orb	60 	300 	Ember Lagoon
+Gold Feather	5,000 	1,500 	Forest, Misty Forest, Mount Banon
+Gold Leaf	5,000 	1,500 	Forest
+Grab Bag 02	N/A	1 	Small Cave
+Herbs	3,500 	3,500 	Whispering Creek
+Hide	150 	150 	Forest
+Horn	250 	250 	Black Rock Canyon
+Horned Beetle	250 	1,750 	Cane Pole Ridge
+Iron	N/A	10 	Cane Pole Ridge, Mount Banon
+Large Chest 01	N/A	1 	Ember Lagoon
+Large Chest 02	N/A	1 	Black Rock Canyon
+Lemon	25 	N/A	Whispering Creek
+Lemon Quartz	350 	100 	Cane Pole Ridge
+Lima Bean	100,000 	5,000 	Cane Pole Ridge
+Magicite	25,000 	3,000 	Ember Lagoon
+Magna Quartz	2,500 	2,500 	Mount Banon
+Medium Chest 01	N/A	1 	Highland Hills
+Medium Chest 02	N/A	1 	Black Rock Canyon
+Model Ship	100,000 	5,000 	Small Cave
+Moonstone	10,000 	1,500 	Ember Lagoon
+Mushroom	1 	10 	Small Cave, Forest, Small Spring, Cane Pole Ridge, Misty Forest
+Nails	N/A	1 	Small Cave
+Oak	100 	100 	Whispering Creek
+Orange	25 	N/A	Whispering Creek
+Orange Gecko	25,000 	2,500 	Black Rock Canyon
+Pine Cone	300 	300 	Misty Forest
+Pocket Watch	1,750 	1,750 	Cane Pole Ridge
+Prism Shard	2,500 	500 	Ember Lagoon
+Purple Flower	1 	15 	Highland Hills
+Raptor Claw	100,000 	5,000 	Whispering Creek
+Raptor Egg	N/A	5,000 	Whispering Creek
+Red Berries	1,000 	1,500 	Whispering Creek
+Ruby Scorpion	2,500 	2,500 	Black Rock Canyon
+Runestone 04	4,000 	4,000 	Small Cave
+Runestone 05	5,000 	5,000 	Misty Forest
+Runestone 09	9,000 	9,000 	Black Rock Canyon
+Runestone 13	13,000 	13,000 	Black Rock Canyon
+Runestone 14	14,000 	14,000 	Highland Hills
+Runestone 17	17,000 	17,000 	Ember Lagoon
+Runestone 19	19,000 	19,000 	Mount Banon
+Salt Rock	500 	500 	Whispering Creek
+Sandstone	50 	50 	Black Rock Canyon
+Shimmer Quartz	450 	125 	Black Rock Canyon
+Shiny Beetle	250 	1,750 	Misty Forest
+Skull Coin	100,000 	5,000 	Small Spring
+Slimestone	150 	150 	Whispering Creek
+Small Chest 01	N/A	1 	Small Spring
+Small Chest 02	N/A	1 	Mount Banon
+Snail	250 	1,750 	Small Spring
+Sour Root	1,000 	1,500 	Whispering Creek
+Spectacles	1,750 	1,750 	Small Spring
+Spider	250 	1,750 	Misty Forest
+Stone	1 	10 	Small Cave, Small Spring, Highland Hills, Cane Pole Ridge, Mount Banon, Ember Lagoon
+Strange Letter	2,000 	2,000 	Highland Hills
+Straw	150 	150 	Forest, Misty Forest
+Striped Feather	1,000 	1,500 	Whispering Creek
+Sweet Root	50 	50 	Misty Forest
+Thorns	1,000 	1,500 	Whispering Creek
+Unpolished Emerald	750 	250 	Mount Banon
+Unpolished Garnet	5,000 	5,000 	Whispering Creek
+Unpolished Ruby	500 	150 	Misty Forest
+Unpolished Shimmer Stone	10 	50 	Cane Pole Ridge, Mount Banon
+Wood	1 	10 	Small Cave, Forest, Small Spring, Highland Hills, Cane Pole Ridge, Misty Forest
+Wooden Mask	1,750 	1,750 	Small Cave
+Barracuda	5,000 	8,000 	Large Island
+Blue Catfish	75 	475 	Crystal River
+Blue Crab	25 	350 	Small Island
+Blue Sea Bass	300 	600 	Small Island, Vast Ocean
+Blue Shell	75 	450 	Small Island
+Blue Tiger Fish	1,500 	1,500 	Emerald Beach
+Bluegill	75 	475 	Forest Pond
+Bone Fish	50 	400 	Crystal River
+Carp	75 	400 	Farm Pond
+Catfish	75 	475 	Farm Pond
+Clam Shell	100 	525 	Emerald Beach
+Clownfish	150 	600 	Emerald Beach
+Cogwheel	1,750 	1,750 	Small Pond
+Conch Shell	100 	525 	Emerald Beach
+Crappie	15 	250 	Lake Tempest
+Diving Helmet	100,000 	5,000 	Vast Ocean
+Drum	12 	100 	Small Pond, Farm Pond, Forest Pond, Lake Tempest
+Fish Bones	2 	25 	Small Pond, Farm Pond, Forest Pond, Lake Tempest
+Flamejack	3,250 	3,250 	Lake Minerva
+Flarefin	6,500 	6,500 	Lake Minerva
+Flier	250 	500 	Farm Pond, Lake Tempest
+Fluorifish	2,500 	2,500 	Vast Ocean
+Giant Squid	5,000 	3,500 	Vast Ocean
+Glass Bottle	10 	150 	Crystal River
+Globber	1,000 	1,000 	Lake Tempest, Crystal River
+Gold Boot	500,000 	5,000 	Large Island
+Gold Catfish	750 	550 	Crystal River
+Gold Coral	100,000 	15,000 	Large Island
+Gold Drum	120 	120 	Small Pond
+Gold Flier	2,500 	500 	Lake Tempest
+Gold Sea Bass	3,000 	600 	Small Island
+Gold Trout	350 	350 	Farm Pond
+Goldfin	65,000 	6,500 	Lake Minerva
+Goldgill	750 	525 	Forest Pond
+Goldjack	5,000 	500 	Vast Ocean
+Goldray	4,000 	400 	Emerald Beach
+Grab Bag 01	N/A	1 	Forest Pond
+Green Chromis	25 	350 	Small Island
+Green Jellyfish	800 	800 	Vast Ocean
+Jellyfish	400 	400 	Small Island, Vast Ocean
+Largemouth Bass	14 	200 	Farm Pond, Forest Pond, Lake Tempest
+Mackerel	500 	500 	Small Island, Vast Ocean
+Magic Conch Shell	100,000 	5,000 	Emerald Beach
+Marlin	800 	800 	Emerald Beach, Vast Ocean
+MIAB	2,000 	2,000 	Small Island, Emerald Beach, Vast Ocean
+Mussel	400 	400 	Small Island
+Octopus	3,000 	3,000 	Vast Ocean
+Old Boot	10 	100 	Crystal River
+Pearl	300 	600 	Emerald Beach
+Plumbfish	4,000 	9,000 	Large Island
+Puffer	400 	400 	Emerald Beach
+Red Starfish	500 	500 	Emerald Beach
+Redgill	5,500 	5,500 	Lake Minerva
+Ruby Coral	15,000 	7,500 	Large Island
+Ruby Fish	1,000 	1,000 	Emerald Beach, Vast Ocean
+Runestone 02	2,000 	2,000 	Farm Pond
+Runestone 03	3,000 	3,000 	Forest Pond
+Runestone 08	8,000 	8,000 	Small Pond
+Runestone 12	12,000 	12,000 	Crystal River
+Runestone 15	15,000 	15,000 	Lake Tempest
+Runestone 18	18,000 	18,000 	Vast Ocean
+Sea Catfish	4,500 	8,500 	Large Island
+Seahorse	2,500 	2,500 	Emerald Beach
+Seaweed	2,500 	2,500 	Small Island
+Serpent Eel	10,000 	10,000 	Large Island
+Shrimp	150 	400 	Vast Ocean
+Skipjack	500 	500 	Vast Ocean
+Small Key	N/A	1,750 	Small Pond
+Small Prawn	20 	250 	Small Island
+Spiral Shell	3,000 	10,000 	Large Island
+Square Key	N/A	1,750 	Forest Pond
+Starfish	110 	500 	Emerald Beach
+Stingray	400 	400 	Emerald Beach, Vast Ocean
+Strange Ring	100,000 	5,000 	Lake Minerva
+Sunfish	50 	400 	Crystal River
+Swordfish	5,500 	7,500 	Large Island
+Torch Fish	2,500 	2,500 	Lake Minerva
+Treasure Key	N/A	1,750 	Lake Minerva
+Tribal Staff	100,000 	5,000 	Large Island
+Trout	35 	350 	Farm Pond, Lake Tempest, Crystal River
+Water Lily	2,500 	2,500 	Forest Pond
+Yellow Perch	12 	100 	Small Pond, Farm Pond, Forest Pond, Lake Tempest
+100 Gold	N/A	N/A
+Backstabbing Dagger	2,500 	2,500
+Captains Log	1,750 	1,750
+Carved Bear	1,750 	1,750
+Carved Camel	1,750 	1,750
+Carved Moose	1,750 	1,750
+Carved Owl	1,750 	1,750
+Carved Rabbit	1,750 	1,750
+Carved Rhino	1,750 	1,750
+Carved Squirrel	1,750 	1,750
+Carved Warthog	1,750 	1,750
+Cheese	500 	250
+Cyclops Spider	25,000 	2,500
+Dragonfly	250 	1,750
+Eggs	75 	5
+Energy Core	1,750 	1,750
+Eye Patch	1,750 	1,750
+Fancy Box	1,750 	1,750
+Feed	N/A	N/A
+Fireworks	1,750 	1,750
+Flour	2,500 	N/A
+Freaky Picture	1,750 	1,750
+Gift Basket 01	N/A	1
+Gold Carrot	400 	40
+Gold Crab	250,000 	2,500
+Gold Cucumber	840 	80
+Gold Eggplant	1,060 	100
+Gold Peas	640 	60
+Gold Peppers	200 	20
+Goldfish	250,000 	2,500
+Gouda	2,500 	1,000
+Grab Bag 03	N/A	1
+Grab Bag 04	N/A	1
+Grab Bag 05	N/A	1
+Grab Bag 06	N/A	1
+Grapes	250 	250
+Grasshopper	250 	1,750
+Grubs	N/A	N/A
+Gummy Worms	N/A	N/A
+Honey	5,000 	5,000
+Iced Tea	N/A	100
+Large Clam Shell	250,000 	2,500
+Lucky Rabbit Foot	1,750 	1,750
+Milk	150 	5
+Minnows	N/A	N/A
+Mushroom Spores	N/A	600
+Paper Receipt	N/A	2,500
+Peas	32 	30
+Peppers	10 	10
+Pine Tree	10,000 	5,000
+Pirate Bandana	1,750 	1,750
+Pirate Flag	1,750 	1,750
+Popcorn	1,750 	1,750
+Present 01	N/A	1
+Ring of Renthisj	1,750 	1,750
+Rubber Duckie	2,500 	2,500
+Sealed Letter	1,750 	1,750
+Shark Tooth	1,000 	1,000
+Shinefish	250,000 	2,500
+Small Flute	1,750 	1,750
+Small Gear	1,750 	1,750
+Small Screw	1,750 	1,750
+Small Spring	1,750 	1,750
+Steak	N/A	1
+Steak Kabob	N/A	1
+Strange Gem	1,750 	1,750
+Teapot	1,750 	1,750
+Unpolished Jade	1,500 	750
+Wax Candle	1,750 	1,750
+Wooden Pipe	1,750 	1,750
+Worms	N/A	N/A
+Bag of Presents	1,750 	1,750 	N/A
+Blitzen	N/A	2,300 	Rare
+Blue Ornament	250 	1,750 	N/A
+Candy	1,750 	1,750 	N/A
+Candy Cane	1,500 	1,750 	Common
+Candy Corn	50,000 	2,500 	Uncommon
+Candy Roll	1,000 	1,750 	Common
+Chattering Teeth	1,750 	1,750 	Uncommon
+Christmas Present 01	N/A	1 	Very Rare
+Christmas Present 02	N/A	1 	Very Rare
+Christmas Present 03	N/A	1 	Very Rare
+Christmas Present 04	N/A	1 	Very Rare
+Christmas Present 05	N/A	1 	Very Rare
+Christmas Present 06	N/A	1 	Very Rare
+Christmas Present 07	N/A	1 	Very Rare
+Christmas Present 08	N/A	1 	Very Rare
+Christmas Present 09	N/A	1 	Very Rare
+Christmas Present 10	N/A	1 	Very Rare
+Christmas Present 11	N/A	1 	Very Rare
+Christmas Present 12	N/A	1 	Very Rare
+Christmas Stocking	1,750 	1,750 	N/A
+Christmas Sweater	1,750 	1,750 	N/A
+Christmas Tree	100,000 	25,000 	Uncommon
+Comet	N/A	2,300 	Rare
+Cooked Turkey	100,000 	2,500 	Uncommon
+Cornucopia	N/A	1 	Uncommon
+Cupid	N/A	2,300 	Rare
+Dancer	N/A	2,300 	Rare
+Dasher	N/A	2,300 	Rare
+Donner	N/A	2,300 	Rare
+Egyptian Necklace	50,000 	2,500 	Uncommon
+Gingerbread House	1,750 	1,750 	N/A
+Gingerbread Man	1,750 	1,750 	N/A
+Green Ornament	250 	1,750 	N/A
+Hockey Mask	100,000 	5,000 	Super Rare
+Holiday Candles	N/A	1,750 	Super Rare
+Hot Cocoa	1,750 	1,750 	N/A
+Jack-o-lantern	100,000 	50,000 	Uncommon
+Lollipop	1,750 	1,750 	Common
+Milk and Cookies	100,000 	100,000 	Super Rare
+Mistletoe	1,750 	1,750 	N/A
+Mittens	1,750 	1,750 	N/A
+Orange Ornament	250 	1,750 	N/A
+Prancer	N/A	2,300 	Rare
+Purple Ornament	250 	1,750 	N/A
+R.O.A.S.	1,750 	1,750 	Uncommon
+Red Ornament	250 	1,750 	N/A
+Rudolph	N/A	2,300 	Rare
+Santa Hat	1,750 	1,750 	N/A
+Skeleton Key	N/A	1,750 	Very Rare
+Snow Globe	N/A	1,750 	N/A
+Snowball	150 	500 	Common
+Snowman	50,000 	2,500 	Uncommon
+Star	1,000 	1,750 	Common
+Taffy	1,750 	1,750 	Common
+Teddy Bear	1,750 	1,750 	N/A
+Treat Bag 01	N/A	1 	Uncommon
+Treat Bag 02	N/A	1 	Uncommon
+Treat Bag 03	N/A	1 	Uncommon
+Vixen	N/A	2,300 	Rare
+Witch Hat	1,750 	1,750 	Uncommon
+Yellow Ornament	250 	1,750 	N/A
