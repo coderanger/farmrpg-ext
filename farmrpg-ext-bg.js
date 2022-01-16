@@ -106,7 +106,7 @@ const getInventoryFromInventoryHTML = (invPage) => {
             continue
         }
         items[title.textContent] = {
-            "name": title.textContent,
+            "name": title.textContent.trim(),
             "id": linkMatch[1],
             "quantity": parseInt(after.textContent, 10),
             "image": itemElm.querySelector(".item-media img").getAttribute("src"),
