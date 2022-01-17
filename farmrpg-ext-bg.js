@@ -9,6 +9,7 @@ import { setupItems } from './lib/item.js'
 import { setupInventory } from './lib/inventory.js'
 import { setupPets } from './lib/pets.js'
 import { setupPlayer } from './lib/player.js'
+import { setupFarm } from './lib/farm.js'
 
 const maxInventoryRE = /more than <strong>([0-9,]+)<\/strong> of any/
 const itemLinkRE = /id=(\d+)/
@@ -170,31 +171,6 @@ const getInventoryFromWorkshopHTML = (workshopPage, existingInventory) => {
     return inventory
 }
 
-const getCropImagesFromPanelCrops = page => {
-    const parser = new DOMParser()
-    const dom = parser.parseFromString(page, "text/html")
-    const images = {}
-    for (const elm of dom.querySelectorAll(".cropitem")) {
-        images[elm.dataset.pb.substr(1)] = elm.getAttribute("src")
-    }
-    return images
-}
-
-const getCropTimesFromFarmStatus = page => {
-    const now = Date.now()
-    const times = {}
-    // 11-39-147;12-39-147;13-39-147;14-39-147;21-39-147;
-    for (const part of page.split(";")) {
-        if (page === "") {
-            continue
-        }
-        const segments = part.split("-", 3)
-        const secondsLeft = segments[2] == "" ? 0 : parseInt(segments[2], 10)
-        times[segments[0]] = now + (secondsLeft * 1000)
-    }
-    return times
-}
-
 const getPerksetId = async () => {
     const resp = await fetch("https://farmrpg.com/perks.php")
     if (!resp.ok) {
@@ -226,8 +202,8 @@ const handleSidbarClick = async target => {
         }
         break
     case "farm":
-        if (globalState.farmId) {
-            globalState.port.postMessage({ action: "RELOAD_VIEW", url: `xfarm.php?id=${globalState.farmId}`})
+        if (globalState.player.farmID) {
+            globalState.port.postMessage({ action: "RELOAD_VIEW", url: `xfarm.php?id=${globalState.player.farmID}`})
         } else {
             console.log("Can't navigate to farm without Farm ID")
         }
@@ -363,21 +339,6 @@ const main = async () => {
         globalState.inventory = getInventoryFromWorkshopHTML(page, globalState.inventory)
         renderSidebarFromGlobalState()
     })
-    setupPageFilter("https://farmrpg.com/panel_crops.php?*", page => {
-        globalState.crops.images = getCropImagesFromPanelCrops(page)
-        globalState.lastView = "farm"
-        renderSidebarFromGlobalState()
-    })
-    setupPageFilter("https://farmrpg.com/worker.php?*go=farmstatus*", (page, url) => {
-        // Parse the farm ID from the URL.
-        const urlMatch = url.match(itemLinkRE)
-        if (urlMatch) {
-            globalState.farmId = urlMatch[1]
-        }
-        globalState.crops.times = getCropTimesFromFarmStatus(page)
-        globalState.crops.hasData = true
-        renderSidebarFromGlobalState()
-    })
     setupPageFilter("https://farmrpg.com/worker.php?go=activateperkset*", (page, url) => {
         const urlMatch = url.match(itemLinkRE)
         if (urlMatch) {
@@ -392,6 +353,7 @@ const main = async () => {
     setupPets(globalState)
     setupExplore(globalState)
     setupFishing(globalState)
+    setupFarm(globalState)
 
     // Set up a periodic refresh of the inventory.
     browser.alarms.create("inventory-refresh", {periodInMinutes: 5})
