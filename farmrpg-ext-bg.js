@@ -7,6 +7,8 @@ import { setupLocations } from './lib/locations.js'
 import { setupFishing } from './lib/fishing.js'
 import { setupItems } from './lib/item.js'
 import { setupInventory } from './lib/inventory.js'
+import { setupPets } from './lib/pets.js'
+import { setupPlayer } from './lib/player.js'
 
 const maxInventoryRE = /more than <strong>([0-9,]+)<\/strong> of any/
 const itemLinkRE = /id=(\d+)/
@@ -295,15 +297,23 @@ const main = async () => {
     }
 
     // Initialize the database.
-    globalState.db = await idb.openDB("farmrpg-ext", 1, {
-        upgrade(db) {
-            console.log("Running DB migrations")
-            db.createObjectStore("log", { keyPath: "id", autoIncrement: true })
-            const items = db.createObjectStore("items", { keyPath: "name" })
-            items.createIndex("byImage", "image", {unique: false})
-            items.createIndex("byID", "id", {unique: true})
-            const locations = db.createObjectStore("locations", { keyPath: ["type", "name"] })
-            locations.createIndex("byID", ["type", "id"], {unique: true})
+    globalState.db = await idb.openDB("farmrpg-ext", 2, {
+        upgrade(db, oldVer) {
+            switch(oldVer) {
+            case 0:
+                console.log("Running DB migrations for version 1")
+                db.createObjectStore("log", { keyPath: "id", autoIncrement: true })
+                const items = db.createObjectStore("items", { keyPath: "name" })
+                items.createIndex("byImage", "image", {unique: false})
+                items.createIndex("byID", "id", {unique: true})
+                const locations = db.createObjectStore("locations", { keyPath: ["type", "name"] })
+                locations.createIndex("byID", ["type", "id"], {unique: true})
+            case 1:
+                console.log("Running DB migrations for version 2")
+                const pets = db.createObjectStore("pets", { keyPath: "name" })
+                pets.createIndex("byID", "id", {unique: true})
+                db.createObjectStore("player", { keyPath: "id", autoIncrement: true })
+            }
         },
     })
     setupLog(globalState)
@@ -375,9 +385,11 @@ const main = async () => {
             renderSidebarFromGlobalState()
         }
     })
+    await setupPlayer(globalState)
     setupItems(globalState)
     setupLocations(globalState)
     setupInventory(globalState)
+    setupPets(globalState)
     setupExplore(globalState)
     setupFishing(globalState)
 
