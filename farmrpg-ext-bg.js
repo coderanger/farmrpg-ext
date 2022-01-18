@@ -10,6 +10,7 @@ import { setupInventory } from './lib/inventory.js'
 import { setupPets } from './lib/pets.js'
 import { setupPlayer } from './lib/player.js'
 import { setupFarm } from './lib/farm.js'
+import { setupPerks, fetchPerks } from './lib/perks.js'
 
 const maxInventoryRE = /more than <strong>([0-9,]+)<\/strong> of any/
 const itemLinkRE = /id=(\d+)/
@@ -171,25 +172,6 @@ const getInventoryFromWorkshopHTML = (workshopPage, existingInventory) => {
     return inventory
 }
 
-const getPerksetId = async () => {
-    const resp = await fetch("https://farmrpg.com/perks.php")
-    if (!resp.ok) {
-        throw "Error getting perks"
-    }
-    const page = await resp.text()
-    return getPerksetIdFromPerks(page)
-}
-
-const getPerksetIdFromPerks = page => {
-    const parser = new DOMParser()
-    const dom = parser.parseFromString(page, "text/html")
-    const activeSet = dom.querySelector('div[style="color:teal;font-weight:bold"]')
-    if (!activeSet) {
-        return null
-    }
-    return activeSet.parentElement.querySelector(".activateperksetbtn").dataset.id
-}
-
 const handleSidbarClick = async target => {
     console.log("sidebar click", target)
     const [targetType, targetArg] = target.split(":", 2)
@@ -211,7 +193,11 @@ const handleSidbarClick = async target => {
     case "perk":
         globalState.perksetLoading = true
         await renderSidebarFromGlobalState()
-        const nextPerksetId = globalState.perksetId === "2735" ? "2734" : "2735"
+        const nextPerkset = globalState.player.currentPerkset === "Farming" ? "Crafting" : "Farming"
+        const nextPerksetId = globalState.player.perksets[nextPerkset]
+        if (!nextPerksetId) {
+            throw `Cannot find perkset ID for ${nextPerkset}`
+        }
         let resp = await fetch("https://farmrpg.com/worker.php?go=resetperks", {method: "POST"})
         if (!resp.ok) {
             throw "Error reseting perks"
@@ -220,7 +206,8 @@ const handleSidbarClick = async target => {
         if (!resp.ok) {
             throw "Error activating perkset"
         }
-        globalState.perksetId = nextPerksetId
+        globalState.player.currentPerkset = nextPerkset
+        await globalState.player.save(globalState.db)
         globalState.perksetLoading = false
         await renderSidebarFromGlobalState()
         break
@@ -304,9 +291,11 @@ const main = async () => {
         globalState.inventory = inv
         renderSidebarFromGlobalState()
     })
-    getPerksetId().then(perksetId => {
-        console.log("Found initial perksetId", perksetId)
-        globalState.perksetId = perksetId
+    fetchPerks().then(perks => {
+        console.log("Found initial perksetId", perks.currentPerkset)
+        globalState.player.perksets = perks.perksets
+        globalState.player.currentPerkset = perks.currentPerkset
+        globalState.player.save(globalState.db)
         renderSidebarFromGlobalState()
     })
 
@@ -339,13 +328,6 @@ const main = async () => {
         globalState.inventory = getInventoryFromWorkshopHTML(page, globalState.inventory)
         renderSidebarFromGlobalState()
     })
-    setupPageFilter("https://farmrpg.com/worker.php?go=activateperkset*", (page, url) => {
-        const urlMatch = url.match(itemLinkRE)
-        if (urlMatch) {
-            globalState.perksetId = urlMatch[1]
-            renderSidebarFromGlobalState()
-        }
-    })
     await setupPlayer(globalState)
     setupItems(globalState)
     setupLocations(globalState)
@@ -354,6 +336,7 @@ const main = async () => {
     setupExplore(globalState)
     setupFishing(globalState)
     setupFarm(globalState)
+    setupPerks(globalState)
 
     // Set up a periodic refresh of the inventory.
     browser.alarms.create("inventory-refresh", {periodInMinutes: 5})
