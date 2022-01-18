@@ -17,15 +17,30 @@ const itemLinkRE = /id=(\d+)/
 const workshopTitleRE = /\s*(\S.*\S)\s+\((\d+)\)/
 const workshopIngredientRE = /(\d+)\s*\/\s*\d+\s*(\S.*?\S)\s*$/mg
 
-const globalState = {
-    inventory: {
-        items: [],
-    },
-    crops: {
-        images: {},
-        times: {},
-    },
+
+class GlobalState {
+    constructor() {
+        this.inventory = {
+            items: [],
+        }
+        this.port = null
+        this.clickHandlers = {}
+    }
+
+    addPageFilter(url, handler) {
+        setupPageFilter(url, async (page, url) => { await handler(this, page, url) })
+    }
+
+    addClickHandler(type, handler) {
+        this.clickHandlers[type] = handler
+    }
+
+    postMessage(msg) {
+        this.port.postMessage(msg)
+    }
 }
+
+const globalState = new GlobalState()
 
 const buyItem = async (inventory, item, quantity = undefined, retry=0) => {
     // POST https://farmrpg.com/worker.php?go=buyitem&id=22&qty=1
@@ -176,13 +191,6 @@ const handleSidbarClick = async target => {
     console.log("sidebar click", target)
     const [targetType, targetArg] = target.split(":", 2)
     switch (targetType) {
-    case "item":
-        if (targetArg === "Iron" || targetArg === "Nails") {
-            globalState.inventory= await buyItem(globalState.inventory, targetArg)
-            await renderSidebarFromGlobalState()
-            globalState.port.postMessage({ action: "RELOAD_VIEW", url: "workshop.php"})
-        }
-        break
     case "farm":
         if (globalState.player.farmID) {
             globalState.port.postMessage({ action: "RELOAD_VIEW", url: `xfarm.php?id=${globalState.player.farmID}`})
@@ -213,6 +221,11 @@ const handleSidbarClick = async target => {
         break
     case "log":
         await downloadLog(globalState)
+        break
+    default:
+        if (globalState.clickHandlers[targetType]) {
+            await globalState.clickHandlers[targetType](globalState, targetType, targetArg)
+        }
         break
     }
 }
