@@ -23,7 +23,7 @@ class GlobalState {
         this.inventory = {
             items: [],
         }
-        this.port = null
+        this.ports = []
         this.clickHandlers = {}
     }
 
@@ -36,7 +36,25 @@ class GlobalState {
     }
 
     postMessage(msg) {
-        this.port.postMessage(msg)
+        let lastError = null
+        for (const port of [...this.ports]) {
+            try {
+                port.postMessage(msg)
+            } catch(e) {
+                console.error(e)
+                lastError = e
+                // Remove this port.
+                port.disconnect() // Just in case?
+                const i = this.ports.indexOf(port)
+                if (i !== -1) {
+                    this.ports.splice(i, 1)
+                }
+                // Keep trying the other ports.
+            }
+        }
+        if (lastError !== null) {
+            throw lastError
+        }
     }
 }
 
@@ -193,7 +211,7 @@ const handleSidbarClick = async target => {
     switch (targetType) {
     case "farm":
         if (globalState.player.farmID) {
-            globalState.port.postMessage({ action: "RELOAD_VIEW", url: `xfarm.php?id=${globalState.player.farmID}`})
+            globalState.postMessage({ action: "RELOAD_VIEW", url: `xfarm.php?id=${globalState.player.farmID}`})
         } else {
             console.log("Can't navigate to farm without Farm ID")
         }
@@ -233,19 +251,22 @@ const handleSidbarClick = async target => {
 const connectToContentScript = () =>
     new Promise(resolve =>
         browser.runtime.onConnect.addListener(port => {
-            globalState.port = port
-            globalState.port.onDisconnect.addListener(disPort => {
-                if (globalState.port === disPort) {
-                    globalState.port = null
+            port.onDisconnect.addListener(disPort => {
+                const i = globalState.ports.indexOf(disPort)
+                if (i !== -1) {
+                    globalState.ports.splice(i, 1)
                 }
             })
-            globalState.port.onMessage.addListener(msg => {
+            port.onMessage.addListener(msg => {
                 switch (msg.action) {
                 case "SIDEBAR_CLICK":
                     handleSidbarClick(msg.target)
                     break
                 }
             })
+            globalState.ports.push(port)
+            // The first time we get a connection, let the promise resolve.
+            // This means we can block until we get at least one connection.
             if (resolve) {
                 resolve(port)
                 resolve = null

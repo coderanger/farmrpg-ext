@@ -1,5 +1,5 @@
 (() => {
-    let port = browser.runtime.connect()
+    let currentPort = null
     let lastSidebar = [""]
 
     const renderSidebar = (html) => {
@@ -20,7 +20,7 @@
                 if (!target) {
                     return true
                 }
-                port.postMessage({action: "SIDEBAR_CLICK", target: target.dataset.farmrpgextsidebarclick})
+                currentPort.postMessage({action: "SIDEBAR_CLICK", target: target.dataset.farmrpgextsidebarclick})
                 evt.stopImmediatePropagation()
                 return false
             })
@@ -29,7 +29,7 @@
         sidebarElm.innerHTML = html
     }
 
-    port.onMessage.addListener(msg => {
+    const messageHandler = msg => {
         switch (msg.action) {
         case "UPDATE_SIDEBAR":
             if (window.wrappedJSObject.__pause_sidebar__) {
@@ -49,12 +49,21 @@
             }
             break
         }
-    })
-    port.onDisconnect.addListener(disPort => {
-        if (port === disPort) {
-            port = browser.runtime.connect()
-        }
-    })
+    }
+
+    const connect = () => {
+        const port = browser.runtime.connect()
+        console.debug("FarmRPG-Ext: Port connected")
+        port.onMessage.addListener(messageHandler)
+        port.onDisconnect.addListener(disPort => {
+            console.debug("FarmRPG-Ext: Port disconnected")
+            if (port === disPort) {
+                connect()
+            }
+        })
+        currentPort = port
+    }
+    connect()
 
     console.log("FarmRPG-Ext loaded!")
 })();
