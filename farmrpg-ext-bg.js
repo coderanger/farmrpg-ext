@@ -373,3 +373,7 @@ const main = async () => {
 }
 
 main()
+
+
+// https://farmrpg.com/worker.php?go=spin&type=Apples
+// You got:<br/><img src='/img/items/8297.png' class='itemimg'><br/>Apples (x9)
