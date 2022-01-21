@@ -1,10 +1,18 @@
+import logging
+
+import structlog
+
 from .ai import SillyAI
 from .game import Game
-from .items import Item
+
+DEBUG = True
 
 if __name__ == "__main__":
+    if not DEBUG:
+        structlog.configure(
+            wrapper_class=structlog.make_filtering_bound_logger(logging.INFO)
+        )
     game = Game(ai_class=SillyAI)
-    game.player.silver = 1000
-    game.run(60 * 24)
-    game.player.silver -= 1000
+    game.player.silver = 36
+    game.run(60)
     print(game.summary())
