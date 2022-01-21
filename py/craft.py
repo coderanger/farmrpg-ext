@@ -173,7 +173,7 @@ class ItemDatabase:
             name="Sturdy Bow",
             sell_price=80000,
             craft_price=25000,
-            recipe={"Mushroom Paste": 2, "Oak": 4, "Steel": 1, "Stone": 2, "Twine": 2}
+            recipe={"Mushroom Paste": 2, "Oak": 4, "Steel": 1, "Stone": 2, "Twine": 2},
         ),
         Item(name="Oak", sell_price=100),
         Item(
@@ -309,7 +309,7 @@ class ItemDatabase:
 
     # Insert the stam recipes.
     enable_stam = True
-    # enable_stam = False
+    enable_stam = False
     for i, item in enumerate(items):
         if item.name in stamina_per_drop:
             params = attr.asdict(item)
@@ -400,21 +400,21 @@ class ItemDatabase:
 
 db = ItemDatabase()
 
-# profits = db.all_profit_per_leaf()
-profits = db.all_profit_per_leaf(
-    save_chance=0.2,
-    craft_price_reduction=0.60,
-    mastered={
-        db["Wood Plank"],
-    },
-    grandmastered={
-        db["Board"],
-        db["Iron Ring"],
-        db["Fancy Pipe"],
-        db["Sturdy Shield"],
-        db["Twine"],
-    },
-)
+profits = db.all_profit_per_leaf()
+# profits = db.all_profit_per_leaf(
+#     save_chance=0.2,
+#     craft_price_reduction=0.60,
+#     mastered={
+#         db["Wood Plank"],
+#     },
+#     grandmastered={
+#         db["Board"],
+#         db["Iron Ring"],
+#         db["Fancy Pipe"],
+#         db["Sturdy Shield"],
+#         db["Twine"],
+#     },
+# )
 
 
 def print_forward(profits: dict[Item, dict[Item, Optional[float]]]):
@@ -434,10 +434,17 @@ def print_reverse(profits: dict[Item, dict[Item, Optional[float]]]):
     print_forward(by_leaf)
 
 
-print_forward(profits)
-print("-------------")
-print_reverse(profits)
+if __name__ == "__main__":
+    print_forward(profits)
+    print("-------------")
+    print_reverse(profits)
 
-# p = db.profit_per(db["Fishing Net"], db["Stamina"], save_chance=0.2, craft_price_reduction=0.60)
-# # p = db.expand(db["Fishing Net"], stop_at={db["Stamina"]}, save_chance=0.2, craft_price_reduction=0.60)
-# print(p)
+    # import fixtures
+    # items = {it["name"]: it for it in fixtures.load_fixture("items")}
+    # for item in ItemDatabase.items:
+    #     if item.name == "Stamina":
+    #         continue
+    #     it = items[item.name]
+    #     if item.recipe != it.get("recipe", {}):
+    #         print(item.name)
+    #         print(item.recipe, it.get("recipe", {}))
