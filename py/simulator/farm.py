@@ -72,6 +72,7 @@ class Farm:
         self.plots[plot] = FarmPlot(
             crop=crop, seconds_until_ready=seed.growth_time_for(self.game.player)
         )
+        # TODO xp bonus
         self.game.player.farming_xp += 15
 
     def harvest(self, plot: int) -> None:
@@ -99,6 +100,7 @@ class Farm:
         )
         self.game.player.add_item(plot_data.crop, quantity)
         # No matter how many items were produced, XP is based on just one.
+        # TODO xp bonus
         self.game.player.farming_xp += plot_data.crop.xp
 
     def plant_all(self, seed: Item) -> None:

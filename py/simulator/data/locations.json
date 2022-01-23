@@ -1,0 +1,610 @@
+[
+  {
+    "explore_rates": {
+      "Ancient Coin": 0.003758741258741259,
+      "Coal": 0.13784965034965035,
+      "Giant Centipede": 0.0018356643356643356,
+      "Horn": 0.020454545454545454,
+      "Large Chest 02": 0,
+      "Medium Chest 02": 8.741258741258741e-05,
+      "Orange Gecko": 8.741258741258741e-05,
+      "Ruby Scorpion": 0.0011363636363636363,
+      "Runestone 09": 0.00017482517482517483,
+      "Runestone 13": 8.741258741258741e-05,
+      "Sandstone": 0.14353146853146853,
+      "Shimmer Quartz": 0.01284965034965035
+    },
+    "id": "6",
+    "items": [
+      "Shimmer Quartz",
+      "Coal",
+      "Ancient Coin",
+      "Runestone 09",
+      "Horn",
+      "Sandstone",
+      "Runestone 13",
+      "Giant Centipede",
+      "Medium Chest 02",
+      "Large Chest 02",
+      "Ruby Scorpion",
+      "Orange Gecko"
+    ],
+    "lemonade_rates": {},
+    "name": "Black Rock Canyon",
+    "type": "explore"
+  },
+  {
+    "explore_rates": {
+      "Horned Beetle": 0.0022123893805309734,
+      "Iron": 0.060619469026548675,
+      "Lemon Quartz": 0.015486725663716814,
+      "Lima Bean": 0,
+      "Mushroom": 0.02920353982300885,
+      "Pocket Watch": 0.0008849557522123894,
+      "Stone": 0.06371681415929203,
+      "Unpolished Shimmer Stone": 0.05353982300884956,
+      "Wood": 0.061061946902654866
+    },
+    "id": "4",
+    "items": [
+      "Iron",
+      "Wood",
+      "Stone",
+      "Mushroom",
+      "Unpolished Shimmer Stone",
+      "Lemon Quartz",
+      "Pocket Watch",
+      "Lima Bean",
+      "Horned Beetle"
+    ],
+    "lemonade_rates": {},
+    "name": "Cane Pole Ridge",
+    "type": "explore"
+  },
+  {
+    "explore_rates": {
+      "Ancient Coin": 0.004742990654205607,
+      "Diamond": 0,
+      "Emberstone": 0.029742990654205607,
+      "Glass Orb": 0.04869158878504673,
+      "Large Chest 01": 4.672897196261682e-05,
+      "Magicite": 0.0005841121495327102,
+      "Moonstone": 0.001425233644859813,
+      "Prism Shard": 0.017289719626168223,
+      "Runestone 17": 0.0001635514018691589,
+      "Stone": 0.22030373831775701
+    },
+    "id": "9",
+    "items": [
+      "Stone",
+      "Glass Orb",
+      "Ancient Coin",
+      "Diamond",
+      "Magicite",
+      "Moonstone",
+      "Emberstone",
+      "Prism Shard",
+      "Runestone 17",
+      "Large Chest 01"
+    ],
+    "lemonade_rates": {
+      "Ancient Coin": 0.014173228346456693,
+      "Diamond": 0.00026246719160104987,
+      "Emberstone": 0.10498687664041995,
+      "Glass Orb": 0.14448818897637794,
+      "Large Chest 01": 0.00013123359580052493,
+      "Magicite": 0.0014435695538057743,
+      "Moonstone": 0.004461942257217848,
+      "Prism Shard": 0.0526246719160105,
+      "Runestone 17": 0.0009186351706036745,
+      "Stone": 0.676509186351706
+    },
+    "name": "Ember Lagoon",
+    "type": "explore"
+  },
+  {
+    "explore_rates": {
+      "Antler": 0.020146994882772,
+      "Arrowhead": 0.01683584735275427,
+      "Bird Egg": 0.012617478845446336,
+      "Fire Ant": 0.002646409578915683,
+      "Gold Feather": 0.00016304893140238805,
+      "Gold Leaf": 0.0001337837385865748,
+      "Hide": 0.024787618314993813,
+      "Mushroom": 0.05527776848724038,
+      "Straw": 0.05526940700357871,
+      "Wood": 0.14453242583363993
+    },
+    "id": "7",
+    "items": [
+      "Wood",
+      "Mushroom",
+      "Arrowhead",
+      "Hide",
+      "Bird Egg",
+      "Straw",
+      "Antler",
+      "Gold Feather",
+      "Gold Leaf",
+      "Fire Ant"
+    ],
+    "lemonade_rates": {
+      "Antler": 0.06293103448275862,
+      "Arrowhead": 0.05603448275862069,
+      "Bird Egg": 0.03706896551724138,
+      "Fire Ant": 0.008620689655172414,
+      "Gold Feather": 0.0004310344827586207,
+      "Gold Leaf": 0.0004310344827586207,
+      "Hide": 0.07112068965517242,
+      "Mushroom": 0.18060344827586206,
+      "Straw": 0.16077586206896552,
+      "Wood": 0.4219827586206897
+    },
+    "name": "Forest",
+    "type": "explore"
+  },
+  {
+    "explore_rates": {
+      "Amethyst": 0.009857723577235772,
+      "Caterpillar": 0.0014227642276422765,
+      "Feathers": 0.04878048780487805,
+      "Fern Leaf": 0.048069105691056914,
+      "Medium Chest 01": 0,
+      "Purple Flower": 0.04867886178861788,
+      "Runestone 14": 0.0001016260162601626,
+      "Stone": 0.046747967479674794,
+      "Strange Letter": 0.0005081300813008131,
+      "Wood": 0.04959349593495935
+    },
+    "id": "3",
+    "items": [
+      "Wood",
+      "Stone",
+      "Feathers",
+      "Fern Leaf",
+      "Purple Flower",
+      "Amethyst",
+      "Strange Letter",
+      "Runestone 14",
+      "Caterpillar",
+      "Medium Chest 01"
+    ],
+    "lemonade_rates": {},
+    "name": "Highland Hills",
+    "type": "explore"
+  },
+  {
+    "explore_rates": {
+      "3-leaf Clover": 0.02830733679953784,
+      "4-leaf Clover": 0.007510109763142692,
+      "Acorn": 0.04852686308492201,
+      "Amber": 0,
+      "Blue Feathers": 0.05141536683997689,
+      "Fern Leaf": 0.0560369728480647,
+      "Gold Feather": 0,
+      "Mushroom": 0.027440785673021374,
+      "Pine Cone": 0.004332755632582322,
+      "Runestone 05": 0.00028885037550548814,
+      "Shiny Beetle": 0.0028885037550548816,
+      "Spider": 0.002021952628538417,
+      "Straw": 0.0219526285384171,
+      "Sweet Root": 0.02801848642403235,
+      "Unpolished Ruby": 0.010687463893703062,
+      "Wood": 0.04997111496244945
+    },
+    "id": "5",
+    "items": [
+      "Wood",
+      "Mushroom",
+      "Fern Leaf",
+      "Acorn",
+      "Sweet Root",
+      "Unpolished Ruby",
+      "Straw",
+      "Runestone 05",
+      "Blue Feathers",
+      "Gold Feather",
+      "3-leaf Clover",
+      "4-leaf Clover",
+      "Amber",
+      "Shiny Beetle",
+      "Pine Cone",
+      "Spider"
+    ],
+    "lemonade_rates": {},
+    "name": "Misty Forest",
+    "type": "explore"
+  },
+  {
+    "explore_rates": {
+      "Bacon": 6.270968551092716e-05,
+      "Carbon Sphere": 0.020709873639983695,
+      "Coal": 0.0727432351926755,
+      "Dragon Skull": 1.567742137773179e-05,
+      "Gold Feather": 3.135484275546358e-05,
+      "Iron": 0.07384065468911673,
+      "Magna Quartz": 0.0002508387420437086,
+      "Runestone 19": 6.270968551092716e-05,
+      "Small Chest 02": 6.270968551092716e-05,
+      "Stone": 0.07161446085347882,
+      "Unpolished Emerald": 0.020286583262784937,
+      "Unpolished Shimmer Stone": 0.07333897720502931
+    },
+    "id": "8",
+    "items": [
+      "Iron",
+      "Stone",
+      "Unpolished Shimmer Stone",
+      "Coal",
+      "Unpolished Emerald",
+      "Carbon Sphere",
+      "Gold Feather",
+      "Runestone 19",
+      "Bacon",
+      "Dragon Skull",
+      "Small Chest 02",
+      "Magna Quartz"
+    ],
+    "lemonade_rates": {
+      "Bacon": 0.000588235294117647,
+      "Carbon Sphere": 0.06352941176470588,
+      "Coal": 0.22411764705882353,
+      "Iron": 0.21235294117647058,
+      "Magna Quartz": 0.0029411764705882353,
+      "Stone": 0.22588235294117648,
+      "Unpolished Emerald": 0.060588235294117644,
+      "Unpolished Shimmer Stone": 0.21
+    },
+    "name": "Mount Banon",
+    "type": "explore"
+  },
+  {
+    "explore_rates": {
+      "Bone": 0.01462701121404193,
+      "Grab Bag 02": 0,
+      "Mushroom": 0.051194539249146756,
+      "Nails": 0.11457825450999512,
+      "Runestone 04": 0,
+      "Stone": 0.11555338859093126,
+      "Wood": 0.10823988298391028,
+      "Wooden Mask": 0.0009751340809361287
+    },
+    "id": "1",
+    "items": [
+      "Wood",
+      "Nails",
+      "Stone",
+      "Mushroom",
+      "Bone",
+      "Runestone 04",
+      "Wooden Mask",
+      "Grab Bag 02"
+    ],
+    "lemonade_rates": {},
+    "name": "Small Cave",
+    "type": "explore"
+  },
+  {
+    "explore_rates": {
+      "Apple": 0.01423116973273169,
+      "Aquamarine": 0.01770218674071503,
+      "Dice": 0.0003471017007983339,
+      "Feathers": 0.08955223880597014,
+      "Mushroom": 0.03019784796945505,
+      "Skull Coin": 0,
+      "Small Chest 01": 0.0003471017007983339,
+      "Snail": 0.0020826102047900035,
+      "Spectacles": 0.0013884068031933356,
+      "Stone": 0.09094064560916348,
+      "Wood": 0.08920513710517182
+    },
+    "id": "2",
+    "items": [
+      "Wood",
+      "Stone",
+      "Aquamarine",
+      "Feathers",
+      "Mushroom",
+      "Apple",
+      "Dice",
+      "Spectacles",
+      "Skull Coin",
+      "Snail",
+      "Small Chest 01"
+    ],
+    "lemonade_rates": {},
+    "name": "Small Spring",
+    "type": "explore"
+  },
+  {
+    "explore_rates": {
+      "Apple": 0.012830282060993257,
+      "Blue Gel": 0.01569721560396482,
+      "Herbs": 0.0003138537773358341,
+      "Lemon": 0.0025394995541163884,
+      "Oak": 0.11173345364394797,
+      "Orange": 0.002500267831949409,
+      "Raptor Claw": 4.526737173112992e-06,
+      "Raptor Egg": 6.035649564150656e-06,
+      "Red Berries": 0.007789005762536421,
+      "Salt Rock": 0.02749841941427039,
+      "Slimestone": 0.04068631371193957,
+      "Sour Root": 0.00766074820929822,
+      "Striped Feather": 0.00773166709167699,
+      "Thorns": 0.0076456590853878435,
+      "Unpolished Garnet": 0.0195585224126302
+    },
+    "id": "10",
+    "items": [
+      "Apple",
+      "Orange",
+      "Lemon",
+      "Slimestone",
+      "Oak",
+      "Salt Rock",
+      "Blue Gel",
+      "Unpolished Garnet",
+      "Red Berries",
+      "Striped Feather",
+      "Thorns",
+      "Sour Root",
+      "Raptor Claw",
+      "Herbs",
+      "Raptor Egg"
+    ],
+    "lemonade_rates": {
+      "Apple": 0.054719027217293915,
+      "Blue Gel": 0.04117260137597554,
+      "Herbs": 0.0010844251657748307,
+      "Lemon": 0.011822012053119056,
+      "Oak": 0.4586051803523493,
+      "Orange": 0.010399815114397967,
+      "Raptor Claw": 1.7777461734013616e-05,
+      "Raptor Egg": 7.110984693605446e-05,
+      "Red Berries": 0.03143055234573608,
+      "Salt Rock": 0.10990026843967218,
+      "Slimestone": 0.10136708680734564,
+      "Sour Root": 0.03262164228191499,
+      "Striped Feather": 0.03253275497324492,
+      "Thorns": 0.031768324118682335,
+      "Unpolished Garnet": 0.08248742244582319
+    },
+    "name": "Whispering Creek",
+    "type": "explore"
+  },
+  {
+    "id": "6",
+    "items": [
+      "Trout",
+      "Bone Fish",
+      "Sunfish",
+      "Blue Catfish",
+      "Old Boot",
+      "Glass Bottle",
+      "Globber",
+      "Runestone 12"
+    ],
+    "name": "Crystal River",
+    "net_rates": {},
+    "type": "fishing"
+  },
+  {
+    "id": "7",
+    "items": [
+      "Clam Shell",
+      "Starfish",
+      "Clownfish",
+      "Pearl",
+      "Conch Shell",
+      "Marlin",
+      "Puffer",
+      "Stingray",
+      "MIAB",
+      "Ruby Fish",
+      "Blue Tiger Fish",
+      "Red Starfish",
+      "Seahorse"
+    ],
+    "name": "Emerald Beach",
+    "net_rates": {
+      "Blue Tiger Fish": 0.038029925187032416,
+      "Clam Shell": 0.2793017456359102,
+      "Clownfish": 0.06359102244389027,
+      "Conch Shell": 0.3023690773067332,
+      "MIAB": 0.007481296758104738,
+      "Marlin": 0.012468827930174564,
+      "Pearl": 0.028678304239401497,
+      "Puffer": 0.025561097256857856,
+      "Red Starfish": 0.057356608478802994,
+      "Ruby Fish": 0.014962593516209476,
+      "Seahorse": 0.02369077306733167,
+      "Spiked Shell": 0.0006234413965087282,
+      "Starfish": 0.12468827930174564,
+      "Stingray": 0.02119700748129676
+    },
+    "type": "fishing"
+  },
+  {
+    "id": "2",
+    "items": [
+      "Drum",
+      "Yellow Perch",
+      "Largemouth Bass",
+      "Fish Bones",
+      "Trout",
+      "Catfish",
+      "Carp",
+      "Runestone 02",
+      "Flier"
+    ],
+    "name": "Farm Pond",
+    "net_rates": {},
+    "type": "fishing"
+  },
+  {
+    "id": "3",
+    "items": [
+      "Drum",
+      "Yellow Perch",
+      "Largemouth Bass",
+      "Fish Bones",
+      "Bluegill",
+      "Runestone 03",
+      "Grab Bag 01",
+      "Square Key",
+      "Water Lily"
+    ],
+    "name": "Forest Pond",
+    "net_rates": {},
+    "type": "fishing"
+  },
+  {
+    "id": "9",
+    "items": [
+      "Torch Fish",
+      "Flamejack",
+      "Redgill",
+      "Flarefin",
+      "Strange Ring",
+      "Treasure Key"
+    ],
+    "name": "Lake Minerva",
+    "net_rates": {
+      "Flamejack": 0.22207792207792207,
+      "Flarefin": 0.04329004329004329,
+      "Redgill": 0.07965367965367966,
+      "Torch Fish": 0.654978354978355
+    },
+    "type": "fishing"
+  },
+  {
+    "id": "4",
+    "items": [
+      "Drum",
+      "Yellow Perch",
+      "Largemouth Bass",
+      "Crappie",
+      "Fish Bones",
+      "Trout",
+      "Flier",
+      "Globber",
+      "Runestone 15"
+    ],
+    "name": "Lake Tempest",
+    "net_rates": {},
+    "type": "fishing"
+  },
+  {
+    "id": "10",
+    "items": [
+      "Swordfish",
+      "Barracuda",
+      "Sea Catfish",
+      "Plumbfish",
+      "Spiral Shell",
+      "Serpent Eel",
+      "Ruby Coral",
+      "Tribal Staff"
+    ],
+    "name": "Large Island",
+    "net_rates": {
+      "Barracuda": 0.18587889476778366,
+      "Plumbfish": 0.12555555555555556,
+      "Ruby Coral": 0.0849970605526161,
+      "Sea Catfish": 0.14793062904174015,
+      "Serpent Eel": 0.09468547912992357,
+      "Spiral Shell": 0.10890064667842446,
+      "Swordfish": 0.2519106407995297,
+      "Tribal Staff": 0.00014109347442680775
+    },
+    "type": "fishing"
+  },
+  {
+    "id": "5",
+    "items": [
+      "Green Chromis",
+      "Blue Crab",
+      "Small Prawn",
+      "Blue Shell",
+      "Jellyfish",
+      "Blue Sea Bass",
+      "MIAB",
+      "Mussel",
+      "Mackerel",
+      "Seaweed"
+    ],
+    "name": "Small Island",
+    "net_rates": {
+      "Blue Crab": 0.13860640301318267,
+      "Blue Sea Bass": 0.035781544256120526,
+      "Blue Shell": 0.06930320150659133,
+      "Green Chromis": 0.14858757062146893,
+      "Jellyfish": 0.02749529190207156,
+      "MIAB": 0.006026365348399247,
+      "Mackerel": 0.15141242937853108,
+      "Mussel": 0.02598870056497175,
+      "Seaweed": 0.004519774011299435,
+      "Small Prawn": 0.3922787193973635
+    },
+    "type": "fishing"
+  },
+  {
+    "id": "1",
+    "items": [
+      "Drum",
+      "Yellow Perch",
+      "Fish Bones",
+      "Runestone 08",
+      "Cogwheel",
+      "Small Key"
+    ],
+    "name": "Small Pond",
+    "net_rates": {
+      "Cogwheel": 0.003669724770642202,
+      "Drum": 0.4941896024464832,
+      "Fish Bones": 0.02874617737003058,
+      "Small Key": 0.001834862385321101,
+      "Yellow Perch": 0.47155963302752296
+    },
+    "type": "fishing"
+  },
+  {
+    "id": "8",
+    "items": [
+      "Marlin",
+      "Jellyfish",
+      "Blue Sea Bass",
+      "Stingray",
+      "MIAB",
+      "Green Jellyfish",
+      "Skipjack",
+      "Giant Squid",
+      "Shrimp",
+      "Ruby Fish",
+      "Mackerel",
+      "Fluorifish",
+      "Octopus",
+      "Runestone 18",
+      "Diving Helmet"
+    ],
+    "name": "Vast Ocean",
+    "net_rates": {
+      "Blue Sea Bass": 0.040692099228684595,
+      "Fluorifish": 0.029143214509068167,
+      "Giant Squid": 0.008588701271628101,
+      "Green Jellyfish": 0.06529080675422139,
+      "Jellyfish": 0.030393996247654785,
+      "MIAB": 0.008547008547008548,
+      "Mackerel": 0.17644361058995206,
+      "Marlin": 0.016760475297060665,
+      "Octopus": 0.009881175734834272,
+      "Ruby Fish": 0.016093391703147802,
+      "Runestone 18": 0.00045861997081509277,
+      "Sea Dragon": 8.338544923910778e-05,
+      "Shrimp": 0.10660829685219929,
+      "Skipjack": 0.46091307066916826,
+      "Stingray": 0.03010214717531791
+    },
+    "type": "fishing"
+  }
+]

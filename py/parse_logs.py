@@ -5,7 +5,7 @@ import os
 from collections import Counter
 
 
-def parse_logs(log_type=None):
+def parse_logs(log_type=None, since=int(os.environ.get("SINCE", 0))):
     # Find all the log files to scan.
     log_files = glob.glob("logs/*.json")
     if os.path.exists("/Users/coderanger/Downloads/log.json"):
@@ -17,11 +17,17 @@ def parse_logs(log_type=None):
         for row in log:
             if log_type and row["type"] != log_type:
                 continue
+            if (row["ts"] / 1000) < since:
+                continue
             if row["ts"] not in all_logs:
                 # Fix up the old zone/loc thing.
                 results = row.get("results")
                 if results:
-                    location = results.pop("zone", None) or results.pop("loc", None) or results.pop("location", None)
+                    location = (
+                        results.pop("zone", None)
+                        or results.pop("loc", None)
+                        or results.pop("location", None)
+                    )
                     if location is not None:
                         results["location"] = location
                 # Put it in the big blob.
@@ -32,14 +38,16 @@ def parse_logs(log_type=None):
         yield row
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     # Compile the logs clean things up.
     all_logs = list(parse_logs())
     log_files = glob.glob("logs/*.json")
     if len(log_files) > 1:
         # Move all the old logs into an archival folder (just in case).
         today = datetime.date.today()
-        archive_folder = f"old_logs/{datetime.datetime.now().isoformat().replace(':', '_')}"
+        archive_folder = (
+            f"old_logs/{datetime.datetime.now().isoformat().replace(':', '_')}"
+        )
         os.mkdir(archive_folder)
         for file in log_files:
             os.rename(file, f"{archive_folder}/{os.path.basename(file)}")

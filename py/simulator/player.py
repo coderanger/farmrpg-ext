@@ -10,6 +10,7 @@ import structlog
 if TYPE_CHECKING:
     from .game import Game
     from .items import Item
+    from .locations import Location
 
 
 PerkValue = TypeVar("PerkValue", bound=Number)
@@ -30,6 +31,7 @@ class Player:
     max_stamina: int = 100
     perks: set[str] = attrs.Factory(set)
     has_all_perks: bool = False
+    exploring_effectiveness: dict[Location:int] = attrs.Factory(dict)
     # Tracking stuff.
     overflow_items: Counter[Item, int] = attrs.field(factory=Counter, converter=Counter)
     seconds_until_stamina: int = 120
@@ -106,3 +108,11 @@ class Player:
         self.silver -= silver
         self.add_item(item, quantity)
         self.log.debug("Buying item", item=item.name, quantity=quantity, silver=silver)
+
+    def exploring_effectiveness_for(self, location: Location) -> int:
+        multiplier = 1
+        if self.has_perk("Sprint Shoes I"):
+            multiplier *= 2
+        if self.has_perk("Sprint Shoes II"):
+            multiplier *= 2
+        return self.exploring_effectiveness.get(location, 1) * multiplier

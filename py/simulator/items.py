@@ -17,7 +17,7 @@ class ItemMeta(type):
         return cls._all_items[name]
 
 
-@attrs.define(auto_attribs=True, frozen=True)
+@attrs.define(auto_attribs=True, frozen=True, cache_hash=True)
 class Item(metaclass=ItemMeta):
     name: str
     id: str

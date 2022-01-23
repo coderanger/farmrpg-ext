@@ -1,831 +1,833 @@
 [
   {
-    "id": "454",
-    "name": "100 Gold",
-    "image": "/img/items/goldpouch1.png",
     "givable": true,
+    "id": "454",
+    "image": "/img/items/goldpouch1.png",
+    "name": "100 Gold",
     "rarity": "Very Rare"
   },
   {
-    "name": "3-leaf Clover",
+    "givable": true,
     "id": "187",
     "image": "/img/items/8250.png",
+    "name": "3-leaf Clover",
+    "rarity": "Common",
     "sell_price": 50,
-    "xp": 50,
-    "givable": true,
-    "rarity": "Common"
+    "xp": 50
   },
   {
-    "name": "4-leaf Clover",
+    "flea_market": 2,
     "id": "188",
     "image": "/img/items/fourleaf.png",
+    "name": "4-leaf Clover",
+    "rarity": "Common",
     "sell_price": 2500,
-    "xp": 2000,
-    "flea_market": 2,
-    "rarity": "Common"
+    "xp": 2000
   },
   {
-    "name": "Acorn",
+    "givable": true,
     "id": "91",
     "image": "/img/items/5759.PNG",
+    "name": "Acorn",
     "sell_price": 50,
-    "xp": 50,
-    "givable": true
+    "xp": 50
   },
   {
-    "name": "Amber",
     "id": "244",
     "image": "/img/items/6675.png",
+    "name": "Amber",
+    "rarity": "Super Rare",
     "sell_price": 100000,
-    "xp": 5000,
-    "rarity": "Super Rare"
+    "xp": 5000
   },
   {
-    "name": "Amethyst",
     "id": "54",
     "image": "/img/items/amethyst.png",
+    "name": "Amethyst",
+    "rarity": "Common",
     "sell_price": 500,
-    "xp": 50,
-    "rarity": "Common"
+    "xp": 50
   },
   {
-    "name": "Amethyst Necklace",
     "id": "126",
     "image": "/img/items/8016.png",
-    "sell_price": 800,
-    "xp": 1000,
-    "rarity": "Common",
     "mastery": true,
+    "name": "Amethyst Necklace",
+    "rarity": "Common",
     "recipe": {
       "Amethyst": 1,
       "Iron Ring": 2
-    }
+    },
+    "sell_price": 800,
+    "xp": 1000
   },
   {
-    "name": "Ancient Coin",
+    "flea_market": 3,
     "id": "123",
     "image": "/img/items/6019.PNG",
+    "name": "Ancient Coin",
+    "rarity": "Uncommon",
     "sell_price": 1000,
-    "xp": 1000,
-    "flea_market": 3,
-    "rarity": "Uncommon"
+    "xp": 1000
   },
   {
-    "name": "Antler",
+    "flea_market": 1,
     "id": "170",
     "image": "/img/items/5922.png",
+    "name": "Antler",
+    "rarity": "Common",
     "sell_price": 250,
-    "xp": 250,
-    "flea_market": 1,
-    "rarity": "Common"
+    "xp": 250
   },
   {
-    "name": "Apple",
+    "flea_market": 1,
+    "givable": true,
     "id": "44",
     "image": "/img/items/8297.png",
-    "xp": 25,
-    "givable": true,
-    "flea_market": 1,
-    "rarity": "Common"
+    "name": "Apple",
+    "rarity": "Common",
+    "xp": 25
   },
   {
-    "name": "Apple Cider",
     "id": "379",
     "image": "/img/items/8984.png",
-    "xp": 100,
     "mastery": true,
+    "name": "Apple Cider",
     "recipe": {
       "Apple": 100,
       "Glass Bottle": 1,
       "Orange": 1
-    }
+    },
+    "xp": 100
   },
   {
-    "name": "Aquamarine",
+    "givable": true,
     "id": "41",
     "image": "/img/items/6146.PNG",
+    "name": "Aquamarine",
+    "rarity": "Common",
     "sell_price": 250,
-    "xp": 250,
-    "givable": true,
-    "rarity": "Common"
+    "xp": 250
   },
   {
-    "name": "Aquamarine Ring",
     "id": "125",
     "image": "/img/items/aquaring.png",
-    "sell_price": 750,
-    "xp": 1000,
-    "rarity": "Common",
     "mastery": true,
+    "name": "Aquamarine Ring",
+    "rarity": "Common",
     "recipe": {
       "Aquamarine": 1,
       "Iron Ring": 1,
       "Mushroom Paste": 1
-    }
+    },
+    "sell_price": 750,
+    "xp": 1000
   },
   {
-    "name": "Arrowhead",
+    "flea_market": 1,
     "id": "108",
     "image": "/img/items/5910.png",
+    "name": "Arrowhead",
+    "rarity": "Common",
     "sell_price": 150,
-    "xp": 150,
-    "flea_market": 1,
-    "rarity": "Common"
+    "xp": 150
   },
   {
-    "name": "Axe",
+    "givable": true,
     "id": "237",
     "image": "/img/items/5875.png?1",
-    "sell_price": 200,
-    "xp": 450,
-    "givable": true,
     "mastery": true,
+    "name": "Axe",
     "recipe": {
       "Board": 1,
       "Iron": 1,
       "Mushroom Paste": 1,
       "Nails": 2,
       "Stone": 1
-    }
+    },
+    "sell_price": 200,
+    "xp": 450
   },
   {
-    "name": "Backstabbing Dagger",
     "id": "381",
     "image": "/img/items/9078.png",
+    "name": "Backstabbing Dagger",
+    "rarity": "Uncommon",
     "sell_price": 2500,
-    "xp": 2500,
-    "rarity": "Uncommon"
+    "xp": 2500
   },
   {
-    "name": "Bacon",
+    "flea_market": 5,
     "id": "242",
     "image": "/img/items/bacon.png",
+    "name": "Bacon",
+    "rarity": "Very Rare",
     "sell_price": 5000,
-    "xp": 2500,
-    "flea_market": 5,
-    "rarity": "Very Rare"
+    "xp": 2500
   },
   {
-    "name": "Bag of Presents",
+    "event": true,
     "id": "422",
     "image": "/img/items/12_sm.png",
-    "event": true,
+    "name": "Bag of Presents",
     "sell_price": 1750,
     "xp": 1750
   },
   {
-    "name": "Barracuda",
     "id": "307",
     "image": "/img/items/7486.png",
+    "mastery": true,
+    "name": "Barracuda",
+    "rarity": "Common",
     "sell_price": 5000,
-    "xp": 8000,
-    "rarity": "Common"
+    "xp": 8000
   },
   {
-    "name": "Beet",
+    "growth_time": 777600,
     "id": "450",
     "image": "/img/items/2850.png",
-    "sell_price": 230000,
-    "xp": 90720,
+    "name": "Beet",
     "rarity": "Common",
-    "growth_time": 777600
+    "sell_price": 230000,
+    "xp": 90720
   },
   {
-    "id": "449",
-    "name": "Beet Seeds",
-    "image": "/img/items/2850.png",
-    "xp": 90720,
     "buy_price": 189000,
-    "growth_time": 777600
+    "growth_time": 777600,
+    "id": "449",
+    "image": "/img/items/2850.png",
+    "name": "Beet Seeds",
+    "xp": 90720
   },
   {
-    "name": "Bird Egg",
+    "flea_market": 1,
+    "givable": true,
     "id": "111",
     "image": "/img/items/6067.PNG",
+    "name": "Bird Egg",
+    "rarity": "Common",
     "sell_price": 300,
-    "xp": 300,
-    "givable": true,
-    "flea_market": 1,
-    "rarity": "Common"
+    "xp": 300
   },
   {
-    "name": "Black Powder",
+    "givable": true,
     "id": "104",
     "image": "/img/items/powder.png",
-    "sell_price": 60,
-    "xp": 1500,
-    "givable": true,
     "mastery": true,
+    "name": "Black Powder",
     "recipe": {
       "Coal": 3
-    }
+    },
+    "sell_price": 60,
+    "xp": 1500
   },
   {
-    "name": "Blitzen",
+    "event": true,
+    "givable": true,
     "id": "447",
     "image": "/img/items/blitzen.png",
-    "xp": 2300,
-    "givable": true,
+    "name": "Blitzen",
     "rarity": "Very Rare",
-    "event": true
+    "xp": 2300
   },
   {
-    "name": "Blue Catfish",
     "id": "89",
     "image": "/img/items/7842.PNG",
+    "name": "Blue Catfish",
+    "rarity": "Common",
     "sell_price": 75,
-    "xp": 475,
-    "rarity": "Common"
+    "xp": 475
   },
   {
-    "name": "Blue Crab",
+    "givable": true,
     "id": "57",
     "image": "/img/items/7825.PNG",
+    "name": "Blue Crab",
+    "rarity": "Common",
     "sell_price": 25,
-    "xp": 350,
-    "givable": true,
-    "rarity": "Common"
+    "xp": 350
   },
   {
-    "name": "Blue Feathers",
+    "givable": true,
     "id": "171",
     "image": "/img/items/5963.png",
+    "name": "Blue Feathers",
     "sell_price": 10,
-    "xp": 150,
-    "givable": true
+    "xp": 150
   },
   {
-    "name": "Blue Gel",
     "id": "314",
     "image": "/img/items/ForestIcons_34_t.png",
+    "name": "Blue Gel",
+    "rarity": "Common",
     "sell_price": 150,
-    "xp": 150,
-    "rarity": "Common"
+    "xp": 150
   },
   {
-    "id": "406",
-    "name": "Blue Ornament",
-    "image": "/img/items/cr_t_03_f.png",
     "event": true,
+    "id": "406",
+    "image": "/img/items/cr_t_03_f.png",
+    "name": "Blue Ornament",
     "sell_price": 250,
     "xp": 1750
   },
   {
-    "name": "Blue Sea Bass",
     "id": "133",
     "image": "/img/items/7818.png",
+    "mastery": true,
+    "name": "Blue Sea Bass",
+    "rarity": "Common",
     "sell_price": 300,
-    "xp": 600,
-    "rarity": "Common"
+    "xp": 600
   },
   {
-    "name": "Blue Shell",
     "id": "90",
     "image": "/img/items/7875.PNG",
+    "name": "Blue Shell",
+    "rarity": "Common",
     "sell_price": 75,
-    "xp": 450,
-    "rarity": "Common"
+    "xp": 450
   },
   {
-    "name": "Blue Tiger Fish",
     "id": "200",
     "image": "/img/items/5772.png",
+    "name": "Blue Tiger Fish",
+    "rarity": "Common",
     "sell_price": 1500,
-    "xp": 1500,
-    "rarity": "Common"
+    "xp": 1500
   },
   {
-    "name": "Bluegill",
+    "givable": true,
     "id": "131",
     "image": "/img/items/7722.PNG",
+    "name": "Bluegill",
+    "rarity": "Common",
     "sell_price": 75,
-    "xp": 475,
-    "givable": true,
-    "rarity": "Common"
+    "xp": 475
   },
   {
-    "name": "Board",
     "id": "21",
     "image": "/img/items/5885.png",
-    "xp": 25,
     "mastery": true,
+    "name": "Board",
     "recipe": {
       "Wood": 5
-    }
+    },
+    "xp": 25
   },
   {
-    "name": "Bone",
+    "flea_market": 1,
+    "givable": true,
     "id": "113",
     "image": "/img/items/6033.PNG",
+    "name": "Bone",
+    "rarity": "Common",
     "sell_price": 150,
-    "xp": 150,
-    "givable": true,
-    "flea_market": 1,
-    "rarity": "Common"
+    "xp": 150
   },
   {
-    "name": "Bone Fish",
     "id": "87",
     "image": "/img/items/7741.PNG",
+    "name": "Bone Fish",
     "sell_price": 50,
     "xp": 400
   },
   {
-    "name": "Book of Clues",
     "id": "183",
     "image": "/img/items/6979.png",
+    "name": "Book of Clues",
     "xp": 1000
   },
   {
-    "name": "Book of Flora",
     "id": "182",
     "image": "/img/items/7587.png",
+    "name": "Book of Flora",
     "xp": 1000
   },
   {
-    "name": "Book of Insects",
     "id": "210",
     "image": "/img/items/7578.png",
+    "name": "Book of Insects",
     "xp": 1000
   },
   {
-    "name": "Book of Knots",
     "id": "181",
     "image": "/img/items/5835.png",
+    "name": "Book of Knots",
     "xp": 1000
   },
   {
-    "name": "Book of Maps",
     "id": "184",
     "image": "/img/items/7583.png",
+    "name": "Book of Maps",
     "xp": 1000
   },
   {
-    "name": "Book of Schemas",
     "id": "180",
     "image": "/img/items/7922.png",
+    "name": "Book of Schemas",
     "xp": 1000
   },
   {
-    "name": "Book of Skill",
     "id": "209",
     "image": "/img/items/7792.png",
+    "name": "Book of Skill",
     "xp": 1000
   },
   {
-    "name": "Book of Time",
     "id": "208",
     "image": "/img/items/7574.png",
+    "name": "Book of Time",
     "xp": 1000
   },
   {
-    "name": "Bottle Rocket",
     "id": "105",
     "image": "/img/items/6123.png",
-    "sell_price": 150,
-    "xp": 300,
     "mastery": true,
+    "name": "Bottle Rocket",
     "recipe": {
       "Black Powder": 1,
       "Feathers": 2,
       "Wood": 3
-    }
+    },
+    "sell_price": 150,
+    "xp": 300
   },
   {
-    "name": "Broccoli",
+    "growth_time": 172800,
     "id": "256",
     "image": "/img/items/8757.png",
-    "sell_price": 50000,
-    "xp": 20160,
+    "name": "Broccoli",
     "rarity": "Common",
-    "growth_time": 172800
+    "sell_price": 50000,
+    "xp": 20160
   },
   {
-    "id": "257",
-    "name": "Broccoli Seeds",
-    "image": "/img/items/8757.png",
-    "xp": 20160,
     "buy_price": 42880,
-    "growth_time": 172800
+    "growth_time": 172800,
+    "id": "257",
+    "image": "/img/items/8757.png",
+    "name": "Broccoli Seeds",
+    "xp": 20160
   },
   {
-    "name": "Broom",
     "id": "129",
     "image": "/img/items/5717.PNG",
-    "sell_price": 300,
-    "xp": 250,
     "mastery": true,
+    "name": "Broom",
     "recipe": {
       "Board": 1,
       "Straw": 1
-    }
+    },
+    "sell_price": 300,
+    "xp": 250
   },
   {
-    "name": "Bucket",
+    "givable": true,
     "id": "23",
     "image": "/img/items/8263.PNG",
-    "sell_price": 90,
-    "xp": 250,
-    "givable": true,
     "mastery": true,
+    "name": "Bucket",
     "recipe": {
       "Board": 5,
       "Iron": 1
-    }
+    },
+    "sell_price": 90,
+    "xp": 250
   },
   {
-    "name": "Buddystone",
     "id": "298",
     "image": "/img/items/buddystone.png",
+    "name": "Buddystone",
+    "rarity": "Super Rare",
     "sell_price": 1750,
-    "xp": 1750,
-    "rarity": "Super Rare"
+    "xp": 1750
   },
   {
-    "name": "Cabbage",
+    "growth_time": 28800,
     "id": "67",
     "image": "/img/items/8319-3.png?1",
+    "name": "Cabbage",
     "sell_price": 7000,
-    "xp": 3360,
-    "growth_time": 28800
+    "xp": 3360
   },
   {
-    "id": "66",
-    "name": "Cabbage Seeds",
-    "image": "/img/items/8319-3.png?1",
     "buy_price": 6080,
-    "xp": 3360,
-    "growth_time": 28800
+    "growth_time": 28800,
+    "id": "66",
+    "image": "/img/items/8319-3.png?1",
+    "name": "Cabbage Seeds",
+    "xp": 3360
   },
   {
-    "id": "358",
-    "name": "Candy",
-    "image": "/img/items/candy_t_09.png",
     "event": true,
+    "id": "358",
+    "image": "/img/items/candy_t_09.png",
+    "name": "Candy",
     "sell_price": 1750,
     "xp": 1750
   },
   {
-    "name": "Candy Cane",
+    "event": true,
     "id": "401",
     "image": "/img/items/cr_t_05.png",
-    "event": true,
+    "name": "Candy Cane",
+    "rarity": "Common",
     "sell_price": 1500,
-    "xp": 1750,
-    "rarity": "Common"
+    "xp": 1750
   },
   {
-    "name": "Candy Corn",
+    "event": true,
     "id": "361",
     "image": "/img/items/candycorn.png",
-    "event": true,
+    "name": "Candy Corn",
+    "rarity": "Uncommon",
     "sell_price": 50000,
-    "xp": 2500,
-    "rarity": "Uncommon"
+    "xp": 2500
   },
   {
-    "name": "Candy Roll",
+    "event": true,
     "id": "426",
     "image": "/img/items/14_sm.png",
-    "event": true,
+    "name": "Candy Roll",
+    "rarity": "Common",
     "sell_price": 1000,
-    "xp": 1750,
-    "rarity": "Common"
+    "xp": 1750
   },
   {
-    "name": "Captains Log",
+    "flea_market": 5,
     "id": "247",
     "image": "/img/items/4868.png",
+    "name": "Captains Log",
+    "rarity": "Uncommon",
     "sell_price": 1750,
-    "xp": 1750,
-    "flea_market": 5,
-    "rarity": "Uncommon"
+    "xp": 1750
   },
   {
-    "name": "Carbon Sphere",
+    "givable": true,
     "id": "144",
     "image": "/img/items/carbonsphere.png",
+    "name": "Carbon Sphere",
+    "rarity": "Common",
     "sell_price": 500,
-    "xp": 200,
-    "givable": true,
-    "rarity": "Common"
+    "xp": 200
   },
   {
-    "name": "Carp",
+    "givable": true,
     "id": "132",
     "image": "/img/items/7737.PNG",
+    "name": "Carp",
+    "rarity": "Common",
     "sell_price": 75,
-    "xp": 400,
-    "givable": true,
-    "rarity": "Common"
+    "xp": 400
   },
   {
-    "name": "Carrot",
+    "givable": true,
+    "growth_time": 120,
     "id": "19",
     "image": "/img/items/8391.PNG",
+    "mastery": true,
+    "name": "Carrot",
     "sell_price": 20,
-    "xp": 20,
-    "givable": true,
-    "growth_time": 120
+    "xp": 20
   },
   {
-    "name": "Carrot Seeds",
+    "buy_price": 18,
+    "growth_time": 120,
     "id": "20",
     "image": "/img/items/8391.PNG",
-    "xp": 20,
-    "buy_price": 18,
-    "growth_time": 120
+    "name": "Carrot Seeds",
+    "xp": 20
   },
   {
-    "name": "Carved Bear",
     "id": "294",
     "image": "/img/items/carvedbear.png",
+    "name": "Carved Bear",
+    "rarity": "Uncommon",
     "sell_price": 1750,
-    "xp": 1750,
-    "rarity": "Uncommon"
+    "xp": 1750
   },
   {
-    "name": "Carved Camel",
     "id": "291",
     "image": "/img/items/carvedcamel.png",
+    "name": "Carved Camel",
+    "rarity": "Uncommon",
     "sell_price": 1750,
-    "xp": 1750,
-    "rarity": "Uncommon"
+    "xp": 1750
   },
   {
-    "name": "Carved Moose",
     "id": "295",
     "image": "/img/items/carvedmoose.png",
+    "name": "Carved Moose",
+    "rarity": "Uncommon",
     "sell_price": 1750,
-    "xp": 1750,
-    "rarity": "Uncommon"
+    "xp": 1750
   },
   {
-    "name": "Carved Owl",
     "id": "288",
     "image": "/img/items/carvedowl.png",
+    "name": "Carved Owl",
+    "rarity": "Uncommon",
     "sell_price": 1750,
-    "xp": 1750,
-    "rarity": "Uncommon"
+    "xp": 1750
   },
   {
-    "name": "Carved Rabbit",
     "id": "292",
     "image": "/img/items/carvedrabbit.png",
+    "name": "Carved Rabbit",
+    "rarity": "Uncommon",
     "sell_price": 1750,
-    "xp": 1750,
-    "rarity": "Uncommon"
+    "xp": 1750
   },
   {
-    "name": "Carved Rhino",
     "id": "290",
     "image": "/img/items/carvedrhino.png",
+    "name": "Carved Rhino",
+    "rarity": "Uncommon",
     "sell_price": 1750,
-    "xp": 1750,
-    "rarity": "Uncommon"
+    "xp": 1750
   },
   {
-    "name": "Carved Squirrel",
     "id": "293",
     "image": "/img/items/carvedsquirrel.png",
+    "name": "Carved Squirrel",
+    "rarity": "Uncommon",
     "sell_price": 1750,
-    "xp": 1750,
-    "rarity": "Uncommon"
+    "xp": 1750
   },
   {
-    "name": "Carved Warthog",
     "id": "296",
     "image": "/img/items/carvedwh.png",
+    "name": "Carved Warthog",
+    "rarity": "Uncommon",
     "sell_price": 1750,
-    "xp": 1750,
-    "rarity": "Uncommon"
+    "xp": 1750
   },
   {
-    "name": "Caterpillar",
+    "flea_market": 4,
+    "givable": true,
     "id": "285",
     "image": "/img/items/caterpillar.png",
+    "name": "Caterpillar",
+    "rarity": "Uncommon",
     "sell_price": 250,
-    "xp": 1750,
-    "givable": true,
-    "flea_market": 4,
-    "rarity": "Uncommon"
+    "xp": 1750
   },
   {
-    "name": "Catfish",
+    "flea_market": 2,
     "id": "107",
     "image": "/img/items/redcatfish.png",
+    "name": "Catfish",
+    "rarity": "Common",
     "sell_price": 75,
-    "xp": 475,
-    "flea_market": 2,
-    "rarity": "Common"
+    "xp": 475
   },
   {
-    "name": "Chattering Teeth",
+    "event": true,
     "id": "356",
     "image": "/img/items/jaw_t_01.png?1",
-    "event": true,
+    "name": "Chattering Teeth",
+    "rarity": "Uncommon",
     "sell_price": 1750,
-    "xp": 1750,
-    "rarity": "Uncommon"
+    "xp": 1750
   },
   {
-    "name": "Cheese",
+    "flea_market": 2,
+    "givable": true,
     "id": "186",
     "image": "/img/items/8279.png",
+    "name": "Cheese",
     "sell_price": 500,
-    "xp": 250,
-    "givable": true,
-    "flea_market": 2
+    "xp": 250
   },
   {
-    "name": "Christmas Present 01",
+    "event": true,
+    "givable": true,
     "id": "399",
     "image": "/img/items/7468.png",
-    "event": true,
-    "xp": 1,
-    "givable": true,
-    "rarity": "Very Rare"
+    "name": "Christmas Present 01",
+    "rarity": "Very Rare",
+    "xp": 1
   },
   {
-    "name": "Christmas Present 02",
+    "event": true,
     "id": "429",
     "image": "/img/items/7468.png",
-    "event": true,
-    "xp": 1,
-    "rarity": "Very Rare"
+    "name": "Christmas Present 02",
+    "rarity": "Very Rare",
+    "xp": 1
   },
   {
-    "name": "Christmas Present 03",
+    "event": true,
     "id": "430",
     "image": "/img/items/7468.png",
-    "event": true,
-    "xp": 1,
-    "rarity": "Very Rare"
+    "name": "Christmas Present 03",
+    "rarity": "Very Rare",
+    "xp": 1
   },
   {
-    "name": "Christmas Present 04",
+    "event": true,
     "id": "431",
     "image": "/img/items/7468.png",
-    "event": true,
-    "xp": 1,
-    "rarity": "Very Rare"
+    "name": "Christmas Present 04",
+    "rarity": "Very Rare",
+    "xp": 1
   },
   {
-    "name": "Christmas Present 05",
+    "event": true,
     "id": "432",
     "image": "/img/items/7468.png",
-    "event": true,
-    "xp": 1,
-    "rarity": "Very Rare"
+    "name": "Christmas Present 05",
+    "rarity": "Very Rare",
+    "xp": 1
   },
   {
-    "name": "Christmas Present 06",
+    "event": true,
     "id": "433",
     "image": "/img/items/7468.png",
-    "event": true,
-    "xp": 1,
-    "rarity": "Very Rare"
+    "name": "Christmas Present 06",
+    "rarity": "Very Rare",
+    "xp": 1
   },
   {
-    "name": "Christmas Present 07",
+    "event": true,
+    "givable": true,
     "id": "434",
     "image": "/img/items/7468.png",
-    "event": true,
-    "xp": 1,
-    "givable": true,
-    "rarity": "Very Rare"
+    "name": "Christmas Present 07",
+    "rarity": "Very Rare",
+    "xp": 1
   },
   {
-    "name": "Christmas Present 08",
+    "event": true,
     "id": "435",
     "image": "/img/items/7468.png",
-    "event": true,
-    "xp": 1,
-    "rarity": "Very Rare"
+    "name": "Christmas Present 08",
+    "rarity": "Very Rare",
+    "xp": 1
   },
   {
-    "name": "Christmas Present 09",
+    "event": true,
     "id": "436",
     "image": "/img/items/7468.png",
-    "event": true,
-    "xp": 1,
-    "rarity": "Very Rare"
+    "name": "Christmas Present 09",
+    "rarity": "Very Rare",
+    "xp": 1
   },
   {
-    "name": "Christmas Present 10",
+    "event": true,
     "id": "437",
     "image": "/img/items/7468.png",
-    "event": true,
-    "xp": 1,
-    "rarity": "Very Rare"
+    "name": "Christmas Present 10",
+    "rarity": "Very Rare",
+    "xp": 1
   },
   {
-    "name": "Christmas Present 11",
+    "event": true,
     "id": "438",
     "image": "/img/items/7468.png",
-    "event": true,
-    "xp": 1,
-    "rarity": "Very Rare"
+    "name": "Christmas Present 11",
+    "rarity": "Very Rare",
+    "xp": 1
   },
   {
-    "name": "Christmas Present 12",
+    "event": true,
     "id": "439",
     "image": "/img/items/7468.png",
-    "event": true,
-    "xp": 1,
-    "rarity": "Very Rare"
+    "name": "Christmas Present 12",
+    "rarity": "Very Rare",
+    "xp": 1
   },
   {
-    "name": "Christmas Stocking",
+    "event": true,
     "id": "419",
     "image": "/img/items/18_sm.png",
-    "event": true,
+    "name": "Christmas Stocking",
     "sell_price": 1750,
     "xp": 1750
   },
   {
-    "name": "Christmas Sweater",
+    "event": true,
     "id": "424",
     "image": "/img/items/9_sm.png",
-    "event": true,
+    "name": "Christmas Sweater",
     "sell_price": 1750,
     "xp": 1750
   },
   {
-    "name": "Christmas Tree",
+    "event": true,
     "id": "408",
     "image": "/img/items/cr_t_06_b.png?1",
-    "event": true,
+    "name": "Christmas Tree",
+    "rarity": "Uncommon",
     "sell_price": 100000,
-    "xp": 25000,
-    "rarity": "Uncommon"
+    "xp": 25000
   },
   {
-    "name": "Cid's Stone Ale",
     "id": "400",
     "image": "/img/items/ale.png",
+    "name": "Cid's Stone Ale",
+    "rarity": "Super Rare",
     "sell_price": 100000,
-    "xp": 5000,
-    "rarity": "Super Rare"
+    "xp": 5000
   },
   {
-    "name": "Clam Shell",
     "id": "97",
     "image": "/img/items/7820.png",
+    "name": "Clam Shell",
     "sell_price": 100,
     "xp": 525
   },
   {
-    "name": "Clownfish",
     "id": "99",
     "image": "/img/items/7832.PNG",
+    "name": "Clownfish",
+    "rarity": "Common",
     "sell_price": 150,
-    "xp": 600,
-    "rarity": "Common"
+    "xp": 600
   },
   {
-    "name": "Coal",
+    "givable": true,
     "id": "103",
     "image": "/img/items/coal.png",
+    "name": "Coal",
     "sell_price": 50,
-    "xp": 50,
-    "givable": true
+    "xp": 50
   },
   {
-    "name": "Cogwheel",
+    "flea_market": 5,
     "id": "215",
     "image": "/img/items/7211.png",
+    "name": "Cogwheel",
+    "rarity": "Uncommon",
     "sell_price": 1750,
-    "xp": 1750,
-    "flea_market": 5,
-    "rarity": "Uncommon"
+    "xp": 1750
   },
   {
-    "name": "Coin Purse",
     "id": "122",
     "image": "/img/items/5945.PNG",
-    "sell_price": 250,
-    "xp": 750,
     "mastery": true,
+    "name": "Coin Purse",
     "recipe": {
       "Iron Ring": 1,
       "Leather": 2
-    }
+    },
+    "sell_price": 250,
+    "xp": 750
   },
   {
-    "name": "Comet",
+    "event": true,
+    "givable": true,
     "id": "444",
     "image": "/img/items/comet.png",
-    "event": true,
-    "xp": 2300,
-    "givable": true,
-    "rarity": "Very Rare"
+    "name": "Comet",
+    "rarity": "Very Rare",
+    "xp": 2300
   },
   {
     "id": "315",
-    "name": "Compass",
     "image": "/img/items/4919.png",
-    "xp": 50000,
+    "name": "Compass",
     "rarity": "Super Rare",
     "recipe": {
       "Aquamarine": 1,
@@ -836,1108 +838,1148 @@
       "Small Screw": 4,
       "Twine": 1,
       "Wood": 2
-    }
+    },
+    "xp": 50000
   },
   {
-    "name": "Conch Shell",
     "id": "101",
     "image": "/img/items/7904.png",
+    "name": "Conch Shell",
     "sell_price": 100,
     "xp": 525
   },
   {
-    "id": "391",
-    "name": "Cooked Turkey",
-    "image": "/img/items/5742.png",
     "event": true,
+    "id": "391",
+    "image": "/img/items/5742.png",
+    "name": "Cooked Turkey",
+    "rarity": "Uncommon",
     "sell_price": 100000,
-    "xp": 2500,
-    "rarity": "Uncommon"
+    "xp": 2500
   },
   {
-    "name": "Corn",
+    "growth_time": 14400,
     "id": "65",
     "image": "/img/items/8288.png",
+    "mastery": true,
+    "name": "Corn",
     "sell_price": 3400,
-    "xp": 1680,
-    "growth_time": 14400
+    "xp": 1680
   },
   {
-    "name": "Corn Seeds",
+    "buy_price": 2960,
+    "growth_time": 14400,
     "id": "64",
     "image": "/img/items/8288.png",
-    "xp": 1680,
-    "buy_price": 2960,
-    "growth_time": 14400
+    "name": "Corn Seeds",
+    "xp": 1680
   },
   {
-    "id": "377",
-    "name": "Cornucopia",
-    "image": "/img/items/cornucopia.png",
     "event": true,
-    "xp": 1,
-    "rarity": "Uncommon"
+    "id": "377",
+    "image": "/img/items/cornucopia.png",
+    "name": "Cornucopia",
+    "rarity": "Uncommon",
+    "xp": 1
   },
   {
-    "name": "Cotton",
+    "growth_time": 345600,
     "id": "254",
     "image": "/img/items/8311.png",
-    "sell_price": 100000,
-    "xp": 40320,
+    "name": "Cotton",
     "rarity": "Common",
-    "growth_time": 345600
+    "sell_price": 100000,
+    "xp": 40320
   },
   {
-    "name": "Cotton Seeds",
+    "buy_price": 84000,
+    "growth_time": 345600,
     "id": "255",
     "image": "/img/items/8311.png",
-    "xp": 40320,
-    "buy_price": 84000,
-    "growth_time": 345600
+    "name": "Cotton Seeds",
+    "xp": 40320
   },
   {
-    "name": "Crappie",
+    "id": "475",
+    "image": "/img/items/crabclaw.png",
+    "name": "Crab Claw",
+    "rarity": "Rare",
+    "sell_price": 25000,
+    "xp": 2500
+  },
+  {
+    "givable": true,
     "id": "39",
     "image": "/img/items/7735.PNG",
+    "name": "Crappie",
     "sell_price": 15,
-    "xp": 250,
-    "givable": true
+    "xp": 250
   },
   {
-    "name": "Cucumber",
+    "givable": true,
+    "growth_time": 240,
     "id": "29",
     "image": "/img/items/5805.png",
+    "name": "Cucumber",
     "sell_price": 42,
-    "xp": 40,
-    "givable": true,
-    "growth_time": 240
+    "xp": 40
   },
   {
-    "id": "30",
-    "name": "Cucumber Seeds",
-    "image": "/img/items/5805.png",
     "buy_price": 38,
-    "xp": 40,
-    "growth_time": 240
+    "growth_time": 240,
+    "id": "30",
+    "image": "/img/items/5805.png",
+    "name": "Cucumber Seeds",
+    "xp": 40
   },
   {
-    "id": "445",
-    "name": "Cupid",
-    "image": "/img/items/cupid.png",
     "event": true,
-    "xp": 2300,
     "givable": true,
-    "rarity": "Very Rare"
+    "id": "445",
+    "image": "/img/items/cupid.png",
+    "name": "Cupid",
+    "rarity": "Very Rare",
+    "xp": 2300
   },
   {
     "id": "383",
-    "name": "Cyclops Spider",
     "image": "/img/items/4080.png",
+    "name": "Cyclops Spider",
+    "rarity": "Very Rare",
     "sell_price": 25000,
-    "xp": 2500,
-    "rarity": "Very Rare"
+    "xp": 2500
   },
   {
-    "name": "Dancer",
+    "event": true,
+    "givable": true,
     "id": "441",
     "image": "/img/items/dancer.png",
-    "event": true,
-    "xp": 2300,
-    "givable": true,
-    "rarity": "Very Rare"
+    "name": "Dancer",
+    "rarity": "Very Rare",
+    "xp": 2300
   },
   {
-    "name": "Dasher",
+    "event": true,
+    "givable": true,
     "id": "440",
     "image": "/img/items/dasher.png",
-    "event": true,
-    "xp": 2300,
-    "givable": true,
-    "rarity": "Very Rare"
+    "name": "Dasher",
+    "rarity": "Very Rare",
+    "xp": 2300
   },
   {
-    "name": "Diamond",
     "id": "175",
     "image": "/img/items/7999.png",
+    "name": "Diamond",
+    "rarity": "Super Rare",
     "sell_price": 100000,
-    "xp": 5000,
-    "rarity": "Super Rare"
+    "xp": 5000
   },
   {
-    "name": "Dice",
+    "flea_market": 5,
     "id": "212",
     "image": "/img/items/4848.png",
+    "name": "Dice",
+    "rarity": "Uncommon",
     "sell_price": 1750,
-    "xp": 1750,
-    "flea_market": 5,
-    "rarity": "Uncommon"
+    "xp": 1750
   },
   {
-    "name": "Diving Helmet",
     "id": "267",
     "image": "/img/items/fishing_70_t.png",
+    "name": "Diving Helmet",
+    "rarity": "Super Rare",
     "sell_price": 100000,
-    "xp": 5000,
-    "rarity": "Super Rare"
+    "xp": 5000
   },
   {
-    "name": "Donner",
+    "event": true,
+    "givable": true,
     "id": "446",
     "image": "/img/items/donner.png",
-    "event": true,
-    "xp": 2300,
-    "givable": true,
-    "rarity": "Very Rare"
+    "name": "Donner",
+    "rarity": "Very Rare",
+    "xp": 2300
   },
   {
-    "name": "Dragon Skull",
     "id": "261",
     "image": "/img/items/7212.png",
+    "name": "Dragon Skull",
+    "rarity": "Super Rare",
     "sell_price": 100000,
-    "xp": 5000,
-    "rarity": "Super Rare"
+    "xp": 5000
   },
   {
-    "id": "384",
-    "name": "Dragonfly",
-    "image": "/img/items/fishing_64_t.png",
-    "sell_price": 250,
-    "xp": 1750,
     "givable": true,
-    "rarity": "Uncommon"
+    "id": "384",
+    "image": "/img/items/fishing_64_t.png",
+    "name": "Dragonfly",
+    "rarity": "Uncommon",
+    "sell_price": 250,
+    "xp": 1750
   },
   {
-    "name": "Drum",
+    "givable": true,
     "id": "17",
     "image": "/img/items/7718.PNG",
+    "name": "Drum",
     "sell_price": 12,
-    "xp": 100,
-    "givable": true
+    "xp": 100
   },
   {
-    "name": "Eggplant",
+    "givable": true,
+    "growth_time": 300,
     "id": "13",
     "image": "/img/items/eggplant.png",
+    "name": "Eggplant",
     "sell_price": 53,
-    "xp": 50,
-    "givable": true,
-    "growth_time": 300
+    "xp": 50
   },
   {
-    "name": "Eggplant Seeds",
+    "buy_price": 47,
+    "growth_time": 300,
     "id": "14",
     "image": "/img/items/eggplant.png",
-    "xp": 50,
-    "buy_price": 47,
-    "growth_time": 300
+    "name": "Eggplant Seeds",
+    "xp": 50
   },
   {
-    "name": "Eggs",
+    "givable": true,
     "id": "26",
     "image": "/img/items/5720.PNG",
+    "name": "Eggs",
     "sell_price": 75,
-    "xp": 5,
-    "givable": true
+    "xp": 5
   },
   {
-    "name": "Egyptian Necklace",
+    "event": true,
     "id": "371",
     "image": "/img/items/egyptian1.png",
-    "event": true,
+    "name": "Egyptian Necklace",
+    "rarity": "Uncommon",
     "sell_price": 50000,
-    "xp": 2500,
-    "rarity": "Uncommon"
+    "xp": 2500
   },
   {
-    "name": "Emberstone",
     "id": "178",
     "image": "/img/items/8166.png",
+    "name": "Emberstone",
+    "rarity": "Common",
     "sell_price": 500,
-    "xp": 500,
-    "rarity": "Common"
+    "xp": 500
   },
   {
-    "name": "Emerald",
     "id": "143",
     "image": "/img/items/emerald.png",
-    "sell_price": 2000,
-    "xp": 450,
-    "rarity": "Common",
     "mastery": true,
+    "name": "Emerald",
+    "rarity": "Common",
     "recipe": {
       "Stone": 2,
       "Unpolished Emerald": 2
-    }
+    },
+    "sell_price": 2000,
+    "xp": 450
   },
   {
-    "name": "Emerald Ring",
     "id": "146",
     "image": "/img/items/greenring.png",
-    "sell_price": 2500,
-    "xp": 2500,
-    "rarity": "Common",
     "mastery": true,
+    "name": "Emerald Ring",
+    "rarity": "Common",
     "recipe": {
       "Emerald": 1,
       "Iron Ring": 1,
       "Mushroom Paste": 1
-    }
+    },
+    "sell_price": 2500,
+    "xp": 2500
   },
   {
     "id": "353",
-    "name": "Energy Core",
     "image": "/img/items/parts_026.png",
+    "name": "Energy Core",
+    "rarity": "Uncommon",
     "sell_price": 1750,
-    "xp": 1750,
-    "rarity": "Uncommon"
+    "xp": 1750
   },
   {
-    "name": "Explosive",
     "id": "106",
     "image": "/img/items/6124.png",
-    "sell_price": 300,
-    "xp": 350,
     "mastery": true,
+    "name": "Explosive",
     "recipe": {
       "Black Powder": 2,
       "Board": 3,
       "Feathers": 1,
       "Nails": 6
-    }
+    },
+    "sell_price": 300,
+    "xp": 350
   },
   {
-    "name": "Eye Patch",
+    "flea_market": 5,
     "id": "245",
     "image": "/img/items/4920.png",
+    "name": "Eye Patch",
+    "rarity": "Uncommon",
     "sell_price": 1750,
-    "xp": 1750,
-    "flea_market": 5,
-    "rarity": "Uncommon"
+    "xp": 1750
   },
   {
-    "name": "Fancy Box",
+    "flea_market": 5,
     "id": "348",
     "image": "/img/items/4238.png",
+    "name": "Fancy Box",
+    "rarity": "Uncommon",
     "sell_price": 1750,
-    "xp": 1750,
-    "flea_market": 5,
-    "rarity": "Uncommon"
+    "xp": 1750
+  },
+  {
+    "id": "474",
+    "image": "/img/items/drum.png",
+    "mastery": true,
+    "name": "Fancy Drum",
+    "rarity": "Rare",
+    "recipe": {
+      "Leather": 2,
+      "Mushroom Paste": 2,
+      "Oak": 15,
+      "Yarn": 4
+    },
+    "sell_price": 100000,
+    "xp": 2500
   },
   {
     "id": "393",
-    "name": "Fancy Guitar",
     "image": "/img/items/3857.png?1",
-    "sell_price": 65000,
-    "xp": 55000,
     "mastery": true,
+    "name": "Fancy Guitar",
     "recipe": {
       "Iron": 4,
       "Mushroom Paste": 3,
       "Oak": 5,
       "Steel Wire": 6
-    }
+    },
+    "sell_price": 65000,
+    "xp": 55000
   },
   {
-    "name": "Fancy Pipe",
     "id": "301",
     "image": "/img/items/7275.png?1",
-    "sell_price": 5000,
-    "xp": 5000,
-    "rarity": "Uncommon",
     "mastery": true,
+    "name": "Fancy Pipe",
+    "rarity": "Uncommon",
     "recipe": {
       "Iron": 1,
       "Iron Ring": 3,
       "Wood": 2
-    }
+    },
+    "sell_price": 5000,
+    "xp": 5000
   },
   {
-    "name": "Feathers",
+    "givable": true,
     "id": "42",
     "image": "/img/items/feathers.png",
+    "name": "Feathers",
     "sell_price": 1,
-    "xp": 15,
-    "givable": true
+    "xp": 15
   },
   {
-    "name": "Feed",
     "id": "275",
-    "image": "/img/items/8299.png"
+    "image": "/img/items/8299.png",
+    "name": "Feed"
   },
   {
-    "name": "Fern Leaf",
+    "givable": true,
     "id": "52",
     "image": "/img/items/fern.png",
+    "name": "Fern Leaf",
     "sell_price": 1,
-    "xp": 25,
-    "givable": true
+    "xp": 25
   },
   {
-    "name": "Fire Ant",
+    "flea_market": 3,
+    "givable": true,
     "id": "286",
     "image": "/img/items/fireant.png",
+    "name": "Fire Ant",
+    "rarity": "Uncommon",
     "sell_price": 250,
-    "xp": 1750,
-    "givable": true,
-    "flea_market": 3,
-    "rarity": "Uncommon"
+    "xp": 1750
   },
   {
-    "name": "Fireworks",
     "id": "452",
     "image": "/img/items/petard.png",
+    "name": "Fireworks",
+    "rarity": "Common",
     "sell_price": 1750,
-    "xp": 1750,
-    "rarity": "Common"
+    "xp": 1750
   },
   {
-    "name": "Fish Bones",
+    "givable": true,
     "id": "45",
     "image": "/img/items/7747.PNG",
+    "name": "Fish Bones",
+    "rarity": "Common",
     "sell_price": 2,
-    "xp": 25,
-    "givable": true,
-    "rarity": "Common"
+    "xp": 25
   },
   {
-    "name": "Fishing Net",
+    "givable": true,
     "id": "194",
     "image": "/img/items/7748.png",
-    "xp": 1500,
-    "givable": true,
     "mastery": true,
+    "name": "Fishing Net",
     "recipe": {
       "Antler": 1,
       "Iron": 4,
       "Rope": 2
-    }
+    },
+    "xp": 1500
   },
   {
-    "name": "Flame Orb",
     "id": "343",
     "image": "/img/items/7405.png",
+    "name": "Flame Orb",
+    "rarity": "Super Rare",
     "sell_price": 100000,
-    "xp": 5000,
-    "rarity": "Super Rare"
+    "xp": 5000
   },
   {
-    "name": "Flamejack",
     "id": "232",
     "image": "/img/items/5162-2.png",
+    "name": "Flamejack",
+    "rarity": "Common",
     "sell_price": 3250,
-    "xp": 3250,
-    "rarity": "Common"
+    "xp": 3250
   },
   {
     "id": "234",
-    "name": "Flarefin",
     "image": "/img/items/5230-2.png",
+    "name": "Flarefin",
+    "rarity": "Common",
     "sell_price": 6500,
-    "xp": 6500,
-    "rarity": "Common"
+    "xp": 6500
   },
   {
-    "name": "Flier",
+    "givable": true,
     "id": "173",
     "image": "/img/items/7843.png",
+    "name": "Flier",
+    "rarity": "Common",
     "sell_price": 250,
-    "xp": 500,
-    "givable": true,
-    "rarity": "Common"
+    "xp": 500
   },
   {
-    "name": "Flour",
     "id": "276",
     "image": "/img/items/5763.png",
+    "mastery": true,
+    "name": "Flour",
     "sell_price": 2500
   },
   {
-    "name": "Fluorifish",
     "id": "201",
     "image": "/img/items/5771.png",
+    "name": "Fluorifish",
+    "rarity": "Common",
     "sell_price": 2500,
-    "xp": 2500,
-    "rarity": "Common"
+    "xp": 2500
   },
   {
     "id": "341",
-    "name": "Flywheel",
     "image": "/img/items/9387.png",
-    "sell_price": 10000,
-    "xp": 2500,
-    "rarity": "Uncommon",
     "mastery": true,
+    "name": "Flywheel",
+    "rarity": "Uncommon",
     "recipe": {
       "Small Gear": 1,
       "Small Screw": 7,
       "Steel": 20
-    }
+    },
+    "sell_price": 10000,
+    "xp": 2500
   },
   {
-    "name": "Freaky Picture",
+    "flea_market": 5,
     "id": "259",
     "image": "/img/items/5592.png",
+    "name": "Freaky Picture",
+    "rarity": "Uncommon",
     "sell_price": 1750,
-    "xp": 1750,
-    "flea_market": 5,
-    "rarity": "Uncommon"
+    "xp": 1750
   },
   {
-    "name": "Garnet",
+    "id": "479",
+    "image": "/img/items/frog.png",
+    "name": "Frog",
+    "rarity": "Rare",
+    "sell_price": 2500,
+    "xp": 2500
+  },
+  {
     "id": "317",
     "image": "/img/items/8008.png",
-    "sell_price": 15000,
-    "xp": 15000,
-    "rarity": "Common",
     "mastery": true,
+    "name": "Garnet",
+    "rarity": "Common",
     "recipe": {
       "Stone": 1,
       "Unpolished Garnet": 2
-    }
+    },
+    "sell_price": 15000,
+    "xp": 15000
   },
   {
-    "name": "Garnet Ring",
     "id": "316",
     "image": "/img/items/garnetring.png",
-    "sell_price": 30000,
-    "xp": 30000,
     "mastery": true,
+    "name": "Garnet Ring",
     "recipe": {
       "Garnet": 1,
       "Iron Ring": 1,
       "Mushroom Paste": 1
-    }
+    },
+    "sell_price": 30000,
+    "xp": 30000
   },
   {
-    "name": "Giant Centipede",
+    "flea_market": 3,
+    "givable": true,
     "id": "287",
     "image": "/img/items/giantcent.png",
+    "name": "Giant Centipede",
+    "rarity": "Uncommon",
     "sell_price": 250,
-    "xp": 1750,
-    "givable": true,
-    "flea_market": 3,
-    "rarity": "Uncommon"
+    "xp": 1750
   },
   {
-    "name": "Giant Squid",
     "id": "140",
     "image": "/img/items/7726.PNG",
+    "mastery": true,
+    "name": "Giant Squid",
+    "rarity": "Uncommon",
     "sell_price": 5000,
-    "xp": 3500,
-    "rarity": "Uncommon"
+    "xp": 3500
   },
   {
-    "name": "Gift Basket 01",
     "id": "329",
     "image": "/img/items/giftbasket.png",
+    "name": "Gift Basket 01",
     "xp": 1
   },
   {
-    "name": "Gingerbread House",
+    "event": true,
     "id": "423",
     "image": "/img/items/10_sm.png",
-    "event": true,
+    "name": "Gingerbread House",
     "sell_price": 1750,
     "xp": 1750
   },
   {
-    "name": "Gingerbread Man",
+    "event": true,
     "id": "415",
     "image": "/img/items/4_sm.png",
-    "event": true,
+    "name": "Gingerbread Man",
     "sell_price": 1750,
     "xp": 1750
   },
   {
-    "name": "Glass Bottle",
     "id": "117",
     "image": "/img/items/7727.PNG?1",
-    "sell_price": 10,
-    "xp": 150,
-    "rarity": "Common",
     "mastery": true,
+    "name": "Glass Bottle",
+    "rarity": "Common",
     "recipe": {
       "Glass Orb": 1,
       "Stone": 1
-    }
+    },
+    "sell_price": 10,
+    "xp": 150
   },
   {
-    "name": "Glass Orb",
+    "givable": true,
     "id": "78",
     "image": "/img/items/5708.PNG",
-    "sell_price": 60,
-    "xp": 300,
-    "givable": true,
-    "rarity": "Common",
     "mastery": true,
+    "name": "Glass Orb",
+    "rarity": "Common",
     "recipe": {
       "Shimmer Stone": 2,
       "Stone": 1
-    }
+    },
+    "sell_price": 60,
+    "xp": 300
   },
   {
-    "name": "Globber",
     "id": "199",
     "image": "/img/items/5766.png",
+    "name": "Globber",
+    "rarity": "Common",
     "sell_price": 1000,
-    "xp": 1000,
-    "rarity": "Common"
+    "xp": 1000
   },
   {
     "id": "467",
-    "name": "Gold Boot",
     "image": "/img/items/goldboot.png?1",
+    "name": "Gold Boot",
+    "rarity": "Super Rare",
     "sell_price": 500000,
-    "xp": 5000,
-    "rarity": "Super Rare"
+    "xp": 5000
   },
   {
-    "name": "Gold Carrot",
+    "givable": true,
+    "growth_time": 120,
     "id": "159",
     "image": "/img/items/8391g.png",
-    "sell_price": 400,
-    "xp": 40,
-    "givable": true,
+    "name": "Gold Carrot",
     "rarity": "Uncommon",
-    "growth_time": 120
+    "sell_price": 400,
+    "xp": 40
   },
   {
-    "name": "Gold Carrot Seeds",
+    "growth_time": 120,
     "id": "160",
     "image": "/img/items/8391g.png",
-    "xp": 56,
-    "growth_time": 120
+    "name": "Gold Carrot Seeds",
+    "xp": 56
   },
   {
-    "id": "458",
-    "name": "Gold Catfish",
-    "image": "/img/items/goldcatfish.png",
-    "sell_price": 750,
-    "xp": 550,
     "givable": true,
-    "rarity": "Common"
+    "id": "458",
+    "image": "/img/items/goldcatfish.png",
+    "mastery": true,
+    "name": "Gold Catfish",
+    "rarity": "Common",
+    "sell_price": 750,
+    "xp": 550
   },
   {
     "id": "459",
-    "name": "Gold Coral",
     "image": "/img/items/goldcoral.png",
+    "name": "Gold Coral",
+    "rarity": "Uncommon",
     "sell_price": 100000,
-    "xp": 15000,
-    "rarity": "Uncommon"
+    "xp": 15000
   },
   {
-    "name": "Gold Crab",
     "id": "270",
     "image": "/img/items/fishing_102_t.png",
+    "name": "Gold Crab",
+    "rarity": "Common",
     "sell_price": 250000,
-    "xp": 2500,
-    "rarity": "Common"
+    "xp": 2500
   },
   {
-    "name": "Gold Cucumber",
+    "givable": true,
     "id": "189",
     "image": "/img/items/5805g.png?1",
+    "name": "Gold Cucumber",
+    "rarity": "Uncommon",
     "sell_price": 840,
-    "xp": 80,
-    "givable": true,
-    "rarity": "Uncommon"
+    "xp": 80
   },
   {
-    "name": "Gold Cucumber Seeds",
+    "growth_time": 240,
     "id": "190",
     "image": "/img/items/5805g.png?1",
-    "xp": 63,
-    "growth_time": 240
+    "name": "Gold Cucumber Seeds",
+    "xp": 63
   },
   {
-    "name": "Gold Drum",
+    "givable": true,
     "id": "460",
     "image": "/img/items/golddrum.png",
+    "name": "Gold Drum",
+    "rarity": "Common",
     "sell_price": 120,
-    "xp": 120,
-    "givable": true,
-    "rarity": "Common"
+    "xp": 120
   },
   {
-    "name": "Gold Eggplant",
+    "givable": true,
     "id": "262",
     "image": "/img/items/geggplant.png?1",
+    "name": "Gold Eggplant",
+    "rarity": "Rare",
     "sell_price": 1060,
-    "xp": 100,
-    "givable": true,
-    "rarity": "Rare"
+    "xp": 100
   },
   {
-    "name": "Gold Eggplant Seeds",
+    "growth_time": 300,
     "id": "352",
     "image": "/img/items/geggplant.png?1",
-    "xp": 66,
-    "growth_time": 300
+    "name": "Gold Eggplant Seeds",
+    "xp": 66
   },
   {
-    "name": "Gold Feather",
+    "flea_market": 25,
     "id": "172",
     "image": "/img/items/5996.png",
+    "name": "Gold Feather",
+    "rarity": "Rare",
     "sell_price": 5000,
-    "xp": 1500,
-    "flea_market": 25,
-    "rarity": "Rare"
+    "xp": 1500
   },
   {
-    "name": "Gold Flier",
     "id": "462",
     "image": "/img/items/goldflier.png",
+    "mastery": true,
+    "name": "Gold Flier",
+    "rarity": "Common",
     "sell_price": 2500,
-    "xp": 500,
-    "rarity": "Common"
+    "xp": 500
   },
   {
-    "name": "Gold Leaf",
+    "flea_market": 25,
     "id": "281",
     "image": "/img/items/8774.png",
+    "name": "Gold Leaf",
+    "rarity": "Rare",
     "sell_price": 5000,
-    "xp": 1500,
-    "flea_market": 25,
-    "rarity": "Rare"
+    "xp": 1500
   },
   {
-    "name": "Gold Pea Seeds",
+    "growth_time": 180,
     "id": "162",
     "image": "/img/items/8259g.png",
-    "xp": 60,
-    "growth_time": 180
+    "name": "Gold Pea Seeds",
+    "xp": 60
   },
   {
-    "name": "Gold Peas",
+    "givable": true,
     "id": "161",
     "image": "/img/items/8259g.png",
+    "name": "Gold Peas",
+    "rarity": "Uncommon",
     "sell_price": 640,
-    "xp": 60,
-    "givable": true,
-    "rarity": "Uncommon"
+    "xp": 60
   },
   {
-    "name": "Gold Pepper Seeds",
+    "growth_time": 60,
     "id": "158",
     "image": "/img/items/8301g.png?1",
-    "xp": 53,
-    "growth_time": 60
+    "name": "Gold Pepper Seeds",
+    "xp": 53
   },
   {
-    "name": "Gold Peppers",
+    "flea_market": 2,
+    "givable": true,
     "id": "157",
     "image": "/img/items/8301g.png?1",
+    "name": "Gold Peppers",
+    "rarity": "Uncommon",
     "sell_price": 200,
-    "xp": 20,
-    "givable": true,
-    "flea_market": 2,
-    "rarity": "Uncommon"
+    "xp": 20
   },
   {
     "id": "465",
-    "name": "Gold Sea Bass",
     "image": "/img/items/goldseabass.png",
+    "mastery": true,
+    "name": "Gold Sea Bass",
+    "rarity": "Common",
     "sell_price": 3000,
-    "xp": 600,
-    "rarity": "Common"
+    "xp": 600
   },
   {
-    "name": "Gold Trout",
+    "givable": true,
     "id": "457",
     "image": "/img/items/goldtrout.png?1",
+    "mastery": true,
+    "name": "Gold Trout",
+    "rarity": "Common",
     "sell_price": 350,
-    "xp": 350,
-    "givable": true,
-    "rarity": "Common"
+    "xp": 350
   },
   {
     "id": "461",
-    "name": "Goldfin",
     "image": "/img/items/goldfin.png",
+    "name": "Goldfin",
+    "rarity": "Common",
     "sell_price": 65000,
-    "xp": 6500,
-    "rarity": "Common"
+    "xp": 6500
   },
   {
-    "name": "Goldfish",
     "id": "271",
     "image": "/img/items/fishing_118_t.png",
+    "name": "Goldfish",
+    "rarity": "Common",
     "sell_price": 250000,
-    "xp": 2500,
-    "rarity": "Common"
+    "xp": 2500
   },
   {
-    "name": "Goldgill",
+    "givable": true,
     "id": "463",
     "image": "/img/items/goldgill.png",
+    "mastery": true,
+    "name": "Goldgill",
+    "rarity": "Common",
     "sell_price": 750,
-    "xp": 525,
-    "givable": true,
-    "rarity": "Common"
+    "xp": 525
   },
   {
     "id": "466",
-    "name": "Goldjack",
     "image": "/img/items/goldjack.png?1",
+    "name": "Goldjack",
+    "rarity": "Common",
     "sell_price": 5000,
-    "xp": 500,
-    "rarity": "Common"
+    "xp": 500
   },
   {
     "id": "464",
-    "name": "Goldray",
     "image": "/img/items/goldray.png",
+    "mastery": true,
+    "name": "Goldray",
+    "rarity": "Common",
     "sell_price": 4000,
-    "xp": 400,
-    "rarity": "Common"
+    "xp": 400
   },
   {
-    "name": "Gouda",
     "id": "351",
     "image": "/img/items/4601.png",
+    "name": "Gouda",
     "sell_price": 2500,
     "xp": 1000
   },
   {
-    "name": "Grab Bag 01",
+    "flea_market": 2,
     "id": "330",
     "image": "/img/items/4497.png",
-    "xp": 1,
-    "flea_market": 2,
-    "rarity": "Uncommon"
+    "name": "Grab Bag 01",
+    "rarity": "Uncommon",
+    "xp": 1
   },
   {
-    "name": "Grab Bag 02",
+    "flea_market": 4,
     "id": "334",
     "image": "/img/items/4497.png",
-    "xp": 1,
-    "flea_market": 4,
-    "rarity": "Uncommon"
+    "name": "Grab Bag 02",
+    "rarity": "Uncommon",
+    "xp": 1
   },
   {
     "id": "396",
-    "name": "Grab Bag 03",
     "image": "/img/items/4497.png",
-    "xp": 1,
-    "rarity": "Uncommon"
+    "name": "Grab Bag 03",
+    "rarity": "Uncommon",
+    "xp": 1
   },
   {
-    "name": "Grab Bag 04",
     "id": "397",
     "image": "/img/items/4497.png",
-    "xp": 1,
-    "rarity": "Uncommon"
+    "name": "Grab Bag 04",
+    "rarity": "Uncommon",
+    "xp": 1
   },
   {
-    "name": "Grab Bag 05",
     "id": "398",
     "image": "/img/items/4497.png",
-    "xp": 1,
-    "rarity": "Uncommon"
+    "name": "Grab Bag 05",
+    "rarity": "Uncommon",
+    "xp": 1
   },
   {
-    "name": "Grab Bag 06",
     "id": "453",
     "image": "/img/items/4497.png",
-    "xp": 1,
-    "rarity": "Uncommon"
+    "name": "Grab Bag 06",
+    "rarity": "Uncommon",
+    "xp": 1
   },
   {
-    "name": "Grape Juice",
     "id": "112",
     "image": "/img/items/grapejuice.png",
-    "xp": 100,
     "mastery": true,
+    "name": "Grape Juice",
     "recipe": {
       "Glass Bottle": 1,
       "Grapes": 200
-    }
+    },
+    "xp": 100
   },
   {
-    "name": "Grapes",
+    "flea_market": 3,
+    "givable": true,
     "id": "120",
     "image": "/img/items/8272.PNG",
+    "name": "Grapes",
     "sell_price": 250,
-    "xp": 250,
-    "givable": true,
-    "flea_market": 3
+    "xp": 250
   },
   {
+    "givable": true,
     "id": "382",
-    "name": "Grasshopper",
     "image": "/img/items/3315.png",
+    "name": "Grasshopper",
+    "rarity": "Uncommon",
     "sell_price": 250,
-    "xp": 1750,
-    "givable": true,
-    "rarity": "Uncommon"
+    "xp": 1750
   },
   {
-    "name": "Green Chromis",
+    "givable": true,
     "id": "56",
     "image": "/img/items/7828.PNG",
+    "name": "Green Chromis",
+    "rarity": "Common",
     "sell_price": 25,
-    "xp": 350,
-    "givable": true,
-    "rarity": "Common"
+    "xp": 350
   },
   {
-    "name": "Green Cloak",
     "id": "350",
     "image": "/img/items/ForestIcons_54_t.png",
-    "sell_price": 125000,
-    "xp": 125000,
     "mastery": true,
+    "name": "Green Cloak",
     "recipe": {
       "Cotton": 1,
       "Green Dye": 10,
       "Leather": 5,
       "Twine": 10
-    }
+    },
+    "sell_price": 125000,
+    "xp": 125000
   },
   {
-    "name": "Green Diary",
     "id": "82",
     "image": "/img/items/greenbook.png",
-    "sell_price": 150,
-    "xp": 200,
     "mastery": true,
+    "name": "Green Diary",
     "recipe": {
       "Green Parchment": 1,
       "Mushroom Paste": 1,
       "White Parchment": 1
-    }
+    },
+    "sell_price": 150,
+    "xp": 200
   },
   {
-    "name": "Green Dye",
+    "givable": true,
     "id": "203",
     "image": "/img/items/greendye.png",
-    "sell_price": 35,
-    "xp": 500,
-    "givable": true,
     "mastery": true,
+    "name": "Green Dye",
     "recipe": {
       "Fern Leaf": 6,
       "Glass Bottle": 1
-    }
+    },
+    "sell_price": 35,
+    "xp": 500
   },
   {
-    "name": "Green Jellyfish",
     "id": "138",
     "image": "/img/items/7787.png",
+    "mastery": true,
+    "name": "Green Jellyfish",
+    "rarity": "Common",
     "sell_price": 800,
-    "xp": 800,
-    "rarity": "Common"
+    "xp": 800
   },
   {
-    "id": "403",
-    "name": "Green Ornament",
-    "image": "/img/items/cr_t_03_c.png",
     "event": true,
+    "id": "403",
+    "image": "/img/items/cr_t_03_c.png",
+    "name": "Green Ornament",
     "sell_price": 250,
     "xp": 1750
   },
   {
-    "name": "Green Parchment",
+    "givable": true,
     "id": "74",
     "image": "/img/items/greenparchment.png",
-    "sell_price": 50,
-    "xp": 100,
-    "givable": true,
     "mastery": true,
+    "name": "Green Parchment",
     "recipe": {
       "Fern Leaf": 3
-    }
+    },
+    "sell_price": 50,
+    "xp": 100
   },
   {
-    "name": "Green Scarf",
     "id": "414",
     "image": "/img/items/scarf.png",
-    "sell_price": 3200,
-    "xp": 1750,
     "mastery": true,
+    "name": "Green Scarf",
     "recipe": {
       "Green Dye": 1,
       "Yarn": 2
-    }
+    },
+    "sell_price": 3200,
+    "xp": 1750
   },
   {
-    "name": "Green Shield",
     "id": "204",
     "image": "/img/items/greenshield.png",
-    "sell_price": 5500,
-    "xp": 5500,
     "mastery": true,
+    "name": "Green Shield",
     "recipe": {
       "Green Dye": 1,
       "Iron": 3,
       "Wooden Shield": 1
-    }
+    },
+    "sell_price": 5500,
+    "xp": 5500
   },
   {
-    "name": "Grubs",
+    "givable": true,
     "id": "191",
     "image": "/img/items/7745.png",
-    "givable": true
+    "name": "Grubs"
   },
   {
-    "name": "Gummy Worms",
+    "givable": true,
     "id": "277",
     "image": "/img/items/gworm.png",
-    "givable": true
+    "name": "Gummy Worms"
   },
   {
-    "name": "Hammer",
+    "givable": true,
     "id": "236",
     "image": "/img/items/hammer.png?2",
-    "sell_price": 150,
-    "xp": 350,
-    "givable": true,
     "mastery": true,
+    "name": "Hammer",
     "recipe": {
       "Board": 1,
       "Iron": 1,
       "Mushroom Paste": 1
-    }
+    },
+    "sell_price": 150,
+    "xp": 350
   },
   {
-    "name": "Herbs",
     "id": "349",
     "image": "/img/items/5686.png",
+    "name": "Herbs",
+    "rarity": "Uncommon",
     "sell_price": 3500,
-    "xp": 3500,
-    "rarity": "Uncommon"
+    "xp": 3500
   },
   {
-    "name": "Hide",
+    "givable": true,
     "id": "109",
     "image": "/img/items/5986.PNG",
+    "name": "Hide",
+    "rarity": "Common",
     "sell_price": 150,
-    "xp": 150,
-    "givable": true,
-    "rarity": "Common"
+    "xp": 150
   },
   {
-    "name": "Hockey Mask",
+    "event": true,
     "id": "367",
     "image": "/img/items/hockeymask.png",
-    "event": true,
+    "name": "Hockey Mask",
+    "rarity": "Super Rare",
     "sell_price": 100000,
-    "xp": 5000,
-    "rarity": "Super Rare"
+    "xp": 5000
   },
   {
-    "name": "Holiday Candles",
+    "event": true,
     "id": "451",
     "image": "/img/items/11_sm.png",
-    "event": true,
-    "xp": 1750,
-    "rarity": "Super Rare"
+    "name": "Holiday Candles",
+    "rarity": "Super Rare",
+    "xp": 1750
   },
   {
-    "name": "Honey",
+    "flea_market": 5,
     "id": "250",
     "image": "/img/items/6678.png",
+    "name": "Honey",
     "sell_price": 5000,
-    "xp": 5000,
-    "flea_market": 5
+    "xp": 5000
   },
   {
-    "name": "Hops",
+    "givable": true,
     "id": "46",
     "image": "/img/items/8248.PNG",
+    "name": "Hops",
     "sell_price": 240,
-    "xp": 200,
-    "givable": true
+    "xp": 200
   },
   {
-    "name": "Hops Seeds",
+    "buy_price": 212,
+    "growth_time": 1200,
     "id": "47",
     "image": "/img/items/8248.PNG",
-    "xp": 200,
-    "buy_price": 212,
-    "growth_time": 1200
+    "name": "Hops Seeds",
+    "xp": 200
   },
   {
-    "name": "Horn",
+    "givable": true,
     "id": "164",
     "image": "/img/items/6111.PNG",
+    "name": "Horn",
+    "rarity": "Common",
     "sell_price": 250,
-    "xp": 250,
-    "givable": true,
-    "rarity": "Common"
+    "xp": 250
   },
   {
-    "name": "Horn Canteen",
     "id": "165",
     "image": "/img/items/5969.PNG",
-    "sell_price": 2500,
-    "xp": 2500,
     "mastery": true,
+    "name": "Horn Canteen",
     "recipe": {
       "Horn": 1,
       "Iron Ring": 2,
       "Twine": 1,
       "Wood": 1
-    }
+    },
+    "sell_price": 2500,
+    "xp": 2500
   },
   {
-    "name": "Horned Beetle",
+    "flea_market": 5,
+    "givable": true,
     "id": "283",
     "image": "/img/items/hbeetle.png",
+    "name": "Horned Beetle",
+    "rarity": "Uncommon",
     "sell_price": 250,
-    "xp": 1750,
-    "givable": true,
-    "flea_market": 5,
-    "rarity": "Uncommon"
+    "xp": 1750
   },
   {
-    "name": "Horseshoe",
     "id": "217",
     "image": "/img/items/6956.png",
-    "sell_price": 1000,
-    "xp": 1000,
     "mastery": true,
+    "name": "Horseshoe",
     "recipe": {
       "Iron": 5,
       "Nails": 7,
       "Stone": 2
-    }
+    },
+    "sell_price": 1000,
+    "xp": 1000
   },
   {
-    "name": "Hot Cocoa",
+    "event": true,
     "id": "425",
     "image": "/img/items/5_sm.png",
-    "event": true,
+    "name": "Hot Cocoa",
     "sell_price": 1750,
     "xp": 1750
   },
   {
     "id": "388",
-    "name": "Hourglass",
     "image": "/img/items/4241.png",
-    "sell_price": 25000,
-    "xp": 25000,
     "mastery": true,
+    "name": "Hourglass",
     "recipe": {
       "Glass Bottle": 2,
       "Mushroom Paste": 2,
       "Sand": 1,
       "Wood": 6
-    }
+    },
+    "sell_price": 25000,
+    "xp": 25000
   },
   {
-    "name": "Iced Tea",
+    "givable": true,
     "id": "185",
     "image": "/img/items/tea.png",
-    "xp": 100,
-    "givable": true
+    "name": "Iced Tea",
+    "xp": 100
   },
   {
-    "name": "Inferno Sphere",
     "id": "169",
     "image": "/img/items/6017.png",
-    "sell_price": 2000,
-    "xp": 50000,
+    "name": "Inferno Sphere",
     "rarity": "Super Rare",
     "recipe": {
       "Runestone 01": 1,
@@ -1950,150 +1992,150 @@
       "Runestone 08": 1,
       "Runestone 09": 1,
       "Runestone 10": 1
-    }
+    },
+    "sell_price": 2000,
+    "xp": 50000
   },
   {
-    "name": "Iron",
     "id": "22",
     "image": "/img/items/5779.PNG",
+    "name": "Iron",
     "xp": 10
   },
   {
-    "name": "Iron Cup",
+    "givable": true,
     "id": "130",
     "image": "/img/items/ironcup.png",
-    "sell_price": 165,
-    "xp": 100,
-    "givable": true,
-    "rarity": "Common",
     "mastery": true,
+    "name": "Iron Cup",
+    "rarity": "Common",
     "recipe": {
       "Iron": 3,
       "Stone": 1
-    }
+    },
+    "sell_price": 165,
+    "xp": 100
   },
   {
-    "name": "Iron Ring",
     "id": "95",
     "image": "/img/items/ironring.png",
-    "sell_price": 110,
-    "xp": 25,
-    "rarity": "Common",
     "mastery": true,
+    "name": "Iron Ring",
+    "rarity": "Common",
     "recipe": {
       "Iron": 2,
       "Stone": 1
-    }
+    },
+    "sell_price": 110,
+    "xp": 25
   },
   {
-    "name": "Jack-o-lantern",
+    "event": true,
     "id": "355",
     "image": "/img/items/pumpkin_t_05.png",
-    "event": true,
+    "name": "Jack-o-lantern",
+    "rarity": "Uncommon",
     "sell_price": 100000,
-    "xp": 50000,
-    "rarity": "Uncommon"
+    "xp": 50000
   },
   {
-    "name": "Jade",
     "id": "264",
     "image": "/img/items/jade.png",
-    "sell_price": 5000,
-    "xp": 3000,
-    "rarity": "Common",
     "mastery": true,
+    "name": "Jade",
+    "rarity": "Common",
     "recipe": {
       "Stone": 1,
       "Unpolished Jade": 2
-    }
+    },
+    "sell_price": 5000,
+    "xp": 3000
   },
   {
-    "name": "Jade Charm",
     "id": "265",
     "image": "/img/items/jadecharm.png",
-    "sell_price": 15000,
-    "xp": 8000,
-    "rarity": "Common",
     "mastery": true,
+    "name": "Jade Charm",
+    "rarity": "Common",
     "recipe": {
       "Iron Ring": 1,
       "Jade": 1,
       "Steel": 2,
       "Stone": 6
-    }
+    },
+    "sell_price": 15000,
+    "xp": 8000
   },
   {
-    "name": "Jellyfish",
     "id": "119",
     "image": "/img/items/7808.png",
+    "name": "Jellyfish",
+    "rarity": "Common",
     "sell_price": 400,
-    "xp": 400,
-    "rarity": "Common"
+    "xp": 400
   },
   {
-    "name": "Ladder",
+    "givable": true,
     "id": "260",
     "image": "/img/items/5629.png",
-    "sell_price": 500,
-    "xp": 500,
-    "givable": true,
     "mastery": true,
+    "name": "Ladder",
     "recipe": {
       "Board": 6,
       "Nails": 8
-    }
+    },
+    "sell_price": 500,
+    "xp": 500
   },
   {
-    "name": "Lantern",
     "id": "368",
     "image": "/img/items/lantern.png?1",
-    "sell_price": 40000,
-    "xp": 40000,
     "mastery": true,
+    "name": "Lantern",
     "recipe": {
       "Coal": 1,
       "Glass Bottle": 1,
       "Iron": 3,
       "Iron Ring": 1,
       "Twine": 2
-    }
+    },
+    "sell_price": 40000,
+    "xp": 40000
   },
   {
-    "name": "Large Chest 01",
     "id": "346",
     "image": "/img/items/8572.png",
-    "xp": 1,
-    "rarity": "Very Rare"
+    "name": "Large Chest 01",
+    "rarity": "Very Rare",
+    "xp": 1
   },
   {
-    "name": "Large Chest 02",
     "id": "363",
     "image": "/img/items/8572.png",
-    "xp": 1,
-    "rarity": "Very Rare"
+    "name": "Large Chest 02",
+    "rarity": "Very Rare",
+    "xp": 1
   },
   {
-    "name": "Large Clam Shell",
     "id": "269",
     "image": "/img/items/fishing_74_t.png",
+    "name": "Large Clam Shell",
+    "rarity": "Common",
     "sell_price": 250000,
-    "xp": 2500,
-    "rarity": "Common"
+    "xp": 2500
   },
   {
-    "name": "Largemouth Bass",
+    "givable": true,
     "id": "25",
     "image": "/img/items/7736.PNG",
+    "name": "Largemouth Bass",
     "sell_price": 14,
-    "xp": 200,
-    "givable": true
+    "xp": 200
   },
   {
     "id": "220",
-    "name": "Lava Sphere",
     "image": "/img/items/5249.png",
-    "sell_price": 4000,
-    "xp": 150000,
+    "name": "Lava Sphere",
     "rarity": "Super Rare",
     "recipe": {
       "Runestone 11": 1,
@@ -2106,200 +2148,201 @@
       "Runestone 18": 1,
       "Runestone 19": 1,
       "Runestone 20": 1
-    }
+    },
+    "sell_price": 4000,
+    "xp": 150000
   },
   {
-    "name": "Leather",
+    "givable": true,
     "id": "110",
     "image": "/img/items/5987.PNG",
-    "sell_price": 250,
-    "xp": 250,
-    "givable": true,
     "mastery": true,
+    "name": "Leather",
     "recipe": {
       "Hide": 2
-    }
+    },
+    "sell_price": 250,
+    "xp": 250
   },
   {
-    "name": "Leather Bag",
     "id": "166",
     "image": "/img/items/6175.PNG",
-    "sell_price": 3000,
-    "xp": 3000,
     "mastery": true,
+    "name": "Leather Bag",
     "recipe": {
       "Iron Ring": 4,
       "Leather": 2,
       "Twine": 2
-    }
+    },
+    "sell_price": 3000,
+    "xp": 3000
   },
   {
-    "name": "Leather Diary",
+    "givable": true,
     "id": "118",
     "image": "/img/items/5754.PNG",
-    "sell_price": 250,
-    "xp": 250,
-    "givable": true,
     "mastery": true,
+    "name": "Leather Diary",
     "recipe": {
       "Leather": 1,
       "Mushroom Paste": 1,
       "White Parchment": 1
-    }
+    },
+    "sell_price": 250,
+    "xp": 250
   },
   {
-    "name": "Leather Waterskin",
     "id": "239",
     "image": "/img/items/5563.png",
-    "sell_price": 3250,
-    "xp": 3250,
     "mastery": true,
+    "name": "Leather Waterskin",
     "recipe": {
       "Iron Ring": 1,
       "Leather": 2,
       "Twine": 2
-    }
+    },
+    "sell_price": 3250,
+    "xp": 3250
   },
   {
-    "name": "Leek",
+    "givable": true,
     "id": "50",
     "image": "/img/items/8291.png",
+    "name": "Leek",
     "sell_price": 775,
-    "xp": 600,
-    "givable": true
+    "xp": 600
   },
   {
-    "name": "Leek Seeds",
+    "buy_price": 680,
+    "growth_time": 3600,
     "id": "51",
     "image": "/img/items/8291.png",
-    "xp": 600,
-    "buy_price": 680,
-    "growth_time": 3600
+    "name": "Leek Seeds",
+    "xp": 600
   },
   {
-    "name": "Lemon",
+    "givable": true,
     "id": "62",
     "image": "/img/items/8251.PNG",
-    "sell_price": 25,
-    "givable": true,
-    "rarity": "Uncommon"
+    "name": "Lemon",
+    "rarity": "Uncommon",
+    "sell_price": 25
   },
   {
-    "name": "Lemon Quartz",
     "id": "80",
     "image": "/img/items/5798.png",
+    "name": "Lemon Quartz",
+    "rarity": "Common",
     "sell_price": 350,
-    "xp": 100,
-    "rarity": "Common"
+    "xp": 100
   },
   {
-    "name": "Lemon Quartz Ring",
     "id": "124",
     "image": "/img/items/lemonring.png",
-    "sell_price": 1500,
-    "xp": 1000,
-    "rarity": "Common",
     "mastery": true,
+    "name": "Lemon Quartz Ring",
+    "rarity": "Common",
     "recipe": {
       "Iron Ring": 1,
       "Lemon Quartz": 1,
       "Mushroom Paste": 1
-    }
+    },
+    "sell_price": 1500,
+    "xp": 1000
   },
   {
-    "name": "Lemonade",
+    "givable": true,
     "id": "86",
     "image": "/img/items/lemonade.png",
-    "sell_price": 35,
-    "xp": 500,
-    "givable": true,
     "mastery": true,
+    "name": "Lemonade",
     "recipe": {
       "Glass Bottle": 1,
       "Lemon": 6
-    }
+    },
+    "sell_price": 35,
+    "xp": 500
   },
   {
-    "name": "Lima Bean",
     "id": "279",
     "image": "/img/items/lima.png?1",
+    "name": "Lima Bean",
+    "rarity": "Super Rare",
     "sell_price": 100000,
-    "xp": 5000,
-    "rarity": "Super Rare"
+    "xp": 5000
   },
   {
-    "id": "359",
-    "name": "Lollipop",
-    "image": "/img/items/candy_t_08.png",
     "event": true,
+    "id": "359",
+    "image": "/img/items/candy_t_08.png",
+    "name": "Lollipop",
+    "rarity": "Common",
     "sell_price": 1750,
-    "xp": 1750,
-    "rarity": "Common"
+    "xp": 1750
   },
   {
-    "name": "Looking Glass",
     "id": "79",
     "image": "/img/items/5865.png",
-    "sell_price": 250,
-    "xp": 2500,
-    "rarity": "Common",
     "mastery": true,
+    "name": "Looking Glass",
+    "rarity": "Common",
     "recipe": {
       "Board": 3,
       "Glass Orb": 1,
       "Iron": 1
-    }
+    },
+    "sell_price": 250,
+    "xp": 2500
   },
   {
     "id": "468",
-    "name": "Lucky Rabbit Foot",
     "image": "/img/items/4289.png",
-    "xp": 5000,
-    "rarity": "Super Rare"
+    "name": "Lucky Rabbit Foot",
+    "rarity": "Super Rare",
+    "xp": 5000
   },
   {
-    "name": "MIAB",
+    "flea_market": 3,
     "id": "135",
     "image": "/img/items/7756.png",
+    "name": "MIAB",
+    "rarity": "Uncommon",
     "sell_price": 2000,
-    "xp": 2000,
-    "flea_market": 3,
-    "rarity": "Uncommon"
+    "xp": 2000
   },
   {
-    "name": "Mackerel",
     "id": "198",
     "image": "/img/items/5768.png",
+    "mastery": true,
+    "name": "Mackerel",
+    "rarity": "Common",
     "sell_price": 500,
-    "xp": 500,
-    "rarity": "Common"
+    "xp": 500
   },
   {
     "id": "211",
-    "name": "Magic Conch Shell",
     "image": "/img/items/mcs.png",
+    "name": "Magic Conch Shell",
+    "rarity": "Super Rare",
     "sell_price": 100000,
-    "xp": 5000,
-    "rarity": "Super Rare"
+    "xp": 5000
   },
   {
-    "name": "Magicite",
     "id": "176",
     "image": "/img/items/7963.png",
-    "sell_price": 25000,
-    "xp": 3000,
-    "rarity": "Uncommon",
     "mastery": true,
+    "name": "Magicite",
+    "rarity": "Uncommon",
     "recipe": {
       "Prism Shard": 3
-    }
+    },
+    "sell_price": 25000,
+    "xp": 3000
   },
   {
     "id": "340",
-    "name": "Magna Core",
     "image": "/img/items/9376.png",
-    "sell_price": 2000,
-    "xp": 50000,
+    "name": "Magna Core",
     "rarity": "Uncommon",
     "recipe": {
       "Cogwheel": 3,
@@ -2309,1852 +2352,1895 @@
       "Small Screw": 10,
       "Small Spring": 5,
       "Steel": 40
-    }
+    },
+    "sell_price": 2000,
+    "xp": 50000
   },
   {
-    "name": "Magna Quartz",
     "id": "338",
     "image": "/img/items/magnaquartz.png",
+    "name": "Magna Quartz",
+    "rarity": "Uncommon",
     "sell_price": 2500,
-    "xp": 2500,
-    "rarity": "Uncommon"
+    "xp": 2500
   },
   {
-    "name": "Magnifying Glass",
     "id": "216",
     "image": "/img/items/7210.png",
-    "sell_price": 5250,
-    "xp": 5250,
     "mastery": true,
+    "name": "Magnifying Glass",
     "recipe": {
       "Board": 1,
       "Glass Orb": 1,
       "Iron": 3,
       "Iron Ring": 1
-    }
+    },
+    "sell_price": 5250,
+    "xp": 5250
   },
   {
-    "name": "Marlin",
     "id": "114",
     "image": "/img/items/7816.png",
+    "name": "Marlin",
+    "rarity": "Common",
     "sell_price": 800,
-    "xp": 800,
-    "rarity": "Common"
+    "xp": 800
   },
   {
-    "name": "Medium Chest 01",
     "id": "336",
     "image": "/img/items/8574.png",
-    "xp": 1,
-    "rarity": "Very Rare"
+    "name": "Medium Chest 01",
+    "rarity": "Very Rare",
+    "xp": 1
   },
   {
-    "name": "Medium Chest 02",
     "id": "337",
     "image": "/img/items/8574.png",
-    "xp": 1,
-    "rarity": "Very Rare"
+    "name": "Medium Chest 02",
+    "rarity": "Very Rare",
+    "xp": 1
   },
   {
-    "name": "Milk",
+    "givable": true,
     "id": "85",
     "image": "/img/items/8382.PNG",
+    "name": "Milk",
     "sell_price": 150,
-    "xp": 5,
-    "givable": true
+    "xp": 5
   },
   {
-    "name": "Milk and Cookies",
+    "event": true,
     "id": "418",
     "image": "/img/items/25_sm.png",
-    "event": true,
+    "name": "Milk and Cookies",
+    "rarity": "Super Rare",
     "sell_price": 100000,
-    "xp": 100000,
-    "rarity": "Super Rare"
+    "xp": 100000
   },
   {
-    "name": "Minnows",
+    "givable": true,
     "id": "192",
     "image": "/img/items/7749.png",
-    "givable": true
+    "name": "Minnows"
   },
   {
-    "name": "Mistletoe",
+    "event": true,
     "id": "417",
     "image": "/img/items/28_sm.png",
-    "event": true,
+    "name": "Mistletoe",
     "sell_price": 1750,
     "xp": 1750
   },
   {
-    "name": "Mittens",
+    "event": true,
     "id": "421",
     "image": "/img/items/15_sm.png",
-    "event": true,
+    "name": "Mittens",
     "sell_price": 1750,
     "xp": 1750
   },
   {
     "id": "219",
-    "name": "Model Ship",
     "image": "/img/items/4925.png",
+    "name": "Model Ship",
+    "rarity": "Super Rare",
     "sell_price": 100000,
-    "xp": 5000,
-    "rarity": "Super Rare"
+    "xp": 5000
   },
   {
-    "name": "Moonstone",
     "id": "177",
     "image": "/img/items/8014.png",
+    "name": "Moonstone",
+    "rarity": "Uncommon",
     "sell_price": 10000,
-    "xp": 1500,
-    "rarity": "Uncommon"
+    "xp": 1500
   },
   {
-    "name": "Mushroom",
+    "givable": true,
     "id": "43",
     "image": "/img/items/mushroom.png",
+    "mastery": true,
+    "name": "Mushroom",
+    "rarity": "Common",
     "sell_price": 1,
-    "xp": 10,
-    "givable": true,
-    "rarity": "Common"
+    "xp": 10
   },
   {
-    "name": "Mushroom Paste",
+    "givable": true,
     "id": "75",
     "image": "/img/items/5691.png",
-    "sell_price": 50,
-    "xp": 25,
-    "givable": true,
     "mastery": true,
+    "name": "Mushroom Paste",
     "recipe": {
       "Mushroom": 3
-    }
+    },
+    "sell_price": 50,
+    "xp": 25
   },
   {
-    "name": "Mushroom Spores",
+    "buy_price": 3000,
+    "growth_time": 5400,
     "id": "395",
     "image": "/img/items/mushroom.png",
-    "xp": 600,
-    "buy_price": 3000,
-    "growth_time": 5400
+    "name": "Mushroom Spores",
+    "xp": 600
   },
   {
-    "name": "Mussel",
     "id": "136",
     "image": "/img/items/7785.png",
+    "name": "Mussel",
+    "rarity": "Common",
     "sell_price": 400,
-    "xp": 400,
-    "rarity": "Common"
+    "xp": 400
   },
   {
-    "name": "Mystic Ring",
     "id": "195",
     "image": "/img/items/8038.png",
-    "sell_price": 5000,
-    "xp": 5000,
     "mastery": true,
+    "name": "Mystic Ring",
     "recipe": {
       "Aquamarine": 1,
       "Emerald": 2,
       "Iron Ring": 1,
       "Mushroom Paste": 3,
       "Stone": 1
-    }
+    },
+    "sell_price": 5000,
+    "xp": 5000
   },
   {
-    "name": "Mystical Staff",
     "id": "325",
     "image": "/img/items/5273.png?1",
+    "name": "Mystical Staff",
+    "rarity": "Super Rare",
     "sell_price": 50000,
-    "xp": 1750,
-    "rarity": "Super Rare"
+    "xp": 1750
   },
   {
-    "name": "Nails",
     "id": "38",
     "image": "/img/items/5860.png",
+    "name": "Nails",
     "xp": 1
   },
   {
-    "name": "Oak",
+    "givable": true,
     "id": "303",
     "image": "/img/items/6695.png",
+    "name": "Oak",
     "sell_price": 100,
-    "xp": 100,
-    "givable": true
+    "xp": 100
   },
   {
-    "name": "Octopus",
     "id": "207",
     "image": "/img/items/8802.png",
+    "name": "Octopus",
+    "rarity": "Uncommon",
     "sell_price": 3000,
-    "xp": 3000,
-    "rarity": "Uncommon"
+    "xp": 3000
   },
   {
-    "name": "Old Boot",
+    "givable": true,
     "id": "116",
     "image": "/img/items/7848.PNG",
+    "name": "Old Boot",
+    "rarity": "Common",
     "sell_price": 10,
-    "xp": 100,
-    "givable": true,
-    "rarity": "Common"
+    "xp": 100
   },
   {
-    "name": "Onion",
+    "givable": true,
+    "growth_time": 900,
     "id": "33",
     "image": "/img/items/8317.png",
+    "mastery": true,
+    "name": "Onion",
     "sell_price": 180,
-    "xp": 150,
-    "givable": true
+    "xp": 150
   },
   {
-    "id": "34",
-    "name": "Onion Seeds",
-    "image": "/img/items/8317.png",
     "buy_price": 159,
-    "xp": 150,
-    "growth_time": 900
+    "growth_time": 900,
+    "id": "34",
+    "image": "/img/items/8317.png",
+    "name": "Onion Seeds",
+    "xp": 150
   },
   {
-    "name": "Orange",
+    "id": "470",
+    "image": "/img/items/hourglass.png",
+    "name": "Opposition Hourglass",
+    "rarity": "Super Rare",
+    "xp": 5000
+  },
+  {
+    "givable": true,
     "id": "61",
     "image": "/img/items/orange.png",
-    "sell_price": 25,
-    "givable": true,
-    "rarity": "Uncommon"
+    "name": "Orange",
+    "rarity": "Uncommon",
+    "sell_price": 25
   },
   {
-    "name": "Orange Gecko",
     "id": "389",
     "image": "/img/items/3493.png",
+    "name": "Orange Gecko",
+    "rarity": "Rare",
     "sell_price": 25000,
-    "xp": 2500,
-    "rarity": "Rare"
+    "xp": 2500
   },
   {
-    "name": "Orange Juice",
+    "givable": true,
     "id": "84",
     "image": "/img/items/orangejuice.png",
-    "sell_price": 35,
-    "xp": 500,
-    "givable": true,
     "mastery": true,
+    "name": "Orange Juice",
     "recipe": {
       "Glass Bottle": 1,
       "Orange": 6
-    }
+    },
+    "sell_price": 35,
+    "xp": 500
   },
   {
-    "id": "402",
-    "name": "Orange Ornament",
-    "image": "/img/items/cr_t_03_d.png",
     "event": true,
+    "id": "402",
+    "image": "/img/items/cr_t_03_d.png",
+    "name": "Orange Ornament",
     "sell_price": 250,
     "xp": 1750
   },
   {
-    "name": "Paper Receipt",
     "id": "385",
     "image": "/img/items/7611.png",
-    "xp": 2500,
-    "rarity": "Uncommon"
+    "name": "Paper Receipt",
+    "rarity": "Uncommon",
+    "xp": 2500
   },
   {
-    "id": "28",
-    "name": "Pea Seeds",
-    "image": "/img/items/8259.PNG",
     "buy_price": 29,
-    "xp": 30,
-    "growth_time": 180
+    "growth_time": 180,
+    "id": "28",
+    "image": "/img/items/8259.PNG",
+    "name": "Pea Seeds",
+    "xp": 30
   },
   {
-    "name": "Pearl",
     "id": "100",
     "image": "/img/items/7876.PNG",
+    "mastery": true,
+    "name": "Pearl",
+    "rarity": "Common",
     "sell_price": 300,
-    "xp": 600,
-    "rarity": "Common"
+    "xp": 600
   },
   {
-    "name": "Pearl Necklace",
     "id": "196",
     "image": "/img/items/pearlnecklace.png",
-    "sell_price": 1000,
-    "xp": 1000,
     "mastery": true,
+    "name": "Pearl Necklace",
     "recipe": {
       "Iron Ring": 1,
       "Pearl": 1,
       "Twine": 1
-    }
+    },
+    "sell_price": 1000,
+    "xp": 1000
   },
   {
-    "name": "Peas",
+    "givable": true,
     "id": "27",
     "image": "/img/items/8259.PNG",
+    "name": "Peas",
     "sell_price": 32,
-    "xp": 30,
-    "givable": true
+    "xp": 30
   },
   {
-    "name": "Pepper Seeds",
+    "buy_price": 9,
+    "growth_time": 60,
     "id": "12",
     "image": "/img/items/8301.png",
-    "xp": 10,
-    "buy_price": 9,
-    "growth_time": 60
+    "name": "Pepper Seeds",
+    "xp": 10
   },
   {
-    "name": "Peppers",
+    "givable": true,
+    "growth_time": 60,
     "id": "11",
     "image": "/img/items/8301.png",
+    "mastery": true,
+    "name": "Peppers",
     "sell_price": 10,
-    "xp": 10,
-    "givable": true,
-    "growth_time": 60
+    "xp": 10
   },
   {
     "id": "253",
-    "name": "Piece of Heart",
     "image": "/img/items/poh.png",
+    "name": "Piece of Heart",
+    "rarity": "Super Rare",
     "sell_price": 100000,
-    "xp": 5000,
-    "rarity": "Super Rare"
+    "xp": 5000
   },
   {
-    "name": "Pine Cone",
+    "flea_market": 1,
     "id": "289",
     "image": "/img/items/pinecone2.png",
+    "name": "Pine Cone",
+    "rarity": "Common",
     "sell_price": 300,
-    "xp": 300,
-    "flea_market": 1,
-    "rarity": "Common"
+    "xp": 300
   },
   {
-    "name": "Pine Seeds",
+    "buy_price": 9000,
+    "growth_time": 28800,
     "id": "410",
     "image": "/img/items/cr_t_06.png",
-    "xp": 5000,
-    "buy_price": 9000,
-    "growth_time": 28800
+    "name": "Pine Seeds",
+    "xp": 5000
   },
   {
-    "name": "Pine Tree",
     "id": "409",
     "image": "/img/items/cr_t_06.png",
+    "name": "Pine Tree",
     "sell_price": 10000,
     "xp": 5000
   },
   {
-    "name": "Pirate Bandana",
+    "flea_market": 5,
     "id": "258",
     "image": "/img/items/4903.png",
+    "name": "Pirate Bandana",
+    "rarity": "Uncommon",
     "sell_price": 1750,
-    "xp": 1750,
-    "flea_market": 5,
-    "rarity": "Uncommon"
+    "xp": 1750
   },
   {
-    "name": "Pirate Flag",
+    "flea_market": 5,
     "id": "246",
     "image": "/img/items/4924.png",
+    "name": "Pirate Flag",
+    "rarity": "Uncommon",
     "sell_price": 1750,
-    "xp": 1750,
-    "flea_market": 5,
-    "rarity": "Uncommon"
+    "xp": 1750
   },
   {
-    "name": "Plumbfish",
     "id": "309",
     "image": "/img/items/7754.png",
+    "mastery": true,
+    "name": "Plumbfish",
+    "rarity": "Common",
     "sell_price": 4000,
-    "xp": 9000,
-    "rarity": "Common"
+    "xp": 9000
   },
   {
-    "name": "Pocket Watch",
+    "flea_market": 5,
     "id": "213",
     "image": "/img/items/4887.png",
+    "name": "Pocket Watch",
+    "rarity": "Uncommon",
     "sell_price": 1750,
-    "xp": 1750,
-    "flea_market": 5,
-    "rarity": "Uncommon"
+    "xp": 1750
   },
   {
-    "name": "Popcorn",
     "id": "375",
     "image": "/img/items/popcorn.png",
+    "name": "Popcorn",
+    "rarity": "Uncommon",
     "sell_price": 1750,
-    "xp": 1750,
-    "rarity": "Uncommon"
+    "xp": 1750
   },
   {
-    "name": "Potato",
+    "givable": true,
+    "growth_time": 1500,
     "id": "48",
     "image": "/img/items/potato.png",
+    "mastery": true,
+    "name": "Potato",
     "sell_price": 303,
-    "xp": 250,
-    "givable": true
+    "xp": 250
   },
   {
-    "name": "Potato Seeds",
+    "buy_price": 267,
+    "growth_time": 1500,
     "id": "49",
     "image": "/img/items/potato.png",
-    "xp": 250,
-    "buy_price": 267,
-    "growth_time": 1500
+    "name": "Potato Seeds",
+    "xp": 250
   },
   {
-    "id": "442",
-    "name": "Prancer",
-    "image": "/img/items/prancer.png",
     "event": true,
-    "xp": 2300,
     "givable": true,
-    "rarity": "Very Rare"
+    "id": "442",
+    "image": "/img/items/prancer.png",
+    "name": "Prancer",
+    "rarity": "Very Rare",
+    "xp": 2300
   },
   {
-    "name": "Present 01",
     "id": "344",
     "image": "/img/items/7447.png",
-    "xp": 1,
-    "rarity": "Uncommon"
+    "name": "Present 01",
+    "rarity": "Uncommon",
+    "xp": 1
   },
   {
-    "name": "Prism Shard",
     "id": "179",
     "image": "/img/items/8072.png",
+    "name": "Prism Shard",
+    "rarity": "Common",
     "sell_price": 2500,
-    "xp": 500,
-    "rarity": "Common"
+    "xp": 500
   },
   {
-    "name": "Puffer",
     "id": "115",
     "image": "/img/items/7723.PNG",
+    "name": "Puffer",
+    "rarity": "Common",
     "sell_price": 400,
-    "xp": 400,
-    "rarity": "Common"
+    "xp": 400
   },
   {
+    "growth_time": 43200,
     "id": "69",
+    "image": "/img/items/8294.png",
     "name": "Pumpkin",
-    "image": "/img/items/8294.png",
     "sell_price": 10800,
-    "xp": 5040,
-    "growth_time": 43200
+    "xp": 5040
   },
   {
-    "id": "68",
-    "name": "Pumpkin Seeds",
-    "image": "/img/items/8294.png",
     "buy_price": 9360,
-    "xp": 5040,
-    "growth_time": 43200
+    "growth_time": 43200,
+    "id": "68",
+    "image": "/img/items/8294.png",
+    "name": "Pumpkin Seeds",
+    "xp": 5040
   },
   {
-    "name": "Purple Diary",
     "id": "83",
     "image": "/img/items/purplebook.png",
-    "sell_price": 150,
-    "xp": 200,
     "mastery": true,
+    "name": "Purple Diary",
     "recipe": {
       "Mushroom Paste": 1,
       "Purple Parchment": 1,
       "White Parchment": 1
-    }
+    },
+    "sell_price": 150,
+    "xp": 200
   },
   {
-    "name": "Purple Flower",
+    "givable": true,
     "id": "53",
     "image": "/img/items/flower.png",
+    "name": "Purple Flower",
     "sell_price": 1,
-    "xp": 15,
-    "givable": true
+    "xp": 15
   },
   {
-    "id": "407",
-    "name": "Purple Ornament",
-    "image": "/img/items/cr_t_03_b.png",
     "event": true,
+    "id": "407",
+    "image": "/img/items/cr_t_03_b.png",
+    "name": "Purple Ornament",
     "sell_price": 250,
     "xp": 1750
   },
   {
-    "name": "Purple Parchment",
+    "givable": true,
     "id": "73",
     "image": "/img/items/5755.PNG",
-    "sell_price": 50,
-    "xp": 100,
-    "givable": true,
     "mastery": true,
+    "name": "Purple Parchment",
     "recipe": {
       "Purple Flower": 3
-    }
+    },
+    "sell_price": 50,
+    "xp": 100
   },
   {
-    "name": "R.O.A.S.",
+    "event": true,
     "id": "369",
     "image": "/img/items/rat_t_01.png",
-    "event": true,
+    "name": "R.O.A.S.",
+    "rarity": "Uncommon",
     "sell_price": 1750,
-    "xp": 1750,
-    "rarity": "Uncommon"
+    "xp": 1750
   },
   {
-    "name": "Radish",
+    "givable": true,
     "id": "31",
     "image": "/img/items/radish.png?1",
+    "name": "Radish",
     "sell_price": 113,
-    "xp": 100,
-    "givable": true
+    "xp": 100
   },
   {
-    "name": "Radish Seeds",
+    "buy_price": 100,
+    "growth_time": 600,
     "id": "32",
     "image": "/img/items/radish.png?1",
-    "xp": 100,
-    "buy_price": 100,
-    "growth_time": 600
+    "name": "Radish Seeds",
+    "xp": 100
   },
   {
-    "name": "Raptor Claw",
     "id": "323",
     "image": "/img/items/raptor.png",
+    "name": "Raptor Claw",
+    "rarity": "Super Rare",
     "sell_price": 100000,
-    "xp": 5000,
-    "rarity": "Super Rare"
+    "xp": 5000
   },
   {
-    "name": "Raptor Egg",
     "id": "394",
     "image": "/img/items/raptoregg.png",
-    "xp": 5000,
-    "rarity": "Super Rare"
+    "name": "Raptor Egg",
+    "rarity": "Super Rare",
+    "xp": 5000
   },
   {
-    "name": "Red Berries",
     "id": "319",
     "image": "/img/items/ForestIcons_46_t.png",
+    "name": "Red Berries",
+    "rarity": "Common",
     "sell_price": 1000,
-    "xp": 1500,
-    "rarity": "Common"
+    "xp": 1500
   },
   {
-    "id": "404",
-    "name": "Red Ornament",
-    "image": "/img/items/cr_t_03.png",
     "event": true,
+    "id": "404",
+    "image": "/img/items/cr_t_03.png",
+    "name": "Red Ornament",
     "sell_price": 250,
     "xp": 1750
   },
   {
-    "name": "Red Starfish",
     "id": "205",
     "image": "/img/items/8814.png?1",
+    "name": "Red Starfish",
+    "rarity": "Common",
     "sell_price": 500,
-    "xp": 500,
-    "rarity": "Common"
+    "xp": 500
   },
   {
-    "name": "Redgill",
     "id": "233",
     "image": "/img/items/5182-2.png",
+    "name": "Redgill",
+    "rarity": "Common",
     "sell_price": 5500,
-    "xp": 5500,
-    "rarity": "Common"
+    "xp": 5500
   },
   {
-    "name": "Ring of Renthisj",
     "id": "365",
     "image": "/img/items/5466.png",
+    "name": "Ring of Renthisj",
+    "rarity": "Uncommon",
     "sell_price": 1750,
-    "xp": 1750,
-    "rarity": "Uncommon"
+    "xp": 1750
   },
   {
-    "name": "Rope",
+    "givable": true,
     "id": "193",
     "image": "/img/items/5624.png",
-    "sell_price": 100,
-    "xp": 1500,
-    "givable": true,
     "mastery": true,
+    "name": "Rope",
     "recipe": {
       "Twine": 3
-    }
+    },
+    "sell_price": 100,
+    "xp": 1500
   },
   {
-    "name": "Rubber Duckie",
     "id": "380",
     "image": "/img/items/ducky.png",
+    "name": "Rubber Duckie",
+    "rarity": "Uncommon",
     "sell_price": 2500,
-    "xp": 2500,
-    "rarity": "Uncommon"
+    "xp": 2500
   },
   {
-    "name": "Ruby",
     "id": "94",
     "image": "/img/items/6071.PNG",
-    "sell_price": 1500,
-    "xp": 350,
-    "rarity": "Common",
     "mastery": true,
+    "name": "Ruby",
+    "rarity": "Common",
     "recipe": {
       "Stone": 1,
       "Unpolished Ruby": 2
-    }
+    },
+    "sell_price": 1500,
+    "xp": 350
   },
   {
-    "name": "Ruby Coral",
     "id": "312",
     "image": "/img/items/coral.png",
+    "name": "Ruby Coral",
+    "rarity": "Common",
     "sell_price": 15000,
-    "xp": 7500,
-    "rarity": "Common"
+    "xp": 7500
   },
   {
-    "name": "Ruby Fish",
     "id": "174",
     "image": "/img/items/7838.png?1",
+    "name": "Ruby Fish",
+    "rarity": "Common",
     "sell_price": 1000,
-    "xp": 1000,
-    "rarity": "Common"
+    "xp": 1000
   },
   {
-    "name": "Ruby Ring",
     "id": "96",
     "image": "/img/items/rubyring.png",
-    "sell_price": 2000,
-    "xp": 1500,
-    "rarity": "Common",
     "mastery": true,
+    "name": "Ruby Ring",
+    "rarity": "Common",
     "recipe": {
       "Iron Ring": 1,
       "Mushroom Paste": 1,
       "Ruby": 1
-    }
+    },
+    "sell_price": 2000,
+    "xp": 1500
   },
   {
-    "name": "Ruby Scorpion",
     "id": "376",
     "image": "/img/items/4514.png",
+    "name": "Ruby Scorpion",
+    "rarity": "Uncommon",
     "sell_price": 2500,
-    "xp": 2500,
-    "rarity": "Uncommon"
+    "xp": 2500
   },
   {
-    "name": "Rudolph",
+    "event": true,
+    "givable": true,
     "id": "448",
     "image": "/img/items/rudolph.png",
-    "event": true,
-    "xp": 2300,
-    "givable": true,
-    "rarity": "Very Rare"
+    "name": "Rudolph",
+    "rarity": "Very Rare",
+    "xp": 2300
   },
   {
-    "name": "Runestone 01",
     "id": "147",
     "image": "/img/items/rs1.png",
+    "name": "Runestone 01",
+    "rarity": "Uncommon",
     "sell_price": 1000,
-    "xp": 1000,
-    "rarity": "Uncommon"
+    "xp": 1000
   },
   {
-    "name": "Runestone 02",
     "id": "148",
     "image": "/img/items/rs2.png",
+    "name": "Runestone 02",
+    "rarity": "Uncommon",
     "sell_price": 2000,
-    "xp": 2000,
-    "rarity": "Uncommon"
+    "xp": 2000
   },
   {
-    "name": "Runestone 03",
     "id": "149",
     "image": "/img/items/rs3.png",
+    "name": "Runestone 03",
+    "rarity": "Uncommon",
     "sell_price": 3000,
-    "xp": 3000,
-    "rarity": "Uncommon"
+    "xp": 3000
   },
   {
-    "name": "Runestone 04",
     "id": "150",
     "image": "/img/items/rs4.png",
+    "name": "Runestone 04",
+    "rarity": "Uncommon",
     "sell_price": 4000,
-    "xp": 4000,
-    "rarity": "Uncommon"
+    "xp": 4000
   },
   {
-    "name": "Runestone 05",
     "id": "151",
     "image": "/img/items/rs5.png",
+    "mastery": true,
+    "name": "Runestone 05",
+    "rarity": "Uncommon",
     "sell_price": 5000,
-    "xp": 5000,
-    "rarity": "Uncommon"
+    "xp": 5000
   },
   {
-    "name": "Runestone 06",
     "id": "152",
     "image": "/img/items/rs6.png",
+    "name": "Runestone 06",
+    "rarity": "Uncommon",
     "sell_price": 6000,
-    "xp": 6000,
-    "rarity": "Uncommon"
+    "xp": 6000
   },
   {
-    "name": "Runestone 07",
     "id": "153",
     "image": "/img/items/rs7.png",
+    "name": "Runestone 07",
+    "rarity": "Uncommon",
     "sell_price": 7000,
-    "xp": 7000,
-    "rarity": "Uncommon"
+    "xp": 7000
   },
   {
-    "name": "Runestone 08",
     "id": "154",
     "image": "/img/items/rs8.png",
+    "name": "Runestone 08",
+    "rarity": "Uncommon",
     "sell_price": 8000,
-    "xp": 8000,
-    "rarity": "Uncommon"
+    "xp": 8000
   },
   {
-    "name": "Runestone 09",
     "id": "155",
     "image": "/img/items/rs9.png",
+    "name": "Runestone 09",
+    "rarity": "Rare",
     "sell_price": 9000,
-    "xp": 9000,
-    "rarity": "Rare"
+    "xp": 9000
   },
   {
-    "name": "Runestone 10",
     "id": "156",
     "image": "/img/items/rs10.png",
+    "name": "Runestone 10",
+    "rarity": "Rare",
     "sell_price": 10000,
-    "xp": 10000,
-    "rarity": "Rare"
+    "xp": 10000
   },
   {
-    "name": "Runestone 11",
     "id": "221",
     "image": "/img/items/rs11.png?1",
+    "name": "Runestone 11",
+    "rarity": "Rare",
     "sell_price": 11000,
-    "xp": 11000,
-    "rarity": "Rare"
+    "xp": 11000
   },
   {
-    "name": "Runestone 12",
     "id": "222",
     "image": "/img/items/rs12.png",
+    "name": "Runestone 12",
+    "rarity": "Rare",
     "sell_price": 12000,
-    "xp": 12000,
-    "rarity": "Rare"
+    "xp": 12000
   },
   {
-    "name": "Runestone 13",
     "id": "223",
     "image": "/img/items/rs13.png",
+    "name": "Runestone 13",
+    "rarity": "Rare",
     "sell_price": 13000,
-    "xp": 13000,
-    "rarity": "Rare"
+    "xp": 13000
   },
   {
-    "name": "Runestone 14",
     "id": "224",
     "image": "/img/items/rs14.png?1",
+    "name": "Runestone 14",
+    "rarity": "Rare",
     "sell_price": 14000,
-    "xp": 14000,
-    "rarity": "Rare"
+    "xp": 14000
   },
   {
-    "name": "Runestone 15",
     "id": "225",
     "image": "/img/items/rs15.png",
+    "name": "Runestone 15",
+    "rarity": "Rare",
     "sell_price": 15000,
-    "xp": 15000,
-    "rarity": "Rare"
+    "xp": 15000
   },
   {
-    "name": "Runestone 16",
     "id": "226",
     "image": "/img/items/rs16.png?1",
+    "name": "Runestone 16",
+    "rarity": "Rare",
     "sell_price": 16000,
-    "xp": 16000,
-    "rarity": "Rare"
+    "xp": 16000
   },
   {
-    "name": "Runestone 17",
     "id": "227",
     "image": "/img/items/rs17.png",
+    "name": "Runestone 17",
+    "rarity": "Very Rare",
     "sell_price": 17000,
-    "xp": 17000,
-    "rarity": "Very Rare"
+    "xp": 17000
   },
   {
-    "name": "Runestone 18",
     "id": "228",
     "image": "/img/items/rs18.png?1",
+    "name": "Runestone 18",
+    "rarity": "Very Rare",
     "sell_price": 18000,
-    "xp": 18000,
-    "rarity": "Very Rare"
+    "xp": 18000
   },
   {
-    "name": "Runestone 19",
     "id": "229",
     "image": "/img/items/rs19.png?1",
+    "name": "Runestone 19",
+    "rarity": "Very Rare",
     "sell_price": 19000,
-    "xp": 19000,
-    "rarity": "Very Rare"
+    "xp": 19000
   },
   {
-    "name": "Runestone 20",
     "id": "230",
     "image": "/img/items/rs20.png",
+    "name": "Runestone 20",
+    "rarity": "Very Rare",
     "sell_price": 20000,
-    "xp": 20000,
-    "rarity": "Very Rare"
+    "xp": 20000
   },
   {
-    "name": "Salt",
     "id": "305",
     "image": "/img/items/salt.png",
-    "sell_price": 50000,
-    "xp": 5000,
     "mastery": true,
+    "name": "Salt",
     "recipe": {
       "Hammer": 1,
       "Salt Rock": 50
-    }
+    },
+    "sell_price": 50000,
+    "xp": 5000
   },
   {
-    "name": "Salt Rock",
     "id": "304",
     "image": "/img/items/saltrock.png",
+    "name": "Salt Rock",
+    "rarity": "Common",
     "sell_price": 500,
-    "xp": 500,
-    "rarity": "Common"
+    "xp": 500
   },
   {
-    "name": "Sand",
     "id": "387",
     "image": "/img/items/am_t_01.png",
-    "sell_price": 500,
-    "xp": 250,
     "mastery": true,
+    "name": "Sand",
     "recipe": {
       "Leather": 1,
       "Sandstone": 5
-    }
+    },
+    "sell_price": 500,
+    "xp": 250
   },
   {
-    "name": "Sandstone",
     "id": "202",
     "image": "/img/items/5197.png",
+    "name": "Sandstone",
     "sell_price": 50,
     "xp": 50
   },
   {
-    "name": "Santa Hat",
+    "event": true,
     "id": "413",
     "image": "/img/items/cr_t_04.png",
-    "event": true,
+    "name": "Santa Hat",
     "sell_price": 1750,
     "xp": 1750
   },
   {
-    "name": "Scissors",
     "id": "326",
     "image": "/img/items/scissors.png",
-    "sell_price": 1750,
-    "xp": 1750,
-    "rarity": "Uncommon",
     "mastery": true,
+    "name": "Scissors",
+    "rarity": "Uncommon",
     "recipe": {
       "Iron Ring": 1,
       "Nails": 1,
       "Steel": 2,
       "Stone": 1,
       "Wood": 2
-    }
+    },
+    "sell_price": 1750,
+    "xp": 1750
   },
   {
-    "name": "Sea Catfish",
     "id": "308",
     "image": "/img/items/7477.png",
+    "mastery": true,
+    "name": "Sea Catfish",
+    "rarity": "Common",
     "sell_price": 4500,
-    "xp": 8500,
-    "rarity": "Common"
+    "xp": 8500
   },
   {
-    "name": "Seahorse",
+    "id": "478",
+    "image": "/img/items/seadragon.png",
+    "name": "Sea Dragon",
+    "rarity": "Rare",
+    "sell_price": 50000,
+    "xp": 2500
+  },
+  {
     "id": "206",
     "image": "/img/items/8819.png",
+    "name": "Seahorse",
+    "rarity": "Common",
     "sell_price": 2500,
-    "xp": 2500,
-    "rarity": "Common"
+    "xp": 2500
   },
   {
     "id": "274",
-    "name": "Sealed Letter",
     "image": "/img/items/7475.png?1",
+    "name": "Sealed Letter",
+    "rarity": "Uncommon",
     "sell_price": 1750,
-    "xp": 1750,
-    "rarity": "Uncommon"
+    "xp": 1750
   },
   {
-    "name": "Seaweed",
     "id": "390",
     "image": "/img/items/fishing_75_t.png",
+    "name": "Seaweed",
+    "rarity": "Uncommon",
     "sell_price": 2500,
-    "xp": 2500,
-    "rarity": "Uncommon"
+    "xp": 2500
   },
   {
     "id": "327",
-    "name": "Seeing Stone",
     "image": "/img/items/5557.png?4",
+    "name": "Seeing Stone",
+    "rarity": "Super Rare",
     "sell_price": 100000,
-    "xp": 5000,
-    "rarity": "Super Rare"
+    "xp": 5000
   },
   {
-    "name": "Serpent Eel",
     "id": "311",
     "image": "/img/items/7817.png",
+    "mastery": true,
+    "name": "Serpent Eel",
+    "rarity": "Common",
     "sell_price": 10000,
-    "xp": 10000,
-    "rarity": "Common"
+    "xp": 10000
   },
   {
-    "name": "Shark Tooth",
     "id": "241",
     "image": "/img/items/sharktooth.png",
+    "name": "Shark Tooth",
+    "rarity": "Common",
     "sell_price": 1000,
-    "xp": 1000,
-    "rarity": "Common"
+    "xp": 1000
   },
   {
-    "name": "Shimmer Quartz",
     "id": "102",
     "image": "/img/items/5707.PNG",
+    "name": "Shimmer Quartz",
+    "rarity": "Common",
     "sell_price": 450,
-    "xp": 125,
-    "rarity": "Common"
+    "xp": 125
   },
   {
-    "name": "Shimmer Ring",
     "id": "249",
     "image": "/img/items/shimmertopazring.png",
-    "sell_price": 5000,
-    "xp": 5000,
     "mastery": true,
+    "name": "Shimmer Ring",
     "recipe": {
       "Iron Ring": 1,
       "Mushroom Paste": 1,
       "Shimmer Topaz": 1
-    }
+    },
+    "sell_price": 5000,
+    "xp": 5000
   },
   {
-    "name": "Shimmer Stone",
+    "givable": true,
     "id": "77",
     "image": "/img/items/5711.PNG",
-    "sell_price": 25,
-    "xp": 250,
-    "givable": true,
-    "rarity": "Common",
     "mastery": true,
+    "name": "Shimmer Stone",
+    "rarity": "Common",
     "recipe": {
       "Unpolished Shimmer Stone": 2
-    }
+    },
+    "sell_price": 25,
+    "xp": 250
   },
   {
-    "name": "Shimmer Topaz",
     "id": "248",
     "image": "/img/items/8055.png",
-    "sell_price": 2500,
-    "xp": 2500,
     "mastery": true,
+    "name": "Shimmer Topaz",
     "recipe": {
       "Shimmer Quartz": 3
-    }
+    },
+    "sell_price": 2500,
+    "xp": 2500
   },
   {
     "id": "268",
-    "name": "Shinefish",
     "image": "/img/items/fishing_112_t.png",
+    "name": "Shinefish",
+    "rarity": "Common",
     "sell_price": 250000,
-    "xp": 2500,
-    "rarity": "Common"
+    "xp": 2500
   },
   {
-    "name": "Shiny Beetle",
+    "flea_market": 5,
+    "givable": true,
     "id": "282",
     "image": "/img/items/beetle.png",
+    "name": "Shiny Beetle",
+    "rarity": "Uncommon",
     "sell_price": 250,
-    "xp": 1750,
-    "givable": true,
-    "flea_market": 5,
-    "rarity": "Uncommon"
+    "xp": 1750
   },
   {
-    "name": "Shovel",
+    "givable": true,
     "id": "238",
     "image": "/img/items/5853.png?1",
-    "sell_price": 300,
-    "xp": 550,
-    "givable": true,
     "mastery": true,
+    "name": "Shovel",
     "recipe": {
       "Board": 1,
       "Iron": 2,
       "Mushroom Paste": 1,
       "Stone": 1
-    }
+    },
+    "sell_price": 300,
+    "xp": 550
   },
   {
-    "name": "Shrimp",
+    "givable": true,
     "id": "141",
     "image": "/img/items/7844.PNG",
+    "mastery": true,
+    "name": "Shrimp",
+    "rarity": "Common",
     "sell_price": 150,
-    "xp": 400,
-    "givable": true,
-    "rarity": "Common"
+    "xp": 400
   },
   {
+    "event": true,
     "id": "366",
-    "name": "Skeleton Key",
     "image": "/img/items/skelkey.png",
-    "event": true,
-    "xp": 1750,
-    "rarity": "Very Rare"
-  },
-  {
-    "name": "Skipjack",
-    "id": "139",
-    "image": "/img/items/7790.png",
-    "sell_price": 500,
-    "xp": 500,
-    "givable": true
-  },
-  {
-    "name": "Skull Coin",
-    "id": "266",
-    "image": "/img/items/7286.png",
-    "sell_price": 100000,
-    "xp": 5000,
-    "rarity": "Super Rare"
-  },
-  {
-    "name": "Slimestone",
-    "id": "302",
-    "image": "/img/items/5655.png",
-    "sell_price": 150,
-    "xp": 150,
-    "rarity": "Common"
-  },
-  {
-    "name": "Small Chest 01",
-    "id": "332",
-    "image": "/img/items/4493.png",
-    "xp": 1,
-    "rarity": "Rare"
-  },
-  {
-    "name": "Small Chest 02",
-    "id": "333",
-    "image": "/img/items/4493.png",
-    "xp": 1,
-    "rarity": "Very Rare"
-  },
-  {
-    "name": "Small Flute",
-    "id": "273",
-    "image": "/img/items/5255.png?1",
-    "sell_price": 1750,
-    "xp": 1750,
-    "flea_market": 5,
-    "rarity": "Uncommon"
-  },
-  {
-    "name": "Small Gear",
-    "id": "342",
-    "image": "/img/items/9388.png",
-    "sell_price": 1750,
-    "xp": 1750,
-    "rarity": "Uncommon"
-  },
-  {
-    "name": "Small Key",
-    "id": "331",
-    "image": "/img/items/basickey.png",
-    "xp": 1750,
-    "flea_market": 3,
-    "rarity": "Rare"
-  },
-  {
-    "name": "Small Prawn",
-    "id": "58",
-    "image": "/img/items/7826.PNG",
-    "sell_price": 20,
-    "xp": 250,
-    "givable": true
-  },
-  {
-    "name": "Small Screw",
-    "id": "339",
-    "image": "/img/items/9380.png",
-    "sell_price": 1750,
-    "xp": 1750,
-    "rarity": "Uncommon"
-  },
-  {
-    "name": "Small Spring",
-    "id": "251",
-    "image": "/img/items/5633.png",
-    "sell_price": 1750,
-    "xp": 1750,
-    "flea_market": 5,
-    "rarity": "Uncommon"
-  },
-  {
-    "name": "Snail",
-    "id": "284",
-    "image": "/img/items/snail.png",
-    "sell_price": 250,
-    "xp": 1750,
-    "givable": true,
-    "flea_market": 4,
-    "rarity": "Uncommon"
-  },
-  {
-    "name": "Snow Globe",
-    "id": "428",
-    "image": "/img/items/21_sm.png",
-    "event": true,
+    "name": "Skeleton Key",
+    "rarity": "Very Rare",
     "xp": 1750
   },
   {
-    "name": "Snowball",
+    "givable": true,
+    "id": "139",
+    "image": "/img/items/7790.png",
+    "mastery": true,
+    "name": "Skipjack",
+    "sell_price": 500,
+    "xp": 500
+  },
+  {
+    "id": "266",
+    "image": "/img/items/7286.png",
+    "name": "Skull Coin",
+    "rarity": "Super Rare",
+    "sell_price": 100000,
+    "xp": 5000
+  },
+  {
+    "id": "302",
+    "image": "/img/items/5655.png",
+    "name": "Slimestone",
+    "rarity": "Common",
+    "sell_price": 150,
+    "xp": 150
+  },
+  {
+    "id": "332",
+    "image": "/img/items/4493.png",
+    "name": "Small Chest 01",
+    "rarity": "Rare",
+    "xp": 1
+  },
+  {
+    "id": "333",
+    "image": "/img/items/4493.png",
+    "name": "Small Chest 02",
+    "rarity": "Very Rare",
+    "xp": 1
+  },
+  {
+    "flea_market": 5,
+    "id": "273",
+    "image": "/img/items/5255.png?1",
+    "name": "Small Flute",
+    "rarity": "Uncommon",
+    "sell_price": 1750,
+    "xp": 1750
+  },
+  {
+    "id": "342",
+    "image": "/img/items/9388.png",
+    "name": "Small Gear",
+    "rarity": "Uncommon",
+    "sell_price": 1750,
+    "xp": 1750
+  },
+  {
+    "flea_market": 3,
+    "id": "331",
+    "image": "/img/items/basickey.png",
+    "name": "Small Key",
+    "rarity": "Rare",
+    "xp": 1750
+  },
+  {
+    "givable": true,
+    "id": "58",
+    "image": "/img/items/7826.PNG",
+    "name": "Small Prawn",
+    "sell_price": 20,
+    "xp": 250
+  },
+  {
+    "id": "339",
+    "image": "/img/items/9380.png",
+    "name": "Small Screw",
+    "rarity": "Uncommon",
+    "sell_price": 1750,
+    "xp": 1750
+  },
+  {
+    "flea_market": 5,
+    "id": "251",
+    "image": "/img/items/5633.png",
+    "name": "Small Spring",
+    "rarity": "Uncommon",
+    "sell_price": 1750,
+    "xp": 1750
+  },
+  {
+    "flea_market": 4,
+    "givable": true,
+    "id": "284",
+    "image": "/img/items/snail.png",
+    "name": "Snail",
+    "rarity": "Uncommon",
+    "sell_price": 250,
+    "xp": 1750
+  },
+  {
+    "event": true,
+    "id": "428",
+    "image": "/img/items/21_sm.png",
+    "name": "Snow Globe",
+    "xp": 1750
+  },
+  {
+    "event": true,
+    "givable": true,
     "id": "412",
     "image": "/img/items/cr_t_07.png",
-    "event": true,
+    "name": "Snowball",
+    "rarity": "Common",
     "sell_price": 150,
-    "xp": 500,
-    "givable": true,
-    "rarity": "Common"
+    "xp": 500
   },
   {
-    "name": "Snowman",
+    "event": true,
     "id": "411",
     "image": "/img/items/cr_t_08.png",
-    "event": true,
+    "name": "Snowman",
+    "rarity": "Uncommon",
     "sell_price": 50000,
-    "xp": 2500,
-    "rarity": "Uncommon"
+    "xp": 2500
   },
   {
-    "name": "Sour Root",
     "id": "322",
     "image": "/img/items/ForestIcons_11_t.png",
+    "name": "Sour Root",
+    "rarity": "Common",
     "sell_price": 1000,
-    "xp": 1500,
-    "rarity": "Common"
+    "xp": 1500
   },
   {
-    "name": "Spectacles",
+    "flea_market": 5,
     "id": "243",
     "image": "/img/items/5392.png",
+    "name": "Spectacles",
+    "rarity": "Uncommon",
     "sell_price": 1750,
-    "xp": 1750,
-    "flea_market": 5,
-    "rarity": "Uncommon"
+    "xp": 1750
   },
   {
-    "name": "Spider",
+    "flea_market": 6,
+    "givable": true,
     "id": "362",
     "image": "/img/items/spider_t_01.png",
+    "name": "Spider",
+    "rarity": "Uncommon",
     "sell_price": 250,
-    "xp": 1750,
-    "givable": true,
-    "flea_market": 6,
-    "rarity": "Uncommon"
+    "xp": 1750
   },
   {
-    "name": "Spiral Shell",
+    "id": "473",
+    "image": "/img/items/spikey.png",
+    "name": "Spiked Shell",
+    "rarity": "Rare",
+    "sell_price": 50000,
+    "xp": 2500
+  },
+  {
     "id": "310",
     "image": "/img/items/7878.png",
+    "name": "Spiral Shell",
+    "rarity": "Common",
     "sell_price": 3000,
-    "xp": 10000,
-    "rarity": "Common"
+    "xp": 10000
   },
   {
-    "name": "Square Key",
+    "flea_market": 25,
     "id": "335",
     "image": "/img/items/7179.png",
-    "xp": 1750,
-    "flea_market": 25,
-    "rarity": "Rare"
+    "name": "Square Key",
+    "rarity": "Rare",
+    "xp": 1750
   },
   {
-    "name": "Star",
+    "event": true,
     "id": "416",
     "image": "/img/items/29_sm.png",
-    "event": true,
+    "name": "Star",
+    "rarity": "Common",
     "sell_price": 1000,
-    "xp": 1750,
-    "rarity": "Common"
+    "xp": 1750
   },
   {
-    "name": "Starfish",
     "id": "98",
     "image": "/img/items/7821.png",
+    "name": "Starfish",
+    "rarity": "Common",
     "sell_price": 110,
-    "xp": 500,
-    "rarity": "Common"
+    "xp": 500
   },
   {
-    "name": "Steak",
     "id": "137",
     "image": "/img/items/5773.PNG",
+    "name": "Steak",
     "xp": 1
   },
   {
-    "name": "Steak Kabob",
     "id": "197",
     "image": "/img/items/8898.png",
+    "name": "Steak Kabob",
     "xp": 1
   },
   {
-    "name": "Steel",
     "id": "145",
     "image": "/img/items/6150.png",
-    "sell_price": 800,
-    "xp": 100,
     "mastery": true,
+    "name": "Steel",
     "recipe": {
       "Carbon Sphere": 1,
       "Glass Orb": 1,
       "Iron": 10
-    }
+    },
+    "sell_price": 800,
+    "xp": 100
   },
   {
-    "name": "Steel Wire",
     "id": "392",
     "image": "/img/items/wire.png",
-    "sell_price": 2000,
-    "xp": 1000,
     "mastery": true,
+    "name": "Steel Wire",
     "recipe": {
       "Carbon Sphere": 1,
       "Iron": 10,
       "Stone": 1
-    }
+    },
+    "sell_price": 2000,
+    "xp": 1000
   },
   {
-    "name": "Stingray",
+    "givable": true,
     "id": "134",
     "image": "/img/items/7831.PNG",
+    "name": "Stingray",
+    "rarity": "Common",
     "sell_price": 400,
-    "xp": 400,
-    "givable": true,
-    "rarity": "Common"
+    "xp": 400
   },
   {
-    "name": "Stone",
+    "givable": true,
     "id": "40",
     "image": "/img/items/6174.PNG",
+    "name": "Stone",
     "sell_price": 1,
-    "xp": 10,
-    "givable": true
+    "xp": 10
   },
   {
     "id": "345",
-    "name": "Strange Gem",
     "image": "/img/items/5167.png",
+    "name": "Strange Gem",
+    "rarity": "Uncommon",
     "sell_price": 1750,
-    "xp": 1750,
-    "rarity": "Uncommon"
+    "xp": 1750
   },
   {
-    "name": "Strange Letter",
+    "flea_market": 5,
     "id": "168",
     "image": "/img/items/7852.png",
+    "name": "Strange Letter",
+    "rarity": "Uncommon",
     "sell_price": 2000,
-    "xp": 2000,
-    "flea_market": 5,
-    "rarity": "Uncommon"
+    "xp": 2000
   },
   {
-    "name": "Strange Ring",
     "id": "235",
     "image": "/img/items/onering.png",
+    "name": "Strange Ring",
+    "rarity": "Super Rare",
     "sell_price": 100000,
-    "xp": 5000,
-    "rarity": "Super Rare"
+    "xp": 5000
   },
   {
-    "name": "Straw",
     "id": "128",
     "image": "/img/items/5908.png",
+    "name": "Straw",
+    "rarity": "Common",
     "sell_price": 150,
-    "xp": 150,
-    "rarity": "Common"
+    "xp": 150
   },
   {
-    "name": "Striped Feather",
     "id": "320",
     "image": "/img/items/6005.png",
+    "name": "Striped Feather",
+    "rarity": "Common",
     "sell_price": 1000,
-    "xp": 1500,
-    "rarity": "Common"
+    "xp": 1500
   },
   {
     "id": "456",
-    "name": "Sturdy Bow",
     "image": "/img/items/4765.png",
-    "sell_price": 80000,
-    "xp": 40000,
     "mastery": true,
+    "name": "Sturdy Bow",
     "recipe": {
       "Mushroom Paste": 2,
       "Oak": 4,
       "Steel": 1,
       "Stone": 2,
       "Twine": 2
-    }
+    },
+    "sell_price": 80000,
+    "xp": 40000
   },
   {
-    "name": "Sturdy Box",
     "id": "55",
     "image": "/img/items/5812.PNG",
-    "sell_price": 275,
-    "xp": 500,
     "mastery": true,
+    "name": "Sturdy Box",
     "recipe": {
       "Iron": 2,
       "Nails": 6,
       "Wood Plank": 6
-    }
+    },
+    "sell_price": 275,
+    "xp": 500
   },
   {
-    "name": "Sturdy Shield",
     "id": "167",
     "image": "/img/items/5847.png",
-    "sell_price": 4000,
-    "xp": 4000,
     "mastery": true,
+    "name": "Sturdy Shield",
     "recipe": {
       "Iron": 6,
       "Nails": 6,
       "Wood Plank": 1
-    }
+    },
+    "sell_price": 4000,
+    "xp": 4000
   },
   {
-    "name": "Sturdy Sword",
     "id": "300",
     "image": "/img/items/8927.png?1",
-    "sell_price": 11000,
-    "xp": 11000,
     "mastery": true,
+    "name": "Sturdy Sword",
     "recipe": {
       "Iron": 2,
       "Leather": 1,
       "Mushroom Paste": 1,
       "Steel": 1
-    }
+    },
+    "sell_price": 11000,
+    "xp": 11000
   },
   {
-    "name": "Sunfish",
     "id": "88",
     "image": "/img/items/7802.png",
+    "name": "Sunfish",
     "sell_price": 50,
     "xp": 400
   },
   {
-    "name": "Sunflower",
+    "growth_time": 518400,
     "id": "373",
     "image": "/img/items/sunflower.png",
+    "mastery": true,
+    "name": "Sunflower",
+    "rarity": "Common",
     "sell_price": 153000,
-    "xp": 60480,
-    "rarity": "Common"
+    "xp": 60480
   },
   {
-    "name": "Sunflower Seeds",
+    "buy_price": 126000,
+    "growth_time": 518400,
     "id": "374",
     "image": "/img/items/sunflower.png",
-    "xp": 60480,
-    "buy_price": 126000,
-    "growth_time": 518400
+    "name": "Sunflower Seeds",
+    "xp": 60480
   },
   {
-    "name": "Sweet Root",
     "id": "92",
     "image": "/img/items/5685.png",
+    "name": "Sweet Root",
+    "rarity": "Common",
     "sell_price": 50,
-    "xp": 50,
-    "rarity": "Common"
+    "xp": 50
   },
   {
-    "name": "Swordfish",
     "id": "306",
     "image": "/img/items/4899.png",
+    "mastery": true,
+    "name": "Swordfish",
+    "rarity": "Common",
     "sell_price": 5500,
-    "xp": 7500,
-    "rarity": "Common"
+    "xp": 7500
   },
   {
-    "name": "Taffy",
+    "event": true,
     "id": "370",
     "image": "/img/items/candy_t_11.png",
-    "event": true,
-    "sell_price": 1750,
-    "xp": 1750,
-    "rarity": "Common"
-  },
-  {
-    "id": "280",
-    "name": "Teapot",
-    "image": "/img/items/teapot.png",
-    "sell_price": 1750,
-    "xp": 1750,
-    "flea_market": 5,
-    "rarity": "Uncommon"
-  },
-  {
-    "name": "Teddy Bear",
-    "id": "420",
-    "image": "/img/items/17_sm.png",
-    "event": true,
+    "name": "Taffy",
+    "rarity": "Common",
     "sell_price": 1750,
     "xp": 1750
   },
   {
-    "name": "Thorns",
+    "flea_market": 5,
+    "id": "280",
+    "image": "/img/items/teapot.png",
+    "name": "Teapot",
+    "rarity": "Uncommon",
+    "sell_price": 1750,
+    "xp": 1750
+  },
+  {
+    "event": true,
+    "id": "420",
+    "image": "/img/items/17_sm.png",
+    "name": "Teddy Bear",
+    "sell_price": 1750,
+    "xp": 1750
+  },
+  {
     "id": "321",
     "image": "/img/items/ForestIcons_15_t.png",
+    "name": "Thorns",
+    "rarity": "Common",
     "sell_price": 1000,
-    "xp": 1500,
-    "rarity": "Common"
+    "xp": 1500
   },
   {
-    "name": "Tomato",
+    "givable": true,
     "id": "15",
     "image": "/img/items/8290.png",
+    "name": "Tomato",
     "sell_price": 375,
-    "xp": 300,
-    "givable": true
+    "xp": 300
   },
   {
-    "name": "Tomato Seeds",
+    "buy_price": 330,
+    "growth_time": 1800,
     "id": "16",
     "image": "/img/items/8290.png",
-    "xp": 300,
-    "buy_price": 330,
-    "growth_time": 1800
+    "name": "Tomato Seeds",
+    "xp": 300
   },
   {
-    "name": "Torch Fish",
     "id": "231",
     "image": "/img/items/5147-2.png",
+    "name": "Torch Fish",
     "sell_price": 2500,
     "xp": 2500
   },
   {
-    "name": "Treasure Chest",
     "id": "252",
     "image": "/img/items/4917.png",
-    "sell_price": 7500,
-    "xp": 7500,
     "mastery": true,
+    "name": "Treasure Chest",
     "recipe": {
       "Iron": 12,
       "Nails": 22,
       "Wood Plank": 6
-    }
+    },
+    "sell_price": 7500,
+    "xp": 7500
   },
   {
-    "name": "Treasure Key",
+    "flea_market": 50,
     "id": "347",
     "image": "/img/items/7148.png",
-    "xp": 1750,
-    "flea_market": 50,
-    "rarity": "Very Rare"
+    "name": "Treasure Key",
+    "rarity": "Very Rare",
+    "xp": 1750
   },
   {
+    "event": true,
     "id": "360",
+    "image": "/img/items/bag_t_03.png",
     "name": "Treat Bag 01",
-    "image": "/img/items/bag_t_03.png",
-    "event": true,
-    "xp": 1,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "xp": 1
   },
   {
-    "id": "364",
-    "name": "Treat Bag 02",
-    "image": "/img/items/bag_t_03.png",
     "event": true,
-    "xp": 1,
     "givable": true,
-    "rarity": "Uncommon"
-  },
-  {
-    "id": "372",
-    "name": "Treat Bag 03",
+    "id": "364",
     "image": "/img/items/bag_t_03.png",
-    "event": true,
-    "xp": 1,
-    "rarity": "Uncommon"
+    "name": "Treat Bag 02",
+    "rarity": "Uncommon",
+    "xp": 1
   },
   {
-    "name": "Tribal Mask",
+    "event": true,
+    "id": "372",
+    "image": "/img/items/bag_t_03.png",
+    "name": "Treat Bag 03",
+    "rarity": "Uncommon",
+    "xp": 1
+  },
+  {
     "id": "313",
     "image": "/img/items/ForestIcons_19_t.png",
-    "xp": 5000,
-    "rarity": "Super Rare"
+    "name": "Tribal Mask",
+    "rarity": "Super Rare",
+    "xp": 5000
   },
   {
-    "name": "Tribal Staff",
     "id": "324",
     "image": "/img/items/3972.png",
+    "name": "Tribal Staff",
+    "rarity": "Super Rare",
     "sell_price": 100000,
-    "xp": 5000,
-    "rarity": "Super Rare"
+    "xp": 5000
   },
   {
-    "name": "Trident of Poseidon",
     "id": "386",
     "image": "/img/items/trident.png",
+    "name": "Trident of Poseidon",
+    "rarity": "Super Rare",
     "sell_price": 100000,
-    "xp": 5000,
-    "rarity": "Super Rare"
+    "xp": 5000
   },
   {
-    "name": "Trout",
+    "givable": true,
     "id": "63",
     "image": "/img/items/trout.png",
+    "mastery": true,
+    "name": "Trout",
+    "rarity": "Common",
     "sell_price": 35,
-    "xp": 350,
-    "givable": true,
-    "rarity": "Common"
+    "xp": 350
   },
   {
-    "name": "Twine",
+    "givable": true,
     "id": "163",
     "image": "/img/items/6172-1.png",
-    "sell_price": 150,
-    "xp": 250,
-    "givable": true,
     "mastery": true,
+    "name": "Twine",
     "recipe": {
       "Straw": 2,
       "Wood": 1
-    }
+    },
+    "sell_price": 150,
+    "xp": 250
   },
   {
-    "name": "Unpolished Emerald",
     "id": "142",
     "image": "/img/items/uemerald.png",
+    "name": "Unpolished Emerald",
+    "rarity": "Common",
     "sell_price": 750,
-    "xp": 250,
-    "rarity": "Common"
+    "xp": 250
   },
   {
-    "name": "Unpolished Garnet",
     "id": "318",
     "image": "/img/items/8030.png",
+    "name": "Unpolished Garnet",
+    "rarity": "Common",
     "sell_price": 5000,
-    "xp": 5000,
-    "rarity": "Common"
+    "xp": 5000
   },
   {
-    "name": "Unpolished Jade",
     "id": "263",
     "image": "/img/items/ujade.png",
+    "name": "Unpolished Jade",
+    "rarity": "Common",
     "sell_price": 1500,
-    "xp": 750,
-    "rarity": "Common"
+    "xp": 750
   },
   {
-    "name": "Unpolished Ruby",
     "id": "93",
     "image": "/img/items/5992.png",
+    "name": "Unpolished Ruby",
+    "rarity": "Common",
     "sell_price": 500,
-    "xp": 150,
-    "rarity": "Common"
+    "xp": 150
   },
   {
-    "name": "Unpolished Shimmer Stone",
+    "givable": true,
     "id": "76",
     "image": "/img/items/5782.PNG",
-    "sell_price": 10,
-    "xp": 50,
-    "givable": true,
     "mastery": true,
+    "name": "Unpolished Shimmer Stone",
     "recipe": {
       "Emberstone": 1,
       "Sandstone": 1
-    }
+    },
+    "sell_price": 10,
+    "xp": 50
   },
   {
-    "name": "Vixen",
+    "event": true,
+    "givable": true,
     "id": "443",
     "image": "/img/items/vixen.png",
-    "event": true,
-    "xp": 2300,
-    "givable": true,
-    "rarity": "Very Rare"
+    "name": "Vixen",
+    "rarity": "Very Rare",
+    "xp": 2300
   },
   {
-    "name": "Wagon Wheel",
     "id": "328",
     "image": "/img/items/wheel.png",
-    "sell_price": 1750,
-    "xp": 1750,
-    "rarity": "Uncommon",
     "mastery": true,
+    "name": "Wagon Wheel",
+    "rarity": "Uncommon",
     "recipe": {
       "Board": 12,
       "Nails": 14
-    }
+    },
+    "sell_price": 1750,
+    "xp": 1750
   },
   {
-    "name": "Water Lily",
+    "flea_market": 15,
     "id": "378",
     "image": "/img/items/3258.png",
+    "name": "Water Lily",
+    "rarity": "Uncommon",
     "sell_price": 2500,
-    "xp": 2500,
-    "flea_market": 15,
-    "rarity": "Uncommon"
+    "xp": 2500
   },
   {
-    "name": "Watermelon",
     "id": "59",
     "image": "/img/items/8293.png",
+    "name": "Watermelon",
     "sell_price": 1600,
     "xp": 840
   },
   {
-    "name": "Watermelon Seeds",
+    "buy_price": 1400,
+    "growth_time": 7200,
     "id": "60",
     "image": "/img/items/8293.png",
-    "xp": 840,
-    "buy_price": 1400,
-    "growth_time": 7200
+    "name": "Watermelon Seeds",
+    "xp": 840
   },
   {
-    "name": "Wax Candle",
     "id": "354",
     "image": "/img/items/candle.png",
+    "name": "Wax Candle",
+    "rarity": "Uncommon",
     "sell_price": 1750,
-    "xp": 1750,
-    "rarity": "Uncommon"
+    "xp": 1750
   },
   {
-    "name": "Wheat",
     "id": "71",
     "image": "/img/items/8249.png",
+    "name": "Wheat",
     "sell_price": 22500,
     "xp": 10080
   },
   {
-    "name": "Wheat Seeds",
+    "buy_price": 19440,
+    "growth_time": 86400,
     "id": "70",
     "image": "/img/items/8249.png",
-    "xp": 10080,
-    "buy_price": 19440,
-    "growth_time": 86400
+    "name": "Wheat Seeds",
+    "xp": 10080
   },
   {
-    "name": "White Parchment",
     "id": "81",
     "image": "/img/items/whiteparchment.png",
-    "sell_price": 50,
-    "xp": 100,
     "mastery": true,
+    "name": "White Parchment",
     "recipe": {
       "Feathers": 3
-    }
+    },
+    "sell_price": 50,
+    "xp": 100
   },
   {
-    "name": "Wine",
     "id": "121",
     "image": "/img/items/wine.png",
-    "sell_price": 1000,
-    "xp": 2000,
     "mastery": true,
+    "name": "Wine",
     "recipe": {
       "Glass Bottle": 1,
       "Grapes": 100
-    }
+    },
+    "sell_price": 1000,
+    "xp": 2000
   },
   {
-    "name": "Winged Amulet",
     "id": "297",
     "image": "/img/items/7422.png",
+    "name": "Winged Amulet",
+    "rarity": "Super Rare",
     "sell_price": 100000,
-    "xp": 5000,
-    "rarity": "Super Rare"
+    "xp": 5000
   },
   {
-    "name": "Witch Hat",
+    "event": true,
     "id": "357",
     "image": "/img/items/hat_t_02.png",
-    "event": true,
+    "name": "Witch Hat",
+    "rarity": "Uncommon",
     "sell_price": 1750,
-    "xp": 1750,
-    "rarity": "Uncommon"
+    "xp": 1750
   },
   {
-    "name": "Wizard Hat",
     "id": "240",
     "image": "/img/items/4798.png",
-    "sell_price": 3300,
-    "xp": 3300,
     "mastery": true,
+    "name": "Wizard Hat",
     "recipe": {
       "Leather": 2,
       "Purple Flower": 10,
       "Twine": 3
-    }
+    },
+    "sell_price": 3300,
+    "xp": 3300
   },
   {
-    "name": "Wood",
+    "givable": true,
     "id": "35",
     "image": "/img/items/6143.PNG",
+    "name": "Wood",
     "sell_price": 1,
-    "xp": 10,
-    "givable": true
+    "xp": 10
   },
   {
-    "name": "Wood Plank",
     "id": "36",
     "image": "/img/items/5733.PNG",
-    "xp": 50,
     "mastery": true,
+    "name": "Wood Plank",
     "recipe": {
       "Board": 4,
       "Nails": 4
-    }
+    },
+    "xp": 50
   },
   {
-    "name": "Wooden Barrel",
     "id": "72",
     "image": "/img/items/5829.PNG",
-    "sell_price": 315,
-    "xp": 350,
     "mastery": true,
+    "name": "Wooden Barrel",
     "recipe": {
       "Board": 10,
       "Iron": 4,
       "Nails": 10
-    }
+    },
+    "sell_price": 315,
+    "xp": 350
   },
   {
     "id": "455",
-    "name": "Wooden Bow",
     "image": "/img/items/4764.png",
-    "sell_price": 2500,
-    "xp": 2500,
     "mastery": true,
+    "name": "Wooden Bow",
     "recipe": {
       "Fern Leaf": 1,
       "Iron": 2,
       "Twine": 2,
       "Wood": 4
-    }
+    },
+    "sell_price": 2500,
+    "xp": 2500
   },
   {
-    "name": "Wooden Box",
+    "givable": true,
     "id": "37",
     "image": "/img/items/5736.PNG",
-    "sell_price": 165,
-    "xp": 200,
-    "givable": true,
     "mastery": true,
+    "name": "Wooden Box",
     "recipe": {
       "Nails": 6,
       "Wood Plank": 6
-    }
+    },
+    "sell_price": 165,
+    "xp": 200
   },
   {
-    "name": "Wooden Mask",
+    "flea_market": 5,
     "id": "214",
     "image": "/img/items/4880.png",
+    "name": "Wooden Mask",
+    "rarity": "Uncommon",
     "sell_price": 1750,
-    "xp": 1750,
-    "flea_market": 5,
-    "rarity": "Uncommon"
+    "xp": 1750
   },
   {
-    "name": "Wooden Pipe",
     "id": "272",
     "image": "/img/items/4910.png?1",
+    "name": "Wooden Pipe",
+    "rarity": "Uncommon",
     "sell_price": 1750,
-    "xp": 1750,
-    "rarity": "Uncommon"
+    "xp": 1750
   },
   {
-    "name": "Wooden Shield",
     "id": "127",
     "image": "/img/items/5822.PNG",
-    "sell_price": 500,
-    "xp": 450,
     "mastery": true,
+    "name": "Wooden Shield",
     "recipe": {
       "Iron": 1,
       "Nails": 4,
       "Wood Plank": 1
-    }
+    },
+    "sell_price": 500,
+    "xp": 450
   },
   {
-    "name": "Wooden Sword",
     "id": "299",
     "image": "/img/items/sword2.png",
-    "sell_price": 1750,
-    "xp": 1750,
-    "rarity": "Uncommon",
     "mastery": true,
+    "name": "Wooden Sword",
+    "rarity": "Uncommon",
     "recipe": {
       "Board": 1,
       "Iron": 2,
       "Twine": 4
-    }
+    },
+    "sell_price": 1750,
+    "xp": 1750
   },
   {
-    "name": "Worms",
+    "buy_price": 3,
+    "givable": true,
     "id": "18",
     "image": "/img/items/7758.png",
-    "givable": true,
-    "buy_price": 3
+    "name": "Worms"
   },
   {
-    "name": "Yarn",
+    "givable": true,
     "id": "427",
     "image": "/img/items/pt_t_07.png",
-    "sell_price": 100,
-    "xp": 1750,
-    "givable": true,
-    "rarity": "Common",
     "mastery": true,
+    "name": "Yarn",
+    "rarity": "Common",
     "recipe": {
       "Twine": 4
-    }
+    },
+    "sell_price": 100,
+    "xp": 1750
   },
   {
-    "id": "405",
-    "name": "Yellow Ornament",
-    "image": "/img/items/cr_t_03_e.png",
     "event": true,
+    "id": "405",
+    "image": "/img/items/cr_t_03_e.png",
+    "name": "Yellow Ornament",
     "sell_price": 250,
     "xp": 1750
   },
   {
-    "name": "Yellow Perch",
+    "givable": true,
     "id": "24",
     "image": "/img/items/yellowperch.png",
+    "mastery": true,
+    "name": "Yellow Perch",
     "sell_price": 12,
-    "xp": 100,
-    "givable": true
+    "xp": 100
   }
 ]
