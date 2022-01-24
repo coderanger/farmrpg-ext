@@ -13,6 +13,21 @@ if TYPE_CHECKING:
 
 # For some reason I don't understand, @classmethod doesn't work with operator methods.
 class ItemMeta(type):
+    @property
+    def _all_items(cls) -> dict[str, Item]:
+        """Lazy load the item data."""
+        if not hasattr(cls, "_all_items_cache"):
+            cls._all_items_cache = {
+                it["name"]: cls(**it)
+                for it in json.load(
+                    Path(__file__).joinpath("..", "data", "items.json").resolve().open()
+                )
+            }
+        return cls._all_items_cache
+
+    def get(cls, name: str) -> Optional[Item]:
+        return cls._all_items.get(name)
+
     def __getitem__(cls, name: str) -> Item:
         return cls._all_items[name]
 
@@ -35,22 +50,6 @@ class Item(metaclass=ItemMeta):
     flea_market: bool = False
     mastery: bool = False
     event: bool = False
-
-    @classmethod
-    @property
-    def _all_items(cls) -> dict[str, Item]:
-        """Lazy load the item data."""
-        cls._all_items = {
-            it["name"]: cls(**it)
-            for it in json.load(
-                Path(__file__).joinpath("..", "data", "items.json").resolve().open()
-            )
-        }
-        return cls._all_items
-
-    @classmethod
-    def get(cls, name: str) -> Optional[Item]:
-        return cls._all_items.get(name)
 
     def growth_time_for(self, player: Player) -> int:
         if self.growth_time is None:

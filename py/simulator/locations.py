@@ -3,7 +3,7 @@ from __future__ import annotations
 import json
 import random
 from pathlib import Path
-from typing import TYPE_CHECKING, Optional
+from typing import TYPE_CHECKING, Mapping, Optional
 
 import attrs
 import structlog
@@ -18,7 +18,7 @@ if TYPE_CHECKING:
 class _ItemPicker:
     """Helper class for the logic to pick a random item from a dict[str,float] rates bucket."""
 
-    def __init__(self, rates: frozendict[str, float], allow_none: bool = False):
+    def __init__(self, rates: Mapping[str, float], allow_none: bool = False):
         # Copy the dict to be extra sure we get the population and weights in the same order.
         pairs = list(rates.items())
         self.items: list[Optional[Item]] = [Item[p[0]] for p in pairs]
@@ -38,6 +38,24 @@ class _ItemPicker:
 
 # For some reason I don't understand, @classmethod doesn't work with operator methods.
 class LocationMeta(type):
+    @property
+    def _all_locations(cls) -> dict[str, Location]:
+        """Lazy load the location data."""
+        if not hasattr(cls, "_all_locations_cache"):
+            cls._all_locations_cache = {
+                str(loc["name"]): cls(**loc)
+                for loc in json.load(
+                    Path(__file__)
+                    .joinpath("..", "data", "locations.json")
+                    .resolve()
+                    .open()
+                )
+            }
+        return cls._all_locations_cache
+
+    def get(cls, name: str) -> Optional[Location]:
+        return cls._all_locations.get(name)
+
     def __getitem__(cls, name: str) -> Location:
         return cls._all_locations[name]
 
@@ -70,22 +88,6 @@ class Location(metaclass=LocationMeta):
         )
         object.__setattr__(self, "_lemonade_picker", _ItemPicker(self.lemonade_rates))
         object.__setattr__(self, "_net_picker", _ItemPicker(self.net_rates))
-
-    @classmethod
-    @property
-    def _all_locations(cls) -> dict[str, Location]:
-        """Lazy load the location data."""
-        cls._all_locations = {
-            str(loc["name"]): cls(**loc)
-            for loc in json.load(
-                Path(__file__).joinpath("..", "data", "locations.json").resolve().open()
-            )
-        }
-        return cls._all_locations
-
-    @classmethod
-    def get(cls, name: str) -> Optional[Location]:
-        return cls._all_locations.get(name)
 
     def explore(self, player: Player) -> None:
         if self.type != "explore":
