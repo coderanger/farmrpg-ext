@@ -61,5 +61,27 @@ if __name__ == "__main__":
         {item_case_mappings.get(k, k): v for k, v in item.items()}
         for item in load_fixture("items")
     ]
-    data_path = Path(__file__) / ".." / "simulator" / "data" / "items.json"
-    json.dump(items, data_path.resolve().open("w"), indent=2)
+    item_data_path = Path(__file__) / ".." / "simulator" / "data" / "items.json"
+    json.dump(items, item_data_path.resolve().open("w"), indent=2, sort_keys=True)
+
+    locations = load_fixture("locations")
+
+    import droprates
+    import fishrates
+    import lemonade
+
+    rates = droprates.rates_per_stam()
+    lemonade_rates = lemonade.drop_rates()
+    net_rates = fishrates.net_rates()
+    for loc in locations:
+        if loc["type"] == "explore":
+            items = {it: rates.get(loc["name"], {}).get(it, 0) for it in loc["items"]}
+            loc["explore_rates"] = items
+            loc["lemonade_rates"] = lemonade_rates.get(loc["name"], {})
+        elif loc["type"] == "fishing":
+            loc["net_rates"] = net_rates.get(loc["name"], {})
+
+    location_data_base = Path(__file__) / ".." / "simulator" / "data" / "locations.json"
+    json.dump(
+        locations, location_data_base.resolve().open("w"), indent=2, sort_keys=True
+    )
