@@ -17,6 +17,33 @@ def total_drops() -> dict[str, dict[str, int]]:
     return totals
 
 
+def rates_per_stam() -> dict[str, dict[str, float]]:
+    rates = {}
+    for loc, loc_data in total_drops().items():
+        loc_rates = {}
+        for item, drops in loc_data["drops"].items():
+            if item == "ALL":
+                continue
+            loc_rates[item] = drops / loc_data["stamina"]
+        rates[loc] = loc_rates
+    return rates
+
+
+def drop_rates() -> dict[str, dict[str, float]]:
+    rates = {}
+    for loc, loc_data in total_drops().items():
+        zone_total = sum(
+            drops for item, drops in loc_data["drops"].items() if item != "ALL"
+        )
+        loc_rates = {}
+        for item, drops in loc_data["drops"].items():
+            if item == "ALL":
+                continue
+            loc_rates[item] = drops / zone_total
+        rates[loc] = loc_rates
+    return rates
+
+
 if __name__ == "__main__":
     item_filter = sys.argv[1] if len(sys.argv) > 1 else None
     combined_stam_per_drop = {}
@@ -25,11 +52,11 @@ if __name__ == "__main__":
         for item, drops in sorted(zone_totals["drops"].items()):
             if item_filter and item != item_filter:
                 continue
-            stam_per_drop = zone_totals['stamina'] / drops
+            stam_per_drop = zone_totals["stamina"] / drops
             if stam_per_drop < combined_stam_per_drop.get(item, 1000000000000):
                 combined_stam_per_drop[item] = stam_per_drop
             print(f"\t{item}: {stam_per_drop} ({drops})")
 
     print("Combined:")
     for item, stam_per_drop in sorted(combined_stam_per_drop.items()):
-        print(f"        \"{item}\": {stam_per_drop},")
+        print(f'        "{item}": {stam_per_drop},')
