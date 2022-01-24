@@ -18,7 +18,7 @@ if TYPE_CHECKING:
 class _ItemPicker:
     """Helper class for the logic to pick a random item from a dict[str,float] rates bucket."""
 
-    def __init__(self, rates: dict[str, float], allow_none: bool = False):
+    def __init__(self, rates: frozendict[str, float], allow_none: bool = False):
         # Copy the dict to be extra sure we get the population and weights in the same order.
         pairs = list(rates.items())
         self.items: list[Optional[Item]] = [Item[p[0]] for p in pairs]
@@ -76,7 +76,7 @@ class Location(metaclass=LocationMeta):
     def _all_locations(cls) -> dict[str, Location]:
         """Lazy load the location data."""
         cls._all_locations = {
-            loc["name"]: cls(**loc)
+            str(loc["name"]): cls(**loc)
             for loc in json.load(
                 Path(__file__).joinpath("..", "data", "locations.json").resolve().open()
             )
@@ -126,14 +126,14 @@ class Location(metaclass=LocationMeta):
             "Explored",
             location=self.name,
             effectiveness=effectiveness,
-            items=[it.name for it in found_items],
+            # items=[it.name for it in found_items],
             base_xp=base_xp,
             item_xp=item_xp,
             stamina_used=stamina_used,
         )
         for item in found_items:
             player.add_item(item)
-        player.exploring_xp += base_xp + item_xp
+        player.exploring_xp += round(base_xp) + item_xp
         player.stamina -= stamina_used
 
     def lemonade(self, player: Player) -> None:

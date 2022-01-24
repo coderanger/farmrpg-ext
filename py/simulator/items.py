@@ -53,6 +53,8 @@ class Item(metaclass=ItemMeta):
         return cls._all_items.get(name)
 
     def growth_time_for(self, player: Player) -> int:
+        if self.growth_time is None:
+            raise ValueError(f"{self.name} is not growable")
         discount = player.perk_value(
             {
                 "Quicker Farming I": 0.05,
@@ -63,4 +65,4 @@ class Item(metaclass=ItemMeta):
                 "Irrigation System II": 0.2,
             }
         )
-        return self.growth_time * (1 - discount)
+        return round(self.growth_time * (1 - discount))

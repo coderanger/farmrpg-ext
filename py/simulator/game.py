@@ -31,6 +31,8 @@ class Game:
         self.farm.tick(seconds)
 
     def process_ai(self):
+        if self.ai is None:
+            return
         if self.farm.can_harvest:
             self.log.debug("AI harvest")
             self.farm.harvest_all()

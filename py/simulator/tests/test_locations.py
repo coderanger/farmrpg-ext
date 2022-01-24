@@ -6,6 +6,7 @@ from simulator.player import Player
 
 def test_get():
     loc = Location.get("Forest")
+    assert loc is not None
     assert loc.type == "explore"
     assert "Antler" in loc.items
 
@@ -87,11 +88,16 @@ def test_explore_drop(player: Player, forest: Location):
     assert 1300 < player.inventory[Item["Wood"]] < 1600
 
 
-def test_explore_wanderer(super_player: Player, forest: Location):
-    super_player.stamina = 40000
-    super_player.exploring_effectiveness[forest] = 10000
-    forest.explore(super_player)
-    assert 25000 < super_player.stamina < 28000
+def test_explore_wanderer(player: Player, forest: Location):
+    player.stamina = 40000
+    player.exploring_effectiveness[forest] = 40000
+    player.perks.add("Wanderer I")
+    player.perks.add("Wanderer II")
+    player.perks.add("Wanderer III")
+    player.perks.add("Wanderer IV")
+    forest.explore(player)
+    # Technically this could fail, but not likely.
+    assert 25000 < player.stamina < 28000
 
 
 def test_lemonade(player: Player, forest: Location):

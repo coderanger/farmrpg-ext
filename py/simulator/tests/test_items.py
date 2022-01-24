@@ -14,6 +14,7 @@ def test_growth_time_for_all_perks(super_player):
 
 def test_get():
     apple = Item.get("Apple")
+    assert apple is not None
     assert apple.name == "Apple"
     assert apple.id == "44"
 

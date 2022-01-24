@@ -1,19 +1,19 @@
 from __future__ import annotations
 
 from collections import Counter
-from numbers import Number
-from typing import TYPE_CHECKING, Optional, TypeVar
+from typing import TYPE_CHECKING, Literal, Optional, TypeVar
 
 import attrs
 import structlog
 
+from .items import Item
+
 if TYPE_CHECKING:
     from .game import Game
-    from .items import Item
     from .locations import Location
 
 
-PerkValue = TypeVar("PerkValue", bound=Number)
+PerkValue = TypeVar("PerkValue", int, float)
 
 
 @attrs.define
@@ -25,15 +25,15 @@ class Player:
     fishing_xp: int = 0
     crafting_xp: int = 0
     exploring_xp: int = 0
-    inventory: Counter[Item, int] = attrs.field(factory=Counter, converter=Counter)
+    inventory: Counter[Item] = attrs.field(factory=Counter, converter=Counter)
     max_inventory: int = 100
     stamina: int = 0
     max_stamina: int = 100
     perks: set[str] = attrs.Factory(set)
     has_all_perks: bool = False
-    exploring_effectiveness: dict[Location:int] = attrs.Factory(dict)
+    exploring_effectiveness: dict[Location, int] = attrs.Factory(dict)
     # Tracking stuff.
-    overflow_items: Counter[Item, int] = attrs.field(factory=Counter, converter=Counter)
+    overflow_items: Counter[Item] = attrs.field(factory=Counter, converter=Counter)
     seconds_until_stamina: int = 120
 
     log: structlog.stdlib.BoundLogger = structlog.stdlib.get_logger(mod="player")
@@ -71,7 +71,7 @@ class Player:
         # TODO validate perk names so I can catch typos.
         return self.has_all_perks or perk in self.perks
 
-    def perk_value(self, perks: dict[str, PerkValue]) -> PerkValue:
+    def perk_value(self, perks: dict[str, PerkValue]) -> PerkValue | Literal[0]:
         """Handle the very common case of needing to sum multiple values from different perks."""
         return sum(value for perk, value in perks.items() if self.has_perk(perk))
 
@@ -93,7 +93,7 @@ class Player:
         silver = quantity * item.sell_price * (1 + sell_bonus)
         # This check we have enough of the item.
         self.remove_item(item, quantity)
-        self.silver += silver
+        self.silver += round(silver)
         self.log.debug("Selling item", item=item.name, quantity=quantity, silver=silver)
 
     def buy_item(self, item: Item, quantity: Optional[int] = None) -> None:
@@ -116,3 +116,48 @@ class Player:
         if self.has_perk("Sprint Shoes II"):
             multiplier *= 2
         return self.exploring_effectiveness.get(location, 1) * multiplier
+
+    def items_needed_to_craft(self, item: Item) -> dict[Item, int]:
+        """Return how many of each direct ingredient are not currently available."""
+        if not item.recipe:
+            raise ValueError(f"{item.name} is not craftable")
+        needed: dict[Item, int] = {}
+        for name, quantity in item.recipe.items():
+            ingredient = Item[name]
+            ingredient_needed = quantity - self.inventory[ingredient]
+            if ingredient_needed > 0:
+                needed[ingredient] = ingredient_needed
+        return needed
+
+    def craft(self, item: Item) -> None:
+        if item.craft_price is None:
+            raise ValueError(f"{item.name} is not craftable")
+        needed = self.items_needed_to_craft(item)
+        if needed:
+            raise ValueError(f"{item.name} is missing ingredients: {needed}")
+        price_reduction = self.perk_value(
+            {
+                "Artisan I": 0.05,
+                "Artisan II": 0.1,
+                "Artisan III": 0.15,
+                "Artisan IV": 0.2,
+                "Toolbox I": 0.1,
+            }
+        )
+        craft_price = round(item.craft_price * (1 - price_reduction))
+        if self.silver < craft_price:
+            raise ValueError("not enough silver")
+        xp_bonus = self.perk_value(
+            {
+                "Crafting Primer": 0.1,
+                "Crafting Primer II": 0.1,
+                "Crafting Almanac": 0.1,
+            }
+        )
+        xp = round(item.xp * (1 + xp_bonus))
+        self.log.debug("Crafting", item=item, price=craft_price, xp=xp)
+        for name, quantity in item.recipe.items():
+            self.remove_item(Item[name], quantity)
+        self.silver -= craft_price
+        self.add_item(item)
+        self.crafting_xp += xp
