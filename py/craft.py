@@ -196,7 +196,8 @@ class ItemDatabase:
         ),
         Item(
             name="Fishing Net",
-            sell_price=150000,  # Not actually but via LI fishing
+            sell_price=90681,  # Not actually but via LI fishing
+            # sell_price=46180,  # Lake Minerva
             craft_price=100,
             recipe={"Antler": 1, "Iron": 4, "Rope": 2},
         ),
