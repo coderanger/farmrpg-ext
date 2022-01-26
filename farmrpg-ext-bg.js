@@ -12,6 +12,7 @@ import { setupPlayer } from './lib/player.js'
 import { setupFarm } from './lib/farm.js'
 import { setupPerks, fetchPerks } from './lib/perks.js'
 import { setupOrchard } from './lib/orchard.js'
+import { setupWheel } from './lib/wheel.js'
 
 const maxInventoryRE = /more than <strong>([0-9,]+)<\/strong> of any/
 const itemLinkRE = /id=(\d+)/
@@ -373,6 +374,7 @@ const main = async () => {
     setupFarm(globalState)
     setupPerks(globalState)
     setupOrchard(globalState)
+    setupWheel(globalState)
 
     // Set up a periodic refresh of the inventory.
     browser.alarms.create("inventory-refresh", {periodInMinutes: 5})
