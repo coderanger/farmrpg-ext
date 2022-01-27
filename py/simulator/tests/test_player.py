@@ -58,3 +58,26 @@ def test_items_needed_to_craft_over(player: Player):
     player.inventory[Item["Iron Ring"]] = 5
     needed = player.items_needed_to_craft(Item["Fancy Pipe"])
     assert needed == {}
+
+
+def test_items_needed_to_craft_multi(player: Player):
+    needed = player.items_needed_to_craft(Item["Fancy Pipe"], 3)
+    assert needed == {Item["Iron"]: 3, Item["Wood"]: 6, Item["Iron Ring"]: 9}
+
+
+def test_items_needed_to_craft_multi_partial(player: Player):
+    player.inventory[Item["Wood"]] = 4
+    player.inventory[Item["Iron Ring"]] = 4
+    needed = player.items_needed_to_craft(Item["Fancy Pipe"], 2)
+    assert needed == {Item["Iron"]: 2, Item["Iron Ring"]: 2}
+
+
+def test_craft(player: Player):
+    player.inventory[Item["Iron"]] = 1
+    player.inventory[Item["Wood"]] = 2
+    player.inventory[Item["Iron Ring"]] = 3
+    player.silver = 150
+    player.craft(Item["Fancy Pipe"])
+    assert player.inventory == {Item["Fancy Pipe"]: 1}
+    assert player.silver == 0
+    assert player.crafting_xp == 5000

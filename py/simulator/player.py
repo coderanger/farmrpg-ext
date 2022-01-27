@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from collections import Counter
+from random import random
 from typing import TYPE_CHECKING, Literal, Optional, TypeVar
 
 import attrs
@@ -117,22 +118,24 @@ class Player:
             multiplier *= 2
         return self.exploring_effectiveness.get(location, 1) * multiplier
 
-    def items_needed_to_craft(self, item: Item) -> dict[Item, int]:
+    def items_needed_to_craft(self, item: Item, quantity: int = 1) -> dict[Item, int]:
         """Return how many of each direct ingredient are not currently available."""
         if not item.recipe:
             raise ValueError(f"{item.name} is not craftable")
         needed: dict[Item, int] = {}
-        for name, quantity in item.recipe.items():
-            ingredient = Item[name]
-            ingredient_needed = quantity - self.inventory[ingredient]
+        for ingredient_name, ingredient_quantity in item.recipe.items():
+            ingredient = Item[ingredient_name]
+            ingredient_needed = (quantity * ingredient_quantity) - self.inventory[
+                ingredient
+            ]
             if ingredient_needed > 0:
                 needed[ingredient] = ingredient_needed
         return needed
 
-    def craft(self, item: Item) -> None:
+    def craft(self, item: Item, quantity: int = 1) -> None:
         if item.craft_price is None:
             raise ValueError(f"{item.name} is not craftable")
-        needed = self.items_needed_to_craft(item)
+        needed = self.items_needed_to_craft(item, quantity)
         if needed:
             raise ValueError(f"{item.name} is missing ingredients: {needed}")
         price_reduction = self.perk_value(
@@ -144,7 +147,7 @@ class Player:
                 "Toolbox I": 0.1,
             }
         )
-        craft_price = round(item.craft_price * (1 - price_reduction))
+        craft_price = round(item.craft_price * (1 - price_reduction)) * quantity
         if self.silver < craft_price:
             raise ValueError("not enough silver")
         xp_bonus = self.perk_value(
@@ -154,10 +157,36 @@ class Player:
                 "Crafting Almanac": 0.1,
             }
         )
-        xp = round(item.xp * (1 + xp_bonus))
-        self.log.debug("Crafting", item=item, price=craft_price, xp=xp)
-        for name, quantity in item.recipe.items():
-            self.remove_item(Item[name], quantity)
+        xp = round(item.xp * (1 + xp_bonus)) * quantity
+        resource_saver = self.perk_value(
+            {
+                "Resource Saver I": 0.1,
+                "Resource Saver II": 0.1,
+            }
+        )
+        loop = quantity
+        produced = 0
+        overflow = 0
+        while loop > 0:
+            if self.inventory[item] + produced > self.max_inventory:
+                overflow += 1
+            else:
+                produced += 1
+            if resource_saver == 0 or random() >= resource_saver:
+                loop -= 1
+        self.log.debug(
+            "Crafting",
+            item=item.name,
+            price=craft_price,
+            xp=xp,
+            quantity=quantity,
+            produced=produced,
+            overflow=overflow,
+        )
+        for ingredient_name, ingredient_quantity in item.recipe.items():
+            self.remove_item(
+                Item[ingredient_name], ingredient_quantity * (quantity - overflow)
+            )
         self.silver -= craft_price
-        self.add_item(item)
+        self.add_item(item, produced)
         self.crafting_xp += xp
