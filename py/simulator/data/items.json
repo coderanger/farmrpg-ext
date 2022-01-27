@@ -186,6 +186,7 @@
     "growth_time": 777600,
     "id": "450",
     "image": "/img/items/2850.png",
+    "mastery": true,
     "name": "Beet",
     "rarity": "Common",
     "sell_price": 230000,
@@ -242,6 +243,7 @@
     "givable": true,
     "id": "57",
     "image": "/img/items/7825.PNG",
+    "mastery": true,
     "name": "Blue Crab",
     "rarity": "Common",
     "sell_price": 25,
@@ -283,6 +285,7 @@
   {
     "id": "90",
     "image": "/img/items/7875.PNG",
+    "mastery": true,
     "name": "Blue Shell",
     "rarity": "Common",
     "sell_price": 75,
@@ -310,6 +313,7 @@
     "image": "/img/items/5885.png",
     "mastery": true,
     "name": "Board",
+    "rarity": "",
     "recipe": {
       "Wood": 5
     },
@@ -385,6 +389,7 @@
     "image": "/img/items/6123.png",
     "mastery": true,
     "name": "Bottle Rocket",
+    "rarity": "",
     "recipe": {
       "Black Powder": 1,
       "Feathers": 2,
@@ -397,6 +402,7 @@
     "growth_time": 172800,
     "id": "256",
     "image": "/img/items/8757.png",
+    "mastery": true,
     "name": "Broccoli",
     "rarity": "Common",
     "sell_price": 50000,
@@ -447,7 +453,9 @@
     "growth_time": 28800,
     "id": "67",
     "image": "/img/items/8319-3.png?1",
+    "mastery": true,
     "name": "Cabbage",
+    "rarity": "",
     "sell_price": 7000,
     "xp": 3360
   },
@@ -528,6 +536,7 @@
     "image": "/img/items/8391.PNG",
     "mastery": true,
     "name": "Carrot",
+    "rarity": "",
     "sell_price": 20,
     "xp": 20
   },
@@ -764,6 +773,20 @@
     "xp": 25000
   },
   {
+    "id": "481",
+    "image": "/img/items/chumbucket.png",
+    "mastery": true,
+    "name": "Chum",
+    "recipe": {
+      "Bucket": 1,
+      "Grubs": 7,
+      "Minnows": 4,
+      "Worms": 10
+    },
+    "sell_price": 5000,
+    "xp": 25
+  },
+  {
     "id": "400",
     "image": "/img/items/ale.png",
     "name": "Cid's Stone Ale",
@@ -863,6 +886,7 @@
     "image": "/img/items/8288.png",
     "mastery": true,
     "name": "Corn",
+    "rarity": "Everywhere",
     "sell_price": 3400,
     "xp": 1680
   },
@@ -886,6 +910,7 @@
     "growth_time": 345600,
     "id": "254",
     "image": "/img/items/8311.png",
+    "mastery": true,
     "name": "Cotton",
     "rarity": "Common",
     "sell_price": 100000,
@@ -920,7 +945,9 @@
     "growth_time": 240,
     "id": "29",
     "image": "/img/items/5805.png",
+    "mastery": true,
     "name": "Cucumber",
+    "rarity": "Everywhere",
     "sell_price": 42,
     "xp": 40
   },
@@ -1031,7 +1058,9 @@
     "growth_time": 300,
     "id": "13",
     "image": "/img/items/eggplant.png",
+    "mastery": true,
     "name": "Eggplant",
+    "rarity": "Everywhere",
     "sell_price": 53,
     "xp": 50
   },
@@ -1165,6 +1194,7 @@
     "xp": 55000
   },
   {
+    "craft_price": 150,
     "id": "301",
     "image": "/img/items/7275.png?1",
     "mastery": true,
@@ -1227,6 +1257,7 @@
     "xp": 25
   },
   {
+    "craft_price": 100,
     "givable": true,
     "id": "194",
     "image": "/img/items/7748.png",
@@ -1258,6 +1289,7 @@
   {
     "id": "234",
     "image": "/img/items/5230-2.png",
+    "mastery": true,
     "name": "Flarefin",
     "rarity": "Common",
     "sell_price": 6500,
@@ -1282,6 +1314,7 @@
   {
     "id": "201",
     "image": "/img/items/5771.png",
+    "mastery": true,
     "name": "Fluorifish",
     "rarity": "Common",
     "sell_price": 2500,
@@ -1336,6 +1369,7 @@
     "image": "/img/items/garnetring.png",
     "mastery": true,
     "name": "Garnet Ring",
+    "rarity": "",
     "recipe": {
       "Garnet": 1,
       "Iron Ring": 1,
@@ -1386,6 +1420,7 @@
     "xp": 1750
   },
   {
+    "craft_price": 25,
     "id": "117",
     "image": "/img/items/7727.PNG?1",
     "mastery": true,
@@ -1399,6 +1434,7 @@
     "xp": 150
   },
   {
+    "craft_price": 10,
     "givable": true,
     "id": "78",
     "image": "/img/items/5708.PNG",
@@ -1473,6 +1509,7 @@
   },
   {
     "givable": true,
+    "growth_time": 240,
     "id": "189",
     "image": "/img/items/5805g.png?1",
     "name": "Gold Cucumber",
@@ -1498,6 +1535,7 @@
   },
   {
     "givable": true,
+    "growth_time": 300,
     "id": "262",
     "image": "/img/items/geggplant.png?1",
     "name": "Gold Eggplant",
@@ -1548,6 +1586,7 @@
   },
   {
     "givable": true,
+    "growth_time": 180,
     "id": "161",
     "image": "/img/items/8259g.png",
     "name": "Gold Peas",
@@ -1718,6 +1757,7 @@
     "givable": true,
     "id": "56",
     "image": "/img/items/7828.PNG",
+    "mastery": true,
     "name": "Green Chromis",
     "rarity": "Common",
     "sell_price": 25,
@@ -1742,6 +1782,7 @@
     "image": "/img/items/greenbook.png",
     "mastery": true,
     "name": "Green Diary",
+    "rarity": "",
     "recipe": {
       "Green Parchment": 1,
       "Mushroom Paste": 1,
@@ -1835,6 +1876,7 @@
     "image": "/img/items/hammer.png?2",
     "mastery": true,
     "name": "Hammer",
+    "rarity": "",
     "recipe": {
       "Board": 1,
       "Iron": 1,
@@ -1915,6 +1957,7 @@
     "image": "/img/items/5969.PNG",
     "mastery": true,
     "name": "Horn Canteen",
+    "rarity": "",
     "recipe": {
       "Horn": 1,
       "Iron Ring": 2,
@@ -1939,6 +1982,7 @@
     "image": "/img/items/6956.png",
     "mastery": true,
     "name": "Horseshoe",
+    "rarity": "",
     "recipe": {
       "Iron": 5,
       "Nails": 7,
@@ -2069,6 +2113,7 @@
   {
     "id": "119",
     "image": "/img/items/7808.png",
+    "mastery": true,
     "name": "Jellyfish",
     "rarity": "Common",
     "sell_price": 400,
@@ -2206,8 +2251,10 @@
   },
   {
     "givable": true,
+    "growth_time": 3600,
     "id": "50",
     "image": "/img/items/8291.png",
+    "mastery": true,
     "name": "Leek",
     "sell_price": 775,
     "xp": 600
@@ -2256,6 +2303,7 @@
     "image": "/img/items/lemonade.png",
     "mastery": true,
     "name": "Lemonade",
+    "rarity": "",
     "recipe": {
       "Glass Bottle": 1,
       "Lemon": 6
@@ -2381,6 +2429,7 @@
   {
     "id": "114",
     "image": "/img/items/7816.png",
+    "mastery": true,
     "name": "Marlin",
     "rarity": "Common",
     "sell_price": 800,
@@ -2802,6 +2851,7 @@
     "growth_time": 43200,
     "id": "69",
     "image": "/img/items/8294.png",
+    "mastery": true,
     "name": "Pumpkin",
     "sell_price": 10800,
     "xp": 5040
@@ -2979,6 +3029,7 @@
   {
     "id": "174",
     "image": "/img/items/7838.png?1",
+    "mastery": true,
     "name": "Ruby Fish",
     "rarity": "Common",
     "sell_price": 1000,
@@ -3469,6 +3520,7 @@
     "givable": true,
     "id": "58",
     "image": "/img/items/7826.PNG",
+    "mastery": true,
     "name": "Small Prawn",
     "sell_price": 20,
     "xp": 250
@@ -3604,6 +3656,7 @@
     "id": "197",
     "image": "/img/items/8898.png",
     "name": "Steak Kabob",
+    "rarity": "",
     "xp": 1
   },
   {
@@ -3624,6 +3677,7 @@
     "image": "/img/items/wire.png",
     "mastery": true,
     "name": "Steel Wire",
+    "rarity": "",
     "recipe": {
       "Carbon Sphere": 1,
       "Iron": 10,
@@ -3636,6 +3690,7 @@
     "givable": true,
     "id": "134",
     "image": "/img/items/7831.PNG",
+    "mastery": true,
     "name": "Stingray",
     "rarity": "Common",
     "sell_price": 400,
@@ -3849,6 +3904,7 @@
     "image": "/img/items/4917.png",
     "mastery": true,
     "name": "Treasure Chest",
+    "rarity": "",
     "recipe": {
       "Iron": 12,
       "Nails": 22,
@@ -3929,6 +3985,7 @@
     "image": "/img/items/6172-1.png",
     "mastery": true,
     "name": "Twine",
+    "rarity": "",
     "recipe": {
       "Straw": 2,
       "Wood": 1
@@ -4108,6 +4165,7 @@
     "id": "35",
     "image": "/img/items/6143.PNG",
     "name": "Wood",
+    "rarity": "",
     "sell_price": 1,
     "xp": 10
   },
@@ -4240,6 +4298,7 @@
     "image": "/img/items/yellowperch.png",
     "mastery": true,
     "name": "Yellow Perch",
+    "rarity": "",
     "sell_price": 12,
     "xp": 100
   }
