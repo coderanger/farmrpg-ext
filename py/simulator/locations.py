@@ -89,7 +89,7 @@ class Location(metaclass=LocationMeta):
         object.__setattr__(self, "_lemonade_picker", _ItemPicker(self.lemonade_rates))
         object.__setattr__(self, "_net_picker", _ItemPicker(self.net_rates))
 
-    def explore(self, player: Player) -> None:
+    def explore(self, player: Player) -> list[Item]:
         if self.type != "explore":
             raise ValueError("can only explore in exploration locations")
         if player.stamina <= 0:
@@ -128,7 +128,7 @@ class Location(metaclass=LocationMeta):
             "Explored",
             location=self.name,
             effectiveness=effectiveness,
-            # items=[it.name for it in found_items],
+            items=f"[{', '.join(it.name for it in found_items)}]",
             base_xp=base_xp,
             item_xp=item_xp,
             stamina_used=stamina_used,
@@ -137,8 +137,11 @@ class Location(metaclass=LocationMeta):
             player.add_item(item)
         player.exploring_xp += round(base_xp) + item_xp
         player.stamina -= stamina_used
+        player.stamina_used += stamina_used
+        player.explore_count += effectiveness
+        return found_items
 
-    def lemonade(self, player: Player) -> None:
+    def lemonade(self, player: Player) -> list[Item]:
         if self.type != "explore":
             raise ValueError("can only use lemonade in exploration locations")
         if player.inventory[Item["Lemonade"]] < 1:
@@ -149,15 +152,16 @@ class Location(metaclass=LocationMeta):
         self.log.debug(
             "Used lemonade",
             location=self.name,
-            items=[it.name for it in found_items],
+            items=f"[{', '.join(it.name for it in found_items)}]",
             item_xp=item_xp,
         )
         player.remove_item(Item["Lemonade"])
         for item in found_items:
             player.add_item(item)
         player.exploring_xp += item_xp
+        return found_items
 
-    def net(self, player: Player) -> None:
+    def net(self, player: Player) -> list[Item]:
         if self.type != "fishing":
             raise ValueError("can only use nets in fishing locations")
         if player.inventory[Item["Fishing Net"]] < 1:
@@ -168,10 +172,11 @@ class Location(metaclass=LocationMeta):
         self.log.debug(
             "Used net",
             location=self.name,
-            items=[it.name for it in found_items],
+            items=f"[{', '.join(it.name for it in found_items)}]",
             item_xp=item_xp,
         )
         player.remove_item(Item["Fishing Net"])
         for item in found_items:
             player.add_item(item)
         player.fishing_xp += item_xp
+        return found_items

@@ -164,3 +164,23 @@ def test_craft_resource_saver_overflow(player: Player):
     }
     assert player.silver == 0
     assert player.crafting_xp == 5000
+
+
+def test_level_1(player: Player):
+    player.farming_xp = 0
+    assert player.farming_level == 1
+
+
+def test_level_50(player: Player):
+    player.farming_xp = 9_000_000
+    assert player.farming_level == 50
+
+
+def test_level_99(player: Player):
+    player.farming_xp = 2_000_000_000
+    assert player.farming_level == 99
+
+
+def test_set_level(player: Player):
+    player.farming_level = 60
+    assert player.farming_xp == 24_661_389

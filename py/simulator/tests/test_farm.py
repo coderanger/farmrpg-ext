@@ -1,9 +1,11 @@
 import pytest
+from simulator.farm import Farm
 from simulator.items import Item
+from simulator.player import Player
 
 
-def test_plant(player, farm):
-    player.inventory = {Item["Pepper Seeds"]: 1}
+def test_plant(player: Player, farm: Farm):
+    player.inventory[Item["Pepper Seeds"]] = 1
     farm.plant(0, Item["Pepper Seeds"])
     assert 0 in farm.plots
     assert player.farming_xp == 15
@@ -15,27 +17,27 @@ def test_plant_missing_seeds(farm):
         farm.plant(0, Item["Pepper Seeds"])
 
 
-def test_plant_negative(player, farm):
-    player.inventory = {Item["Pepper Seeds"]: 1}
+def test_plant_negative(player: Player, farm: Farm):
+    player.inventory[Item["Pepper Seeds"]] = 1
     with pytest.raises(ValueError):
         farm.plant(-1, Item["Pepper Seeds"])
 
 
-def test_plant_bad_row(player, farm):
-    player.inventory = {Item["Pepper Seeds"]: 1}
+def test_plant_bad_row(player: Player, farm: Farm):
+    player.inventory[Item["Pepper Seeds"]] = 1
     with pytest.raises(ValueError):
         farm.plant(100, Item["Pepper Seeds"])
 
 
-def test_plant_twice(player, farm):
-    player.inventory = {Item["Pepper Seeds"]: 2}
+def test_plant_twice(player: Player, farm: Farm):
+    player.inventory[Item["Pepper Seeds"]] = 2
     farm.plant(0, Item["Pepper Seeds"])
     with pytest.raises(ValueError):
         farm.plant(0, Item["Pepper Seeds"])
 
 
-def test_harvest(player, farm):
-    player.inventory = {Item["Pepper Seeds"]: 1}
+def test_harvest(player: Player, farm: Farm):
+    player.inventory[Item["Pepper Seeds"]] = 1
     farm.plant(0, Item["Pepper Seeds"])
     farm.tick(60)
     farm.harvest(0)
@@ -43,17 +45,18 @@ def test_harvest(player, farm):
     assert player.farming_xp == 25
 
 
-def test_harvest_double(super_player, farm):
-    super_player.inventory = {Item["Pepper Seeds"]: 1}
+def test_harvest_double(player: Player, farm: Farm):
+    player.inventory[Item["Pepper Seeds"]] = 1
+    player.perks.add("TEST Double Prizes")
     farm.plant(0, Item["Pepper Seeds"])
     farm.tick(60)
     farm.harvest(0)
-    assert super_player.inventory == {Item["Peppers"]: 2}
-    assert super_player.farming_xp == 25
+    assert player.inventory == {Item["Peppers"]: 2}
+    assert player.farming_xp == 25
 
 
-def test_harvest_mushrooms(player, farm):
-    player.inventory = {Item["Mushroom Spores"]: 1}
+def test_harvest_mushrooms(player: Player, farm: Farm):
+    player.inventory[Item["Mushroom Spores"]] = 1
     farm.plant(0, Item["Mushroom Spores"])
     farm.tick(60 * 90)
     farm.harvest(0)
@@ -61,14 +64,14 @@ def test_harvest_mushrooms(player, farm):
     assert player.farming_xp == 25
 
 
-def test_harvest_unplanted(player, farm):
+def test_harvest_unplanted(player: Player, farm: Farm):
     with pytest.raises(ValueError):
         farm.harvest(0)
     assert player.inventory == {}
 
 
-def test_plant_all(player, farm):
-    player.inventory = {Item["Pepper Seeds"]: 3}
+def test_plant_all(player: Player, farm: Farm):
+    player.inventory[Item["Pepper Seeds"]] = 3
     farm.plant_all(Item["Pepper Seeds"])
     assert 0 in farm.plots
     assert 1 in farm.plots
@@ -78,8 +81,8 @@ def test_plant_all(player, farm):
     assert player.inventory == {}
 
 
-def test_harvest_all(player, farm):
-    player.inventory = {Item["Pepper Seeds"]: 3}
+def test_harvest_all(player: Player, farm: Farm):
+    player.inventory[Item["Pepper Seeds"]] = 3
     farm.plant_all(Item["Pepper Seeds"])
     farm.tick(60)
     farm.harvest_all()

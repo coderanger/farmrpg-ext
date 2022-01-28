@@ -41,6 +41,22 @@ class Game:
             if seed is not None:
                 self.log.debug("AI plant", seed=seed.name)
                 self.farm.plant_all(seed)
+        while self.player.can_fish:
+            loc = self.ai.fish()
+            if loc is not None:
+                self.log.debug("AI fish", location=loc.name)
+                items = loc.net(self.player)
+                self.player.sell_all(items)
+            else:
+                break
+        while self.player.can_explore:
+            loc = self.ai.explore()
+            if loc is not None:
+                self.log.debug("AI explore", location=loc.name)
+                loc.explore(self.player)
+            else:
+                break
+        self.ai.process()
 
     def run(self, iterations: int = 60, interval: int = 60) -> None:
         """Run a simulation for the given number of iterations."""
@@ -56,6 +72,8 @@ class Game:
         """Render a string summary of the game state."""
         out = StringIO()
         out.write(f"Silver: {self.player.silver}\n")
+        out.write(f"Stamina Used: {self.player.stamina_used}\n")
+        out.write(f"Explore Count: {self.player.explore_count}\n")
         out.write("Inventory:\n")
         for item, count in self.player.inventory.items():
             out.write(f"\t{item.name}: {count}\n")
