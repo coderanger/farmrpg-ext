@@ -1,3 +1,5 @@
+from unittest.mock import Mock, patch
+
 import pytest
 from simulator.items import Item
 from simulator.player import Player
@@ -79,5 +81,86 @@ def test_craft(player: Player):
     player.silver = 150
     player.craft(Item["Fancy Pipe"])
     assert player.inventory == {Item["Fancy Pipe"]: 1}
+    assert player.silver == 0
+    assert player.crafting_xp == 5000
+
+
+def test_craft_missing_items(player: Player):
+    player.inventory[Item["Iron"]] = 1
+    player.inventory[Item["Wood"]] = 2
+    player.silver = 150
+    with pytest.raises(ValueError):
+        player.craft(Item["Fancy Pipe"])
+
+
+def test_craft_missing_silver(player: Player):
+    player.inventory[Item["Iron"]] = 1
+    player.inventory[Item["Wood"]] = 2
+    player.inventory[Item["Iron Ring"]] = 3
+    with pytest.raises(ValueError):
+        player.craft(Item["Fancy Pipe"])
+
+
+def test_craft_multi(player: Player):
+    player.inventory[Item["Iron"]] = 4
+    player.inventory[Item["Wood"]] = 6
+    player.inventory[Item["Iron Ring"]] = 9
+    player.silver = 450
+    player.craft(Item["Fancy Pipe"], 3)
+    assert player.inventory == {Item["Fancy Pipe"]: 3, Item["Iron"]: 1}
+    assert player.silver == 0
+    assert player.crafting_xp == 15000
+
+
+def test_craft_resource_saver(player: Player):
+    player.perks.add("Resource Saver I")
+    player.inventory[Item["Iron"]] = 1
+    player.inventory[Item["Wood"]] = 2
+    player.inventory[Item["Iron Ring"]] = 3
+    player.silver = 150
+    with patch("simulator.player.random") as mock_random:
+        mock_random.side_effect = [0, 1]
+        player.craft(Item["Fancy Pipe"])
+    assert player.inventory == {Item["Fancy Pipe"]: 2}
+    assert player.silver == 0
+    assert player.crafting_xp == 5000
+
+
+def test_craft_resource_saver_many(player: Player):
+    player.perks.add("Resource Saver I")
+    player.inventory[Item["Iron"]] = 10
+    player.inventory[Item["Wood"]] = 20
+    player.inventory[Item["Iron Ring"]] = 30
+    player.silver = 150
+    with patch("simulator.player.random") as mock_random:
+        mock_random.side_effect = [0, 0, 0, 1]
+        player.craft(Item["Fancy Pipe"])
+    assert player.inventory == {
+        Item["Fancy Pipe"]: 4,
+        Item["Iron"]: 9,
+        Item["Wood"]: 18,
+        Item["Iron Ring"]: 27,
+    }
+    assert player.silver == 0
+    assert player.crafting_xp == 5000
+
+
+def test_craft_resource_saver_overflow(player: Player):
+    player.perks.add("Resource Saver I")
+    player.inventory[Item["Iron"]] = 1
+    player.inventory[Item["Wood"]] = 2
+    player.inventory[Item["Iron Ring"]] = 3
+    player.inventory[Item["Fancy Pipe"]] = 9
+    player.silver = 150
+    player.max_inventory = 10
+    with patch("simulator.player.random") as mock_random:
+        mock_random.side_effect = [0, 1]
+        player.craft(Item["Fancy Pipe"])
+    assert player.inventory == {
+        Item["Fancy Pipe"]: 10,
+        Item["Iron"]: 1,
+        Item["Wood"]: 2,
+        Item["Iron Ring"]: 3,
+    }
     assert player.silver == 0
     assert player.crafting_xp == 5000

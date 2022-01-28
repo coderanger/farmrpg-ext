@@ -168,10 +168,9 @@ class Player:
         produced = 0
         overflow = 0
         while loop > 0:
+            produced += 1
             if self.inventory[item] + produced > self.max_inventory:
                 overflow += 1
-            else:
-                produced += 1
             if resource_saver == 0 or random() >= resource_saver:
                 loop -= 1
         self.log.debug(
@@ -188,5 +187,5 @@ class Player:
                 Item[ingredient_name], ingredient_quantity * (quantity - overflow)
             )
         self.silver -= craft_price
-        self.add_item(item, produced)
+        self.add_item(item, produced - overflow)
         self.crafting_xp += xp
