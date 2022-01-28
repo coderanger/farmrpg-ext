@@ -49,6 +49,7 @@
     "xp": 50
   },
   {
+    "craft_price": 50,
     "id": "126",
     "image": "/img/items/8016.png",
     "mastery": true,
@@ -385,6 +386,7 @@
     "xp": 1000
   },
   {
+    "craft_price": 100,
     "id": "105",
     "image": "/img/items/6123.png",
     "mastery": true,
@@ -429,6 +431,7 @@
     "xp": 250
   },
   {
+    "craft_price": 5,
     "givable": true,
     "id": "23",
     "image": "/img/items/8263.PNG",
@@ -1365,6 +1368,7 @@
     "xp": 15000
   },
   {
+    "craft_price": 1500,
     "id": "316",
     "image": "/img/items/garnetring.png",
     "mastery": true,
@@ -1846,6 +1850,7 @@
     "xp": 1750
   },
   {
+    "craft_price": 500,
     "id": "204",
     "image": "/img/items/greenshield.png",
     "mastery": true,
@@ -2021,6 +2026,7 @@
     "xp": 100
   },
   {
+    "craft_price": 1000,
     "id": "169",
     "image": "/img/items/6017.png",
     "name": "Inferno Sphere",
@@ -2041,6 +2047,7 @@
     "xp": 50000
   },
   {
+    "buy_price": 50,
     "id": "22",
     "image": "/img/items/5779.PNG",
     "name": "Iron",
@@ -2061,6 +2068,7 @@
     "xp": 100
   },
   {
+    "craft_price": 10,
     "id": "95",
     "image": "/img/items/ironring.png",
     "mastery": true,
@@ -2133,6 +2141,7 @@
     "xp": 500
   },
   {
+    "craft_price": 4000,
     "id": "368",
     "image": "/img/items/lantern.png?1",
     "mastery": true,
@@ -2178,6 +2187,7 @@
     "xp": 200
   },
   {
+    "craft_price": 2000,
     "id": "220",
     "image": "/img/items/5249.png",
     "name": "Lava Sphere",
@@ -2515,6 +2525,7 @@
     "xp": 10
   },
   {
+    "craft_price": 2,
     "givable": true,
     "id": "75",
     "image": "/img/items/5691.png",
@@ -2566,6 +2577,7 @@
     "xp": 1750
   },
   {
+    "buy_price": 1,
     "id": "38",
     "image": "/img/items/5860.png",
     "name": "Nails",
@@ -2986,6 +2998,7 @@
     "xp": 1750
   },
   {
+    "craft_price": 50,
     "givable": true,
     "id": "193",
     "image": "/img/items/5624.png",
@@ -3021,6 +3034,7 @@
   {
     "id": "312",
     "image": "/img/items/coral.png",
+    "mastery": true,
     "name": "Ruby Coral",
     "rarity": "Common",
     "sell_price": 15000,
@@ -3228,6 +3242,7 @@
     "xp": 20000
   },
   {
+    "craft_price": 10000,
     "id": "305",
     "image": "/img/items/salt.png",
     "mastery": true,
@@ -3746,6 +3761,7 @@
     "xp": 1500
   },
   {
+    "craft_price": 25000,
     "id": "456",
     "image": "/img/items/4765.png",
     "mastery": true,
@@ -3900,6 +3916,7 @@
     "xp": 2500
   },
   {
+    "craft_price": 1000,
     "id": "252",
     "image": "/img/items/4917.png",
     "mastery": true,
@@ -3980,6 +3997,7 @@
     "xp": 350
   },
   {
+    "craft_price": 10,
     "givable": true,
     "id": "163",
     "image": "/img/items/6172-1.png",
@@ -4170,6 +4188,7 @@
     "xp": 10
   },
   {
+    "craft_price": 2,
     "id": "36",
     "image": "/img/items/5733.PNG",
     "mastery": true,
@@ -4238,6 +4257,7 @@
     "xp": 1750
   },
   {
+    "craft_price": 75,
     "id": "127",
     "image": "/img/items/5822.PNG",
     "mastery": true,
@@ -4272,6 +4292,7 @@
     "name": "Worms"
   },
   {
+    "craft_price": 100,
     "givable": true,
     "id": "427",
     "image": "/img/items/pt_t_07.png",
