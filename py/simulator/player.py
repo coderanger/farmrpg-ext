@@ -167,24 +167,22 @@ class Player:
         return needed
 
     def can_craft(self, item: Item, quantity: int = 1) -> bool:
-        return not self.items_needed_to_craft(item, quantity)
+        craft_price = item.craft_price_for(self)
+        return (
+            craft_price is not None
+            and self.inventory[item] + quantity <= self.max_inventory
+            and (not self.items_needed_to_craft(item, quantity))
+            and self.silver >= (craft_price * quantity)
+        )
 
     def craft(self, item: Item, quantity: int = 1) -> None:
-        if item.craft_price is None:
+        base_craft_price = item.craft_price_for(self)
+        if base_craft_price is None:
             raise ValueError(f"{item.name} is not craftable")
         needed = self.items_needed_to_craft(item, quantity)
         if needed:
             raise ValueError(f"{item.name} is missing ingredients: {needed}")
-        price_reduction = self.perk_value(
-            {
-                "Artisan I": 0.05,
-                "Artisan II": 0.1,
-                "Artisan III": 0.15,
-                "Artisan IV": 0.2,
-                "Toolbox I": 0.1,
-            }
-        )
-        craft_price = round(item.craft_price * (1 - price_reduction)) * quantity
+        craft_price = base_craft_price * quantity
         if self.silver < craft_price:
             raise ValueError("not enough silver")
         xp_bonus = self.perk_value(

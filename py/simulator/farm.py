@@ -66,12 +66,13 @@ class Farm:
             raise ValueError(f"plot {plot} is out of range")
         if plot in self.plots:
             raise ValueError(f"plot {plot} is already planted")
+        growth_time = seed.growth_time_for(self.game.player)
+        if growth_time is None:
+            raise ValueError(f"{seed.name} can't be planted")
         crop = SEEDS_TO_CROPS[seed]
         self.log.debug("Planting", plot=plot, seed=seed.name, crop=crop.name)
         self.game.player.remove_item(seed)
-        self.plots[plot] = FarmPlot(
-            crop=crop, seconds_until_ready=seed.growth_time_for(self.game.player)
-        )
+        self.plots[plot] = FarmPlot(crop=crop, seconds_until_ready=growth_time)
         # TODO xp bonus
         self.game.player.farming_xp += 15
 

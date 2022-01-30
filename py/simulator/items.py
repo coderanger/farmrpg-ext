@@ -51,9 +51,9 @@ class Item(metaclass=ItemMeta):
     mastery: bool = False
     event: bool = False
 
-    def growth_time_for(self, player: Player) -> int:
+    def growth_time_for(self, player: Player) -> Optional[int]:
         if self.growth_time is None:
-            raise ValueError(f"{self.name} is not growable")
+            return None
         discount = player.perk_value(
             {
                 "Quicker Farming I": 0.05,
@@ -65,3 +65,17 @@ class Item(metaclass=ItemMeta):
             }
         )
         return round(self.growth_time * (1 - discount))
+
+    def craft_price_for(self, player: Player) -> Optional[int]:
+        if self.craft_price is None:
+            return None
+        discount = player.perk_value(
+            {
+                "Artisan I": 0.05,
+                "Artisan II": 0.1,
+                "Artisan III": 0.15,
+                "Artisan IV": 0.2,
+                "Toolbox I": 0.1,
+            }
+        )
+        return round(self.craft_price * (1 - discount))

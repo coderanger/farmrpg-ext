@@ -1,12 +1,17 @@
+from __future__ import annotations
+
 from io import StringIO
 from typing import Optional
 
 import attrs
 import structlog
+from humanfriendly import format_number
 
 from .ai import AI
+from .buildings import HayField, Sawmill
 from .farm import Farm
 from .player import Player
+from .utils import format_number
 
 
 def SelfFactory(type):
@@ -17,6 +22,8 @@ def SelfFactory(type):
 class Game:
     player: Player = SelfFactory(Player)
     farm: Farm = SelfFactory(Farm)
+    sawmill: Sawmill = SelfFactory(Sawmill)
+    hay_field: HayField = SelfFactory(HayField)
     ai_class: Optional[type] = None
     ai: Optional[AI] = None
 
@@ -29,6 +36,8 @@ class Game:
     def tick(self, seconds: int) -> None:
         self.player.tick(seconds)
         self.farm.tick(seconds)
+        self.sawmill.tick(seconds)
+        self.hay_field.tick(seconds)
 
     def process_ai(self):
         if self.ai is None:
@@ -71,7 +80,7 @@ class Game:
     def summary(self) -> str:
         """Render a string summary of the game state."""
         out = StringIO()
-        out.write(f"Silver: {self.player.silver}\n")
+        out.write(f"Silver: {format_number(self.player.silver)}\n")
         out.write(f"Stamina Used: {self.player.stamina_used}\n")
         out.write(f"Explore Count: {self.player.explore_count}\n")
         out.write("Inventory:\n")
