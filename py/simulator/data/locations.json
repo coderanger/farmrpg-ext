@@ -1,18 +1,18 @@
 [
   {
     "explore_rates": {
-      "Ancient Coin": 0.003758741258741259,
-      "Coal": 0.13784965034965035,
-      "Giant Centipede": 0.0018356643356643356,
-      "Horn": 0.020454545454545454,
-      "Large Chest 02": 0,
-      "Medium Chest 02": 8.741258741258741e-05,
-      "Orange Gecko": 8.741258741258741e-05,
-      "Ruby Scorpion": 0.0011363636363636363,
-      "Runestone 09": 0.00017482517482517483,
-      "Runestone 13": 8.741258741258741e-05,
-      "Sandstone": 0.14353146853146853,
-      "Shimmer Quartz": 0.01284965034965035
+      "Ancient Coin": 0.004724409448818898,
+      "Coal": 0.1422430304320068,
+      "Giant Centipede": 0.003192168546499255,
+      "Horn": 0.02149393487976165,
+      "Large Chest 02": 4.256224728665674e-05,
+      "Medium Chest 02": 4.256224728665674e-05,
+      "Orange Gecko": 0.00029793573100659715,
+      "Ruby Scorpion": 0.001617365396892956,
+      "Runestone 09": 0.00029793573100659715,
+      "Runestone 13": 0.0003404979782932539,
+      "Sandstone": 0.14488188976377953,
+      "Shimmer Quartz": 0.013024047669716961
     },
     "id": "6",
     "items": [
@@ -29,7 +29,19 @@
       "Ruby Scorpion",
       "Orange Gecko"
     ],
-    "lemonade_rates": {},
+    "lemonade_rates": {
+      "Ancient Coin": 0.01471774193548387,
+      "Coal": 0.42983870967741933,
+      "Giant Centipede": 0.0066532258064516125,
+      "Horn": 0.06169354838709677,
+      "Large Chest 02": 0.00020161290322580645,
+      "Orange Gecko": 0.0004032258064516129,
+      "Ruby Scorpion": 0.004233870967741936,
+      "Runestone 09": 0.0006048387096774194,
+      "Runestone 13": 0.0010080645161290322,
+      "Sandstone": 0.4425403225806452,
+      "Shimmer Quartz": 0.038104838709677416
+    },
     "name": "Black Rock Canyon",
     "type": "explore"
   },
@@ -63,16 +75,16 @@
   },
   {
     "explore_rates": {
-      "Ancient Coin": 0.004877049180327869,
-      "Diamond": 2.0491803278688525e-05,
-      "Emberstone": 0.030450819672131146,
-      "Glass Orb": 0.04883196721311475,
-      "Large Chest 01": 4.098360655737705e-05,
-      "Magicite": 0.0005122950819672131,
-      "Moonstone": 0.0015368852459016393,
-      "Prism Shard": 0.01723360655737705,
-      "Runestone 17": 0.00014344262295081967,
-      "Stone": 0.22024590163934427
+      "Ancient Coin": 0.005010538771585992,
+      "Diamond": 1.848907295788189e-05,
+      "Emberstone": 0.030969197204452167,
+      "Glass Orb": 0.04864475095218726,
+      "Large Chest 01": 3.697814591576378e-05,
+      "Magicite": 0.0005176940428206929,
+      "Moonstone": 0.0014976149095884332,
+      "Prism Shard": 0.017361239507451096,
+      "Runestone 17": 0.0001848907295788189,
+      "Stone": 0.21979809932329994
     },
     "id": "9",
     "items": [
@@ -88,32 +100,33 @@
       "Large Chest 01"
     ],
     "lemonade_rates": {
-      "Ancient Coin": 0.01391304347826087,
-      "Diamond": 0.0002173913043478261,
-      "Emberstone": 0.10489130434782609,
-      "Glass Orb": 0.14608695652173914,
-      "Large Chest 01": 0.00010869565217391305,
-      "Magicite": 0.0013043478260869566,
-      "Moonstone": 0.004565217391304348,
-      "Prism Shard": 0.05239130434782609,
-      "Runestone 17": 0.0007608695652173913,
-      "Stone": 0.6757608695652174
+      "Ancient Coin": 0.013470319634703196,
+      "Diamond": 0.00015220700152207003,
+      "Emberstone": 0.10509893455098934,
+      "Glass Orb": 0.1464992389649924,
+      "Large Chest 01": 0.00022831050228310502,
+      "Magicite": 0.001902587519025875,
+      "Moonstone": 0.0045662100456621,
+      "Prism Shard": 0.052054794520547946,
+      "Runestone 17": 0.0006849315068493151,
+      "Stone": 0.6753424657534246
     },
     "name": "Ember Lagoon",
     "type": "explore"
   },
   {
     "explore_rates": {
-      "Antler": 0.020440491905787537,
-      "Arrowhead": 0.016881222022610196,
-      "Bird Egg": 0.012660916516957648,
-      "Fire Ant": 0.0027533225476670206,
-      "Gold Feather": 0.0001607924487101865,
-      "Gold Leaf": 0.00013498625323818126,
-      "Hide": 0.024855336423459818,
-      "Mushroom": 0.055455528977379875,
-      "Straw": 0.055570664311024205,
-      "Wood": 0.1442050202975653
+      "Antler": 0.0204822249722675,
+      "Arrowhead": 0.016876514116863108,
+      "Bird Egg": 0.012684098154598738,
+      "Fire Ant": 0.002793648820081634,
+      "Frog": 7.38238213929778e-05,
+      "Gold Feather": 0.0001670749642051603,
+      "Gold Leaf": 0.00014376217850211467,
+      "Hide": 0.024861143220156236,
+      "Mushroom": 0.05557962384820268,
+      "Straw": 0.05556602472320924,
+      "Wood": 0.14425368973402053
     },
     "id": "7",
     "items": [
@@ -126,7 +139,8 @@
       "Antler",
       "Gold Feather",
       "Gold Leaf",
-      "Fire Ant"
+      "Fire Ant",
+      "Frog"
     ],
     "lemonade_rates": {
       "Antler": 0.06260162601626017,
@@ -181,6 +195,7 @@
       "Amber": 0,
       "Blue Feathers": 0.0542589267903451,
       "Fern Leaf": 0.052264113305405945,
+      "Frog": 0,
       "Gold Feather": 0,
       "Mushroom": 0.029323758228605626,
       "Pine Cone": 0.0037901456213844005,
@@ -209,7 +224,8 @@
       "Amber",
       "Shiny Beetle",
       "Pine Cone",
-      "Spider"
+      "Spider",
+      "Frog"
     ],
     "lemonade_rates": {},
     "name": "Misty Forest",
@@ -318,21 +334,21 @@
   },
   {
     "explore_rates": {
-      "Apple": 0.012958089406878278,
-      "Blue Gel": 0.015797482858012423,
-      "Herbs": 0.000300768032654815,
-      "Lemon": 0.0025171419875754156,
-      "Oak": 0.11182483842669674,
-      "Orange": 0.002474175125767585,
-      "Raptor Claw": 5.967619695532043e-06,
-      "Raptor Egg": 4.774095756425635e-06,
-      "Red Berries": 0.0078593551390157,
-      "Salt Rock": 0.027355568684318887,
-      "Slimestone": 0.0413078635324728,
-      "Sour Root": 0.00764690787785476,
-      "Striped Feather": 0.0077746149393391455,
-      "Thorns": 0.007640940258159228,
-      "Unpolished Garnet": 0.01974446652463732
+      "Apple": 0.012930777997995158,
+      "Blue Gel": 0.015827043406218676,
+      "Herbs": 0.000304388225439532,
+      "Lemon": 0.0025392386174824116,
+      "Oak": 0.11184321946619917,
+      "Orange": 0.002501476168461718,
+      "Raptor Claw": 6.8658998219443315e-06,
+      "Raptor Egg": 4.577266547962888e-06,
+      "Red Berries": 0.007876331412407138,
+      "Salt Rock": 0.027321704024790474,
+      "Slimestone": 0.04140595319287228,
+      "Sour Root": 0.007666921467837836,
+      "Striped Feather": 0.00781453831400964,
+      "Thorns": 0.00767264305102279,
+      "Unpolished Garnet": 0.01982986300241222
     },
     "id": "10",
     "items": [
@@ -353,21 +369,21 @@
       "Raptor Egg"
     ],
     "lemonade_rates": {
-      "Apple": 0.05238850485281942,
-      "Blue Gel": 0.04925636652003471,
-      "Herbs": 0.0010573460613859213,
-      "Lemon": 0.01106223379317912,
-      "Oak": 0.43939711324575315,
-      "Orange": 0.009795413512084667,
-      "Raptor Claw": 4.987481421631705e-05,
-      "Raptor Egg": 6.982473990284386e-05,
-      "Red Berries": 0.030214162452244866,
-      "Salt Rock": 0.10710117604811922,
-      "Slimestone": 0.12696132706905666,
-      "Sour Root": 0.03105205933107899,
-      "Striped Feather": 0.031032109405392465,
-      "Thorns": 0.030533361263229294,
-      "Unpolished Garnet": 0.08002912689150232
+      "Apple": 0.0518011203711344,
+      "Blue Gel": 0.05016915587094645,
+      "Herbs": 0.0010543590872000806,
+      "Lemon": 0.010882819447882571,
+      "Oak": 0.4382283099999083,
+      "Orange": 0.009791787001127705,
+      "Raptor Claw": 4.584169944348177e-05,
+      "Raptor Egg": 6.417837922087448e-05,
+      "Red Berries": 0.030136333214144915,
+      "Salt Rock": 0.10647193112743075,
+      "Slimestone": 0.129502800927836,
+      "Sour Root": 0.03083312704568584,
+      "Striped Feather": 0.031043998863125855,
+      "Thorns": 0.030292194992252754,
+      "Unpolished Garnet": 0.07968204197266002
     },
     "name": "Whispering Creek",
     "type": "explore"
@@ -382,7 +398,8 @@
       "Old Boot",
       "Glass Bottle",
       "Globber",
-      "Runestone 12"
+      "Runestone 12",
+      "Gold Catfish"
     ],
     "name": "Crystal River",
     "net_rates": {
@@ -411,7 +428,9 @@
       "Ruby Fish",
       "Blue Tiger Fish",
       "Red Starfish",
-      "Seahorse"
+      "Seahorse",
+      "Goldray",
+      "Spiked Shell"
     ],
     "name": "Emerald Beach",
     "net_rates": {
@@ -443,7 +462,8 @@
       "Catfish",
       "Carp",
       "Runestone 02",
-      "Flier"
+      "Flier",
+      "Gold Trout"
     ],
     "name": "Farm Pond",
     "net_rates": {},
@@ -460,7 +480,8 @@
       "Runestone 03",
       "Grab Bag 01",
       "Square Key",
-      "Water Lily"
+      "Water Lily",
+      "Goldgill"
     ],
     "name": "Forest Pond",
     "net_rates": {},
@@ -496,7 +517,8 @@
       "Trout",
       "Flier",
       "Globber",
-      "Runestone 15"
+      "Runestone 15",
+      "Gold Flier"
     ],
     "name": "Lake Tempest",
     "net_rates": {
@@ -522,18 +544,19 @@
       "Spiral Shell",
       "Serpent Eel",
       "Ruby Coral",
-      "Tribal Staff"
+      "Tribal Staff",
+      "Gold Coral"
     ],
     "name": "Large Island",
     "net_rates": {
-      "Barracuda": 0.18507780930272547,
-      "Plumbfish": 0.1253615338320007,
-      "Ruby Coral": 0.085344338405984,
-      "Sea Catfish": 0.14802510532198435,
-      "Serpent Eel": 0.09535551543289485,
-      "Spiral Shell": 0.10918063795030522,
-      "Swordfish": 0.25154156994239535,
-      "Tribal Staff": 0.00011348981171008512
+      "Barracuda": 0.18528987092539925,
+      "Plumbfish": 0.12512214686793555,
+      "Ruby Coral": 0.08550134908481004,
+      "Sea Catfish": 0.1481368044920878,
+      "Serpent Eel": 0.095360606723547,
+      "Spiral Shell": 0.10900896959089915,
+      "Swordfish": 0.25146649165025886,
+      "Tribal Staff": 0.0001137606650623496
     },
     "type": "fishing"
   },
@@ -549,7 +572,8 @@
       "MIAB",
       "Mussel",
       "Mackerel",
-      "Seaweed"
+      "Seaweed",
+      "Gold Sea Bass"
     ],
     "name": "Small Island",
     "net_rates": {
@@ -574,7 +598,8 @@
       "Fish Bones",
       "Runestone 08",
       "Cogwheel",
-      "Small Key"
+      "Small Key",
+      "Gold Drum"
     ],
     "name": "Small Pond",
     "net_rates": {
@@ -603,7 +628,8 @@
       "Fluorifish",
       "Octopus",
       "Runestone 18",
-      "Diving Helmet"
+      "Diving Helmet",
+      "Sea Dragon"
     ],
     "name": "Vast Ocean",
     "net_rates": {

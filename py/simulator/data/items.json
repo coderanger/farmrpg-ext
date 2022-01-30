@@ -90,12 +90,14 @@
     "xp": 25
   },
   {
+    "craft_price": 5000,
+    "givable": true,
     "id": "379",
     "image": "/img/items/8984.png",
     "mastery": true,
     "name": "Apple Cider",
     "recipe": {
-      "Apple": 100,
+      "Apple": 50,
       "Glass Bottle": 1,
       "Orange": 1
     },
@@ -111,6 +113,7 @@
     "xp": 250
   },
   {
+    "craft_price": 50,
     "id": "125",
     "image": "/img/items/aquaring.png",
     "mastery": true,
@@ -134,6 +137,7 @@
     "xp": 150
   },
   {
+    "craft_price": 25,
     "givable": true,
     "id": "237",
     "image": "/img/items/5875.png?1",
@@ -212,6 +216,7 @@
     "xp": 300
   },
   {
+    "craft_price": 50,
     "givable": true,
     "id": "104",
     "image": "/img/items/powder.png",
@@ -310,6 +315,7 @@
     "xp": 475
   },
   {
+    "craft_price": 1,
     "id": "21",
     "image": "/img/items/5885.png",
     "mastery": true,
@@ -419,6 +425,7 @@
     "xp": 20160
   },
   {
+    "craft_price": 15,
     "id": "129",
     "image": "/img/items/5717.PNG",
     "mastery": true,
@@ -776,6 +783,7 @@
     "xp": 25000
   },
   {
+    "craft_price": 50,
     "id": "481",
     "image": "/img/items/chumbucket.png",
     "mastery": true,
@@ -830,6 +838,7 @@
     "xp": 1750
   },
   {
+    "craft_price": 25,
     "id": "122",
     "image": "/img/items/5945.PNG",
     "mastery": true,
@@ -1052,6 +1061,7 @@
     "givable": true,
     "id": "17",
     "image": "/img/items/7718.PNG",
+    "mastery": true,
     "name": "Drum",
     "sell_price": 12,
     "xp": 100
@@ -1101,6 +1111,7 @@
     "xp": 500
   },
   {
+    "craft_price": 100,
     "id": "143",
     "image": "/img/items/emerald.png",
     "mastery": true,
@@ -1114,6 +1125,7 @@
     "xp": 450
   },
   {
+    "craft_price": 300,
     "id": "146",
     "image": "/img/items/greenring.png",
     "mastery": true,
@@ -1136,6 +1148,7 @@
     "xp": 1750
   },
   {
+    "craft_price": 100,
     "id": "106",
     "image": "/img/items/6124.png",
     "mastery": true,
@@ -1168,6 +1181,7 @@
     "xp": 1750
   },
   {
+    "craft_price": 20000,
     "id": "474",
     "image": "/img/items/drum.png",
     "mastery": true,
@@ -1183,6 +1197,7 @@
     "xp": 2500
   },
   {
+    "craft_price": 8550,
     "id": "393",
     "image": "/img/items/3857.png?1",
     "mastery": true,
@@ -1324,6 +1339,7 @@
     "xp": 2500
   },
   {
+    "craft_price": 50000,
     "id": "341",
     "image": "/img/items/9387.png",
     "mastery": true,
@@ -1355,6 +1371,7 @@
     "xp": 2500
   },
   {
+    "craft_price": 750,
     "id": "317",
     "image": "/img/items/8008.png",
     "mastery": true,
@@ -1729,6 +1746,7 @@
     "xp": 1
   },
   {
+    "craft_price": 500,
     "id": "112",
     "image": "/img/items/grapejuice.png",
     "mastery": true,
@@ -1768,6 +1786,7 @@
     "xp": 350
   },
   {
+    "craft_price": 2500,
     "id": "350",
     "image": "/img/items/ForestIcons_54_t.png",
     "mastery": true,
@@ -1796,6 +1815,7 @@
     "xp": 200
   },
   {
+    "craft_price": 2,
     "givable": true,
     "id": "203",
     "image": "/img/items/greendye.png",
@@ -1826,6 +1846,7 @@
     "xp": 1750
   },
   {
+    "craft_price": 2,
     "givable": true,
     "id": "74",
     "image": "/img/items/greenparchment.png",
@@ -1838,6 +1859,7 @@
     "xp": 100
   },
   {
+    "craft_price": 1000,
     "id": "414",
     "image": "/img/items/scarf.png",
     "mastery": true,
@@ -1958,6 +1980,7 @@
     "xp": 250
   },
   {
+    "craft_price": 150,
     "id": "165",
     "image": "/img/items/5969.PNG",
     "mastery": true,
@@ -1983,6 +2006,7 @@
     "xp": 1750
   },
   {
+    "craft_price": 100,
     "id": "217",
     "image": "/img/items/6956.png",
     "mastery": true,
@@ -2005,6 +2029,7 @@
     "xp": 1750
   },
   {
+    "craft_price": 2000,
     "id": "388",
     "image": "/img/items/4241.png",
     "mastery": true,
@@ -2054,6 +2079,7 @@
     "xp": 10
   },
   {
+    "craft_price": 15,
     "givable": true,
     "id": "130",
     "image": "/img/items/ironcup.png",
@@ -2091,6 +2117,7 @@
     "xp": 50000
   },
   {
+    "craft_price": 500,
     "id": "264",
     "image": "/img/items/jade.png",
     "mastery": true,
@@ -2104,6 +2131,7 @@
     "xp": 3000
   },
   {
+    "craft_price": 1000,
     "id": "265",
     "image": "/img/items/jadecharm.png",
     "mastery": true,
@@ -2128,6 +2156,7 @@
     "xp": 400
   },
   {
+    "craft_price": 10,
     "givable": true,
     "id": "260",
     "image": "/img/items/5629.png",
@@ -2208,6 +2237,7 @@
     "xp": 150000
   },
   {
+    "craft_price": 25,
     "givable": true,
     "id": "110",
     "image": "/img/items/5987.PNG",
@@ -2220,6 +2250,7 @@
     "xp": 250
   },
   {
+    "craft_price": 250,
     "id": "166",
     "image": "/img/items/6175.PNG",
     "mastery": true,
@@ -2233,6 +2264,7 @@
     "xp": 3000
   },
   {
+    "craft_price": 25,
     "givable": true,
     "id": "118",
     "image": "/img/items/5754.PNG",
@@ -2247,6 +2279,7 @@
     "xp": 250
   },
   {
+    "craft_price": 275,
     "id": "239",
     "image": "/img/items/5563.png",
     "mastery": true,
@@ -2308,6 +2341,7 @@
     "xp": 1000
   },
   {
+    "craft_price": 2,
     "givable": true,
     "id": "86",
     "image": "/img/items/lemonade.png",
@@ -2423,6 +2457,7 @@
     "xp": 2500
   },
   {
+    "craft_price": 300,
     "id": "216",
     "image": "/img/items/7210.png",
     "mastery": true,
@@ -2554,6 +2589,7 @@
     "xp": 400
   },
   {
+    "craft_price": 600,
     "id": "195",
     "image": "/img/items/8038.png",
     "mastery": true,
@@ -3263,6 +3299,7 @@
     "xp": 500
   },
   {
+    "craft_price": 750,
     "id": "387",
     "image": "/img/items/am_t_01.png",
     "mastery": true,
@@ -3393,6 +3430,7 @@
     "xp": 5000
   },
   {
+    "craft_price": 5,
     "givable": true,
     "id": "77",
     "image": "/img/items/5711.PNG",
@@ -3631,6 +3669,7 @@
   {
     "id": "310",
     "image": "/img/items/7878.png",
+    "mastery": true,
     "name": "Spiral Shell",
     "rarity": "Common",
     "sell_price": 3000,
@@ -3723,9 +3762,9 @@
     "id": "345",
     "image": "/img/items/5167.png",
     "name": "Strange Gem",
-    "rarity": "Uncommon",
+    "rarity": "Super Rare",
     "sell_price": 1750,
-    "xp": 1750
+    "xp": 99999
   },
   {
     "flea_market": 5,
@@ -3777,6 +3816,7 @@
     "xp": 40000
   },
   {
+    "craft_price": 15,
     "id": "55",
     "image": "/img/items/5812.PNG",
     "mastery": true,
@@ -3790,6 +3830,7 @@
     "xp": 500
   },
   {
+    "craft_price": 500,
     "id": "167",
     "image": "/img/items/5847.png",
     "mastery": true,
@@ -3803,6 +3844,7 @@
     "xp": 4000
   },
   {
+    "craft_price": 1500,
     "id": "300",
     "image": "/img/items/8927.png?1",
     "mastery": true,
@@ -4044,6 +4086,7 @@
     "xp": 150
   },
   {
+    "craft_price": 10,
     "givable": true,
     "id": "76",
     "image": "/img/items/5782.PNG",
@@ -4066,6 +4109,7 @@
     "xp": 2300
   },
   {
+    "craft_price": 250,
     "id": "328",
     "image": "/img/items/wheel.png",
     "mastery": true,
@@ -4126,6 +4170,7 @@
     "xp": 10080
   },
   {
+    "craft_price": 2,
     "id": "81",
     "image": "/img/items/whiteparchment.png",
     "mastery": true,
@@ -4137,6 +4182,7 @@
     "xp": 100
   },
   {
+    "craft_price": 250,
     "id": "121",
     "image": "/img/items/wine.png",
     "mastery": true,
@@ -4200,6 +4246,7 @@
     "xp": 50
   },
   {
+    "craft_price": 25,
     "id": "72",
     "image": "/img/items/5829.PNG",
     "mastery": true,
@@ -4213,6 +4260,7 @@
     "xp": 350
   },
   {
+    "craft_price": 400,
     "id": "455",
     "image": "/img/items/4764.png",
     "mastery": true,
@@ -4227,6 +4275,7 @@
     "xp": 2500
   },
   {
+    "craft_price": 10,
     "givable": true,
     "id": "37",
     "image": "/img/items/5736.PNG",
@@ -4271,6 +4320,7 @@
     "xp": 450
   },
   {
+    "craft_price": 250,
     "id": "299",
     "image": "/img/items/sword2.png",
     "mastery": true,
