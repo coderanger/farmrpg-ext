@@ -19,6 +19,11 @@ def parse_logs(log_type=None, since=int(os.environ.get("SINCE", 0))):
                 continue
             if (row["ts"] / 1000) < since:
                 continue
+            # Clean up some bad data.
+            items = row.get("results", {}).get("items", [])
+            if items and "item" not in items[0]:
+                continue
+
             if row["ts"] not in all_logs:
                 # Fix up the old zone/loc thing.
                 results = row.get("results")
