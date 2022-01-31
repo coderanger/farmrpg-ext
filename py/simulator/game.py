@@ -5,7 +5,6 @@ from typing import Optional
 
 import attrs
 import structlog
-from humanfriendly import format_number
 
 from .ai import AI
 from .buildings import HayField, Sawmill
