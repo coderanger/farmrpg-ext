@@ -1,4 +1,4 @@
-import { renderSidebarFromGlobalState } from './lib/sidebar.js'
+import { renderSidebar, renderSidebarFromGlobalState } from './lib/sidebar.js'
 import { setupExplore } from './lib/explore.js'
 import { setupPageFilter } from './lib/pageFilter.js'
 import syncFixtures from './lib/fixtures/index.js'
@@ -6,31 +6,26 @@ import { setupLog, downloadLog } from './lib/log.js'
 import { setupLocations } from './lib/locations.js'
 import { setupFishing } from './lib/fishing.js'
 import { setupItems } from './lib/item.js'
-import { setupInventory } from './lib/inventory.js'
+import { fetchInventory, setupInventory } from './lib/inventory.js'
 import { setupPets } from './lib/pets.js'
 import { setupPlayer } from './lib/player.js'
 import { setupFarm } from './lib/farm.js'
 import { setupPerks, fetchPerks } from './lib/perks.js'
 import { setupOrchard } from './lib/orchard.js'
 import { setupWheel } from './lib/wheel.js'
-
-const maxInventoryRE = /more than <strong>([0-9,]+)<\/strong> of any/
-const itemLinkRE = /id=(\d+)/
-const workshopTitleRE = /\s*(\S.*\S)\s+\((\d+)\)/
-const workshopIngredientRE = /(\d+)\s*\/\s*\d+\s*(\S.*?\S)\s*$/mg
-
+import { setupWorkshop } from './lib/workshop.js'
 
 class GlobalState {
     constructor() {
-        this.inventory = {
-            items: [],
-        }
         this.ports = []
         this.clickHandlers = {}
     }
 
     addPageFilter(url, handler) {
-        setupPageFilter(url, async (page, url) => { await handler(this, page, url) })
+        setupPageFilter(url, async (page, url) => {
+            await handler(this, page, url)
+            await renderSidebar(this)
+        })
     }
 
     addClickHandler(type, handler) {
@@ -96,115 +91,6 @@ const buyItem = async (inventory, item, quantity = undefined, retry=0) => {
         console.error("error while buying items", respText)
         return inventory
     }
-}
-
-const getInventory = async () => {
-    // Get the inventory HTML.
-    const invResp = await fetch("https://farmrpg.com/inventory.php")
-    if (!invResp.ok) {
-        throw "Error getting inventory"
-    }
-    const invPage = await invResp.text()
-    return getInventoryFromInventoryHTML(invPage)
-}
-
-const getInventoryFromInventoryHTML = (invPage) => {
-    // Parse out the max inventory size.
-    const maxInvMatch = invPage.match(maxInventoryRE)
-    if (!maxInvMatch) {
-        throw "Error parsing max inventory"
-    }
-    const maxInv = parseInt(maxInvMatch[1].replaceAll(",", ""), 10)
-    // Parse out all the items.
-    const parser = new DOMParser()
-    const invDom = parser.parseFromString(invPage, "text/html")
-    const items = {}
-    for (const itemElm of invDom.querySelectorAll('.list-group li')) {
-        // Ignore dividers.
-        if (itemElm.classList.contains("item-divider")) {
-            continue
-        }
-
-        const title = itemElm.querySelector(".item-title strong")
-        if (!title) {
-            console.log("Unable to parse item name from ", itemElm)
-            continue
-        }
-        const after = itemElm.querySelector('.item-after')
-        if (!after) {
-            console.log("Unable to parse item quantity from ", itemElm)
-            continue
-        }
-        const link = itemElm.querySelector("a.item-link")
-        if (!link) {
-            console.log("Unable to parse item ID from ", itemElm)
-            continue
-        }
-        const linkMatch = link.getAttribute("href").match(itemLinkRE)
-        if (!linkMatch) {
-            console.log("Unable to parse item ID from link ", link.getAttribute("href"))
-            continue
-        }
-        items[title.textContent] = {
-            "name": title.textContent.trim(),
-            "id": linkMatch[1],
-            "quantity": parseInt(after.textContent, 10),
-            "image": itemElm.querySelector(".item-media img").getAttribute("src"),
-        }
-    }
-    return { "max": maxInv, "items": items }
-}
-
-const getInventoryFromWorkshopHTML = (workshopPage, existingInventory) => {
-    // Don't mutate the old inventory.
-    const inventory = JSON.parse(JSON.stringify(existingInventory))
-    // Parse the page. Yeah it's a bit silly since it will get parsed again by the browser but this is easier.
-    const parser = new DOMParser()
-    const workshopDom = parser.parseFromString(workshopPage, "text/html")
-    for (const itemElm of workshopDom.querySelectorAll('.list-block li.close-panel')) {
-        // Look at the title of each section for data.
-        const titleStrong = itemElm.querySelector('.item-title strong')
-        if (!titleStrong) {
-            console.error("Unable to parse workshop title from ", itemElm)
-            continue
-        }
-        const titleMatch = titleStrong.innerText.match(workshopTitleRE)
-        if (!titleMatch) {
-            console.error("Unable to parse workshop name/quantity from title ", titleStrong.innerText)
-            continue
-        }
-        const mainName = titleMatch[1]
-        if (inventory.items[mainName] === undefined) {
-            inventory.items[mainName] = {name: mainName}
-        }
-        inventory.items[mainName].quantity = parseInt(titleMatch[1], 10)
-        // Try to get the ID and image too.
-        const link = itemElm.querySelector(".item-media a")
-        const image = itemElm.querySelector(".item-media img")
-        if (!link || !image) {
-            console.error("Unable to parse workshop link or image from ", itemElm)
-            continue
-        }
-        const linkMatch = link.getAttribute("href").match(itemLinkRE)
-        if (!linkMatch) {
-            console.log("Unable to parse item ID from workshop link ", link.getAttribute("href"))
-            continue
-        }
-        inventory.items[mainName].id = linkMatch[1]
-        inventory.items[mainName].image = image.getAttribute("src")
-        // Parse the ingredients to try and get at least some quantities.
-        const title = itemElm.querySelector('.item-title')
-        title.innerHTML = title.innerHTML.replaceAll("<br>", "\n")
-        for (const ingMatch of title.innerText.matchAll(workshopIngredientRE)) {
-            const ingName = ingMatch[2]
-            if (inventory.items[ingName] === undefined) {
-                inventory.items[ingName] = {name: ingName}
-            }
-            inventory.items[ingName].quantity = parseInt(ingMatch[1], 10)
-        }
-    }
-
-    return inventory
 }
 
 const handleSidbarClick = async target => {
@@ -322,19 +208,6 @@ const main = async () => {
     const logCount = await globalState.db.count("log")
     console.log(`Database loaded, items ${itemCount} locations ${locationCount} log ${logCount}`)
 
-    // Kick off some initial data population.
-    getInventory().then(inv => {
-        globalState.inventory = inv
-        renderSidebarFromGlobalState()
-    })
-    fetchPerks().then(perks => {
-        console.log("Found initial perksetId", perks.currentPerkset)
-        globalState.player.perksets = perks.perksets
-        globalState.player.currentPerkset = perks.currentPerkset
-        globalState.player.save(globalState.db)
-        renderSidebarFromGlobalState()
-    })
-
     // Munge outgoing requests to fix the origin and referer headers.
     browser.webRequest.onBeforeSendHeaders.addListener(
         details => {
@@ -360,10 +233,6 @@ const main = async () => {
     )
 
     // Setup page filters for data capture.
-    setupPageFilter("https://farmrpg.com/workshop.php", page => {
-        globalState.inventory = getInventoryFromWorkshopHTML(page, globalState.inventory)
-        renderSidebarFromGlobalState()
-    })
     await setupPlayer(globalState)
     setupItems(globalState)
     setupLocations(globalState)
@@ -375,6 +244,18 @@ const main = async () => {
     setupPerks(globalState)
     setupOrchard(globalState)
     setupWheel(globalState)
+    setupWorkshop(globalState)
+
+    // Kick off some initial data population.
+    renderSidebarFromGlobalState()
+    fetchInventory(globalState).then(renderSidebarFromGlobalState)
+    fetchPerks().then(perks => {
+        console.log("Found initial perksetId", perks.currentPerkset)
+        globalState.player.perksets = perks.perksets
+        globalState.player.currentPerkset = perks.currentPerkset
+        globalState.player.save(globalState.db)
+        renderSidebarFromGlobalState()
+    })
 
     // Set up a periodic refresh of the inventory.
     browser.alarms.create("inventory-refresh", {periodInMinutes: 5})
