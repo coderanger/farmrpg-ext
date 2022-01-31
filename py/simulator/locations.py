@@ -101,7 +101,7 @@ class Location(metaclass=LocationMeta):
         # Generate the items.
         found_items = self._explore_picker.choices(effectiveness)
         # XP is generated in a weird looping way, was an old bug upstream and left as an XP bonus.
-        xp_bonus = player.perk_value(
+        xp_bonus = 1 + player.perk_value(
             {
                 "Exploring Primer": 0.1,
                 "Exploring Primer II": 0.1,
@@ -116,14 +116,12 @@ class Location(metaclass=LocationMeta):
                 "Wanderer IV": 0.13,
             }
         )
-        base_xp = 0
+        base_xp = round(125 * effectiveness * xp_bonus)
         stamina_used = 0
         for _ in range(effectiveness):
-            base_xp += 125
-            base_xp *= 1 + xp_bonus
             if wanderer_chance == 0 or random.random() <= wanderer_chance:
                 stamina_used += 1
-        item_xp = sum(it.xp or 0 for it in found_items)
+        item_xp = round(sum(it.xp or 0 for it in found_items) * xp_bonus)
         self.log.debug(
             "Explored",
             location=self.name,
@@ -135,7 +133,7 @@ class Location(metaclass=LocationMeta):
         )
         for item in found_items:
             player.add_item(item)
-        player.exploring_xp += round(base_xp) + item_xp
+        player.exploring_xp += base_xp + item_xp
         player.stamina -= stamina_used
         player.stamina_used += stamina_used
         player.explore_count += effectiveness
@@ -148,17 +146,20 @@ class Location(metaclass=LocationMeta):
             raise ValueError("no lemonade to use")
         lemonade_items = 20 if player.has_perk("Lemon Squeezer") else 10
         found_items = self._lemonade_picker.choices(lemonade_items)
+        # n.b. lemonade does not use XP bonus multipliers.
+        base_xp = 5000
         item_xp = sum(it.xp or 0 for it in found_items)
         self.log.debug(
             "Used lemonade",
             location=self.name,
             items=f"[{', '.join(it.name for it in found_items)}]",
+            base_xp=base_xp,
             item_xp=item_xp,
         )
         player.remove_item(Item["Lemonade"])
         for item in found_items:
             player.add_item(item)
-        player.exploring_xp += item_xp
+        player.exploring_xp += base_xp + item_xp
         return found_items
 
     def net(self, player: Player) -> list[Item]:
@@ -166,13 +167,23 @@ class Location(metaclass=LocationMeta):
             raise ValueError("can only use nets in fishing locations")
         if player.inventory[Item["Fishing Net"]] < 1:
             raise ValueError("no net to use")
+        xp_bonus = 1 + player.perk_value(
+            {
+                "Fishing Primer": 0.1,
+                "Fishing Primer II": 0.1,
+                "Fishing Almanac": 0.1,
+            }
+        )
         net_items = 15 if player.has_perk("Reinforced Netting") else 10
         found_items = self._net_picker.choices(net_items)
-        item_xp = sum(it.xp or 0 for it in found_items)
+        # This appears to be a non-linear setup. And I am only guessing for 1.0.
+        base_xp = {1.0: 1075, 1.1: 1245, 1.2: 1350, 1.3: 1465}
+        item_xp = round(sum(it.xp or 0 for it in found_items) * xp_bonus)
         self.log.debug(
             "Used net",
             location=self.name,
             items=f"[{', '.join(it.name for it in found_items)}]",
+            base_xp=base_xp,
             item_xp=item_xp,
         )
         player.remove_item(Item["Fishing Net"])
