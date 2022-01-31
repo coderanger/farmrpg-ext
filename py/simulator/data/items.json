@@ -206,6 +206,15 @@
     "xp": 90720
   },
   {
+    "first_seen": 1643629598379,
+    "id": "471",
+    "image": "/img/items/bell.png",
+    "name": "Bell",
+    "rarity": "Rare",
+    "sell_price": 2500,
+    "xp": 2500
+  },
+  {
     "flea_market": 1,
     "givable": true,
     "id": "111",
@@ -938,7 +947,7 @@
     "xp": 40320
   },
   {
-    "firstSeen": 1642564800000,
+    "first_seen": 1642564800000,
     "id": "475",
     "image": "/img/items/crabclaw.png",
     "name": "Crab Claw",
@@ -1367,7 +1376,7 @@
     "xp": 1750
   },
   {
-    "firstSeen": 1642564800000,
+    "first_seen": 1642564800000,
     "id": "479",
     "image": "/img/items/frog.png",
     "name": "Frog",
@@ -2895,6 +2904,15 @@
     "xp": 500
   },
   {
+    "first_seen": 1643629314840,
+    "id": "476",
+    "image": "/img/items/protractor.png",
+    "name": "Protractor",
+    "rarity": "Rare",
+    "sell_price": 2500,
+    "xp": 2500
+  },
+  {
     "id": "115",
     "image": "/img/items/7723.PNG",
     "name": "Puffer",
@@ -3359,7 +3377,7 @@
     "xp": 8500
   },
   {
-    "firstSeen": 1642564800000,
+    "first_seen": 1642564800000,
     "id": "478",
     "image": "/img/items/seadragon.png",
     "name": "Sea Dragon",
@@ -3667,7 +3685,7 @@
     "xp": 1750
   },
   {
-    "firstSeen": 1642564800000,
+    "first_seen": 1642564800000,
     "id": "473",
     "image": "/img/items/spikey.png",
     "name": "Spiked Shell",
@@ -3967,6 +3985,14 @@
     "xp": 2500
   },
   {
+    "first_seen": 1643629597548,
+    "id": "469",
+    "image": "/img/items/7140.png",
+    "name": "Tower Key",
+    "rarity": "Super Rare",
+    "xp": 5000
+  },
+  {
     "craft_price": 1000,
     "id": "252",
     "image": "/img/items/4917.png",
@@ -3988,6 +4014,14 @@
     "name": "Treasure Key",
     "rarity": "Very Rare",
     "xp": 1750
+  },
+  {
+    "first_seen": 1643629599476,
+    "id": "472",
+    "image": "/img/items/treasuremap.png",
+    "name": "Treasure Map 01",
+    "rarity": "Rare",
+    "xp": 2500
   },
   {
     "event": true,
@@ -4210,6 +4244,15 @@
     "rarity": "Super Rare",
     "sell_price": 100000,
     "xp": 5000
+  },
+  {
+    "first_seen": 1643629321699,
+    "id": "477",
+    "image": "/img/items/wishbone.png",
+    "name": "Wishbone Necklace",
+    "rarity": "Rare",
+    "sell_price": 2500,
+    "xp": 2500
   },
   {
     "event": true,
