@@ -16,6 +16,7 @@ item_case_mappings = {
     "craftPrice": "craft_price",
     "fleaMarket": "flea_market",
     "growthTime": "growth_time",
+    "firstSeen": "first_seen",
 }
 
 
@@ -49,6 +50,7 @@ class Item:
     mastery: bool = False
     event: bool = False
     growth_time: Optional[int] = None
+    first_seen: Optional[int] = None
 
 
 def load_items() -> Iterable[Item]:

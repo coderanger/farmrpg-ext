@@ -50,6 +50,7 @@ class Item(metaclass=ItemMeta):
     flea_market: bool = False
     mastery: bool = False
     event: bool = False
+    first_seen: Optional[int] = None
 
     def growth_time_for(self, player: Player) -> Optional[int]:
         if self.growth_time is None:
