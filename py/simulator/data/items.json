@@ -534,6 +534,7 @@
     "givable": true,
     "id": "132",
     "image": "/img/items/7737.PNG",
+    "mastery": true,
     "name": "Carp",
     "rarity": "Common",
     "sell_price": 75,
@@ -937,6 +938,7 @@
     "xp": 40320
   },
   {
+    "firstSeen": 1642564800000,
     "id": "475",
     "image": "/img/items/crabclaw.png",
     "name": "Crab Claw",
@@ -1269,6 +1271,7 @@
     "givable": true,
     "id": "45",
     "image": "/img/items/7747.PNG",
+    "mastery": true,
     "name": "Fish Bones",
     "rarity": "Common",
     "sell_price": 2,
@@ -1317,6 +1320,7 @@
     "givable": true,
     "id": "173",
     "image": "/img/items/7843.png",
+    "mastery": true,
     "name": "Flier",
     "rarity": "Common",
     "sell_price": 250,
@@ -1363,6 +1367,7 @@
     "xp": 1750
   },
   {
+    "firstSeen": 1642564800000,
     "id": "479",
     "image": "/img/items/frog.png",
     "name": "Frog",
@@ -2211,6 +2216,7 @@
     "givable": true,
     "id": "25",
     "image": "/img/items/7736.PNG",
+    "mastery": true,
     "name": "Largemouth Bass",
     "sell_price": 14,
     "xp": 200
@@ -2420,6 +2426,7 @@
     "xp": 5000
   },
   {
+    "craft_price": 5000,
     "id": "176",
     "image": "/img/items/7963.png",
     "mastery": true,
@@ -3352,6 +3359,7 @@
     "xp": 8500
   },
   {
+    "firstSeen": 1642564800000,
     "id": "478",
     "image": "/img/items/seadragon.png",
     "name": "Sea Dragon",
@@ -3659,6 +3667,7 @@
     "xp": 1750
   },
   {
+    "firstSeen": 1642564800000,
     "id": "473",
     "image": "/img/items/spikey.png",
     "name": "Spiked Shell",
