@@ -1,5 +1,5 @@
 test:
-	python -m pytest --cov=simulator --cov-report=html simulator
+	python -m pytest --cov=simulator --cov=vault --cov-report=html simulator vault
 
 run:
 	python -m simulator fisher baseline
