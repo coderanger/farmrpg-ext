@@ -57,42 +57,6 @@ class GlobalState {
 
 const globalState = new GlobalState()
 
-const buyItem = async (inventory, item, quantity = undefined, retry=0) => {
-    // POST https://farmrpg.com/worker.php?go=buyitem&id=22&qty=1
-    // success
-    if (!inventory.items[item] || inventory.items[item].id == undefined) {
-        throw `Unknown item ${item}`
-    }
-    if (quantity == undefined || (inventory.items[item].quantity + quantity) > inventory.max) {
-        quantity = inventory.max - inventory.items[item].quantity
-    }
-    console.log("buying items", item, quantity)
-    if (quantity <= 0) {
-        // No need to buy anything, already maxed.
-        return inventory
-    }
-    const resp = await fetch(`https://farmrpg.com/worker.php?go=buyitem&id=${inventory.items[item].id}&qty=${quantity}`, {method: "POST"})
-    if (!resp.ok) {
-        throw "Error buying items"
-    }
-    const respText = await resp.text()
-    if (respText == "success") {
-        const newInventory = JSON.parse(JSON.stringify(inventory))
-        newInventory.items[item].quantity += quantity
-        return newInventory
-    } else if (respText.match(/^\s*\d+\s*$/)) {
-        // Try again.
-        if(retry >= 3) {
-            throw "Too many retries on buying"
-        }
-        await new Promise(r => setTimeout(r, 1000))
-        return await buyItem(inventory, item, parseInt(respText, 10), retry+1)
-    } else {
-        console.error("error while buying items", respText)
-        return inventory
-    }
-}
-
 const handleSidbarClick = async target => {
     console.log("sidebar click", target)
     const [targetType, targetArg] = target.split(":", 2)
@@ -264,7 +228,7 @@ const main = async () => {
     browser.alarms.onAlarm.addListener(async alarm => {
         switch (alarm.name) {
         case "inventory-refresh":
-            globalState.inventory = await getInventory()
+            await fetchInventory(globalState)
             await renderSidebarFromGlobalState()
             break
         case "perk-refresh":
