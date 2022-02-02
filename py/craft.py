@@ -221,6 +221,18 @@ class ItemDatabase:
             craft_price=1500,
             recipe={"Garnet": 1, "Iron Ring": 1, "Mushroom Paste": 1},
         ),
+        Item(
+            name="Fancy Drum",
+            sell_price=100_000,
+            craft_price=20_000,
+            recipe={"Leather": 2, "Mushroom Paste": 2, "Oak": 15, "Yarn": 4},
+        ),
+        Item(
+            name="Yarn",
+            sell_price=100,
+            craft_price=100,
+            recipe={"Twine": 4},
+        ),
     ]
 
     # Get from droprates.py
