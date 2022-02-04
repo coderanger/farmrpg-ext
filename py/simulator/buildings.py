@@ -36,3 +36,17 @@ class HayField:
         while self.seconds_until_generate <= 0:
             self.game.player.add_item(Item["Straw"], self.straw_per_ten_minutes)
             self.seconds_until_generate += 60 * 10
+
+
+@attrs.define
+class Raptor:
+    xp: int = 0
+    can_pet: bool = True
+
+    # def generate(self, game: Game) -> None:
+
+
+@attrs.define
+class RaptorPen:
+    raptors: list[Raptor] = attrs.Factory(list)
+    seconds_until_generate: int = 60 * 10

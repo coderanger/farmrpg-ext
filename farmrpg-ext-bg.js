@@ -14,6 +14,7 @@ import { setupPerks, fetchPerks } from './lib/perks.js'
 import { setupOrchard } from './lib/orchard.js'
 import { setupWheel } from './lib/wheel.js'
 import { setupWorkshop } from './lib/workshop.js'
+import { setupAnimals } from './lib/animals.js'
 
 class GlobalState {
     constructor() {
@@ -209,6 +210,7 @@ const main = async () => {
     setupOrchard(globalState)
     setupWheel(globalState)
     setupWorkshop(globalState)
+    setupAnimals(globalState)
 
     // Kick off some initial data population.
     renderSidebarFromGlobalState()
