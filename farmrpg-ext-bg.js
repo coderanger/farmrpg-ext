@@ -118,6 +118,8 @@ const connectToContentScript = () =>
                 }
             })
             globalState.ports.push(port)
+            // Get something rendered at least.
+            renderSidebar(globalState)
             // The first time we get a connection, let the promise resolve.
             // This means we can block until we get at least one connection.
             if (resolve) {
