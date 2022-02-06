@@ -1,4 +1,28 @@
-LEVEL_TO_XP = {
+from typing import Any, Optional
+
+
+class LevelProperty:
+    def __init__(self, attr: str, xp_curve: dict[int, int]):
+        self.attr = attr
+        self.xp_curve = xp_curve
+        self.reverse_curve = sorted(
+            ((v, k) for k, v in xp_curve.items()), key=lambda kv: kv[1]
+        )
+
+    def __get__(self, obj: Any, objtype: Optional[type] = None) -> int:
+        level = 1
+        xp_value = getattr(obj, self.attr)
+        for xp_threshold, level_threshold in self.reverse_curve:
+            if xp_threshold > xp_value:
+                break
+            level = level_threshold
+        return level
+
+    def __set__(self, obj: Any, level: int):
+        setattr(obj, self.attr, self.xp_curve[level])
+
+
+PLAYER_XP_CURVE = {
     # This is an assumption.
     1: 0,
     # There are the explicitly known values.
@@ -64,7 +88,28 @@ LEVEL_TO_XP = {
 
 # Calculate the 2-41 values.
 for level in range(2, 42):
-    LEVEL_TO_XP[level] = round(31580.7731508038 * (1.118029202147977 ** level))
+    PLAYER_XP_CURVE[level] = round(31580.7731508038 * (1.118029202147977 ** level))
 
 
-XP_TO_LEVEL = sorted(((v, k) for k, v in LEVEL_TO_XP.items()), key=lambda kv: kv[1])
+ANIMAL_XP_CURVE = {
+    1: 0,
+    2: 1250,
+    3: 3750,
+    4: 7250,
+    5: 11750,
+    6: 17750,
+    7: 25250,
+    8: 34250,
+    9: 45250,
+    10: 58250,
+    11: 71400,
+    12: 99000,
+}
+
+
+def player_level_property(attr: str) -> LevelProperty:
+    return LevelProperty(attr, PLAYER_XP_CURVE)
+
+
+def animal_level_property() -> LevelProperty:
+    return LevelProperty("xp", ANIMAL_XP_CURVE)

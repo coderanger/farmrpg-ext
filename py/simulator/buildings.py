@@ -5,9 +5,11 @@ from typing import TYPE_CHECKING
 import attrs
 
 from .items import Item
+from .xp import animal_level_property
 
 if TYPE_CHECKING:
     from .game import Game
+    from .player import Player
 
 
 @attrs.define
@@ -42,11 +44,53 @@ class HayField:
 class Raptor:
     xp: int = 0
     can_pet: bool = True
+    level = animal_level_property()
 
-    # def generate(self, game: Game) -> None:
+    def pet(self, player: Player) -> None:
+        if not self.can_pet:
+            raise ValueError("cannot pet right now")
+        self.xp += 1700 if player.has_perk("Animal Lover") else 850
+        self.can_pet = False
+
+    def generate(self, player: Player) -> None:
+        level = self.level
+        if level >= 5:
+            player.add_item(Item["Antler"], level * 10)
+            player.add_item(Item["Steak Kabob"], level * 5)
+        self.can_pet = True
 
 
 @attrs.define
 class RaptorPen:
+    game: Game = attrs.field(repr=False)
     raptors: list[Raptor] = attrs.Factory(list)
-    seconds_until_generate: int = 60 * 10
+    seconds_until_generate: int = 60 * 60 * 24
+
+    @property
+    def can_pet(self) -> bool:
+        return any(raptor.can_pet for raptor in self.raptors)
+
+    def pet_all(self) -> None:
+        for raptor in self.raptors:
+            if raptor.can_pet:
+                raptor.pet(self.game.player)
+
+    def tick(self, seconds: int) -> None:
+        # If we have more eggs than raptors, add them here.
+        for _ in range(
+            self.game.player.inventory[Item["Raptor Egg"]] - len(self.raptors)
+        ):
+            self.raptors.append(Raptor())
+        self.seconds_until_generate -= seconds
+        while self.seconds_until_generate <= 0:
+            for raptor in self.raptors:
+                raptor.generate(self.game.player)
+            self.seconds_until_generate += 60 * 60 * 24
+
+    def _add_raptor(self, level=1, quantity=1) -> None:
+        """Add a raptor for debugging-y things."""
+        self.game.player.add_item(Item["Raptor Egg"], quantity)
+        for _ in range(quantity):
+            raptor = Raptor()
+            raptor.level = level
+            self.raptors.append(raptor)

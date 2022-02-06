@@ -18,23 +18,6 @@ if TYPE_CHECKING:
 PerkValue = TypeVar("PerkValue", int, float)
 
 
-class LevelProperty:
-    def __init__(self, attr: str):
-        self.attr = attr
-
-    def __get__(self, obj: Player, objtype: Optional[type] = None) -> int:
-        level = 1
-        xp_value = getattr(obj, self.attr)
-        for xp_threshold, level_threshold in xp.XP_TO_LEVEL:
-            if xp_threshold > xp_value:
-                break
-            level = level_threshold
-        return level
-
-    def __set__(self, obj: Player, level: int):
-        setattr(obj, self.attr, xp.LEVEL_TO_XP[level])
-
-
 @attrs.define
 class Player:
     game: Game = attrs.field(repr=False)
@@ -59,10 +42,10 @@ class Player:
 
     log: structlog.stdlib.BoundLogger = structlog.stdlib.get_logger(mod="player")
 
-    farming_level = LevelProperty("farming_xp")
-    fishing_level = LevelProperty("fishing_xp")
-    crafting_level = LevelProperty("crafting_xp")
-    explore_level = LevelProperty("explore_xp")
+    farming_level = xp.player_level_property("farming_xp")
+    fishing_level = xp.player_level_property("fishing_xp")
+    crafting_level = xp.player_level_property("crafting_xp")
+    explore_level = xp.player_level_property("explore_xp")
 
     def tick(self, seconds: int) -> None:
         self.seconds_until_stamina -= seconds

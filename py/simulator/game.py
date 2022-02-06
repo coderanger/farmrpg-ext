@@ -7,13 +7,13 @@ import attrs
 import structlog
 
 from .ai import AI
-from .buildings import HayField, Sawmill
+from .buildings import HayField, RaptorPen, Sawmill
 from .farm import Farm
 from .player import Player
 from .utils import format_number
 
 
-def SelfFactory(type):
+def SelfFactory(type: type):
     return attrs.Factory(lambda self: type(game=self), takes_self=True)
 
 
@@ -23,6 +23,7 @@ class Game:
     farm: Farm = SelfFactory(Farm)
     sawmill: Sawmill = SelfFactory(Sawmill)
     hay_field: HayField = SelfFactory(HayField)
+    raptor_pen: RaptorPen = SelfFactory(RaptorPen)
     ai_class: Optional[type] = None
     ai: Optional[AI] = None
 
@@ -37,6 +38,7 @@ class Game:
         self.farm.tick(seconds)
         self.sawmill.tick(seconds)
         self.hay_field.tick(seconds)
+        self.raptor_pen.tick(seconds)
 
     def process_ai(self):
         if self.ai is None:
@@ -49,6 +51,8 @@ class Game:
             if seed is not None:
                 self.log.debug("AI plant", seed=seed.name)
                 self.farm.plant_all(seed)
+        if self.raptor_pen.can_pet:
+            self.raptor_pen.pet_all()
         while self.player.can_fish:
             loc = self.ai.fish()
             if loc is not None:

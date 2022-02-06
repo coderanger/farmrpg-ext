@@ -52,6 +52,9 @@ def player_mid(game: Game) -> None:
             "Reinforced Netting",
         ]
     )
+    game.raptor_pen._add_raptor(level=6, quantity=3)
+    game.raptor_pen._add_raptor(level=5, quantity=1)
+    game.raptor_pen._add_raptor(level=1, quantity=1)
 
 
 def player_high(game: Game) -> None:
@@ -61,6 +64,7 @@ def player_high(game: Game) -> None:
     game.sawmill.boards_per_hour = 1000
     game.sawmill.wood_per_hour = 1000
     game.hay_field.straw_per_ten_minutes = 300
+    game.raptor_pen._add_raptor(level=10, quantity=20)
 
 
 PLAYERS = {
