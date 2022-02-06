@@ -2,7 +2,7 @@ import { renderSidebar, renderSidebarFromGlobalState } from './lib/sidebar.js'
 import { setupExplore } from './lib/explore.js'
 import { setupPageFilter } from './lib/pageFilter.js'
 import syncFixtures from './lib/fixtures/index.js'
-import { setupLog, downloadLog } from './lib/log.js'
+import { setupLog } from './lib/log.js'
 import { setupLocations } from './lib/locations.js'
 import { setupFishing } from './lib/fishing.js'
 import { setupItems } from './lib/item.js'
@@ -58,9 +58,9 @@ class GlobalState {
 
 const globalState = new GlobalState()
 
-const handleSidbarClick = async target => {
-    console.log("sidebar click", target)
-    const [targetType, targetArg] = target.split(":", 2)
+const handleSidbarClick = async msg => {
+    console.log("sidebar click", msg)
+    const [targetType, targetArg] = msg.target.split(":", 2)
     switch (targetType) {
     case "farm":
         if (globalState.player.farmID) {
@@ -90,12 +90,9 @@ const handleSidbarClick = async target => {
         globalState.perksetLoading = false
         await renderSidebarFromGlobalState()
         break
-    case "log":
-        await downloadLog(globalState)
-        break
     default:
         if (globalState.clickHandlers[targetType]) {
-            await globalState.clickHandlers[targetType](globalState, targetType, targetArg)
+            await globalState.clickHandlers[targetType](globalState, targetType, targetArg, msg)
         }
         break
     }
@@ -113,7 +110,7 @@ const connectToContentScript = () =>
             port.onMessage.addListener(msg => {
                 switch (msg.action) {
                 case "SIDEBAR_CLICK":
-                    handleSidbarClick(msg.target)
+                    handleSidbarClick(msg)
                     break
                 }
             })

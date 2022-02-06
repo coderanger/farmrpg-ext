@@ -20,7 +20,14 @@
                 if (!target) {
                     return true
                 }
-                currentPort.postMessage({action: "SIDEBAR_CLICK", target: target.dataset.farmrpgextsidebarclick})
+                currentPort.postMessage({
+                    action: "SIDEBAR_CLICK",
+                    target: target.dataset.farmrpgextsidebarclick,
+                    shift: evt.getModifierState("Shift"),
+                    alt: evt.getModifierState("Alt"),
+                    control: evt.getModifierState("Control"),
+                    meta: evt.getModifierState("Meta"),
+                })
                 evt.stopImmediatePropagation()
                 return false
             })
