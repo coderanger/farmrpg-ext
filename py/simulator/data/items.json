@@ -416,6 +416,25 @@
     "xp": 300
   },
   {
+    "event": true,
+    "first_seen": 1644110842354,
+    "id": "487",
+    "image": "/img/items/l_03_t.PNG",
+    "name": "Bouquet of Roses",
+    "rarity": "Uncommon",
+    "xp": 1750
+  },
+  {
+    "event": true,
+    "first_seen": 1643749229927,
+    "givable": true,
+    "id": "483",
+    "image": "/img/items/l_06_t.png?1",
+    "name": "Box of Chocolate",
+    "rarity": "Very Rare",
+    "xp": 1
+  },
+  {
     "growth_time": 172800,
     "id": "256",
     "image": "/img/items/8757.png",
@@ -1311,6 +1330,7 @@
   {
     "id": "232",
     "image": "/img/items/5162-2.png",
+    "mastery": true,
     "name": "Flamejack",
     "rarity": "Common",
     "sell_price": 3250,
@@ -1927,6 +1947,34 @@
     "xp": 350
   },
   {
+    "event": true,
+    "first_seen": 1644110835040,
+    "id": "486",
+    "image": "/img/items/l_02_t_a.PNG",
+    "name": "Heart Necklace",
+    "rarity": "Uncommon",
+    "sell_price": 5000,
+    "xp": 2500
+  },
+  {
+    "event": true,
+    "first_seen": 1644110823342,
+    "id": "484",
+    "image": "/img/items/l_02_t_b.PNG",
+    "name": "Heart Necklace Left Piece",
+    "rarity": "Uncommon",
+    "xp": 1750
+  },
+  {
+    "event": true,
+    "first_seen": 1644110829799,
+    "id": "485",
+    "image": "/img/items/l_02_t_c.PNG",
+    "name": "Heart Necklace Right Piece",
+    "rarity": "Uncommon",
+    "xp": 1750
+  },
+  {
     "id": "349",
     "image": "/img/items/5686.png",
     "name": "Herbs",
@@ -1970,8 +2018,10 @@
   },
   {
     "givable": true,
+    "growth_time": 1200,
     "id": "46",
     "image": "/img/items/8248.PNG",
+    "mastery": true,
     "name": "Hops",
     "sell_price": 240,
     "xp": 200
@@ -2065,7 +2115,7 @@
     "xp": 100
   },
   {
-    "craft_price": 1000,
+    "craft_price": 1000000,
     "id": "169",
     "image": "/img/items/6017.png",
     "name": "Inferno Sphere",
@@ -2082,7 +2132,7 @@
       "Runestone 09": 1,
       "Runestone 10": 1
     },
-    "sell_price": 2000,
+    "sell_price": 2000000,
     "xp": 50000
   },
   {
@@ -2231,7 +2281,7 @@
     "xp": 200
   },
   {
-    "craft_price": 2000,
+    "craft_price": 2000000,
     "id": "220",
     "image": "/img/items/5249.png",
     "name": "Lava Sphere",
@@ -2248,7 +2298,7 @@
       "Runestone 19": 1,
       "Runestone 20": 1
     },
-    "sell_price": 4000,
+    "sell_price": 4000000,
     "xp": 150000
   },
   {
@@ -2342,6 +2392,7 @@
     "xp": 100
   },
   {
+    "craft_price": 75,
     "id": "124",
     "image": "/img/items/lemonring.png",
     "mastery": true,
@@ -2621,6 +2672,14 @@
     "xp": 5000
   },
   {
+    "first_seen": 1643801960398,
+    "id": "482",
+    "image": "/img/items/4456.png",
+    "name": "Mystical Chest 01",
+    "rarity": "Very Rare",
+    "xp": 1
+  },
+  {
     "id": "325",
     "image": "/img/items/5273.png?1",
     "name": "Mystical Staff",
@@ -2702,6 +2761,7 @@
     "xp": 2500
   },
   {
+    "craft_price": 2,
     "givable": true,
     "id": "84",
     "image": "/img/items/orangejuice.png",
@@ -2815,6 +2875,15 @@
     "image": "/img/items/cr_t_06.png",
     "name": "Pine Tree",
     "sell_price": 10000,
+    "xp": 5000
+  },
+  {
+    "event": true,
+    "first_seen": 1644110892988,
+    "id": "489",
+    "image": "/img/items/l_05_t.PNG",
+    "name": "Pink Ribbon",
+    "rarity": "Super Rare",
     "xp": 5000
   },
   {
@@ -3111,6 +3180,7 @@
     "xp": 1000
   },
   {
+    "craft_price": 100,
     "id": "96",
     "image": "/img/items/rubyring.png",
     "mastery": true,
@@ -3443,6 +3513,7 @@
     "xp": 125
   },
   {
+    "craft_price": 1000,
     "id": "249",
     "image": "/img/items/shimmertopazring.png",
     "mastery": true,
@@ -3470,6 +3541,7 @@
     "xp": 250
   },
   {
+    "craft_price": 500,
     "id": "248",
     "image": "/img/items/8055.png",
     "mastery": true,
@@ -3980,6 +4052,7 @@
   {
     "id": "231",
     "image": "/img/items/5147-2.png",
+    "mastery": true,
     "name": "Torch Fish",
     "sell_price": 2500,
     "xp": 2500
@@ -4141,6 +4214,15 @@
     },
     "sell_price": 10,
     "xp": 50
+  },
+  {
+    "event": true,
+    "first_seen": 1644110847499,
+    "id": "488",
+    "image": "/img/items/l_07_t.PNG",
+    "name": "Valentine's Card",
+    "rarity": "Uncommon",
+    "xp": 1750
   },
   {
     "event": true,
