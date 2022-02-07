@@ -1,4 +1,5 @@
 import logging
+from time import monotonic_ns
 
 import structlog
 import typer
@@ -103,8 +104,16 @@ def simulator(
     game = Game(ai_class=get_ai(ai))
     PLAYERS[player](game)
     game.player.silver += STARTER_SILVER
+    start_time = monotonic_ns()
     game.run(ticks, tick_length)
+    end_time = monotonic_ns()
     game.player.silver -= STARTER_SILVER
+    wall_time = (end_time - start_time) / 1e9
+    log.info(
+        "Simulation complete",
+        wall_seconds=wall_time,
+        speedup=round((ticks * tick_length) / wall_time),
+    )
     if summary:
         print(game.summary())
     hours = (ticks * tick_length) / (60 * 60)
