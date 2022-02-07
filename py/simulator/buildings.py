@@ -5,7 +5,7 @@ from typing import TYPE_CHECKING
 import attrs
 
 from .items import Item
-from .xp import animal_level_property
+from .xp import LevelProperty
 
 if TYPE_CHECKING:
     from .game import Game
@@ -44,7 +44,7 @@ class HayField:
 class Raptor:
     xp: int = 0
     can_pet: bool = True
-    level = animal_level_property()
+    level = LevelProperty()
 
     def pet(self, player: Player) -> None:
         if not self.can_pet:
