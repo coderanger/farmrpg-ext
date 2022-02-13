@@ -1,6 +1,139 @@
 import sys
+import time
+from collections import defaultdict
+from typing import Any, Union
 
+import attrs
+
+import fixtures
 import parse_logs
+
+
+def when_dropped(item: fixtures.Item) -> range:
+    first_dropped = item.first_dropped or item.first_seen or 0
+    last_dropped = item.last_dropped or round((time.time() + 10000000) * 1000)
+    return range(first_dropped, last_dropped + 1)
+
+
+@attrs.define
+class ItemDrops:
+    explores: int = 0
+    lemonades: int = 0
+    ciders: int = 0
+    fishes: int = 0
+    nets: int = 0
+    drops: int = 0
+
+
+@attrs.define
+class LocationDrops:
+    explores: int = 0
+    lemonades: int = 0
+    ciders: int = 0
+    fishes: int = 0
+    nets: int = 0
+    drops: int = 0
+    items: dict[str, ItemDrops] = attrs.Factory(lambda: defaultdict(ItemDrops))
+
+
+@attrs.define
+class Drops:
+    explores: int = 0
+    lemonades: int = 0
+    ciders: int = 0
+    fishes: int = 0
+    nets: int = 0
+    drops: int = 0
+    locations: dict[str, LocationDrops] = attrs.Factory(
+        lambda: defaultdict(LocationDrops)
+    )
+
+
+def count_sources(
+    drops: Union[Drops, LocationDrops, ItemDrops], row: dict[str, Any]
+) -> None:
+    if row["type"] == "explore":
+        drops.explores += row["results"]["stamina"]
+    elif row["type"] == "lemonade":
+        drops.lemonades += 1
+    elif row["type"] == "cider":
+        drops.ciders += 1
+        # This is kind of wrong for global and location stats since not all explores count
+        # for all items but it's more correct than not.
+        drops.explores += row["results"].get("explores", row["results"]["stamina"])
+    elif row["type"] == "fish":
+        drops.fishes += 1
+    elif row["type"] == "net":
+        drops.nets += 1
+
+
+def compile_drops(
+    explore: bool = False,
+    lemonade: bool = False,
+    cider: bool = False,
+    fish: bool = False,
+    net: bool = False,
+) -> Drops:
+    when_items_dropped = {
+        item.name: when_dropped(item) for item in fixtures.load_items()
+    }
+    # loc_items = {loc.name: loc.items for loc in fixtures.load_locations()}
+    types: set[str] = set()
+    if explore:
+        types.add("explore")
+    if lemonade:
+        types.add("lemonade")
+    if cider:
+        types.add("cider")
+    if fish:
+        types.add("fish")
+    if net:
+        types.add("net")
+    explores = Drops()
+    logs = [row for row in parse_logs.parse_logs() if row["type"] in types]
+    # First run through to count drops and work out which items are in each locations.
+    for row in logs:
+        location_name = row["results"].get("location")
+        if not location_name:
+            continue
+        overflow_items: set[str] = {
+            item["item"] for item in row["results"]["items"] if item["overflow"]
+        }
+        for item in row["results"]["items"]:
+            if row["ts"] not in when_items_dropped[item["item"]]:
+                # Ignore out-of-bounds drops. This allows accounting for stuff like drop
+                # rates changing substantially by manually resetting firstDropped.
+                continue
+            if row["type"] == "cider" and item["item"] in overflow_items:
+                # Cider overflow always reports 0 drops so any item that overflows during
+                # a cider has to be ignored.
+                continue
+            explores.locations[location_name].items[item["item"]].drops += item.get(
+                "quantity", 1
+            )
+            explores.locations[location_name].drops += item.get("quantity", 1)
+            explores.drops += item.get("quantity", 1)
+    # Second pass to get the explore counts.
+    for row in logs:
+        location_name = row["results"].get("location")
+        if not location_name:
+            continue
+        overflow_items: set[str] = {
+            item["item"] for item in row["results"]["items"] if item["overflow"]
+        }
+        for item, item_explores in explores.locations[location_name].items.items():
+            if row["ts"] not in when_items_dropped[item]:
+                # Item couldn't drop, this doesn't count.
+                continue
+            if row["type"] == "cider" and item in overflow_items:
+                # Cider overflow always reports 0 drops so any item that overflows during
+                # a cider has to be ignored.
+                continue
+            count_sources(item_explores, row)
+        count_sources(explores.locations[location_name], row)
+        count_sources(explores, row)
+
+    return explores
 
 
 def total_drops() -> dict[str, dict[str, int]]:

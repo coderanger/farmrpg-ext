@@ -24,6 +24,12 @@ def parse_logs(log_type=None, since=int(os.environ.get("SINCE", 0))):
             if items and "item" not in items[0]:
                 continue
 
+            if row["type"] == "cider" and "explores" not in row["results"]:
+                # Backfill this.
+                row["results"]["explores"] = (
+                    1250 if row["results"]["stamina"] >= 750 else 1000
+                )
+
             if row["ts"] not in all_logs:
                 # Fix up the old zone/loc thing.
                 results = row.get("results")

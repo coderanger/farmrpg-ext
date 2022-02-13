@@ -4,6 +4,7 @@ from pathlib import Path
 from typing import Iterable, Optional
 
 import attr
+import attrs
 from frozendict import frozendict
 
 comment_re = re.compile(r"^//.*$")
@@ -17,6 +18,7 @@ item_case_mappings = {
     "fleaMarket": "flea_market",
     "growthTime": "growth_time",
     "firstSeen": "first_seen",
+    "firstDropped": "first_dropped",
 }
 
 
@@ -51,11 +53,28 @@ class Item:
     event: bool = False
     growth_time: Optional[int] = None
     first_seen: Optional[int] = None
+    first_dropped: Optional[int] = None
+    last_dropped: Optional[int] = None
 
 
 def load_items() -> Iterable[Item]:
     for item in load_fixture("items"):
         yield Item(**{item_case_mappings.get(k, k): v for k, v in item.items()})
+
+
+@attrs.define(frozen=True)
+class Location:
+    id: str
+    type: str
+    name: str
+    items: tuple[str]
+
+
+def load_locations(type: Optional[str] = None) -> Iterable[Location]:
+    for location in load_fixture("locations"):
+        if type is not None and type != location["type"]:
+            continue
+        yield Location(**location)
 
 
 if __name__ == "__main__":
