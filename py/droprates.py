@@ -1,6 +1,5 @@
 import functools
 import re
-import sys
 import time
 from collections import defaultdict
 from typing import Any, Optional, Union
@@ -219,7 +218,13 @@ def droprates_cmd(
     lemonade: bool = False,
     cider: bool = False,
     since: int = 0,
+    output: list[str] = [],
+    wanderer: int = 33,
+    lemonade_perk: bool = True,
+    net_perk: bool = True,
 ) -> None:
+    # If any output types are a comma-separated string, expand them.
+    output = [o2 for o in output for o2 in o.split(",")]
     drops = compile_drops(
         explore=True,
         lemonade=lemonade,
@@ -255,25 +260,18 @@ def droprates_cmd(
                 item_drops.explores or item_drops.fishes
             ) / item_drops.drops
             mode = "explores" if item_drops.explores else "fishes"
+            if mode == "explores" and "stam" in output:
+                hits_per_drop *= 1 - (wanderer / 100)
+                mode = "stam"
+            elif mode == "explores" and "lemonade" in output:
+                raise NotImplementedError
+            elif mode == "fishes" and "nets" in output:
+                hits_per_drop /= 15 if net_perk else 10
+                mode = "nets"
             print(
                 f"\t{item}: {hits_per_drop:.2f} {mode}/drop ({item_drops.drops} drops)"
             )
 
 
 if __name__ == "__main__":
-    # item_filter = sys.argv[1] if len(sys.argv) > 1 else None
-    # combined_stam_per_drop = {}
-    # for zone, zone_totals in sorted(total_drops().items()):
-    #     print(f"{zone} ({zone_totals['stamina']}):")
-    #     for item, drops in sorted(zone_totals["drops"].items()):
-    #         if item_filter and item != item_filter:
-    #             continue
-    #         stam_per_drop = zone_totals["stamina"] / drops
-    #         if stam_per_drop < combined_stam_per_drop.get(item, 1000000000000):
-    #             combined_stam_per_drop[item] = stam_per_drop
-    #         print(f"\t{item}: {stam_per_drop} ({drops})")
-
-    # print("Combined:")
-    # for item, stam_per_drop in sorted(combined_stam_per_drop.items()):
-    #     print(f'        "{item}": {stam_per_drop},')
     typer.run(droprates_cmd)
