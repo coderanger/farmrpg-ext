@@ -5,19 +5,6 @@ import typer
 
 import droprates
 
-BASE_DROP_RATES = {
-    "Black Rock Canyon": 1 / 3,
-    "Cane Pole Ridge": 2 / 7,
-    "Ember Lagoon": 1 / 3,
-    "Forest": 1 / 3,
-    "Highland Hills": 1 / 4,
-    "Misty Forest": 1 / 3,
-    "Mount Banon": 1 / 3,
-    "Small Cave": 2 / 5,
-    "Small Spring": 1 / 3,
-    "Whispering Creek": 4 / 15,
-}
-
 
 def exp_vs_lem(drop_threshold: Optional[int] = None) -> None:
     explores = droprates.compile_drops(explore=True)
@@ -25,7 +12,7 @@ def exp_vs_lem(drop_threshold: Optional[int] = None) -> None:
     for location in sorted(explores.locations.keys() | lemonade.locations.keys()):
         explore_loc = explores.locations[location]
         lemonade_loc = lemonade.locations[location]
-        base_drop_rate = BASE_DROP_RATES[location]
+        base_drop_rate = droprates.BASE_DROP_RATES[location]
 
         if explore_loc.explores == 0:
             print(f"{location} NO EXPLORES")

@@ -44,7 +44,7 @@ if __name__ == "__main__":
         ):
             print(f"\t{item}: {percent:.4f}% ({count})")
 
-        drops_by_rarity: Counter[str, int] = Counter()
+        drops_by_rarity: Counter[str] = Counter()
         for item, count in zone_data["drops"].items():
             drops_by_rarity[items[item].rarity or "NONE"] += count
         for rarity, count in sorted(drops_by_rarity.items()):

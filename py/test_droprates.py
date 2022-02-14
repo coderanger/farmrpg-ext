@@ -157,3 +157,70 @@ def test_compile_explores_cider_overflow(mock_parse_logs):
     assert explores.locations["Forest"].items["Stone"].lemonades == 0
     assert explores.locations["Forest"].items["Stone"].ciders == 0
     assert explores.locations["Forest"].items["Stone"].drops == 1
+
+
+@patch("parse_logs.parse_logs")
+def test_compile_explores_fake_lemonade(mock_parse_logs):
+    mock_parse_logs.return_value = [
+        {
+            "type": "lemonade",
+            "results": {
+                "location": "Cane Pole Ridge",
+                "items": [
+                    {"item": "Stone", "overflow": False, "quantity": 1},
+                    {
+                        "item": "Unpolished Shimmer Stone",
+                        "overflow": False,
+                        "quantity": 1,
+                    },
+                    {
+                        "item": "Unpolished Shimmer Stone",
+                        "overflow": False,
+                        "quantity": 1,
+                    },
+                    {"item": "Mushroom", "overflow": False, "quantity": 1},
+                    {
+                        "item": "Unpolished Shimmer Stone",
+                        "overflow": False,
+                        "quantity": 1,
+                    },
+                    {"item": "Iron", "overflow": True, "quantity": 1},
+                    {"item": "Wood", "overflow": False, "quantity": 1},
+                    {"item": "Iron", "overflow": True, "quantity": 1},
+                    {"item": "Iron", "overflow": True, "quantity": 1},
+                    {"item": "Wood", "overflow": False, "quantity": 1},
+                    {
+                        "item": "Unpolished Shimmer Stone",
+                        "overflow": False,
+                        "quantity": 1,
+                    },
+                    {"item": "Iron", "overflow": True, "quantity": 1},
+                    {
+                        "item": "Unpolished Shimmer Stone",
+                        "overflow": False,
+                        "quantity": 1,
+                    },
+                    {"item": "Stone", "overflow": False, "quantity": 1},
+                    {"item": "Iron", "overflow": True, "quantity": 1},
+                    {"item": "Lemon Quartz", "overflow": False, "quantity": 1},
+                    {
+                        "item": "Unpolished Shimmer Stone",
+                        "overflow": False,
+                        "quantity": 1,
+                    },
+                    {
+                        "item": "Unpolished Shimmer Stone",
+                        "overflow": False,
+                        "quantity": 1,
+                    },
+                    {"item": "Iron", "overflow": True, "quantity": 1},
+                    {"item": "Iron", "overflow": True, "quantity": 1},
+                ],
+            },
+            "ts": 1644646984454,
+            "id": 116335,
+        },
+    ]
+    drops = compile_drops(lemonade=True, lemonade_fake_explores=True)
+    assert drops.lemonades == 1
+    assert drops.explores == 70

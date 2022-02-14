@@ -1,12 +1,28 @@
+import functools
+import re
 import sys
 import time
 from collections import defaultdict
-from typing import Any, Union
+from typing import Any, Optional, Union
 
 import attrs
+import typer
 
 import fixtures
 import parse_logs
+
+BASE_DROP_RATES = {
+    "Black Rock Canyon": 1 / 3,
+    "Cane Pole Ridge": 2 / 7,
+    "Ember Lagoon": 1 / 3,
+    "Forest": 1 / 3,
+    "Highland Hills": 1 / 4,
+    "Misty Forest": 1 / 3,
+    "Mount Banon": 1 / 3,
+    "Small Cave": 2 / 5,
+    "Small Spring": 1 / 3,
+    "Whispering Creek": 4 / 15,
+}
 
 
 def when_dropped(item: fixtures.Item) -> range:
@@ -50,12 +66,20 @@ class Drops:
 
 
 def count_sources(
-    drops: Union[Drops, LocationDrops, ItemDrops], row: dict[str, Any]
+    drops: Union[Drops, LocationDrops, ItemDrops],
+    row: dict[str, Any],
+    lemonade_fake_explores_location: Optional[str] = None,
+    nets_fake_fishes: bool = False,
 ) -> None:
     if row["type"] == "explore":
         drops.explores += row["results"]["stamina"]
     elif row["type"] == "lemonade":
         drops.lemonades += 1
+        if lemonade_fake_explores_location is not None:
+            drops.explores += round(
+                (1 / BASE_DROP_RATES[lemonade_fake_explores_location])
+                * sum(it.get("quantity", 1) for it in row["results"]["items"])
+            )
     elif row["type"] == "cider":
         drops.ciders += 1
         # This is kind of wrong for global and location stats since not all explores count
@@ -65,6 +89,8 @@ def count_sources(
         drops.fishes += 1
     elif row["type"] == "net":
         drops.nets += 1
+        if nets_fake_fishes:
+            drops.fishes += sum(it.get("quantity", 1) for it in row["results"]["items"])
 
 
 def compile_drops(
@@ -73,6 +99,9 @@ def compile_drops(
     cider: bool = False,
     fish: bool = False,
     net: bool = False,
+    since: int = 0,
+    lemonade_fake_explores: bool = False,
+    nets_fake_fishes: bool = False,
 ) -> Drops:
     when_items_dropped = {
         item.name: when_dropped(item) for item in fixtures.load_items()
@@ -90,7 +119,7 @@ def compile_drops(
     if net:
         types.add("net")
     explores = Drops()
-    logs = [row for row in parse_logs.parse_logs() if row["type"] in types]
+    logs = [row for row in parse_logs.parse_logs(since=since) if row["type"] in types]
     # First run through to count drops and work out which items are in each locations.
     for row in logs:
         location_name = row["results"].get("location")
@@ -121,6 +150,14 @@ def compile_drops(
         overflow_items: set[str] = {
             item["item"] for item in row["results"]["items"] if item["overflow"]
         }
+        count_sources_for_loc = functools.partial(
+            count_sources,
+            row=row,
+            lemonade_fake_explores_location=location_name
+            if lemonade_fake_explores
+            else None,
+            nets_fake_fishes=nets_fake_fishes,
+        )
         for item, item_explores in explores.locations[location_name].items.items():
             if row["ts"] not in when_items_dropped[item]:
                 # Item couldn't drop, this doesn't count.
@@ -129,9 +166,9 @@ def compile_drops(
                 # Cider overflow always reports 0 drops so any item that overflows during
                 # a cider has to be ignored.
                 continue
-            count_sources(item_explores, row)
-        count_sources(explores.locations[location_name], row)
-        count_sources(explores, row)
+            count_sources_for_loc(item_explores)
+        count_sources_for_loc(explores.locations[location_name])
+        count_sources_for_loc(explores)
 
     return explores
 
@@ -177,19 +214,66 @@ def drop_rates() -> dict[str, dict[str, float]]:
     return rates
 
 
-if __name__ == "__main__":
-    item_filter = sys.argv[1] if len(sys.argv) > 1 else None
-    combined_stam_per_drop = {}
-    for zone, zone_totals in sorted(total_drops().items()):
-        print(f"{zone} ({zone_totals['stamina']}):")
-        for item, drops in sorted(zone_totals["drops"].items()):
-            if item_filter and item != item_filter:
-                continue
-            stam_per_drop = zone_totals["stamina"] / drops
-            if stam_per_drop < combined_stam_per_drop.get(item, 1000000000000):
-                combined_stam_per_drop[item] = stam_per_drop
-            print(f"\t{item}: {stam_per_drop} ({drops})")
+def droprates_cmd(
+    filter: Optional[str] = typer.Argument(None),
+    lemonade: bool = False,
+    cider: bool = False,
+    since: int = 0,
+) -> None:
+    drops = compile_drops(
+        explore=True,
+        lemonade=lemonade,
+        cider=cider,
+        fish=True,
+        net=True,
+        lemonade_fake_explores=True,
+        nets_fake_fishes=True,
+        since=since,
+    )
+    filter_is_location = filter is not None and filter in drops.locations
+    filter_is_item = filter is not None and any(
+        filter in loc.items for loc in drops.locations.values()
+    )
+    for location, loc_drops in sorted(drops.locations.items()):
+        if filter_is_location and location != filter:
+            continue
+        filtered_items = [
+            (item, item_drops)
+            for item, item_drops in loc_drops.items.items()
+            if filter is None
+            or (
+                item == filter
+                if filter_is_item
+                else re.search(filter, item, re.IGNORECASE)
+            )
+        ]
+        if not filtered_items:
+            continue
+        print(f"{location}:")
+        for item, item_drops in sorted(filtered_items):
+            hits_per_drop = (
+                item_drops.explores or item_drops.fishes
+            ) / item_drops.drops
+            mode = "explores" if item_drops.explores else "fishes"
+            print(
+                f"\t{item}: {hits_per_drop:.2f} {mode}/drop ({item_drops.drops} drops)"
+            )
 
-    print("Combined:")
-    for item, stam_per_drop in sorted(combined_stam_per_drop.items()):
-        print(f'        "{item}": {stam_per_drop},')
+
+if __name__ == "__main__":
+    # item_filter = sys.argv[1] if len(sys.argv) > 1 else None
+    # combined_stam_per_drop = {}
+    # for zone, zone_totals in sorted(total_drops().items()):
+    #     print(f"{zone} ({zone_totals['stamina']}):")
+    #     for item, drops in sorted(zone_totals["drops"].items()):
+    #         if item_filter and item != item_filter:
+    #             continue
+    #         stam_per_drop = zone_totals["stamina"] / drops
+    #         if stam_per_drop < combined_stam_per_drop.get(item, 1000000000000):
+    #             combined_stam_per_drop[item] = stam_per_drop
+    #         print(f"\t{item}: {stam_per_drop} ({drops})")
+
+    # print("Combined:")
+    # for item, stam_per_drop in sorted(combined_stam_per_drop.items()):
+    #     print(f'        "{item}": {stam_per_drop},')
+    typer.run(droprates_cmd)
