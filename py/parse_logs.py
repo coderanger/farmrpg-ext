@@ -30,6 +30,15 @@ def parse_logs(log_type=None, since=int(os.environ.get("SINCE", 0))):
                     1250 if row["results"]["stamina"] >= 750 else 1000
                 )
 
+            if row["type"] == "fish" and "items" not in row["results"]:
+                row["results"]["items"] = [
+                    {
+                        "item": row["results"].pop("item"),
+                        "overflow": row["results"].pop("overflow"),
+                        "quantity": 1,
+                    }
+                ]
+
             if row["ts"] not in all_logs:
                 # Fix up the old zone/loc thing.
                 results = row.get("results")
