@@ -52,7 +52,8 @@ def exp_vs_lem(drop_threshold: Optional[int] = None) -> None:
 
         if exp_vs_lem_rates and adj_exp_vs_lem_rates:
             print(
-                f"{location} AVERAGE {statistics.mean(exp_vs_lem_rates):.3f} {statistics.mean(adj_exp_vs_lem_rates):.3f}"
+                f"{location} AVERAGE {statistics.mean(exp_vs_lem_rates):.3f} "
+                f"{statistics.mean(adj_exp_vs_lem_rates):.3f}"
             )
 
 
