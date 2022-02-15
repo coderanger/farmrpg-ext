@@ -3,16 +3,27 @@ import glob
 import json
 import os
 from collections import Counter
+from typing import Iterable
+
+
+def log_files(include_current: bool = True) -> Iterable[str]:
+    """Yield all the log files to scan."""
+    yield from glob.glob("logs/*.json")
+    if include_current:
+        cur_log = os.path.expanduser("~/Downloads/log.json")
+        if os.path.exists(cur_log):
+            yield cur_log
+
+
+def log_mtime(include_current: bool = True) -> float:
+    """Return the mtime of the most recently changed log file."""
+    return max(os.stat(p).st_mtime for p in log_files(include_current=include_current))
 
 
 def parse_logs(log_type=None, since=int(os.environ.get("SINCE", 0))):
-    # Find all the log files to scan.
-    log_files = glob.glob("logs/*.json")
-    if os.path.exists("/Users/coderanger/Downloads/log.json"):
-        log_files.append("/Users/coderanger/Downloads/log.json")
     # Parse the logs.
     all_logs = {}
-    for log_file in log_files:
+    for log_file in log_files():
         log = json.load(open(log_file))
         for row in log:
             if log_type and row["type"] != log_type:
@@ -61,15 +72,15 @@ def parse_logs(log_type=None, since=int(os.environ.get("SINCE", 0))):
 if __name__ == "__main__":
     # Compile the logs clean things up.
     all_logs = list(parse_logs())
-    log_files = glob.glob("logs/*.json")
-    if len(log_files) > 1:
+    local_log_files = list(log_files(include_current=False))
+    if len(local_log_files) > 1:
         # Move all the old logs into an archival folder (just in case).
         today = datetime.date.today()
         archive_folder = (
             f"old_logs/{datetime.datetime.now().isoformat().replace(':', '_')}"
         )
         os.mkdir(archive_folder)
-        for file in log_files:
+        for file in local_log_files:
             os.rename(file, f"{archive_folder}/{os.path.basename(file)}")
         # Write out the compiled logs.
         with open("logs/log.json", "w") as out:

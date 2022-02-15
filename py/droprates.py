@@ -1,10 +1,14 @@
 import functools
+import io
+import json
+import os
 import re
 import time
 from collections import defaultdict
 from typing import Any, Optional, Union
 
 import attrs
+import cattrs
 import typer
 
 import fixtures
@@ -22,6 +26,20 @@ BASE_DROP_RATES = {
     "Small Spring": 1 / 3,
     "Whispering Creek": 4 / 15,
 }
+
+CACHE_PATH_BASE = f"{os.path.dirname(__file__)}/.drops.{'{}'}.json"
+
+
+def cache_path_for(**kwargs) -> str:
+    buf = io.StringIO()
+    for key, value in sorted(kwargs.items()):
+        if value is True:
+            buf.write(key)
+        elif value is False:
+            pass  # Do nothing
+        elif isinstance(value, int):
+            buf.write(str(value))
+    return CACHE_PATH_BASE.format(buf.getvalue())
 
 
 def when_dropped(item: fixtures.Item) -> range:
@@ -102,6 +120,25 @@ def compile_drops(
     lemonade_fake_explores: bool = False,
     nets_fake_fishes: bool = False,
 ) -> Drops:
+    cache_path = cache_path_for(
+        e=explore,
+        l=lemonade,
+        c=cider,
+        f=fish,
+        n=net,
+        s=since,
+        x=lemonade_fake_explores,
+        y=nets_fake_fishes,
+    )
+
+    # Check if the cache file exists and is newer than all log files.
+    if (
+        os.path.exists(cache_path)
+        and os.stat(cache_path).st_mtime >= parse_logs.log_mtime()
+    ):
+        with open(cache_path) as cachef:
+            return cattrs.structure(json.load(cachef), Drops)
+
     when_items_dropped = {
         item.name: when_dropped(item) for item in fixtures.load_items()
     }
@@ -168,6 +205,10 @@ def compile_drops(
             count_sources_for_loc(item_explores)
         count_sources_for_loc(explores.locations[location_name])
         count_sources_for_loc(explores)
+
+    # Write the cache.
+    with open(cache_path, "w") as cachef:
+        json.dump(cattrs.unstructure(explores), cachef)
 
     return explores
 
