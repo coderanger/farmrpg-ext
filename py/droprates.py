@@ -256,7 +256,7 @@ def drop_rates() -> dict[str, dict[str, float]]:
 
 def droprates_cmd(
     filter: Optional[str] = typer.Argument(None),
-    lemonade: bool = False,
+    lemonade: bool = True,
     cider: bool = False,
     since: int = 0,
     output: list[str] = [],
