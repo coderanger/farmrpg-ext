@@ -1,5 +1,8 @@
 import logging
+import os
+import random
 from time import monotonic_ns
+from typing import Optional
 
 import structlog
 import typer
@@ -86,21 +89,28 @@ def simulator(
     time: str = "7d",
     summary: bool = False,
     seconds: bool = False,  # Run with 1 second ticks instead of 1 minute.
+    seed: Optional[int] = None,
+    tick_length: Optional[int] = None,
 ):
     if not verbose:
         structlog.configure(
             wrapper_class=structlog.make_filtering_bound_logger(logging.INFO)
         )
     log = structlog.get_logger(mod="main")
-    tick_length = 1 if seconds else 60
+    if tick_length is None:
+        tick_length = 1 if seconds else 60
     ticks = parse_time(time, tick_length)
+    if seed is None:
+        seed = int.from_bytes(os.urandom(4), byteorder="big")
     log.info(
         "Starting simulation",
         ticks=ticks,
         tick_length=tick_length,
         ai=ai,
         player=player,
+        seed=seed,
     )
+    random.seed(seed)
     game = Game(ai_class=get_ai(ai))
     PLAYERS[player](game)
     game.player.silver += STARTER_SILVER

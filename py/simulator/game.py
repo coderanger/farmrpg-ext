@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import datetime
 from io import StringIO
 from typing import Optional
 
@@ -10,6 +11,7 @@ from .ai import AI
 from .buildings import HayField, RaptorPen, Sawmill
 from .farm import Farm
 from .player import Player
+from .steak_market import SteakMarket
 from .utils import format_number
 
 
@@ -24,8 +26,11 @@ class Game:
     sawmill: Sawmill = SelfFactory(Sawmill)
     hay_field: HayField = SelfFactory(HayField)
     raptor_pen: RaptorPen = SelfFactory(RaptorPen)
+    steak_market: SteakMarket = SelfFactory(SteakMarket)
     ai_class: Optional[type] = None
     ai: Optional[AI] = None
+
+    time: datetime.datetime = datetime.datetime.now()
 
     log: structlog.stdlib.BoundLogger = structlog.stdlib.get_logger(mod="farm")
 
@@ -34,11 +39,13 @@ class Game:
             self.ai = self.ai_class(self)
 
     def tick(self, seconds: int) -> None:
+        self.time += datetime.timedelta(seconds=seconds)
         self.player.tick(seconds)
         self.farm.tick(seconds)
         self.sawmill.tick(seconds)
         self.hay_field.tick(seconds)
         self.raptor_pen.tick(seconds)
+        self.steak_market.tick(seconds)
 
     def process_ai(self):
         if self.ai is None:
@@ -79,6 +86,9 @@ class Game:
             )
             self.process_ai()
             self.tick(interval)
+        # Finalize the AI.
+        if self.ai:
+            self.ai.finish()
 
     def summary(self) -> str:
         """Render a string summary of the game state."""
@@ -92,4 +102,5 @@ class Game:
         out.write("Overflow:\n")
         for item, count in self.player.overflow_items.items():
             out.write(f"\t{item.name}: {count}\n")
+        out.write(self.steak_market.summary())
         return out.getvalue()

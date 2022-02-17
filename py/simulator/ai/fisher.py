@@ -6,7 +6,7 @@ from .base import AI
 
 
 class FisherAI(AI):
-    """An AI that makes net and does fishing."""
+    """An AI that makes nets and does fishing."""
 
     def fish(self) -> Optional[Location]:
         return Location["Large Island"]

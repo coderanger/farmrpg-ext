@@ -32,3 +32,7 @@ class AI:
     def process(self) -> None:
         """Handle all other per-tick logic."""
         return None
+
+    def finish(self) -> None:
+        """Do any cleanup before the end."""
+        return None

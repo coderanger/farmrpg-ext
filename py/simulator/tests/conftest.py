@@ -9,6 +9,7 @@ from simulator.farm import Farm
 from simulator.game import Game
 from simulator.items import Item
 from simulator.player import Player
+from simulator.steak_market import SteakMarket
 
 
 @pytest.fixture
@@ -30,6 +31,11 @@ def super_player(player: Player) -> Player:
 @pytest.fixture
 def farm(game: Game) -> Farm:
     return game.farm
+
+
+@pytest.fixture
+def steak_market(game: Game) -> SteakMarket:
+    return game.steak_market
 
 
 def pytest_assertrepr_compare(
