@@ -10,12 +10,13 @@
     justify-content: space-between;
 }
 
-.farmrpg-ext-log, .farmrpg-ext-perk {
+.farmrpg-ext-log, .farmrpg-ext-settings, .farmrpg-ext-perk {
     display: inline-block;
     margin-left: 5px;
+    cursor: pointer;
 }
 
-.farmrpg-ext-status-cropimg, .farmrpg-ext-log img, .farmrpg-ext-perk img {
+.farmrpg-ext-status-cropimg, .farmrpg-ext-log img, .farmrpg-ext-settings img, .farmrpg-ext-perk img {
     height: 13px;
 }
 

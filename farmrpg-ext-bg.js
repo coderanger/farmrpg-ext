@@ -15,11 +15,13 @@ import { setupOrchard } from './lib/orchard.js'
 import { setupWheel } from './lib/wheel.js'
 import { setupWorkshop } from './lib/workshop.js'
 import { setupAnimals } from './lib/animals.js'
+import { setupSettings } from './lib/settings.js'
 
 class GlobalState {
     constructor() {
         this.ports = []
         this.clickHandlers = {}
+        this.postMessageHandlers = {}
     }
 
     addPageFilter(url, handler) {
@@ -31,6 +33,10 @@ class GlobalState {
 
     addClickHandler(type, handler) {
         this.clickHandlers[type] = handler
+    }
+
+    addPostMessageHandler(type, handler) {
+        this.postMessageHandlers[type] = handler
     }
 
     postMessage(msg) {
@@ -111,6 +117,11 @@ const connectToContentScript = () =>
                 switch (msg.action) {
                 case "SIDEBAR_CLICK":
                     handleSidbarClick(msg)
+                    break
+                default:
+                    if (globalState.postMessageHandlers[msg.action]) {
+                        globalState.postMessageHandlers[msg.action](globalState, msg)
+                    }
                     break
                 }
             })
@@ -210,6 +221,7 @@ const main = async () => {
     setupWheel(globalState)
     setupWorkshop(globalState)
     setupAnimals(globalState)
+    setupSettings(globalState)
 
     // Kick off some initial data population.
     renderSidebarFromGlobalState()

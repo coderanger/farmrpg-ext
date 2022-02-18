@@ -44,6 +44,28 @@
             }
             renderSidebar(msg.html)
             break
+        case "LOAD_CONTENT":
+            window.wrappedJSObject.mainView.router.load(cloneInto({content: msg.html, pushState: false, url: "#"+msg.pageName}, window))
+            if (msg.changeAction) {
+                const pageElm = document.querySelector(`div[data-page="${msg.pageName}"]`)
+                pageElm.addEventListener("change", evt => {
+                    // Serialize the state of all form input and send them back.
+                    const form = pageElm.querySelector("form")
+                    const data = {}
+                    for (const [key, value] of new URLSearchParams(new FormData(form))) {
+                        // We're just going to pretend there are no overlapping inputs for now.
+                        data[key] = value
+                    }
+                    currentPort.postMessage({
+                        action: msg.changeAction,
+                        data,
+                    })
+
+                    evt.stopImmediatePropagation()
+                    return false
+                })
+            }
+            break
         case "RELOAD_VIEW":
             const view = window.wrappedJSObject.mainView
             if (view.url == msg.url) {
