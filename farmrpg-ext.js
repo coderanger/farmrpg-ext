@@ -47,12 +47,15 @@
         case "LOAD_CONTENT":
             window.wrappedJSObject.mainView.router.load(cloneInto({content: msg.html, pushState: false, url: "#"+msg.pageName}, window))
             if (msg.changeAction) {
-                const pageElm = document.querySelector(`div[data-page="${msg.pageName}"]`)
-                pageElm.addEventListener("change", evt => {
+                // Because the page is actually still animating, we can't depend on there being on one
+                // form present. So just by convention any extension content that wants change data
+                // must have pageName-form as the element ID. Sigh. In normal code this would be solved
+                // by using R7 post-animation callbacks but calling those from here is a total pain.
+                const formElm = document.getElementById(`${msg.pageName}-form`)
+                formElm.addEventListener("change", evt => {
                     // Serialize the state of all form input and send them back.
-                    const form = pageElm.querySelector("form")
                     const data = {}
-                    for (const [key, value] of new URLSearchParams(new FormData(form))) {
+                    for (const [key, value] of new URLSearchParams(new FormData(formElm))) {
                         // We're just going to pretend there are no overlapping inputs for now.
                         data[key] = value
                     }
