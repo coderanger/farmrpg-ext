@@ -4,7 +4,7 @@ import droprates
 import fixtures
 
 
-def xp_per_hit(fishing: bool = False) -> dict[str, float]:
+def xp_per_hit(fishing: bool = False, verbose: bool = False) -> dict[str, float]:
     items = {it["name"]: it for it in fixtures.load_fixture("items")}
     totals = {}
     for location, loc_drops in droprates.compile_drops(
@@ -19,7 +19,8 @@ def xp_per_hit(fishing: bool = False) -> dict[str, float]:
         for item, drops in loc_drops.items.items():
             item_xp = items.get(item, {}).get("xp")
             if not item_xp:
-                print(f"No XP for {location} {item}")
+                if verbose:
+                    print(f"No XP for {location} {item}")
                 continue
             drops_per_hit = drops.drops / (drops.explores or drops.fishes)
             loc_total += drops_per_hit * item_xp
