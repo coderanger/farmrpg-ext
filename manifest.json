@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "FarmRPG-Extensions",
-    "version": "1.0",
+    "version": "1.1",
     "description": "Coderanger's personal FarmRPG extensions.",
     "icons": {
         "48": "icons/farmrpg-48.png",
