@@ -75,27 +75,6 @@ const handleSidbarClick = async msg => {
             console.log("Can't navigate to farm without Farm ID")
         }
         break
-    case "perk":
-        globalState.perksetLoading = true
-        await renderSidebarFromGlobalState()
-        const nextPerkset = globalState.player.currentPerkset === "Farming" ? "Crafting" : "Farming"
-        const nextPerksetId = globalState.player.perksets[nextPerkset]
-        if (!nextPerksetId) {
-            throw `Cannot find perkset ID for ${nextPerkset}`
-        }
-        let resp = await fetch("https://farmrpg.com/worker.php?go=resetperks", {method: "POST"})
-        if (!resp.ok) {
-            throw "Error reseting perks"
-        }
-        resp = await fetch(`https://farmrpg.com/worker.php?go=activateperkset&id=${nextPerksetId}`, {method: "POST"})
-        if (!resp.ok) {
-            throw "Error activating perkset"
-        }
-        globalState.player.currentPerkset = nextPerkset
-        await globalState.player.save(globalState.db)
-        globalState.perksetLoading = false
-        await renderSidebarFromGlobalState()
-        break
     default:
         if (globalState.clickHandlers[targetType]) {
             await globalState.clickHandlers[targetType](globalState, targetType, targetArg, msg)
