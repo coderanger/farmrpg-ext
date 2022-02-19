@@ -1,4 +1,10 @@
 (() => {
+    // A kill switch to allow Firestream to disable the whole extension if needed.
+    // This will force the background script to wait forever until the port connects.
+    if (window.wrappedJSObject.disableFarmRPGExt) {
+        return
+    }
+
     let currentPort = null
     let lastSidebar = [""]
 
