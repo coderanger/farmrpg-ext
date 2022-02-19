@@ -72,7 +72,7 @@ class GlobalState {
 
 const globalState = new GlobalState()
 
-const handleSidbarClick = async msg => {
+const handleSidebarClick = async msg => {
     console.log("sidebar click", msg)
     const [targetType, targetArg] = msg.target.split(":", 2)
     switch (targetType) {
@@ -103,7 +103,7 @@ const connectToContentScript = () =>
             port.onMessage.addListener(msg => {
                 switch (msg.action) {
                 case "SIDEBAR_CLICK":
-                    handleSidbarClick(msg)
+                    handleSidebarClick(msg)
                     break
                 default:
                     if (globalState.postMessageHandlers[msg.action]) {
