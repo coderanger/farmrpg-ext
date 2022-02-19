@@ -51,3 +51,7 @@ The extension automatically records all drops and other game data you encounter.
 To ensure both compliance with the Code of Conduct and create minimal extra load on the game servers, the extension is tracking all data locally including your inventory. What this means to you is it can sometimes be wrong. If you gain or lose items via any mechanism the extension doesn't know about, then the item count will be wrong. This is a problem with the local tracking, the game still has the correct values. If you visit your inventory, the extension will see the new values and update itself accordingly.
 
 There are currently a few places this comes up often, such as when using apples while exploring, my hope is to fix them over time. However the core approach will never be 100% accurate at all times.
+
+## Code of Conduct
+
+The FarmRPG Code of Conduct specifically disallows botting, scripting, and any form of game automation. This extension is written to comply with both the specifics of this rule and a general philosophy of avoiding excess server load. Do not ask me to add an autoclicker or other game automation. That said, if the game staff asks everyone to stop, please uninstall this.
