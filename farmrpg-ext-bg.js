@@ -1,6 +1,6 @@
 import { renderSidebar, renderSidebarFromGlobalState } from './lib/sidebar.js'
 import { setupExplore } from './lib/explore.js'
-import { setupPageFilter } from './lib/pageFilter.js'
+import { RequestInterceptor } from './lib/pageFilter.js'
 import syncFixtures from './lib/fixtures/index.js'
 import { setupLog } from './lib/log.js'
 import { setupLocations } from './lib/locations.js'
@@ -19,14 +19,22 @@ import { setupSettings } from './lib/settings.js'
 
 class GlobalState {
     constructor() {
+        this.requestInterceptor = new RequestInterceptor()
         this.ports = []
         this.clickHandlers = {}
         this.postMessageHandlers = {}
     }
 
-    addPageFilter(url, handler) {
-        setupPageFilter(url, async (page, url) => {
-            await handler(this, page, url)
+    addPageHandler(pageName, handler) {
+        this.requestInterceptor.addPageHandler(pageName, async (page, url, parsedUrl) => {
+            await handler(this, page, url, parsedUrl)
+            await renderSidebar(this)
+        })
+    }
+
+    addWorkerHandler(workerGo, handler) {
+        this.requestInterceptor.addWorkerHandler(workerGo, async (page, url, parsedUrl) => {
+            await handler(this, page, url, parsedUrl)
             await renderSidebar(this)
         })
     }
