@@ -213,11 +213,8 @@ const main = async () => {
     // Kick off some initial data population.
     renderSidebarFromGlobalState()
     fetchInventory(globalState).then(renderSidebarFromGlobalState)
-    fetchPerks().then(perks => {
-        console.log("Found initial perksetId", perks.currentPerkset)
-        globalState.player.perksets = perks.perksets
-        globalState.player.currentPerkset = perks.currentPerkset
-        globalState.player.save(globalState.db)
+    fetchPerks(globalState).then(() => {
+        console.log("Found initial perksetId", globalState.player.currentPerkset)
         renderSidebarFromGlobalState()
     })
 

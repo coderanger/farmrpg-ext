@@ -52,6 +52,10 @@ To ensure both compliance with the Code of Conduct and create minimal extra load
 
 There are currently a few places this comes up often, such as when using apples while exploring, my hope is to fix them over time. However the core approach will never be 100% accurate at all times.
 
+### Dark Mode
+
+Soon, very soon.
+
 ## Code of Conduct
 
 The FarmRPG Code of Conduct specifically disallows botting, scripting, and any form of game automation. This extension is written to comply with both the specifics of this rule and a general philosophy of avoiding excess server load. Do not ask me to add an autoclicker or other game automation. That said, if the game staff asks everyone to stop, please uninstall this.
