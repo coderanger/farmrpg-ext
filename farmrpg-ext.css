@@ -64,3 +64,8 @@
 .farmrpg-ext-image img {
     width: 38px;
 }
+
+.farmrpg-ext-settings-row .label img {
+    height: 17px;
+    margin-right: 5px;
+}
