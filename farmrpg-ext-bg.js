@@ -32,11 +32,19 @@ class GlobalState {
         })
     }
 
+    addBeforePageHandler(pageName, handler) {
+        this.requestInterceptor.addBeforePageHandler(pageName, parsedUrl => handler(this, parsedUrl))
+    }
+
     addWorkerHandler(workerGo, handler) {
         this.requestInterceptor.addWorkerHandler(workerGo, async (page, url, parsedUrl) => {
             await handler(this, page, url, parsedUrl)
             await renderSidebar(this)
         })
+    }
+
+    addBeforeWorkerHandler(workerGo, handler) {
+        this.requestInterceptor.addBeforeWorkerHandler(workerGo, parsedUrl => handler(this, parsedUrl))
     }
 
     addClickHandler(type, handler) {
