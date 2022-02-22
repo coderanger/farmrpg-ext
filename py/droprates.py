@@ -1,6 +1,7 @@
 import functools
 import io
 import json
+import math
 import os
 import re
 import time
@@ -29,6 +30,24 @@ BASE_DROP_RATES = {
 
 CACHE_PATH_BASE = f"{os.path.dirname(__file__)}/.drops.{'{}'}.json"
 
+# Harvest drops to pay attention to.
+HARVEST_DROPS = {
+    "Gold Pepper",
+    "Gold Carrot",
+    "Gold Peas",
+    "Gold Cucumber",
+    "Gold Eggplant",
+    "Runestone 01",
+    "Runestone 06",
+    "Runestone 07",
+    "Runestone 10",
+    "Runestone 11",
+    "Runestone 16",
+    "Runestone 20",
+    "Piece of Heart",
+    "Winged Amulet",
+}
+
 
 def cache_path_for(**kwargs) -> str:
     buf = io.StringIO()
@@ -55,6 +74,7 @@ class ItemDrops:
     ciders: int = 0
     fishes: int = 0
     nets: int = 0
+    harvests: int = 0
     drops: int = 0
 
 
@@ -65,6 +85,7 @@ class LocationDrops:
     ciders: int = 0
     fishes: int = 0
     nets: int = 0
+    harvests: int = 0
     drops: int = 0
     items: dict[str, ItemDrops] = attrs.Factory(lambda: defaultdict(ItemDrops))
 
@@ -76,14 +97,33 @@ class Drops:
     ciders: int = 0
     fishes: int = 0
     nets: int = 0
+    harvests: int = 0
     drops: int = 0
     locations: dict[str, LocationDrops] = attrs.Factory(
         lambda: defaultdict(LocationDrops)
     )
 
 
+AnyDrops = Union[Drops, LocationDrops, ItemDrops]
+
+
+def location_for_row(row: dict) -> Optional[str]:
+    """Return the location for a log row, if it exists."""
+    if row["type"] == "harvestall":
+        # For harvests, we pretend the seed is a location. I will probably regret this.
+        # Check that this is a harvest of just one kind of seed, otherwise too hard to track.
+        seeds = {crop["seed"] for crop in row["results"]["crops"]}
+        if len(seeds) != 1 or None in seeds:
+            return None
+        else:
+            return seeds.pop()
+    else:
+        # Normal explore or fish that has a location on it, probably.
+        return row["results"].get("location")
+
+
 def count_sources(
-    drops: Union[Drops, LocationDrops, ItemDrops],
+    drops: AnyDrops,
     row: dict[str, Any],
     lemonade_fake_explores_location: Optional[str] = None,
     nets_fake_fishes: bool = False,
@@ -108,6 +148,9 @@ def count_sources(
         drops.nets += 1
         if nets_fake_fishes:
             drops.fishes += sum(it.get("quantity", 1) for it in row["results"]["items"])
+    elif row["type"] == "harvestall":
+        # We already checked that only mono-seed logs are considered.
+        drops.harvests += len(row["results"]["crops"])
 
 
 def compile_drops(
@@ -116,9 +159,12 @@ def compile_drops(
     cider: bool = False,
     fish: bool = False,
     net: bool = False,
+    harvest: bool = False,
     since: int = 0,
     lemonade_fake_explores: bool = False,
     nets_fake_fishes: bool = False,
+    harvest_true_drops: bool = False,
+    cache: bool = True,
 ) -> Drops:
     cache_path = cache_path_for(
         e=explore,
@@ -133,7 +179,8 @@ def compile_drops(
 
     # Check if the cache file exists and is newer than all log files.
     if (
-        os.path.exists(cache_path)
+        cache
+        and os.path.exists(cache_path)
         and os.stat(cache_path).st_mtime >= parse_logs.log_mtime()
     ):
         with open(cache_path) as cachef:
@@ -154,15 +201,17 @@ def compile_drops(
         types.add("fish")
     if net:
         types.add("net")
+    if harvest:
+        types.add("harvestall")
     explores = Drops()
     logs = [row for row in parse_logs.parse_logs(since=since) if row["type"] in types]
     # First run through to count drops and work out which items are in each locations.
     for row in logs:
-        location_name = row["results"].get("location")
+        location_name = location_for_row(row)
         if not location_name:
             continue
         overflow_items: set[str] = {
-            item["item"] for item in row["results"]["items"] if item["overflow"]
+            item["item"] for item in row["results"]["items"] if item.get("overflow")
         }
         for item in row["results"]["items"]:
             if row["ts"] not in when_items_dropped[item["item"]]:
@@ -173,18 +222,27 @@ def compile_drops(
                 # Cider overflow always reports 0 drops so any item that overflows during
                 # a cider has to be ignored.
                 continue
-            explores.locations[location_name].items[item["item"]].drops += item.get(
-                "quantity", 1
-            )
-            explores.locations[location_name].drops += item.get("quantity", 1)
-            explores.drops += item.get("quantity", 1)
+            quantity = item.get("quantity", 1)
+            if row["type"] == "harvestall":
+                if item["item"] not in HARVEST_DROPS:
+                    # We only care about some harvest drops.
+                    continue
+                if not harvest_true_drops:
+                    # By default ignore multiple simultaneous drops. Trying to account for
+                    # double prizes, but this means we underestimate. Using ceil(/2) because
+                    # 1 drop is 1 drop, 2 is _probably_ double prizes, but 3 has to be 2 drops.
+                    # 4 and above, who knows so just keep it simple.
+                    quantity = math.ceil(quantity / 2)
+            explores.locations[location_name].items[item["item"]].drops += quantity
+            explores.locations[location_name].drops += quantity
+            explores.drops += quantity
     # Second pass to get the explore counts.
     for row in logs:
-        location_name = row["results"].get("location")
+        location_name = location_for_row(row)
         if not location_name:
             continue
         overflow_items: set[str] = {
-            item["item"] for item in row["results"]["items"] if item["overflow"]
+            item["item"] for item in row["results"]["items"] if item.get("overflow")
         }
         count_sources_for_loc = functools.partial(
             count_sources,
@@ -239,6 +297,15 @@ def rates_per_stam() -> dict[str, dict[str, float]]:
     return rates
 
 
+def mode_for_drops(item: AnyDrops) -> tuple[str, int]:
+    if item.fishes:
+        return "fishes", item.fishes
+    elif item.harvests:
+        return "harvests", item.harvests
+    else:
+        return "explores", item.explores
+
+
 def drop_rates() -> dict[str, dict[str, float]]:
     rates = {}
     for loc, loc_data in total_drops().items():
@@ -258,11 +325,13 @@ def droprates_cmd(
     filter: Optional[str] = typer.Argument(None),
     lemonade: bool = True,
     cider: bool = False,
+    harvest: bool = True,
     since: int = 0,
     output: list[str] = [],
     wanderer: int = 33,
     lemonade_perk: bool = True,
     net_perk: bool = True,
+    cache: bool = True,
 ) -> None:
     # If any output types are a comma-separated string, expand them.
     output = [o2 for o in output for o2 in o.split(",")]
@@ -272,9 +341,11 @@ def droprates_cmd(
         cider=cider,
         fish=True,
         net=True,
+        harvest=harvest,
         lemonade_fake_explores=True,
         nets_fake_fishes=True,
         since=since,
+        cache=cache,
     )
     filter_is_location = filter is not None and filter in drops.locations
     filter_is_item = filter is not None and any(
@@ -287,6 +358,7 @@ def droprates_cmd(
             (item, item_drops)
             for item, item_drops in loc_drops.items.items()
             if filter is None
+            or filter_is_location
             or (
                 item == filter
                 if filter_is_item
@@ -295,12 +367,11 @@ def droprates_cmd(
         ]
         if not filtered_items:
             continue
-        print(f"{location}:")
+        loc_mode, loc_hits = mode_for_drops(loc_drops)
+        print(f"{location}: ({loc_hits} {loc_mode})")
         for item, item_drops in sorted(filtered_items):
-            hits_per_drop = (
-                item_drops.explores or item_drops.fishes
-            ) / item_drops.drops
-            mode = "explores" if item_drops.explores else "fishes"
+            mode, hits = mode_for_drops(item_drops)
+            hits_per_drop = hits / item_drops.drops
             if mode == "explores" and "stam" in output:
                 hits_per_drop *= 1 - (wanderer / 100)
                 mode = "stam"

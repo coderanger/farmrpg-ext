@@ -19,6 +19,7 @@ item_case_mappings = {
     "growthTime": "growth_time",
     "firstSeen": "first_seen",
     "firstDropped": "first_dropped",
+    "possibleDrops": "possible_drops",
 }
 
 
@@ -55,6 +56,8 @@ class Item:
     first_seen: Optional[int] = None
     first_dropped: Optional[int] = None
     last_dropped: Optional[int] = None
+    type: Optional[str] = None
+    possible_drops: Optional[list[str]] = None
 
 
 def load_items() -> Iterable[Item]:
