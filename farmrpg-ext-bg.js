@@ -17,6 +17,7 @@ import { setupWorkshop } from './lib/workshop.js'
 import { setupAnimals } from './lib/animals.js'
 import { setupSettings } from './lib/settings.js'
 import { setupLocksmith } from './lib/locksmith.js'
+import { setupProduction } from './lib/production.js'
 
 class GlobalState {
     constructor() {
@@ -219,6 +220,7 @@ const main = async () => {
     setupAnimals(globalState)
     setupSettings(globalState)
     setupLocksmith(globalState)
+    setupProduction(globalState)
 
     // Kick off some initial data population.
     renderSidebarFromGlobalState()
