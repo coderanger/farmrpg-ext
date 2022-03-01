@@ -18,6 +18,7 @@ import { setupAnimals } from './lib/animals.js'
 import { setupSettings } from './lib/settings.js'
 import { setupLocksmith } from './lib/locksmith.js'
 import { setupProduction } from './lib/production.js'
+import { setupVineyard } from './lib/vineyard.js'
 
 class GlobalState {
     constructor() {
@@ -27,8 +28,13 @@ class GlobalState {
         this.postMessageHandlers = {}
     }
 
-    addPageHandler(pageName, handler) {
+    addPageHandler(pageName, handler, options = {}) {
         this.requestInterceptor.addPageHandler(pageName, async (page, url, parsedUrl) => {
+            if (options.parse) {
+                const parser = new DOMParser()
+                page = parser.parseFromString(page, "text/html")
+                url = parsedUrl
+            }
             await handler(this, page, url, parsedUrl)
             await renderSidebar(this)
         })
@@ -38,8 +44,13 @@ class GlobalState {
         this.requestInterceptor.addBeforePageHandler(pageName, parsedUrl => handler(this, parsedUrl))
     }
 
-    addWorkerHandler(workerGo, handler) {
+    addWorkerHandler(workerGo, handler, options = {}) {
         this.requestInterceptor.addWorkerHandler(workerGo, async (page, url, parsedUrl) => {
+            if (options.parse) {
+                const parser = new DOMParser()
+                page = parser.parseFromString(page, "text/html")
+                url = parsedUrl
+            }
             await handler(this, page, url, parsedUrl)
             await renderSidebar(this)
         })
@@ -221,6 +232,7 @@ const main = async () => {
     setupSettings(globalState)
     setupLocksmith(globalState)
     setupProduction(globalState)
+    setupVineyard(globalState)
 
     // Kick off some initial data population.
     renderSidebarFromGlobalState()
