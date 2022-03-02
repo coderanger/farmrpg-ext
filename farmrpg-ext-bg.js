@@ -1,7 +1,7 @@
 import { renderSidebar, renderSidebarFromGlobalState } from './lib/sidebar.js'
 import { setupExplore } from './lib/explore.js'
 import { RequestInterceptor } from './lib/pageFilter.js'
-import syncFixtures from './lib/fixtures/index.js'
+import syncFixtures from './lib/fixtures.js'
 import { setupLog } from './lib/log.js'
 import { setupLocations } from './lib/locations.js'
 import { setupFishing } from './lib/fishing.js'

@@ -1,5 +1,4 @@
-// console.log(JSON.stringify((await globalState.db.getAll("items")), null, 2))
-export default [
+[
     {
         "id": "454",
         "name": "100 Gold",
@@ -206,7 +205,9 @@ export default [
         "buyPrice": 189000,
         "growthTime": 777600,
         "type": "seed",
-        "possibleDrops": ["Beet"]
+        "possibleDrops": [
+            "Beet"
+        ]
     },
     {
         "firstSeen": 1643629598379,
@@ -455,7 +456,9 @@ export default [
         "buyPrice": 42880,
         "growthTime": 172800,
         "type": "seed",
-        "possibleDrops": ["Broccoli"]
+        "possibleDrops": [
+            "Broccoli"
+        ]
     },
     {
         "name": "Broom",
@@ -510,7 +513,9 @@ export default [
         "xp": 3360,
         "growthTime": 28800,
         "type": "seed",
-        "possibleDrops": ["Cabbage"]
+        "possibleDrops": [
+            "Cabbage"
+        ]
     },
     {
         "id": "358",
@@ -566,6 +571,14 @@ export default [
         "rarity": "Common"
     },
     {
+        "firstSeen": 1646165958865,
+        "id": "497",
+        "name": "Carnevale",
+        "image": "/img/items/2749.png",
+        "xp": 2500,
+        "rarity": "Rare"
+    },
+    {
         "name": "Carp",
         "id": "132",
         "image": "/img/items/7737.PNG",
@@ -594,7 +607,11 @@ export default [
         "buyPrice": 18,
         "growthTime": 120,
         "type": "seed",
-        "possibleDrops": ["Carrot", "Gold Carrot", "Runestone 01"]
+        "possibleDrops": [
+            "Carrot",
+            "Gold Carrot",
+            "Runestone 01"
+        ]
     },
     {
         "name": "Carved Bear",
@@ -677,7 +694,8 @@ export default [
         "sellPrice": 75,
         "xp": 475,
         "fleaMarket": 2,
-        "rarity": "Common"
+        "rarity": "Common",
+        "mastery": true
     },
     {
         "name": "Chattering Teeth",
@@ -951,7 +969,10 @@ export default [
         "buyPrice": 2960,
         "growthTime": 14400,
         "type": "seed",
-        "possibleDrops": ["Corn", "Runestone 11"]
+        "possibleDrops": [
+            "Corn",
+            "Runestone 11"
+        ]
     },
     {
         "id": "377",
@@ -979,7 +1000,9 @@ export default [
         "buyPrice": 84000,
         "growthTime": 345600,
         "type": "seed",
-        "possibleDrops": ["Cotton"]
+        "possibleDrops": [
+            "Cotton"
+        ]
     },
     {
         "id": "475",
@@ -988,7 +1011,8 @@ export default [
         "sellPrice": 25000,
         "xp": 2500,
         "rarity": "Rare",
-        "firstSeen": 1642564800000
+        "firstSeen": 1642564800000,
+        "fleaMarket": 25
     },
     {
         "name": "Crappie",
@@ -1017,7 +1041,11 @@ export default [
         "xp": 40,
         "growthTime": 240,
         "type": "seed",
-        "possibleDrops": ["Cucumber", "Gold Cucumber", "Runestone 06"]
+        "possibleDrops": [
+            "Cucumber",
+            "Gold Cucumber",
+            "Runestone 06"
+        ]
     },
     {
         "id": "445",
@@ -1133,7 +1161,11 @@ export default [
         "buyPrice": 47,
         "growthTime": 300,
         "type": "seed",
-        "possibleDrops": ["Eggplant", "Gold Eggplant", "Runestone 20"]
+        "possibleDrops": [
+            "Eggplant",
+            "Gold Eggplant",
+            "Runestone 20"
+        ]
     },
     {
         "name": "Eggs",
@@ -1595,7 +1627,8 @@ export default [
         "image": "/img/items/goldcoral.png",
         "sellPrice": 100000,
         "xp": 15000,
-        "rarity": "Uncommon"
+        "rarity": "Uncommon",
+        "mastery": true
     },
     {
         "name": "Gold Crab",
@@ -2041,7 +2074,8 @@ export default [
         "image": "/img/items/5686.png",
         "sellPrice": 3500,
         "xp": 3500,
-        "rarity": "Uncommon"
+        "rarity": "Uncommon",
+        "fleaMarket": 10
     },
     {
         "name": "Hide",
@@ -2095,7 +2129,10 @@ export default [
         "buyPrice": 212,
         "growthTime": 1200,
         "type": "seed",
-        "possibleDrops": ["Hops", "Runestone 16"]
+        "possibleDrops": [
+            "Hops",
+            "Runestone 16"
+        ]
     },
     {
         "name": "Horn",
@@ -2438,7 +2475,10 @@ export default [
         "buyPrice": 680,
         "growthTime": 3600,
         "type": "seed",
-        "possibleDrops": ["Leek", "Runestone 10"]
+        "possibleDrops": [
+            "Leek",
+            "Runestone 10"
+        ]
     },
     {
         "name": "Lemon",
@@ -2712,7 +2752,9 @@ export default [
         "buyPrice": 3000,
         "growthTime": 5400,
         "type": "seed",
-        "possibleDrops": ["Mushroom"]
+        "possibleDrops": [
+            "Mushroom"
+        ]
     },
     {
         "name": "Mussel",
@@ -2778,6 +2820,14 @@ export default [
         "rarity": "Uncommon"
     },
     {
+        "firstSeen": 1646030519585,
+        "name": "Official Share",
+        "id": "493",
+        "image": "/img/items/7896.png",
+        "xp": 2500,
+        "rarity": "Rare"
+    },
+    {
         "name": "Old Boot",
         "id": "116",
         "image": "/img/items/7848.PNG",
@@ -2804,7 +2854,9 @@ export default [
         "xp": 150,
         "growthTime": 900,
         "type": "seed",
-        "possibleDrops": ["Onion"]
+        "possibleDrops": [
+            "Onion"
+        ]
     },
     {
         "id": "470",
@@ -2866,7 +2918,10 @@ export default [
         "xp": 30,
         "growthTime": 180,
         "type": "seed",
-        "possibleDrops": ["Peas", "Gold Peas"]
+        "possibleDrops": [
+            "Peas",
+            "Gold Peas"
+        ]
     },
     {
         "name": "Pearl",
@@ -2908,7 +2963,10 @@ export default [
         "buyPrice": 9,
         "growthTime": 60,
         "type": "seed",
-        "possibleDrops": ["Peppers", "Gold Peppers"]
+        "possibleDrops": [
+            "Peppers",
+            "Gold Peppers"
+        ]
     },
     {
         "name": "Peppers",
@@ -2919,6 +2977,14 @@ export default [
         "givable": true,
         "growthTime": 60,
         "mastery": true
+    },
+    {
+        "firstSeen": 1646165951405,
+        "id": "495",
+        "name": "Pie",
+        "image": "/img/items/5794.png",
+        "xp": 2500,
+        "rarity": "Rare"
     },
     {
         "id": "253",
@@ -2945,7 +3011,9 @@ export default [
         "buyPrice": 9000,
         "growthTime": 28800,
         "type": "seed",
-        "possibleDrops": ["Pine Tree"]
+        "possibleDrops": [
+            "Pine Tree"
+        ]
     },
     {
         "name": "Pine Tree",
@@ -3025,7 +3093,9 @@ export default [
         "buyPrice": 267,
         "growthTime": 1500,
         "type": "seed",
-        "possibleDrops": ["Potato"]
+        "possibleDrops": [
+            "Potato"
+        ]
     },
     {
         "id": "442",
@@ -3085,7 +3155,9 @@ export default [
         "xp": 5040,
         "growthTime": 43200,
         "type": "seed",
-        "possibleDrops": ["Pumpkin"]
+        "possibleDrops": [
+            "Pumpkin"
+        ]
     },
     {
         "name": "Purple Diary",
@@ -3154,7 +3226,10 @@ export default [
         "buyPrice": 100,
         "growthTime": 600,
         "type": "seed",
-        "possibleDrops": ["Radish", "Runestone 07"]
+        "possibleDrops": [
+            "Radish",
+            "Runestone 07"
+        ]
     },
     {
         "name": "Raptor Claw",
@@ -3859,6 +3934,15 @@ export default [
         "mastery": true
     },
     {
+        "firstSeen": 1646165946945,
+        "id": "494",
+        "name": "Spring Basket",
+        "image": "/img/items/springbasket.png",
+        "xp": 1,
+        "givable": true,
+        "rarity": "Very Rare"
+    },
+    {
         "name": "Square Key",
         "id": "335",
         "image": "/img/items/7179.png",
@@ -3958,6 +4042,14 @@ export default [
         "xp": 2000,
         "fleaMarket": 5,
         "rarity": "Uncommon"
+    },
+    {
+        "firstSeen": 1646165955162,
+        "id": "496",
+        "name": "Strange Mushroom",
+        "image": "/img/items/smush.png",
+        "xp": 2500,
+        "rarity": "Rare"
     },
     {
         "name": "Strange Ring",
@@ -4067,7 +4159,9 @@ export default [
         "buyPrice": 126000,
         "growthTime": 518400,
         "type": "seed",
-        "possibleDrops": ["Sunflower"]
+        "possibleDrops": [
+            "Sunflower"
+        ]
     },
     {
         "name": "Sweet Root",
@@ -4136,7 +4230,10 @@ export default [
         "buyPrice": 330,
         "growthTime": 1800,
         "type": "seed",
-        "possibleDrops": ["Tomato", "Winged Amulet"]
+        "possibleDrops": [
+            "Tomato",
+            "Winged Amulet"
+        ]
     },
     {
         "name": "Torch Fish",
@@ -4370,7 +4467,10 @@ export default [
         "buyPrice": 1400,
         "growthTime": 7200,
         "type": "seed",
-        "possibleDrops": ["Watermelon", "Piece of Heart"]
+        "possibleDrops": [
+            "Watermelon",
+            "Piece of Heart"
+        ]
     },
     {
         "name": "Wax Candle",
@@ -4395,7 +4495,9 @@ export default [
         "buyPrice": 19440,
         "growthTime": 86400,
         "type": "seed",
-        "possibleDrops": ["Wheat"]
+        "possibleDrops": [
+            "Wheat"
+        ]
     },
     {
         "name": "White Parchment",

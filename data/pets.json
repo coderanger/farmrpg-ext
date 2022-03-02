@@ -1,5 +1,4 @@
-// console.log(JSON.stringify((await globalState.db.getAll("pets")), null, 2))
-export default [
+[
     {
         "level1Items": [
             "Runestone 01",

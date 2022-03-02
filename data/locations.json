@@ -1,5 +1,4 @@
-// console.log(JSON.stringify((await globalState.db.getAll("locations")), null, 2))
-export default [
+[
     {
         "items": [
             "Shimmer Quartz",
