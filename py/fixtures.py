@@ -7,34 +7,23 @@ import attr
 import attrs
 from frozendict import frozendict
 
-comment_re = re.compile(r"^//.*$")
-export_re = re.compile(r"^export default ")
+# From https://stackoverflow.com/questions/1175208/elegant-python-function-to-convert-camelcase-to-snake-case
+CAMEL_ONE_RE = re.compile(r"(.)([A-Z][a-z]+)")
+CAMEL_TWO_RE = re.compile(r"([a-z0-9])([A-Z])")
 
-# This could be algorithmic but I'm lazy and this is faster.
-item_case_mappings = {
-    "sellPrice": "sell_price",
-    "buyPrice": "buy_price",
-    "craftPrice": "craft_price",
-    "fleaMarket": "flea_market",
-    "growthTime": "growth_time",
-    "firstSeen": "first_seen",
-    "firstDropped": "first_dropped",
-    "possibleDrops": "possible_drops",
-}
+
+def camel_to_snake(name):
+    name = CAMEL_ONE_RE.sub(r"\1_\2", name)
+    return CAMEL_TWO_RE.sub(r"\1_\2", name).lower()
 
 
 def load_fixture(name: str) -> list[dict]:
     # Load the data.
-    fixture_path = Path(__file__) / ".." / ".." / "lib" / "fixtures" / f"{name}.js"
-    raw_fixture = fixture_path.resolve().read_text().splitlines()
-    # Remove any comments and then remove any leading blank lines.
-    raw_fixture = [comment_re.sub("", line) for line in raw_fixture]
-    while not raw_fixture[0].strip():
-        raw_fixture.pop(0)
-    # Remove the "export default " prefix.
-    raw_fixture[0] = export_re.sub("", raw_fixture[0])
-    # Parse it!
-    return json.loads("\n".join(raw_fixture))
+    fixture_path = Path(__file__) / ".." / ".." / "data" / f"{name}.json"
+    return json.load(
+        fixture_path.resolve().open(),
+        object_hook=lambda d: {camel_to_snake(k): v for k, v in d.items()},
+    )
 
 
 @attr.s(auto_attribs=True, frozen=True)
@@ -62,7 +51,7 @@ class Item:
 
 def load_items() -> Iterable[Item]:
     for item in load_fixture("items"):
-        yield Item(**{item_case_mappings.get(k, k): v for k, v in item.items()})
+        yield Item(**item)
 
 
 @attrs.define(frozen=True)
