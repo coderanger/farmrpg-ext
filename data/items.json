@@ -2213,7 +2213,14 @@
     "id": "185",
     "image": "/img/items/tea.png",
     "xp": 100,
-    "givable": true
+    "givable": true,
+    "sellPrice": 1000,
+    "craftPrice": 2500,
+    "mastery": true,
+    "recipe": {
+      "Glass Bottle": 1,
+      "Tea Leaves": 3
+    }
   },
   {
     "name": "Inferno Sphere",

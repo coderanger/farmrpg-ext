@@ -86,6 +86,7 @@ if __name__ == "__main__":
         explore=True,
         lemonade=True,
         lemonade_fake_explores=True,
+        iron_depot=True,
     )
 
     manual_fish_drops = droprates.compile_drops(fish=True)
