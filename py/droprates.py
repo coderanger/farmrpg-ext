@@ -1,11 +1,15 @@
+import datetime
 import functools
 import io
 import json
 import math
 import os
 import re
+import sys
 import time
+import zoneinfo
 from collections import defaultdict
+from csv import DictWriter
 from typing import Any, Optional, Union
 
 import attrs
@@ -32,7 +36,7 @@ CACHE_PATH_BASE = f"{os.path.dirname(__file__)}/.drops.{'{}'}.json"
 
 # Harvest drops to pay attention to.
 HARVEST_DROPS = {
-    "Gold Pepper",
+    "Gold Peppers",
     "Gold Carrot",
     "Gold Peas",
     "Gold Cucumber",
@@ -47,6 +51,14 @@ HARVEST_DROPS = {
     "Piece of Heart",
     "Winged Amulet",
 }
+
+# When the Iron Depot drop change went live.
+IRON_DEPOT_CHANGE = (
+    datetime.datetime(
+        2022, 2, 21, 10, 00, 00, tzinfo=zoneinfo.ZoneInfo("America/Los_Angeles")
+    ).timestamp()
+    * 1000
+)
 
 
 def cache_path_for(**kwargs) -> str:
@@ -161,6 +173,7 @@ def compile_drops(
     net: bool = False,
     harvest: bool = False,
     since: int = 0,
+    iron_depot: bool = False,
     lemonade_fake_explores: bool = False,
     nets_fake_fishes: bool = False,
     harvest_true_drops: bool = False,
@@ -172,9 +185,12 @@ def compile_drops(
         c=cider,
         f=fish,
         n=net,
+        h=harvest,
         s=since,
+        i=iron_depot,
         x=lemonade_fake_explores,
         y=nets_fake_fishes,
+        t=harvest_true_drops,
     )
 
     # Check if the cache file exists and is newer than all log files.
@@ -188,6 +204,10 @@ def compile_drops(
 
     when_items_dropped = {
         item.name: when_dropped(item) for item in fixtures.load_items()
+    }
+    affected_by_iron_depot = {
+        loc.name: ("Iron" in loc.items or "Nails" in loc.items)
+        for loc in fixtures.load_locations()
     }
     # loc_items = {loc.name: loc.items for loc in fixtures.load_locations()}
     types: set[str] = set()
@@ -209,6 +229,12 @@ def compile_drops(
     for row in logs:
         location_name = location_for_row(row)
         if not location_name:
+            continue
+        # Check if this timestamp is allowed with the current iron depot mode and location.
+        if (
+            affected_by_iron_depot.get(location_name)
+            and (row["ts"] < IRON_DEPOT_CHANGE) is iron_depot
+        ):
             continue
         overflow_items: set[str] = {
             item["item"] for item in row["results"]["items"] if item.get("overflow")
@@ -240,6 +266,12 @@ def compile_drops(
     for row in logs:
         location_name = location_for_row(row)
         if not location_name:
+            continue
+        # Check if this timestamp is allowed with the current iron depot mode and location.
+        if (
+            affected_by_iron_depot.get(location_name)
+            and (row["ts"] < IRON_DEPOT_CHANGE) is iron_depot
+        ):
             continue
         overflow_items: set[str] = {
             item["item"] for item in row["results"]["items"] if item.get("overflow")
@@ -321,6 +353,53 @@ def drop_rates() -> dict[str, dict[str, float]]:
     return rates
 
 
+class NormalOutput:
+    def location(self, location: str, mode: str, hits: int) -> None:
+        print(f"{location}: ({hits} {mode})")
+
+    def item(
+        self,
+        location: str,
+        item: str,
+        mode: str,
+        hits: int,
+        drops: int,
+        hits_per_drop: float,
+    ) -> None:
+        print(f"\t{item}: {hits_per_drop:.2f} {mode}/drop ({drops} drops)")
+
+
+class CSVOutput:
+    def __init__(self):
+        self.out = DictWriter(
+            sys.stdout, ["location", "item", "drops", "hits", "hits_per_drop", "mode"]
+        )
+        self.out.writeheader()
+
+    def location(self, location: str, mode: str, hits: int) -> None:
+        pass
+
+    def item(
+        self,
+        location: str,
+        item: str,
+        mode: str,
+        hits: int,
+        drops: int,
+        hits_per_drop: float,
+    ) -> None:
+        self.out.writerow(
+            {
+                "location": location,
+                "item": item,
+                "mode": mode,
+                "hits": hits,
+                "drops": drops,
+                "hits_per_drop": hits_per_drop,
+            }
+        )
+
+
 def droprates_cmd(
     filter: Optional[str] = typer.Argument(None),
     lemonade: bool = True,
@@ -332,25 +411,31 @@ def droprates_cmd(
     lemonade_perk: bool = True,
     net_perk: bool = True,
     cache: bool = True,
+    csv: bool = False,
+    fishing: bool = False,
+    iron_depot: bool = False,
 ) -> None:
     # If any output types are a comma-separated string, expand them.
+    # ["foo,bar", "baz"] -> ["foo", "bar", "baz"]
     output = [o2 for o in output for o2 in o.split(",")]
     drops = compile_drops(
         explore=True,
         lemonade=lemonade,
         cider=cider,
-        fish=True,
-        net=True,
+        fish=fishing,
+        net=not fishing,
         harvest=harvest,
         lemonade_fake_explores=True,
         nets_fake_fishes=True,
         since=since,
         cache=cache,
+        iron_depot=iron_depot,
     )
     filter_is_location = filter is not None and filter in drops.locations
     filter_is_item = filter is not None and any(
         filter in loc.items for loc in drops.locations.values()
     )
+    out = CSVOutput() if csv else NormalOutput()
     for location, loc_drops in sorted(drops.locations.items()):
         if filter_is_location and location != filter:
             continue
@@ -368,7 +453,7 @@ def droprates_cmd(
         if not filtered_items:
             continue
         loc_mode, loc_hits = mode_for_drops(loc_drops)
-        print(f"{location}: ({loc_hits} {loc_mode})")
+        out.location(location=location, mode=loc_mode, hits=loc_hits)
         for item, item_drops in sorted(filtered_items):
             mode, hits = mode_for_drops(item_drops)
             hits_per_drop = hits / item_drops.drops
@@ -380,8 +465,13 @@ def droprates_cmd(
             elif mode == "fishes" and "nets" in output:
                 hits_per_drop /= 15 if net_perk else 10
                 mode = "nets"
-            print(
-                f"\t{item}: {hits_per_drop:.2f} {mode}/drop ({item_drops.drops} drops)"
+            out.item(
+                location=location,
+                item=item,
+                mode=mode,
+                hits=hits,
+                drops=item_drops.drops,
+                hits_per_drop=hits_per_drop,
             )
 
 
