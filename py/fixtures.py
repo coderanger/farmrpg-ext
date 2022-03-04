@@ -1,3 +1,4 @@
+import itertools
 import json
 import re
 from pathlib import Path
@@ -7,34 +8,23 @@ import attr
 import attrs
 from frozendict import frozendict
 
-comment_re = re.compile(r"^//.*$")
-export_re = re.compile(r"^export default ")
+# From https://stackoverflow.com/questions/1175208/elegant-python-function-to-convert-camelcase-to-snake-case
+CAMEL_ONE_RE = re.compile(r"(.)([A-Z][a-z]+)")
+CAMEL_TWO_RE = re.compile(r"([a-z0-9])([A-Z])")
 
-# This could be algorithmic but I'm lazy and this is faster.
-item_case_mappings = {
-    "sellPrice": "sell_price",
-    "buyPrice": "buy_price",
-    "craftPrice": "craft_price",
-    "fleaMarket": "flea_market",
-    "growthTime": "growth_time",
-    "firstSeen": "first_seen",
-    "firstDropped": "first_dropped",
-    "possibleDrops": "possible_drops",
-}
+
+def camel_to_snake(name):
+    name = CAMEL_ONE_RE.sub(r"\1_\2", name)
+    return CAMEL_TWO_RE.sub(r"\1_\2", name).lower()
 
 
 def load_fixture(name: str) -> list[dict]:
     # Load the data.
-    fixture_path = Path(__file__) / ".." / ".." / "lib" / "fixtures" / f"{name}.js"
-    raw_fixture = fixture_path.resolve().read_text().splitlines()
-    # Remove any comments and then remove any leading blank lines.
-    raw_fixture = [comment_re.sub("", line) for line in raw_fixture]
-    while not raw_fixture[0].strip():
-        raw_fixture.pop(0)
-    # Remove the "export default " prefix.
-    raw_fixture[0] = export_re.sub("", raw_fixture[0])
-    # Parse it!
-    return json.loads("\n".join(raw_fixture))
+    fixture_path = Path(__file__) / ".." / ".." / "data" / f"{name}.json"
+    return json.load(
+        fixture_path.resolve().open(),
+        object_hook=lambda d: {camel_to_snake(k): v for k, v in d.items()},
+    )
 
 
 @attr.s(auto_attribs=True, frozen=True)
@@ -62,7 +52,7 @@ class Item:
 
 def load_items() -> Iterable[Item]:
     for item in load_fixture("items"):
-        yield Item(**{item_case_mappings.get(k, k): v for k, v in item.items()})
+        yield Item(**item)
 
 
 @attrs.define(frozen=True)
@@ -81,31 +71,59 @@ def load_locations(type: Optional[str] = None) -> Iterable[Location]:
 
 
 if __name__ == "__main__":
-    items = [
-        {item_case_mappings.get(k, k): v for k, v in item.items()}
-        for item in load_fixture("items")
-    ]
-    item_data_path = Path(__file__) / ".." / "simulator" / "data" / "items.json"
-    json.dump(items, item_data_path.resolve().open("w"), indent=2, sort_keys=True)
-
-    locations = load_fixture("locations")
-
     import droprates
-    import fishrates
-    import lemonade
 
-    rates = droprates.rates_per_stam()
-    lemonade_rates = lemonade.drop_rates()
-    net_rates = fishrates.net_rates()
-    for loc in locations:
-        if loc["type"] == "explore":
-            items = {it: rates.get(loc["name"], {}).get(it, 0) for it in loc["items"]}
-            loc["explore_rates"] = items
-            loc["lemonade_rates"] = lemonade_rates.get(loc["name"], {})
-        elif loc["type"] == "fishing":
-            loc["net_rates"] = net_rates.get(loc["name"], {})
-
-    location_data_base = Path(__file__) / ".." / "simulator" / "data" / "locations.json"
-    json.dump(
-        locations, location_data_base.resolve().open("w"), indent=2, sort_keys=True
+    normal_drops = droprates.compile_drops(
+        explore=True,
+        lemonade=True,
+        net=True,
+        harvest=True,
+        lemonade_fake_explores=True,
+        nets_fake_fishes=True,
     )
+
+    iron_depot_drops = droprates.compile_drops(
+        explore=True,
+        lemonade=True,
+        lemonade_fake_explores=True,
+    )
+
+    manual_fish_drops = droprates.compile_drops(fish=True)
+
+    location_keys = set(
+        itertools.chain(
+            normal_drops.locations.keys(),
+            iron_depot_drops.locations.keys(),
+            manual_fish_drops.locations.keys(),
+        )
+    )
+
+    def location_drops_to_rates(
+        loc_drops: Optional[droprates.LocationDrops],
+    ) -> dict[str, float]:
+        if loc_drops is None:
+            return {}
+        return {
+            item: droprates.mode_for_drops(item_drops)[1] / item_drops.drops
+            for item, item_drops in loc_drops.items.items()
+        }
+
+    drop_rates = []
+    for location in location_keys:
+        drop_rates.append(
+            {
+                "location": location,
+                "drop_rates": location_drops_to_rates(
+                    normal_drops.locations.get(location)
+                ),
+                "iron_depot_rates": location_drops_to_rates(
+                    iron_depot_drops.locations.get(location)
+                ),
+                "manual_fish_rates": location_drops_to_rates(
+                    manual_fish_drops.locations.get(location)
+                ),
+            }
+        )
+
+    drop_rates_path = Path(__file__) / ".." / ".." / "data" / "drop_rates.json"
+    json.dump(drop_rates, drop_rates_path.resolve().open("w"), indent=2, sort_keys=True)

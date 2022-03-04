@@ -1,7 +1,7 @@
 import { renderSidebar, renderSidebarFromGlobalState } from './lib/sidebar.js'
 import { setupExplore } from './lib/explore.js'
 import { RequestInterceptor } from './lib/pageFilter.js'
-import syncFixtures from './lib/fixtures/index.js'
+import syncFixtures from './lib/fixtures.js'
 import { setupLog } from './lib/log.js'
 import { setupLocations } from './lib/locations.js'
 import { setupFishing } from './lib/fishing.js'
@@ -16,6 +16,9 @@ import { setupWheel } from './lib/wheel.js'
 import { setupWorkshop } from './lib/workshop.js'
 import { setupAnimals } from './lib/animals.js'
 import { setupSettings } from './lib/settings.js'
+import { setupLocksmith } from './lib/locksmith.js'
+import { setupProduction } from './lib/production.js'
+import { setupVineyard } from './lib/vineyard.js'
 
 class GlobalState {
     constructor() {
@@ -25,8 +28,13 @@ class GlobalState {
         this.postMessageHandlers = {}
     }
 
-    addPageHandler(pageName, handler) {
+    addPageHandler(pageName, handler, options = {}) {
         this.requestInterceptor.addPageHandler(pageName, async (page, url, parsedUrl) => {
+            if (options.parse) {
+                const parser = new DOMParser()
+                page = parser.parseFromString(page, "text/html")
+                url = parsedUrl
+            }
             await handler(this, page, url, parsedUrl)
             await renderSidebar(this)
         })
@@ -36,8 +44,13 @@ class GlobalState {
         this.requestInterceptor.addBeforePageHandler(pageName, parsedUrl => handler(this, parsedUrl))
     }
 
-    addWorkerHandler(workerGo, handler) {
+    addWorkerHandler(workerGo, handler, options = {}) {
         this.requestInterceptor.addWorkerHandler(workerGo, async (page, url, parsedUrl) => {
+            if (options.parse) {
+                const parser = new DOMParser()
+                page = parser.parseFromString(page, "text/html")
+                url = parsedUrl
+            }
             await handler(this, page, url, parsedUrl)
             await renderSidebar(this)
         })
@@ -217,6 +230,9 @@ const main = async () => {
     setupWorkshop(globalState)
     setupAnimals(globalState)
     setupSettings(globalState)
+    setupLocksmith(globalState)
+    setupProduction(globalState)
+    setupVineyard(globalState)
 
     // Kick off some initial data population.
     renderSidebarFromGlobalState()
