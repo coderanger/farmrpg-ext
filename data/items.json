@@ -2654,6 +2654,12 @@
     "mastery": true
   },
   {
+    "firstSeen": 1646245795731,
+    "name": "Mealworms",
+    "id": "498",
+    "image": "/img/items/mw.png"
+  },
+  {
     "name": "Medium Chest 01",
     "id": "336",
     "image": "/img/items/8574.png",
@@ -4188,6 +4194,15 @@
     "event": true,
     "sellPrice": 1750,
     "xp": 1750,
+    "rarity": "Common"
+  },
+  {
+    "firstSeen": 1646336852721,
+    "id": "499",
+    "name": "Tea Leaves",
+    "image": "/img/items/5600.png",
+    "sellPrice": 350,
+    "xp": 350,
     "rarity": "Common"
   },
   {
