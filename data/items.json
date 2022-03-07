@@ -96,7 +96,7 @@
     "xp": 100,
     "mastery": true,
     "recipe": {
-      "Apple": 50,
+      "Apple": 40,
       "Glass Bottle": 1,
       "Orange": 1
     },
@@ -354,7 +354,8 @@
     "id": "87",
     "image": "/img/items/7741.PNG",
     "sellPrice": 50,
-    "xp": 400
+    "xp": 400,
+    "mastery": true
   },
   {
     "name": "Book of Clues",
@@ -933,7 +934,8 @@
       "Small Screw": 4,
       "Twine": 1,
       "Wood": 2
-    }
+    },
+    "craftPrice": 250000
   },
   {
     "name": "Conch Shell",
@@ -1593,7 +1595,8 @@
     "image": "/img/items/goldboot.png?1",
     "sellPrice": 500000,
     "xp": 5000,
-    "rarity": "Super Rare"
+    "rarity": "Super Rare",
+    "manualFishingOnly": true
   },
   {
     "name": "Gold Carrot",
@@ -1620,7 +1623,8 @@
     "xp": 550,
     "givable": true,
     "rarity": "Common",
-    "mastery": true
+    "mastery": true,
+    "manualFishingOnly": true
   },
   {
     "id": "459",
@@ -1629,7 +1633,8 @@
     "sellPrice": 100000,
     "xp": 15000,
     "rarity": "Uncommon",
-    "mastery": true
+    "mastery": true,
+    "manualFishingOnly": true
   },
   {
     "name": "Gold Crab",
@@ -1663,7 +1668,9 @@
     "sellPrice": 120,
     "xp": 120,
     "givable": true,
-    "rarity": "Common"
+    "rarity": "Common",
+    "mastery": true,
+    "manualFishingOnly": true
   },
   {
     "name": "Gold Eggplant",
@@ -1698,7 +1705,8 @@
     "sellPrice": 2500,
     "xp": 500,
     "rarity": "Common",
-    "mastery": true
+    "mastery": true,
+    "manualFishingOnly": true
   },
   {
     "name": "Gold Leaf",
@@ -1750,7 +1758,8 @@
     "sellPrice": 3000,
     "xp": 600,
     "rarity": "Common",
-    "mastery": true
+    "mastery": true,
+    "manualFishingOnly": true
   },
   {
     "name": "Gold Trout",
@@ -1760,7 +1769,8 @@
     "xp": 350,
     "givable": true,
     "rarity": "Common",
-    "mastery": true
+    "mastery": true,
+    "manualFishingOnly": true
   },
   {
     "id": "461",
@@ -1768,7 +1778,9 @@
     "image": "/img/items/goldfin.png",
     "sellPrice": 65000,
     "xp": 6500,
-    "rarity": "Common"
+    "rarity": "Common",
+    "mastery": true,
+    "manualFishingOnly": true
   },
   {
     "name": "Goldfish",
@@ -1786,7 +1798,8 @@
     "xp": 525,
     "givable": true,
     "rarity": "Common",
-    "mastery": true
+    "mastery": true,
+    "manualFishingOnly": true
   },
   {
     "id": "466",
@@ -1794,7 +1807,9 @@
     "image": "/img/items/goldjack.png?1",
     "sellPrice": 5000,
     "xp": 500,
-    "rarity": "Common"
+    "rarity": "Common",
+    "mastery": true,
+    "manualFishingOnly": true
   },
   {
     "id": "464",
@@ -1803,7 +1818,8 @@
     "sellPrice": 4000,
     "xp": 400,
     "rarity": "Common",
-    "mastery": true
+    "mastery": true,
+    "manualFishingOnly": true
   },
   {
     "name": "Gouda",
@@ -2615,7 +2631,7 @@
     "id": "340",
     "name": "Magna Core",
     "image": "/img/items/9376.png",
-    "sellPrice": 2000,
+    "sellPrice": 2000000,
     "xp": 50000,
     "rarity": "Uncommon",
     "recipe": {
@@ -2626,7 +2642,8 @@
       "Small Screw": 10,
       "Small Spring": 5,
       "Steel": 40
-    }
+    },
+    "craftPrice": 500000
   },
   {
     "name": "Magna Quartz",
@@ -2776,7 +2793,8 @@
     "image": "/img/items/7785.png",
     "sellPrice": 400,
     "xp": 400,
-    "rarity": "Common"
+    "rarity": "Common",
+    "mastery": true
   },
   {
     "name": "Mystic Ring",
@@ -2957,7 +2975,8 @@
       "Iron Ring": 1,
       "Pearl": 1,
       "Twine": 1
-    }
+    },
+    "craftPrice": 100
   },
   {
     "name": "Peas",
@@ -3034,7 +3053,9 @@
     "id": "409",
     "image": "/img/items/cr_t_06.png",
     "sellPrice": 10000,
-    "xp": 5000
+    "xp": 5000,
+    "growthTime": 28800,
+    "mastery": true
   },
   {
     "firstSeen": 1644110892988,
@@ -3150,7 +3171,8 @@
     "image": "/img/items/7723.PNG",
     "sellPrice": 400,
     "xp": 400,
-    "rarity": "Common"
+    "rarity": "Common",
+    "mastery": true
   },
   {
     "id": "69",
@@ -3230,7 +3252,9 @@
     "image": "/img/items/radish.png?1",
     "sellPrice": 113,
     "xp": 100,
-    "givable": true
+    "givable": true,
+    "growthTime": 600,
+    "mastery": true
   },
   {
     "name": "Radish Seeds",
@@ -3634,7 +3658,8 @@
     "image": "/img/items/8819.png",
     "sellPrice": 2500,
     "xp": 2500,
-    "rarity": "Common"
+    "rarity": "Common",
+    "mastery": true
   },
   {
     "id": "274",
@@ -4020,7 +4045,8 @@
       "Iron": 10,
       "Stone": 1
     },
-    "rarity": ""
+    "rarity": "",
+    "craftPrice": 100
   },
   {
     "name": "Stingray",
@@ -4243,7 +4269,9 @@
     "image": "/img/items/8290.png",
     "sellPrice": 375,
     "xp": 300,
-    "givable": true
+    "givable": true,
+    "growthTime": 1800,
+    "mastery": true
   },
   {
     "name": "Tomato Seeds",
@@ -4480,7 +4508,9 @@
     "id": "59",
     "image": "/img/items/8293.png",
     "sellPrice": 1600,
-    "xp": 840
+    "xp": 840,
+    "growthTime": 7200,
+    "mastery": true
   },
   {
     "name": "Watermelon Seeds",

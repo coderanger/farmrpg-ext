@@ -60,6 +60,7 @@ class Location:
     id: str
     type: str
     name: str
+    image: str
     items: tuple[str]
 
 
@@ -114,6 +115,7 @@ if __name__ == "__main__":
         drop_rates.append(
             {
                 "location": location,
+                "mode": droprates.mode_for_drops(normal_drops.locations[location])[0],
                 "drop_rates": location_drops_to_rates(
                     normal_drops.locations.get(location)
                 ),
@@ -128,3 +130,29 @@ if __name__ == "__main__":
 
     drop_rates_path = Path(__file__) / ".." / ".." / "data" / "drop_rates.json"
     json.dump(drop_rates, drop_rates_path.resolve().open("w"), indent=2, sort_keys=True)
+
+    # Build a secondary fixture for Gatsby's GraphQL layer.
+    drop_rates_gql = []
+    for drop_rate in drop_rates:
+        for rate_type, rates_key in [
+            ("normal", "drop_rates"),
+            ("iron_depot", "iron_depot_rates"),
+            ("manual_fishing", "manual_fish_rates"),
+        ]:
+            for item, rate in drop_rate[rates_key].items():
+                drop_rates_gql.append(
+                    {
+                        "location": drop_rate["location"],
+                        "mode": drop_rate["mode"],
+                        "type": rate_type,
+                        "item": item,
+                        "rate": rate,
+                    }
+                )
+    drop_rates_gql_path = Path(__file__) / ".." / ".." / "data" / "drop_rates_gql.json"
+    json.dump(
+        drop_rates_gql,
+        drop_rates_gql_path.resolve().open("w"),
+        indent=2,
+        sort_keys=True,
+    )
