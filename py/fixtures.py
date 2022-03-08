@@ -4,7 +4,6 @@ import re
 from pathlib import Path
 from typing import Iterable, Optional
 
-import attr
 import attrs
 from frozendict import frozendict
 
@@ -27,12 +26,19 @@ def load_fixture(name: str) -> list[dict]:
     )
 
 
-@attr.s(auto_attribs=True, frozen=True)
+@attrs.define(frozen=True)
+class RecipeIngredient:
+    id: str
+    name: str
+    quantity: int
+
+
+@attrs.define(frozen=True)
 class Item:
     name: str
     id: str
     image: str
-    recipe: frozendict[str, int] = attr.ib(default=frozendict(), converter=frozendict)
+    recipe: Optional[tuple[RecipeIngredient, ...]] = None
     sell_price: Optional[int] = None
     buy_price: Optional[int] = None
     craft_price: Optional[int] = None
@@ -53,6 +59,8 @@ class Item:
 
 def load_items() -> Iterable[Item]:
     for item in load_fixture("items"):
+        if "recipe" in item:
+            item["recipe"] = tuple(RecipeIngredient(**it) for it in item["recipe"])
         yield Item(**item)
 
 
@@ -70,6 +78,49 @@ def load_locations(type: Optional[str] = None) -> Iterable[Location]:
         if type is not None and type != location["type"]:
             continue
         yield Location(**location)
+
+
+@attrs.define(frozen=True)
+class QuestItem:
+    id: str
+    quantity: int
+    item: Optional[Item] = None
+
+
+@attrs.define(frozen=True)
+class Quest:
+    id: str
+    name: str
+    from_: str
+    from_image: str
+    text: str
+    first_seen: int
+    available_from: Optional[str] = None
+    available_to: Optional[str] = None
+    silver_request: Optional[int] = None
+    item_requests: Optional[tuple[QuestItem, ...]] = None
+    silver_reward: Optional[int] = None
+    gold_reward: Optional[int] = None
+    item_rewards: Optional[tuple[QuestItem, ...]] = None
+
+
+def load_quests(resolve_items=False) -> Iterable[Quest]:
+    items = {it.id: it for it in load_items()} if resolve_items else {}
+    for quest in load_fixture("quests"):
+        # from is a Python keyword so I can't use it.
+        quest["from_"] = quest.pop("from")
+        # Convert the sub-lists.
+        if "item_requests" in quest:
+            quest["item_requests"] = tuple(
+                QuestItem(item=items.get(it["id"]), **it)
+                for it in quest["item_requests"]
+            )
+        if "item_rewards" in quest:
+            quest["item_rewards"] = tuple(
+                QuestItem(item=items.get(it["id"]), **it)
+                for it in quest["item_rewards"]
+            )
+        yield Quest(**quest)
 
 
 if __name__ == "__main__":
