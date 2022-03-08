@@ -1625,14 +1625,17 @@
     "mastery": true,
     "recipe": [
       {
+        "id": "170",
         "name": "Antler",
         "quantity": 1
       },
       {
+        "id": "22",
         "name": "Iron",
         "quantity": 4
       },
       {
+        "id": "193",
         "name": "Rope",
         "quantity": 2
       }
@@ -1843,10 +1846,12 @@
     "mastery": true,
     "recipe": [
       {
+        "id": "78",
         "name": "Glass Orb",
         "quantity": 1
       },
       {
+        "id": "40",
         "name": "Stone",
         "quantity": 1
       }
@@ -1864,10 +1869,12 @@
     "mastery": true,
     "recipe": [
       {
+        "id": "77",
         "name": "Shimmer Stone",
         "quantity": 2
       },
       {
+        "id": "40",
         "name": "Stone",
         "quantity": 1
       }
@@ -2433,12 +2440,7 @@
     "xp": 2500,
     "rarity": "Uncommon",
     "craftPrice": 300,
-    "mastery": true,
-    "recipe": {
-      "Heart Necklace Left Piece": 1,
-      "Heart Necklace Right Piece": 1,
-      "Steel Wire": 1
-    }
+    "mastery": true
   },
   {
     "firstSeen": 1644110823342,
@@ -2586,14 +2588,17 @@
     "mastery": true,
     "recipe": [
       {
+        "id": "22",
         "name": "Iron",
         "quantity": 5
       },
       {
+        "id": "38",
         "name": "Nails",
         "quantity": 7
       },
       {
+        "id": "40",
         "name": "Stone",
         "quantity": 2
       }
@@ -2763,10 +2768,12 @@
     "mastery": true,
     "recipe": [
       {
+        "id": "22",
         "name": "Iron",
         "quantity": 2
       },
       {
+        "id": "40",
         "name": "Stone",
         "quantity": 1
       }
@@ -2876,22 +2883,27 @@
     "mastery": true,
     "recipe": [
       {
+        "id": "103",
         "name": "Coal",
         "quantity": 1
       },
       {
+        "id": "117",
         "name": "Glass Bottle",
         "quantity": 1
       },
       {
+        "id": "22",
         "name": "Iron",
         "quantity": 3
       },
       {
+        "id": "95",
         "name": "Iron Ring",
         "quantity": 1
       },
       {
+        "id": "163",
         "name": "Twine",
         "quantity": 2
       }
@@ -3458,6 +3470,7 @@
     "mastery": true,
     "recipe": [
       {
+        "id": "43",
         "name": "Mushroom",
         "quantity": 3
       }
@@ -4080,6 +4093,7 @@
     "mastery": true,
     "recipe": [
       {
+        "id": "163",
         "name": "Twine",
         "quantity": 3
       }
@@ -4349,10 +4363,12 @@
     "mastery": true,
     "recipe": [
       {
+        "id": "236",
         "name": "Hammer",
         "quantity": 1
       },
       {
+        "id": "304",
         "name": "Salt Rock",
         "quantity": 50
       }
@@ -5417,12 +5433,6 @@
     "rarity": "Uncommon",
     "craftPrice": 150,
     "mastery": true,
-    "recipe": {
-      "Feathers": 3,
-      "Fish Bones": 1,
-      "Mushroom Paste": 1,
-      "White Parchment": 2
-    },
     "sellPrice": 500,
     "givable": true
   },
