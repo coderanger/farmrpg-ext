@@ -507,7 +507,9 @@
     "name": "25,000",
     "from": "Rosalie",
     "fromImage": "/img/items/a_098.png",
-    "text": "It is hot and this place keeps growing! Rosalie has some drinks for you to help you cool off in all this heat. Just give her a couple glass orbs for the trouble. Thanks for being a part of the community!"
+    "text": "It is hot and this place keeps growing! Rosalie has some drinks for you to help you cool off in all this heat. Just give her a couple glass orbs for the trouble. Thanks for being a part of the community!",
+    "availableFrom": "Jul 19",
+    "availableTo": "Jul 20"
   },
   {
     "firstSeen": 1646727846149,
@@ -565,7 +567,9 @@
     "from": "Rosalie",
     "fromImage": "/img/items/a_098.png",
     "text": "Rosalie was out exploring the small cave and came across a treasure chest full of Gold! She doesn't need all of this Gold, so she wants to share it with you and everybody else around town. If you can bring her some eggplants she'll pay you 20 Gold for the trouble.",
-    "goldReward": 20
+    "goldReward": 20,
+    "availableFrom": "Jul 26",
+    "availableTo": "Jul 28"
   },
   {
     "firstSeen": 1646727840084,
@@ -1757,7 +1761,9 @@
     "from": "Jill",
     "fromImage": "/img/items/a_024.png",
     "text": "Jill hear rumors of a Gold Mine way off in the hills. She would like to try to go explore it, but needs some items before she can go. She will give you a portion of any Gold she finds in the mine.",
-    "goldReward": 20
+    "goldReward": 20,
+    "availableFrom": "Aug 18",
+    "availableTo": "Aug 22"
   },
   {
     "firstSeen": 1646724087891,
@@ -3399,7 +3405,9 @@
     "from": "Rosalie",
     "fromImage": "/img/items/a_098.png",
     "text": "Rosalie can't keep up with the amount of new farmers around town. She needs to cater an event with over 50,000 people! Can you help her with some items she needs for the event? She will pay well for the assistance.",
-    "goldReward": 50
+    "goldReward": 50,
+    "availableFrom": "Sep 4",
+    "availableTo": "Sep 7"
   },
   {
     "firstSeen": 1646727682069,
@@ -5701,7 +5709,9 @@
     "from": "Rosalie",
     "fromImage": "/img/items/a_098.png",
     "text": "Rosalie thinks this place is starting to get crowded, but she's going to do her best to welcome every new farmer with something nice. All she needs in return are a few things for her next catering event.",
-    "goldReward": 10
+    "goldReward": 10,
+    "availableFrom": "Sep 22",
+    "availableTo": "Sep 25"
   },
   {
     "firstSeen": 1646727545240,
@@ -5877,7 +5887,9 @@
     "from": "Firestream",
     "fromImage": "/img/items/4497.png",
     "text": "Farm RPG launched in May of this year. In just over 4 months, the amount of support the game has gotten has been insane. The Farm RPG Patreon reached 500 Patrons today, so to celebrate, all players can complete this special Help Request and get some great items. Thank you to everybody playing and supporting the game development!",
-    "goldReward": 50
+    "goldReward": 50,
+    "availableFrom": "Sep 25",
+    "availableTo": "Sep 27"
   },
   {
     "firstSeen": 1646727533178,
@@ -7458,7 +7470,9 @@
     "name": "Pyramid Scheme I",
     "from": "Mummy",
     "fromImage": "/img/items/mummy_t_01.png",
-    "text": "A mummy has stumbled into town and needs your help. This mummy is making treats for the Harvest Festival. Will you help the mummy find a missing ingredient? There’s candy in it for you, if you help.\n\nAlso, each Halloween quest contains clues to which townsperson is in disguise. This knowledge will help you to unlock a mailbox password needed to complete the final quest!"
+    "text": "A mummy has stumbled into town and needs your help. This mummy is making treats for the Harvest Festival. Will you help the mummy find a missing ingredient? There’s candy in it for you, if you help.\n\nAlso, each Halloween quest contains clues to which townsperson is in disguise. This knowledge will help you to unlock a mailbox password needed to complete the final quest!",
+    "availableFrom": "Oct 14",
+    "availableTo": "Nov 3"
   },
   {
     "firstSeen": 1646727438996,
@@ -7955,7 +7969,9 @@
     "name": "Halloween Safety",
     "from": "Ric Ryph",
     "fromImage": "/img/items/npc_figure2.png",
-    "text": "Ric wants you to have a safe Halloween, and to keep an eye out for dragons."
+    "text": "Ric wants you to have a safe Halloween, and to keep an eye out for dragons.",
+    "availableFrom": "Oct 14",
+    "availableTo": "Nov 3"
   },
   {
     "firstSeen": 1646727398892,
@@ -7983,7 +7999,9 @@
     "name": "I <3 Halloween",
     "from": "Geist",
     "fromImage": "/img/items/npc_beast.png",
-    "text": "Geist isn’t sure why, but she loves Halloween. She wishes it was safe for her to go to a party."
+    "text": "Geist isn’t sure why, but she loves Halloween. She wishes it was safe for her to go to a party.",
+    "availableFrom": "Oct 14",
+    "availableTo": "Nov 3"
   },
   {
     "firstSeen": 1646728004547,
@@ -8036,7 +8054,9 @@
     "name": "What is Halloween?",
     "from": "ROOMBA",
     "fromImage": "/img/items/robot_02.png",
-    "text": "ROOMBA whirrs softly.\n\"PROCESSING HALLOWEEN\"\n\"...\"\n\"MY MATRIX DOES NOT LIKE TRICKS.\"\n\"WOULD YOU LIKE TO GIVE ME A TREAT?\""
+    "text": "ROOMBA whirrs softly.\n\"PROCESSING HALLOWEEN\"\n\"...\"\n\"MY MATRIX DOES NOT LIKE TRICKS.\"\n\"WOULD YOU LIKE TO GIVE ME A TREAT?\"",
+    "availableFrom": "Oct 14",
+    "availableTo": "Nov 3"
   },
   {
     "firstSeen": 1646727388920,
@@ -8064,7 +8084,9 @@
     "name": "Funny Teeth",
     "from": "Lorn",
     "fromImage": "/img/items/a_088.png",
-    "text": "Lorn thinks it would be funny to replace his dentures with some chattering teeth for Halloween. If you can bring him some chattering teeth he'll give you something nice."
+    "text": "Lorn thinks it would be funny to replace his dentures with some chattering teeth for Halloween. If you can bring him some chattering teeth he'll give you something nice.",
+    "availableFrom": "Oct 14",
+    "availableTo": "Nov 3"
   },
   {
     "firstSeen": 1646727386873,
@@ -8088,7 +8110,9 @@
     "name": "Temporary Prankster I",
     "from": "George",
     "fromImage": "/img/items/a_034.png",
-    "text": "George needs a load of parchment so that he can “decorate” the trees of a few of his friends on Halloween. If you’ll help him gather the parchment, he’ll give you lots of candy."
+    "text": "George needs a load of parchment so that he can “decorate” the trees of a few of his friends on Halloween. If you’ll help him gather the parchment, he’ll give you lots of candy.",
+    "availableFrom": "Oct 15",
+    "availableTo": "Nov 3"
   },
   {
     "firstSeen": 1646727380923,
@@ -8290,7 +8314,9 @@
     "from": "Rosalie",
     "fromImage": "/img/items/a_098.png",
     "text": "Rosalie found a bag of candy on the ground. It's probably fine and she doesn't eat much candy. Do you want it?",
-    "silverRequest": 1
+    "silverRequest": 1,
+    "availableFrom": "Oct 17",
+    "availableTo": "Nov 3"
   },
   {
     "firstSeen": 1646728000539,
@@ -8352,7 +8378,9 @@
     "fromImage": "/img/items/a_098.png",
     "text": "Rosalie just cannot believe that over 75,000 people have moved to town! She is working extra hard to welcome each and every new farmer that comes to town. Thanks for being a part of it all!",
     "silverRequest": 1,
-    "goldReward": 50
+    "goldReward": 50,
+    "availableFrom": "Oct 19",
+    "availableTo": "Oct 23"
   },
   {
     "firstSeen": 1646727344760,
@@ -8429,7 +8457,9 @@
     "fromImage": "/img/items/gold.png",
     "text": "Having game downtime is something I work hard to avoid, but sometimes things go wrong. Either way, I'm sorry it happened and will work to ensure it doesn't happen in the future.\n\nIt's dangerous to go alone! Take this.",
     "silverRequest": 1,
-    "goldReward": 50
+    "goldReward": 50,
+    "availableFrom": "Oct 25",
+    "availableTo": "Oct 26"
   },
   {
     "firstSeen": 1646727998544,
@@ -8624,7 +8654,9 @@
     "fromImage": "/img/items/a_098.png",
     "text": "Rosalie has been hoarding candy and junk all month to finally give out today. Please take this stuff so she can clear out her storage bins for the next event!",
     "silverRequest": 1,
-    "goldReward": 30
+    "goldReward": 30,
+    "availableFrom": "Oct 31",
+    "availableTo": "Nov 3"
   },
   {
     "firstSeen": 1646727306316,
@@ -10324,7 +10356,9 @@
     "name": "Naturally Thankful",
     "from": "Geist",
     "fromImage": "/img/items/npc_beast.png",
-    "text": "Behind Beatrix’s house is a maple tree as straight as an arrow. Geist likes to relax in the grass and watch that tree blow about in the wind. Geist really enjoyed the leaves turning red this fall, until they all fell off. Now there’s only one small leaf left flapping madly in the wind.\n\nGeist is thankful for beautiful leaves in grand trees and all sorts of other beauties of the natural world. Will you bring her some of her favorite things?"
+    "text": "Behind Beatrix’s house is a maple tree as straight as an arrow. Geist likes to relax in the grass and watch that tree blow about in the wind. Geist really enjoyed the leaves turning red this fall, until they all fell off. Now there’s only one small leaf left flapping madly in the wind.\n\nGeist is thankful for beautiful leaves in grand trees and all sorts of other beauties of the natural world. Will you bring her some of her favorite things?",
+    "availableFrom": "Nov 24",
+    "availableTo": "Nov 28"
   },
   {
     "firstSeen": 1646727215971,
@@ -10365,7 +10399,9 @@
     "from": "Star Meerif",
     "fromImage": "/img/items/npc_figure.png",
     "text": "*poof*\nStar is thankful for his favorite spell.\n*poof*\nStar really loves this spell.\n*poof*\nWon't you help Star keep using his favorite spell?\n*poof*\nStar is thankful for you too.\n*poof*",
-    "goldReward": 10
+    "goldReward": 10,
+    "availableFrom": "Nov 24",
+    "availableTo": "Nov 28"
   },
   {
     "firstSeen": 1646727213990,
@@ -10402,7 +10438,9 @@
     "from": "Cecil",
     "fromImage": "/img/items/a_027.png",
     "text": "Cecil is thankful for things. All things. Especially things that are his things. Would you bring him a few of his favorite things?",
-    "silverRequest": 50
+    "silverRequest": 50,
+    "availableFrom": "Nov 24",
+    "availableTo": "Nov 28"
   },
   {
     "firstSeen": 1646727212097,
@@ -10423,7 +10461,9 @@
     "from": "ROOMBA",
     "fromImage": "/img/items/robot_02.png",
     "text": "ROOMBA has cleanest source of energy its ever used. His data matrix does not understand what being thankful is, can you bring him corn? It's ROOMBA's programmatically most requested item, which sounds a lot like being its favorite thing.",
-    "silverReward": 3000000
+    "silverReward": 3000000,
+    "availableFrom": "Nov 24",
+    "availableTo": "Nov 28"
   },
   {
     "firstSeen": 1646727209972,
@@ -10448,7 +10488,9 @@
     "from": "George",
     "fromImage": "/img/items/a_034.png",
     "text": "Raindrops on roses and whiskers on kittens\nBright copper kettles and warm woolen mittens\nBrown paper packages tied up with strings\nThese are a few of my favorite things.\nCream-colored ponies and crisp apple strudels;\nDoorbells and sleigh bells and schnitzel with noodles;\nWild geese that fly with the moon on their wings;\nThese are a few of my favorite things.\nGirls in white dresses with blue satin sashes\nSnowflakes that stay on my nose and eyelashes\nSilver-white winters that melt into springs\nThese are a few of my favorite things\nWhen the dog bites,\nWhen the bee stings,\nWhen I'm feeling sad,\nI simply remember my favorite things,\nAnd then I don't feel so bad.",
-    "silverReward": 5000000
+    "silverReward": 5000000,
+    "availableFrom": "Nov 24",
+    "availableTo": "Nov 28"
   },
   {
     "firstSeen": 1646727207956,
@@ -10496,7 +10538,9 @@
     "name": "Joyful Thanks",
     "from": "Rosalie",
     "fromImage": "/img/items/a_098.png",
-    "text": "Rosalie is thankful for friendships and the town. She's also thankful for the strange wizard that makes her smile. Would you bring her a few of her favorite things?"
+    "text": "Rosalie is thankful for friendships and the town. She's also thankful for the strange wizard that makes her smile. Would you bring her a few of her favorite things?",
+    "availableFrom": "Nov 24",
+    "availableTo": "Nov 28"
   },
   {
     "firstSeen": 1646727205961,
@@ -10532,7 +10576,9 @@
     "name": "Explosively Thankful",
     "from": "Buddy",
     "fromImage": "/img/items/buddy.png",
-    "text": "Playing a pirate and scaring the townsfolk\nPulling an over-the-line practical joke\nBlack powder packages, fuses as strings\nThese are a few of his favorite things\nWhen the town flees\nWhen the boom rings\nWhen he's feeling mad\nHe simply remembers his favorite things\nAnd then he won't feel so bad\nBuddy is thankful for all sorts of things. Particularly explodey things. Will you bring him some of his favorite things?"
+    "text": "Playing a pirate and scaring the townsfolk\nPulling an over-the-line practical joke\nBlack powder packages, fuses as strings\nThese are a few of his favorite things\nWhen the town flees\nWhen the boom rings\nWhen he's feeling mad\nHe simply remembers his favorite things\nAnd then he won't feel so bad\nBuddy is thankful for all sorts of things. Particularly explodey things. Will you bring him some of his favorite things?",
+    "availableFrom": "Nov 24",
+    "availableTo": "Nov 28"
   },
   {
     "firstSeen": 1646727203946,
@@ -10568,7 +10614,9 @@
     "name": "Thankfully Curious ",
     "from": "Beatrix",
     "fromImage": "/img/items/a_011.png",
-    "text": "Beatrix loves strange things. She’s always been very curious. She wants to see everything.\n\nBeatrix is thankful for new and curious things. Will you bring her some things for her to puzzle over?"
+    "text": "Beatrix loves strange things. She’s always been very curious. She wants to see everything.\n\nBeatrix is thankful for new and curious things. Will you bring her some things for her to puzzle over?",
+    "availableFrom": "Nov 24",
+    "availableTo": "Nov 28"
   },
   {
     "firstSeen": 1646727201940,
@@ -10596,7 +10644,9 @@
     "name": "do you carrot all?",
     "from": "frank",
     "fromImage": "/img/items/npc_bunny1.png",
-    "text": "You are sitting in front of your fireplace, thinking about going to bed, when a familiar blue rabbit poofs into existence right in front of the fire.\n\"Carrots. If you wanted to get frank something he's thankful for, it's carrots.\"\nYou see a barrel, and a very hungry looking frank. Will you bring him some of his favorite things?"
+    "text": "You are sitting in front of your fireplace, thinking about going to bed, when a familiar blue rabbit poofs into existence right in front of the fire.\n\"Carrots. If you wanted to get frank something he's thankful for, it's carrots.\"\nYou see a barrel, and a very hungry looking frank. Will you bring him some of his favorite things?",
+    "availableFrom": "Nov 24",
+    "availableTo": "Nov 28"
   },
   {
     "firstSeen": 1646727199959,
@@ -10629,7 +10679,9 @@
     "from": "Captain Thomas",
     "fromImage": "/img/items/MustacheTom96.png",
     "text": "Captain Thomas remembers that one of his favorite things on his world was to go fishing. Will you bring him things to help him fish?",
-    "silverReward": 300000
+    "silverReward": 300000,
+    "availableFrom": "Nov 24",
+    "availableTo": "Nov 28"
   },
   {
     "firstSeen": 1646727197944,
@@ -10678,7 +10730,9 @@
     "from": "Thomas",
     "fromImage": "/img/items/a_048.png",
     "text": "Thomas is very thankful for fish. He loves fish. Fish are his favorite. Will you bring him some of his favorite fish?",
-    "silverReward": 250000
+    "silverReward": 250000,
+    "availableFrom": "Nov 24",
+    "availableTo": "Nov 28"
   },
   {
     "firstSeen": 1646727195946,
@@ -10714,7 +10768,9 @@
     "name": "Thankful and Hungry",
     "from": "Holger",
     "fromImage": "/img/items/a_028.png",
-    "text": "Holger is thankful. He is also hungry. Will you bring him some food so he's less hungry and more thankful?"
+    "text": "Holger is thankful. He is also hungry. Will you bring him some food so he's less hungry and more thankful?",
+    "availableFrom": "Nov 24",
+    "availableTo": "Nov 28"
   },
   {
     "firstSeen": 1646727193932,
@@ -10775,7 +10831,9 @@
     "from": "Lorn",
     "fromImage": "/img/items/a_088.png",
     "text": "Lorn is wise enough to be thankful for his wisdom. Will you bring Lorn some of his favorite things, that he believes impart wisdom?",
-    "silverReward": 300000
+    "silverReward": 300000,
+    "availableFrom": "Nov 24",
+    "availableTo": "Nov 28"
   },
   {
     "firstSeen": 1646727187921,
@@ -11262,7 +11320,9 @@
     "from": "Ric Ryph",
     "fromImage": "/img/items/npc_figure2.png",
     "text": "Ric is thankful for all the things that can be accomplished when everyone pitches in for the greater good. Ric thinks it’s time for you to make another contribution.",
-    "silverRequest": 1000000
+    "silverRequest": 1000000,
+    "availableFrom": "Nov 24",
+    "availableTo": "Nov 28"
   },
   {
     "firstSeen": 1646727117816,
@@ -11294,7 +11354,9 @@
     "name": "Monetarily Thankful ",
     "from": "Borgen",
     "fromImage": "/img/items/borgen.png",
-    "text": "Borgen is fairly certain that you already know what he’s thankful for. Will you bring him some ancient coins?"
+    "text": "Borgen is fairly certain that you already know what he’s thankful for. Will you bring him some ancient coins?",
+    "availableFrom": "Nov 24",
+    "availableTo": "Nov 28"
   },
   {
     "firstSeen": 1646727115817,
@@ -11318,7 +11380,9 @@
     "name": "Thankfully A Horse",
     "from": "Charles Horsington III",
     "fromImage": "/img/items/npc_horse.png",
-    "text": "Neigh neigh. Neigh neigh neigh. Neigh neigh neigh?"
+    "text": "Neigh neigh. Neigh neigh neigh. Neigh neigh neigh?",
+    "availableFrom": "Nov 24",
+    "availableTo": "Nov 28"
   },
   {
     "firstSeen": 1646727113817,
@@ -11370,7 +11434,9 @@
     "name": "Thankfully In Love",
     "from": "Charles Horsington III",
     "fromImage": "/img/items/npc_horse.png",
-    "text": "Charles is thankful for love and relationships! Will you bring him some gifts for his girlfriend?"
+    "text": "Charles is thankful for love and relationships! Will you bring him some gifts for his girlfriend?",
+    "availableFrom": "Nov 24",
+    "availableTo": "Nov 28"
   },
   {
     "firstSeen": 1646727111791,
@@ -11426,7 +11492,9 @@
     "name": "Thankfully Friendly",
     "from": "Vincent",
     "fromImage": "/img/items/a_047.png",
-    "text": "Vincent is thankful for his friends. Will you help him gather some small gifts to give to each of his friends?"
+    "text": "Vincent is thankful for his friends. Will you help him gather some small gifts to give to each of his friends?",
+    "availableFrom": "Nov 24",
+    "availableTo": "Nov 28"
   },
   {
     "firstSeen": 1646727976505,
@@ -11471,7 +11539,9 @@
     "name": "Blizzard Warning I",
     "from": "Lorn",
     "fromImage": "/img/items/a_088.png",
-    "text": "Lorn received word that bad weather is coming. He expects an exceptional blizzard and a massive accumulation of snow from Mount Banon all the way to the coast.\n\nWill you help Lorn make signs to warn people around town to prepare? Lorn will bring the ink if you bring the parchment."
+    "text": "Lorn received word that bad weather is coming. He expects an exceptional blizzard and a massive accumulation of snow from Mount Banon all the way to the coast.\n\nWill you help Lorn make signs to warn people around town to prepare? Lorn will bring the ink if you bring the parchment.",
+    "availableFrom": "Dec 1",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646727107803,
@@ -11491,7 +11561,9 @@
     "from": "Cecil",
     "fromImage": "/img/items/a_027.png",
     "text": "Cecil would like your help boarding up his many windows. He expects this blizzard to bring very strong winds that might damage his home.",
-    "silverReward": 50000
+    "silverReward": 50000,
+    "availableFrom": "Dec 2",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646727105801,
@@ -11527,7 +11599,9 @@
     "name": "Blizzard Warning II - B",
     "from": "Star Meerif",
     "fromImage": "/img/items/npc_figure.png",
-    "text": "Star needs some emberstone to help keep his tower warm. He has some experiments running in the loftier portions of his tower that could be thrown out of multiversal alignment without the proper temperature controls in place. Star thinks this blizzard is going to wreak havoc on the entire thermal alignment of the town.\n\nWill you bring him a massive load of emberstone, and some feathers just in case he needs them?"
+    "text": "Star needs some emberstone to help keep his tower warm. He has some experiments running in the loftier portions of his tower that could be thrown out of multiversal alignment without the proper temperature controls in place. Star thinks this blizzard is going to wreak havoc on the entire thermal alignment of the town.\n\nWill you bring him a massive load of emberstone, and some feathers just in case he needs them?",
+    "availableFrom": "Dec 2",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646727103811,
@@ -11576,7 +11650,9 @@
     "from": "Holger",
     "fromImage": "/img/items/a_028.png",
     "text": "Holger is concerned he may not have enough food if he gets snowed in for a few days. Will you help him gather a few additional food items?",
-    "silverReward": 20000
+    "silverReward": 20000,
+    "availableFrom": "Dec 3",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646727101783,
@@ -11601,7 +11677,9 @@
     "from": "Cecil",
     "fromImage": "/img/items/a_027.png",
     "text": "Cecil wants to make sure that his horse is well prepared for the coming blizzard too. Will you help him get a few extra items for his horse?",
-    "silverReward": 100000
+    "silverReward": 100000,
+    "availableFrom": "Dec 3",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646727099772,
@@ -11635,7 +11713,9 @@
     "fromImage": "/img/items/npc_figure.png",
     "text": "Star also needs a few grocery items, if you wouldn’t mind getting them for him. He can’t leave his experiments right now since it’s the middle of a nebular Friday.\n\nFor grocery items, Star just needs the standard snowstorm fare.",
     "silverReward": 20000000,
-    "goldReward": 10
+    "goldReward": 10,
+    "availableFrom": "Dec 3",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646727097791,
@@ -11772,7 +11852,9 @@
     "from": "Rosalie",
     "fromImage": "/img/items/a_098.png",
     "text": "It is crazy hot and humid lately. Rosalie will make you some lemonade if you can bring her a Lemon.",
-    "silverReward": 500
+    "silverReward": 500,
+    "availableFrom": "Jun 14",
+    "availableTo": "Jun 18"
   },
   {
     "firstSeen": 1646727089755,
@@ -12131,7 +12213,9 @@
     "name": "Fruit Mix",
     "from": "Cecil",
     "fromImage": "/img/items/a_027.png",
-    "text": "Cecil has some extra fruit from his orchard that he could give you if you can get him what he needs."
+    "text": "Cecil has some extra fruit from his orchard that he could give you if you can get him what he needs.",
+    "availableFrom": "Jun 14",
+    "availableTo": "Jun 18"
   },
   {
     "firstSeen": 1646727069733,
@@ -12758,7 +12842,9 @@
     "from": "Rosalie",
     "fromImage": "/img/items/a_098.png",
     "text": "Rosalie has seen the population of this place skyrocket lately and wants to do what she can to help all the new farmers get out there and explore the world. She has some things to help you on your way and only needs a small payment in return.",
-    "goldReward": 10
+    "goldReward": 10,
+    "availableFrom": "Jun 19",
+    "availableTo": "Jun 21"
   },
   {
     "firstSeen": 1646727029650,
@@ -14850,7 +14936,9 @@
     "name": "Blizzard Warning III - D",
     "from": "Jill",
     "fromImage": "/img/items/a_024.png",
-    "text": "Jill needs your help. With the blizzard coming, she needs some extra crops to turn into feed for her animals. She would like to get a variety of crops so her animals get all the nutrients they need to stay healthy. Unfortunately, there isn’t enough time remaining for her to do it alone. Will you help her get a few more varieties of crops to turn into feed?"
+    "text": "Jill needs your help. With the blizzard coming, she needs some extra crops to turn into feed for her animals. She would like to get a variety of crops so her animals get all the nutrients they need to stay healthy. Unfortunately, there isn’t enough time remaining for her to do it alone. Will you help her get a few more varieties of crops to turn into feed?",
+    "availableFrom": "Dec 3",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726897386,
@@ -14884,7 +14972,9 @@
     "fromImage": "/img/items/a_047.png",
     "text": "Vincent is certain that Lorn is right about a terrible blizzard coming. He has seen the signs in the sky of an approaching storm, and the wildlife around his camp are behaving like they know a severe storm is coming.\n\nNormally, Vincent would get a room in an inn to weather the worst of the storm, but all of the inns are full right now. Will you rent a room out to Vincent, just until the worst of the storm passes?",
     "silverReward": 100000,
-    "goldReward": 5
+    "goldReward": 5,
+    "availableFrom": "Dec 4",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726895368,
@@ -14916,7 +15006,9 @@
     "name": "Blizzard Warning IV - B",
     "from": "Charles Horsington III",
     "fromImage": "/img/items/npc_horse.png",
-    "text": "Neigh neigh!!! Neigh!?"
+    "text": "Neigh neigh!!! Neigh!?",
+    "availableFrom": "Dec 4",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726893359,
@@ -14964,7 +15056,9 @@
     "name": "Blizzard Warning IV - C",
     "from": "Thomas",
     "fromImage": "/img/items/a_048.png",
-    "text": "Thomas doesn’t need any necessities to prepare for the blizzard, but he would like to be ready to try ice fishing after the storm passes. Will you bring him a few things he can use to go fishing in the ice?"
+    "text": "Thomas doesn’t need any necessities to prepare for the blizzard, but he would like to be ready to try ice fishing after the storm passes. Will you bring him a few things he can use to go fishing in the ice?",
+    "availableFrom": "Dec 4",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726891360,
@@ -14997,7 +15091,9 @@
     "from": "Vincent",
     "fromImage": "/img/items/a_047.png",
     "text": "Vincent would also like to rent some space in your barn to store his wagon. Unfortunately, he also needs a few new wheels for his wagon to get it over to your barn. Will you rent him the space and help him get some wagon wheels?",
-    "silverReward": 100000
+    "silverReward": 100000,
+    "availableFrom": "Dec 4",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646727954451,
@@ -15087,7 +15183,9 @@
     "from": "Holger",
     "fromImage": "/img/items/a_028.png",
     "text": "Holger is still not sure he has enough food to make it through the blizzard. Will you bring him a little more food?",
-    "silverReward": 1000000
+    "silverReward": 1000000,
+    "availableFrom": "Dec 4",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726887348,
@@ -15112,7 +15210,9 @@
     "from": "Jill",
     "fromImage": "/img/items/a_024.png",
     "text": "Jill needs a little more feed for her animals, to feel completely prepared for the blizzard, but her feed mill is already running at full capacity. Will you bring her a few more bags of feed from your mill?",
-    "silverReward": 1000000
+    "silverReward": 1000000,
+    "availableFrom": "Dec 4",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726885338,
@@ -15150,7 +15250,9 @@
     "fromImage": "/img/items/a_011.png",
     "text": "Beatrix thought she was completely prepared for the blizzard, but as she was preparing tea for Lorn today, she realized that her tea supplies are running awfully low. Will you help her gather a few things to ensure she has tea for the duration of the storm?",
     "silverReward": 10000000,
-    "goldReward": 20
+    "goldReward": 20,
+    "availableFrom": "Dec 4",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726883341,
@@ -15190,7 +15292,9 @@
     "name": "Blizzard Warning IV - H",
     "from": "George",
     "fromImage": "/img/items/a_034.png",
-    "text": "George expects to have a bit of quiet time on his hands during the blizzard. He thinks it will be a good opportunity to challenge himself musically. He would like to try playing a left-handed guitar. Will you bring him a left-handed guitar?"
+    "text": "George expects to have a bit of quiet time on his hands during the blizzard. He thinks it will be a good opportunity to challenge himself musically. He would like to try playing a left-handed guitar. Will you bring him a left-handed guitar?",
+    "availableFrom": "Dec 4",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726881328,
@@ -15210,7 +15314,9 @@
     "name": "Shoveling Snow I - A",
     "from": "Charles Horsington III",
     "fromImage": "/img/items/npc_horse.png",
-    "text": "Neigh…"
+    "text": "Neigh…",
+    "availableFrom": "Dec 6",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726879324,
@@ -15234,7 +15340,9 @@
     "name": "Shoveling Snow I - B",
     "from": "Buddy",
     "fromImage": "/img/items/buddy.png",
-    "text": "Buddy would like to help his many friends by shoveling the snow off the path to his cave. Will you bring him a shovel?"
+    "text": "Buddy would like to help his many friends by shoveling the snow off the path to his cave. Will you bring him a shovel?",
+    "availableFrom": "Dec 6",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646729498669,
@@ -15254,7 +15362,9 @@
     "name": "Shoveling Snow I - C",
     "from": "Borgen",
     "fromImage": "/img/items/borgen.png",
-    "text": "Borgen needs a shovel to clear the snow from his usual site. He doesn’t want any paying customers slipping and falling when they come to check out his wares.\n\nWill you sell Borgen a shovel?"
+    "text": "Borgen needs a shovel to clear the snow from his usual site. He doesn’t want any paying customers slipping and falling when they come to check out his wares.\n\nWill you sell Borgen a shovel?",
+    "availableFrom": "Dec 6",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726878303,
@@ -15278,7 +15388,9 @@
     "name": "Shoveling Snow I - D",
     "from": "Beatrix",
     "fromImage": "/img/items/a_011.png",
-    "text": "Beatrix has a very strange patch of ground on the eastern side of her house. The blizzard piled up snow everywhere on that side of the house, except this one spot. All around this spot the snow slopes quickly up past her knees, but at this strange patch the ground is completely dry and has not a lick of snow.\n\nBeatrix is going to excavate this patch of ground. The area is about a meter by two meters. Will you bring her a shovel?"
+    "text": "Beatrix has a very strange patch of ground on the eastern side of her house. The blizzard piled up snow everywhere on that side of the house, except this one spot. All around this spot the snow slopes quickly up past her knees, but at this strange patch the ground is completely dry and has not a lick of snow.\n\nBeatrix is going to excavate this patch of ground. The area is about a meter by two meters. Will you bring her a shovel?",
+    "availableFrom": "Dec 6",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726873299,
@@ -15298,7 +15410,9 @@
     "name": "Shoveling Snow I - F",
     "from": "frank",
     "fromImage": "/img/items/npc_bunny1.png",
-    "text": "frank needs a shovel for the snow. Will you bring the shovel and not ask any more questions?"
+    "text": "frank needs a shovel for the snow. Will you bring the shovel and not ask any more questions?",
+    "availableFrom": "Dec 6",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726871312,
@@ -15318,7 +15432,9 @@
     "name": "Shoveling Snow I - E",
     "from": "George",
     "fromImage": "/img/items/a_034.png",
-    "text": "Will you bring George a shovel? He would like to clear the snow from his walkways."
+    "text": "Will you bring George a shovel? He would like to clear the snow from his walkways.",
+    "availableFrom": "Dec 6",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646723951344,
@@ -15404,7 +15520,9 @@
     "from": "Thomas",
     "fromImage": "/img/items/a_048.png",
     "text": "Thomas wants to do something nice for the whole town, or as much of it as he can. Will you bring him a load of emberstone and salt rock to help clear the main road?",
-    "silverReward": 20000000
+    "silverReward": 20000000,
+    "availableFrom": "Dec 6",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726867290,
@@ -15442,7 +15560,9 @@
     "fromImage": "/img/items/MustacheTom96.png",
     "text": "Captain Thomas saw Thomas trying to clear the snow from the main road. Thomas looked like he could use some help. Will you bring Captain Thomas some emberstone and salt rock so he can help?",
     "silverReward": 30000000,
-    "goldReward": 10
+    "goldReward": 10,
+    "availableFrom": "Dec 6",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726865324,
@@ -15467,7 +15587,9 @@
     "from": "Jill",
     "fromImage": "/img/items/a_024.png",
     "text": "Jill needs snowballs and lots of them. She’s going to war with George in exactly one hour. Will you help her prepare?",
-    "silverReward": 10000000
+    "silverReward": 10000000,
+    "availableFrom": "Dec 6",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726863611,
@@ -15487,7 +15609,9 @@
     "name": "Shoveling Snow I - J",
     "from": "George",
     "fromImage": "/img/items/a_034.png",
-    "text": "George is going to war with Jill. He needs snowballs and loads of snowballs. Will you give him a hand gathering snowballs?"
+    "text": "George is going to war with Jill. He needs snowballs and loads of snowballs. Will you give him a hand gathering snowballs?",
+    "availableFrom": "Dec 6",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726861301,
@@ -15515,7 +15639,9 @@
     "name": "Shoveling Snow I - K",
     "from": "Rosalie",
     "fromImage": "/img/items/a_098.png",
-    "text": "Rosalie needs some snowballs. Someone threw one and hit her in the back while she was shoveling her front walkway. She will be ready next time."
+    "text": "Rosalie needs some snowballs. Someone threw one and hit her in the back while she was shoveling her front walkway. She will be ready next time.",
+    "availableFrom": "Dec 6",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726859283,
@@ -15559,7 +15685,9 @@
     "name": "Shoveling Snow II - A",
     "from": "Borgen",
     "fromImage": "/img/items/borgen.png",
-    "text": "Borgen was trying to hit Holger with a snowball yesterday and accidentally hit Rosalie. He immediately hid himself. So he doesn’t think Rosalie knows it was him, but he is still very afraid now. He expects Holger to rat him out at any moment.\n\nWill you help Borgen build a proper snow fort to prepare? He will gather the snow if you bring the other necessities."
+    "text": "Borgen was trying to hit Holger with a snowball yesterday and accidentally hit Rosalie. He immediately hid himself. So he doesn’t think Rosalie knows it was him, but he is still very afraid now. He expects Holger to rat him out at any moment.\n\nWill you help Borgen build a proper snow fort to prepare? He will gather the snow if you bring the other necessities.",
+    "availableFrom": "Dec 7",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726857282,
@@ -15595,7 +15723,9 @@
     "name": "Shoveling Snow II - B",
     "from": "Holger",
     "fromImage": "/img/items/a_028.png",
-    "text": "Holger told Rosalie that Borgen hit her with a snowball as quickly as he could yesterday, but Borgen vanished before they could ambush him. So, they’re planning their attack for this evening, just before the sun goes down. They’re prepared with snowballs, but they could use a few other items to overcome Borgen’s defenses. Will you give them a hand?"
+    "text": "Holger told Rosalie that Borgen hit her with a snowball as quickly as he could yesterday, but Borgen vanished before they could ambush him. So, they’re planning their attack for this evening, just before the sun goes down. They’re prepared with snowballs, but they could use a few other items to overcome Borgen’s defenses. Will you give them a hand?",
+    "availableFrom": "Dec 7",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726855281,
@@ -15631,7 +15761,9 @@
     "from": "Rosalie",
     "fromImage": "/img/items/a_098.png",
     "text": "Rosalie feels a little bad about the ambush on Borgen. Rosalie and Holger overwhelmed Borgen pretty quickly, and then as Borgen retreated Rosalie nailed him right in the back.\n\nWill you bring Rosalie some of Borgen’s favorite things so she can make him a gift basket?",
-    "silverReward": 10000000
+    "silverReward": 10000000,
+    "availableFrom": "Dec 7",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726853261,
@@ -15655,7 +15787,9 @@
     "name": "Shoveling Snow III - A",
     "from": "Beatrix",
     "fromImage": "/img/items/a_011.png",
-    "text": "Beatrix excavated the strange area of ground without snow on the side of her house. You’ll never believe what she found! It’s something big and metal and there’s a hatch big enough for a person to enter. Unfortunately, Beatrix can’t get the hatch open. Also, the handle for the hatch is extremely hot. Will you bring something to help cool the handle off?"
+    "text": "Beatrix excavated the strange area of ground without snow on the side of her house. You’ll never believe what she found! It’s something big and metal and there’s a hatch big enough for a person to enter. Unfortunately, Beatrix can’t get the hatch open. Also, the handle for the hatch is extremely hot. Will you bring something to help cool the handle off?",
+    "availableFrom": "Dec 8",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726851258,
@@ -15679,7 +15813,9 @@
     "name": "Shoveling Snow III - B",
     "from": "Beatrix",
     "fromImage": "/img/items/a_011.png",
-    "text": "Beatrix also noticed a keyhole on the hatch. Will you bring Beatrix some keys to try?"
+    "text": "Beatrix also noticed a keyhole on the hatch. Will you bring Beatrix some keys to try?",
+    "availableFrom": "Dec 8",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646727950431,
@@ -15721,7 +15857,9 @@
     "from": "Beatrix",
     "fromImage": "/img/items/a_011.png",
     "text": "Beatrix still can’t get the hatch open and the entire thing is still very hot. She has an unconventional idea to try, if you’ll give her a hand. Will you bring her some explosives?",
-    "silverReward": 10000000
+    "silverReward": 10000000,
+    "availableFrom": "Dec 8",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726847261,
@@ -15745,7 +15883,9 @@
     "name": "Shoveling Snow IV - A",
     "from": "Lorn",
     "fromImage": "/img/items/a_088.png",
-    "text": "Beatrix asked Lorn to come take a look at the hatch since all of her efforts to open it were fruitless, so far. Lorn has seen some strong bunkers before, but this one seems to be magically sealed. The first thing Lorn would like to try on the hatch is water. Will you bring him several buckets of water and a cup to use to dip and pour?"
+    "text": "Beatrix asked Lorn to come take a look at the hatch since all of her efforts to open it were fruitless, so far. Lorn has seen some strong bunkers before, but this one seems to be magically sealed. The first thing Lorn would like to try on the hatch is water. Will you bring him several buckets of water and a cup to use to dip and pour?",
+    "availableFrom": "Dec 9",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726845252,
@@ -15774,7 +15914,9 @@
     "from": "Lorn",
     "fromImage": "/img/items/a_088.png",
     "text": "Lorn was surprised by the effect the water had on the hatch. The heat coming from the hatch increased until the water boiled away, and then the hatch returned to its normal very hot temperature.\n\nLorn would like to conduct another experiment. Will you bring him some seaweed?",
-    "goldReward": 10
+    "goldReward": 10,
+    "availableFrom": "Dec 9",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726843251,
@@ -15816,7 +15958,9 @@
     "fromImage": "/img/items/a_088.png",
     "text": "After the seaweed burst into flames instantly upon contact with the hatch, Lorn decided that this magical seal may be a bit beyond his abilities. Nevertheless, he has one more experiment in mind, if you bring him some magna quartz and steel.",
     "silverReward": 10000000,
-    "goldReward": 10
+    "goldReward": 10,
+    "availableFrom": "Dec 9",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726841250,
@@ -15848,7 +15992,9 @@
     "name": "Shoveling Snow V - A",
     "from": "Cecil",
     "fromImage": "/img/items/a_027.png",
-    "text": "Cecil is glad that Beatrix and Lorn asked him to come take a look at the hatch before anyone got hurt. However, he is surprised to see this hatch. Cecil thought that he mapped all of the underground structures in this area several years ago. He did not detect this one during that search, but now that the structure is exposed, Cecil thinks it is a good idea if he takes a look.\n\nCecil has a device, called a fachetek, that he can use to disable the magic guarding the hatch. Then, he can safely open the hatch and take a brief look down in the structure, to make sure that there is no danger for the townsfolk.\n\nCecil would appreciate your help in building a support rig that he can attach his climbing system to, so that he can descend safely down through the hatch."
+    "text": "Cecil is glad that Beatrix and Lorn asked him to come take a look at the hatch before anyone got hurt. However, he is surprised to see this hatch. Cecil thought that he mapped all of the underground structures in this area several years ago. He did not detect this one during that search, but now that the structure is exposed, Cecil thinks it is a good idea if he takes a look.\n\nCecil has a device, called a fachetek, that he can use to disable the magic guarding the hatch. Then, he can safely open the hatch and take a brief look down in the structure, to make sure that there is no danger for the townsfolk.\n\nCecil would appreciate your help in building a support rig that he can attach his climbing system to, so that he can descend safely down through the hatch.",
+    "availableFrom": "Dec 10",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726839245,
@@ -15872,7 +16018,9 @@
     "name": "Shoveling Snow V - B",
     "from": "Cecil",
     "fromImage": "/img/items/a_027.png",
-    "text": "Cecil will not be needing the magna quartz and steel wire that Lorn left on the hatch. If you will bring Cecil a few iron rings, he should be able to clean all the magna quartz up."
+    "text": "Cecil will not be needing the magna quartz and steel wire that Lorn left on the hatch. If you will bring Cecil a few iron rings, he should be able to clean all the magna quartz up.",
+    "availableFrom": "Dec 10",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726837241,
@@ -15901,7 +16049,9 @@
     "from": "Cecil",
     "fromImage": "/img/items/a_027.png",
     "text": "Cecil successfully disabled the magic seal that was guarding the hatch. The hatch then opened very easily. Unfortunately, the magic seal was a bit stronger than Cecil expected. The seal almost depleted his fuel supply.\n\nThe fuel source for Cecil’s fachetek is aquamarine and his supply is running low. Will you bring him some aquamarines in ring form, so that they are easier to load in the fachetek?",
-    "silverReward": 250000
+    "silverReward": 250000,
+    "availableFrom": "Dec 11",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726835262,
@@ -15934,7 +16084,9 @@
     "from": "Cecil",
     "fromImage": "/img/items/a_027.png",
     "text": "Before Cecil descends through the hatch, will you also bring him some lemon quartz in ring form to use with his fachetek. Cecil can swap the lemon quartz into the fachetek to use it like a torch in case there are no lights in the underground structure.",
-    "silverReward": 500000
+    "silverReward": 500000,
+    "availableFrom": "Dec 12",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726833245,
@@ -15954,7 +16106,9 @@
     "name": "Shoveling Snow VIII",
     "from": "Cecil",
     "fromImage": "/img/items/a_027.png",
-    "text": "Cecil appreciates your help getting back up through the hatch. His exploration wore him out, but it revealed that the structure is actually an enormous instacrafting facility. He also found that the facility was completely sealed up, and it looked like it was abandoned. Unfortunately, Cecil found nothing of interest in the whole building. He did bring up one little bauble to examine in his lab, but he doesn’t expect it to be worth anything.\n\nCecil would like to reset the magic seal with his fachetek and bury the hatch again. He thinks that there may be an opportunity to use the facility in the future, but he thinks it could be dangerous to leave it exposed like it is now. Will you handle the burying work while he informs Beatrix and Lorn about his findings?"
+    "text": "Cecil appreciates your help getting back up through the hatch. His exploration wore him out, but it revealed that the structure is actually an enormous instacrafting facility. He also found that the facility was completely sealed up, and it looked like it was abandoned. Unfortunately, Cecil found nothing of interest in the whole building. He did bring up one little bauble to examine in his lab, but he doesn’t expect it to be worth anything.\n\nCecil would like to reset the magic seal with his fachetek and bury the hatch again. He thinks that there may be an opportunity to use the facility in the future, but he thinks it could be dangerous to leave it exposed like it is now. Will you handle the burying work while he informs Beatrix and Lorn about his findings?",
+    "availableFrom": "Dec 13",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726831238,
@@ -15978,7 +16132,9 @@
     "name": "Shoveling Snow IX",
     "from": "Cecil",
     "fromImage": "/img/items/a_027.png",
-    "text": "Cecil would like to thank you for the help you provided with investigating that underground facility. He was right about the bauble he found not having much value, but it does have a little bit of magic to it. Cecil would like you to have it, for a small, reasonable price."
+    "text": "Cecil would like to thank you for the help you provided with investigating that underground facility. He was right about the bauble he found not having much value, but it does have a little bit of magic to it. Cecil would like you to have it, for a small, reasonable price.",
+    "availableFrom": "Dec 14",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646727948429,
@@ -16030,7 +16186,9 @@
     "name": "12 Days of Christmas",
     "from": "Santa",
     "fromImage": "/img/items/lornsanta.png",
-    "text": "On the first day of Christmas,the townsfolk asked of me\n10 from my orchard fruit trees"
+    "text": "On the first day of Christmas,the townsfolk asked of me\n10 from my orchard fruit trees",
+    "availableFrom": "Dec 14",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726830054,
@@ -16062,7 +16220,9 @@
     "name": "12 Days of Christmas II",
     "from": "Santa",
     "fromImage": "/img/items/lornsanta.png",
-    "text": "On the second day of Christmas, the townsfolk asked of me\n20 mushrooms\nAnd 10 from my orchard fruit trees"
+    "text": "On the second day of Christmas, the townsfolk asked of me\n20 mushrooms\nAnd 10 from my orchard fruit trees",
+    "availableFrom": "Dec 15",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726825233,
@@ -16134,7 +16294,9 @@
     "name": "12 Days of Christmas XII",
     "from": "Santa",
     "fromImage": "/img/items/lornsanta.png",
-    "text": "On the twelfth day of Christmas, the townsfolk asked of me\n120 drumming fishes\n110 yellow perch\n100 fliers flying\n90 purple flowers\n80 milk pitchers\n70 coin purses\n60 bird eggs\n50 BLUE RINGS\n40 axes\n30 arrowheads\n20 mushrooms\nAnd 10 from my orchard fruit trees"
+    "text": "On the twelfth day of Christmas, the townsfolk asked of me\n120 drumming fishes\n110 yellow perch\n100 fliers flying\n90 purple flowers\n80 milk pitchers\n70 coin purses\n60 bird eggs\n50 BLUE RINGS\n40 axes\n30 arrowheads\n20 mushrooms\nAnd 10 from my orchard fruit trees",
+    "availableFrom": "Dec 25",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726823275,
@@ -16202,7 +16364,9 @@
     "name": "12 Days of Christmas XI",
     "from": "Santa",
     "fromImage": "/img/items/lornsanta.png",
-    "text": "On the eleventh day of Christmas, the townsfolk asked of me\n110 perches perching\n100 fliers flying\n90 purple flowers\n80 milk pitchers\n70 coin purses\n60 bird eggs\n50 BLUE RINGS\n40 axes\n30 arrowheads\n20 mushrooms\nAnd 10 from my orchard fruit trees"
+    "text": "On the eleventh day of Christmas, the townsfolk asked of me\n110 perches perching\n100 fliers flying\n90 purple flowers\n80 milk pitchers\n70 coin purses\n60 bird eggs\n50 BLUE RINGS\n40 axes\n30 arrowheads\n20 mushrooms\nAnd 10 from my orchard fruit trees",
+    "availableFrom": "Dec 24",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726821229,
@@ -16266,7 +16430,9 @@
     "name": "12 Days of Christmas X",
     "from": "Santa",
     "fromImage": "/img/items/lornsanta.png",
-    "text": "On the tenth day of Christmas, the townsfolk asked of me\n100 fliers flying\n90 purple flowers\n80 milk pitchers\n70 coin purses\n60 bird eggs\n50 BLUE RINGS\n40 axes\n30 arrowheads\n20 mushrooms\nAnd 10 from my orchard fruit trees"
+    "text": "On the tenth day of Christmas, the townsfolk asked of me\n100 fliers flying\n90 purple flowers\n80 milk pitchers\n70 coin purses\n60 bird eggs\n50 BLUE RINGS\n40 axes\n30 arrowheads\n20 mushrooms\nAnd 10 from my orchard fruit trees",
+    "availableFrom": "Dec 23",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726819222,
@@ -16326,7 +16492,9 @@
     "name": "12 Days of Christmas IX",
     "from": "Santa",
     "fromImage": "/img/items/lornsanta.png",
-    "text": "On the ninth day of Christmas, the townsfolk asked of me\n90 purple flowers\n80 milk pitchers\n70 coin purses\n60 bird eggs\n50 BLUE RINGS\n40 axes\n30 arrowheads\n20 mushrooms\nAnd 10 from my orchard fruit trees"
+    "text": "On the ninth day of Christmas, the townsfolk asked of me\n90 purple flowers\n80 milk pitchers\n70 coin purses\n60 bird eggs\n50 BLUE RINGS\n40 axes\n30 arrowheads\n20 mushrooms\nAnd 10 from my orchard fruit trees",
+    "availableFrom": "Dec 22",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726817223,
@@ -16382,7 +16550,9 @@
     "name": "12 Days of Christmas VIII",
     "from": "Santa",
     "fromImage": "/img/items/lornsanta.png",
-    "text": "On the eighth day of Christmas, the townsfolk asked of me\n80 milk pitchers\n70 coin purses\n60 bird eggs\n50 BLUE RINGS\n40 axes\n30 arrowheads\n20 mushrooms\nAnd 10 from my orchard fruit trees"
+    "text": "On the eighth day of Christmas, the townsfolk asked of me\n80 milk pitchers\n70 coin purses\n60 bird eggs\n50 BLUE RINGS\n40 axes\n30 arrowheads\n20 mushrooms\nAnd 10 from my orchard fruit trees",
+    "availableFrom": "Dec 21",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726815223,
@@ -16434,7 +16604,9 @@
     "name": "12 Days of Christmas VII",
     "from": "Santa",
     "fromImage": "/img/items/lornsanta.png",
-    "text": "On the seventh day of Christmas, the townsfolk asked of me\n70 coin purses\n60 bird eggs\n50 BLUE RINGS\n40 axes\n30 arrowheads\n20 mushrooms\nAnd 10 from my orchard fruit trees"
+    "text": "On the seventh day of Christmas, the townsfolk asked of me\n70 coin purses\n60 bird eggs\n50 BLUE RINGS\n40 axes\n30 arrowheads\n20 mushrooms\nAnd 10 from my orchard fruit trees",
+    "availableFrom": "Dec 20",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726813209,
@@ -16482,7 +16654,9 @@
     "name": "12 Days of Christmas VI",
     "from": "Santa",
     "fromImage": "/img/items/lornsanta.png",
-    "text": "On the sixth day of Christmas, the townsfolk asked of me\n60 bird eggs\n50 BLUE RINGS\n40 axes\n30 arrowheads\n20 mushrooms\nAnd 10 from my orchard fruit trees"
+    "text": "On the sixth day of Christmas, the townsfolk asked of me\n60 bird eggs\n50 BLUE RINGS\n40 axes\n30 arrowheads\n20 mushrooms\nAnd 10 from my orchard fruit trees",
+    "availableFrom": "Dec 19",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726811194,
@@ -16526,7 +16700,9 @@
     "name": "12 Days of Christmas V",
     "from": "Santa",
     "fromImage": "/img/items/lornsanta.png",
-    "text": "On the fifth day of Christmas, the townsfolk asked of me\n50 BLUE RINGS\n40 axes\n30 arrowheads\n20 mushrooms\nAnd 10 from my orchard fruit trees"
+    "text": "On the fifth day of Christmas, the townsfolk asked of me\n50 BLUE RINGS\n40 axes\n30 arrowheads\n20 mushrooms\nAnd 10 from my orchard fruit trees",
+    "availableFrom": "Dec 18",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646727946636,
@@ -16586,7 +16762,9 @@
     "name": "12 Days of Christmas IV",
     "from": "Santa",
     "fromImage": "/img/items/lornsanta.png",
-    "text": "On the fourth day of Christmas, the townsfolk asked of me\n40 axes\n30 arrowheads\n20 mushrooms\nAnd 10 from my orchard fruit trees"
+    "text": "On the fourth day of Christmas, the townsfolk asked of me\n40 axes\n30 arrowheads\n20 mushrooms\nAnd 10 from my orchard fruit trees",
+    "availableFrom": "Dec 17",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726807596,
@@ -16622,7 +16800,9 @@
     "name": "12 Days of Christmas III",
     "from": "Santa",
     "fromImage": "/img/items/lornsanta.png",
-    "text": "On the third day of Christmas, the townsfolk asked of me\n30 arrowheads\n20 mushrooms\nAnd 10 from my orchard fruit trees"
+    "text": "On the third day of Christmas, the townsfolk asked of me\n30 arrowheads\n20 mushrooms\nAnd 10 from my orchard fruit trees",
+    "availableFrom": "Dec 16",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726805195,
@@ -16647,7 +16827,9 @@
     "from": "Buddy",
     "fromImage": "/img/items/buddy.png",
     "text": "Buddy enters the town. He looks mischievous, and you feel as though it’s your duty to see what he’s up to. After a few moments, you recognize the house Buddy is approaching is Vincent’s. This seems…bad. You brace yourself for what comes next, but after pounding on the door, Buddy calls out -\n\n“Vincent?\nDo you want to build a snowman? \nC’mon let’s go and play\nI never see you anymore\nCome out the door\nIt’s like you’ve gone away\n\nWe could have been best buddies\nAnd yet we’re not\nI wish you would tell me why…\nDo you wanna build a snowman?”\n\nVincent opens the door suddenly and shouts, “GO AWAY BUDDY!” He turns and slams the door, and Buddy stands outside looking dejected. \nAfter a moment you hear him call out, “OK, bye.”\nBuddy looks to you dejectedly for a moment before he perks up. “Maybe if I start building a giant snowman, Vincent will want to play? Will you help?”\nYou can’t help yourself.",
-    "silverReward": 30000000
+    "silverReward": 30000000,
+    "availableFrom": "Dec 14",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726803568,
@@ -16668,7 +16850,9 @@
     "from": "Buddy",
     "fromImage": "/img/items/buddy.png",
     "text": "The snowman begins to take shape and Buddy, spurred on by your good deed and a seemingly unending well of optimism knocks on Vincent’s door again.\n“Vincent?\nDo you wanna build a snowman?\nOr decorate some Christmas cards\nI think some company is overdue\nI’ve started making a giant snowman in your yard\nHang in there, buddy\nIt gets a little lonely\nWith only one snowman\nJust watching the hours tick by”\nVincent opens the door cautiously and his eyes grow wide at the giant snowman that has begun to form in his front yard. He looks at Buddy for a moment before shaking his head and closing the door without a word.\n\nBuddy looks sadly at the door and you can hear a muffled, “OK, bye”\nYour heart cannot take the sadness in Buddy’s eyes and you begin gathering more snowballs to help complete his project.",
-    "silverReward": 30000000
+    "silverReward": 30000000,
+    "availableFrom": "Dec 14",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726801191,
@@ -16693,7 +16877,9 @@
     "from": "Buddy",
     "fromImage": "/img/items/buddy.png",
     "text": "The snow portion of the snowman is nearing completion, and Buddy again knocks on Vincent’s door.\n“Vincent?\nPlease, I know you’re in there\nPeople have been asking where you’ve been\nThey tell me “have courage” and I’m trying to\nI’ve built a snowman right here for you,\nJust let me in!\nWe could friend each other\nJust you and me\nWhat else could we do?\nDo you wanna build a snowman? \n(It doesn’t have to be a snowman!)”\n\nSuddenly the door swings open and Vincent shoves something in Buddy’s hand and closes the door immediately. \nBuddy looks dejectedly on, “OK, bye.”\nYou look at Buddy’s hand and notice coal and a carrot.\n\nBuddy suddenly notices what he has and his eyes brighten immediately as he looks towards you. “All we need is a giant scarf!”\nHe glances down again and adds, \"Maybe some more coal too.\"",
-    "silverReward": 25000000
+    "silverReward": 25000000,
+    "availableFrom": "Dec 14",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726799182,
@@ -16717,7 +16903,9 @@
     "name": "Do You Want to Build A Snowman? IV",
     "from": "Vincent",
     "fromImage": "/img/items/a_047.png",
-    "text": "After you bring back a scarf, Vincent comes outside bearing hot chocolate for you and buddy, and a grin on his face. “Buddy, this is one of the biggest and best snowmen I’ve ever seen, maybe next year we can build one together. It can be a sequel and we’ll sing a duet into the unknown sky about it!”"
+    "text": "After you bring back a scarf, Vincent comes outside bearing hot chocolate for you and buddy, and a grin on his face. “Buddy, this is one of the biggest and best snowmen I’ve ever seen, maybe next year we can build one together. It can be a sequel and we’ll sing a duet into the unknown sky about it!”",
+    "availableFrom": "Dec 14",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726797194,
@@ -16762,7 +16950,9 @@
     "from": "Lorn",
     "fromImage": "/img/items/a_088.png",
     "text": "One of the traditions that Lorn loves most this time of year is doing Covert Santa with his friends. They all pull names from a Santa hat and get a gift for the person whose name they pulled. They also put a secret gift in a password protected mailbox at the post office. That gift is for any clever individual that figures out each of the pairings for Covert Santa.\n\nLorn could use a hand getting a gift for the friend whose name he pulled this year. He won’t tell you who it is, but Lorn would like to gift his friend a fairly substantial load of food. Will you help Lorn?",
-    "silverReward": 50000
+    "silverReward": 50000,
+    "availableFrom": "Dec 14",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726795205,
@@ -16803,7 +16993,9 @@
     "from": "frank",
     "fromImage": "/img/items/npc_bunny1.png",
     "text": "Covert Santa. Weird. I like it. I don't necessarily get it, but I got it. frank needs carrots. You grow carrots still, right? Apples too.",
-    "silverReward": 50000
+    "silverReward": 50000,
+    "availableFrom": "Dec 14",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726793163,
@@ -16824,7 +17016,9 @@
     "from": "Charles Horsington III",
     "fromImage": "/img/items/npc_horse.png",
     "text": "Neigh neigh neigh neigh. Neigh neigh. Neigh. Neigh, neigh neigh neigh?",
-    "silverReward": 50000
+    "silverReward": 50000,
+    "availableFrom": "Dec 14",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726791168,
@@ -16853,7 +17047,9 @@
     "from": "Vincent",
     "fromImage": "/img/items/a_047.png",
     "text": "Vincent wants to sell Christmas trees in town, but he needs some help gathering the trees. Will you lend him a hand?",
-    "silverReward": 2000000
+    "silverReward": 2000000,
+    "availableFrom": "Dec 14",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646727944419,
@@ -16903,7 +17099,9 @@
     "from": "Vincent",
     "fromImage": "/img/items/a_047.png",
     "text": "Vincent wants to upgrade his Christmas tree lot by selling fully decorated trees alongside the plain Christmas trees. Will you help him get a few more trees and decorate them?",
-    "silverReward": 20000000
+    "silverReward": 20000000,
+    "availableFrom": "Dec 14",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726787150,
@@ -16932,7 +17130,9 @@
     "from": "Vincent",
     "fromImage": "/img/items/a_047.png",
     "text": "Vincent wants to add a gift shop to his lot. He plans to sell a variety of things in addition to the Christmas trees. He envisioned a one-stop shop for all the holiday needs. Will you give him a hand?",
-    "silverReward": 1000000
+    "silverReward": 1000000,
+    "availableFrom": "Dec 14",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726785151,
@@ -16965,7 +17165,9 @@
     "from": "Vincent",
     "fromImage": "/img/items/a_047.png",
     "text": "Vincent needs a few more items for his shop, if you’re willing to help.",
-    "silverReward": 1000000
+    "silverReward": 1000000,
+    "availableFrom": "Dec 14",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726783144,
@@ -16990,7 +17192,9 @@
     "from": "Vincent",
     "fromImage": "/img/items/a_047.png",
     "text": "Vincent needs more plain trees. Will you bring him a fresh supply?",
-    "silverReward": 2000000
+    "silverReward": 2000000,
+    "availableFrom": "Dec 14",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726781145,
@@ -17023,7 +17227,9 @@
     "from": "Buddy",
     "fromImage": "/img/items/buddy.png",
     "text": "Buddy is glad to be part of the Covert Santa. Buddy isn't quite sure what to get, but he likes this person and thinks Apples and Cucumbers might do the trick. His friend likes things that start with those letters.",
-    "silverReward": 50000
+    "silverReward": 50000,
+    "availableFrom": "Dec 14",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726779152,
@@ -17060,7 +17266,9 @@
     "from": "Santa",
     "fromImage": "/img/items/lornsanta.png",
     "text": "Santa thinks that making coal from wood is making a depressing task even more loathsome. Will you bring him some coal instead?",
-    "silverReward": 100000
+    "silverReward": 100000,
+    "availableFrom": "Dec 15",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726777161,
@@ -17089,7 +17297,9 @@
     "from": "Santa",
     "fromImage": "/img/items/lornsanta.png",
     "text": ":( Santa needs more coal. :(",
-    "silverReward": 200000
+    "silverReward": 200000,
+    "availableFrom": "Dec 15",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726775138,
@@ -17110,7 +17320,9 @@
     "from": "Santa",
     "fromImage": "/img/items/lornsanta.png",
     "text": "Santa expects this to be the last batch, at least he hopes it will be. He doesn’t want to need anymore coal.",
-    "goldReward": 10
+    "goldReward": 10,
+    "availableFrom": "Dec 15",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726773158,
@@ -17139,7 +17351,9 @@
     "from": "Santa",
     "fromImage": "/img/items/lornsanta.png",
     "text": "Santa needs some coal. His workshop is completely out of it, and, unfortunately, there are a few people that will be receiving coal in their stockings instead of presents this year. Will you help Santa gather wood to make some coal?",
-    "silverReward": 10000
+    "silverReward": 10000,
+    "availableFrom": "Dec 15",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726771125,
@@ -17168,7 +17382,9 @@
     "from": "Vincent",
     "fromImage": "/img/items/a_047.png",
     "text": "There was a huge rush on fully decorated Christmas trees. Will you help Vincent replenish his supplies?",
-    "silverReward": 20000000
+    "silverReward": 20000000,
+    "availableFrom": "Dec 15",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646727942417,
@@ -17234,7 +17450,9 @@
     "from": "Vincent",
     "fromImage": "/img/items/a_047.png",
     "text": "Vincent needs more color choices for tree decorations. Will you bring him some different colored decorations?",
-    "silverReward": 1000000
+    "silverReward": 1000000,
+    "availableFrom": "Dec 15",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646729867105,
@@ -17271,7 +17489,9 @@
     "from": "Vincent",
     "fromImage": "/img/items/a_047.png",
     "text": "Vincent wants to sell treats in his gift shop. Will you bring him a load of candy?",
-    "silverReward": 1000000
+    "silverReward": 1000000,
+    "availableFrom": "Dec 15",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726768013,
@@ -17308,7 +17528,9 @@
     "from": "Vincent",
     "fromImage": "/img/items/a_047.png",
     "text": "Business is really taking off for Vincent. Now he needs more plain trees! Will you bring him a large supply?",
-    "silverReward": 10000000
+    "silverReward": 10000000,
+    "availableFrom": "Dec 15",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726763026,
@@ -17345,7 +17567,9 @@
     "from": "Vincent",
     "fromImage": "/img/items/a_047.png",
     "text": "Vincent is completely out of fully decorated Christmas trees. They are selling quicker than he can keep up on his own. Will you bring him a big load of fully decorated trees to help him catch up?",
-    "silverReward": 50000000
+    "silverReward": 50000000,
+    "availableFrom": "Dec 15",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726761017,
@@ -17378,7 +17602,9 @@
     "from": "Vincent",
     "fromImage": "/img/items/a_047.png",
     "text": "Vincent has an amazing idea for his gift shop. He’s going to sell green scarves! They can be used as scarves or as tree skirts. Will you help him prepare a large inventory?",
-    "silverReward": 10000000
+    "silverReward": 10000000,
+    "availableFrom": "Dec 15",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726759036,
@@ -17411,7 +17637,9 @@
     "from": "Vincent",
     "fromImage": "/img/items/a_047.png",
     "text": "Vincent needs more trees. He can barely keep up with the demand right now. Will you bring him a ridiculously large load of plain trees?",
-    "silverReward": 20000000
+    "silverReward": 20000000,
+    "availableFrom": "Dec 16",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726757165,
@@ -17444,7 +17672,9 @@
     "from": "Vincent",
     "fromImage": "/img/items/a_047.png",
     "text": "The fully decorated trees are gone, completely wiped out. Please help Vincent build up a bigger stock of fully decorated trees.",
-    "silverReward": 40000000
+    "silverReward": 40000000,
+    "availableFrom": "Dec 16",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726755013,
@@ -17497,7 +17727,9 @@
     "from": "Vincent",
     "fromImage": "/img/items/a_047.png",
     "text": "Vincent needs more ornaments to sell in his gift shop. Please bring him a large load of all the colors.",
-    "silverReward": 2000000
+    "silverReward": 2000000,
+    "availableFrom": "Dec 16",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726753009,
@@ -17517,7 +17749,9 @@
     "name": "A Lot Of Trees XV",
     "from": "Vincent",
     "fromImage": "/img/items/a_047.png",
-    "text": "Vincent has a new idea for the gift shop. He wants to try selling teddy bears. Will you bring him a few to test the market?"
+    "text": "Vincent has a new idea for the gift shop. He wants to try selling teddy bears. Will you bring him a few to test the market?",
+    "availableFrom": "Dec 16",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726750984,
@@ -17553,7 +17787,9 @@
     "name": "Covert Santa V",
     "from": "Jill",
     "fromImage": "/img/items/a_024.png",
-    "text": "Jill needs something strange for the recipient of her Covert Santa gift. She has racked her brain, but can’t think of anything strange enough. Will you help her find something really strange?"
+    "text": "Jill needs something strange for the recipient of her Covert Santa gift. She has racked her brain, but can’t think of anything strange enough. Will you help her find something really strange?",
+    "availableFrom": "Dec 16",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646727940418,
@@ -17620,7 +17856,9 @@
     "from": "George",
     "fromImage": "/img/items/a_034.png",
     "text": "George isn’t sure what the wise gift would be for the person whose name he has for Covert Santa. He suspects that this person is more concerned with helping everyone else than longing for possessions. Speaking of helping, will you give George a hand finding the right gift?",
-    "goldReward": 5
+    "goldReward": 5,
+    "availableFrom": "Dec 16",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726746984,
@@ -17669,7 +17907,9 @@
     "from": "Thomas",
     "fromImage": "/img/items/a_048.png",
     "text": "Thomas loves Covert Santa. He thinks it’s a great opportunity to show off his fishing skills. He’s not sure if his person loves fish as much as he does, but maybe if the fish are caught using corn for bait she will. Will you help Thomas with the fish?",
-    "silverReward": 100000
+    "silverReward": 100000,
+    "availableFrom": "Dec 16",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726744982,
@@ -17729,7 +17969,9 @@
     "name": "Covert Santa VIII",
     "from": "Rosalie",
     "fromImage": "/img/items/a_098.png",
-    "text": "Rosalie is so excited to get a Covert Santa gift ready. She is hopeful that her mind is in harmony with the lyrical person whose name she pulled. Will you help her get the things she needs for the gift?"
+    "text": "Rosalie is so excited to get a Covert Santa gift ready. She is hopeful that her mind is in harmony with the lyrical person whose name she pulled. Will you help her get the things she needs for the gift?",
+    "availableFrom": "Dec 16",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726743011,
@@ -17766,7 +18008,9 @@
     "from": "ROOMBA",
     "fromImage": "/img/items/robot_02.png",
     "text": "ROOMBA does not fully understand this Covert Santa, but ROOMBA finds the idea of getting a gift for a drago... ERROR. ROOMBA needs your help to get a gift ready.",
-    "silverReward": 200000
+    "silverReward": 200000,
+    "availableFrom": "Dec 16",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726741139,
@@ -17804,7 +18048,9 @@
     "fromImage": "/img/items/npc_beast.png",
     "text": "Geist wants to get Covert Santa right. She’s never celebrated the holidays like this before. She also hopes that the snow has trapped her person so he doesn’t wander off in search of new jobs. Will you help her find the perfect gift?",
     "silverReward": 10000000,
-    "goldReward": 5
+    "goldReward": 5,
+    "availableFrom": "Dec 16",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726738974,
@@ -17836,7 +18082,9 @@
     "name": "Covert Santa XI",
     "from": "Borgen",
     "fromImage": "/img/items/borgen.png",
-    "text": "Borgen is happy to participate in Covert Santa this year, but he dislikes his recipient. However, in the spirit of the season, he will still do his best. He'd like for you to bring him something to help remind this person that there can be consequences for actions."
+    "text": "Borgen is happy to participate in Covert Santa this year, but he dislikes his recipient. However, in the spirit of the season, he will still do his best. He'd like for you to bring him something to help remind this person that there can be consequences for actions.",
+    "availableFrom": "Dec 14",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726737355,
@@ -17865,7 +18113,9 @@
     "from": "Captain Thomas",
     "fromImage": "/img/items/MustacheTom96.png",
     "text": "Captain Thomas has been invited to Covert Santa in the town. He knows it by a different name where he’s from, but it’s heartwarming to know traditions can be anywhere. \nWhile getting to know townspeople, Thomas has noticed his Covert Santa is very bad at expressing themselves to others directly. Lucky for his Covert Santa, Captain Thomas is always looking to help out a townsfolk in need. He has also noticed a tradition in this world his Covert Santa follows that he’d like to support, but was thinking a tradition from his world could help his Covert Santa express themselves to a certain someone better too.",
-    "silverReward": 50000
+    "silverReward": 50000,
+    "availableFrom": "Dec 14",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726734957,
@@ -17890,7 +18140,9 @@
     "from": "Vincent",
     "fromImage": "/img/items/a_047.png",
     "text": "Vincent rarely participates in Covert Santa, because he isn’t very good at connecting with others, but in the spirit of the holidays he tells you he wanted to give it another shot, much to his obvious chagrin.\nUnfortunately, his Covert Santa and he have a long history and haven't been the best of pals, but Vincent learned earlier this winter that maybe fences can be mended and is warming up to them. Vincent is heating up some cocoa and asked if you could bring him some yarn to make a warm scarf for his Covert Santa, it might be cold for them later.",
-    "silverReward": 50000
+    "silverReward": 50000,
+    "availableFrom": "Dec 14",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726733050,
@@ -17906,7 +18158,9 @@
     "from": "Ric Ryph",
     "fromImage": "/img/items/npc_figure2.png",
     "text": "Ric Ryph was humbled being invited to do the Covert Santa this year. He tells you about how much it means to him that the town has adopted him as a mayor and as one of their own. \nHis Covert Santa is someone he really admires and wants to give them a gift that will really make an impression! Will you help Ric Ryph?",
-    "silverRequest": 500000
+    "silverRequest": 500000,
+    "availableFrom": "Dec 14",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726730867,
@@ -17942,7 +18196,9 @@
     "name": "Covert Santa XV",
     "from": "Beatrix",
     "fromImage": "/img/items/a_011.png",
-    "text": "Beatrix can't believe it's time for Covert Santa already. She thinks some fish might be exactly the right thing to get her Covert Santa partner. Will you bring a variety of fish so she can make this the best holiday for her recipient?"
+    "text": "Beatrix can't believe it's time for Covert Santa already. She thinks some fish might be exactly the right thing to get her Covert Santa partner. Will you bring a variety of fish so she can make this the best holiday for her recipient?",
+    "availableFrom": "Dec 14",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646727938411,
@@ -17999,7 +18255,9 @@
     "name": "Covert Santa XVI",
     "from": "Holger",
     "fromImage": "/img/items/a_028.png",
-    "text": "Holger is very excited for Covert Santa this year. He's hoping to get some yummy food. He's glad that his match for Covert Santa isn't likely to want any of his food. Can you help Holger get some fishing supplies for his surprise gift for this year's Covert Santa?"
+    "text": "Holger is very excited for Covert Santa this year. He's hoping to get some yummy food. He's glad that his match for Covert Santa isn't likely to want any of his food. Can you help Holger get some fishing supplies for his surprise gift for this year's Covert Santa?",
+    "availableFrom": "Dec 14",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726726835,
@@ -18024,7 +18282,9 @@
     "from": "Cecil",
     "fromImage": "/img/items/a_027.png",
     "text": "Cecil is happy to be part of this common-folk tradition of Covert Santa. He thinks he has the perfect gift in mind this year. Will you bring some corn to Cecil so he can become the best Covert Santa ever?",
-    "silverReward": 1000000
+    "silverReward": 1000000,
+    "availableFrom": "Dec 14",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726724994,
@@ -18064,7 +18324,9 @@
     "name": "Covert Santa XVIII",
     "from": "Star Meerif",
     "fromImage": "/img/items/npc_figure.png",
-    "text": "Star loves that the town invited him to be a part of Covert Santa this year. He mentions to you that it’s been a long time since he felt like he belonged anywhere and it warms his heart. The tradition of giving part of the gift now, and part of the gift through the mailbox passwords sounds fun and mischevious. \nStar could use a little help with his gift though, he’s very nervous about getting his Covert Santa the right thing. It’s important because giving less than three of anything is not how he normally expresses himself. He mentions three things, and asks if you'll help him."
+    "text": "Star loves that the town invited him to be a part of Covert Santa this year. He mentions to you that it’s been a long time since he felt like he belonged anywhere and it warms his heart. The tradition of giving part of the gift now, and part of the gift through the mailbox passwords sounds fun and mischevious. \nStar could use a little help with his gift though, he’s very nervous about getting his Covert Santa the right thing. It’s important because giving less than three of anything is not how he normally expresses himself. He mentions three things, and asks if you'll help him.",
+    "availableFrom": "Dec 14",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646729508641,
@@ -18094,7 +18356,9 @@
     "fromImage": "/img/items/lornsanta.png",
     "text": "Santa suspects that Dasher may be the hardest to find. Dasher is quick and cunning. You may need help from the whole community to find Dasher.",
     "silverReward": 1000000,
-    "goldReward": 10
+    "goldReward": 10,
+    "availableFrom": "Dec 23",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726723992,
@@ -18136,7 +18400,9 @@
     "fromImage": "/img/items/lornsanta.png",
     "text": "Santa needs your help. Someone disabled the security magic that sealed and protected his local present crafting facility, #815. The spell was disabled just long enough for Santa’s reindeer to get out of one of the side entrances that manifest around town and around the countryside. When Santa went to check on the reindeer they were all gone. The magic seal was also set back in place. So, the reindeer couldn’t get back in, even if they returned.\n\nWill you help Santa find his reindeer? Santa thinks Rudolph might be the easiest to spot. So start your search with Rudolph.",
     "silverReward": 1000000,
-    "goldReward": 10
+    "goldReward": 10,
+    "availableFrom": "Dec 23",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726718932,
@@ -18170,7 +18436,9 @@
     "fromImage": "/img/items/lornsanta.png",
     "text": "Santa thinks he may have some tips that can help you find Dancer. Dancer is the most wise of the reindeer. Most likely, Dancer will find a quiet place and wait. Santa thinks you should begin your search around one of the local springs.",
     "silverReward": 1000000,
-    "goldReward": 10
+    "goldReward": 10,
+    "availableFrom": "Dec 23",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726716810,
@@ -18208,7 +18476,9 @@
     "fromImage": "/img/items/lornsanta.png",
     "text": "Santa is positive that he knows how to find Prancer. You’ll need carrots. Prancer loves carrots more than anything. Grow some carrots and Prancer will come to you.",
     "silverReward": 1000000,
-    "goldReward": 10
+    "goldReward": 10,
+    "availableFrom": "Dec 23",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726714803,
@@ -18234,7 +18504,9 @@
     "fromImage": "/img/items/lornsanta.png",
     "text": "Santa doesn’t have any great clues to help you locate Vixen. A temporary market, of some sort, might attract Vixen’s attention, but Santa isn’t completely sure about that.",
     "silverReward": 1000000,
-    "goldReward": 10
+    "goldReward": 10,
+    "availableFrom": "Dec 23",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726712797,
@@ -18268,7 +18540,9 @@
     "fromImage": "/img/items/lornsanta.png",
     "text": "If you can find horned beetles, Santa thinks you’ll be able to find Comet. Comet has always loved those strange bugs.",
     "silverReward": 1000000,
-    "goldReward": 10
+    "goldReward": 10,
+    "availableFrom": "Dec 23",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726710793,
@@ -18290,7 +18564,9 @@
     "fromImage": "/img/items/lornsanta.png",
     "text": "Cupid will be really tough to find. Santa thinks you’ll need your friends to help find Cupid.",
     "silverReward": 1000000,
-    "goldReward": 10
+    "goldReward": 10,
+    "availableFrom": "Dec 23",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646727936556,
@@ -18352,7 +18628,9 @@
     "fromImage": "/img/items/lornsanta.png",
     "text": "Santa wants you to find some stockings. If you find stockings, you’ll find Donner. Donner loves stockings.",
     "silverReward": 1000000,
-    "goldReward": 10
+    "goldReward": 10,
+    "availableFrom": "Dec 23",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726706807,
@@ -18378,7 +18656,9 @@
     "fromImage": "/img/items/lornsanta.png",
     "text": "Blitzen is a little backwards sometimes. Santa thinks Blitzen might be hanging around the post office. That reindeer loves mailboxes.",
     "silverReward": 1000000,
-    "goldReward": 10
+    "goldReward": 10,
+    "availableFrom": "Dec 23",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726704812,
@@ -18400,7 +18680,9 @@
     "fromImage": "/img/items/lornsanta.png",
     "text": "Santa was correct. You were just the person to help him find his reindeer. He appreciates all your hard work.\n\nWill you bring Santa some milk for the road?",
     "silverReward": 10000000,
-    "goldReward": 50
+    "goldReward": 50,
+    "availableFrom": "Dec 23",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726702784,
@@ -18433,7 +18715,9 @@
     "from": "Vincent",
     "fromImage": "/img/items/a_047.png",
     "text": "Vincent is ready to make a final push into the holidays. Will you bring him 2 loads of plain trees?",
-    "silverReward": 50000000
+    "silverReward": 50000000,
+    "availableFrom": "Dec 21",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726700805,
@@ -18466,7 +18750,9 @@
     "from": "Vincent",
     "fromImage": "/img/items/a_047.png",
     "text": "Vincent is ready for the second load of plain trees.",
-    "silverReward": 50000000
+    "silverReward": 50000000,
+    "availableFrom": "Dec 21",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726698785,
@@ -18491,7 +18777,9 @@
     "from": "Vincent",
     "fromImage": "/img/items/a_047.png",
     "text": "Now, Vincent wants 2 last loads of decorated trees. After he sells out his inventory, Vincent is going to close up his tree lot and enjoy the holidays. He hopes you will too!",
-    "silverReward": 100000000
+    "silverReward": 100000000,
+    "availableFrom": "Dec 21",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726696814,
@@ -18516,7 +18804,9 @@
     "from": "Vincent",
     "fromImage": "/img/items/a_047.png",
     "text": "Vincent appreciates all your help with his tree lot. He’s ready for the last load now.",
-    "silverReward": 100000000
+    "silverReward": 100000000,
+    "availableFrom": "Dec 21",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646729528210,
@@ -18536,7 +18826,9 @@
     "name": "A Small Gift I",
     "from": "Sir Buddy Kringle",
     "fromImage": "/img/items/buddyhat.png",
-    "text": "Buddy wants to make a gift for one of his dearest friends in the whole wide world. Will you help him?"
+    "text": "Buddy wants to make a gift for one of his dearest friends in the whole wide world. Will you help him?",
+    "availableFrom": "Dec 21",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726695028,
@@ -18556,7 +18848,9 @@
     "name": "A Small Gift II",
     "from": "Buddy Jolly",
     "fromImage": "/img/items/buddyhat.png",
-    "text": "Buddy still needs your help with the gift he’s making. Will you bring him some milk?"
+    "text": "Buddy still needs your help with the gift he’s making. Will you bring him some milk?",
+    "availableFrom": "Dec 22",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726693195,
@@ -18580,7 +18874,9 @@
     "name": "A Small Gift III",
     "from": "Snow Buddy Special",
     "fromImage": "/img/items/buddyhat.png",
-    "text": "Buddy only needs a few more things to finish his gift. He thinks his friend will be so surprised."
+    "text": "Buddy only needs a few more things to finish his gift. He thinks his friend will be so surprised.",
+    "availableFrom": "Dec 23",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646727934400,
@@ -18633,7 +18929,9 @@
     "name": "A Small Gift IV",
     "from": "Buddy, Non-Elf",
     "fromImage": "/img/items/buddyhat.png",
-    "text": "Buddy needs one last ingredient for his gift to be complete. Please help!"
+    "text": "Buddy needs one last ingredient for his gift to be complete. Please help!",
+    "availableFrom": "Dec 24",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726686776,
@@ -18653,7 +18951,9 @@
     "name": "A Small Gift V",
     "from": "Your Best Buddy",
     "fromImage": "/img/items/buddyhat.png",
-    "text": "Buddy wants you to have this gift that he made! Did you bring him a gift?"
+    "text": "Buddy wants you to have this gift that he made! Did you bring him a gift?",
+    "availableFrom": "Dec 25",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726684774,
@@ -18681,7 +18981,9 @@
     "name": "Hay Holidays I",
     "from": "Charles Horsington III",
     "fromImage": "/img/items/horsehat.png",
-    "text": "Neeeeiiigh!"
+    "text": "Neeeeiiigh!",
+    "availableFrom": "Dec 22",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726682740,
@@ -18701,7 +19003,9 @@
     "name": "Hay Holidays II",
     "from": "Charles Horsington III",
     "fromImage": "/img/items/horsehat.png",
-    "text": "Neigh! Neigh! Neigh!"
+    "text": "Neigh! Neigh! Neigh!",
+    "availableFrom": "Dec 23",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726680630,
@@ -18725,7 +19029,9 @@
     "name": "Hay Holidays III",
     "from": "Charles Horsington III",
     "fromImage": "/img/items/horsehat.png",
-    "text": "Neigh. Neigh? Neigh!"
+    "text": "Neigh. Neigh? Neigh!",
+    "availableFrom": "Dec 24",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726678638,
@@ -18749,7 +19055,9 @@
     "name": "Hay Holidays IV",
     "from": "Charles Horsington III",
     "fromImage": "/img/items/horsehat.png",
-    "text": "Charles is so grateful for your help with getting a gift together for his girlfriend. He needs one more thing to really make it great. Will you give him a hand?"
+    "text": "Charles is so grateful for your help with getting a gift together for his girlfriend. He needs one more thing to really make it great. Will you give him a hand?",
+    "availableFrom": "Dec 25",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726676614,
@@ -18782,7 +19090,9 @@
     "fromImage": "/img/items/a_098.png",
     "text": "Wow! Can you believe there's over 100,000 folk around here now! Rosalie was able to get some extra supplies to give out to everybody to celebrate.",
     "silverRequest": 1,
-    "goldReward": 50
+    "goldReward": 50,
+    "availableFrom": "Dec 29",
+    "availableTo": "Dec 31"
   },
   {
     "firstSeen": 1646726674616,
@@ -18802,7 +19112,9 @@
     "name": "A New Year I",
     "from": "Rosalie",
     "fromImage": "/img/items/a_098.png",
-    "text": "Rosalie is preparing for a large party to celebrate the new year. Will you help her gather some things she needs for the celebration?"
+    "text": "Rosalie is preparing for a large party to celebrate the new year. Will you help her gather some things she needs for the celebration?",
+    "availableFrom": "Dec 31",
+    "availableTo": "Jan 8"
   },
   {
     "firstSeen": 1646726672606,
@@ -18823,7 +19135,9 @@
     "from": "Rosalie",
     "fromImage": "/img/items/a_098.png",
     "text": "Rosalie needs a few more things for her party. Will you bring her some more seaweed for the appetizers she’s making?",
-    "silverReward": 100000
+    "silverReward": 100000,
+    "availableFrom": "Dec 31",
+    "availableTo": "Jan 8"
   },
   {
     "firstSeen": 1646726670615,
@@ -18845,7 +19159,9 @@
     "fromImage": "/img/items/a_098.png",
     "text": "Rosalie wants to end the party with an enormous fireworks display. Will you help her get a load of fireworks?",
     "silverReward": 500000,
-    "goldReward": 20
+    "goldReward": 20,
+    "availableFrom": "Dec 31",
+    "availableTo": "Jan 8"
   },
   {
     "firstSeen": 1646723946332,
@@ -18927,7 +19243,9 @@
     "from": "Rosalie",
     "fromImage": "/img/items/a_098.png",
     "text": "Rosalie needs drinks for the toast to the new year. Will you help her?",
-    "silverReward": 2147483647
+    "silverReward": 2147483647,
+    "availableFrom": "Dec 31",
+    "availableTo": "Jan 8"
   },
   {
     "firstSeen": 1646726666595,
@@ -18943,7 +19261,9 @@
     "from": "Beatrix",
     "fromImage": "/img/items/a_011.png",
     "text": "Beatrix isn’t sure that Rosalie will have the right fireworks to celebrate the new year. Will you help her find something really spectacular to bring to Rosalie’s party?",
-    "goldReward": 25
+    "goldReward": 25,
+    "availableFrom": "Dec 31",
+    "availableTo": "Jan 8"
   },
   {
     "firstSeen": 1646726664613,
@@ -20343,7 +20663,9 @@
     "fromImage": "/img/items/a_098.png",
     "text": "Rosalie has asked you to help get the needed melons together for the annual Watermelon eating contest. She bought seeds to grow the melons herself, but didn't get them planted in time.",
     "silverReward": 100000,
-    "goldReward": 15
+    "goldReward": 15,
+    "availableFrom": "Jul 2",
+    "availableTo": "Jul 5"
   },
   {
     "firstSeen": 1646726588185,
@@ -20399,7 +20721,9 @@
     "name": "Love Is For The Horses I",
     "from": "Charles Horsington III",
     "fromImage": "/img/items/npc_horse.png",
-    "text": "Neigh! Neigh neigh neigh? Neigh neigh neigh neigh."
+    "text": "Neigh! Neigh neigh neigh? Neigh neigh neigh neigh.",
+    "availableFrom": "Feb 12",
+    "availableTo": "Feb 28"
   },
   {
     "firstSeen": 1646726582171,
@@ -20419,7 +20743,9 @@
     "name": "Love Is For The Horses II",
     "from": "Charles Horsington III",
     "fromImage": "/img/items/npc_horse.png",
-    "text": "Neigh! Neigh! Neigh?!"
+    "text": "Neigh! Neigh! Neigh?!",
+    "availableFrom": "Feb 12",
+    "availableTo": "Feb 28"
   },
   {
     "firstSeen": 1646726580185,
@@ -20440,7 +20766,9 @@
     "from": "Charles Horsington III",
     "fromImage": "/img/items/npc_horse.png",
     "text": "Neigh neigh. Neigh?",
-    "goldReward": 25
+    "goldReward": 25,
+    "availableFrom": "Feb 12",
+    "availableTo": "Feb 28"
   },
   {
     "firstSeen": 1646726578169,
@@ -20472,7 +20800,9 @@
     "name": "Be Mine I",
     "from": "Holger",
     "fromImage": "/img/items/a_028.png",
-    "text": "Holger needs some help. Making valentines for all of his friends and family is going to take more time than he has remaining before the day of love. Will you help him make some cards?"
+    "text": "Holger needs some help. Making valentines for all of his friends and family is going to take more time than he has remaining before the day of love. Will you help him make some cards?",
+    "availableFrom": "Feb 12",
+    "availableTo": "Feb 28"
   },
   {
     "firstSeen": 1646726576179,
@@ -20508,7 +20838,9 @@
     "name": "Be Mine II",
     "from": "Borgen",
     "fromImage": "/img/items/borgen.png",
-    "text": "Borgen was so busy this week that he completely forgot to make cards for the day of love. Will you make some cards for him to give out?"
+    "text": "Borgen was so busy this week that he completely forgot to make cards for the day of love. Will you make some cards for him to give out?",
+    "availableFrom": "Feb 12",
+    "availableTo": "Feb 28"
   },
   {
     "firstSeen": 1646726574173,
@@ -20553,7 +20885,9 @@
     "from": "Rosalie",
     "fromImage": "/img/items/a_098.png",
     "text": "Rosalie is trying to make valentines for as many people in town as she possibly can. She has made several thousand cards, so far. Now, she’s hoping she can enlist some of her friends to help make even more cards. Will you join Rosalie in making valentines?",
-    "silverReward": 100000
+    "silverReward": 100000,
+    "availableFrom": "Feb 12",
+    "availableTo": "Feb 28"
   },
   {
     "firstSeen": 1646726572167,
@@ -20594,7 +20928,9 @@
     "from": "Vincent",
     "fromImage": "/img/items/a_047.png",
     "text": "Vincent is looking for a gift for someone special, but he won’t say who his special person is. Will you bring him some fancy items he could give to his special friend?",
-    "silverReward": 100000
+    "silverReward": 100000,
+    "availableFrom": "Feb 12",
+    "availableTo": "Feb 28"
   },
   {
     "firstSeen": 1646726570498,
@@ -20619,7 +20955,9 @@
     "from": "Rosalie",
     "fromImage": "/img/items/a_098.png",
     "text": "Rosalie could still use some more help, if you’re interested.",
-    "silverReward": 200000
+    "silverReward": 200000,
+    "availableFrom": "Feb 12",
+    "availableTo": "Feb 28"
   },
   {
     "firstSeen": 1646727922401,
@@ -20641,7 +20979,9 @@
     "fromImage": "/img/items/a_034.png",
     "text": "George is in charge of making sure that the fire brigade is ready to put out any fires that this year's firework show might cause by accident. He needs a few more buckets to be ready to go. Can you help him out?",
     "silverReward": 5000,
-    "goldReward": 5
+    "goldReward": 5,
+    "availableFrom": "Jul 2",
+    "availableTo": "Jul 5"
   },
   {
     "firstSeen": 1646726568181,
@@ -20677,7 +21017,9 @@
     "name": "Be Mine VI",
     "from": "Jill",
     "fromImage": "/img/items/a_024.png",
-    "text": "Jill wants to make some treats for her friends on Valentine’s Day. Will you help her get some additional ingredients?"
+    "text": "Jill wants to make some treats for her friends on Valentine’s Day. Will you help her get some additional ingredients?",
+    "availableFrom": "Feb 12",
+    "availableTo": "Feb 28"
   },
   {
     "firstSeen": 1646726566158,
@@ -20718,7 +21060,9 @@
     "from": "Thomas",
     "fromImage": "/img/items/a_048.png",
     "text": "Thomas ordered an enormous shipment of heart-shaped necklaces. He was hoping to give them out for Valentine’s Day. Unfortunately, the boat carrying the shipment sank off the coast, near the small island.\n\nA replacement shipment is already on its way, overland this time. Thomas hopes it will arrive quickly, but to be safe Thomas would like some cards to give out. Will you bring him some valentines?",
-    "silverReward": 500000
+    "silverReward": 500000,
+    "availableFrom": "Feb 12",
+    "availableTo": "Feb 28"
   },
   {
     "firstSeen": 1646726564161,
@@ -20759,7 +21103,9 @@
     "from": "Rosalie",
     "fromImage": "/img/items/a_098.png",
     "text": "Rosalie needs another load of cards. Also, she would appreciate it if you could keep them coming. She is fairly certain she’ll need a few more loads.",
-    "silverReward": 500000
+    "silverReward": 500000,
+    "availableFrom": "Feb 12",
+    "availableTo": "Feb 28"
   },
   {
     "firstSeen": 1646726562161,
@@ -20820,7 +21166,9 @@
     "from": "Thomas",
     "fromImage": "/img/items/a_048.png",
     "text": "The replacement shipment Thomas was expecting ran into some trouble. The wagon driver said that he accidentally ran the wagon a little too close to the edge of a cliff along Cane Pole Ridge. Thomas was told that the shipment tumbled and threw its contents all long the floor of the ridge.\n\nWill you help Thomas recover some of his lost necklaces?",
-    "silverReward": 5000000
+    "silverReward": 5000000,
+    "availableFrom": "Feb 12",
+    "availableTo": "Feb 28"
   },
   {
     "firstSeen": 1646726560152,
@@ -20860,7 +21208,9 @@
     "name": "Be Mine X",
     "from": "Rosalie",
     "fromImage": "/img/items/a_098.png",
-    "text": "If you’ll bring Rosalie one more big load of cards, she thinks she’ll be able to handle the rest."
+    "text": "If you’ll bring Rosalie one more big load of cards, she thinks she’ll be able to handle the rest.",
+    "availableFrom": "Feb 12",
+    "availableTo": "Feb 28"
   },
   {
     "firstSeen": 1646726558129,
@@ -20937,7 +21287,9 @@
     "from": "Thomas",
     "fromImage": "/img/items/a_048.png",
     "text": "Will you help Thomas recover some more necklaces? He has a prized possession that he was saving for his cat, but he will gladly give it to you, if you can help him.",
-    "silverReward": 10000000
+    "silverReward": 10000000,
+    "availableFrom": "Feb 12",
+    "availableTo": "Feb 28"
   },
   {
     "firstSeen": 1646726556119,
@@ -20957,7 +21309,9 @@
     "name": "TRU3 70V3 I",
     "from": "ROOMBA",
     "fromImage": "/img/items/robot_02.png",
-    "text": "ROOMBA cleaned up most of the wreckage in Cane Pole Ridge. If you will provide ROOMBA some corn he should be able to sort all of the heart necklaces out for you."
+    "text": "ROOMBA cleaned up most of the wreckage in Cane Pole Ridge. If you will provide ROOMBA some corn he should be able to sort all of the heart necklaces out for you.",
+    "availableFrom": "Feb 14",
+    "availableTo": "Feb 28"
   },
   {
     "firstSeen": 1646726554126,
@@ -20977,7 +21331,9 @@
     "name": "TRU3 70V3 II",
     "from": "ROOMBA",
     "fromImage": "/img/items/robot_02.png",
-    "text": "ROOMBA cleaned up the shipwreck near the small island. If you will provide him with some corn, he should be able to sort out the heart necklaces for you."
+    "text": "ROOMBA cleaned up the shipwreck near the small island. If you will provide him with some corn, he should be able to sort out the heart necklaces for you.",
+    "availableFrom": "Feb 14",
+    "availableTo": "Feb 28"
   },
   {
     "firstSeen": 1646726552110,
@@ -21014,7 +21370,9 @@
     "from": "Beatrix",
     "fromImage": "/img/items/a_011.png",
     "text": "Beatrix had a pretty rough week and forgot to get her valentines. Will you get her some cards to send out? She’d rather be late than to make anyone feel she forgot them entirely.",
-    "silverReward": 500000
+    "silverReward": 500000,
+    "availableFrom": "Feb 15",
+    "availableTo": "Feb 28"
   },
   {
     "firstSeen": 1646726550117,
@@ -21083,7 +21441,9 @@
     "from": "Star Meerif",
     "fromImage": "/img/items/npc_figure.png",
     "text": "Star tried with all his power to get back in time for Valentine’s Day, but a dark force kept him rather entangled longer than he expected. And honestly, he thought he had 2 more days. Now, Star is going to need a hand to get caught up. Will you help him with a few things?",
-    "silverReward": 1000000
+    "silverReward": 1000000,
+    "availableFrom": "Feb 15",
+    "availableTo": "Feb 28"
   },
   {
     "firstSeen": 1646727920377,
@@ -21148,7 +21508,9 @@
     "name": "Better Late Than Never III",
     "from": "Thomas",
     "fromImage": "/img/items/a_048.png",
-    "text": "Thomas still ended up being short on heart necklaces for Valentine’s Day. Is there any chance you could hunt down a few more? He would still like to give them all out, even if it is a bit late."
+    "text": "Thomas still ended up being short on heart necklaces for Valentine’s Day. Is there any chance you could hunt down a few more? He would still like to give them all out, even if it is a bit late.",
+    "availableFrom": "Feb 15",
+    "availableTo": "Feb 28"
   },
   {
     "firstSeen": 1646726546111,
@@ -21177,7 +21539,9 @@
     "from": "George",
     "fromImage": "/img/items/a_034.png",
     "text": "George would like to send everyone a bottle of wine that sent him a valentine. Will you help him get a couple hundred bottles?",
-    "silverReward": 2147483647
+    "silverReward": 2147483647,
+    "availableFrom": "Feb 15",
+    "availableTo": "Feb 28"
   },
   {
     "firstSeen": 1646726544458,
@@ -22007,7 +22371,9 @@
     "from": "Jill",
     "fromImage": "/img/items/a_024.png",
     "text": "Jill is trying to make some beaded necklaces to toss out at the parade today. Will you help her gather the supplies to make the necklaces?",
-    "goldReward": 5
+    "goldReward": 5,
+    "availableFrom": "Mar 1",
+    "availableTo": "Mar 31"
   },
   {
     "firstSeen": 1646729881168,
@@ -22028,7 +22394,9 @@
     "from": "Jill",
     "fromImage": "/img/items/a_024.png",
     "text": "Jill is ready to start making beads for the necklaces. Will you bring her some glass orbs?",
-    "goldReward": 10
+    "goldReward": 10,
+    "availableFrom": "Mar 1",
+    "availableTo": "Mar 31"
   },
   {
     "firstSeen": 1646729887591,
@@ -22049,7 +22417,9 @@
     "from": "Jill",
     "fromImage": "/img/items/a_024.png",
     "text": "Jill is ready to string up these beads. Will you bring her some twine?",
-    "goldReward": 10
+    "goldReward": 10,
+    "availableFrom": "Mar 1",
+    "availableTo": "Mar 31"
   },
   {
     "firstSeen": 1646729893338,
@@ -22078,7 +22448,9 @@
     "from": "Jill",
     "fromImage": "/img/items/a_024.png",
     "text": "The necklaces are looking great. Jill added feathers to a few strands to fancy them up. She would like to make a few necklaces that are really fancy. Will you bring her some gems and some iron rings to attach the gems?",
-    "goldReward": 10
+    "goldReward": 10,
+    "availableFrom": "Mar 1",
+    "availableTo": "Mar 31"
   },
   {
     "firstSeen": 1646729850959,
@@ -22093,7 +22465,9 @@
     "name": "Bons Temps V",
     "from": "Jill",
     "fromImage": "/img/items/a_024.png",
-    "text": "Jill appreciates all of your help! The necklaces look really great.\n\nJill made a little something for you to wear to the parade today in appreciation for all your help."
+    "text": "Jill appreciates all of your help! The necklaces look really great.\n\nJill made a little something for you to wear to the parade today in appreciation for all your help.",
+    "availableFrom": "Mar 1",
+    "availableTo": "Mar 31"
   },
   {
     "firstSeen": 1646729813779,
@@ -22130,7 +22504,9 @@
     "from": "George",
     "fromImage": "/img/items/a_034.png",
     "text": "George would like to make some beaded necklaces for Jill to wear in the parade today. This will seem like a strange request, but instead of beads, George wants to make the necklaces out of corn. He wants the strings to be made from the silk and husks and the beads to be kernels of corn, and maybe a few whole cobs mixed into the strands. Will you give him a hand?",
-    "silverReward": 40000000
+    "silverReward": 40000000,
+    "availableFrom": "Mar 1",
+    "availableTo": "Mar 31"
   },
   {
     "firstSeen": 1646727914355,
@@ -22261,7 +22637,9 @@
     "from": "Beatrix",
     "fromImage": "/img/items/a_011.png",
     "text": "Beatrix finally launched the greatest fireworks display this town has ever seen, but now she has a big mess to clean up. If you can give her a hand one more time, she'd like to give you a big reward for all of your help.",
-    "goldReward": 10
+    "goldReward": 10,
+    "availableFrom": "Jul 2",
+    "availableTo": "Jul 5"
   },
   {
     "firstSeen": 1646727909110,
@@ -22607,7 +22985,9 @@
     "fromImage": "/img/items/a_098.png",
     "text": "Rosalie is planning the town's big celebration in honor of the incredible population growth this year. The town now has over 20 thousand residents. Rosalie wants to throw a huge party, but in order to make that happen she needs everyone to help. Bring all the items on your list and Rosalie has a big reward for your help.",
     "silverReward": 20000,
-    "goldReward": 20
+    "goldReward": 20,
+    "availableFrom": "Jul 10",
+    "availableTo": "Jul 12"
   },
   {
     "firstSeen": 1646727890346,
