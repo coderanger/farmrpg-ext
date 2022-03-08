@@ -17237,6 +17237,43 @@
     "silverReward": 1000000
   },
   {
+    "firstSeen": 1646729867105,
+    "itemRequests": [
+      {
+        "id": "401",
+        "quantity": 200
+      },
+      {
+        "id": "426",
+        "quantity": 200
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "336",
+        "quantity": 2
+      },
+      {
+        "id": "337",
+        "quantity": 2
+      },
+      {
+        "id": "335",
+        "quantity": 6
+      },
+      {
+        "id": "84",
+        "quantity": 50
+      }
+    ],
+    "id": "651",
+    "name": "A Lot Of Trees VIII",
+    "from": "Vincent",
+    "fromImage": "/img/items/a_047.png",
+    "text": "Vincent wants to sell treats in his gift shop. Will you bring him a load of candy?",
+    "silverReward": 1000000
+  },
+  {
     "firstSeen": 1646726768013,
     "itemRequests": [
       {
@@ -21950,6 +21987,150 @@
     "from": "Cecil",
     "fromImage": "/img/items/a_027.png",
     "text": "The excavation project needs more tools and materials. Will you provide more supplies?"
+  },
+  {
+    "firstSeen": 1646729873456,
+    "itemRequests": [
+      {
+        "id": "42",
+        "quantity": 50
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "84",
+        "quantity": 5
+      }
+    ],
+    "id": "782",
+    "name": "Bons Temps I",
+    "from": "Jill",
+    "fromImage": "/img/items/a_024.png",
+    "text": "Jill is trying to make some beaded necklaces to toss out at the parade today. Will you help her gather the supplies to make the necklaces?",
+    "goldReward": 5
+  },
+  {
+    "firstSeen": 1646729881168,
+    "itemRequests": [
+      {
+        "id": "78",
+        "quantity": 100
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "44",
+        "quantity": 100
+      }
+    ],
+    "id": "783",
+    "name": "Bons Temps II",
+    "from": "Jill",
+    "fromImage": "/img/items/a_024.png",
+    "text": "Jill is ready to start making beads for the necklaces. Will you bring her some glass orbs?",
+    "goldReward": 10
+  },
+  {
+    "firstSeen": 1646729887591,
+    "itemRequests": [
+      {
+        "id": "163",
+        "quantity": 100
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "84",
+        "quantity": 10
+      }
+    ],
+    "id": "784",
+    "name": "Bons Temps III",
+    "from": "Jill",
+    "fromImage": "/img/items/a_024.png",
+    "text": "Jill is ready to string up these beads. Will you bring her some twine?",
+    "goldReward": 10
+  },
+  {
+    "firstSeen": 1646729893338,
+    "itemRequests": [
+      {
+        "id": "54",
+        "quantity": 10
+      },
+      {
+        "id": "80",
+        "quantity": 10
+      },
+      {
+        "id": "95",
+        "quantity": 20
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "194",
+        "quantity": 20
+      }
+    ],
+    "id": "785",
+    "name": "Bons Temps IV",
+    "from": "Jill",
+    "fromImage": "/img/items/a_024.png",
+    "text": "The necklaces are looking great. Jill added feathers to a few strands to fancy them up. She would like to make a few necklaces that are really fancy. Will you bring her some gems and some iron rings to attach the gems?",
+    "goldReward": 10
+  },
+  {
+    "firstSeen": 1646729850959,
+    "itemRequests": [],
+    "itemRewards": [
+      {
+        "id": "497",
+        "quantity": 1
+      }
+    ],
+    "id": "786",
+    "name": "Bons Temps V",
+    "from": "Jill",
+    "fromImage": "/img/items/a_024.png",
+    "text": "Jill appreciates all of your help! The necklaces look really great.\n\nJill made a little something for you to wear to the parade today in appreciation for all your help."
+  },
+  {
+    "firstSeen": 1646729813779,
+    "itemRequests": [
+      {
+        "id": "65",
+        "quantity": 1000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "454",
+        "quantity": 1
+      },
+      {
+        "id": "123",
+        "quantity": 500
+      },
+      {
+        "id": "121",
+        "quantity": 10
+      },
+      {
+        "id": "250",
+        "quantity": 10
+      },
+      {
+        "id": "475",
+        "quantity": 5
+      }
+    ],
+    "id": "787",
+    "name": "Bons Temps VI",
+    "from": "George",
+    "fromImage": "/img/items/a_034.png",
+    "text": "George would like to make some beaded necklaces for Jill to wear in the parade today. This will seem like a strange request, but instead of beads, George wants to make the necklaces out of corn. He wants the strings to be made from the silk and husks and the beads to be kernels of corn, and maybe a few whole cobs mixed into the strands. Will you give him a hand?",
+    "silverReward": 40000000
   },
   {
     "firstSeen": 1646727914355,
