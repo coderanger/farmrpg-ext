@@ -3519,7 +3519,8 @@
     "image": "/img/items/rs14.png?1",
     "sellPrice": 14000,
     "xp": 14000,
-    "rarity": "Rare"
+    "rarity": "Rare",
+    "mastery": true
   },
   {
     "name": "Runestone 15",

@@ -19,6 +19,7 @@ import { setupSettings } from './lib/settings.js'
 import { setupLocksmith } from './lib/locksmith.js'
 import { setupProduction } from './lib/production.js'
 import { setupVineyard } from './lib/vineyard.js'
+import { setupQuests } from './lib/quests.js'
 
 class GlobalState {
     constructor() {
@@ -165,7 +166,7 @@ const main = async () => {
     }
 
     // Initialize the database.
-    globalState.db = await idb.openDB("farmrpg-ext", 2, {
+    globalState.db = await idb.openDB("farmrpg-ext", 3, {
         upgrade(db, oldVer) {
             switch(oldVer) {
             case 0:
@@ -181,6 +182,9 @@ const main = async () => {
                 const pets = db.createObjectStore("pets", { keyPath: "name" })
                 pets.createIndex("byID", "id", {unique: true})
                 db.createObjectStore("player", { keyPath: "id", autoIncrement: true })
+            case 2:
+                console.log("Running DB migrations for version 3")
+                db.createObjectStore("quests", { keyPath: "id" })
             }
         },
     })
@@ -189,7 +193,9 @@ const main = async () => {
     const itemCount = await globalState.db.count("items")
     const locationCount = await globalState.db.count("locations")
     const logCount = await globalState.db.count("log")
-    console.log(`Database loaded, items ${itemCount} locations ${locationCount} log ${logCount}`)
+    const petsCount = await globalState.db.count("pets")
+    const questsCount = await globalState.db.count("quests")
+    console.log(`Database loaded, items ${itemCount} locations ${locationCount} pets ${petsCount} quests ${questsCount} log ${logCount}`)
 
     // Munge outgoing requests to fix the origin and referer headers.
     browser.webRequest.onBeforeSendHeaders.addListener(
@@ -233,6 +239,7 @@ const main = async () => {
     setupLocksmith(globalState)
     setupProduction(globalState)
     setupVineyard(globalState)
+    setupQuests(globalState)
 
     // Kick off some initial data population.
     renderSidebarFromGlobalState()

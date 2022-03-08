@@ -48,6 +48,7 @@ class Item:
     last_dropped: Optional[int] = None
     type: Optional[str] = None
     possible_drops: Optional[list[str]] = None
+    manual_fishing_only: Optional[bool] = None
 
 
 def load_items() -> Iterable[Item]:
