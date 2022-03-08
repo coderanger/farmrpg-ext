@@ -3018,6 +3018,27 @@
     "silverReward": 500000000
   },
   {
+    "firstSeen": 1646729331012,
+    "itemRequests": [
+      {
+        "id": "269",
+        "quantity": 5
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "242",
+        "quantity": 5
+      }
+    ],
+    "id": "185",
+    "name": "The Collector - Large Clam Shell",
+    "from": "Cecil",
+    "fromImage": "/img/items/a_027.png",
+    "text": "You are an experienced enough farmer now, that you have gathered quite a few rarities during your days. Cecil is looking to add to his collection of very hard-to-find fish. Some are so rare, that only pets can find them. Can you help Cecil finish his collection by providing some Large Clam Shells? He will pay handsomely.",
+    "silverReward": 500000000
+  },
+  {
     "firstSeen": 1646727702124,
     "itemRequests": [
       {
@@ -3349,6 +3370,38 @@
     "text": "Holger heard a noise outside near his smokehouse. It was loud enough that it woke him. By the time he put his prosthetic leg on, grabbed his axe, and got to the smokehouse, all of his smoked fish were gone. He saw something big flying away in the moonlight, but he could only make out a silhouette. Whatever it was, it blasted the door to ashes before it took all his fish.\n\nWill you help Holger restock and repair his smokehouse?"
   },
   {
+    "firstSeen": 1646729409631,
+    "itemRequests": [
+      {
+        "id": "19",
+        "quantity": 10
+      },
+      {
+        "id": "130",
+        "quantity": 5
+      },
+      {
+        "id": "75",
+        "quantity": 15
+      },
+      {
+        "id": "27",
+        "quantity": 10
+      },
+      {
+        "id": "44",
+        "quantity": 7
+      }
+    ],
+    "itemRewards": [],
+    "id": "195",
+    "name": "50,000 Players!",
+    "from": "Rosalie",
+    "fromImage": "/img/items/a_098.png",
+    "text": "Rosalie can't keep up with the amount of new farmers around town. She needs to cater an event with over 50,000 people! Can you help her with some items she needs for the event? She will pay well for the assistance.",
+    "goldReward": 50
+  },
+  {
     "firstSeen": 1646727682069,
     "itemRequests": [
       {
@@ -3578,6 +3631,36 @@
     "from": "Vincent",
     "fromImage": "/img/items/a_047.png",
     "text": "Vincent could see the fire burning the birch forest near Mount Banon, all the way from his campsite. The glare made it harder for him to sleep than usual. It also reminded him of something that happened a long time ago when he was working in a land far away from here. There were random fires and destruction, and animals went missing. A few people were hurt and killed too.\n\n\nThat disaster from long ago was caused by a dragon. The destruction didn’t stop until a trio of dragon hunters arrived and hunted down the dragon. They killed it, but the dragon got one of the hunters and injured the other two.\n\n\nVincent would like to see a little less destruction this time. Will you help Vincent find the dragon and figure out a way to stop it? He’ll need some tools and resources."
+  },
+  {
+    "firstSeen": 1646729412794,
+    "itemRequests": [
+      {
+        "id": "289",
+        "quantity": 100
+      },
+      {
+        "id": "203",
+        "quantity": 100
+      },
+      {
+        "id": "75",
+        "quantity": 100
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "180",
+        "quantity": 1
+      }
+    ],
+    "id": "202",
+    "name": "Consequences and Defenses VIII",
+    "from": "Lorn",
+    "fromImage": "/img/items/a_088.png",
+    "text": "Lorn likes the idea that Holger and Thomas cooked up, except the part about attacking the dragon. After his latest round of research, he has a better idea. Instead of attacking it, Lorn wants to mark the dragon with green dye and let it escape. Lorn hopes the dye will allow him to find the beast and help it when it’s in a more peaceful state.\n\n\nLorn discussed this idea at length with Holger and Thomas. Holger didn’t like it. Thomas was supportive, because he thought it sounded like a strategy he could use for fishing. Nevertheless, both men agreed to do it Lorn’s way this time.\n\n\nIf you’ll gather the resources they need, Lorn will compensate you for your time and materials. He’s also finished with your book and would like to return it to you.",
+    "silverReward": 500000,
+    "goldReward": 10
   },
   {
     "firstSeen": 1646727668371,
@@ -4427,6 +4510,30 @@
     "silverReward": 6000
   },
   {
+    "firstSeen": 1646729430564,
+    "itemRequests": [
+      {
+        "id": "240",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "240",
+        "quantity": 1
+      },
+      {
+        "id": "123",
+        "quantity": 5
+      }
+    ],
+    "id": "230",
+    "name": "A Tower Remade",
+    "from": "Star Meerif",
+    "fromImage": "/img/items/npc_figure.png",
+    "text": "Star returns early, seemingly quite impatient about something…\n\nOnce you’ve collected all of the things for his moat, they instantly disappear, and he focuses his attention on Rosalie.\n\n“So, you’ve had time to consider what I’ve written, would you like to see where this can lead?”\nRosalie seems anxious and unsure of what to do. After a few moments, she begins pacing around, for a split second you get the impression she might leave without saying anything. Finally she stops pacing, straightens up and gives Star a firm look and replies, “I am ready to see…”\n\nStar gives her a reassuring smile and looks to you.\n\n\n\n“Friend, one last request, can you bring me a wizard hat, for Rosalie?”"
+  },
+  {
     "firstSeen": 1646727611559,
     "itemRequests": [
       {
@@ -5159,6 +5266,26 @@
     "from": "George",
     "fromImage": "/img/items/a_034.png",
     "text": "George thinks that with everyone contributing, he’ll only need a couple more loads of building materials.",
+    "silverReward": 1000000
+  },
+  {
+    "firstSeen": 1646729434152,
+    "itemRequests": [
+      {
+        "id": "40",
+        "quantity": 300
+      },
+      {
+        "id": "202",
+        "quantity": 300
+      }
+    ],
+    "itemRewards": [],
+    "id": "254",
+    "name": "Defenses and Consequences IV",
+    "from": "George",
+    "fromImage": "/img/items/a_034.png",
+    "text": "The dragon shelters are almost finished. George thinks this should be the last load of building materials.",
     "silverReward": 1000000
   },
   {
@@ -15110,6 +15237,26 @@
     "text": "Buddy would like to help his many friends by shoveling the snow off the path to his cave. Will you bring him a shovel?"
   },
   {
+    "firstSeen": 1646729498669,
+    "itemRequests": [
+      {
+        "id": "238",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "281",
+        "quantity": 2
+      }
+    ],
+    "id": "596",
+    "name": "Shoveling Snow I - C",
+    "from": "Borgen",
+    "fromImage": "/img/items/borgen.png",
+    "text": "Borgen needs a shovel to clear the snow from his usual site. He doesn’t want any paying customers slipping and falling when they come to check out his wares.\n\nWill you sell Borgen a shovel?"
+  },
+  {
     "firstSeen": 1646726878303,
     "itemRequests": [
       {
@@ -15856,6 +16003,34 @@
     "fromImage": "/img/items/a_011.png",
     "text": "Beatrix is teaching the local school kids how to build a box that protects an egg when dropped off a roof. Holger came to help, chopped up all the wood, made a fire, and scrambled all the eggs for a big breakfast to feed the kids. Now, there are not enough materials to build the boxes or eggs to put in them. Can you help save the school project?",
     "silverReward": 100000
+  },
+  {
+    "firstSeen": 1646729505784,
+    "itemRequests": [
+      {
+        "id": "44",
+        "quantity": 10
+      },
+      {
+        "id": "61",
+        "quantity": 10
+      },
+      {
+        "id": "62",
+        "quantity": 10
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "399",
+        "quantity": 1
+      }
+    ],
+    "id": "620",
+    "name": "12 Days of Christmas",
+    "from": "Santa",
+    "fromImage": "/img/items/lornsanta.png",
+    "text": "On the first day of Christmas,the townsfolk asked of me\n10 from my orchard fruit trees"
   },
   {
     "firstSeen": 1646726830054,
@@ -17855,6 +18030,36 @@
     "text": "Star loves that the town invited him to be a part of Covert Santa this year. He mentions to you that it’s been a long time since he felt like he belonged anywhere and it warms his heart. The tradition of giving part of the gift now, and part of the gift through the mailbox passwords sounds fun and mischevious. \nStar could use a little help with his gift though, he’s very nervous about getting his Covert Santa the right thing. It’s important because giving less than three of anything is not how he normally expresses himself. He mentions three things, and asks if you'll help him."
   },
   {
+    "firstSeen": 1646729508641,
+    "itemRequests": [
+      {
+        "id": "440",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "121",
+        "quantity": 20
+      },
+      {
+        "id": "186",
+        "quantity": 20
+      },
+      {
+        "id": "112",
+        "quantity": 20
+      }
+    ],
+    "id": "673",
+    "name": "Lost Reindeer II",
+    "from": "Santa",
+    "fromImage": "/img/items/lornsanta.png",
+    "text": "Santa suspects that Dasher may be the hardest to find. Dasher is quick and cunning. You may need help from the whole community to find Dasher.",
+    "silverReward": 1000000,
+    "goldReward": 10
+  },
+  {
     "firstSeen": 1646726723992,
     "itemRequests": [
       {
@@ -18275,6 +18480,26 @@
     "fromImage": "/img/items/a_047.png",
     "text": "Vincent appreciates all your help with his tree lot. He’s ready for the last load now.",
     "silverReward": 100000000
+  },
+  {
+    "firstSeen": 1646729528210,
+    "itemRequests": [
+      {
+        "id": "26",
+        "quantity": 12
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "420",
+        "quantity": 12
+      }
+    ],
+    "id": "687",
+    "name": "A Small Gift I",
+    "from": "Sir Buddy Kringle",
+    "fromImage": "/img/items/buddyhat.png",
+    "text": "Buddy wants to make a gift for one of his dearest friends in the whole wide world. Will you help him?"
   },
   {
     "firstSeen": 1646726695028,
@@ -18909,6 +19134,26 @@
     "silverReward": 500000
   },
   {
+    "firstSeen": 1646729525917,
+    "itemRequests": [
+      {
+        "id": "137",
+        "quantity": 10
+      },
+      {
+        "id": "197",
+        "quantity": 10
+      }
+    ],
+    "itemRewards": [],
+    "id": "708",
+    "name": "There’s A Way VII",
+    "from": "Captain Thomas",
+    "fromImage": "/img/items/MustacheTom96.png",
+    "text": "Captain Thomas moved into his house and his business is still doing well. Now, he wants to invest some of his money. Will you help him find some good investments?",
+    "silverReward": 1000000
+  },
+  {
     "firstSeen": 1646726653169,
     "itemRequests": [],
     "itemRewards": [
@@ -19527,6 +19772,22 @@
     "from": "Captain Thomas",
     "fromImage": "/img/items/MustacheTom96.png",
     "text": "Captain Thomas successfully made glass. He also successfully tested the glass. It behaves just like the sand right after sunset.\n\nCaptain Thomas also made a new discovery. One day he was walking around the island with an orb of the glass that he made. He was looking to see if there were any reactions to the glass from other things on the island. Captain Thomas reached the eastern edge of the island a few minutes before the sun came up. As he was walking along the beach he reached down and pulled up a handful of sand. The excess sand falling from his hand stopped falling and remained in the air until the sun appeared. Then, the sand fell to the ground like normal.\n\nCaptain Thomas brought some of the western shore sand back to his shack and started experimenting. He discovered that this sand behaved very much like the sand near Thomas' shack, but only right before dawn. He also discovered that the two sands don't mix. They repel each other.\n\nWith this new knowledge, Captain Thomas went to explore the middle of the island. Just as he expected, Captain Thomas found that there is a line across the center of the island that is completely devoid of sand.\n\nCaptain Thomas would like to make some more glass using sand from both sides of the island. Will you help him get more resources for making glass?"
+  },
+  {
+    "firstSeen": 1646729523371,
+    "itemRequests": [],
+    "itemRewards": [
+      {
+        "id": "324",
+        "quantity": 1
+      }
+    ],
+    "id": "728",
+    "name": "Find A Way X",
+    "from": "Captain Thomas",
+    "fromImage": "/img/items/MustacheTom96.png",
+    "text": "Captain Thomas didn't have much luck trying to combine the glass from the different sands together. It was like trying to combine oil and water, very hot water and very hot oil. Nevertheless, he did craft a neat hourglass filled with sand from both sides of the island. The hourglass doesn't keep time at all because the sands just stay suspended against the top and bottom, but it‘s fascinating to look at.\n\nNow, Captain Thomas is out of ideas. The mystery of the island is fascinating, but Captain Thomas doesn't feel like he's making any progress toward getting home. He's going back to his fishing business for a while. He appreciates your help again and he's very sorry for wasting your time.",
+    "goldReward": 10
   },
   {
     "firstSeen": 1646726612502,
