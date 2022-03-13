@@ -1737,7 +1737,8 @@
     "sellPrice": 2500,
     "xp": 2500,
     "rarity": "Rare",
-    "firstSeen": 1642564800000
+    "firstSeen": 1642564800000,
+    "fleaMarket": 10
   },
   {
     "name": "Garnet",
@@ -1805,7 +1806,8 @@
     "sellPrice": 5000,
     "xp": 3500,
     "rarity": "Uncommon",
-    "mastery": true
+    "mastery": true,
+    "fleaMarket": 15
   },
   {
     "name": "Gift Basket 01",
@@ -2933,6 +2935,27 @@
     "rarity": "Common"
   },
   {
+    "firstSeen": 1646770772226,
+    "name": "Large Net",
+    "id": "500",
+    "image": "/img/items/lnet.png?1",
+    "craftPrice": 100,
+    "xp": 3500,
+    "mastery": true,
+    "recipe": [
+      {
+        "id": "194",
+        "name": "Fishing Net",
+        "quantity": 25
+      },
+      {
+        "id": "95",
+        "name": "Iron Ring",
+        "quantity": 25
+      }
+    ]
+  },
+  {
     "name": "Largemouth Bass",
     "id": "25",
     "image": "/img/items/7736.PNG",
@@ -3571,7 +3594,8 @@
     "image": "/img/items/8802.png",
     "sellPrice": 3000,
     "xp": 3000,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "mastery": true
   },
   {
     "firstSeen": 1646030519585,
@@ -3633,7 +3657,8 @@
     "image": "/img/items/3493.png",
     "sellPrice": 25000,
     "xp": 2500,
-    "rarity": "Rare"
+    "rarity": "Rare",
+    "fleaMarket": 25
   },
   {
     "name": "Orange Juice",
@@ -4073,7 +4098,8 @@
     "image": "/img/items/5182-2.png",
     "sellPrice": 5500,
     "xp": 5500,
-    "rarity": "Common"
+    "rarity": "Common",
+    "mastery": true
   },
   {
     "name": "Ring of Renthisj",
@@ -4146,7 +4172,8 @@
     "sellPrice": 1000,
     "xp": 1000,
     "rarity": "Common",
-    "mastery": true
+    "mastery": true,
+    "fleaMarket": 5
   },
   {
     "name": "Ruby Ring",
@@ -4863,7 +4890,8 @@
     "image": "/img/items/7821.png",
     "sellPrice": 110,
     "xp": 500,
-    "rarity": "Common"
+    "rarity": "Common",
+    "mastery": true
   },
   {
     "name": "Steak",

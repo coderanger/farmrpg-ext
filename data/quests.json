@@ -3972,11 +3972,11 @@
         "quantity": 250
       },
       {
-        "id": " 112",
+        "id": "112",
         "quantity": 2
       },
       {
-        "id": " 202",
+        "id": "202",
         "quantity": 250
       }
     ],
@@ -21892,6 +21892,27 @@
     "silverReward": 850000000
   },
   {
+    "firstSeen": 1647025685026,
+    "itemRequests": [
+      {
+        "id": "121",
+        "quantity": 100
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "454",
+        "quantity": 1
+      }
+    ],
+    "id": "772",
+    "name": "A Way Back X",
+    "from": "Captain Thomas",
+    "fromImage": "/img/items/cthomas2.png",
+    "text": "What’s the point…",
+    "silverReward": 1000000000
+  },
+  {
     "firstSeen": 1646726521978,
     "itemRequests": [],
     "itemRewards": [
@@ -22353,6 +22374,90 @@
     "text": "The excavation project needs more tools and materials. Will you provide more supplies?"
   },
   {
+    "firstSeen": 1646862811179,
+    "itemRequests": [
+      {
+        "id": "44",
+        "quantity": 700
+      },
+      {
+        "id": "242",
+        "quantity": 700
+      },
+      {
+        "id": "62",
+        "quantity": 700
+      },
+      {
+        "id": "61",
+        "quantity": 700
+      },
+      {
+        "id": "450",
+        "quantity": 700
+      },
+      {
+        "id": "67",
+        "quantity": 700
+      },
+      {
+        "id": "256",
+        "quantity": 700
+      },
+      {
+        "id": "19",
+        "quantity": 700
+      },
+      {
+        "id": "65",
+        "quantity": 700
+      },
+      {
+        "id": "26",
+        "quantity": 700
+      },
+      {
+        "id": "276",
+        "quantity": 700
+      },
+      {
+        "id": "50",
+        "quantity": 700
+      },
+      {
+        "id": "120",
+        "quantity": 700
+      },
+      {
+        "id": "232",
+        "quantity": 700
+      },
+      {
+        "id": "25",
+        "quantity": 700
+      },
+      {
+        "id": "174",
+        "quantity": 700
+      },
+      {
+        "id": "185",
+        "quantity": 700
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "493",
+        "quantity": 1
+      }
+    ],
+    "id": "781",
+    "name": "A Towering Investment IX",
+    "from": "Cecil",
+    "fromImage": "/img/items/a_027.png",
+    "text": "Cecil noticed that workers need more food supplies. Will you continue to supply food for the workers?"
+  },
+  {
     "firstSeen": 1646729873456,
     "itemRequests": [
       {
@@ -22509,6 +22614,64 @@
     "availableTo": "Mar 31"
   },
   {
+    "firstSeen": 1647187734856,
+    "itemRequests": [
+      {
+        "id": "492",
+        "quantity": 1000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "475",
+        "quantity": 10
+      },
+      {
+        "id": "390",
+        "quantity": 100
+      }
+    ],
+    "id": "788",
+    "name": "A Way Back XI",
+    "from": "Thomas",
+    "fromImage": "/img/items/a_048.png",
+    "text": "Thomas doesn’t feel quite right. He first noticed it after using the broken mask when he was trying to get to the large island. His body felt strange, and every now and then he would just drop something he was holding. Hoping it was a simple cold, Thomas waited for his body to return to feeling normal, but he hasn’t gotten better.\n\nNow, Thomas feels less normal than before. He drops things constantly, food loses its normal taste periodically, smells flash between normal and weird, and he’s started seeing things. At first, it was just flashes, but now he sees things that aren’t there, some normal things and some strange things.\n\nThomas has decided to take matters into his own hands and find a treatment that will help him get well. Will you help him with his first treatment idea? He’s going to take a slime bath.",
+    "silverReward": 20000000
+  },
+  {
+    "firstSeen": 1647187744229,
+    "itemRequests": [
+      {
+        "id": "349",
+        "quantity": 500
+      },
+      {
+        "id": "15",
+        "quantity": 1000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "305",
+        "quantity": 100
+      },
+      {
+        "id": "479",
+        "quantity": 10
+      },
+      {
+        "id": "250",
+        "quantity": 50
+      }
+    ],
+    "id": "789",
+    "name": "A Way Back XII",
+    "from": "Thomas",
+    "fromImage": "/img/items/a_048.png",
+    "text": "Thomas has another treatment idea. He needs a lot of tomato juice and herbs for this one. Will you give him a hand getting the tomatoes and herbs?",
+    "silverReward": 20000000
+  },
+  {
     "firstSeen": 1646727914355,
     "itemRequests": [
       {
@@ -22556,6 +22719,43 @@
     "fromImage": "/img/items/a_024.png",
     "text": "Jill would like to Cosplay as her D&D character, a Necromancer, at their next gaming session. Most of the materials she needs are pretty cheap, but she wants the prism shard earrings and emberstone at the top of her staff to be authentic. She also wants a sturdy box to store all of it in.",
     "silverReward": 1000000
+  },
+  {
+    "firstSeen": 1647206512974,
+    "itemRequests": [
+      {
+        "id": "450",
+        "quantity": 1000
+      },
+      {
+        "id": "46",
+        "quantity": 1000
+      },
+      {
+        "id": "62",
+        "quantity": 1000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "389",
+        "quantity": 25
+      },
+      {
+        "id": "478",
+        "quantity": 25
+      },
+      {
+        "id": "162",
+        "quantity": 100
+      }
+    ],
+    "id": "790",
+    "name": "A Way Back XIII",
+    "from": "Thomas",
+    "fromImage": "/img/items/a_048.png",
+    "text": "Thomas thinks beet juice may be the answer, mixed with lemons and hops. Will you get him some beets, lemons, and hops?",
+    "silverReward": 600000000
   },
   {
     "firstSeen": 1646723941323,
