@@ -5,7 +5,6 @@ from pathlib import Path
 from typing import Iterable, Optional
 
 import attrs
-from frozendict import frozendict
 
 # From https://stackoverflow.com/questions/1175208/elegant-python-function-to-convert-camelcase-to-snake-case
 CAMEL_ONE_RE = re.compile(r"(.)([A-Z][a-z]+)")
@@ -126,6 +125,8 @@ def load_quests(resolve_items=False) -> Iterable[Quest]:
 if __name__ == "__main__":
     import droprates
 
+    items_by_name = {it.name: it for it in load_items()}
+
     normal_drops = droprates.compile_drops(
         explore=True,
         lemonade=True,
@@ -144,6 +145,11 @@ if __name__ == "__main__":
 
     manual_fish_drops = droprates.compile_drops(fish=True)
 
+    # TEMPORARY GIANT HACK UNTIL I CAN DO MORE SOLVER-ING.
+    normal_drops.locations["Cane Pole Ridge"].items[
+        "Tea Leaves"
+    ] = iron_depot_drops.locations["Cane Pole Ridge"].items["Tea Leaves"]
+
     location_keys = set(
         itertools.chain(
             normal_drops.locations.keys(),
@@ -151,6 +157,11 @@ if __name__ == "__main__":
             manual_fish_drops.locations.keys(),
         )
     )
+
+    drops_from = {}
+    for drops in [normal_drops, iron_depot_drops, manual_fish_drops]:
+        for _, item, item_drops in drops.items:
+            drops_from[items_by_name[item].id] = droprates.mode_for_drops(item_drops)[0]
 
     def location_drops_to_rates(
         loc_drops: Optional[droprates.LocationDrops],
@@ -185,26 +196,42 @@ if __name__ == "__main__":
 
     # Build a secondary fixture for Gatsby's GraphQL layer.
     drop_rates_gql = []
-    for drop_rate in drop_rates:
-        for rate_type, rates_key in [
-            ("normal", "drop_rates"),
-            ("iron_depot", "iron_depot_rates"),
-            ("manual_fishing", "manual_fish_rates"),
-        ]:
-            for item, rate in drop_rate[rates_key].items():
+    for rate_type, drops in [
+        ("normal", normal_drops),
+        ("iron_depot", iron_depot_drops),
+        ("manual_fishing", manual_fish_drops),
+    ]:
+        for location, loc_drops in drops.locations.items():
+            for item, item_drops in loc_drops.items.items():
+                mode, hits = droprates.mode_for_drops(item_drops)
+                hits_per_drop = hits / item_drops.drops
                 drop_rates_gql.append(
                     {
-                        "location": drop_rate["location"],
-                        "mode": drop_rate["mode"],
-                        "type": rate_type,
+                        "location": location,
+                        "mode": mode,
+                        "rate_type": rate_type,
                         "item": item,
-                        "rate": rate,
+                        "rate": hits_per_drop,
+                        "hits": hits,
+                        "drops": item_drops.drops,
                     }
                 )
     drop_rates_gql_path = Path(__file__) / ".." / ".." / "data" / "drop_rates_gql.json"
     json.dump(
         drop_rates_gql,
         drop_rates_gql_path.resolve().open("w"),
+        indent=2,
+        sort_keys=True,
+    )
+
+    # A tiny fixture for picking which set of drop rates to use for a given item.
+    item_drop_mode_path = Path(__file__) / ".." / ".." / "data" / "item_drop_mode.json"
+    json.dump(
+        [
+            {"id": item_id, "dropMode": drop_mode}
+            for item_id, drop_mode in drops_from.items()
+        ],
+        item_drop_mode_path.resolve().open("w"),
         indent=2,
         sort_keys=True,
     )

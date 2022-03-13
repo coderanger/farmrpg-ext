@@ -10,7 +10,7 @@ import time
 import zoneinfo
 from collections import defaultdict
 from csv import DictWriter
-from typing import Any, Optional, Union
+from typing import Any, Iterable, Optional, Union
 
 import attrs
 import cattrs
@@ -32,7 +32,7 @@ BASE_DROP_RATES = {
     "Whispering Creek": 4 / 15,
 }
 
-CACHE_PATH_BASE = f"{os.path.dirname(__file__)}/.drops.{'{}'}.json"
+CACHE_PATH_BASE = f"{os.path.dirname(__file__)}/.dropscache/{'{}'}.json"
 
 # Harvest drops to pay attention to.
 HARVEST_DROPS = {
@@ -114,6 +114,12 @@ class Drops:
     locations: dict[str, LocationDrops] = attrs.Factory(
         lambda: defaultdict(LocationDrops)
     )
+
+    @property
+    def items(self) -> Iterable[tuple[str, str, ItemDrops]]:
+        for location, loc_drops in self.locations.items():
+            for item, item_drops in loc_drops.items.items():
+                yield location, item, item_drops
 
 
 AnyDrops = Union[Drops, LocationDrops, ItemDrops]
@@ -297,6 +303,7 @@ def compile_drops(
         count_sources_for_loc(explores)
 
     # Write the cache.
+    os.makedirs(os.path.dirname(cache_path), exist_ok=True)
     with open(cache_path, "w") as cachef:
         json.dump(cattrs.unstructure(explores), cachef)
 
@@ -317,18 +324,6 @@ def total_drops() -> dict[str, dict[str, int]]:
     return totals
 
 
-def rates_per_stam() -> dict[str, dict[str, float]]:
-    rates = {}
-    for loc, loc_data in total_drops().items():
-        loc_rates = {}
-        for item, drops in loc_data["drops"].items():
-            if item == "ALL":
-                continue
-            loc_rates[item] = drops / loc_data["stamina"]
-        rates[loc] = loc_rates
-    return rates
-
-
 def mode_for_drops(item: AnyDrops) -> tuple[str, int]:
     if item.fishes:
         return "fishes", item.fishes
@@ -336,21 +331,6 @@ def mode_for_drops(item: AnyDrops) -> tuple[str, int]:
         return "harvests", item.harvests
     else:
         return "explores", item.explores
-
-
-def drop_rates() -> dict[str, dict[str, float]]:
-    rates = {}
-    for loc, loc_data in total_drops().items():
-        zone_total = sum(
-            drops for item, drops in loc_data["drops"].items() if item != "ALL"
-        )
-        loc_rates = {}
-        for item, drops in loc_data["drops"].items():
-            if item == "ALL":
-                continue
-            loc_rates[item] = drops / zone_total
-        rates[loc] = loc_rates
-    return rates
 
 
 class NormalOutput:
