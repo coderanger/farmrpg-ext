@@ -581,6 +581,10 @@
   },
   {
     "dropMode": "fishes",
+    "id": "235"
+  },
+  {
+    "dropMode": "fishes",
     "id": "63"
   },
   {
@@ -730,5 +734,9 @@
   {
     "dropMode": "fishes",
     "id": "466"
+  },
+  {
+    "dropMode": "fishes",
+    "id": "458"
   }
 ]
