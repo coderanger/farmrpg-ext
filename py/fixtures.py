@@ -101,6 +101,10 @@ class Quest:
     silver_reward: Optional[int] = None
     gold_reward: Optional[int] = None
     item_rewards: Optional[tuple[QuestItem, ...]] = None
+    requires_farming: Optional[int] = None
+    requires_fishing: Optional[int] = None
+    requires_crafting: Optional[int] = None
+    requires_exploring: Optional[int] = None
 
 
 def load_quests(resolve_items=False) -> Iterable[Quest]:
@@ -123,7 +127,10 @@ def load_quests(resolve_items=False) -> Iterable[Quest]:
 
 
 if __name__ == "__main__":
+    import collections
+
     import droprates
+    import roman
 
     items_by_name = {it.name: it for it in load_items()}
 
@@ -232,6 +239,70 @@ if __name__ == "__main__":
             for item_id, drop_mode in drops_from.items()
         ],
         item_drop_mode_path.resolve().open("w"),
+        indent=2,
+        sort_keys=True,
+    )
+
+    # A fixture for questlines as a whole, based on name prefixes.
+    quests = {q.name: q for q in load_quests()}
+    pattern = re.compile(r"^\s*(.*?)\s+([MCDLXVI]+)(?: - ([A-Z]))?\s*$")
+    questlines = collections.defaultdict(list)
+    for quest in quests.values():
+        match = pattern.search(quest.name)
+        if not match:
+            continue
+        questline_name = match.group(1)
+        weight_roman = match.group(2)
+        weight = roman.fromRoman(weight_roman)
+        offset = match.group(3)
+        if offset:
+            weight = weight * 100 + ord(offset)
+        questlines[questline_name].append({"id": quest.id, "weight": weight})
+    # Check for cases where the first quest doesn't have an I.
+    for quest in quests.values():
+        if quest.name in questlines:
+            questlines[quest.name].append({"id": quest.id, "weight": 1})
+    # Some manual overrides.
+    questlines["Hare Handler"].append(
+        {"id": quests["Of Hares And Feathers"].id, "weight": 1000}
+    )
+    questlines["Corn Quandry"].append(
+        {"id": quests["Never Gonna Give Corn Up"].id, "weight": 1000}
+    )
+    # Sort by weight.
+    questlines_sorted = sorted(
+        (
+            {
+                "name": k,
+                "quests": [q["id"] for q in sorted(v, key=lambda q: q["weight"])],
+            }
+            for k, v in questlines.items()
+        ),
+        key=lambda l: l["name"],
+    )
+    questlines_path = Path(__file__) / ".." / ".." / "data" / "questlines.json"
+    json.dump(
+        questlines_sorted,
+        questlines_path.resolve().open("w"),
+        indent=2,
+        sort_keys=True,
+    )
+
+    # Use the questline data to work out a prev/next for each line'd quest.
+    quest_adjacency = collections.defaultdict(lambda: {"prev": None, "next": None})
+    for questline in questlines_sorted:
+        it1, it2 = itertools.tee(questline["quests"])
+        next(it2, None)
+        for a, b in zip(it1, it2):
+            quest_adjacency[a]["next"] = b
+            quest_adjacency[b]["prev"] = a
+    quest_extra = sorted(
+        ({"id": k, **v} for k, v in quest_adjacency.items()), key=lambda q: q["id"]
+    )
+    quest_extra_path = Path(__file__) / ".." / ".." / "data" / "quest_extra.json"
+    json.dump(
+        quest_extra,
+        quest_extra_path.resolve().open("w"),
         indent=2,
         sort_keys=True,
     )
