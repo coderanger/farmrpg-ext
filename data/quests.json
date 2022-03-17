@@ -24247,6 +24247,26 @@
     "requiresExploring": 92
   },
   {
+    "firstSeen": 1647407124861,
+    "itemRequests": [],
+    "itemRewards": [
+      {
+        "id": "493",
+        "quantity": 1
+      }
+    ],
+    "id": "794",
+    "name": "A Towering Investment XI",
+    "from": "Cecil",
+    "fromImage": "/img/items/a_027.png",
+    "text": "The excavation team has reached the tower’s foundation! The excavation work is finished!\n\nUnfortunately, there’s no way to open the doors to the tower. However, Cecil has an idea that should get the doors open.\n\nOn each level of the tower, the workers discovered an intricate and linked series of mechanisms. Cecil thinks that this machinery can be cleaned and repaired and set to working order. The unfortunate part of this plan is that it will require one more investment of silver to fund the repair work.\n\nWill you invest in repairing the tower’s external mechanisms?",
+    "requiresFarming": 92,
+    "requiresCrafting": 92,
+    "requiresFishing": 92,
+    "requiresExploring": 92,
+    "silverRequest": 2147483647
+  },
+  {
     "firstSeen": 1646723941323,
     "itemRequests": [
       {
@@ -24431,6 +24451,184 @@
     "requiresExploring": 20
   },
   {
+    "firstSeen": 1647482731504,
+    "itemRequests": [
+      {
+        "id": "27",
+        "quantity": 100
+      },
+      {
+        "id": "378",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "194",
+        "quantity": 25
+      },
+      {
+        "id": "43",
+        "quantity": 50
+      },
+      {
+        "id": "84",
+        "quantity": 20
+      }
+    ],
+    "id": "806",
+    "name": "Green Initiative I",
+    "from": "frank",
+    "fromImage": "/img/items/npc_bunny1.png",
+    "text": "frank heard a rumor once about the luckiest carrots that come from soaking in green water. He’s determined to test this theory using the town’s river. He asks you to fetch him some water lilies and other supplies.",
+    "requiresFarming": 5,
+    "requiresCrafting": 5,
+    "requiresFishing": 5,
+    "requiresExploring": 5,
+    "availableFrom": "Mar 16",
+    "availableTo": "Mar 31",
+    "silverReward": 10000,
+    "goldReward": 5
+  },
+  {
+    "firstSeen": 1647482764122,
+    "itemRequests": [
+      {
+        "id": "29",
+        "quantity": 50
+      },
+      {
+        "id": "55",
+        "quantity": 10
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "44",
+        "quantity": 40
+      },
+      {
+        "id": "84",
+        "quantity": 20
+      },
+      {
+        "id": "503",
+        "quantity": 1
+      }
+    ],
+    "id": "807",
+    "name": "Green Initiative II",
+    "from": "frank",
+    "fromImage": "/img/items/npc_bunny1.png",
+    "text": "frank is getting hungry from watching all of your hard work. He’s only thinking in “green”, so he needs a green snack. He also asks you to make him some strong, sturdy boxes near the river, so he can oversee your progress and ensure everything is organized. He needs two boxes to be stacked, so he can watch everything “at an optimal height”. He hops away to go find some of his friends to watch his experiment.",
+    "requiresFarming": 10,
+    "requiresCrafting": 10,
+    "requiresFishing": 10,
+    "requiresExploring": 10,
+    "availableFrom": "Mar 16",
+    "availableTo": "Mar 31",
+    "silverReward": 10000
+  },
+  {
+    "firstSeen": 1647482781273,
+    "itemRequests": [
+      {
+        "id": "46",
+        "quantity": 50
+      },
+      {
+        "id": "499",
+        "quantity": 20
+      },
+      {
+        "id": "77",
+        "quantity": 100
+      },
+      {
+        "id": "56",
+        "quantity": 50
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "194",
+        "quantity": 25
+      },
+      {
+        "id": "86",
+        "quantity": 25
+      },
+      {
+        "id": "330",
+        "quantity": 2
+      },
+      {
+        "id": "491",
+        "quantity": 1
+      }
+    ],
+    "id": "808",
+    "name": "Green Initiative III",
+    "from": "frank",
+    "fromImage": "/img/items/npc_bunny1.png",
+    "text": "frank watches as you gather the various items he requested, and you place them in piles along the riverside. You hear a very soft rumble, and it’s heading your way. You look over, and at least 100 bunnies are hopping towards the river. frank hops down from his watchtower, and greets them. “Glad you could make it!” You feel a bit uneasy with so many beady eyes staring at you.",
+    "requiresFarming": 20,
+    "requiresCrafting": 20,
+    "requiresFishing": 20,
+    "requiresExploring": 20,
+    "availableFrom": "Mar 16",
+    "availableTo": "Mar 31",
+    "silverReward": 50000,
+    "goldReward": 5
+  },
+  {
+    "firstSeen": 1647482944251,
+    "itemRequests": [
+      {
+        "id": "50",
+        "quantity": 200
+      },
+      {
+        "id": "479",
+        "quantity": 5
+      },
+      {
+        "id": "77",
+        "quantity": 200
+      },
+      {
+        "id": "390",
+        "quantity": 5
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "194",
+        "quantity": 25
+      },
+      {
+        "id": "504",
+        "quantity": 1
+      },
+      {
+        "id": "84",
+        "quantity": 25
+      }
+    ],
+    "id": "809",
+    "name": "Green Initiative IV",
+    "from": "frank",
+    "fromImage": "/img/items/npc_bunny1.png",
+    "text": "As you finish gathering all of the things frank has asked for, you watch as his friends start taking everything. They’re more organized than you’d have thought. Impressed, you watch them meticulously place each item around and in the river. Once they are finished, the river does seem to be sparkling with a greener tint than usual.",
+    "requiresFarming": 20,
+    "requiresCrafting": 20,
+    "requiresFishing": 20,
+    "requiresExploring": 20,
+    "availableFrom": "Mar 16",
+    "availableTo": "Mar 31",
+    "silverReward": 50000
+  },
+  {
     "firstSeen": 1646727910372,
     "itemRequests": [
       {
@@ -24460,6 +24658,344 @@
     "requiresCrafting": 3,
     "requiresFishing": 3,
     "requiresExploring": 10
+  },
+  {
+    "firstSeen": 1647483042335,
+    "itemRequests": [
+      {
+        "id": "59",
+        "quantity": 100
+      },
+      {
+        "id": "282",
+        "quantity": 10
+      },
+      {
+        "id": "187",
+        "quantity": 100
+      },
+      {
+        "id": "188",
+        "quantity": 10
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "502",
+        "quantity": 1
+      },
+      {
+        "id": "194",
+        "quantity": 25
+      },
+      {
+        "id": "44",
+        "quantity": 50
+      },
+      {
+        "id": "86",
+        "quantity": 25
+      },
+      {
+        "id": "491",
+        "quantity": 1
+      },
+      {
+        "id": "334",
+        "quantity": 2
+      }
+    ],
+    "id": "810",
+    "name": "Green Initiative V",
+    "from": "frank",
+    "fromImage": "/img/items/npc_bunny1.png",
+    "text": "frank doesn’t seem satisfied, as he hasn’t noticed his carrots tasting differently after soaking them in the river. “Must not be green enough.” He sends you off to fetch another batch of green materials, and another snack for him.",
+    "requiresFarming": 30,
+    "requiresCrafting": 30,
+    "requiresFishing": 30,
+    "requiresExploring": 30,
+    "availableFrom": "Mar 16",
+    "availableTo": "Mar 31",
+    "silverReward": 500000
+  },
+  {
+    "firstSeen": 1647483050896,
+    "itemRequests": [
+      {
+        "id": "115",
+        "quantity": 30
+      },
+      {
+        "id": "248",
+        "quantity": 5
+      },
+      {
+        "id": "409",
+        "quantity": 100
+      },
+      {
+        "id": "193",
+        "quantity": 60
+      },
+      {
+        "id": "36",
+        "quantity": 30
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "453",
+        "quantity": 1
+      },
+      {
+        "id": "84",
+        "quantity": 50
+      },
+      {
+        "id": "194",
+        "quantity": 50
+      },
+      {
+        "id": "396",
+        "quantity": 1
+      },
+      {
+        "id": "503",
+        "quantity": 1
+      }
+    ],
+    "id": "811",
+    "name": "Green Initiative VI",
+    "from": "frank",
+    "fromImage": "/img/items/npc_bunny1.png",
+    "text": "You’ve been curious as to how frank intends to move some of these larger items, since he has not asked you to help with that. As you return with another bucket full of emeralds, you see 50 rabbits pulling a rope, attached to a pine tree tied to a plank of wood. You can’t understand them, because they’re rabbits, but one of them must have said something frank didn’t like. You overhear frank calling one of them “lazy”. You shake your head and get back to gathering things.",
+    "requiresFarming": 40,
+    "requiresCrafting": 40,
+    "requiresFishing": 40,
+    "requiresExploring": 40,
+    "availableFrom": "Mar 16",
+    "availableTo": "Mar 31",
+    "silverReward": 2000000
+  },
+  {
+    "firstSeen": 1647483144001,
+    "itemRequests": [
+      {
+        "id": "203",
+        "quantity": 200
+      },
+      {
+        "id": "188",
+        "quantity": 50
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "502",
+        "quantity": 1
+      },
+      {
+        "id": "86",
+        "quantity": 50
+      },
+      {
+        "id": "194",
+        "quantity": 50
+      },
+      {
+        "id": "491",
+        "quantity": 1
+      }
+    ],
+    "id": "812",
+    "name": "Green Initiative VII",
+    "from": "frank",
+    "fromImage": "/img/items/npc_bunny1.png",
+    "text": "“It’s gotta be the water itself. It’s not green water, so that has to be why it isn’t working.” frank demands green dye, and assures you it’s safe. “I used to drink that stuff all the time, in my youth.”",
+    "requiresFarming": 50,
+    "requiresCrafting": 50,
+    "requiresFishing": 50,
+    "requiresExploring": 50,
+    "availableFrom": "Mar 16",
+    "availableTo": "Mar 31",
+    "silverReward": 1000000
+  },
+  {
+    "firstSeen": 1647483162820,
+    "itemRequests": [
+      {
+        "id": "350",
+        "quantity": 120
+      },
+      {
+        "id": "349",
+        "quantity": 10
+      },
+      {
+        "id": "492",
+        "quantity": 100
+      },
+      {
+        "id": "321",
+        "quantity": 100
+      },
+      {
+        "id": "479",
+        "quantity": 10
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "502",
+        "quantity": 1
+      },
+      {
+        "id": "194",
+        "quantity": 50
+      },
+      {
+        "id": "84",
+        "quantity": 50
+      },
+      {
+        "id": "506",
+        "quantity": 1
+      }
+    ],
+    "id": "813",
+    "name": "Green Initiative VIII",
+    "from": "frank",
+    "fromImage": "/img/items/../emblems/franklyFrightening96.png",
+    "text": "The river is slowly becoming greener. frank seems a little crazed at this point, and he’s saying everyone needs to be wearing green for this to work. You can’t stop now.",
+    "requiresFarming": 75,
+    "requiresCrafting": 75,
+    "requiresFishing": 75,
+    "requiresExploring": 75,
+    "availableFrom": "Mar 16",
+    "availableTo": "Mar 31",
+    "silverReward": 100000000
+  },
+  {
+    "firstSeen": 1647483229678,
+    "itemRequests": [
+      {
+        "id": "203",
+        "quantity": 1000
+      },
+      {
+        "id": "382",
+        "quantity": 140
+      },
+      {
+        "id": "263",
+        "quantity": 400
+      },
+      {
+        "id": "499",
+        "quantity": 300
+      },
+      {
+        "id": "230",
+        "quantity": 50
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "159",
+        "quantity": 200
+      },
+      {
+        "id": "157",
+        "quantity": 200
+      },
+      {
+        "id": "189",
+        "quantity": 200
+      },
+      {
+        "id": "262",
+        "quantity": 200
+      },
+      {
+        "id": "161",
+        "quantity": 200
+      },
+      {
+        "id": "281",
+        "quantity": 10
+      },
+      {
+        "id": "491",
+        "quantity": 10
+      },
+      {
+        "id": "505",
+        "quantity": 1
+      }
+    ],
+    "id": "814",
+    "name": "Green Initiative IX",
+    "from": "frank",
+    "fromImage": "/img/items/../emblems/franklyFrightening96.png",
+    "text": "frank asks you to pour in the last of the green dyes, while his friends scurry to place everything else around. As the last drop of dye hits the water, a huge gust of wind blows by. A few bunnies tumble over. The green water shimmers, and frank dips his carrots in for the final test.",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "availableFrom": "Mar 16",
+    "availableTo": "Mar 31",
+    "silverReward": 2147483647
+  },
+  {
+    "firstSeen": 1647483444357,
+    "itemRequests": [],
+    "itemRewards": [
+      {
+        "id": "501",
+        "quantity": 1
+      }
+    ],
+    "id": "815",
+    "name": "Green Initiative X",
+    "from": "frank",
+    "fromImage": "/img/items/npc_bunny1.png",
+    "text": "The green water is glowing, and frank dips his carrots in for the final test. His carrots come out, and they’re a shimmering gold! You notice a bubbling spot, right in the center of the river. frank’s friends notice it as well, and retrieve it. It looks like a cauldron, and it’s filled with gold! “Gold? What am I going to do with gold? I can’t eat that.” He offers it to you, though he’s confused about what you would use it for. “If you can’t eat it, sleep on it, or play with it, what’s it good for?”",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "availableFrom": "Mar 16",
+    "availableTo": "Mar 31"
+  },
+  {
+    "firstSeen": 1647483129722,
+    "itemRequests": [
+      {
+        "id": "499",
+        "quantity": 100
+      },
+      {
+        "id": "465",
+        "quantity": 10
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "501",
+        "quantity": 1
+      }
+    ],
+    "id": "816",
+    "name": "Ends Of The Rainbow",
+    "from": "Leafy McLukcy",
+    "fromImage": "/img/items/buddyl.png",
+    "text": "Leafy has a pot of gold for you, if you can prove you have found both ends of his rainbow.",
+    "requiresFarming": 20,
+    "requiresCrafting": 20,
+    "requiresFishing": 20,
+    "requiresExploring": 20,
+    "availableFrom": "Mar 16",
+    "availableTo": "Mar 31"
   },
   {
     "firstSeen": 1646727909110,

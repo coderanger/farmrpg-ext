@@ -1,5 +1,6 @@
 [
   {
+    "image": "/img/items/lornsanta.png",
     "name": "12 Days of Christmas",
     "quests": [
       "620",
@@ -17,6 +18,7 @@
     ]
   },
   {
+    "image": "/img/items/a_034.png",
     "name": "99 Bottles",
     "quests": [
       "486",
@@ -121,6 +123,7 @@
     ]
   },
   {
+    "image": "/img/items/MustacheTom96.png",
     "name": "A Captain\u2019s Voyage",
     "quests": [
       "390",
@@ -133,6 +136,7 @@
     ]
   },
   {
+    "image": "/img/items/buddy.png",
     "name": "A Horse Of A Different Color",
     "quests": [
       "237",
@@ -145,6 +149,7 @@
     ]
   },
   {
+    "image": "/img/items/a_047.png",
     "name": "A Lot Of Trees",
     "quests": [
       "639",
@@ -169,6 +174,7 @@
     ]
   },
   {
+    "image": "/img/items/a_098.png",
     "name": "A New Year",
     "quests": [
       "697",
@@ -178,12 +184,14 @@
     ]
   },
   {
+    "image": "/img/items/a_011.png",
     "name": "A Real Gem",
     "quests": [
       "16"
     ]
   },
   {
+    "image": "/img/items/buddyhat.png",
     "name": "A Small Gift",
     "quests": [
       "687",
@@ -194,6 +202,7 @@
     ]
   },
   {
+    "image": "/img/items/a_034.png",
     "name": "A Study of Color",
     "quests": [
       "86",
@@ -205,6 +214,7 @@
     ]
   },
   {
+    "image": "/img/items/npc_figure.png",
     "name": "A Tower Divided",
     "quests": [
       "224",
@@ -213,6 +223,7 @@
     ]
   },
   {
+    "image": "/img/items/npc_figure.png",
     "name": "A Tower Redecorated",
     "quests": [
       "227",
@@ -221,6 +232,7 @@
     ]
   },
   {
+    "image": "/img/items/npc_figure.png",
     "name": "A Tower Remade",
     "quests": [
       "230",
@@ -228,6 +240,7 @@
     ]
   },
   {
+    "image": "/img/items/a_027.png",
     "name": "A Towering Investment",
     "quests": [
       "773",
@@ -239,10 +252,12 @@
       "778",
       "780",
       "781",
-      "793"
+      "793",
+      "794"
     ]
   },
   {
+    "image": "/img/items/MustacheTom96.png",
     "name": "A Way Back",
     "quests": [
       "763",
@@ -263,6 +278,7 @@
     ]
   },
   {
+    "image": "/img/items/MustacheTom96.png",
     "name": "A Way Forward",
     "quests": [
       "415",
@@ -279,6 +295,7 @@
     ]
   },
   {
+    "image": "/img/items/a_028.png",
     "name": "Be Mine",
     "quests": [
       "745",
@@ -295,6 +312,7 @@
     ]
   },
   {
+    "image": "/img/items/a_011.png",
     "name": "Better Late Than Never",
     "quests": [
       "758",
@@ -304,6 +322,7 @@
     ]
   },
   {
+    "image": "/img/items/a_011.png",
     "name": "Big Boom",
     "quests": [
       "13",
@@ -314,12 +333,14 @@
     ]
   },
   {
+    "image": "/img/items/a_098.png",
     "name": "Bling Things",
     "quests": [
       "135"
     ]
   },
   {
+    "image": "/img/items/a_088.png",
     "name": "Blizzard Warning",
     "quests": [
       "480",
@@ -340,6 +361,7 @@
     ]
   },
   {
+    "image": "/img/items/a_024.png",
     "name": "Bons Temps",
     "quests": [
       "782",
@@ -351,18 +373,21 @@
     ]
   },
   {
+    "image": "/img/items/a_027.png",
     "name": "Bug Life",
     "quests": [
       "160"
     ]
   },
   {
+    "image": "/img/items/a_098.png",
     "name": "Conjure Up A New Recipe",
     "quests": [
       "151"
     ]
   },
   {
+    "image": "/img/items/a_011.png",
     "name": "Consequences and Defenses",
     "quests": [
       "159",
@@ -390,6 +415,7 @@
     ]
   },
   {
+    "image": "/img/items/a_024.png",
     "name": "Corn Quandary",
     "quests": [
       "438",
@@ -425,12 +451,14 @@
     ]
   },
   {
+    "image": "/img/items/8288.png",
     "name": "Corn Quandry",
     "quests": [
       "468"
     ]
   },
   {
+    "image": "/img/items/a_088.png",
     "name": "Covert Santa",
     "quests": [
       "636",
@@ -454,6 +482,7 @@
     ]
   },
   {
+    "image": "/img/items/a_027.png",
     "name": "Cowboy Cecil",
     "quests": [
       "29",
@@ -461,6 +490,7 @@
     ]
   },
   {
+    "image": "/img/items/a_034.png",
     "name": "Defenses and Consequences",
     "quests": [
       "251",
@@ -488,6 +518,7 @@
     ]
   },
   {
+    "image": "/img/items/a_028.png",
     "name": "Dinner Party",
     "quests": [
       "234",
@@ -500,6 +531,7 @@
     ]
   },
   {
+    "image": "/img/items/buddy.png",
     "name": "Do You Want to Build A Snowman?",
     "quests": [
       "632",
@@ -509,6 +541,7 @@
     ]
   },
   {
+    "image": "/img/items/a_048.png",
     "name": "Experimental Bait",
     "quests": [
       "26",
@@ -516,12 +549,14 @@
     ]
   },
   {
+    "image": "/img/items/a_048.png",
     "name": "Fake Fishing",
     "quests": [
       "1"
     ]
   },
   {
+    "image": "/img/items/6174.PNG",
     "name": "Feathers",
     "quests": [
       "264",
@@ -536,12 +571,14 @@
     ]
   },
   {
+    "image": "/img/items/a_024.png",
     "name": "Fellow Farmer",
     "quests": [
       "55"
     ]
   },
   {
+    "image": "/img/items/MustacheTom96.png",
     "name": "Find A Way",
     "quests": [
       "719",
@@ -558,6 +595,7 @@
     ]
   },
   {
+    "image": "/img/items/a_048.png",
     "name": "Fine Fishing",
     "quests": [
       "710",
@@ -572,6 +610,7 @@
     ]
   },
   {
+    "image": "/img/items/a_028.png",
     "name": "Fire in the Belly",
     "quests": [
       "194",
@@ -579,6 +618,7 @@
     ]
   },
   {
+    "image": "/img/items/a_048.png",
     "name": "Fishing Tournament",
     "quests": [
       "316",
@@ -592,12 +632,30 @@
     ]
   },
   {
+    "image": "/img/items/a_098.png",
     "name": "Free Candy",
     "quests": [
       "350"
     ]
   },
   {
+    "image": "/img/items/npc_bunny1.png",
+    "name": "Green Initiative",
+    "quests": [
+      "806",
+      "807",
+      "808",
+      "809",
+      "810",
+      "811",
+      "812",
+      "813",
+      "814",
+      "815"
+    ]
+  },
+  {
+    "image": "/img/items/npc_bunny1.png",
     "name": "Hare Handler",
     "quests": [
       "399",
@@ -612,6 +670,7 @@
     ]
   },
   {
+    "image": "/img/items/horsehat.png",
     "name": "Hay Holidays",
     "quests": [
       "692",
@@ -621,6 +680,7 @@
     ]
   },
   {
+    "image": "/img/items/npc_horse.png",
     "name": "Hay, How Are You?",
     "quests": [
       "297",
@@ -631,6 +691,7 @@
     ]
   },
   {
+    "image": "/img/items/npc_horse.png",
     "name": "His Mane Quest",
     "quests": [
       "156",
@@ -643,6 +704,7 @@
     ]
   },
   {
+    "image": "/img/items/npc_bunny1.png",
     "name": "Hoptimistic",
     "quests": [
       "730",
@@ -656,6 +718,7 @@
     ]
   },
   {
+    "image": "/img/items/a_028.png",
     "name": "Hungry Holger",
     "quests": [
       "7",
@@ -665,12 +728,14 @@
     ]
   },
   {
+    "image": "/img/items/a_027.png",
     "name": "Interior Design",
     "quests": [
       "38"
     ]
   },
   {
+    "image": "/img/items/a_028.png",
     "name": "Irrational Numbers",
     "quests": [
       "802",
@@ -679,6 +744,7 @@
     ]
   },
   {
+    "image": "/img/items/a_048.png",
     "name": "Islands Are Hard To Catch",
     "quests": [
       "213",
@@ -695,6 +761,7 @@
     ]
   },
   {
+    "image": "/img/items/buddy.png",
     "name": "Let's Play Pirates",
     "quests": [
       "161",
@@ -705,6 +772,7 @@
     ]
   },
   {
+    "image": "/img/items/a_088.png",
     "name": "Lorn's Advice",
     "quests": [
       "94",
@@ -715,6 +783,7 @@
     ]
   },
   {
+    "image": "/img/items/lornsanta.png",
     "name": "Lost Reindeer",
     "quests": [
       "674",
@@ -730,6 +799,7 @@
     ]
   },
   {
+    "image": "/img/items/npc_horse.png",
     "name": "Love Is For The Horses",
     "quests": [
       "742",
@@ -738,6 +808,7 @@
     ]
   },
   {
+    "image": "/img/items/lornsanta.png",
     "name": "Low On Coal",
     "quests": [
       "648",
@@ -747,6 +818,7 @@
     ]
   },
   {
+    "image": "/img/items/a_027.png",
     "name": "Mystery Contraption",
     "quests": [
       "8",
@@ -754,6 +826,7 @@
     ]
   },
   {
+    "image": "/img/items/npc_figure.png",
     "name": "Not From Around Here",
     "quests": [
       "164",
@@ -762,6 +835,7 @@
     ]
   },
   {
+    "image": "/img/items/a_047.png",
     "name": "Parts Unknown",
     "quests": [
       "272",
@@ -791,6 +865,7 @@
     ]
   },
   {
+    "image": "/img/items/a_034.png",
     "name": "Pet Spider",
     "quests": [
       "345",
@@ -801,6 +876,7 @@
     ]
   },
   {
+    "image": "/img/items/a_047.png",
     "name": "Pirate Cove",
     "quests": [
       "133",
@@ -815,18 +891,21 @@
     ]
   },
   {
+    "image": "/img/items/a_034.png",
     "name": "Putting Down Roots",
     "quests": [
       "51"
     ]
   },
   {
+    "image": "/img/items/mummy_t_01.png",
     "name": "Pyramid Scheme",
     "quests": [
       "310"
     ]
   },
   {
+    "image": "/img/items/a_088.png",
     "name": "Return Our Lost Friend",
     "quests": [
       "136",
@@ -837,6 +916,7 @@
     ]
   },
   {
+    "image": "/img/items/a_088.png",
     "name": "Secrets With Lorn",
     "quests": [
       "263",
@@ -844,6 +924,7 @@
     ]
   },
   {
+    "image": "/img/items/npc_figure.png",
     "name": "Shadow\u2019s Reach",
     "quests": [
       "388",
@@ -851,6 +932,7 @@
     ]
   },
   {
+    "image": "/img/items/a_048.png",
     "name": "Shark Week",
     "quests": [
       "98",
@@ -860,6 +942,7 @@
     ]
   },
   {
+    "image": "/img/items/a_027.png",
     "name": "Shoveling Snow",
     "quests": [
       "616",
@@ -891,6 +974,7 @@
     ]
   },
   {
+    "image": "/img/items/a_024.png",
     "name": "Silo Duo",
     "quests": [
       "53",
@@ -898,12 +982,14 @@
     ]
   },
   {
+    "image": "/img/items/a_027.png",
     "name": "Squirrel Problems",
     "quests": [
       "10"
     ]
   },
   {
+    "image": "/img/items/npc_figure.png",
     "name": "Strange Companions",
     "quests": [
       "397",
@@ -915,6 +1001,7 @@
     ]
   },
   {
+    "image": "/img/items/a_011.png",
     "name": "Strange Stones",
     "quests": [
       "113",
@@ -930,6 +1017,7 @@
     ]
   },
   {
+    "image": "/img/items/robot_02.png",
     "name": "TRU3 70V3",
     "quests": [
       "756",
@@ -937,12 +1025,14 @@
     ]
   },
   {
+    "image": "/img/items/a_034.png",
     "name": "Temporary Prankster",
     "quests": [
       "342"
     ]
   },
   {
+    "image": "/img/items/MustacheTom96.png",
     "name": "There\u2019s A Way",
     "quests": [
       "702",
@@ -956,12 +1046,14 @@
     ]
   },
   {
+    "image": "/img/items/a_048.png",
     "name": "Unique Fish",
     "quests": [
       "15"
     ]
   },
   {
+    "image": "/img/items/a_047.png",
     "name": "You Must Build A Boat",
     "quests": [
       "132",

@@ -1889,7 +1889,8 @@
     "image": "/img/items/5766.png",
     "sellPrice": 1000,
     "xp": 1000,
-    "rarity": "Common"
+    "rarity": "Common",
+    "mastery": true
   },
   {
     "id": "467",
@@ -2011,6 +2012,15 @@
     "manualFishingOnly": true
   },
   {
+    "firstSeen": 1647482867996,
+    "id": "507",
+    "name": "Gold Horseshoe",
+    "image": "/img/items/goldhs.png",
+    "event": true,
+    "xp": 2500,
+    "rarity": "Uncommon"
+  },
+  {
     "name": "Gold Leaf",
     "id": "281",
     "image": "/img/items/8774.png",
@@ -2034,7 +2044,8 @@
     "xp": 60,
     "givable": true,
     "rarity": "Uncommon",
-    "growthTime": 180
+    "growthTime": 180,
+    "fleaMarket": 4
   },
   {
     "name": "Gold Pepper Seeds",
@@ -2051,7 +2062,8 @@
     "xp": 20,
     "givable": true,
     "fleaMarket": 2,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "growthTime": 60
   },
   {
     "id": "465",
@@ -2062,6 +2074,15 @@
     "rarity": "Common",
     "mastery": true,
     "manualFishingOnly": true
+  },
+  {
+    "firstSeen": 1647482851023,
+    "id": "504",
+    "name": "Gold Shamrock",
+    "image": "/img/items/goldclover.png",
+    "event": true,
+    "xp": 5000,
+    "rarity": "Super Rare"
   },
   {
     "name": "Gold Trout",
@@ -2391,6 +2412,15 @@
       }
     ],
     "craftPrice": 500
+  },
+  {
+    "firstSeen": 1647482863982,
+    "id": "506",
+    "name": "Green Top Hat",
+    "image": "/img/items/greenhat.png",
+    "event": true,
+    "xp": 2500,
+    "rarity": "Uncommon"
   },
   {
     "name": "Grubs",
@@ -3474,6 +3504,15 @@
     "rarity": "Uncommon"
   },
   {
+    "firstSeen": 1647482860360,
+    "id": "505",
+    "name": "Mug of Beer",
+    "image": "/img/items/7264.png?1",
+    "sellPrice": 15000,
+    "xp": 2500,
+    "rarity": "Very Rare"
+  },
+  {
     "name": "Mushroom",
     "id": "43",
     "image": "/img/items/mushroom.png",
@@ -3878,6 +3917,33 @@
     "rarity": "Uncommon"
   },
   {
+    "firstSeen": 1647482822069,
+    "id": "501",
+    "name": "Pot of Gold (Large)",
+    "image": "/img/items/potogold.png",
+    "event": true,
+    "givable": true,
+    "rarity": "Very Rare"
+  },
+  {
+    "firstSeen": 1647482844974,
+    "id": "502",
+    "name": "Pot of Gold (Medium)",
+    "image": "/img/items/pog2.png",
+    "event": true,
+    "givable": true,
+    "rarity": "Very Rare"
+  },
+  {
+    "firstSeen": 1647482820835,
+    "id": "503",
+    "name": "Pot of Gold (Small)",
+    "image": "/img/items/pog3.png",
+    "event": true,
+    "givable": true,
+    "rarity": "Very Rare"
+  },
+  {
     "name": "Potato",
     "id": "48",
     "image": "/img/items/potato.png",
@@ -4225,7 +4291,8 @@
     "image": "/img/items/rs1.png",
     "sellPrice": 1000,
     "xp": 1000,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "mastery": true
   },
   {
     "name": "Runestone 02",
