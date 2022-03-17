@@ -1,0 +1,382 @@
+- box: 100 Gold
+  gold: 100
+
+- box: Grab Bag 01
+  mode: single
+  items:
+    Catfish: 1-?
+    Bone: 1-?
+    Mushroom: 1-?
+    Gold Cucumber: 1-?
+    Potato: 1-?
+    Aquamarine: 1-?
+    3-leaf Clover: 1-?
+    Trout: 1-?
+
+- box: Grab Bag 02
+  mode: single
+  items:
+    Antler: 1-?
+    Ancient Coin: 1-?
+    Horn: 1-?
+    Snail: 1-?
+    Giant Centipede: 1-?
+    Shiny Beetle: 1-?
+    Fish Bones: 1-?
+    Gummy Worms: 1-?
+    Fire Ant: 1-?
+    Globber: 1-?
+
+- box: Grab Bag 04
+  mode: single
+  items:
+    Runestone 01: 1-2
+    Runestone 02: 1-2
+    Runestone 03: 1-2
+    Runestone 04: 1-2
+    Runestone 05: 1-2
+    Runestone 06: 1-2
+    Runestone 07: 1-2
+    Runestone 08: 1-2
+    Runestone 09: 1-2
+    Runestone 10: 1-2
+
+- box: Grab Bag 05
+  mode: single
+  items:
+    Runestone 11: 1-2
+    Runestone 12: 1-2
+    Runestone 13: 1-2
+    Runestone 14: 1-2
+    Runestone 15: 1-2
+    Runestone 16: 1-2
+    Runestone 17: 1-2
+    Runestone 18: 1-2
+    Runestone 19: 1-2
+    Runestone 20: 1-2
+
+- box: Grab Bag 07
+  mode: single
+  items:
+    Gold Catfish: 1-5
+    Gold Trout: 1-5
+    Gold Flier: 1-5
+    Gold Coral: 1-5
+    Gold Sea Bass: 1-5
+    Gold Drum: 1-5
+    Goldjack: 1-5
+    Goldfin: 1-5
+    Goldray: 1-5
+    Goldgill: 1-5
+
+- box: Large Chest 01
+  key: Treasure Key
+  items:
+    Ancient Coin: 100
+    Emerald: 50
+    Jade: 50
+    Pearl: 50
+    Ruby: 50
+    Shimmer Topaz: 50
+
+- box: Large Chest 02
+  key: Treasure Key
+  items:
+    Cogwheel: 2
+    Hammer: 1
+    Small Gear: 3
+    Small Screw: 8
+    Small Spring: 2
+    Steel: 5
+
+- box: Medium Chest 01
+  key: Square Key
+  items:
+    Ancient Coin: 50
+    Apple: 100
+    Grape Juice: 1
+
+- box: Medium Chest 02
+  key: Square Key
+  items:
+    Amethyst Necklace: 5
+    Aquamarine Ring: 5
+    Emerald Ring: 5
+    Ruby Ring: 5
+    Shimmer Ring: 5
+
+- box: Small Chest 01
+  key: Small Key
+  items:
+    Amethyst: 10
+    Aquamarine: 10
+    Emerald: 10
+    Jade: 10
+    Lemon Quartz: 10
+    Ruby: 10
+
+- box: Small Chest 02
+  key: Small Key
+  items:
+    Wood Plank: 10
+    Antler: 10
+    Glass Orb: 10
+    Leather: 10
+    Rope: 10
+
+- box: Grab Bag 03
+  mode: single
+  items:
+    Gold Leaf: 1-?
+    Gold Feather: 1-?
+    Gold Carrot: 1-?
+    Gold Cucumber: 1-?
+    Gold Eggplant: 1-?
+    Gold Peas: 1-?
+    Gold Peppers: 1-?
+
+- box: Present 01
+  items:
+    Ancient Coin: 20
+    Bacon: 1
+    Steak Kabob: 3
+
+- box: Box of Chocolate
+  gold: 25
+  items:
+    Apple: 5
+    Garnet Ring: 1
+    Grape Juice: 1
+    Wax Candle: 1
+    Wine: 1
+
+- box: Cornucopia
+  items:
+    Apple: 10
+    Corn: 5
+    Gold Leaf: 3
+    Grapes: 10
+    Orange: 10
+    Pumpkin: 1
+    Wheat: 3
+
+- box: Spring Basket
+  gold: 25
+  items:
+    3-leaf Clover: 10
+    4-leaf Clover: 3
+    Apple: 20
+    Herbs: 2
+    Hops: 15
+    Orange Juice: 10
+
+- box: Grab Bag 06
+  mode: single
+  items:
+    Steak: 1-?
+    Wine: 1-?
+    Grape Juice: 1-?
+    Fishing Net: 1-?
+    Lemonade: 1-?
+    Orange Juice: 1-?
+    Ancient Coin: 1-?
+    Skull Coin: 1-?
+
+- box: Gift Basket 01
+  items:
+    Ancient Coin: 50
+    Apple: 25
+    Grapes: 25
+    Lemon: 25
+    Orange: 25
+
+- box: Gift Basket 02
+  items:
+    Apple: 100
+    Orange: 100
+    Lemon: 100
+    Grapes: 100
+    Ancient Coin: 100
+    Fishing Net: 100
+
+- box: Treat Bag 01
+  items:
+    Apple: 3
+    Lollipop: 5
+    Candy: 5
+    Bacon: 1
+
+- box: Treat Bag 02
+  items:
+    Spider: 1
+    Candy: 5
+    Lollipop: 5
+    Gummy Worms: 24
+
+- box: Treat Bag 03
+  items:
+    Taffy: 3
+    Square Key: 1
+    Chattering Teeth: 1
+    Ancient Coin: 10
+
+# Ignoring this for now.
+# - box: Bag of Presents
+#   mode: groups
+#   groups:
+#   - items:
+#     - Gold Crab
+#     quantity: 1
+#   - items:
+#     - Gold Feather
+#     quantity: 5
+#   - items:
+#     - Magna Quartz
+#     quantity: 5
+#   - items:
+#     - Runestone 01
+#     - Runestone 02
+#     - Runestone 03
+#     - Runestone 04
+#     - Runestone 05
+#     - Runestone 06
+#     - Runestone 07
+#     - Runestone 08
+#     - Runestone 09
+#     - Runestone 10
+#     - Runestone 11
+#     - Runestone 12
+#     - Runestone 13
+#     - Runestone 14
+#     - Runestone 15
+#     - Runestone 16
+#     - Runestone 17
+#     - Runestone 18
+#     - Runestone 19
+#     - Runestone 20
+#     quantity: 1
+#   - items:
+#     - Runestone 01
+#     - Runestone 02
+#     - Runestone 03
+#     - Runestone 04
+#     - Runestone 05
+#     - Runestone 06
+#     - Runestone 07
+#     - Runestone 08
+#     - Runestone 09
+#     - Runestone 10
+#     - Runestone 11
+#     - Runestone 12
+#     - Runestone 13
+#     - Runestone 14
+#     - Runestone 15
+#     - Runestone 16
+#     - Runestone 17
+#     - Runestone 18
+#     - Runestone 19
+#     - Runestone 20
+#     quantity: 1
+
+- box: Christmas Present 01
+  gold: 50
+
+- box: Christmas Present 02
+  items:
+    Orange Juice: 20
+    Lemonade: 20
+
+- box: Christmas Present 03
+  items:
+    Bacon: 30
+    Apple: 30
+    Fishing Net: 30
+
+- box: Christmas Present 04
+  items:
+    3-leaf Clover: 40
+    Antler: 40
+    Corn: 40
+    Hops: 40
+
+- box: Christmas Present 05
+  items:
+    Ancient Coin: 50
+    Candy Roll: 50
+    Fishing Net: 50
+    Lemonade: 50
+    Orange Juice: 50
+
+- box: Christmas Present 06
+  items:
+    Carrot: 60
+    Cucumber: 60
+    Eggplant: 60
+    Peas: 60
+    Peppers: 60
+    Radish: 60
+
+- box: Christmas Present 07
+  gold: 100
+
+- box: Christmas Present 08
+  items:
+    Blue Sea Bass: 80
+    Clownfish: 80
+    Conch Shell: 80
+    Flier: 80
+    Jellyfish: 80
+    Pearl: 80
+    Shrimp: 80
+    Starfish: 80
+
+- box: Christmas Present 09
+  items:
+    Tomato: 90
+    Purple Flower: 90
+    Trout: 90
+    Mushroom Paste: 90
+    Milk: 90
+    Ancient Coin: 90
+    Antler: 90
+    Scissors: 90
+    Snowball: 90
+
+- box: Christmas Present 10
+  items:
+    Aquamarine: 100
+    Mushroom: 100
+    Apple: 100
+    Orange: 100
+    Lemon: 100
+    Ruby: 100
+    Leather: 100
+    Grapes: 100
+    Shiny Beetle: 100
+    Caterpillar: 100
+
+- box: Christmas Present 11
+  items:
+    Grape Juice: 11
+    Steak: 11
+    Steak Kabob: 11
+    Wine: 11
+
+- box: Christmas Present 12
+  gold: 150
+
+- box: Christmas Stocking
+  items:
+    Apple: 3
+    Candy Cane: 3
+    Candy Roll: 3
+    Donner: 1
+
+- box: Pot of Gold (Large)
+  gold: 50
+
+- box: Pot of Gold (Medium)
+  gold: 25
+
+- box: Pot of Gold (Small)
+  gold: 10

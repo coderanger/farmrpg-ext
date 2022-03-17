@@ -1,3 +1,6 @@
+import collections
+import csv
+import io
 import itertools
 import json
 import re
@@ -5,6 +8,10 @@ from pathlib import Path
 from typing import Iterable, Optional
 
 import attrs
+import httpx
+import yaml
+
+import roman
 
 # From https://stackoverflow.com/questions/1175208/elegant-python-function-to-convert-camelcase-to-snake-case
 CAMEL_ONE_RE = re.compile(r"(.)([A-Z][a-z]+)")
@@ -126,13 +133,8 @@ def load_quests(resolve_items=False) -> Iterable[Quest]:
         yield Quest(**quest)
 
 
-if __name__ == "__main__":
-    import collections
-
+def _get_drops():
     import droprates
-    import roman
-
-    items_by_name = {it.name: it for it in load_items()}
 
     normal_drops = droprates.compile_drops(
         explore=True,
@@ -157,6 +159,14 @@ if __name__ == "__main__":
         "Tea Leaves"
     ] = iron_depot_drops.locations["Cane Pole Ridge"].items["Tea Leaves"]
 
+    return (normal_drops, iron_depot_drops, manual_fish_drops)
+
+
+def gen_drop_rates():
+    import droprates
+
+    normal_drops, iron_depot_drops, manual_fish_drops = _get_drops()
+
     location_keys = set(
         itertools.chain(
             normal_drops.locations.keys(),
@@ -164,11 +174,6 @@ if __name__ == "__main__":
             manual_fish_drops.locations.keys(),
         )
     )
-
-    drops_from = {}
-    for drops in [normal_drops, iron_depot_drops, manual_fish_drops]:
-        for _, item, item_drops in drops.items:
-            drops_from[items_by_name[item].id] = droprates.mode_for_drops(item_drops)[0]
 
     def location_drops_to_rates(
         loc_drops: Optional[droprates.LocationDrops],
@@ -198,8 +203,13 @@ if __name__ == "__main__":
             }
         )
 
-    drop_rates_path = Path(__file__) / ".." / ".." / "data" / "drop_rates.json"
-    json.dump(drop_rates, drop_rates_path.resolve().open("w"), indent=2, sort_keys=True)
+    return drop_rates
+
+
+def gen_drop_rates_gql():
+    import droprates
+
+    normal_drops, iron_depot_drops, manual_fish_drops = _get_drops()
 
     # Build a secondary fixture for Gatsby's GraphQL layer.
     drop_rates_gql = []
@@ -223,28 +233,31 @@ if __name__ == "__main__":
                         "drops": item_drops.drops,
                     }
                 )
-    drop_rates_gql_path = Path(__file__) / ".." / ".." / "data" / "drop_rates_gql.json"
-    json.dump(
-        drop_rates_gql,
-        drop_rates_gql_path.resolve().open("w"),
-        indent=2,
-        sort_keys=True,
-    )
+    return drop_rates_gql
+
+
+def gen_item_drop_mode():
+    import droprates
+
+    items_by_name = {it.name: it for it in load_items()}
+    normal_drops, iron_depot_drops, manual_fish_drops = _get_drops()
+
+    drops_from: dict[str, str] = {}
+    for drops in [normal_drops, iron_depot_drops, manual_fish_drops]:
+        for _, item, item_drops in drops.items:
+            drops_from[items_by_name[item].id] = droprates.mode_for_drops(item_drops)[0]
 
     # A tiny fixture for picking which set of drop rates to use for a given item.
-    item_drop_mode_path = Path(__file__) / ".." / ".." / "data" / "item_drop_mode.json"
-    json.dump(
-        [
-            {"id": item_id, "dropMode": drop_mode}
-            for item_id, drop_mode in drops_from.items()
-        ],
-        item_drop_mode_path.resolve().open("w"),
-        indent=2,
-        sort_keys=True,
-    )
+    return [
+        {"id": item_id, "dropMode": drop_mode}
+        for item_id, drop_mode in drops_from.items()
+    ]
 
+
+def gen_questlines():
     # A fixture for questlines as a whole, based on name prefixes.
     quests = {q.name: q for q in load_quests()}
+    quests_by_id = {q.id: q for q in load_quests()}
     pattern = re.compile(r"^\s*(.*?)\s+([MCDLXVI]+)(?: - ([A-Z]))?\s*$")
     questlines = collections.defaultdict(list)
     for quest in quests.values():
@@ -280,15 +293,15 @@ if __name__ == "__main__":
         ),
         key=lambda l: l["name"],
     )
-    questlines_path = Path(__file__) / ".." / ".." / "data" / "questlines.json"
-    json.dump(
-        questlines_sorted,
-        questlines_path.resolve().open("w"),
-        indent=2,
-        sort_keys=True,
-    )
+    for q in questlines_sorted:
+        if q["quests"]:
+            q["image"] = quests_by_id[q["quests"][0]].from_image
+    return questlines_sorted
 
+
+def gen_quest_extra():
     # Use the questline data to work out a prev/next for each line'd quest.
+    questlines_sorted = gen_questlines()
     quest_adjacency = collections.defaultdict(lambda: {"prev": None, "next": None})
     for questline in questlines_sorted:
         it1, it2 = itertools.tee(questline["quests"])
@@ -299,10 +312,124 @@ if __name__ == "__main__":
     quest_extra = sorted(
         ({"id": k, **v} for k, v in quest_adjacency.items()), key=lambda q: q["id"]
     )
-    quest_extra_path = Path(__file__) / ".." / ".." / "data" / "quest_extra.json"
-    json.dump(
-        quest_extra,
-        quest_extra_path.resolve().open("w"),
-        indent=2,
-        sort_keys=True,
+    return quest_extra
+
+
+def gen_wishing_well():
+    # Download and format the Wishing Well data from the wiki.
+    resp = httpx.get("https://farmrpg.com/wiki.php?page=ww%20drops%20table")
+    resp.raise_for_status()
+    page = resp.read().decode()
+    match = re.search(r"\[table\](.*)\[/table\]", page)
+    if not match:
+        raise Exception("No table found?")
+    ww_drops = match[1]
+    # Bbcode to CSV.
+    ww_drops = ww_drops.replace("[/th][th]", ",").replace("[/td][td]", ",")
+    ww_drops = ww_drops.replace("[/th][/tr][tr][td]", "\n").replace(
+        "[/td][/tr][tr][td]", "\n"
     )
+    ww_drops = ww_drops.replace("[tr][th]", "").replace("[/td][/tr]", "\n")
+    # Parse.
+    items = {it.name: it for it in load_items()}
+    # Fix up some naming errors in the page.
+    misnamed_items = {
+        # Bad name : good name,
+        "R.O.A.S": "R.O.A.S.",
+        "GoldFish": "Goldfish",
+        "Witch hat": "Witch Hat",
+    }
+    for bad, good in misnamed_items.items():
+        items[bad] = items[good]
+    ww_data = []
+    for row in csv.DictReader(io.StringIO(ww_drops)):
+        ww_data.append(
+            {
+                "input": items[row["Toss In"]].id,
+                "output": items[row["To Get"]].id,
+                "chance": row["Chance"],
+            }
+        )
+    return ww_data
+
+
+def gen_locksmith_boxes():
+    items = {it.name: it for it in load_items()}
+    locksmith_data = Path(__file__) / ".." / ".." / "data" / "locksmith.yaml"
+    boxes = yaml.safe_load(locksmith_data.resolve().open())
+    return [
+        {
+            "box": items[box["box"]].id,
+            "gold": box.get("gold"),
+            "mode": box.get("mode", "multi"),
+        }
+        for box in boxes
+    ]
+
+
+def gen_locksmith_items():
+    items = {it.name: it for it in load_items()}
+    locksmith_data = Path(__file__) / ".." / ".." / "data" / "locksmith.yaml"
+    boxes = yaml.safe_load(locksmith_data.resolve().open())
+    locksmith_items = []
+    for box in boxes:
+        box_id = items[box["box"]].id
+        mode = box.get("mode", "multi")
+        for i, (item, quantity) in enumerate(box.get("items", {}).items()):
+            group = 0 if mode == "single" else i
+            item_id = items[item].id
+            # Parse the quantity into a low and high value.
+            if isinstance(quantity, int) or "-" not in quantity:
+                # Single value, simple.
+                quantity_low = quantity_high = int(quantity)
+            else:
+                quantity_low, quantity_high = quantity.split("-")
+                quantity_low = int(quantity_low)
+                if quantity_high == "?":
+                    quantity_high = None
+                else:
+                    quantity_high = int(quantity_high)
+            locksmith_items.append(
+                {
+                    "box": box_id,
+                    "group": group,
+                    "item": item_id,
+                    "quantityLow": quantity_low,
+                    "quantityHigh": quantity_high,
+                }
+            )
+    return sorted(locksmith_items, key=lambda i: (i["box"], i["group"], i["item"]))
+
+
+GEN_FIXTURES = {
+    "drop_rates": gen_drop_rates,
+    "drop_rates_gql": gen_drop_rates_gql,
+    "item_drop_mode": gen_item_drop_mode,
+    "questlines": gen_questlines,
+    "quest_extra": gen_quest_extra,
+    "wishing_well": gen_wishing_well,
+    "locksmith_boxes": gen_locksmith_boxes,
+    "locksmith_items": gen_locksmith_items,
+}
+
+
+def cmd_fixutres(gen: list[str] = []):
+    data_root = Path(__file__) / ".." / ".." / "data"
+    # No inputs means do all.
+    if not gen:
+        gen = list(GEN_FIXTURES.keys())
+    for name in gen:
+        fixture_path = data_root / f"{name}.json"
+        fixture_data = GEN_FIXTURES[name]()
+        json.dump(
+            fixture_data,
+            fixture_path.resolve().open("w"),
+            indent=2,
+            sort_keys=True,
+        )
+
+
+if __name__ == "__main__":
+    import typer
+
+    typer.run(cmd_fixutres)

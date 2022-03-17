@@ -1,0 +1,1353 @@
+[
+  {
+    "box": "329",
+    "group": 0,
+    "item": "123",
+    "quantityHigh": 50,
+    "quantityLow": 50
+  },
+  {
+    "box": "329",
+    "group": 1,
+    "item": "44",
+    "quantityHigh": 25,
+    "quantityLow": 25
+  },
+  {
+    "box": "329",
+    "group": 2,
+    "item": "120",
+    "quantityHigh": 25,
+    "quantityLow": 25
+  },
+  {
+    "box": "329",
+    "group": 3,
+    "item": "62",
+    "quantityHigh": 25,
+    "quantityLow": 25
+  },
+  {
+    "box": "329",
+    "group": 4,
+    "item": "61",
+    "quantityHigh": 25,
+    "quantityLow": 25
+  },
+  {
+    "box": "330",
+    "group": 0,
+    "item": "107",
+    "quantityHigh": null,
+    "quantityLow": 1
+  },
+  {
+    "box": "330",
+    "group": 0,
+    "item": "113",
+    "quantityHigh": null,
+    "quantityLow": 1
+  },
+  {
+    "box": "330",
+    "group": 0,
+    "item": "187",
+    "quantityHigh": null,
+    "quantityLow": 1
+  },
+  {
+    "box": "330",
+    "group": 0,
+    "item": "189",
+    "quantityHigh": null,
+    "quantityLow": 1
+  },
+  {
+    "box": "330",
+    "group": 0,
+    "item": "41",
+    "quantityHigh": null,
+    "quantityLow": 1
+  },
+  {
+    "box": "330",
+    "group": 0,
+    "item": "43",
+    "quantityHigh": null,
+    "quantityLow": 1
+  },
+  {
+    "box": "330",
+    "group": 0,
+    "item": "48",
+    "quantityHigh": null,
+    "quantityLow": 1
+  },
+  {
+    "box": "330",
+    "group": 0,
+    "item": "63",
+    "quantityHigh": null,
+    "quantityLow": 1
+  },
+  {
+    "box": "332",
+    "group": 0,
+    "item": "54",
+    "quantityHigh": 10,
+    "quantityLow": 10
+  },
+  {
+    "box": "332",
+    "group": 1,
+    "item": "41",
+    "quantityHigh": 10,
+    "quantityLow": 10
+  },
+  {
+    "box": "332",
+    "group": 2,
+    "item": "143",
+    "quantityHigh": 10,
+    "quantityLow": 10
+  },
+  {
+    "box": "332",
+    "group": 3,
+    "item": "264",
+    "quantityHigh": 10,
+    "quantityLow": 10
+  },
+  {
+    "box": "332",
+    "group": 4,
+    "item": "80",
+    "quantityHigh": 10,
+    "quantityLow": 10
+  },
+  {
+    "box": "332",
+    "group": 5,
+    "item": "94",
+    "quantityHigh": 10,
+    "quantityLow": 10
+  },
+  {
+    "box": "333",
+    "group": 0,
+    "item": "36",
+    "quantityHigh": 10,
+    "quantityLow": 10
+  },
+  {
+    "box": "333",
+    "group": 1,
+    "item": "170",
+    "quantityHigh": 10,
+    "quantityLow": 10
+  },
+  {
+    "box": "333",
+    "group": 2,
+    "item": "78",
+    "quantityHigh": 10,
+    "quantityLow": 10
+  },
+  {
+    "box": "333",
+    "group": 3,
+    "item": "110",
+    "quantityHigh": 10,
+    "quantityLow": 10
+  },
+  {
+    "box": "333",
+    "group": 4,
+    "item": "193",
+    "quantityHigh": 10,
+    "quantityLow": 10
+  },
+  {
+    "box": "334",
+    "group": 0,
+    "item": "123",
+    "quantityHigh": null,
+    "quantityLow": 1
+  },
+  {
+    "box": "334",
+    "group": 0,
+    "item": "164",
+    "quantityHigh": null,
+    "quantityLow": 1
+  },
+  {
+    "box": "334",
+    "group": 0,
+    "item": "170",
+    "quantityHigh": null,
+    "quantityLow": 1
+  },
+  {
+    "box": "334",
+    "group": 0,
+    "item": "199",
+    "quantityHigh": null,
+    "quantityLow": 1
+  },
+  {
+    "box": "334",
+    "group": 0,
+    "item": "277",
+    "quantityHigh": null,
+    "quantityLow": 1
+  },
+  {
+    "box": "334",
+    "group": 0,
+    "item": "282",
+    "quantityHigh": null,
+    "quantityLow": 1
+  },
+  {
+    "box": "334",
+    "group": 0,
+    "item": "284",
+    "quantityHigh": null,
+    "quantityLow": 1
+  },
+  {
+    "box": "334",
+    "group": 0,
+    "item": "286",
+    "quantityHigh": null,
+    "quantityLow": 1
+  },
+  {
+    "box": "334",
+    "group": 0,
+    "item": "287",
+    "quantityHigh": null,
+    "quantityLow": 1
+  },
+  {
+    "box": "334",
+    "group": 0,
+    "item": "45",
+    "quantityHigh": null,
+    "quantityLow": 1
+  },
+  {
+    "box": "336",
+    "group": 0,
+    "item": "123",
+    "quantityHigh": 50,
+    "quantityLow": 50
+  },
+  {
+    "box": "336",
+    "group": 1,
+    "item": "44",
+    "quantityHigh": 100,
+    "quantityLow": 100
+  },
+  {
+    "box": "336",
+    "group": 2,
+    "item": "112",
+    "quantityHigh": 1,
+    "quantityLow": 1
+  },
+  {
+    "box": "337",
+    "group": 0,
+    "item": "126",
+    "quantityHigh": 5,
+    "quantityLow": 5
+  },
+  {
+    "box": "337",
+    "group": 1,
+    "item": "125",
+    "quantityHigh": 5,
+    "quantityLow": 5
+  },
+  {
+    "box": "337",
+    "group": 2,
+    "item": "146",
+    "quantityHigh": 5,
+    "quantityLow": 5
+  },
+  {
+    "box": "337",
+    "group": 3,
+    "item": "96",
+    "quantityHigh": 5,
+    "quantityLow": 5
+  },
+  {
+    "box": "337",
+    "group": 4,
+    "item": "249",
+    "quantityHigh": 5,
+    "quantityLow": 5
+  },
+  {
+    "box": "344",
+    "group": 0,
+    "item": "123",
+    "quantityHigh": 20,
+    "quantityLow": 20
+  },
+  {
+    "box": "344",
+    "group": 1,
+    "item": "242",
+    "quantityHigh": 1,
+    "quantityLow": 1
+  },
+  {
+    "box": "344",
+    "group": 2,
+    "item": "197",
+    "quantityHigh": 3,
+    "quantityLow": 3
+  },
+  {
+    "box": "346",
+    "group": 0,
+    "item": "123",
+    "quantityHigh": 100,
+    "quantityLow": 100
+  },
+  {
+    "box": "346",
+    "group": 1,
+    "item": "143",
+    "quantityHigh": 50,
+    "quantityLow": 50
+  },
+  {
+    "box": "346",
+    "group": 2,
+    "item": "264",
+    "quantityHigh": 50,
+    "quantityLow": 50
+  },
+  {
+    "box": "346",
+    "group": 3,
+    "item": "100",
+    "quantityHigh": 50,
+    "quantityLow": 50
+  },
+  {
+    "box": "346",
+    "group": 4,
+    "item": "94",
+    "quantityHigh": 50,
+    "quantityLow": 50
+  },
+  {
+    "box": "346",
+    "group": 5,
+    "item": "248",
+    "quantityHigh": 50,
+    "quantityLow": 50
+  },
+  {
+    "box": "360",
+    "group": 0,
+    "item": "44",
+    "quantityHigh": 3,
+    "quantityLow": 3
+  },
+  {
+    "box": "360",
+    "group": 1,
+    "item": "359",
+    "quantityHigh": 5,
+    "quantityLow": 5
+  },
+  {
+    "box": "360",
+    "group": 2,
+    "item": "358",
+    "quantityHigh": 5,
+    "quantityLow": 5
+  },
+  {
+    "box": "360",
+    "group": 3,
+    "item": "242",
+    "quantityHigh": 1,
+    "quantityLow": 1
+  },
+  {
+    "box": "363",
+    "group": 0,
+    "item": "215",
+    "quantityHigh": 2,
+    "quantityLow": 2
+  },
+  {
+    "box": "363",
+    "group": 1,
+    "item": "236",
+    "quantityHigh": 1,
+    "quantityLow": 1
+  },
+  {
+    "box": "363",
+    "group": 2,
+    "item": "342",
+    "quantityHigh": 3,
+    "quantityLow": 3
+  },
+  {
+    "box": "363",
+    "group": 3,
+    "item": "339",
+    "quantityHigh": 8,
+    "quantityLow": 8
+  },
+  {
+    "box": "363",
+    "group": 4,
+    "item": "251",
+    "quantityHigh": 2,
+    "quantityLow": 2
+  },
+  {
+    "box": "363",
+    "group": 5,
+    "item": "145",
+    "quantityHigh": 5,
+    "quantityLow": 5
+  },
+  {
+    "box": "364",
+    "group": 0,
+    "item": "362",
+    "quantityHigh": 1,
+    "quantityLow": 1
+  },
+  {
+    "box": "364",
+    "group": 1,
+    "item": "358",
+    "quantityHigh": 5,
+    "quantityLow": 5
+  },
+  {
+    "box": "364",
+    "group": 2,
+    "item": "359",
+    "quantityHigh": 5,
+    "quantityLow": 5
+  },
+  {
+    "box": "364",
+    "group": 3,
+    "item": "277",
+    "quantityHigh": 24,
+    "quantityLow": 24
+  },
+  {
+    "box": "372",
+    "group": 0,
+    "item": "370",
+    "quantityHigh": 3,
+    "quantityLow": 3
+  },
+  {
+    "box": "372",
+    "group": 1,
+    "item": "335",
+    "quantityHigh": 1,
+    "quantityLow": 1
+  },
+  {
+    "box": "372",
+    "group": 2,
+    "item": "356",
+    "quantityHigh": 1,
+    "quantityLow": 1
+  },
+  {
+    "box": "372",
+    "group": 3,
+    "item": "123",
+    "quantityHigh": 10,
+    "quantityLow": 10
+  },
+  {
+    "box": "377",
+    "group": 0,
+    "item": "44",
+    "quantityHigh": 10,
+    "quantityLow": 10
+  },
+  {
+    "box": "377",
+    "group": 1,
+    "item": "65",
+    "quantityHigh": 5,
+    "quantityLow": 5
+  },
+  {
+    "box": "377",
+    "group": 2,
+    "item": "281",
+    "quantityHigh": 3,
+    "quantityLow": 3
+  },
+  {
+    "box": "377",
+    "group": 3,
+    "item": "120",
+    "quantityHigh": 10,
+    "quantityLow": 10
+  },
+  {
+    "box": "377",
+    "group": 4,
+    "item": "61",
+    "quantityHigh": 10,
+    "quantityLow": 10
+  },
+  {
+    "box": "377",
+    "group": 5,
+    "item": "69",
+    "quantityHigh": 1,
+    "quantityLow": 1
+  },
+  {
+    "box": "377",
+    "group": 6,
+    "item": "71",
+    "quantityHigh": 3,
+    "quantityLow": 3
+  },
+  {
+    "box": "396",
+    "group": 0,
+    "item": "157",
+    "quantityHigh": null,
+    "quantityLow": 1
+  },
+  {
+    "box": "396",
+    "group": 0,
+    "item": "159",
+    "quantityHigh": null,
+    "quantityLow": 1
+  },
+  {
+    "box": "396",
+    "group": 0,
+    "item": "161",
+    "quantityHigh": null,
+    "quantityLow": 1
+  },
+  {
+    "box": "396",
+    "group": 0,
+    "item": "172",
+    "quantityHigh": null,
+    "quantityLow": 1
+  },
+  {
+    "box": "396",
+    "group": 0,
+    "item": "189",
+    "quantityHigh": null,
+    "quantityLow": 1
+  },
+  {
+    "box": "396",
+    "group": 0,
+    "item": "262",
+    "quantityHigh": null,
+    "quantityLow": 1
+  },
+  {
+    "box": "396",
+    "group": 0,
+    "item": "281",
+    "quantityHigh": null,
+    "quantityLow": 1
+  },
+  {
+    "box": "397",
+    "group": 0,
+    "item": "147",
+    "quantityHigh": 2,
+    "quantityLow": 1
+  },
+  {
+    "box": "397",
+    "group": 0,
+    "item": "148",
+    "quantityHigh": 2,
+    "quantityLow": 1
+  },
+  {
+    "box": "397",
+    "group": 0,
+    "item": "149",
+    "quantityHigh": 2,
+    "quantityLow": 1
+  },
+  {
+    "box": "397",
+    "group": 0,
+    "item": "150",
+    "quantityHigh": 2,
+    "quantityLow": 1
+  },
+  {
+    "box": "397",
+    "group": 0,
+    "item": "151",
+    "quantityHigh": 2,
+    "quantityLow": 1
+  },
+  {
+    "box": "397",
+    "group": 0,
+    "item": "152",
+    "quantityHigh": 2,
+    "quantityLow": 1
+  },
+  {
+    "box": "397",
+    "group": 0,
+    "item": "153",
+    "quantityHigh": 2,
+    "quantityLow": 1
+  },
+  {
+    "box": "397",
+    "group": 0,
+    "item": "154",
+    "quantityHigh": 2,
+    "quantityLow": 1
+  },
+  {
+    "box": "397",
+    "group": 0,
+    "item": "155",
+    "quantityHigh": 2,
+    "quantityLow": 1
+  },
+  {
+    "box": "397",
+    "group": 0,
+    "item": "156",
+    "quantityHigh": 2,
+    "quantityLow": 1
+  },
+  {
+    "box": "398",
+    "group": 0,
+    "item": "221",
+    "quantityHigh": 2,
+    "quantityLow": 1
+  },
+  {
+    "box": "398",
+    "group": 0,
+    "item": "222",
+    "quantityHigh": 2,
+    "quantityLow": 1
+  },
+  {
+    "box": "398",
+    "group": 0,
+    "item": "223",
+    "quantityHigh": 2,
+    "quantityLow": 1
+  },
+  {
+    "box": "398",
+    "group": 0,
+    "item": "224",
+    "quantityHigh": 2,
+    "quantityLow": 1
+  },
+  {
+    "box": "398",
+    "group": 0,
+    "item": "225",
+    "quantityHigh": 2,
+    "quantityLow": 1
+  },
+  {
+    "box": "398",
+    "group": 0,
+    "item": "226",
+    "quantityHigh": 2,
+    "quantityLow": 1
+  },
+  {
+    "box": "398",
+    "group": 0,
+    "item": "227",
+    "quantityHigh": 2,
+    "quantityLow": 1
+  },
+  {
+    "box": "398",
+    "group": 0,
+    "item": "228",
+    "quantityHigh": 2,
+    "quantityLow": 1
+  },
+  {
+    "box": "398",
+    "group": 0,
+    "item": "229",
+    "quantityHigh": 2,
+    "quantityLow": 1
+  },
+  {
+    "box": "398",
+    "group": 0,
+    "item": "230",
+    "quantityHigh": 2,
+    "quantityLow": 1
+  },
+  {
+    "box": "419",
+    "group": 0,
+    "item": "44",
+    "quantityHigh": 3,
+    "quantityLow": 3
+  },
+  {
+    "box": "419",
+    "group": 1,
+    "item": "401",
+    "quantityHigh": 3,
+    "quantityLow": 3
+  },
+  {
+    "box": "419",
+    "group": 2,
+    "item": "426",
+    "quantityHigh": 3,
+    "quantityLow": 3
+  },
+  {
+    "box": "419",
+    "group": 3,
+    "item": "446",
+    "quantityHigh": 1,
+    "quantityLow": 1
+  },
+  {
+    "box": "429",
+    "group": 0,
+    "item": "84",
+    "quantityHigh": 20,
+    "quantityLow": 20
+  },
+  {
+    "box": "429",
+    "group": 1,
+    "item": "86",
+    "quantityHigh": 20,
+    "quantityLow": 20
+  },
+  {
+    "box": "430",
+    "group": 0,
+    "item": "242",
+    "quantityHigh": 30,
+    "quantityLow": 30
+  },
+  {
+    "box": "430",
+    "group": 1,
+    "item": "44",
+    "quantityHigh": 30,
+    "quantityLow": 30
+  },
+  {
+    "box": "430",
+    "group": 2,
+    "item": "194",
+    "quantityHigh": 30,
+    "quantityLow": 30
+  },
+  {
+    "box": "431",
+    "group": 0,
+    "item": "187",
+    "quantityHigh": 40,
+    "quantityLow": 40
+  },
+  {
+    "box": "431",
+    "group": 1,
+    "item": "170",
+    "quantityHigh": 40,
+    "quantityLow": 40
+  },
+  {
+    "box": "431",
+    "group": 2,
+    "item": "65",
+    "quantityHigh": 40,
+    "quantityLow": 40
+  },
+  {
+    "box": "431",
+    "group": 3,
+    "item": "46",
+    "quantityHigh": 40,
+    "quantityLow": 40
+  },
+  {
+    "box": "432",
+    "group": 0,
+    "item": "123",
+    "quantityHigh": 50,
+    "quantityLow": 50
+  },
+  {
+    "box": "432",
+    "group": 1,
+    "item": "426",
+    "quantityHigh": 50,
+    "quantityLow": 50
+  },
+  {
+    "box": "432",
+    "group": 2,
+    "item": "194",
+    "quantityHigh": 50,
+    "quantityLow": 50
+  },
+  {
+    "box": "432",
+    "group": 3,
+    "item": "86",
+    "quantityHigh": 50,
+    "quantityLow": 50
+  },
+  {
+    "box": "432",
+    "group": 4,
+    "item": "84",
+    "quantityHigh": 50,
+    "quantityLow": 50
+  },
+  {
+    "box": "433",
+    "group": 0,
+    "item": "19",
+    "quantityHigh": 60,
+    "quantityLow": 60
+  },
+  {
+    "box": "433",
+    "group": 1,
+    "item": "29",
+    "quantityHigh": 60,
+    "quantityLow": 60
+  },
+  {
+    "box": "433",
+    "group": 2,
+    "item": "13",
+    "quantityHigh": 60,
+    "quantityLow": 60
+  },
+  {
+    "box": "433",
+    "group": 3,
+    "item": "27",
+    "quantityHigh": 60,
+    "quantityLow": 60
+  },
+  {
+    "box": "433",
+    "group": 4,
+    "item": "11",
+    "quantityHigh": 60,
+    "quantityLow": 60
+  },
+  {
+    "box": "433",
+    "group": 5,
+    "item": "31",
+    "quantityHigh": 60,
+    "quantityLow": 60
+  },
+  {
+    "box": "435",
+    "group": 0,
+    "item": "133",
+    "quantityHigh": 80,
+    "quantityLow": 80
+  },
+  {
+    "box": "435",
+    "group": 1,
+    "item": "99",
+    "quantityHigh": 80,
+    "quantityLow": 80
+  },
+  {
+    "box": "435",
+    "group": 2,
+    "item": "101",
+    "quantityHigh": 80,
+    "quantityLow": 80
+  },
+  {
+    "box": "435",
+    "group": 3,
+    "item": "173",
+    "quantityHigh": 80,
+    "quantityLow": 80
+  },
+  {
+    "box": "435",
+    "group": 4,
+    "item": "119",
+    "quantityHigh": 80,
+    "quantityLow": 80
+  },
+  {
+    "box": "435",
+    "group": 5,
+    "item": "100",
+    "quantityHigh": 80,
+    "quantityLow": 80
+  },
+  {
+    "box": "435",
+    "group": 6,
+    "item": "141",
+    "quantityHigh": 80,
+    "quantityLow": 80
+  },
+  {
+    "box": "435",
+    "group": 7,
+    "item": "98",
+    "quantityHigh": 80,
+    "quantityLow": 80
+  },
+  {
+    "box": "436",
+    "group": 0,
+    "item": "15",
+    "quantityHigh": 90,
+    "quantityLow": 90
+  },
+  {
+    "box": "436",
+    "group": 1,
+    "item": "53",
+    "quantityHigh": 90,
+    "quantityLow": 90
+  },
+  {
+    "box": "436",
+    "group": 2,
+    "item": "63",
+    "quantityHigh": 90,
+    "quantityLow": 90
+  },
+  {
+    "box": "436",
+    "group": 3,
+    "item": "75",
+    "quantityHigh": 90,
+    "quantityLow": 90
+  },
+  {
+    "box": "436",
+    "group": 4,
+    "item": "85",
+    "quantityHigh": 90,
+    "quantityLow": 90
+  },
+  {
+    "box": "436",
+    "group": 5,
+    "item": "123",
+    "quantityHigh": 90,
+    "quantityLow": 90
+  },
+  {
+    "box": "436",
+    "group": 6,
+    "item": "170",
+    "quantityHigh": 90,
+    "quantityLow": 90
+  },
+  {
+    "box": "436",
+    "group": 7,
+    "item": "326",
+    "quantityHigh": 90,
+    "quantityLow": 90
+  },
+  {
+    "box": "436",
+    "group": 8,
+    "item": "412",
+    "quantityHigh": 90,
+    "quantityLow": 90
+  },
+  {
+    "box": "437",
+    "group": 0,
+    "item": "41",
+    "quantityHigh": 100,
+    "quantityLow": 100
+  },
+  {
+    "box": "437",
+    "group": 1,
+    "item": "43",
+    "quantityHigh": 100,
+    "quantityLow": 100
+  },
+  {
+    "box": "437",
+    "group": 2,
+    "item": "44",
+    "quantityHigh": 100,
+    "quantityLow": 100
+  },
+  {
+    "box": "437",
+    "group": 3,
+    "item": "61",
+    "quantityHigh": 100,
+    "quantityLow": 100
+  },
+  {
+    "box": "437",
+    "group": 4,
+    "item": "62",
+    "quantityHigh": 100,
+    "quantityLow": 100
+  },
+  {
+    "box": "437",
+    "group": 5,
+    "item": "94",
+    "quantityHigh": 100,
+    "quantityLow": 100
+  },
+  {
+    "box": "437",
+    "group": 6,
+    "item": "110",
+    "quantityHigh": 100,
+    "quantityLow": 100
+  },
+  {
+    "box": "437",
+    "group": 7,
+    "item": "120",
+    "quantityHigh": 100,
+    "quantityLow": 100
+  },
+  {
+    "box": "437",
+    "group": 8,
+    "item": "282",
+    "quantityHigh": 100,
+    "quantityLow": 100
+  },
+  {
+    "box": "437",
+    "group": 9,
+    "item": "285",
+    "quantityHigh": 100,
+    "quantityLow": 100
+  },
+  {
+    "box": "438",
+    "group": 0,
+    "item": "112",
+    "quantityHigh": 11,
+    "quantityLow": 11
+  },
+  {
+    "box": "438",
+    "group": 1,
+    "item": "137",
+    "quantityHigh": 11,
+    "quantityLow": 11
+  },
+  {
+    "box": "438",
+    "group": 2,
+    "item": "197",
+    "quantityHigh": 11,
+    "quantityLow": 11
+  },
+  {
+    "box": "438",
+    "group": 3,
+    "item": "121",
+    "quantityHigh": 11,
+    "quantityLow": 11
+  },
+  {
+    "box": "453",
+    "group": 0,
+    "item": "112",
+    "quantityHigh": null,
+    "quantityLow": 1
+  },
+  {
+    "box": "453",
+    "group": 0,
+    "item": "121",
+    "quantityHigh": null,
+    "quantityLow": 1
+  },
+  {
+    "box": "453",
+    "group": 0,
+    "item": "123",
+    "quantityHigh": null,
+    "quantityLow": 1
+  },
+  {
+    "box": "453",
+    "group": 0,
+    "item": "137",
+    "quantityHigh": null,
+    "quantityLow": 1
+  },
+  {
+    "box": "453",
+    "group": 0,
+    "item": "194",
+    "quantityHigh": null,
+    "quantityLow": 1
+  },
+  {
+    "box": "453",
+    "group": 0,
+    "item": "266",
+    "quantityHigh": null,
+    "quantityLow": 1
+  },
+  {
+    "box": "453",
+    "group": 0,
+    "item": "84",
+    "quantityHigh": null,
+    "quantityLow": 1
+  },
+  {
+    "box": "453",
+    "group": 0,
+    "item": "86",
+    "quantityHigh": null,
+    "quantityLow": 1
+  },
+  {
+    "box": "483",
+    "group": 0,
+    "item": "44",
+    "quantityHigh": 5,
+    "quantityLow": 5
+  },
+  {
+    "box": "483",
+    "group": 1,
+    "item": "316",
+    "quantityHigh": 1,
+    "quantityLow": 1
+  },
+  {
+    "box": "483",
+    "group": 2,
+    "item": "112",
+    "quantityHigh": 1,
+    "quantityLow": 1
+  },
+  {
+    "box": "483",
+    "group": 3,
+    "item": "354",
+    "quantityHigh": 1,
+    "quantityLow": 1
+  },
+  {
+    "box": "483",
+    "group": 4,
+    "item": "121",
+    "quantityHigh": 1,
+    "quantityLow": 1
+  },
+  {
+    "box": "490",
+    "group": 0,
+    "item": "44",
+    "quantityHigh": 100,
+    "quantityLow": 100
+  },
+  {
+    "box": "490",
+    "group": 1,
+    "item": "61",
+    "quantityHigh": 100,
+    "quantityLow": 100
+  },
+  {
+    "box": "490",
+    "group": 2,
+    "item": "62",
+    "quantityHigh": 100,
+    "quantityLow": 100
+  },
+  {
+    "box": "490",
+    "group": 3,
+    "item": "120",
+    "quantityHigh": 100,
+    "quantityLow": 100
+  },
+  {
+    "box": "490",
+    "group": 4,
+    "item": "123",
+    "quantityHigh": 100,
+    "quantityLow": 100
+  },
+  {
+    "box": "490",
+    "group": 5,
+    "item": "194",
+    "quantityHigh": 100,
+    "quantityLow": 100
+  },
+  {
+    "box": "491",
+    "group": 0,
+    "item": "457",
+    "quantityHigh": 5,
+    "quantityLow": 1
+  },
+  {
+    "box": "491",
+    "group": 0,
+    "item": "458",
+    "quantityHigh": 5,
+    "quantityLow": 1
+  },
+  {
+    "box": "491",
+    "group": 0,
+    "item": "459",
+    "quantityHigh": 5,
+    "quantityLow": 1
+  },
+  {
+    "box": "491",
+    "group": 0,
+    "item": "460",
+    "quantityHigh": 5,
+    "quantityLow": 1
+  },
+  {
+    "box": "491",
+    "group": 0,
+    "item": "461",
+    "quantityHigh": 5,
+    "quantityLow": 1
+  },
+  {
+    "box": "491",
+    "group": 0,
+    "item": "462",
+    "quantityHigh": 5,
+    "quantityLow": 1
+  },
+  {
+    "box": "491",
+    "group": 0,
+    "item": "463",
+    "quantityHigh": 5,
+    "quantityLow": 1
+  },
+  {
+    "box": "491",
+    "group": 0,
+    "item": "464",
+    "quantityHigh": 5,
+    "quantityLow": 1
+  },
+  {
+    "box": "491",
+    "group": 0,
+    "item": "465",
+    "quantityHigh": 5,
+    "quantityLow": 1
+  },
+  {
+    "box": "491",
+    "group": 0,
+    "item": "466",
+    "quantityHigh": 5,
+    "quantityLow": 1
+  },
+  {
+    "box": "494",
+    "group": 0,
+    "item": "187",
+    "quantityHigh": 10,
+    "quantityLow": 10
+  },
+  {
+    "box": "494",
+    "group": 1,
+    "item": "188",
+    "quantityHigh": 3,
+    "quantityLow": 3
+  },
+  {
+    "box": "494",
+    "group": 2,
+    "item": "44",
+    "quantityHigh": 20,
+    "quantityLow": 20
+  },
+  {
+    "box": "494",
+    "group": 3,
+    "item": "349",
+    "quantityHigh": 2,
+    "quantityLow": 2
+  },
+  {
+    "box": "494",
+    "group": 4,
+    "item": "46",
+    "quantityHigh": 15,
+    "quantityLow": 15
+  },
+  {
+    "box": "494",
+    "group": 5,
+    "item": "84",
+    "quantityHigh": 10,
+    "quantityLow": 10
+  }
+]

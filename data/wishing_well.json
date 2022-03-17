@@ -1,0 +1,1512 @@
+[
+  {
+    "chance": "33%",
+    "input": "188",
+    "output": "135"
+  },
+  {
+    "chance": "33%",
+    "input": "188",
+    "output": "273"
+  },
+  {
+    "chance": "33%",
+    "input": "188",
+    "output": "214"
+  },
+  {
+    "chance": "8%",
+    "input": "123",
+    "output": "247"
+  },
+  {
+    "chance": "8%",
+    "input": "123",
+    "output": "215"
+  },
+  {
+    "chance": "8%",
+    "input": "123",
+    "output": "245"
+  },
+  {
+    "chance": "8%",
+    "input": "123",
+    "output": "259"
+  },
+  {
+    "chance": "8%",
+    "input": "123",
+    "output": "287"
+  },
+  {
+    "chance": "8%",
+    "input": "123",
+    "output": "207"
+  },
+  {
+    "chance": "8%",
+    "input": "123",
+    "output": "282"
+  },
+  {
+    "chance": "8%",
+    "input": "123",
+    "output": "342"
+  },
+  {
+    "chance": "8%",
+    "input": "123",
+    "output": "339"
+  },
+  {
+    "chance": "8%",
+    "input": "123",
+    "output": "284"
+  },
+  {
+    "chance": "8%",
+    "input": "123",
+    "output": "243"
+  },
+  {
+    "chance": "8%",
+    "input": "123",
+    "output": "354"
+  },
+  {
+    "chance": "8%",
+    "input": "123",
+    "output": "389"
+  },
+  {
+    "chance": "33%",
+    "input": "170",
+    "output": "108"
+  },
+  {
+    "chance": "33%",
+    "input": "170",
+    "output": "111"
+  },
+  {
+    "chance": "33%",
+    "input": "170",
+    "output": "289"
+  },
+  {
+    "chance": "33%",
+    "input": "379",
+    "output": "185"
+  },
+  {
+    "chance": "33%",
+    "input": "379",
+    "output": "86"
+  },
+  {
+    "chance": "33%",
+    "input": "379",
+    "output": "84"
+  },
+  {
+    "chance": "25%",
+    "input": "41",
+    "output": "54"
+  },
+  {
+    "chance": "25%",
+    "input": "41",
+    "output": "143"
+  },
+  {
+    "chance": "25%",
+    "input": "41",
+    "output": "80"
+  },
+  {
+    "chance": "25%",
+    "input": "41",
+    "output": "94"
+  },
+  {
+    "chance": "33%",
+    "input": "242",
+    "output": "172"
+  },
+  {
+    "chance": "33%",
+    "input": "242",
+    "output": "281"
+  },
+  {
+    "chance": "33%",
+    "input": "242",
+    "output": "176"
+  },
+  {
+    "chance": "25%",
+    "input": "358",
+    "output": "44"
+  },
+  {
+    "chance": "25%",
+    "input": "358",
+    "output": "359"
+  },
+  {
+    "chance": "25%",
+    "input": "358",
+    "output": "362"
+  },
+  {
+    "chance": "25%",
+    "input": "358",
+    "output": "370"
+  },
+  {
+    "chance": "25%",
+    "input": "361",
+    "output": "371"
+  },
+  {
+    "chance": "25%",
+    "input": "361",
+    "output": "359"
+  },
+  {
+    "chance": "25%",
+    "input": "361",
+    "output": "369"
+  },
+  {
+    "chance": "25%",
+    "input": "361",
+    "output": "370"
+  },
+  {
+    "chance": "33%",
+    "input": "247",
+    "output": "245"
+  },
+  {
+    "chance": "33%",
+    "input": "247",
+    "output": "246"
+  },
+  {
+    "chance": "33%",
+    "input": "247",
+    "output": "168"
+  },
+  {
+    "chance": "25%",
+    "input": "285",
+    "output": "286"
+  },
+  {
+    "chance": "25%",
+    "input": "285",
+    "output": "287"
+  },
+  {
+    "chance": "25%",
+    "input": "285",
+    "output": "282"
+  },
+  {
+    "chance": "25%",
+    "input": "285",
+    "output": "155"
+  },
+  {
+    "chance": "20%",
+    "input": "356",
+    "output": "358"
+  },
+  {
+    "chance": "20%",
+    "input": "356",
+    "output": "359"
+  },
+  {
+    "chance": "20%",
+    "input": "356",
+    "output": "360"
+  },
+  {
+    "chance": "20%",
+    "input": "356",
+    "output": "357"
+  },
+  {
+    "chance": "20%",
+    "input": "356",
+    "output": "370"
+  },
+  {
+    "chance": "25%",
+    "input": "215",
+    "output": "213"
+  },
+  {
+    "chance": "25%",
+    "input": "215",
+    "output": "273"
+  },
+  {
+    "chance": "25%",
+    "input": "215",
+    "output": "339"
+  },
+  {
+    "chance": "25%",
+    "input": "215",
+    "output": "214"
+  },
+  {
+    "chance": "33%",
+    "input": "475",
+    "output": "389"
+  },
+  {
+    "chance": "33%",
+    "input": "475",
+    "output": "478"
+  },
+  {
+    "chance": "33%",
+    "input": "475",
+    "output": "479"
+  },
+  {
+    "chance": "25%",
+    "input": "212",
+    "output": "273"
+  },
+  {
+    "chance": "25%",
+    "input": "212",
+    "output": "243"
+  },
+  {
+    "chance": "25%",
+    "input": "212",
+    "output": "280"
+  },
+  {
+    "chance": "25%",
+    "input": "212",
+    "output": "242"
+  },
+  {
+    "chance": "50%",
+    "input": "492",
+    "output": "455"
+  },
+  {
+    "chance": "50%",
+    "input": "492",
+    "output": "481"
+  },
+  {
+    "chance": "25%",
+    "input": "245",
+    "output": "177"
+  },
+  {
+    "chance": "25%",
+    "input": "245",
+    "output": "147"
+  },
+  {
+    "chance": "25%",
+    "input": "245",
+    "output": "148"
+  },
+  {
+    "chance": "25%",
+    "input": "245",
+    "output": "243"
+  },
+  {
+    "chance": "25%",
+    "input": "286",
+    "output": "285"
+  },
+  {
+    "chance": "25%",
+    "input": "286",
+    "output": "287"
+  },
+  {
+    "chance": "25%",
+    "input": "286",
+    "output": "283"
+  },
+  {
+    "chance": "25%",
+    "input": "286",
+    "output": "154"
+  },
+  {
+    "chance": "20%",
+    "input": "259",
+    "output": "342"
+  },
+  {
+    "chance": "20%",
+    "input": "259",
+    "output": "339"
+  },
+  {
+    "chance": "20%",
+    "input": "259",
+    "output": "251"
+  },
+  {
+    "chance": "20%",
+    "input": "259",
+    "output": "280"
+  },
+  {
+    "chance": "20%",
+    "input": "259",
+    "output": "246"
+  },
+  {
+    "chance": "33%",
+    "input": "479",
+    "output": "478"
+  },
+  {
+    "chance": "33%",
+    "input": "479",
+    "output": "389"
+  },
+  {
+    "chance": "33%",
+    "input": "479",
+    "output": "475"
+  },
+  {
+    "chance": "25%",
+    "input": "287",
+    "output": "283"
+  },
+  {
+    "chance": "25%",
+    "input": "287",
+    "output": "153"
+  },
+  {
+    "chance": "25%",
+    "input": "287",
+    "output": "282"
+  },
+  {
+    "chance": "25%",
+    "input": "287",
+    "output": "284"
+  },
+  {
+    "chance": "25%",
+    "input": "159",
+    "output": "189"
+  },
+  {
+    "chance": "25%",
+    "input": "159",
+    "output": "262"
+  },
+  {
+    "chance": "25%",
+    "input": "159",
+    "output": "161"
+  },
+  {
+    "chance": "25%",
+    "input": "159",
+    "output": "168"
+  },
+  {
+    "chance": "33%",
+    "input": "458",
+    "output": "463"
+  },
+  {
+    "chance": "33%",
+    "input": "458",
+    "output": "466"
+  },
+  {
+    "chance": "33%",
+    "input": "458",
+    "output": "455"
+  },
+  {
+    "chance": "50%",
+    "input": "459",
+    "output": "456"
+  },
+  {
+    "chance": "50%",
+    "input": "459",
+    "output": "461"
+  },
+  {
+    "chance": "33%",
+    "input": "189",
+    "output": "242"
+  },
+  {
+    "chance": "33%",
+    "input": "189",
+    "output": "159"
+  },
+  {
+    "chance": "33%",
+    "input": "189",
+    "output": "262"
+  },
+  {
+    "chance": "33%",
+    "input": "460",
+    "output": "457"
+  },
+  {
+    "chance": "33%",
+    "input": "460",
+    "output": "458"
+  },
+  {
+    "chance": "33%",
+    "input": "460",
+    "output": "456"
+  },
+  {
+    "chance": "25%",
+    "input": "262",
+    "output": "281"
+  },
+  {
+    "chance": "25%",
+    "input": "262",
+    "output": "159"
+  },
+  {
+    "chance": "25%",
+    "input": "262",
+    "output": "161"
+  },
+  {
+    "chance": "25%",
+    "input": "262",
+    "output": "242"
+  },
+  {
+    "chance": "33%",
+    "input": "172",
+    "output": "242"
+  },
+  {
+    "chance": "33%",
+    "input": "172",
+    "output": "281"
+  },
+  {
+    "chance": "33%",
+    "input": "172",
+    "output": "151"
+  },
+  {
+    "chance": "33%",
+    "input": "462",
+    "output": "465"
+  },
+  {
+    "chance": "33%",
+    "input": "462",
+    "output": "463"
+  },
+  {
+    "chance": "33%",
+    "input": "462",
+    "output": "458"
+  },
+  {
+    "chance": "25%",
+    "input": "281",
+    "output": "242"
+  },
+  {
+    "chance": "25%",
+    "input": "281",
+    "output": "172"
+  },
+  {
+    "chance": "25%",
+    "input": "281",
+    "output": "176"
+  },
+  {
+    "chance": "25%",
+    "input": "281",
+    "output": "153"
+  },
+  {
+    "chance": "25%",
+    "input": "161",
+    "output": "189"
+  },
+  {
+    "chance": "25%",
+    "input": "161",
+    "output": "262"
+  },
+  {
+    "chance": "25%",
+    "input": "161",
+    "output": "157"
+  },
+  {
+    "chance": "25%",
+    "input": "161",
+    "output": "172"
+  },
+  {
+    "chance": "20%",
+    "input": "157",
+    "output": "159"
+  },
+  {
+    "chance": "20%",
+    "input": "157",
+    "output": "189"
+  },
+  {
+    "chance": "20%",
+    "input": "157",
+    "output": "262"
+  },
+  {
+    "chance": "20%",
+    "input": "157",
+    "output": "161"
+  },
+  {
+    "chance": "20%",
+    "input": "157",
+    "output": "147"
+  },
+  {
+    "chance": "33%",
+    "input": "465",
+    "output": "461"
+  },
+  {
+    "chance": "33%",
+    "input": "465",
+    "output": "462"
+  },
+  {
+    "chance": "33%",
+    "input": "465",
+    "output": "459"
+  },
+  {
+    "chance": "33%",
+    "input": "457",
+    "output": "463"
+  },
+  {
+    "chance": "33%",
+    "input": "457",
+    "output": "464"
+  },
+  {
+    "chance": "33%",
+    "input": "457",
+    "output": "462"
+  },
+  {
+    "chance": "50%",
+    "input": "461",
+    "output": "457"
+  },
+  {
+    "chance": "50%",
+    "input": "461",
+    "output": "458"
+  },
+  {
+    "chance": "33%",
+    "input": "463",
+    "output": "466"
+  },
+  {
+    "chance": "33%",
+    "input": "463",
+    "output": "458"
+  },
+  {
+    "chance": "33%",
+    "input": "463",
+    "output": "461"
+  },
+  {
+    "chance": "50%",
+    "input": "466",
+    "output": "463"
+  },
+  {
+    "chance": "50%",
+    "input": "466",
+    "output": "465"
+  },
+  {
+    "chance": "33%",
+    "input": "351",
+    "output": "361"
+  },
+  {
+    "chance": "33%",
+    "input": "351",
+    "output": "356"
+  },
+  {
+    "chance": "33%",
+    "input": "351",
+    "output": "354"
+  },
+  {
+    "chance": "17%",
+    "input": "349",
+    "output": "250"
+  },
+  {
+    "chance": "17%",
+    "input": "349",
+    "output": "138"
+  },
+  {
+    "chance": "17%",
+    "input": "349",
+    "output": "232"
+  },
+  {
+    "chance": "17%",
+    "input": "349",
+    "output": "207"
+  },
+  {
+    "chance": "17%",
+    "input": "349",
+    "output": "465"
+  },
+  {
+    "chance": "17%",
+    "input": "349",
+    "output": "65"
+  },
+  {
+    "chance": "25%",
+    "input": "283",
+    "output": "287"
+  },
+  {
+    "chance": "25%",
+    "input": "283",
+    "output": "286"
+  },
+  {
+    "chance": "25%",
+    "input": "283",
+    "output": "152"
+  },
+  {
+    "chance": "25%",
+    "input": "283",
+    "output": "282"
+  },
+  {
+    "chance": "25%",
+    "input": "355",
+    "output": "361"
+  },
+  {
+    "chance": "25%",
+    "input": "355",
+    "output": "371"
+  },
+  {
+    "chance": "25%",
+    "input": "355",
+    "output": "271"
+  },
+  {
+    "chance": "25%",
+    "input": "355",
+    "output": "362"
+  },
+  {
+    "chance": "25%",
+    "input": "264",
+    "output": "54"
+  },
+  {
+    "chance": "25%",
+    "input": "264",
+    "output": "41"
+  },
+  {
+    "chance": "25%",
+    "input": "264",
+    "output": "178"
+  },
+  {
+    "chance": "25%",
+    "input": "264",
+    "output": "94"
+  },
+  {
+    "chance": "33%",
+    "input": "359",
+    "output": "358"
+  },
+  {
+    "chance": "33%",
+    "input": "359",
+    "output": "362"
+  },
+  {
+    "chance": "33%",
+    "input": "359",
+    "output": "370"
+  },
+  {
+    "chance": "25%",
+    "input": "176",
+    "output": "281"
+  },
+  {
+    "chance": "25%",
+    "input": "176",
+    "output": "147"
+  },
+  {
+    "chance": "25%",
+    "input": "176",
+    "output": "148"
+  },
+  {
+    "chance": "25%",
+    "input": "176",
+    "output": "168"
+  },
+  {
+    "chance": "25%",
+    "input": "177",
+    "output": "147"
+  },
+  {
+    "chance": "25%",
+    "input": "177",
+    "output": "148"
+  },
+  {
+    "chance": "25%",
+    "input": "177",
+    "output": "153"
+  },
+  {
+    "chance": "25%",
+    "input": "177",
+    "output": "168"
+  },
+  {
+    "chance": "33%",
+    "input": "346",
+    "output": "347"
+  },
+  {
+    "chance": "33%",
+    "input": "346",
+    "output": "335"
+  },
+  {
+    "chance": "33%",
+    "input": "346",
+    "output": "331"
+  },
+  {
+    "chance": "33%",
+    "input": "363",
+    "output": "347"
+  },
+  {
+    "chance": "33%",
+    "input": "363",
+    "output": "335"
+  },
+  {
+    "chance": "33%",
+    "input": "363",
+    "output": "331"
+  },
+  {
+    "chance": "33%",
+    "input": "116",
+    "output": "188"
+  },
+  {
+    "chance": "33%",
+    "input": "116",
+    "output": "123"
+  },
+  {
+    "chance": "33%",
+    "input": "116",
+    "output": "117"
+  },
+  {
+    "chance": "33%",
+    "input": "389",
+    "output": "479"
+  },
+  {
+    "chance": "33%",
+    "input": "389",
+    "output": "475"
+  },
+  {
+    "chance": "33%",
+    "input": "389",
+    "output": "478"
+  },
+  {
+    "chance": "33%",
+    "input": "289",
+    "output": "170"
+  },
+  {
+    "chance": "33%",
+    "input": "289",
+    "output": "164"
+  },
+  {
+    "chance": "33%",
+    "input": "289",
+    "output": "179"
+  },
+  {
+    "chance": "20%",
+    "input": "258",
+    "output": "247"
+  },
+  {
+    "chance": "20%",
+    "input": "258",
+    "output": "294"
+  },
+  {
+    "chance": "20%",
+    "input": "258",
+    "output": "245"
+  },
+  {
+    "chance": "20%",
+    "input": "258",
+    "output": "246"
+  },
+  {
+    "chance": "20%",
+    "input": "258",
+    "output": "243"
+  },
+  {
+    "chance": "25%",
+    "input": "246",
+    "output": "274"
+  },
+  {
+    "chance": "25%",
+    "input": "246",
+    "output": "342"
+  },
+  {
+    "chance": "25%",
+    "input": "246",
+    "output": "273"
+  },
+  {
+    "chance": "25%",
+    "input": "246",
+    "output": "243"
+  },
+  {
+    "chance": "33%",
+    "input": "213",
+    "output": "215"
+  },
+  {
+    "chance": "33%",
+    "input": "213",
+    "output": "258"
+  },
+  {
+    "chance": "33%",
+    "input": "213",
+    "output": "214"
+  },
+  {
+    "chance": "25%",
+    "input": "369",
+    "output": "361"
+  },
+  {
+    "chance": "25%",
+    "input": "369",
+    "output": "359"
+  },
+  {
+    "chance": "25%",
+    "input": "369",
+    "output": "335"
+  },
+  {
+    "chance": "25%",
+    "input": "369",
+    "output": "370"
+  },
+  {
+    "chance": "33%",
+    "input": "147",
+    "output": "177"
+  },
+  {
+    "chance": "33%",
+    "input": "147",
+    "output": "148"
+  },
+  {
+    "chance": "33%",
+    "input": "147",
+    "output": "168"
+  },
+  {
+    "chance": "25%",
+    "input": "148",
+    "output": "176"
+  },
+  {
+    "chance": "25%",
+    "input": "148",
+    "output": "338"
+  },
+  {
+    "chance": "25%",
+    "input": "148",
+    "output": "147"
+  },
+  {
+    "chance": "25%",
+    "input": "148",
+    "output": "149"
+  },
+  {
+    "chance": "33%",
+    "input": "149",
+    "output": "177"
+  },
+  {
+    "chance": "33%",
+    "input": "149",
+    "output": "150"
+  },
+  {
+    "chance": "33%",
+    "input": "149",
+    "output": "151"
+  },
+  {
+    "chance": "33%",
+    "input": "150",
+    "output": "281"
+  },
+  {
+    "chance": "33%",
+    "input": "150",
+    "output": "172"
+  },
+  {
+    "chance": "33%",
+    "input": "150",
+    "output": "149"
+  },
+  {
+    "chance": "25%",
+    "input": "151",
+    "output": "176"
+  },
+  {
+    "chance": "25%",
+    "input": "151",
+    "output": "338"
+  },
+  {
+    "chance": "25%",
+    "input": "151",
+    "output": "150"
+  },
+  {
+    "chance": "25%",
+    "input": "151",
+    "output": "152"
+  },
+  {
+    "chance": "25%",
+    "input": "152",
+    "output": "172"
+  },
+  {
+    "chance": "25%",
+    "input": "152",
+    "output": "281"
+  },
+  {
+    "chance": "25%",
+    "input": "152",
+    "output": "153"
+  },
+  {
+    "chance": "25%",
+    "input": "152",
+    "output": "156"
+  },
+  {
+    "chance": "33%",
+    "input": "153",
+    "output": "281"
+  },
+  {
+    "chance": "33%",
+    "input": "153",
+    "output": "154"
+  },
+  {
+    "chance": "33%",
+    "input": "153",
+    "output": "156"
+  },
+  {
+    "chance": "33%",
+    "input": "154",
+    "output": "172"
+  },
+  {
+    "chance": "33%",
+    "input": "154",
+    "output": "155"
+  },
+  {
+    "chance": "33%",
+    "input": "154",
+    "output": "156"
+  },
+  {
+    "chance": "33%",
+    "input": "155",
+    "output": "172"
+  },
+  {
+    "chance": "33%",
+    "input": "155",
+    "output": "154"
+  },
+  {
+    "chance": "33%",
+    "input": "155",
+    "output": "156"
+  },
+  {
+    "chance": "33%",
+    "input": "156",
+    "output": "152"
+  },
+  {
+    "chance": "33%",
+    "input": "156",
+    "output": "154"
+  },
+  {
+    "chance": "33%",
+    "input": "156",
+    "output": "155"
+  },
+  {
+    "chance": "50%",
+    "input": "305",
+    "output": "473"
+  },
+  {
+    "chance": "50%",
+    "input": "305",
+    "output": "256"
+  },
+  {
+    "chance": "25%",
+    "input": "478",
+    "output": "389"
+  },
+  {
+    "chance": "25%",
+    "input": "478",
+    "output": "479"
+  },
+  {
+    "chance": "25%",
+    "input": "478",
+    "output": "474"
+  },
+  {
+    "chance": "25%",
+    "input": "478",
+    "output": "475"
+  },
+  {
+    "chance": "33%",
+    "input": "241",
+    "output": "188"
+  },
+  {
+    "chance": "33%",
+    "input": "241",
+    "output": "242"
+  },
+  {
+    "chance": "33%",
+    "input": "241",
+    "output": "177"
+  },
+  {
+    "chance": "25%",
+    "input": "282",
+    "output": "285"
+  },
+  {
+    "chance": "25%",
+    "input": "282",
+    "output": "283"
+  },
+  {
+    "chance": "25%",
+    "input": "282",
+    "output": "284"
+  },
+  {
+    "chance": "25%",
+    "input": "282",
+    "output": "151"
+  },
+  {
+    "chance": "20%",
+    "input": "273",
+    "output": "247"
+  },
+  {
+    "chance": "20%",
+    "input": "273",
+    "output": "296"
+  },
+  {
+    "chance": "20%",
+    "input": "273",
+    "output": "212"
+  },
+  {
+    "chance": "20%",
+    "input": "273",
+    "output": "339"
+  },
+  {
+    "chance": "20%",
+    "input": "273",
+    "output": "168"
+  },
+  {
+    "chance": "33%",
+    "input": "342",
+    "output": "351"
+  },
+  {
+    "chance": "33%",
+    "input": "342",
+    "output": "348"
+  },
+  {
+    "chance": "33%",
+    "input": "342",
+    "output": "354"
+  },
+  {
+    "chance": "25%",
+    "input": "251",
+    "output": "339"
+  },
+  {
+    "chance": "25%",
+    "input": "251",
+    "output": "243"
+  },
+  {
+    "chance": "25%",
+    "input": "251",
+    "output": "168"
+  },
+  {
+    "chance": "25%",
+    "input": "251",
+    "output": "272"
+  },
+  {
+    "chance": "25%",
+    "input": "284",
+    "output": "285"
+  },
+  {
+    "chance": "25%",
+    "input": "284",
+    "output": "283"
+  },
+  {
+    "chance": "25%",
+    "input": "284",
+    "output": "282"
+  },
+  {
+    "chance": "25%",
+    "input": "284",
+    "output": "156"
+  },
+  {
+    "chance": "20%",
+    "input": "243",
+    "output": "293"
+  },
+  {
+    "chance": "20%",
+    "input": "243",
+    "output": "212"
+  },
+  {
+    "chance": "20%",
+    "input": "243",
+    "output": "339"
+  },
+  {
+    "chance": "20%",
+    "input": "243",
+    "output": "258"
+  },
+  {
+    "chance": "20%",
+    "input": "243",
+    "output": "272"
+  },
+  {
+    "chance": "25%",
+    "input": "168",
+    "output": "212"
+  },
+  {
+    "chance": "25%",
+    "input": "168",
+    "output": "259"
+  },
+  {
+    "chance": "25%",
+    "input": "168",
+    "output": "339"
+  },
+  {
+    "chance": "25%",
+    "input": "168",
+    "output": "243"
+  },
+  {
+    "chance": "33%",
+    "input": "370",
+    "output": "123"
+  },
+  {
+    "chance": "33%",
+    "input": "370",
+    "output": "358"
+  },
+  {
+    "chance": "33%",
+    "input": "370",
+    "output": "359"
+  },
+  {
+    "chance": "13%",
+    "input": "280",
+    "output": "288"
+  },
+  {
+    "chance": "13%",
+    "input": "280",
+    "output": "290"
+  },
+  {
+    "chance": "13%",
+    "input": "280",
+    "output": "296"
+  },
+  {
+    "chance": "13%",
+    "input": "280",
+    "output": "285"
+  },
+  {
+    "chance": "13%",
+    "input": "280",
+    "output": "259"
+  },
+  {
+    "chance": "13%",
+    "input": "280",
+    "output": "148"
+  },
+  {
+    "chance": "13%",
+    "input": "280",
+    "output": "149"
+  },
+  {
+    "chance": "13%",
+    "input": "280",
+    "output": "246"
+  },
+  {
+    "chance": "33%",
+    "input": "364",
+    "output": "371"
+  },
+  {
+    "chance": "33%",
+    "input": "364",
+    "output": "335"
+  },
+  {
+    "chance": "33%",
+    "input": "364",
+    "output": "370"
+  },
+  {
+    "chance": "25%",
+    "input": "372",
+    "output": "361"
+  },
+  {
+    "chance": "25%",
+    "input": "372",
+    "output": "177"
+  },
+  {
+    "chance": "25%",
+    "input": "372",
+    "output": "355"
+  },
+  {
+    "chance": "25%",
+    "input": "372",
+    "output": "271"
+  },
+  {
+    "chance": "33%",
+    "input": "378",
+    "output": "375"
+  },
+  {
+    "chance": "33%",
+    "input": "378",
+    "output": "334"
+  },
+  {
+    "chance": "33%",
+    "input": "378",
+    "output": "75"
+  },
+  {
+    "chance": "25%",
+    "input": "354",
+    "output": "351"
+  },
+  {
+    "chance": "25%",
+    "input": "354",
+    "output": "369"
+  },
+  {
+    "chance": "25%",
+    "input": "354",
+    "output": "357"
+  },
+  {
+    "chance": "25%",
+    "input": "354",
+    "output": "342"
+  },
+  {
+    "chance": "33%",
+    "input": "357",
+    "output": "356"
+  },
+  {
+    "chance": "33%",
+    "input": "357",
+    "output": "354"
+  },
+  {
+    "chance": "33%",
+    "input": "357",
+    "output": "240"
+  },
+  {
+    "chance": "33%",
+    "input": "214",
+    "output": "288"
+  },
+  {
+    "chance": "33%",
+    "input": "214",
+    "output": "273"
+  },
+  {
+    "chance": "33%",
+    "input": "214",
+    "output": "243"
+  },
+  {
+    "chance": "25%",
+    "input": "272",
+    "output": "212"
+  },
+  {
+    "chance": "25%",
+    "input": "272",
+    "output": "301"
+  },
+  {
+    "chance": "25%",
+    "input": "272",
+    "output": "273"
+  },
+  {
+    "chance": "25%",
+    "input": "272",
+    "output": "342"
+  }
+]
