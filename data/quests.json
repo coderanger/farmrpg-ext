@@ -24267,6 +24267,58 @@
     "silverRequest": 2147483647
   },
   {
+    "firstSeen": 1647580604112,
+    "itemRequests": [
+      {
+        "id": "339",
+        "quantity": 700
+      },
+      {
+        "id": "251",
+        "quantity": 700
+      },
+      {
+        "id": "215",
+        "quantity": 700
+      },
+      {
+        "id": "392",
+        "quantity": 700
+      },
+      {
+        "id": "145",
+        "quantity": 700
+      },
+      {
+        "id": "338",
+        "quantity": 100
+      },
+      {
+        "id": "342",
+        "quantity": 100
+      },
+      {
+        "id": "341",
+        "quantity": 100
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "493",
+        "quantity": 1
+      }
+    ],
+    "id": "795",
+    "name": "A Towering Investment XII",
+    "from": "Cecil",
+    "fromImage": "/img/items/a_027.png",
+    "text": "Cecil would like your help with another cost-saving measure for the tower project. If you will help supply parts for repairing the tower machinery, it will be a huge reduction in expenditure and time lost. As usual, your contributions will go toward your shares in the treasure.",
+    "requiresFarming": 92,
+    "requiresCrafting": 92,
+    "requiresFishing": 92,
+    "requiresExploring": 92
+  },
+  {
     "firstSeen": 1646723941323,
     "itemRequests": [
       {
@@ -24987,7 +25039,7 @@
     ],
     "id": "816",
     "name": "Ends Of The Rainbow",
-    "from": "Leafy McLukcy",
+    "from": "Leafy McLucky",
     "fromImage": "/img/items/buddyl.png",
     "text": "Leafy has a pot of gold for you, if you can prove you have found both ends of his rainbow.",
     "requiresFarming": 20,
