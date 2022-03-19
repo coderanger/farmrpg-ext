@@ -5,7 +5,10 @@ import fixtures
 
 
 def value_per_hit(
-    fishing: bool = False, verbose: bool = False, silver: bool = False
+    fishing: bool = False,
+    verbose: bool = False,
+    silver: bool = False,
+    iron_depot: bool = False,
 ) -> dict[str, float]:
     items = {it.name: it for it in fixtures.load_items()}
     totals = {}
@@ -16,6 +19,7 @@ def value_per_hit(
         net=fishing,
         lemonade_fake_explores=True,
         nets_fake_fishes=True,
+        iron_depot=iron_depot,
     ).locations.items():
         loc_total = 0
         for item_name, drops in loc_drops.items.items():
@@ -35,9 +39,15 @@ def value_per_hit(
     return totals
 
 
-def xp_cmd(fishing: bool = False, verbose: bool = False, silver: bool = False) -> None:
+def xp_cmd(
+    fishing: bool = False,
+    verbose: bool = False,
+    silver: bool = False,
+    iron_depot: bool = False,
+) -> None:
     for location, val in sorted(
-        value_per_hit(fishing, verbose, silver).items(), key=lambda kv: kv[1]
+        value_per_hit(fishing, verbose, silver, iron_depot).items(),
+        key=lambda kv: kv[1],
     ):
         print(
             f"{location}: {val:.2f} {'silver' if silver else 'xp'} / {'fish' if fishing else 'explore'}"

@@ -401,6 +401,37 @@ def gen_locksmith_items():
     return sorted(locksmith_items, key=lambda i: (i["box"], i["group"], i["item"]))
 
 
+def gen_location_extra():
+    import droprates
+    import xp
+
+    xp_per_hit = xp.value_per_hit()
+    xp_per_hit_fishing = xp.value_per_hit(fishing=True)
+    xp_per_hit_iron_depot = xp.value_per_hit(iron_depot=True)
+
+    silver_per_hit = xp.value_per_hit(silver=True)
+    silver_per_hit_fishing = xp.value_per_hit(silver=True)
+    silver_per_hit_iron_depot = xp.value_per_hit(silver=True, iron_depot=True)
+
+    loc_extra = [
+        {
+            "id": loc.id,
+            "name": loc.name,
+            "baseDropRate": droprates.BASE_DROP_RATES.get(loc.name),
+            "xpPerHit": (
+                xp_per_hit_fishing if loc.type == "fishing" else xp_per_hit
+            ).get(loc.name),
+            "xpPerHitIronDepot": xp_per_hit_iron_depot.get(loc.name),
+            "silverPerHit": (
+                silver_per_hit_fishing if loc.type == "fishing" else silver_per_hit
+            ).get(loc.name),
+            "silverPerHitIronDepot": silver_per_hit_iron_depot.get(loc.name),
+        }
+        for loc in load_locations()
+    ]
+    return sorted(loc_extra, key=lambda l: l["id"])
+
+
 GEN_FIXTURES = {
     "drop_rates": gen_drop_rates,
     "drop_rates_gql": gen_drop_rates_gql,
@@ -410,6 +441,7 @@ GEN_FIXTURES = {
     "wishing_well": gen_wishing_well,
     "locksmith_boxes": gen_locksmith_boxes,
     "locksmith_items": gen_locksmith_items,
+    "location_extra": gen_location_extra,
 }
 
 
