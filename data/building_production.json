@@ -1,0 +1,233 @@
+[
+    {
+        "building": "Sawmill",
+        "image": "/img/items/sawmill_sm.png",
+        "item": "35",
+        "frequency": "Hourly",
+        "sort": 60
+    },
+    {
+        "building": "Sawmill",
+        "image": "/img/items/sawmill_sm.png",
+        "item": "21",
+        "frequency": "Hourly",
+        "sort": 60
+    },
+    {
+        "building": "Quarry",
+        "image": "/img/items/quarry_sm.png",
+        "item": "40",
+        "frequency": "10 minutes",
+        "sort": 10
+    },
+    {
+        "building": "Quarry",
+        "image": "/img/items/quarry_sm.png",
+        "item": "202",
+        "frequency": "10 minutes",
+        "sort": 10
+    },
+    {
+        "building": "Quarry",
+        "image": "/img/items/quarry_sm.png",
+        "item": "54",
+        "frequency": "Rarely",
+        "sort": 1000
+    },
+    {
+        "building": "Quarry",
+        "image": "/img/items/quarry_sm.png",
+        "item": "263",
+        "frequency": "Rarely",
+        "sort": 1000
+    },
+    {
+        "building": "Quarry",
+        "image": "/img/items/quarry_sm.png",
+        "item": "93",
+        "frequency": "Rarely",
+        "sort": 1000
+    },
+    {
+        "building": "Quarry",
+        "image": "/img/items/quarry_sm.png",
+        "item": "142",
+        "frequency": "Rarely",
+        "sort": 1000
+    },
+    {
+        "building": "Quarry",
+        "image": "/img/items/quarry_sm.png",
+        "item": "77",
+        "frequency": "Rarely",
+        "sort": 1000
+    },
+    {
+        "building": "Quarry",
+        "image": "/img/items/quarry_sm.png",
+        "item": "41",
+        "frequency": "Rarely",
+        "sort": 1000
+    },
+    {
+        "building": "Quarry",
+        "image": "/img/items/quarry_sm.png",
+        "item": "80",
+        "frequency": "Rarely",
+        "sort": 1000
+    },
+    {
+        "building": "Quarry",
+        "image": "/img/items/quarry_sm.png",
+        "item": "102",
+        "frequency": "Rarely",
+        "sort": 1000
+    },
+    {
+        "building": "Quarry",
+        "image": "/img/items/quarry_sm.png",
+        "item": "175",
+        "frequency": "Rarely",
+        "sort": 1000
+    },
+    {
+        "building": "Quarry",
+        "image": "/img/items/quarry_sm.png",
+        "item": "338",
+        "frequency": "Rarely",
+        "sort": 1000
+    },
+    {
+        "building": "Quarry",
+        "image": "/img/items/quarry_sm.png",
+        "item": "103",
+        "frequency": "Rarely",
+        "sort": 1000
+    },
+    {
+        "building": "Hay Field",
+        "image": "/img/items/hay.png",
+        "item": "128",
+        "frequency": "10 Minutes",
+        "sort": 10
+    },
+    {
+        "building": "Ironworks",
+        "image": "/img/items/ironworks_sm.png",
+        "item": "22",
+        "frequency": "3 Minutes",
+        "sort": 3
+    },
+    {
+        "building": "Ironworks",
+        "image": "/img/items/ironworks_sm.png",
+        "item": "38",
+        "frequency": "3 Minutes",
+        "sort": 3
+    },
+    {
+        "building": "Ironworks",
+        "image": "/img/items/ironworks_sm.png",
+        "item": "339",
+        "frequency": "Rarely",
+        "sort": 1000
+    },
+    {
+        "building": "Ironworks",
+        "image": "/img/items/ironworks_sm.png",
+        "item": "251",
+        "frequency": "Rarely",
+        "sort": 1000
+    },
+    {
+        "building": "Orchard",
+        "image": "/img/items/orchard_sm.png",
+        "item": "44",
+        "frequency": "Daily",
+        "sort": 3600
+    },
+    {
+        "building": "Orchard",
+        "image": "/img/items/orchard_sm.png",
+        "item": "61",
+        "frequency": "Daily",
+        "sort": 3600
+    },
+    {
+        "building": "Orchard",
+        "image": "/img/items/orchard_sm.png",
+        "item": "62",
+        "frequency": "Daily",
+        "sort": 3600
+    },
+    {
+        "building": "Vineyard",
+        "image": "/img/items/vineyard_sm.png",
+        "item": "120",
+        "frequency": "Daily",
+        "sort": 3600
+    },
+    {
+        "building": "Chicken Coop",
+        "image": "/img/items/coop_sm.png",
+        "item": "26",
+        "frequency": "Daily",
+        "sort": 3600
+    },
+    {
+        "building": "Chicken Coop",
+        "image": "/img/items/coop_sm.png",
+        "item": "42",
+        "frequency": "Daily",
+        "sort": 3600
+    },
+    {
+        "building": "Cow Pasture",
+        "image": "/img/items/pasture_sm.png",
+        "item": "137",
+        "frequency": "Daily",
+        "sort": 3600
+    },
+    {
+        "building": "Cow Pasture",
+        "image": "/img/items/pasture_sm.png",
+        "item": "110",
+        "frequency": "Daily",
+        "sort": 3600
+    },
+    {
+        "building": "Cow Pasture",
+        "image": "/img/items/pasture_sm.png",
+        "item": "85",
+        "frequency": "Daily",
+        "sort": 3600
+    },
+    {
+        "building": "Raptor Pen",
+        "image": "/img/items/pen_sm.png",
+        "item": "170",
+        "frequency": "Daily",
+        "sort": 3600
+    },
+    {
+        "building": "Raptor Pen",
+        "image": "/img/items/pen_sm.png",
+        "item": "197",
+        "frequency": "Daily",
+        "sort": 3600
+    },
+    {
+        "building": "Steak Market",
+        "image": "/img/items/steakmarket.png",
+        "item": "137",
+        "frequency": "Any Time",
+        "sort": 1
+    },
+    {
+        "building": "Steak Market",
+        "image": "/img/items/steakmarket.png",
+        "item": "197",
+        "frequency": "Any Time",
+        "sort": 1
+    }
+]
