@@ -4,8 +4,10 @@ import io
 import itertools
 import json
 import re
+from datetime import date, datetime
 from pathlib import Path
 from typing import Iterable, Optional
+from zoneinfo import ZoneInfo
 
 import attrs
 import httpx
@@ -299,7 +301,83 @@ def gen_questlines():
     return questlines_sorted
 
 
+# PHPs short date format. This is probably the same as Python but I don't feel like risking it.
+PHP_MONTHS = {
+    "Jan": 1,
+    "Feb": 2,
+    "Mar": 3,
+    "Apr": 4,
+    "May": 5,
+    "Jun": 6,
+    "Jul": 7,
+    "Aug": 8,
+    "Sep": 9,
+    "Oct": 10,
+    "Nov": 11,
+    "Dec": 12,
+}
+
+
+def _parse_quest_available(
+    available_from: str, available_to: str, first_seen: datetime
+) -> tuple[datetime, datetime]:
+    from_month, from_day = available_from.split(" ")
+    to_month, to_day = available_to.split(" ")
+    from_datetime = datetime(
+        first_seen.year,
+        PHP_MONTHS[from_month],
+        int(from_day),
+        0,
+        0,
+        0,
+        tzinfo=ZoneInfo("America/Chicago"),
+    )
+    if first_seen < from_datetime:
+        from_datetime = from_datetime.replace(year=from_datetime.year - 1)
+    to_datetime = datetime(
+        from_datetime.year,
+        PHP_MONTHS[to_month],
+        int(to_day),
+        23,
+        59,
+        59,
+        tzinfo=ZoneInfo("America/Chicago"),
+    )
+    if to_datetime < from_datetime:
+        to_datetime = to_datetime.replace(year=to_datetime.year + 1)
+    return from_datetime, to_datetime
+
+
+def test_parse_quest_available():
+    first_seen = datetime(2022, 3, 1, tzinfo=ZoneInfo("UTC"))
+    test_from, test_to = _parse_quest_available("Dec 10", "Dec 20", first_seen)
+    assert test_from.date() == date(2021, 12, 10)
+    assert test_to.date() == date(2021, 12, 20)
+    test_from, test_to = _parse_quest_available("Feb 1", "Feb 5", first_seen)
+    assert test_from.date() == date(2022, 2, 1)
+    assert test_to.date() == date(2022, 2, 5)
+    test_from, test_to = _parse_quest_available("Dec 25", "Jan 5", first_seen)
+    assert test_from.date() == date(2021, 12, 25)
+    assert test_to.date() == date(2022, 1, 5)
+
+
 def gen_quest_extra():
+    quests = sorted(load_quests(), key=lambda q: int(q.id))
+
+    # Take the "Jan 1" style dates for time-limited quests and convert to real timestamps.
+    quest_dates = {}
+    for q in quests:
+        assert bool(q.available_from) == bool(q.available_to)
+        if q.available_from and q.available_to:
+            first_seen = datetime.fromtimestamp(q.first_seen / 1000, tz=ZoneInfo("UTC"))
+            available_from, available_to = _parse_quest_available(
+                q.available_from, q.available_to, first_seen
+            )
+            quest_dates[q.id] = {
+                "availableFrom": int(available_from.timestamp() * 1000),
+                "availableTo": int(available_to.timestamp() * 1000),
+            }
+
     # Use the questline data to work out a prev/next for each line'd quest.
     questlines_sorted = gen_questlines()
     quest_adjacency = collections.defaultdict(lambda: {"prev": None, "next": None})
@@ -309,10 +387,15 @@ def gen_quest_extra():
         for a, b in zip(it1, it2):
             quest_adjacency[a]["next"] = b
             quest_adjacency[b]["prev"] = a
-    quest_extra = sorted(
-        ({"id": k, **v} for k, v in quest_adjacency.items()), key=lambda q: q["id"]
-    )
-    return quest_extra
+
+    return [
+        {
+            "id": q.id,
+            **quest_adjacency.get(q.id, {}),
+            **quest_dates.get(q.id, {}),
+        }
+        for q in quests
+    ]
 
 
 def gen_wishing_well():
