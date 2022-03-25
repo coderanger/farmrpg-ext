@@ -346,6 +346,29 @@
   },
   {
     "level1Items": [
+      "Tomato",
+      "Onion",
+      "Hops",
+      "Potato"
+    ],
+    "level3Items": [
+      "Leek",
+      "Watermelon",
+      "Corn",
+      "Cabbage"
+    ],
+    "level6Items": [
+      "Pumpkin",
+      "Broccoli",
+      "Sunflower",
+      "Beet"
+    ],
+    "id": "19",
+    "image": "/img/pets/pet_onion_sm.png",
+    "name": "Strange Onion"
+  },
+  {
+    "level1Items": [
       "Apple",
       "Orange",
       "Lemon",

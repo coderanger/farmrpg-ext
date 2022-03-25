@@ -24319,6 +24319,174 @@
     "requiresExploring": 92
   },
   {
+    "firstSeen": 1648011771826,
+    "itemRequests": [
+      {
+        "id": "147",
+        "quantity": 4
+      },
+      {
+        "id": "148",
+        "quantity": 4
+      },
+      {
+        "id": "149",
+        "quantity": 4
+      },
+      {
+        "id": "150",
+        "quantity": 4
+      },
+      {
+        "id": "151",
+        "quantity": 4
+      },
+      {
+        "id": "152",
+        "quantity": 4
+      },
+      {
+        "id": "153",
+        "quantity": 4
+      },
+      {
+        "id": "154",
+        "quantity": 4
+      },
+      {
+        "id": "155",
+        "quantity": 4
+      },
+      {
+        "id": "156",
+        "quantity": 4
+      },
+      {
+        "id": "54",
+        "quantity": 700
+      },
+      {
+        "id": "41",
+        "quantity": 700
+      },
+      {
+        "id": "144",
+        "quantity": 700
+      },
+      {
+        "id": "143",
+        "quantity": 700
+      },
+      {
+        "id": "94",
+        "quantity": 700
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "493",
+        "quantity": 1
+      }
+    ],
+    "id": "796",
+    "name": "A Towering Investment XIV",
+    "from": "Cecil",
+    "fromImage": "/img/items/a_027.png",
+    "text": "Some of the tower mechanisms require different stones and gems to function. Will you help Cecil gather the required resources?",
+    "requiresFarming": 92,
+    "requiresCrafting": 92,
+    "requiresFishing": 92,
+    "requiresExploring": 92
+  },
+  {
+    "firstSeen": 1648184672796,
+    "itemRequests": [
+      {
+        "id": "221",
+        "quantity": 4
+      },
+      {
+        "id": "222",
+        "quantity": 4
+      },
+      {
+        "id": "223",
+        "quantity": 4
+      },
+      {
+        "id": "224",
+        "quantity": 4
+      },
+      {
+        "id": "225",
+        "quantity": 4
+      },
+      {
+        "id": "226",
+        "quantity": 4
+      },
+      {
+        "id": "227",
+        "quantity": 4
+      },
+      {
+        "id": "228",
+        "quantity": 4
+      },
+      {
+        "id": "229",
+        "quantity": 4
+      },
+      {
+        "id": "230",
+        "quantity": 4
+      },
+      {
+        "id": "317",
+        "quantity": 700
+      },
+      {
+        "id": "264",
+        "quantity": 700
+      },
+      {
+        "id": "80",
+        "quantity": 700
+      },
+      {
+        "id": "177",
+        "quantity": 700
+      },
+      {
+        "id": "100",
+        "quantity": 700
+      },
+      {
+        "id": "176",
+        "quantity": 700
+      },
+      {
+        "id": "248",
+        "quantity": 700
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "493",
+        "quantity": 1
+      }
+    ],
+    "id": "797",
+    "name": "A Towering Investment XV",
+    "from": "Cecil",
+    "fromImage": "/img/items/a_027.png",
+    "text": "Cecil found that more stones and gems are needed for the tower mechanisms. Will you bring the stones and gems needed?",
+    "requiresFarming": 92,
+    "requiresCrafting": 92,
+    "requiresFishing": 92,
+    "requiresExploring": 92
+  },
+  {
     "firstSeen": 1646723941323,
     "itemRequests": [
       {
@@ -24377,6 +24545,26 @@
     "text": "Beatrix recently rewatched the classic \"Back to the Future\" films and had an epiphany. She thinks she might actually be able to build a real-life Flux Capacitor! But, doing so will require some very rare, rumored to be magical stones. Can you find what she is looking for?",
     "silverReward": 3000000,
     "requiresExploring": 60
+  },
+  {
+    "firstSeen": 1647839890471,
+    "itemRequests": [],
+    "itemRewards": [
+      {
+        "id": "493",
+        "quantity": 1
+      }
+    ],
+    "id": "801",
+    "name": "A Towering Investment XIII",
+    "from": "Cecil",
+    "fromImage": "/img/items/a_027.png",
+    "text": "The repairs are a little more difficult than expected. Will you invest more silver to help find and fund experts in machine repairs?",
+    "requiresFarming": 92,
+    "requiresCrafting": 92,
+    "requiresFishing": 92,
+    "requiresExploring": 92,
+    "silverRequest": 2147483647
   },
   {
     "firstSeen": 1647280070260,

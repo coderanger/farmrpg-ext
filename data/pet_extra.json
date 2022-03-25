@@ -115,5 +115,13 @@
         "fishingLevel": 99,
         "craftingLevel": 99,
         "exploringLevel": 99
+    },
+    {
+        "name": "Strange Onion",
+        "cost": 10000000000,
+        "farmingLevel": 99,
+        "fishingLevel": 99,
+        "craftingLevel": 99,
+        "exploringLevel": 99
     }
 ]

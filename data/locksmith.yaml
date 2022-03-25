@@ -380,3 +380,15 @@
 
 - box: Pot of Gold (Small)
   gold: 10
+
+- box: 50 Gold
+  gold: 50
+
+- box: 25 Gold
+  gold: 25
+
+- box: 10 Gold
+  gold: 10
+
+- box: 5 Gold
+  gold: 5

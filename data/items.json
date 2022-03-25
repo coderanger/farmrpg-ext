@@ -1,8 +1,24 @@
 [
   {
+    "firstSeen": 1648147445894,
+    "id": "511",
+    "name": "10 Gold",
+    "image": "/img/items/10gold.png",
+    "givable": true,
+    "rarity": "Very Rare"
+  },
+  {
     "id": "454",
     "name": "100 Gold",
-    "image": "/img/items/goldpouch1.png",
+    "image": "/img/items/goldpouch2.png",
+    "givable": true,
+    "rarity": "Very Rare"
+  },
+  {
+    "firstSeen": 1648147442419,
+    "id": "510",
+    "name": "25 Gold",
+    "image": "/img/items/25gold.png",
     "givable": true,
     "rarity": "Very Rare"
   },
@@ -23,6 +39,22 @@
     "xp": 2000,
     "fleaMarket": 2,
     "rarity": "Common"
+  },
+  {
+    "firstSeen": 1648147451370,
+    "id": "512",
+    "name": "5 Gold",
+    "image": "/img/items/5gold.png",
+    "givable": true,
+    "rarity": "Very Rare"
+  },
+  {
+    "firstSeen": 1648147434300,
+    "id": "509",
+    "name": "50 Gold",
+    "image": "/img/items/goldpouch1.png",
+    "givable": true,
+    "rarity": "Very Rare"
   },
   {
     "name": "Acorn",
@@ -158,6 +190,27 @@
       }
     ],
     "craftPrice": 50
+  },
+  {
+    "firstSeen": 1647879718660,
+    "name": "Arnold Palmer",
+    "id": "508",
+    "image": "/img/items/ap.png",
+    "craftPrice": 100,
+    "xp": 3500,
+    "mastery": true,
+    "recipe": [
+      {
+        "id": "185",
+        "name": "Iced Tea",
+        "quantity": 1
+      },
+      {
+        "id": "86",
+        "name": "Lemonade",
+        "quantity": 20
+      }
+    ]
   },
   {
     "name": "Arrowhead",
@@ -2983,7 +3036,9 @@
         "name": "Iron Ring",
         "quantity": 25
       }
-    ]
+    ],
+    "givable": true,
+    "rarity": "Very Rare"
   },
   {
     "name": "Largemouth Bass",
@@ -4381,7 +4436,8 @@
     "image": "/img/items/rs12.png",
     "sellPrice": 12000,
     "xp": 12000,
-    "rarity": "Rare"
+    "rarity": "Rare",
+    "mastery": true
   },
   {
     "name": "Runestone 13",
@@ -4446,7 +4502,8 @@
     "image": "/img/items/rs20.png",
     "sellPrice": 20000,
     "xp": 20000,
-    "rarity": "Very Rare"
+    "rarity": "Very Rare",
+    "mastery": true
   },
   {
     "name": "Salt",

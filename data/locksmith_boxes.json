@@ -193,5 +193,25 @@
     "box": "503",
     "gold": 10,
     "mode": "multi"
+  },
+  {
+    "box": "509",
+    "gold": 50,
+    "mode": "multi"
+  },
+  {
+    "box": "510",
+    "gold": 25,
+    "mode": "multi"
+  },
+  {
+    "box": "511",
+    "gold": 10,
+    "mode": "multi"
+  },
+  {
+    "box": "512",
+    "gold": 5,
+    "mode": "multi"
   }
 ]

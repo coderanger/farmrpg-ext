@@ -630,12 +630,17 @@
     "output": "462"
   },
   {
-    "chance": "50%",
+    "chance": "33%",
+    "input": "461",
+    "output": "466"
+  },
+  {
+    "chance": "33%",
     "input": "461",
     "output": "457"
   },
   {
-    "chance": "50%",
+    "chance": "33%",
     "input": "461",
     "output": "458"
   },
@@ -655,12 +660,17 @@
     "output": "461"
   },
   {
-    "chance": "50%",
+    "chance": "33%",
     "input": "466",
     "output": "463"
   },
   {
-    "chance": "50%",
+    "chance": "33%",
+    "input": "466",
+    "output": "464"
+  },
+  {
+    "chance": "33%",
     "input": "466",
     "output": "465"
   },
