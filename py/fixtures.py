@@ -6,7 +6,7 @@ import json
 import re
 from datetime import date, datetime
 from pathlib import Path
-from typing import Iterable, Optional
+from typing import Iterable, Optional, Union
 from zoneinfo import ZoneInfo
 
 import attrs
@@ -161,6 +161,10 @@ def _get_drops():
         "Tea Leaves"
     ] = iron_depot_drops.locations["Cane Pole Ridge"].items["Tea Leaves"]
 
+    # NOTES ABOUT GOLD BOOT DROP RATE
+    # RySwim
+    # @coderanger as of right now: 11 gold boots in exactly 46,850 casts
+
     return (normal_drops, iron_depot_drops, manual_fish_drops)
 
 
@@ -184,11 +188,13 @@ def gen_drop_rates():
             return {}
         return {
             item: droprates.mode_for_drops(item_drops)[1] / item_drops.drops
-            for item, item_drops in loc_drops.items.items()
+            for item, item_drops in sorted(
+                loc_drops.items.items(), key=lambda kv: kv[0]
+            )
         }
 
     drop_rates = []
-    for location in location_keys:
+    for location in sorted(location_keys):
         drop_rates.append(
             {
                 "location": location,
@@ -220,8 +226,12 @@ def gen_drop_rates_gql():
         ("iron_depot", iron_depot_drops),
         ("manual_fishing", manual_fish_drops),
     ]:
-        for location, loc_drops in drops.locations.items():
-            for item, item_drops in loc_drops.items.items():
+        for location, loc_drops in sorted(
+            drops.locations.items(), key=lambda kv: kv[0]
+        ):
+            for item, item_drops in sorted(
+                loc_drops.items.items(), key=lambda kv: kv[0]
+            ):
                 mode, hits = droprates.mode_for_drops(item_drops)
                 hits_per_drop = hits / item_drops.drops
                 drop_rates_gql.append(
@@ -277,19 +287,45 @@ def gen_questlines():
     for quest in quests.values():
         if quest.name in questlines:
             questlines[quest.name].append({"id": quest.id, "weight": 1})
+
+    def override(questline: str, quest: str, weight: Union[int, float] = 1000):
+        questlines[questline].append({"id": quests[quest].id, "weight": weight})
+
     # Some manual overrides.
-    questlines["Hare Handler"].append(
-        {"id": quests["Of Hares And Feathers"].id, "weight": 1000}
+    override("Hare Handler", "Of Hares And Feathers")
+    override("Corn Quandry", "Never Gonna Give Corn Up", 30.5)
+    override("A Horse Of A Different Color", "A Horse, Afraid", 6.5)
+    override(
+        "A Horse Of A Different Color", "You Spin Me Right Round,Buddy, Right Round"
     )
-    questlines["Corn Quandry"].append(
-        {"id": quests["Never Gonna Give Corn Up"].id, "weight": 1000}
-    )
+    override("Not From Around Here", "Now You See It", 4)
+    override("Not From Around Here", "Now You Don't", 5)
+    override("Pirate Cove", "You Must Build A Boat I", 2.1)
+    override("Pirate Cove", "You Must Build A Boat II", 2.2)
+    override("Pirate Cove", "You Must Build A Boat III", 2.3)
+    override("Pirate Cove", "You Must Build A Boat IV", 2.4)
+    override("Pirate Cove", "You Must Build A Boat V", 2.5)
+    override("Pirate Cove", "Set Sail for Pirate Cove", 2.6)
+    override("Pirate Cove", "Shipwrecked!", 2.7)
+    override("Pirate Cove", "You Must Repair A Boat", 10)
+    override("Pirate Cove", "Escape from Pirate Cove", 11)
+    override("Strange Stones", "Strange Stones Exigent", 11)
+    override("Strange Stones", "Not-So-Strange Stones", 12)
+    override("Strange Stones", "Return Our Lost Friend I", 13)
+    override("Strange Stones", "Return Our Lost Friend II", 14)
+    override("Strange Stones", "Return Our Lost Friend III", 15)
+    override("Strange Stones", "Return Our Lost Friend IV", 16)
+    override("Strange Stones", "Return Our Lost Friend V", 17)
+    override("Strange Stones", "Lost and Found", 18)
+
     # Sort by weight.
+    secondary = {"You Must Build A Boat", "Return Our Lost Friend"}
     questlines_sorted = sorted(
         (
             {
                 "name": k,
                 "quests": [q["id"] for q in sorted(v, key=lambda q: q["weight"])],
+                "secondary": k in secondary,
             }
             for k, v in questlines.items()
         ),
@@ -382,6 +418,8 @@ def gen_quest_extra():
     questlines_sorted = gen_questlines()
     quest_adjacency = collections.defaultdict(lambda: {"prev": None, "next": None})
     for questline in questlines_sorted:
+        if questline.get("secondary"):
+            continue
         it1, it2 = itertools.tee(questline["quests"])
         next(it2, None)
         for a, b in zip(it1, it2):

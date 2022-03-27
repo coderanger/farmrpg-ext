@@ -15,7 +15,8 @@
       "624",
       "623",
       "622"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/a_034.png",
@@ -120,7 +121,8 @@
       "582",
       "583",
       "584"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/MustacheTom96.png",
@@ -133,7 +135,8 @@
       "394",
       "395",
       "396"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/buddy.png",
@@ -145,8 +148,11 @@
       "240",
       "241",
       "242",
-      "247"
-    ]
+      "244",
+      "247",
+      "249"
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/a_047.png",
@@ -171,7 +177,8 @@
       "684",
       "685",
       "686"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/a_098.png",
@@ -181,14 +188,16 @@
       "698",
       "699",
       "700"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/a_011.png",
     "name": "A Real Gem",
     "quests": [
       "16"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/buddyhat.png",
@@ -199,7 +208,8 @@
       "689",
       "690",
       "691"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/a_034.png",
@@ -211,7 +221,8 @@
       "85",
       "101",
       "103"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/npc_figure.png",
@@ -220,7 +231,8 @@
       "224",
       "225",
       "226"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/npc_figure.png",
@@ -229,7 +241,8 @@
       "227",
       "228",
       "231"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/npc_figure.png",
@@ -237,7 +250,8 @@
     "quests": [
       "230",
       "232"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/a_027.png",
@@ -256,8 +270,10 @@
       "794",
       "795",
       "801",
-      "796"
-    ]
+      "796",
+      "797"
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/MustacheTom96.png",
@@ -278,7 +294,8 @@
       "790",
       "792",
       "791"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/MustacheTom96.png",
@@ -295,7 +312,8 @@
       "423",
       "424",
       "425"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/a_028.png",
@@ -312,7 +330,8 @@
       "753",
       "754",
       "755"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/a_011.png",
@@ -322,7 +341,8 @@
       "759",
       "760",
       "761"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/a_011.png",
@@ -333,14 +353,16 @@
       "25",
       "71",
       "81"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/a_098.png",
     "name": "Bling Things",
     "quests": [
       "135"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/a_088.png",
@@ -361,7 +383,8 @@
       "591",
       "592",
       "593"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/a_024.png",
@@ -373,21 +396,24 @@
       "785",
       "786",
       "787"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/a_027.png",
     "name": "Bug Life",
     "quests": [
       "160"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/a_098.png",
     "name": "Conjure Up A New Recipe",
     "quests": [
       "151"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/a_011.png",
@@ -415,7 +441,8 @@
       "307",
       "308",
       "309"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/a_024.png",
@@ -451,14 +478,16 @@
       "466",
       "467",
       "470"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/8288.png",
     "name": "Corn Quandry",
     "quests": [
       "468"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/a_088.png",
@@ -482,7 +511,8 @@
       "670",
       "671",
       "672"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/a_027.png",
@@ -490,7 +520,8 @@
     "quests": [
       "29",
       "64"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/a_034.png",
@@ -518,7 +549,8 @@
       "385",
       "386",
       "387"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/a_028.png",
@@ -531,7 +563,8 @@
       "245",
       "243",
       "248"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/buddy.png",
@@ -541,7 +574,8 @@
       "633",
       "634",
       "635"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/a_048.png",
@@ -549,14 +583,16 @@
     "quests": [
       "26",
       "28"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/a_048.png",
     "name": "Fake Fishing",
     "quests": [
       "1"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/6174.PNG",
@@ -571,14 +607,16 @@
       "404",
       "407",
       "409"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/a_024.png",
     "name": "Fellow Farmer",
     "quests": [
       "55"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/MustacheTom96.png",
@@ -595,7 +633,8 @@
       "727",
       "728",
       "729"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/a_048.png",
@@ -610,7 +649,8 @@
       "716",
       "717",
       "718"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/a_028.png",
@@ -618,7 +658,8 @@
     "quests": [
       "194",
       "200"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/a_048.png",
@@ -632,14 +673,16 @@
       "321",
       "322",
       "323"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/a_098.png",
     "name": "Free Candy",
     "quests": [
       "350"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/npc_bunny1.png",
@@ -655,7 +698,8 @@
       "813",
       "814",
       "815"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/npc_bunny1.png",
@@ -670,7 +714,8 @@
       "408",
       "410",
       "411"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/horsehat.png",
@@ -680,7 +725,8 @@
       "693",
       "694",
       "695"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/npc_horse.png",
@@ -691,7 +737,8 @@
       "412",
       "413",
       "414"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/npc_horse.png",
@@ -704,7 +751,8 @@
       "196",
       "203",
       "233"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/npc_bunny1.png",
@@ -718,7 +766,8 @@
       "739",
       "740",
       "741"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/a_028.png",
@@ -728,14 +777,16 @@
       "20",
       "33",
       "48"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/a_027.png",
     "name": "Interior Design",
     "quests": [
       "38"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/a_028.png",
@@ -744,7 +795,8 @@
       "802",
       "803",
       "804"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/a_048.png",
@@ -761,7 +813,8 @@
       "221",
       "222",
       "223"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/buddy.png",
@@ -772,7 +825,8 @@
       "165",
       "169",
       "171"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/a_088.png",
@@ -783,7 +837,8 @@
       "97",
       "96",
       "212"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/lornsanta.png",
@@ -799,7 +854,8 @@
       "680",
       "681",
       "682"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/npc_horse.png",
@@ -808,7 +864,8 @@
       "742",
       "743",
       "744"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/lornsanta.png",
@@ -818,7 +875,8 @@
       "645",
       "646",
       "647"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/a_027.png",
@@ -826,7 +884,8 @@
     "quests": [
       "8",
       "23"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/npc_figure.png",
@@ -834,8 +893,11 @@
     "quests": [
       "164",
       "190",
-      "191"
-    ]
+      "191",
+      "192",
+      "193"
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/a_047.png",
@@ -865,7 +927,8 @@
       "292",
       "293",
       "294"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/a_034.png",
@@ -876,7 +939,8 @@
       "347",
       "348",
       "349"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/a_047.png",
@@ -884,28 +948,40 @@
     "quests": [
       "133",
       "131",
+      "132",
+      "130",
+      "129",
+      "128",
+      "126",
+      "127",
+      "139",
       "140",
       "141",
       "142",
       "143",
       "144",
       "145",
-      "146"
-    ]
+      "146",
+      "147",
+      "148"
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/a_034.png",
     "name": "Putting Down Roots",
     "quests": [
       "51"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/mummy_t_01.png",
     "name": "Pyramid Scheme",
     "quests": [
       "310"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/a_088.png",
@@ -916,7 +992,8 @@
       "138",
       "150",
       "152"
-    ]
+    ],
+    "secondary": true
   },
   {
     "image": "/img/items/a_088.png",
@@ -924,7 +1001,8 @@
     "quests": [
       "263",
       "295"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/npc_figure.png",
@@ -932,7 +1010,8 @@
     "quests": [
       "388",
       "389"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/a_048.png",
@@ -942,7 +1021,8 @@
       "99",
       "102",
       "104"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/a_027.png",
@@ -974,7 +1054,8 @@
       "613",
       "614",
       "615"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/a_024.png",
@@ -982,14 +1063,16 @@
     "quests": [
       "53",
       "54"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/a_027.png",
     "name": "Squirrel Problems",
     "quests": [
       "10"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/npc_figure.png",
@@ -1001,7 +1084,8 @@
       "732",
       "733",
       "734"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/a_011.png",
@@ -1016,8 +1100,17 @@
       "120",
       "121",
       "122",
-      "123"
-    ]
+      "123",
+      "124",
+      "125",
+      "136",
+      "137",
+      "138",
+      "150",
+      "152",
+      "153"
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/robot_02.png",
@@ -1025,14 +1118,16 @@
     "quests": [
       "756",
       "757"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/a_034.png",
     "name": "Temporary Prankster",
     "quests": [
       "342"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/MustacheTom96.png",
@@ -1046,14 +1141,16 @@
       "707",
       "708",
       "709"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/a_048.png",
     "name": "Unique Fish",
     "quests": [
       "15"
-    ]
+    ],
+    "secondary": false
   },
   {
     "image": "/img/items/a_047.png",
@@ -1064,6 +1161,7 @@
       "129",
       "128",
       "126"
-    ]
+    ],
+    "secondary": true
   }
 ]

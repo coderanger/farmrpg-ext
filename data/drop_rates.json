@@ -1,15 +1,286 @@
 [
   {
+    "drop_rates": {},
+    "iron_depot_rates": {},
+    "location": "Beet Seeds",
+    "manual_fish_rates": {},
+    "mode": "harvests"
+  },
+  {
     "drop_rates": {
-      "Bluegill": 11.4390756302521,
-      "Drum": 3.4375,
-      "Fish Bones": 40.036764705882355,
-      "Grab Bag 01": 388.92857142857144,
-      "Largemouth Bass": 3.4180790960451977,
-      "Runestone 03": 544.5,
-      "Square Key": 2722.5,
-      "Water Lily": 340.3125,
-      "Yellow Perch": 3.37360594795539
+      "Ancient Coin": 240.0310291858679,
+      "Coal": 6.903537915068832,
+      "Giant Centipede": 348.6394466755913,
+      "Horn": 47.23991777011911,
+      "Large Chest 02": 16623.425531914894,
+      "Medium Chest 02": 17362.244444444445,
+      "Orange Gecko": 7735.653465346535,
+      "Ruby Scorpion": 747.6564593301435,
+      "Runestone 09": 4650.601190476191,
+      "Runestone 13": 7735.653465346535,
+      "Sandstone": 6.903232931904329,
+      "Shimmer Quartz": 75.86183124575201
+    },
+    "iron_depot_rates": {
+      "Ancient Coin": 240.0310291858679,
+      "Coal": 6.903537915068832,
+      "Giant Centipede": 348.6394466755913,
+      "Horn": 47.23991777011911,
+      "Large Chest 02": 16623.425531914894,
+      "Medium Chest 02": 17362.244444444445,
+      "Orange Gecko": 7735.653465346535,
+      "Ruby Scorpion": 747.6564593301435,
+      "Runestone 09": 4650.601190476191,
+      "Runestone 13": 7735.653465346535,
+      "Sandstone": 6.903232931904329,
+      "Shimmer Quartz": 75.86183124575201
+    },
+    "location": "Black Rock Canyon",
+    "manual_fish_rates": {},
+    "mode": "explores"
+  },
+  {
+    "drop_rates": {},
+    "iron_depot_rates": {},
+    "location": "Broccoli Seeds",
+    "manual_fish_rates": {},
+    "mode": "harvests"
+  },
+  {
+    "drop_rates": {},
+    "iron_depot_rates": {},
+    "location": "Cabbage Seeds",
+    "manual_fish_rates": {},
+    "mode": "harvests"
+  },
+  {
+    "drop_rates": {
+      "Heart Necklace Right Piece": 6435.727272727273,
+      "Horned Beetle": 728.6457627118644,
+      "Iron": 16.433524464831805,
+      "Lemon Quartz": 74.27453351762267,
+      "Lima Bean": 107475.25,
+      "Mushroom": 35.36533399144455,
+      "Pocket Watch": 1442.6208053691275,
+      "Stone": 16.769425807458262,
+      "Tea Leaves": 99.63547995139733,
+      "Unpolished Shimmer Stone": 16.52384979052158,
+      "Wood": 16.52194465795542
+    },
+    "iron_depot_rates": {
+      "Horned Beetle": 605.9944649446494,
+      "Lemon Quartz": 65.72923754252551,
+      "Lima Bean": 82112.25,
+      "Mushroom": 29.88888888888889,
+      "Pocket Watch": 1273.0581395348838,
+      "Stone": 13.162705887067688,
+      "Tea Leaves": 99.63547995139733,
+      "Unpolished Shimmer Stone": 13.326665584679056,
+      "Wood": 13.537031694349421
+    },
+    "location": "Cane Pole Ridge",
+    "manual_fish_rates": {},
+    "mode": "explores"
+  },
+  {
+    "drop_rates": {
+      "Gold Carrot": 277.5,
+      "Runestone 01": 195.88235294117646
+    },
+    "iron_depot_rates": {},
+    "location": "Carrot Seeds",
+    "manual_fish_rates": {},
+    "mode": "harvests"
+  },
+  {
+    "drop_rates": {
+      "Runestone 11": 1252.0
+    },
+    "iron_depot_rates": {},
+    "location": "Corn Seeds",
+    "manual_fish_rates": {},
+    "mode": "harvests"
+  },
+  {
+    "drop_rates": {},
+    "iron_depot_rates": {},
+    "location": "Cotton Seeds",
+    "manual_fish_rates": {},
+    "mode": "harvests"
+  },
+  {
+    "drop_rates": {
+      "Blue Catfish": 14.635458167330677,
+      "Bone Fish": 2.806984029953389,
+      "Glass Bottle": 80.5592105263158,
+      "Globber": 18.628296146044626,
+      "Old Boot": 72.31299212598425,
+      "Runestone 12": 3061.25,
+      "Sunfish": 2.8201289728235834,
+      "Trout": 7.113671572424477
+    },
+    "iron_depot_rates": {},
+    "location": "Crystal River",
+    "manual_fish_rates": {
+      "Blue Catfish": 15.1875,
+      "Bone Fish": 2.9634146341463414,
+      "Glass Bottle": 81.0,
+      "Globber": 24.3,
+      "Gold Catfish": 34.714285714285715,
+      "Old Boot": 40.5,
+      "Sunfish": 2.927710843373494,
+      "Trout": 6.75
+    },
+    "mode": "fishes"
+  },
+  {
+    "drop_rates": {},
+    "iron_depot_rates": {},
+    "location": "Cucumber Seeds",
+    "manual_fish_rates": {},
+    "mode": "harvests"
+  },
+  {
+    "drop_rates": {
+      "Ancient Coin": 188.42405913978496,
+      "Diamond": 40053.57142857143,
+      "Emberstone": 29.115753400948456,
+      "Glass Orb": 20.89440083465819,
+      "Large Chest 01": 16175.48076923077,
+      "Magicite": 1752.34375,
+      "Moonstone": 786.0981308411215,
+      "Prism Shard": 58.98905954134231,
+      "Runestone 17": 8166.26213592233,
+      "Stone": 4.439263434560942
+    },
+    "iron_depot_rates": {
+      "Ancient Coin": 188.42405913978496,
+      "Diamond": 40053.57142857143,
+      "Emberstone": 29.115753400948456,
+      "Glass Orb": 20.89440083465819,
+      "Large Chest 01": 16175.48076923077,
+      "Magicite": 1752.34375,
+      "Moonstone": 786.0981308411215,
+      "Prism Shard": 58.98905954134231,
+      "Runestone 17": 8166.26213592233,
+      "Stone": 4.439263434560942
+    },
+    "location": "Ember Lagoon",
+    "manual_fish_rates": {},
+    "mode": "explores"
+  },
+  {
+    "drop_rates": {
+      "Blue Tiger Fish": 25.799941605839415,
+      "Clam Shell": 3.404564858908564,
+      "Clownfish": 17.035820320030847,
+      "Conch Shell": 3.3958511071656408,
+      "Crab Claw": 3592.0650406504064,
+      "MIAB": 175.18794607454402,
+      "Magic Conch Shell": 21039.238095238095,
+      "Marlin": 87.07607410327158,
+      "Pearl": 32.84204266706311,
+      "Puffer": 43.10057555360453,
+      "Red Starfish": 16.906746259518616,
+      "Ruby Fish": 87.14477317554241,
+      "Seahorse": 43.94072600696171,
+      "Spiked Shell": 4016.581818181818,
+      "Starfish": 7.917567155887676,
+      "Stingray": 43.02921698480717
+    },
+    "iron_depot_rates": {},
+    "location": "Emerald Beach",
+    "manual_fish_rates": {
+      "Blue Tiger Fish": 26.158783783783782,
+      "Clam Shell": 3.415527128363476,
+      "Clownfish": 16.198744769874477,
+      "Conch Shell": 3.498870311793945,
+      "Crab Claw": 1935.75,
+      "Goldray": 79.01020408163265,
+      "MIAB": 154.86,
+      "Magic Conch Shell": 7743.0,
+      "Marlin": 73.04716981132076,
+      "Pearl": 32.39748953974895,
+      "Puffer": 48.09316770186335,
+      "Red Starfish": 17.637813211845103,
+      "Ruby Fish": 71.03669724770643,
+      "Seahorse": 43.74576271186441,
+      "Spiked Shell": 7743.0,
+      "Starfish": 8.133403361344538,
+      "Stingray": 50.94078947368421
+    },
+    "mode": "fishes"
+  },
+  {
+    "drop_rates": {
+      "Carp": 9.683098591549296,
+      "Catfish": 39.285714285714285,
+      "Drum": 4.209183673469388,
+      "Fish Bones": 46.4527027027027,
+      "Flier": 50.060679611650485,
+      "Largemouth Bass": 4.061638440330839,
+      "Runestone 02": 458.3333333333333,
+      "Trout": 9.660421545667447,
+      "Yellow Perch": 4.161622276029056
+    },
+    "iron_depot_rates": {},
+    "location": "Farm Pond",
+    "manual_fish_rates": {
+      "Carp": 10.059055118110237,
+      "Catfish": 44.824561403508774,
+      "Drum": 4.315878378378378,
+      "Fish Bones": 47.31481481481482,
+      "Flier": 46.45454545454545,
+      "Gold Trout": 33.18181818181818,
+      "Largemouth Bass": 4.1612377850162865,
+      "Runestone 02": 851.6666666666666,
+      "Trout": 9.864864864864865,
+      "Yellow Perch": 4.330508474576271
+    },
+    "mode": "fishes"
+  },
+  {
+    "drop_rates": {
+      "Antler": 49.238757577181524,
+      "Arrowhead": 59.14709866787085,
+      "Bird Egg": 77.94763073718664,
+      "Fire Ant": 357.8722677595628,
+      "Frog": 7832.273584905661,
+      "Gold Feather": 6716.98717948718,
+      "Gold Leaf": 7032.5503355704695,
+      "Hide": 39.915054091116865,
+      "Mushroom": 18.065756353229197,
+      "Straw": 18.163145031287375,
+      "Wood": 6.9457517466293694
+    },
+    "iron_depot_rates": {
+      "Antler": 49.238757577181524,
+      "Arrowhead": 59.14709866787085,
+      "Bird Egg": 77.94763073718664,
+      "Fire Ant": 357.8722677595628,
+      "Frog": 7832.273584905661,
+      "Gold Feather": 6716.98717948718,
+      "Gold Leaf": 7032.5503355704695,
+      "Hide": 39.915054091116865,
+      "Mushroom": 18.065756353229197,
+      "Straw": 18.163145031287375,
+      "Wood": 6.9457517466293694
+    },
+    "location": "Forest",
+    "manual_fish_rates": {},
+    "mode": "explores"
+  },
+  {
+    "drop_rates": {
+      "Bluegill": 11.849932401982874,
+      "Drum": 3.3759147515727306,
+      "Fish Bones": 42.75609756097561,
+      "Grab Bag 01": 337.11538461538464,
+      "Largemouth Bass": 3.404764987699081,
+      "Runestone 03": 906.7241379310345,
+      "Square Key": 3756.4285714285716,
+      "Water Lily": 370.3521126760563,
+      "Yellow Perch": 3.3867851622874805
     },
     "iron_depot_rates": {},
     "location": "Forest Pond",
@@ -29,36 +300,37 @@
   },
   {
     "drop_rates": {
-      "Bone": 59.27322404371585,
-      "Grab Bag 02": 903.9166666666666,
-      "Mushroom": 19.721818181818183,
-      "Nails": 8.905582922824301,
-      "Runestone 04": 3615.6666666666665,
-      "Stone": 8.876432078559738,
-      "Wood": 9.286815068493151,
-      "Wooden Mask": 677.9375
+      "Amethyst": 95.87365813377374,
+      "Caterpillar": 829.3071428571428,
+      "Feathers": 20.42987858525427,
+      "Fern Leaf": 21.803380281690142,
+      "Medium Chest 01": 38701.0,
+      "Purple Flower": 20.96100379129807,
+      "Runestone 14": 9675.25,
+      "Stone": 21.06367924528302,
+      "Strange Letter": 1759.1363636363637,
+      "Wood": 21.16350710900474
     },
     "iron_depot_rates": {
-      "Bone": 50.80719524973804,
-      "Grab Bag 02": 616.3601694915254,
-      "Model Ship": 36365.25,
-      "Mushroom": 15.580655526992288,
-      "Runestone 04": 1992.6164383561643,
-      "Stone": 6.430636604774536,
-      "Wood": 6.384068466096116,
-      "Wooden Mask": 643.6327433628319
+      "Amethyst": 95.87365813377374,
+      "Caterpillar": 829.3071428571428,
+      "Feathers": 20.42987858525427,
+      "Fern Leaf": 21.803380281690142,
+      "Medium Chest 01": 38701.0,
+      "Purple Flower": 20.96100379129807,
+      "Runestone 14": 9675.25,
+      "Stone": 21.06367924528302,
+      "Strange Letter": 1759.1363636363637,
+      "Wood": 21.16350710900474
     },
-    "location": "Small Cave",
+    "location": "Highland Hills",
     "manual_fish_rates": {},
     "mode": "explores"
   },
   {
-    "drop_rates": {
-      "Gold Carrot": 277.5,
-      "Runestone 01": 195.88235294117646
-    },
+    "drop_rates": {},
     "iron_depot_rates": {},
-    "location": "Carrot Seeds",
+    "location": "Hops Seeds",
     "manual_fish_rates": {},
     "mode": "harvests"
   },
@@ -82,80 +354,6 @@
       "Treasure Key": 1189.5
     },
     "mode": "fishes"
-  },
-  {
-    "drop_rates": {
-      "Ancient Coin": 187.92446448703495,
-      "Diamond": 39687.857142857145,
-      "Emberstone": 29.094637994833484,
-      "Glass Orb": 20.885205232295895,
-      "Large Chest 01": 16027.788461538461,
-      "Magicite": 1743.6087866108787,
-      "Moonstone": 787.0113314447592,
-      "Prism Shard": 58.97572884234362,
-      "Runestone 17": 8251.930693069307,
-      "Stone": 4.44082417758075
-    },
-    "iron_depot_rates": {
-      "Ancient Coin": 187.92446448703495,
-      "Diamond": 39687.857142857145,
-      "Emberstone": 29.094637994833484,
-      "Glass Orb": 20.885205232295895,
-      "Large Chest 01": 16027.788461538461,
-      "Magicite": 1743.6087866108787,
-      "Moonstone": 787.0113314447592,
-      "Prism Shard": 58.97572884234362,
-      "Runestone 17": 8251.930693069307,
-      "Stone": 4.44082417758075
-    },
-    "location": "Ember Lagoon",
-    "manual_fish_rates": {},
-    "mode": "explores"
-  },
-  {
-    "drop_rates": {
-      "Runestone 11": 1087.4285714285713
-    },
-    "iron_depot_rates": {},
-    "location": "Corn Seeds",
-    "manual_fish_rates": {},
-    "mode": "harvests"
-  },
-  {
-    "drop_rates": {},
-    "iron_depot_rates": {},
-    "location": "Cucumber Seeds",
-    "manual_fish_rates": {},
-    "mode": "harvests"
-  },
-  {
-    "drop_rates": {
-      "Heart Necklace Right Piece": 6435.727272727273,
-      "Horned Beetle": 728.6457627118644,
-      "Iron": 16.433524464831805,
-      "Lemon Quartz": 74.27453351762267,
-      "Lima Bean": 107475.25,
-      "Mushroom": 35.36533399144455,
-      "Pocket Watch": 1442.6208053691275,
-      "Stone": 16.769425807458262,
-      "Tea Leaves": 99.33438685208597,
-      "Unpolished Shimmer Stone": 16.52384979052158,
-      "Wood": 16.52194465795542
-    },
-    "iron_depot_rates": {
-      "Horned Beetle": 607.6119691119691,
-      "Lemon Quartz": 65.8458158995816,
-      "Lima Bean": 78685.75,
-      "Mushroom": 29.995520823406082,
-      "Pocket Watch": 1274.2631578947369,
-      "Stone": 13.138927155082447,
-      "Tea Leaves": 99.33438685208597,
-      "Unpolished Shimmer Stone": 13.326403590481837,
-      "Wood": 13.547821969696969
-    },
-    "location": "Cane Pole Ridge",
-    "manual_fish_rates": {},
-    "mode": "explores"
   },
   {
     "drop_rates": {
@@ -187,51 +385,251 @@
   },
   {
     "drop_rates": {
-      "3-leaf Clover": 40.8281223593037,
-      "4-leaf Clover": 210.0695652173913,
-      "Acorn": 19.071603378858452,
-      "Blue Feathers": 19.139597528125496,
-      "Fern Leaf": 18.764952617679043,
-      "Frog": 47731.6,
-      "Gold Feather": 17255.714285714286,
-      "Mushroom": 40.16960425673429,
-      "Pine Cone": 172.9277022190408,
-      "Runestone 05": 6039.5,
-      "Shiny Beetle": 750.2484472049689,
-      "Spider": 779.2903225806451,
-      "Straw": 41.63019128037222,
-      "Sweet Root": 41.73807878369039,
-      "Unpolished Ruby": 83.94023627519111,
-      "Wood": 19.032537619160166
+      "Barracuda": 5.401983847170292,
+      "Plumbfish": 7.99353786530351,
+      "Ruby Coral": 11.717478760459109,
+      "Sea Catfish": 6.728081180811808,
+      "Serpent Eel": 10.536075444658893,
+      "Spiral Shell": 9.195539685901897,
+      "Swordfish": 3.9675296698131683,
+      "Tribal Staff": 9802.741935483871
+    },
+    "iron_depot_rates": {},
+    "location": "Large Island",
+    "manual_fish_rates": {
+      "Barracuda": 5.635593220338983,
+      "Gold Boot": 7315.0,
+      "Gold Coral": 32.4390243902439,
+      "Plumbfish": 8.168620882188721,
+      "Ruby Coral": 12.732811140121845,
+      "Sea Catfish": 7.0,
+      "Serpent Eel": 10.479942693409741,
+      "Spiral Shell": 9.14375,
+      "Swordfish": 4.117647058823529,
+      "Tribal Staff": 7315.0
+    },
+    "mode": "fishes"
+  },
+  {
+    "drop_rates": {
+      "Runestone 10": 828.0
+    },
+    "iron_depot_rates": {},
+    "location": "Leek Seeds",
+    "manual_fish_rates": {},
+    "mode": "harvests"
+  },
+  {
+    "drop_rates": {
+      "3-leaf Clover": 40.87644151565074,
+      "4-leaf Clover": 211.3458262350937,
+      "Acorn": 19.084685793400507,
+      "Blue Feathers": 19.14358459995371,
+      "Fern Leaf": 18.740181268882175,
+      "Frog": 40866.333333333336,
+      "Gold Feather": 16541.333333333332,
+      "Mushroom": 40.14886731391586,
+      "Pine Cone": 172.18598195697433,
+      "Runestone 05": 5907.619047619048,
+      "Shiny Beetle": 749.607250755287,
+      "Spider": 765.8024691358024,
+      "Straw": 41.7288933736966,
+      "Sweet Root": 41.77104377104377,
+      "Unpolished Ruby": 83.51396836082127,
+      "Wood": 19.03928790669122
     },
     "iron_depot_rates": {
-      "3-leaf Clover": 40.8281223593037,
-      "4-leaf Clover": 210.0695652173913,
-      "Acorn": 19.071603378858452,
-      "Blue Feathers": 19.139597528125496,
-      "Fern Leaf": 18.764952617679043,
-      "Frog": 47731.6,
-      "Gold Feather": 17255.714285714286,
-      "Mushroom": 40.16960425673429,
-      "Pine Cone": 172.9277022190408,
-      "Runestone 05": 6039.5,
-      "Shiny Beetle": 750.2484472049689,
-      "Spider": 779.2903225806451,
-      "Straw": 41.63019128037222,
-      "Sweet Root": 41.73807878369039,
-      "Unpolished Ruby": 83.94023627519111,
-      "Wood": 19.032537619160166
+      "3-leaf Clover": 40.87644151565074,
+      "4-leaf Clover": 211.3458262350937,
+      "Acorn": 19.084685793400507,
+      "Blue Feathers": 19.14358459995371,
+      "Fern Leaf": 18.740181268882175,
+      "Frog": 40866.333333333336,
+      "Gold Feather": 16541.333333333332,
+      "Mushroom": 40.14886731391586,
+      "Pine Cone": 172.18598195697433,
+      "Runestone 05": 5907.619047619048,
+      "Shiny Beetle": 749.607250755287,
+      "Spider": 765.8024691358024,
+      "Straw": 41.7288933736966,
+      "Sweet Root": 41.77104377104377,
+      "Unpolished Ruby": 83.51396836082127,
+      "Wood": 19.03928790669122
     },
     "location": "Misty Forest",
     "manual_fish_rates": {},
     "mode": "explores"
   },
   {
+    "drop_rates": {
+      "Bacon": 15783.142857142857,
+      "Carbon Sphere": 48.09838920330866,
+      "Coal": 13.666749134092033,
+      "Dragon Skull": 55241.0,
+      "Gold Feather": 18413.666666666668,
+      "Iron": 13.586079685194294,
+      "Magna Quartz": 3563.935483870968,
+      "Runestone 19": 15783.142857142857,
+      "Small Chest 02": 22096.4,
+      "Stone": 13.916362262249654,
+      "Unpolished Emerald": 48.84261715296198,
+      "Unpolished Shimmer Stone": 13.75865504358655
+    },
+    "iron_depot_rates": {
+      "Bacon": 13680.375,
+      "Carbon Sphere": 38.43476733977173,
+      "Coal": 10.666959064327486,
+      "Dragon Skull": 218886.0,
+      "Gold Feather": 14592.4,
+      "Magna Quartz": 2998.4383561643835,
+      "Runestone 19": 12875.64705882353,
+      "Small Chest 02": 12875.64705882353,
+      "Stone": 10.716048173896015,
+      "Unpolished Emerald": 38.89232409381663,
+      "Unpolished Shimmer Stone": 10.691969519343493
+    },
+    "location": "Mount Banon",
+    "manual_fish_rates": {},
+    "mode": "explores"
+  },
+  {
     "drop_rates": {},
     "iron_depot_rates": {},
-    "location": "Hops Seeds",
+    "location": "Mushroom Spores",
     "manual_fish_rates": {},
     "mode": "harvests"
+  },
+  {
+    "drop_rates": {},
+    "iron_depot_rates": {},
+    "location": "Onion Seeds",
+    "manual_fish_rates": {},
+    "mode": "harvests"
+  },
+  {
+    "drop_rates": {
+      "Gold Peas": 611.0
+    },
+    "iron_depot_rates": {},
+    "location": "Pea Seeds",
+    "manual_fish_rates": {},
+    "mode": "harvests"
+  },
+  {
+    "drop_rates": {
+      "Gold Peppers": 219.03125
+    },
+    "iron_depot_rates": {},
+    "location": "Pepper Seeds",
+    "manual_fish_rates": {},
+    "mode": "harvests"
+  },
+  {
+    "drop_rates": {},
+    "iron_depot_rates": {},
+    "location": "Pine Seeds",
+    "manual_fish_rates": {},
+    "mode": "harvests"
+  },
+  {
+    "drop_rates": {},
+    "iron_depot_rates": {},
+    "location": "Potato Seeds",
+    "manual_fish_rates": {},
+    "mode": "harvests"
+  },
+  {
+    "drop_rates": {},
+    "iron_depot_rates": {},
+    "location": "Pumpkin Seeds",
+    "manual_fish_rates": {},
+    "mode": "harvests"
+  },
+  {
+    "drop_rates": {
+      "Runestone 07": 360.0
+    },
+    "iron_depot_rates": {},
+    "location": "Radish Seeds",
+    "manual_fish_rates": {},
+    "mode": "harvests"
+  },
+  {
+    "drop_rates": {
+      "Bone": 59.27322404371585,
+      "Grab Bag 02": 903.9166666666666,
+      "Mushroom": 19.721818181818183,
+      "Nails": 8.905582922824301,
+      "Runestone 04": 3615.6666666666665,
+      "Stone": 8.876432078559738,
+      "Wood": 9.286815068493151,
+      "Wooden Mask": 677.9375
+    },
+    "iron_depot_rates": {
+      "Bone": 50.80719524973804,
+      "Grab Bag 02": 616.3601694915254,
+      "Model Ship": 36365.25,
+      "Mushroom": 15.580655526992288,
+      "Runestone 04": 1992.6164383561643,
+      "Stone": 6.430636604774536,
+      "Wood": 6.384068466096116,
+      "Wooden Mask": 643.6327433628319
+    },
+    "location": "Small Cave",
+    "manual_fish_rates": {},
+    "mode": "explores"
+  },
+  {
+    "drop_rates": {
+      "Blue Crab": 6.988097745944807,
+      "Blue Sea Bass": 28.62989067894131,
+      "Blue Shell": 14.179311818764694,
+      "Green Chromis": 6.477317104920593,
+      "Heart Necklace Left Piece": 2046.4285714285713,
+      "Jellyfish": 36.50009169264625,
+      "MIAB": 145.92008797653958,
+      "Mackerel": 6.7359888994178965,
+      "Mussel": 37.16112770724421,
+      "Seaweed": 275.2904564315353,
+      "Small Prawn": 2.6083110551973583
+    },
+    "iron_depot_rates": {},
+    "location": "Small Island",
+    "manual_fish_rates": {
+      "Blue Crab": 7.212624584717608,
+      "Blue Sea Bass": 33.4,
+      "Blue Shell": 15.181818181818182,
+      "Gold Sea Bass": 57.63716814159292,
+      "Green Chromis": 6.2146946564885495,
+      "Jellyfish": 36.58988764044944,
+      "MIAB": 138.5744680851064,
+      "Mackerel": 6.493519441674975,
+      "Mussel": 39.234939759036145,
+      "Seaweed": 232.60714285714286,
+      "Small Prawn": 2.7103620474406993
+    },
+    "mode": "fishes"
+  },
+  {
+    "drop_rates": {
+      "Cogwheel": 232.2394366197183,
+      "Drum": 2.089560434918516,
+      "Fish Bones": 29.734912238518874,
+      "Runestone 08": 1421.4655172413793,
+      "Small Key": 1671.1824324324325,
+      "Yellow Perch": 2.0738619689258195
+    },
+    "iron_depot_rates": {},
+    "location": "Small Pond",
+    "manual_fish_rates": {
+      "Cogwheel": 243.2,
+      "Drum": 2.1753130590339893,
+      "Fish Bones": 24.32,
+      "Gold Drum": 21.714285714285715,
+      "Small Key": 1216.0,
+      "Yellow Perch": 2.231192660550459
+    },
+    "mode": "fishes"
   },
   {
     "drop_rates": {
@@ -267,30 +665,16 @@
   {
     "drop_rates": {},
     "iron_depot_rates": {},
-    "location": "Potato Seeds",
+    "location": "Sunflower Seeds",
     "manual_fish_rates": {},
     "mode": "harvests"
   },
   {
-    "drop_rates": {
-      "Cogwheel": 232.2394366197183,
-      "Drum": 2.089560434918516,
-      "Fish Bones": 29.734912238518874,
-      "Runestone 08": 1421.4655172413793,
-      "Small Key": 1671.1824324324325,
-      "Yellow Perch": 2.0738619689258195
-    },
+    "drop_rates": {},
     "iron_depot_rates": {},
-    "location": "Small Pond",
-    "manual_fish_rates": {
-      "Cogwheel": 243.2,
-      "Drum": 2.1753130590339893,
-      "Fish Bones": 24.32,
-      "Gold Drum": 21.714285714285715,
-      "Small Key": 1216.0,
-      "Yellow Perch": 2.231192660550459
-    },
-    "mode": "fishes"
+    "location": "Tomato Seeds",
+    "manual_fish_rates": {},
+    "mode": "harvests"
   },
   {
     "drop_rates": {
@@ -337,102 +721,7 @@
   {
     "drop_rates": {},
     "iron_depot_rates": {},
-    "location": "Onion Seeds",
-    "manual_fish_rates": {},
-    "mode": "harvests"
-  },
-  {
-    "drop_rates": {
-      "Blue Catfish": 14.635458167330677,
-      "Bone Fish": 2.806984029953389,
-      "Glass Bottle": 80.5592105263158,
-      "Globber": 18.628296146044626,
-      "Old Boot": 72.31299212598425,
-      "Runestone 12": 3061.25,
-      "Sunfish": 2.8201289728235834,
-      "Trout": 7.113671572424477
-    },
-    "iron_depot_rates": {},
-    "location": "Crystal River",
-    "manual_fish_rates": {
-      "Blue Catfish": 15.1875,
-      "Bone Fish": 2.9634146341463414,
-      "Glass Bottle": 81.0,
-      "Globber": 24.3,
-      "Gold Catfish": 34.714285714285715,
-      "Old Boot": 40.5,
-      "Sunfish": 2.927710843373494,
-      "Trout": 6.75
-    },
-    "mode": "fishes"
-  },
-  {
-    "drop_rates": {
-      "Antler": 49.238757577181524,
-      "Arrowhead": 59.14709866787085,
-      "Bird Egg": 77.94763073718664,
-      "Fire Ant": 357.8722677595628,
-      "Frog": 7832.273584905661,
-      "Gold Feather": 6716.98717948718,
-      "Gold Leaf": 7032.5503355704695,
-      "Hide": 39.915054091116865,
-      "Mushroom": 18.065756353229197,
-      "Straw": 18.163145031287375,
-      "Wood": 6.9457517466293694
-    },
-    "iron_depot_rates": {
-      "Antler": 49.238757577181524,
-      "Arrowhead": 59.14709866787085,
-      "Bird Egg": 77.94763073718664,
-      "Fire Ant": 357.8722677595628,
-      "Frog": 7832.273584905661,
-      "Gold Feather": 6716.98717948718,
-      "Gold Leaf": 7032.5503355704695,
-      "Hide": 39.915054091116865,
-      "Mushroom": 18.065756353229197,
-      "Straw": 18.163145031287375,
-      "Wood": 6.9457517466293694
-    },
-    "location": "Forest",
-    "manual_fish_rates": {},
-    "mode": "explores"
-  },
-  {
-    "drop_rates": {},
-    "iron_depot_rates": {},
-    "location": "Cotton Seeds",
-    "manual_fish_rates": {},
-    "mode": "harvests"
-  },
-  {
-    "drop_rates": {
-      "Runestone 07": 360.0
-    },
-    "iron_depot_rates": {},
-    "location": "Radish Seeds",
-    "manual_fish_rates": {},
-    "mode": "harvests"
-  },
-  {
-    "drop_rates": {},
-    "iron_depot_rates": {},
-    "location": "Mushroom Spores",
-    "manual_fish_rates": {},
-    "mode": "harvests"
-  },
-  {
-    "drop_rates": {},
-    "iron_depot_rates": {},
     "location": "Watermelon Seeds",
-    "manual_fish_rates": {},
-    "mode": "harvests"
-  },
-  {
-    "drop_rates": {
-      "Gold Peppers": 219.03125
-    },
-    "iron_depot_rates": {},
-    "location": "Pepper Seeds",
     "manual_fish_rates": {},
     "mode": "harvests"
   },
@@ -442,48 +731,6 @@
     "location": "Wheat Seeds",
     "manual_fish_rates": {},
     "mode": "harvests"
-  },
-  {
-    "drop_rates": {
-      "Blue Tiger Fish": 25.799941605839415,
-      "Clam Shell": 3.404564858908564,
-      "Clownfish": 17.035820320030847,
-      "Conch Shell": 3.3958511071656408,
-      "Crab Claw": 3592.0650406504064,
-      "MIAB": 175.18794607454402,
-      "Magic Conch Shell": 21039.238095238095,
-      "Marlin": 87.07607410327158,
-      "Pearl": 32.84204266706311,
-      "Puffer": 43.10057555360453,
-      "Red Starfish": 16.906746259518616,
-      "Ruby Fish": 87.14477317554241,
-      "Seahorse": 43.94072600696171,
-      "Spiked Shell": 4016.581818181818,
-      "Starfish": 7.917567155887676,
-      "Stingray": 43.02921698480717
-    },
-    "iron_depot_rates": {},
-    "location": "Emerald Beach",
-    "manual_fish_rates": {
-      "Blue Tiger Fish": 26.296928327645052,
-      "Clam Shell": 3.40929203539823,
-      "Clownfish": 16.153039832285117,
-      "Conch Shell": 3.5086520947176685,
-      "Crab Claw": 1926.25,
-      "Goldray": 80.26041666666667,
-      "MIAB": 154.1,
-      "Magic Conch Shell": 7705.0,
-      "Marlin": 72.68867924528301,
-      "Pearl": 32.37394957983193,
-      "Puffer": 47.857142857142854,
-      "Red Starfish": 17.591324200913242,
-      "Ruby Fish": 70.68807339449542,
-      "Seahorse": 44.02857142857143,
-      "Spiked Shell": 7705.0,
-      "Starfish": 8.119072708113803,
-      "Stingray": 51.026490066225165
-    },
-    "mode": "fishes"
   },
   {
     "drop_rates": {
@@ -523,245 +770,5 @@
     "location": "Whispering Creek",
     "manual_fish_rates": {},
     "mode": "explores"
-  },
-  {
-    "drop_rates": {
-      "Runestone 10": 828.0
-    },
-    "iron_depot_rates": {},
-    "location": "Leek Seeds",
-    "manual_fish_rates": {},
-    "mode": "harvests"
-  },
-  {
-    "drop_rates": {
-      "Ancient Coin": 240.0310291858679,
-      "Coal": 6.903537915068832,
-      "Giant Centipede": 348.6394466755913,
-      "Horn": 47.23991777011911,
-      "Large Chest 02": 16623.425531914894,
-      "Medium Chest 02": 17362.244444444445,
-      "Orange Gecko": 7735.653465346535,
-      "Ruby Scorpion": 747.6564593301435,
-      "Runestone 09": 4650.601190476191,
-      "Runestone 13": 7735.653465346535,
-      "Sandstone": 6.903232931904329,
-      "Shimmer Quartz": 75.86183124575201
-    },
-    "iron_depot_rates": {
-      "Ancient Coin": 240.0310291858679,
-      "Coal": 6.903537915068832,
-      "Giant Centipede": 348.6394466755913,
-      "Horn": 47.23991777011911,
-      "Large Chest 02": 16623.425531914894,
-      "Medium Chest 02": 17362.244444444445,
-      "Orange Gecko": 7735.653465346535,
-      "Ruby Scorpion": 747.6564593301435,
-      "Runestone 09": 4650.601190476191,
-      "Runestone 13": 7735.653465346535,
-      "Sandstone": 6.903232931904329,
-      "Shimmer Quartz": 75.86183124575201
-    },
-    "location": "Black Rock Canyon",
-    "manual_fish_rates": {},
-    "mode": "explores"
-  },
-  {
-    "drop_rates": {
-      "Gold Peas": 611.0
-    },
-    "iron_depot_rates": {},
-    "location": "Pea Seeds",
-    "manual_fish_rates": {},
-    "mode": "harvests"
-  },
-  {
-    "drop_rates": {
-      "Bacon": 15783.142857142857,
-      "Carbon Sphere": 48.09838920330866,
-      "Coal": 13.666749134092033,
-      "Dragon Skull": 55241.0,
-      "Gold Feather": 18413.666666666668,
-      "Iron": 13.586079685194294,
-      "Magna Quartz": 3563.935483870968,
-      "Runestone 19": 15783.142857142857,
-      "Small Chest 02": 22096.4,
-      "Stone": 13.916362262249654,
-      "Unpolished Emerald": 48.84261715296198,
-      "Unpolished Shimmer Stone": 13.75865504358655
-    },
-    "iron_depot_rates": {
-      "Bacon": 13148.181818181818,
-      "Carbon Sphere": 38.42454835281615,
-      "Coal": 10.729228486646884,
-      "Dragon Skull": 144630.0,
-      "Gold Feather": 16070.0,
-      "Magna Quartz": 3013.125,
-      "Runestone 19": 13148.181818181818,
-      "Small Chest 02": 12052.5,
-      "Stone": 10.67143805799454,
-      "Unpolished Emerald": 39.08918918918919,
-      "Unpolished Shimmer Stone": 10.675376439326838
-    },
-    "location": "Mount Banon",
-    "manual_fish_rates": {},
-    "mode": "explores"
-  },
-  {
-    "drop_rates": {},
-    "iron_depot_rates": {},
-    "location": "Broccoli Seeds",
-    "manual_fish_rates": {},
-    "mode": "harvests"
-  },
-  {
-    "drop_rates": {
-      "Carp": 9.683098591549296,
-      "Catfish": 39.285714285714285,
-      "Drum": 4.209183673469388,
-      "Fish Bones": 46.4527027027027,
-      "Flier": 50.060679611650485,
-      "Largemouth Bass": 4.061638440330839,
-      "Runestone 02": 458.3333333333333,
-      "Trout": 9.660421545667447,
-      "Yellow Perch": 4.161622276029056
-    },
-    "iron_depot_rates": {},
-    "location": "Farm Pond",
-    "manual_fish_rates": {
-      "Carp": 10.059055118110237,
-      "Catfish": 44.824561403508774,
-      "Drum": 4.315878378378378,
-      "Fish Bones": 47.31481481481482,
-      "Flier": 46.45454545454545,
-      "Gold Trout": 33.18181818181818,
-      "Largemouth Bass": 4.1612377850162865,
-      "Runestone 02": 851.6666666666666,
-      "Trout": 9.864864864864865,
-      "Yellow Perch": 4.330508474576271
-    },
-    "mode": "fishes"
-  },
-  {
-    "drop_rates": {},
-    "iron_depot_rates": {},
-    "location": "Pine Seeds",
-    "manual_fish_rates": {},
-    "mode": "harvests"
-  },
-  {
-    "drop_rates": {},
-    "iron_depot_rates": {},
-    "location": "Pumpkin Seeds",
-    "manual_fish_rates": {},
-    "mode": "harvests"
-  },
-  {
-    "drop_rates": {
-      "Barracuda": 5.401983847170292,
-      "Plumbfish": 7.99353786530351,
-      "Ruby Coral": 11.717478760459109,
-      "Sea Catfish": 6.728081180811808,
-      "Serpent Eel": 10.536075444658893,
-      "Spiral Shell": 9.195539685901897,
-      "Swordfish": 3.9675296698131683,
-      "Tribal Staff": 9802.741935483871
-    },
-    "iron_depot_rates": {},
-    "location": "Large Island",
-    "manual_fish_rates": {
-      "Barracuda": 5.690732206861239,
-      "Gold Boot": 11114.0,
-      "Gold Coral": 31.044692737430168,
-      "Plumbfish": 8.172058823529412,
-      "Ruby Coral": 12.745412844036696,
-      "Sea Catfish": 7.025284450063211,
-      "Serpent Eel": 10.514664143803216,
-      "Spiral Shell": 9.230897009966778,
-      "Swordfish": 4.0770359501100515,
-      "Tribal Staff": 11114.0
-    },
-    "mode": "fishes"
-  },
-  {
-    "drop_rates": {
-      "Blue Crab": 6.988097745944807,
-      "Blue Sea Bass": 28.62989067894131,
-      "Blue Shell": 14.179311818764694,
-      "Green Chromis": 6.477317104920593,
-      "Heart Necklace Left Piece": 2046.4285714285713,
-      "Jellyfish": 36.50009169264625,
-      "MIAB": 145.92008797653958,
-      "Mackerel": 6.7359888994178965,
-      "Mussel": 37.16112770724421,
-      "Seaweed": 275.2904564315353,
-      "Small Prawn": 2.6083110551973583
-    },
-    "iron_depot_rates": {},
-    "location": "Small Island",
-    "manual_fish_rates": {
-      "Blue Crab": 7.212624584717608,
-      "Blue Sea Bass": 33.4,
-      "Blue Shell": 15.181818181818182,
-      "Gold Sea Bass": 57.63716814159292,
-      "Green Chromis": 6.2146946564885495,
-      "Jellyfish": 36.58988764044944,
-      "MIAB": 138.5744680851064,
-      "Mackerel": 6.493519441674975,
-      "Mussel": 39.234939759036145,
-      "Seaweed": 232.60714285714286,
-      "Small Prawn": 2.7103620474406993
-    },
-    "mode": "fishes"
-  },
-  {
-    "drop_rates": {},
-    "iron_depot_rates": {},
-    "location": "Beet Seeds",
-    "manual_fish_rates": {},
-    "mode": "harvests"
-  },
-  {
-    "drop_rates": {},
-    "iron_depot_rates": {},
-    "location": "Tomato Seeds",
-    "manual_fish_rates": {},
-    "mode": "harvests"
-  },
-  {
-    "drop_rates": {
-      "Amethyst": 95.87365813377374,
-      "Caterpillar": 829.3071428571428,
-      "Feathers": 20.42987858525427,
-      "Fern Leaf": 21.803380281690142,
-      "Medium Chest 01": 38701.0,
-      "Purple Flower": 20.96100379129807,
-      "Runestone 14": 9675.25,
-      "Stone": 21.06367924528302,
-      "Strange Letter": 1759.1363636363637,
-      "Wood": 21.16350710900474
-    },
-    "iron_depot_rates": {
-      "Amethyst": 95.87365813377374,
-      "Caterpillar": 829.3071428571428,
-      "Feathers": 20.42987858525427,
-      "Fern Leaf": 21.803380281690142,
-      "Medium Chest 01": 38701.0,
-      "Purple Flower": 20.96100379129807,
-      "Runestone 14": 9675.25,
-      "Stone": 21.06367924528302,
-      "Strange Letter": 1759.1363636363637,
-      "Wood": 21.16350710900474
-    },
-    "location": "Highland Hills",
-    "manual_fish_rates": {},
-    "mode": "explores"
-  },
-  {
-    "drop_rates": {},
-    "iron_depot_rates": {},
-    "location": "Cabbage Seeds",
-    "manual_fish_rates": {},
-    "mode": "harvests"
   }
 ]

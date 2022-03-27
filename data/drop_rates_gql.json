@@ -1,695 +1,128 @@
 [
   {
-    "drops": 58002,
-    "hits": 1047850,
-    "item": "Mushroom",
-    "location": "Forest",
-    "mode": "explores",
-    "rate": 18.065756353229197,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 26252,
-    "hits": 1047850,
-    "item": "Hide",
-    "location": "Forest",
-    "mode": "explores",
-    "rate": 39.915054091116865,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 57691,
-    "hits": 1047850,
-    "item": "Straw",
-    "location": "Forest",
-    "mode": "explores",
-    "rate": 18.163145031287375,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 150862,
-    "hits": 1047850,
-    "item": "Wood",
-    "location": "Forest",
-    "mode": "explores",
-    "rate": 6.9457517466293694,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 13443,
-    "hits": 1047850,
-    "item": "Bird Egg",
-    "location": "Forest",
-    "mode": "explores",
-    "rate": 77.94763073718664,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 21281,
-    "hits": 1047850,
-    "item": "Antler",
-    "location": "Forest",
-    "mode": "explores",
-    "rate": 49.238757577181524,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 17716,
-    "hits": 1047850,
-    "item": "Arrowhead",
-    "location": "Forest",
-    "mode": "explores",
-    "rate": 59.14709866787085,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 2928,
-    "hits": 1047850,
-    "item": "Fire Ant",
-    "location": "Forest",
-    "mode": "explores",
-    "rate": 357.8722677595628,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 156,
-    "hits": 1047850,
-    "item": "Gold Feather",
-    "location": "Forest",
-    "mode": "explores",
-    "rate": 6716.98717948718,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 149,
-    "hits": 1047850,
-    "item": "Gold Leaf",
-    "location": "Forest",
-    "mode": "explores",
-    "rate": 7032.5503355704695,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 106,
-    "hits": 830221,
-    "item": "Frog",
-    "location": "Forest",
-    "mode": "explores",
-    "rate": 7832.273584905661,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 355252,
-    "hits": 3166711,
-    "item": "Oak",
-    "location": "Whispering Creek",
-    "mode": "explores",
-    "rate": 8.913985002195625,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 86794,
-    "hits": 3166711,
-    "item": "Salt Rock",
-    "location": "Whispering Creek",
-    "mode": "explores",
-    "rate": 36.48536765214185,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 24709,
-    "hits": 3166711,
-    "item": "Red Berries",
-    "location": "Whispering Creek",
-    "mode": "explores",
-    "rate": 128.16022501922376,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 24761,
-    "hits": 3166711,
-    "item": "Striped Feather",
-    "location": "Whispering Creek",
-    "mode": "explores",
-    "rate": 127.89107871249142,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 24287,
-    "hits": 3166711,
-    "item": "Thorns",
-    "location": "Whispering Creek",
-    "mode": "explores",
-    "rate": 130.38707950755548,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 40993,
-    "hits": 3166711,
-    "item": "Apple",
-    "location": "Whispering Creek",
-    "mode": "explores",
-    "rate": 77.25004269021541,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 24382,
-    "hits": 3166711,
-    "item": "Sour Root",
-    "location": "Whispering Creek",
-    "mode": "explores",
-    "rate": 129.8790501189402,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 8376,
-    "hits": 3166711,
-    "item": "Lemon",
-    "location": "Whispering Creek",
-    "mode": "explores",
-    "rate": 378.0696036294174,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 7954,
-    "hits": 3166711,
-    "item": "Orange",
-    "location": "Whispering Creek",
-    "mode": "explores",
-    "rate": 398.1281116419412,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 921,
-    "hits": 3166711,
-    "item": "Herbs",
-    "location": "Whispering Creek",
-    "mode": "explores",
-    "rate": 3438.339847991314,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 63438,
-    "hits": 3166711,
-    "item": "Unpolished Garnet",
-    "location": "Whispering Creek",
-    "mode": "explores",
-    "rate": 49.918203600365715,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 49923,
-    "hits": 3166711,
-    "item": "Blue Gel",
-    "location": "Whispering Creek",
-    "mode": "explores",
-    "rate": 63.43190513390621,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 131314,
-    "hits": 3166711,
-    "item": "Slimestone",
-    "location": "Whispering Creek",
-    "mode": "explores",
-    "rate": 24.115562697046773,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 18,
-    "hits": 3166711,
-    "item": "Raptor Egg",
-    "location": "Whispering Creek",
-    "mode": "explores",
-    "rate": 175928.38888888888,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 18,
-    "hits": 3166711,
-    "item": "Raptor Claw",
-    "location": "Whispering Creek",
-    "mode": "explores",
-    "rate": 175928.38888888888,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 39906,
-    "hits": 833445,
-    "item": "Glass Orb",
-    "location": "Ember Lagoon",
-    "mode": "explores",
-    "rate": 20.885205232295895,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 187678,
-    "hits": 833445,
-    "item": "Stone",
-    "location": "Ember Lagoon",
-    "mode": "explores",
-    "rate": 4.44082417758075,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 14132,
-    "hits": 833445,
-    "item": "Prism Shard",
-    "location": "Ember Lagoon",
-    "mode": "explores",
-    "rate": 58.97572884234362,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 4435,
-    "hits": 833445,
+    "drops": 3255,
+    "hits": 781301,
     "item": "Ancient Coin",
-    "location": "Ember Lagoon",
+    "location": "Black Rock Canyon",
     "mode": "explores",
-    "rate": 187.92446448703495,
+    "rate": 240.0310291858679,
     "rate_type": "normal"
   },
   {
-    "drops": 1059,
-    "hits": 833445,
-    "item": "Moonstone",
-    "location": "Ember Lagoon",
+    "drops": 113174,
+    "hits": 781301,
+    "item": "Coal",
+    "location": "Black Rock Canyon",
     "mode": "explores",
-    "rate": 787.0113314447592,
+    "rate": 6.903537915068832,
     "rate_type": "normal"
   },
   {
-    "drops": 478,
-    "hits": 833445,
-    "item": "Magicite",
-    "location": "Ember Lagoon",
+    "drops": 2241,
+    "hits": 781301,
+    "item": "Giant Centipede",
+    "location": "Black Rock Canyon",
     "mode": "explores",
-    "rate": 1743.6087866108787,
+    "rate": 348.6394466755913,
     "rate_type": "normal"
   },
   {
-    "drops": 28646,
-    "hits": 833445,
-    "item": "Emberstone",
-    "location": "Ember Lagoon",
+    "drops": 16539,
+    "hits": 781301,
+    "item": "Horn",
+    "location": "Black Rock Canyon",
     "mode": "explores",
-    "rate": 29.094637994833484,
+    "rate": 47.23991777011911,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 47,
+    "hits": 781301,
+    "item": "Large Chest 02",
+    "location": "Black Rock Canyon",
+    "mode": "explores",
+    "rate": 16623.425531914894,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 45,
+    "hits": 781301,
+    "item": "Medium Chest 02",
+    "location": "Black Rock Canyon",
+    "mode": "explores",
+    "rate": 17362.244444444445,
     "rate_type": "normal"
   },
   {
     "drops": 101,
-    "hits": 833445,
-    "item": "Runestone 17",
-    "location": "Ember Lagoon",
+    "hits": 781301,
+    "item": "Orange Gecko",
+    "location": "Black Rock Canyon",
     "mode": "explores",
-    "rate": 8251.930693069307,
+    "rate": 7735.653465346535,
     "rate_type": "normal"
   },
   {
-    "drops": 21,
-    "hits": 833445,
-    "item": "Diamond",
-    "location": "Ember Lagoon",
+    "drops": 1045,
+    "hits": 781301,
+    "item": "Ruby Scorpion",
+    "location": "Black Rock Canyon",
     "mode": "explores",
-    "rate": 39687.857142857145,
+    "rate": 747.6564593301435,
     "rate_type": "normal"
   },
   {
-    "drops": 52,
-    "hits": 833445,
-    "item": "Large Chest 01",
-    "location": "Ember Lagoon",
+    "drops": 168,
+    "hits": 781301,
+    "item": "Runestone 09",
+    "location": "Black Rock Canyon",
     "mode": "explores",
-    "rate": 16027.788461538461,
+    "rate": 4650.601190476191,
     "rate_type": "normal"
   },
   {
-    "drops": 8084,
-    "hits": 110482,
-    "item": "Coal",
-    "location": "Mount Banon",
+    "drops": 101,
+    "hits": 781301,
+    "item": "Runestone 13",
+    "location": "Black Rock Canyon",
     "mode": "explores",
-    "rate": 13.666749134092033,
+    "rate": 7735.653465346535,
     "rate_type": "normal"
   },
   {
-    "drops": 8030,
-    "hits": 110482,
-    "item": "Unpolished Shimmer Stone",
-    "location": "Mount Banon",
+    "drops": 113179,
+    "hits": 781301,
+    "item": "Sandstone",
+    "location": "Black Rock Canyon",
     "mode": "explores",
-    "rate": 13.75865504358655,
+    "rate": 6.903232931904329,
     "rate_type": "normal"
   },
   {
-    "drops": 7939,
-    "hits": 110482,
-    "item": "Stone",
-    "location": "Mount Banon",
+    "drops": 10299,
+    "hits": 781301,
+    "item": "Shimmer Quartz",
+    "location": "Black Rock Canyon",
     "mode": "explores",
-    "rate": 13.916362262249654,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 8132,
-    "hits": 110482,
-    "item": "Iron",
-    "location": "Mount Banon",
-    "mode": "explores",
-    "rate": 13.586079685194294,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 2297,
-    "hits": 110482,
-    "item": "Carbon Sphere",
-    "location": "Mount Banon",
-    "mode": "explores",
-    "rate": 48.09838920330866,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 2262,
-    "hits": 110482,
-    "item": "Unpolished Emerald",
-    "location": "Mount Banon",
-    "mode": "explores",
-    "rate": 48.84261715296198,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 6,
-    "hits": 110482,
-    "item": "Gold Feather",
-    "location": "Mount Banon",
-    "mode": "explores",
-    "rate": 18413.666666666668,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 7,
-    "hits": 110482,
-    "item": "Runestone 19",
-    "location": "Mount Banon",
-    "mode": "explores",
-    "rate": 15783.142857142857,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 7,
-    "hits": 110482,
-    "item": "Bacon",
-    "location": "Mount Banon",
-    "mode": "explores",
-    "rate": 15783.142857142857,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 31,
-    "hits": 110482,
-    "item": "Magna Quartz",
-    "location": "Mount Banon",
-    "mode": "explores",
-    "rate": 3563.935483870968,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 5,
-    "hits": 110482,
-    "item": "Small Chest 02",
-    "location": "Mount Banon",
-    "mode": "explores",
-    "rate": 22096.4,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 2,
-    "hits": 110482,
-    "item": "Dragon Skull",
-    "location": "Mount Banon",
-    "mode": "explores",
-    "rate": 55241.0,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 5539,
-    "hits": 116103,
-    "item": "Purple Flower",
-    "location": "Highland Hills",
-    "mode": "explores",
-    "rate": 20.96100379129807,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 5486,
-    "hits": 116103,
-    "item": "Wood",
-    "location": "Highland Hills",
-    "mode": "explores",
-    "rate": 21.16350710900474,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 5325,
-    "hits": 116103,
-    "item": "Fern Leaf",
-    "location": "Highland Hills",
-    "mode": "explores",
-    "rate": 21.803380281690142,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 1211,
-    "hits": 116103,
-    "item": "Amethyst",
-    "location": "Highland Hills",
-    "mode": "explores",
-    "rate": 95.87365813377374,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 5683,
-    "hits": 116103,
-    "item": "Feathers",
-    "location": "Highland Hills",
-    "mode": "explores",
-    "rate": 20.42987858525427,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 5512,
-    "hits": 116103,
-    "item": "Stone",
-    "location": "Highland Hills",
-    "mode": "explores",
-    "rate": 21.06367924528302,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 12,
-    "hits": 116103,
-    "item": "Runestone 14",
-    "location": "Highland Hills",
-    "mode": "explores",
-    "rate": 9675.25,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 140,
-    "hits": 116103,
-    "item": "Caterpillar",
-    "location": "Highland Hills",
-    "mode": "explores",
-    "rate": 829.3071428571428,
+    "rate": 75.86183124575201,
     "rate_type": "normal"
   },
   {
     "drops": 66,
-    "hits": 116103,
-    "item": "Strange Letter",
-    "location": "Highland Hills",
+    "hits": 424758,
+    "item": "Heart Necklace Right Piece",
+    "location": "Cane Pole Ridge",
     "mode": "explores",
-    "rate": 1759.1363636363637,
+    "rate": 6435.727272727273,
     "rate_type": "normal"
   },
   {
-    "drops": 3,
-    "hits": 116103,
-    "item": "Medium Chest 01",
-    "location": "Highland Hills",
+    "drops": 590,
+    "hits": 429901,
+    "item": "Horned Beetle",
+    "location": "Cane Pole Ridge",
     "mode": "explores",
-    "rate": 38701.0,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 114049,
-    "hits": 911655,
-    "item": "Plumbfish",
-    "location": "Large Island",
-    "mode": "fishes",
-    "rate": 7.99353786530351,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 168763,
-    "hits": 911655,
-    "item": "Barracuda",
-    "location": "Large Island",
-    "mode": "fishes",
-    "rate": 5.401983847170292,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 229779,
-    "hits": 911655,
-    "item": "Swordfish",
-    "location": "Large Island",
-    "mode": "fishes",
-    "rate": 3.9675296698131683,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 77803,
-    "hits": 911655,
-    "item": "Ruby Coral",
-    "location": "Large Island",
-    "mode": "fishes",
-    "rate": 11.717478760459109,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 99141,
-    "hits": 911655,
-    "item": "Spiral Shell",
-    "location": "Large Island",
-    "mode": "fishes",
-    "rate": 9.195539685901897,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 135500,
-    "hits": 911655,
-    "item": "Sea Catfish",
-    "location": "Large Island",
-    "mode": "fishes",
-    "rate": 6.728081180811808,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 86527,
-    "hits": 911655,
-    "item": "Serpent Eel",
-    "location": "Large Island",
-    "mode": "fishes",
-    "rate": 10.536075444658893,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 93,
-    "hits": 911655,
-    "item": "Tribal Staff",
-    "location": "Large Island",
-    "mode": "fishes",
-    "rate": 9802.741935483871,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 68025,
-    "hits": 782787,
-    "item": "Feathers",
-    "location": "Small Spring",
-    "mode": "explores",
-    "rate": 11.507342888643882,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 29814,
-    "hits": 782787,
-    "item": "Mushroom",
-    "location": "Small Spring",
-    "mode": "explores",
-    "rate": 26.255685248540953,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 67931,
-    "hits": 782787,
-    "item": "Stone",
-    "location": "Small Spring",
-    "mode": "explores",
-    "rate": 11.523266255465105,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 68432,
-    "hits": 782787,
-    "item": "Wood",
-    "location": "Small Spring",
-    "mode": "explores",
-    "rate": 11.438902852466683,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 9399,
-    "hits": 782787,
-    "item": "Apple",
-    "location": "Small Spring",
-    "mode": "explores",
-    "rate": 83.28407277369934,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 14420,
-    "hits": 782787,
-    "item": "Aquamarine",
-    "location": "Small Spring",
-    "mode": "explores",
-    "rate": 54.28481276005548,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 1563,
-    "hits": 782787,
-    "item": "Snail",
-    "location": "Small Spring",
-    "mode": "explores",
-    "rate": 500.8234165067179,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 101,
-    "hits": 782787,
-    "item": "Small Chest 01",
-    "location": "Small Spring",
-    "mode": "explores",
-    "rate": 7750.366336633663,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 746,
-    "hits": 782787,
-    "item": "Spectacles",
-    "location": "Small Spring",
-    "mode": "explores",
-    "rate": 1049.3123324396784,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 760,
-    "hits": 782787,
-    "item": "Dice",
-    "location": "Small Spring",
-    "mode": "explores",
-    "rate": 1029.9828947368421,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 10,
-    "hits": 782787,
-    "item": "Skull Coin",
-    "location": "Small Spring",
-    "mode": "explores",
-    "rate": 78278.7,
+    "rate": 728.6457627118644,
     "rate_type": "normal"
   },
   {
@@ -702,12 +135,57 @@
     "rate_type": "normal"
   },
   {
+    "drops": 5788,
+    "hits": 429901,
+    "item": "Lemon Quartz",
+    "location": "Cane Pole Ridge",
+    "mode": "explores",
+    "rate": 74.27453351762267,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 4,
+    "hits": 429901,
+    "item": "Lima Bean",
+    "location": "Cane Pole Ridge",
+    "mode": "explores",
+    "rate": 107475.25,
+    "rate_type": "normal"
+  },
+  {
     "drops": 12156,
     "hits": 429901,
     "item": "Mushroom",
     "location": "Cane Pole Ridge",
     "mode": "explores",
     "rate": 35.36533399144455,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 298,
+    "hits": 429901,
+    "item": "Pocket Watch",
+    "location": "Cane Pole Ridge",
+    "mode": "explores",
+    "rate": 1442.6208053691275,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 25636,
+    "hits": 429901,
+    "item": "Stone",
+    "location": "Cane Pole Ridge",
+    "mode": "explores",
+    "rate": 16.769425807458262,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 3292,
+    "hits": 328000,
+    "item": "Tea Leaves",
+    "location": "Cane Pole Ridge",
+    "mode": "explores",
+    "rate": 99.63547995139733,
     "rate_type": "normal"
   },
   {
@@ -729,966 +207,30 @@
     "rate_type": "normal"
   },
   {
-    "drops": 5788,
-    "hits": 429901,
-    "item": "Lemon Quartz",
-    "location": "Cane Pole Ridge",
-    "mode": "explores",
-    "rate": 74.27453351762267,
+    "drops": 24,
+    "hits": 6660,
+    "item": "Gold Carrot",
+    "location": "Carrot Seeds",
+    "mode": "harvests",
+    "rate": 277.5,
     "rate_type": "normal"
   },
   {
-    "drops": 25636,
-    "hits": 429901,
-    "item": "Stone",
-    "location": "Cane Pole Ridge",
-    "mode": "explores",
-    "rate": 16.769425807458262,
+    "drops": 34,
+    "hits": 6660,
+    "item": "Runestone 01",
+    "location": "Carrot Seeds",
+    "mode": "harvests",
+    "rate": 195.88235294117646,
     "rate_type": "normal"
   },
   {
-    "drops": 590,
-    "hits": 429901,
-    "item": "Horned Beetle",
-    "location": "Cane Pole Ridge",
-    "mode": "explores",
-    "rate": 728.6457627118644,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 298,
-    "hits": 429901,
-    "item": "Pocket Watch",
-    "location": "Cane Pole Ridge",
-    "mode": "explores",
-    "rate": 1442.6208053691275,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 66,
-    "hits": 424758,
-    "item": "Heart Necklace Right Piece",
-    "location": "Cane Pole Ridge",
-    "mode": "explores",
-    "rate": 6435.727272727273,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 4,
-    "hits": 429901,
-    "item": "Lima Bean",
-    "location": "Cane Pole Ridge",
-    "mode": "explores",
-    "rate": 107475.25,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 3164,
-    "hits": 314294,
-    "item": "Tea Leaves",
-    "location": "Cane Pole Ridge",
-    "mode": "explores",
-    "rate": 99.33438685208597,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 12622,
-    "hits": 241580,
-    "item": "Blue Feathers",
-    "location": "Misty Forest",
-    "mode": "explores",
-    "rate": 19.139597528125496,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 6014,
-    "hits": 241580,
-    "item": "Mushroom",
-    "location": "Misty Forest",
-    "mode": "explores",
-    "rate": 40.16960425673429,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 12874,
-    "hits": 241580,
-    "item": "Fern Leaf",
-    "location": "Misty Forest",
-    "mode": "explores",
-    "rate": 18.764952617679043,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 12693,
-    "hits": 241580,
-    "item": "Wood",
-    "location": "Misty Forest",
-    "mode": "explores",
-    "rate": 19.032537619160166,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 5917,
-    "hits": 241580,
-    "item": "3-leaf Clover",
-    "location": "Misty Forest",
-    "mode": "explores",
-    "rate": 40.8281223593037,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 12667,
-    "hits": 241580,
-    "item": "Acorn",
-    "location": "Misty Forest",
-    "mode": "explores",
-    "rate": 19.071603378858452,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 5803,
-    "hits": 241580,
-    "item": "Straw",
-    "location": "Misty Forest",
-    "mode": "explores",
-    "rate": 41.63019128037222,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 1150,
-    "hits": 241580,
-    "item": "4-leaf Clover",
-    "location": "Misty Forest",
-    "mode": "explores",
-    "rate": 210.0695652173913,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 5788,
-    "hits": 241580,
-    "item": "Sweet Root",
-    "location": "Misty Forest",
-    "mode": "explores",
-    "rate": 41.73807878369039,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 2878,
-    "hits": 241580,
-    "item": "Unpolished Ruby",
-    "location": "Misty Forest",
-    "mode": "explores",
-    "rate": 83.94023627519111,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 310,
-    "hits": 241580,
-    "item": "Spider",
-    "location": "Misty Forest",
-    "mode": "explores",
-    "rate": 779.2903225806451,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 322,
-    "hits": 241580,
-    "item": "Shiny Beetle",
-    "location": "Misty Forest",
-    "mode": "explores",
-    "rate": 750.2484472049689,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 1397,
-    "hits": 241580,
-    "item": "Pine Cone",
-    "location": "Misty Forest",
-    "mode": "explores",
-    "rate": 172.9277022190408,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 40,
-    "hits": 241580,
-    "item": "Runestone 05",
-    "location": "Misty Forest",
-    "mode": "explores",
-    "rate": 6039.5,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 14,
-    "hits": 241580,
-    "item": "Gold Feather",
-    "location": "Misty Forest",
-    "mode": "explores",
-    "rate": 17255.714285714286,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 5,
-    "hits": 238658,
-    "item": "Frog",
-    "location": "Misty Forest",
-    "mode": "explores",
-    "rate": 47731.6,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 113179,
-    "hits": 781301,
-    "item": "Sandstone",
-    "location": "Black Rock Canyon",
-    "mode": "explores",
-    "rate": 6.903232931904329,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 113174,
-    "hits": 781301,
-    "item": "Coal",
-    "location": "Black Rock Canyon",
-    "mode": "explores",
-    "rate": 6.903537915068832,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 16539,
-    "hits": 781301,
-    "item": "Horn",
-    "location": "Black Rock Canyon",
-    "mode": "explores",
-    "rate": 47.23991777011911,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 10299,
-    "hits": 781301,
-    "item": "Shimmer Quartz",
-    "location": "Black Rock Canyon",
-    "mode": "explores",
-    "rate": 75.86183124575201,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 3255,
-    "hits": 781301,
-    "item": "Ancient Coin",
-    "location": "Black Rock Canyon",
-    "mode": "explores",
-    "rate": 240.0310291858679,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 2241,
-    "hits": 781301,
-    "item": "Giant Centipede",
-    "location": "Black Rock Canyon",
-    "mode": "explores",
-    "rate": 348.6394466755913,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 101,
-    "hits": 781301,
-    "item": "Runestone 13",
-    "location": "Black Rock Canyon",
-    "mode": "explores",
-    "rate": 7735.653465346535,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 1045,
-    "hits": 781301,
-    "item": "Ruby Scorpion",
-    "location": "Black Rock Canyon",
-    "mode": "explores",
-    "rate": 747.6564593301435,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 168,
-    "hits": 781301,
-    "item": "Runestone 09",
-    "location": "Black Rock Canyon",
-    "mode": "explores",
-    "rate": 4650.601190476191,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 45,
-    "hits": 781301,
-    "item": "Medium Chest 02",
-    "location": "Black Rock Canyon",
-    "mode": "explores",
-    "rate": 17362.244444444445,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 101,
-    "hits": 781301,
-    "item": "Orange Gecko",
-    "location": "Black Rock Canyon",
-    "mode": "explores",
-    "rate": 7735.653465346535,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 47,
-    "hits": 781301,
-    "item": "Large Chest 02",
-    "location": "Black Rock Canyon",
-    "mode": "explores",
-    "rate": 16623.425531914894,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 1222,
-    "hits": 10847,
-    "item": "Stone",
-    "location": "Small Cave",
-    "mode": "explores",
-    "rate": 8.876432078559738,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 1218,
-    "hits": 10847,
-    "item": "Nails",
-    "location": "Small Cave",
-    "mode": "explores",
-    "rate": 8.905582922824301,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 550,
-    "hits": 10847,
-    "item": "Mushroom",
-    "location": "Small Cave",
-    "mode": "explores",
-    "rate": 19.721818181818183,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 183,
-    "hits": 10847,
-    "item": "Bone",
-    "location": "Small Cave",
-    "mode": "explores",
-    "rate": 59.27322404371585,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 1168,
-    "hits": 10847,
-    "item": "Wood",
-    "location": "Small Cave",
-    "mode": "explores",
-    "rate": 9.286815068493151,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 16,
-    "hits": 10847,
-    "item": "Wooden Mask",
-    "location": "Small Cave",
-    "mode": "explores",
-    "rate": 677.9375,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 12,
-    "hits": 10847,
-    "item": "Grab Bag 02",
-    "location": "Small Cave",
-    "mode": "explores",
-    "rate": 903.9166666666666,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 3,
-    "hits": 10847,
-    "item": "Runestone 04",
-    "location": "Small Cave",
-    "mode": "explores",
-    "rate": 3615.6666666666665,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 139425,
-    "hits": 300405,
-    "item": "Skipjack",
-    "location": "Vast Ocean",
-    "mode": "fishes",
-    "rate": 2.154599246906939,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 9232,
-    "hits": 300405,
-    "item": "Jellyfish",
-    "location": "Vast Ocean",
-    "mode": "fishes",
-    "rate": 32.539536395147316,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 11550,
-    "hits": 300405,
-    "item": "Blue Sea Bass",
-    "location": "Vast Ocean",
-    "mode": "fishes",
-    "rate": 26.009090909090908,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 19171,
-    "hits": 300405,
-    "item": "Green Jellyfish",
-    "location": "Vast Ocean",
-    "mode": "fishes",
-    "rate": 15.669761619112201,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 2464,
-    "hits": 300405,
-    "item": "MIAB",
-    "location": "Vast Ocean",
-    "mode": "fishes",
-    "rate": 121.91761363636364,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 52228,
-    "hits": 300405,
-    "item": "Mackerel",
-    "location": "Vast Ocean",
-    "mode": "fishes",
-    "rate": 5.751799800873095,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 9372,
-    "hits": 300405,
-    "item": "Fluorifish",
-    "location": "Vast Ocean",
-    "mode": "fishes",
-    "rate": 32.05345710627401,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 32925,
-    "hits": 300405,
-    "item": "Shrimp",
-    "location": "Vast Ocean",
-    "mode": "fishes",
-    "rate": 9.123917995444192,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 9216,
-    "hits": 300405,
-    "item": "Stingray",
-    "location": "Vast Ocean",
-    "mode": "fishes",
-    "rate": 32.596028645833336,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 4698,
-    "hits": 300405,
-    "item": "Marlin",
-    "location": "Vast Ocean",
-    "mode": "fishes",
-    "rate": 63.94316730523627,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 4596,
-    "hits": 300405,
-    "item": "Ruby Fish",
-    "location": "Vast Ocean",
-    "mode": "fishes",
-    "rate": 65.36227154046998,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 2259,
-    "hits": 300405,
-    "item": "Giant Squid",
-    "location": "Vast Ocean",
-    "mode": "fishes",
-    "rate": 132.98140770252323,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 3065,
-    "hits": 300405,
-    "item": "Octopus",
-    "location": "Vast Ocean",
-    "mode": "fishes",
-    "rate": 98.01141924959217,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 79,
-    "hits": 300405,
-    "item": "Runestone 18",
-    "location": "Vast Ocean",
-    "mode": "fishes",
-    "rate": 3802.5949367088606,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 108,
-    "hits": 288120,
-    "item": "Sea Dragon",
-    "location": "Vast Ocean",
-    "mode": "fishes",
-    "rate": 2667.777777777778,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 17,
-    "hits": 300405,
-    "item": "Diving Helmet",
-    "location": "Vast Ocean",
-    "mode": "fishes",
-    "rate": 17670.882352941175,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 76308,
-    "hits": 199035,
-    "item": "Small Prawn",
-    "location": "Small Island",
-    "mode": "fishes",
-    "rate": 2.6083110551973583,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 6952,
-    "hits": 199035,
-    "item": "Blue Sea Bass",
-    "location": "Small Island",
-    "mode": "fishes",
-    "rate": 28.62989067894131,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 5453,
-    "hits": 199035,
-    "item": "Jellyfish",
-    "location": "Small Island",
-    "mode": "fishes",
-    "rate": 36.50009169264625,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 30728,
-    "hits": 199035,
-    "item": "Green Chromis",
-    "location": "Small Island",
-    "mode": "fishes",
-    "rate": 6.477317104920593,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 29548,
-    "hits": 199035,
-    "item": "Mackerel",
-    "location": "Small Island",
-    "mode": "fishes",
-    "rate": 6.7359888994178965,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 5356,
-    "hits": 199035,
-    "item": "Mussel",
-    "location": "Small Island",
-    "mode": "fishes",
-    "rate": 37.16112770724421,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 14037,
-    "hits": 199035,
-    "item": "Blue Shell",
-    "location": "Small Island",
-    "mode": "fishes",
-    "rate": 14.179311818764694,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 28482,
-    "hits": 199035,
-    "item": "Blue Crab",
-    "location": "Small Island",
-    "mode": "fishes",
-    "rate": 6.988097745944807,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 723,
-    "hits": 199035,
-    "item": "Seaweed",
-    "location": "Small Island",
-    "mode": "fishes",
-    "rate": 275.2904564315353,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 1364,
-    "hits": 199035,
-    "item": "MIAB",
-    "location": "Small Island",
-    "mode": "fishes",
-    "rate": 145.92008797653958,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 84,
-    "hits": 171900,
-    "item": "Heart Necklace Left Piece",
-    "location": "Small Island",
-    "mode": "fishes",
-    "rate": 2046.4285714285713,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 118367,
-    "hits": 247335,
-    "item": "Drum",
-    "location": "Small Pond",
-    "mode": "fishes",
-    "rate": 2.089560434918516,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 119263,
-    "hits": 247335,
-    "item": "Yellow Perch",
-    "location": "Small Pond",
-    "mode": "fishes",
-    "rate": 2.0738619689258195,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 8318,
-    "hits": 247335,
-    "item": "Fish Bones",
-    "location": "Small Pond",
-    "mode": "fishes",
-    "rate": 29.734912238518874,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 1065,
-    "hits": 247335,
-    "item": "Cogwheel",
-    "location": "Small Pond",
-    "mode": "fishes",
-    "rate": 232.2394366197183,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 148,
-    "hits": 247335,
-    "item": "Small Key",
-    "location": "Small Pond",
-    "mode": "fishes",
-    "rate": 1671.1824324324325,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 174,
-    "hits": 247335,
-    "item": "Runestone 08",
-    "location": "Small Pond",
-    "mode": "fishes",
-    "rate": 1421.4655172413793,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 55803,
-    "hits": 441824,
-    "item": "Starfish",
-    "location": "Emerald Beach",
-    "mode": "fishes",
-    "rate": 7.917567155887676,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 130107,
-    "hits": 441824,
-    "item": "Conch Shell",
-    "location": "Emerald Beach",
-    "mode": "fishes",
-    "rate": 3.3958511071656408,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 129774,
-    "hits": 441824,
-    "item": "Clam Shell",
-    "location": "Emerald Beach",
-    "mode": "fishes",
-    "rate": 3.404564858908564,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 25935,
-    "hits": 441824,
-    "item": "Clownfish",
-    "location": "Emerald Beach",
-    "mode": "fishes",
-    "rate": 17.035820320030847,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 10055,
-    "hits": 441824,
-    "item": "Seahorse",
-    "location": "Emerald Beach",
-    "mode": "fishes",
-    "rate": 43.94072600696171,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 13453,
-    "hits": 441824,
-    "item": "Pearl",
-    "location": "Emerald Beach",
-    "mode": "fishes",
-    "rate": 32.84204266706311,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 26133,
-    "hits": 441824,
-    "item": "Red Starfish",
-    "location": "Emerald Beach",
-    "mode": "fishes",
-    "rate": 16.906746259518616,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 5070,
-    "hits": 441824,
-    "item": "Ruby Fish",
-    "location": "Emerald Beach",
-    "mode": "fishes",
-    "rate": 87.14477317554241,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 5074,
-    "hits": 441824,
-    "item": "Marlin",
-    "location": "Emerald Beach",
-    "mode": "fishes",
-    "rate": 87.07607410327158,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 17125,
-    "hits": 441824,
-    "item": "Blue Tiger Fish",
-    "location": "Emerald Beach",
-    "mode": "fishes",
-    "rate": 25.799941605839415,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 10268,
-    "hits": 441824,
-    "item": "Stingray",
-    "location": "Emerald Beach",
-    "mode": "fishes",
-    "rate": 43.02921698480717,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 10251,
-    "hits": 441824,
-    "item": "Puffer",
-    "location": "Emerald Beach",
-    "mode": "fishes",
-    "rate": 43.10057555360453,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 2522,
-    "hits": 441824,
-    "item": "MIAB",
-    "location": "Emerald Beach",
-    "mode": "fishes",
-    "rate": 175.18794607454402,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 110,
-    "hits": 441824,
-    "item": "Spiked Shell",
-    "location": "Emerald Beach",
-    "mode": "fishes",
-    "rate": 4016.581818181818,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 123,
-    "hits": 441824,
-    "item": "Crab Claw",
-    "location": "Emerald Beach",
-    "mode": "fishes",
-    "rate": 3592.0650406504064,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 21,
-    "hits": 441824,
-    "item": "Magic Conch Shell",
-    "location": "Emerald Beach",
-    "mode": "fishes",
-    "rate": 21039.238095238095,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 43592,
-    "hits": 67110,
-    "item": "Torch Fish",
-    "location": "Lake Minerva",
-    "mode": "fishes",
-    "rate": 1.5395026610387228,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 15283,
-    "hits": 67110,
-    "item": "Flamejack",
-    "location": "Lake Minerva",
-    "mode": "fishes",
-    "rate": 4.391153569325394,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 5523,
-    "hits": 67110,
-    "item": "Redgill",
-    "location": "Lake Minerva",
-    "mode": "fishes",
-    "rate": 12.151004888647474,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 2688,
-    "hits": 67110,
-    "item": "Flarefin",
-    "location": "Lake Minerva",
-    "mode": "fishes",
-    "rate": 24.966517857142858,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 23,
-    "hits": 67110,
-    "item": "Treasure Key",
-    "location": "Lake Minerva",
-    "mode": "fishes",
-    "rate": 2917.8260869565215,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 1,
-    "hits": 67110,
-    "item": "Strange Ring",
-    "location": "Lake Minerva",
-    "mode": "fishes",
-    "rate": 67110.0,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 6790,
-    "hits": 72135,
-    "item": "Trout",
-    "location": "Lake Tempest",
-    "mode": "fishes",
-    "rate": 10.623711340206185,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 1273,
-    "hits": 72135,
-    "item": "Flier",
-    "location": "Lake Tempest",
-    "mode": "fishes",
-    "rate": 56.66535742340927,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 15079,
-    "hits": 72135,
-    "item": "Drum",
-    "location": "Lake Tempest",
-    "mode": "fishes",
-    "rate": 4.783805292128125,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 14946,
-    "hits": 72135,
-    "item": "Yellow Perch",
-    "location": "Lake Tempest",
-    "mode": "fishes",
-    "rate": 4.82637494981935,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 15102,
-    "hits": 72135,
-    "item": "Largemouth Bass",
-    "location": "Lake Tempest",
-    "mode": "fishes",
-    "rate": 4.776519666269368,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 15069,
-    "hits": 72135,
-    "item": "Crappie",
-    "location": "Lake Tempest",
-    "mode": "fishes",
-    "rate": 4.786979892494525,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 1293,
-    "hits": 72135,
-    "item": "Fish Bones",
-    "location": "Lake Tempest",
-    "mode": "fishes",
-    "rate": 55.78886310904873,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 2572,
-    "hits": 72135,
-    "item": "Globber",
-    "location": "Lake Tempest",
-    "mode": "fishes",
-    "rate": 28.046267496111977,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 11,
-    "hits": 72135,
-    "item": "Runestone 15",
-    "location": "Lake Tempest",
-    "mode": "fishes",
-    "rate": 6557.727272727273,
+    "drops": 7,
+    "hits": 8764,
+    "item": "Runestone 11",
+    "location": "Corn Seeds",
+    "mode": "harvests",
+    "rate": 1252.0,
     "rate_type": "normal"
   },
   {
@@ -1710,12 +252,12 @@
     "rate_type": "normal"
   },
   {
-    "drops": 13026,
+    "drops": 456,
     "hits": 36735,
-    "item": "Sunfish",
+    "item": "Glass Bottle",
     "location": "Crystal River",
     "mode": "fishes",
-    "rate": 2.8201289728235834,
+    "rate": 80.5592105263158,
     "rate_type": "normal"
   },
   {
@@ -1728,30 +270,12 @@
     "rate_type": "normal"
   },
   {
-    "drops": 5164,
-    "hits": 36735,
-    "item": "Trout",
-    "location": "Crystal River",
-    "mode": "fishes",
-    "rate": 7.113671572424477,
-    "rate_type": "normal"
-  },
-  {
     "drops": 508,
     "hits": 36735,
     "item": "Old Boot",
     "location": "Crystal River",
     "mode": "fishes",
     "rate": 72.31299212598425,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 456,
-    "hits": 36735,
-    "item": "Glass Bottle",
-    "location": "Crystal River",
-    "mode": "fishes",
-    "rate": 80.5592105263158,
     "rate_type": "normal"
   },
   {
@@ -1764,57 +288,255 @@
     "rate_type": "normal"
   },
   {
-    "drops": 4956,
-    "hits": 20625,
-    "item": "Yellow Perch",
-    "location": "Farm Pond",
+    "drops": 13026,
+    "hits": 36735,
+    "item": "Sunfish",
+    "location": "Crystal River",
     "mode": "fishes",
-    "rate": 4.161622276029056,
+    "rate": 2.8201289728235834,
     "rate_type": "normal"
   },
   {
-    "drops": 2135,
-    "hits": 20625,
+    "drops": 5164,
+    "hits": 36735,
     "item": "Trout",
-    "location": "Farm Pond",
+    "location": "Crystal River",
     "mode": "fishes",
-    "rate": 9.660421545667447,
+    "rate": 7.113671572424477,
     "rate_type": "normal"
   },
   {
-    "drops": 5078,
-    "hits": 20625,
-    "item": "Largemouth Bass",
-    "location": "Farm Pond",
-    "mode": "fishes",
-    "rate": 4.061638440330839,
+    "drops": 4464,
+    "hits": 841125,
+    "item": "Ancient Coin",
+    "location": "Ember Lagoon",
+    "mode": "explores",
+    "rate": 188.42405913978496,
     "rate_type": "normal"
   },
   {
-    "drops": 4900,
-    "hits": 20625,
-    "item": "Drum",
-    "location": "Farm Pond",
-    "mode": "fishes",
-    "rate": 4.209183673469388,
+    "drops": 21,
+    "hits": 841125,
+    "item": "Diamond",
+    "location": "Ember Lagoon",
+    "mode": "explores",
+    "rate": 40053.57142857143,
     "rate_type": "normal"
   },
   {
-    "drops": 525,
-    "hits": 20625,
-    "item": "Catfish",
-    "location": "Farm Pond",
-    "mode": "fishes",
-    "rate": 39.285714285714285,
+    "drops": 28889,
+    "hits": 841125,
+    "item": "Emberstone",
+    "location": "Ember Lagoon",
+    "mode": "explores",
+    "rate": 29.115753400948456,
     "rate_type": "normal"
   },
   {
-    "drops": 444,
-    "hits": 20625,
-    "item": "Fish Bones",
-    "location": "Farm Pond",
+    "drops": 40256,
+    "hits": 841125,
+    "item": "Glass Orb",
+    "location": "Ember Lagoon",
+    "mode": "explores",
+    "rate": 20.89440083465819,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 52,
+    "hits": 841125,
+    "item": "Large Chest 01",
+    "location": "Ember Lagoon",
+    "mode": "explores",
+    "rate": 16175.48076923077,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 480,
+    "hits": 841125,
+    "item": "Magicite",
+    "location": "Ember Lagoon",
+    "mode": "explores",
+    "rate": 1752.34375,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 1070,
+    "hits": 841125,
+    "item": "Moonstone",
+    "location": "Ember Lagoon",
+    "mode": "explores",
+    "rate": 786.0981308411215,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 14259,
+    "hits": 841125,
+    "item": "Prism Shard",
+    "location": "Ember Lagoon",
+    "mode": "explores",
+    "rate": 58.98905954134231,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 103,
+    "hits": 841125,
+    "item": "Runestone 17",
+    "location": "Ember Lagoon",
+    "mode": "explores",
+    "rate": 8166.26213592233,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 189474,
+    "hits": 841125,
+    "item": "Stone",
+    "location": "Ember Lagoon",
+    "mode": "explores",
+    "rate": 4.439263434560942,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 17125,
+    "hits": 441824,
+    "item": "Blue Tiger Fish",
+    "location": "Emerald Beach",
     "mode": "fishes",
-    "rate": 46.4527027027027,
+    "rate": 25.799941605839415,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 129774,
+    "hits": 441824,
+    "item": "Clam Shell",
+    "location": "Emerald Beach",
+    "mode": "fishes",
+    "rate": 3.404564858908564,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 25935,
+    "hits": 441824,
+    "item": "Clownfish",
+    "location": "Emerald Beach",
+    "mode": "fishes",
+    "rate": 17.035820320030847,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 130107,
+    "hits": 441824,
+    "item": "Conch Shell",
+    "location": "Emerald Beach",
+    "mode": "fishes",
+    "rate": 3.3958511071656408,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 123,
+    "hits": 441824,
+    "item": "Crab Claw",
+    "location": "Emerald Beach",
+    "mode": "fishes",
+    "rate": 3592.0650406504064,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 2522,
+    "hits": 441824,
+    "item": "MIAB",
+    "location": "Emerald Beach",
+    "mode": "fishes",
+    "rate": 175.18794607454402,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 21,
+    "hits": 441824,
+    "item": "Magic Conch Shell",
+    "location": "Emerald Beach",
+    "mode": "fishes",
+    "rate": 21039.238095238095,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 5074,
+    "hits": 441824,
+    "item": "Marlin",
+    "location": "Emerald Beach",
+    "mode": "fishes",
+    "rate": 87.07607410327158,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 13453,
+    "hits": 441824,
+    "item": "Pearl",
+    "location": "Emerald Beach",
+    "mode": "fishes",
+    "rate": 32.84204266706311,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 10251,
+    "hits": 441824,
+    "item": "Puffer",
+    "location": "Emerald Beach",
+    "mode": "fishes",
+    "rate": 43.10057555360453,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 26133,
+    "hits": 441824,
+    "item": "Red Starfish",
+    "location": "Emerald Beach",
+    "mode": "fishes",
+    "rate": 16.906746259518616,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 5070,
+    "hits": 441824,
+    "item": "Ruby Fish",
+    "location": "Emerald Beach",
+    "mode": "fishes",
+    "rate": 87.14477317554241,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 10055,
+    "hits": 441824,
+    "item": "Seahorse",
+    "location": "Emerald Beach",
+    "mode": "fishes",
+    "rate": 43.94072600696171,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 110,
+    "hits": 441824,
+    "item": "Spiked Shell",
+    "location": "Emerald Beach",
+    "mode": "fishes",
+    "rate": 4016.581818181818,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 55803,
+    "hits": 441824,
+    "item": "Starfish",
+    "location": "Emerald Beach",
+    "mode": "fishes",
+    "rate": 7.917567155887676,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 10268,
+    "hits": 441824,
+    "item": "Stingray",
+    "location": "Emerald Beach",
+    "mode": "fishes",
+    "rate": 43.02921698480717,
     "rate_type": "normal"
   },
   {
@@ -1827,12 +549,48 @@
     "rate_type": "normal"
   },
   {
+    "drops": 525,
+    "hits": 20625,
+    "item": "Catfish",
+    "location": "Farm Pond",
+    "mode": "fishes",
+    "rate": 39.285714285714285,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 4900,
+    "hits": 20625,
+    "item": "Drum",
+    "location": "Farm Pond",
+    "mode": "fishes",
+    "rate": 4.209183673469388,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 444,
+    "hits": 20625,
+    "item": "Fish Bones",
+    "location": "Farm Pond",
+    "mode": "fishes",
+    "rate": 46.4527027027027,
+    "rate_type": "normal"
+  },
+  {
     "drops": 412,
     "hits": 20625,
     "item": "Flier",
     "location": "Farm Pond",
     "mode": "fishes",
     "rate": 50.060679611650485,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 5078,
+    "hits": 20625,
+    "item": "Largemouth Bass",
+    "location": "Farm Pond",
+    "mode": "fishes",
+    "rate": 4.061638440330839,
     "rate_type": "normal"
   },
   {
@@ -1845,129 +603,498 @@
     "rate_type": "normal"
   },
   {
-    "drops": 1614,
-    "hits": 5445,
-    "item": "Yellow Perch",
-    "location": "Forest Pond",
+    "drops": 2135,
+    "hits": 20625,
+    "item": "Trout",
+    "location": "Farm Pond",
     "mode": "fishes",
-    "rate": 3.37360594795539,
+    "rate": 9.660421545667447,
     "rate_type": "normal"
   },
   {
-    "drops": 476,
-    "hits": 5445,
+    "drops": 4956,
+    "hits": 20625,
+    "item": "Yellow Perch",
+    "location": "Farm Pond",
+    "mode": "fishes",
+    "rate": 4.161622276029056,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 21281,
+    "hits": 1047850,
+    "item": "Antler",
+    "location": "Forest",
+    "mode": "explores",
+    "rate": 49.238757577181524,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 17716,
+    "hits": 1047850,
+    "item": "Arrowhead",
+    "location": "Forest",
+    "mode": "explores",
+    "rate": 59.14709866787085,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 13443,
+    "hits": 1047850,
+    "item": "Bird Egg",
+    "location": "Forest",
+    "mode": "explores",
+    "rate": 77.94763073718664,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 2928,
+    "hits": 1047850,
+    "item": "Fire Ant",
+    "location": "Forest",
+    "mode": "explores",
+    "rate": 357.8722677595628,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 106,
+    "hits": 830221,
+    "item": "Frog",
+    "location": "Forest",
+    "mode": "explores",
+    "rate": 7832.273584905661,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 156,
+    "hits": 1047850,
+    "item": "Gold Feather",
+    "location": "Forest",
+    "mode": "explores",
+    "rate": 6716.98717948718,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 149,
+    "hits": 1047850,
+    "item": "Gold Leaf",
+    "location": "Forest",
+    "mode": "explores",
+    "rate": 7032.5503355704695,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 26252,
+    "hits": 1047850,
+    "item": "Hide",
+    "location": "Forest",
+    "mode": "explores",
+    "rate": 39.915054091116865,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 58002,
+    "hits": 1047850,
+    "item": "Mushroom",
+    "location": "Forest",
+    "mode": "explores",
+    "rate": 18.065756353229197,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 57691,
+    "hits": 1047850,
+    "item": "Straw",
+    "location": "Forest",
+    "mode": "explores",
+    "rate": 18.163145031287375,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 150862,
+    "hits": 1047850,
+    "item": "Wood",
+    "location": "Forest",
+    "mode": "explores",
+    "rate": 6.9457517466293694,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 2219,
+    "hits": 26295,
     "item": "Bluegill",
     "location": "Forest Pond",
     "mode": "fishes",
-    "rate": 11.4390756302521,
+    "rate": 11.849932401982874,
     "rate_type": "normal"
   },
   {
-    "drops": 1584,
-    "hits": 5445,
+    "drops": 7789,
+    "hits": 26295,
     "item": "Drum",
     "location": "Forest Pond",
     "mode": "fishes",
-    "rate": 3.4375,
+    "rate": 3.3759147515727306,
     "rate_type": "normal"
   },
   {
-    "drops": 1593,
-    "hits": 5445,
-    "item": "Largemouth Bass",
-    "location": "Forest Pond",
-    "mode": "fishes",
-    "rate": 3.4180790960451977,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 16,
-    "hits": 5445,
-    "item": "Water Lily",
-    "location": "Forest Pond",
-    "mode": "fishes",
-    "rate": 340.3125,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 136,
-    "hits": 5445,
+    "drops": 615,
+    "hits": 26295,
     "item": "Fish Bones",
     "location": "Forest Pond",
     "mode": "fishes",
-    "rate": 40.036764705882355,
+    "rate": 42.75609756097561,
     "rate_type": "normal"
   },
   {
-    "drops": 14,
-    "hits": 5445,
+    "drops": 78,
+    "hits": 26295,
     "item": "Grab Bag 01",
     "location": "Forest Pond",
     "mode": "fishes",
-    "rate": 388.92857142857144,
+    "rate": 337.11538461538464,
     "rate_type": "normal"
   },
   {
-    "drops": 10,
-    "hits": 5445,
+    "drops": 7723,
+    "hits": 26295,
+    "item": "Largemouth Bass",
+    "location": "Forest Pond",
+    "mode": "fishes",
+    "rate": 3.404764987699081,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 29,
+    "hits": 26295,
     "item": "Runestone 03",
     "location": "Forest Pond",
     "mode": "fishes",
-    "rate": 544.5,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 2,
-    "hits": 5445,
-    "item": "Square Key",
-    "location": "Forest Pond",
-    "mode": "fishes",
-    "rate": 2722.5,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 32,
-    "hits": 7009,
-    "item": "Gold Peppers",
-    "location": "Pepper Seeds",
-    "mode": "harvests",
-    "rate": 219.03125,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 34,
-    "hits": 6660,
-    "item": "Runestone 01",
-    "location": "Carrot Seeds",
-    "mode": "harvests",
-    "rate": 195.88235294117646,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 24,
-    "hits": 6660,
-    "item": "Gold Carrot",
-    "location": "Carrot Seeds",
-    "mode": "harvests",
-    "rate": 277.5,
-    "rate_type": "normal"
-  },
-  {
-    "drops": 10,
-    "hits": 6110,
-    "item": "Gold Peas",
-    "location": "Pea Seeds",
-    "mode": "harvests",
-    "rate": 611.0,
+    "rate": 906.7241379310345,
     "rate_type": "normal"
   },
   {
     "drops": 7,
-    "hits": 7612,
-    "item": "Runestone 11",
-    "location": "Corn Seeds",
-    "mode": "harvests",
-    "rate": 1087.4285714285713,
+    "hits": 26295,
+    "item": "Square Key",
+    "location": "Forest Pond",
+    "mode": "fishes",
+    "rate": 3756.4285714285716,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 71,
+    "hits": 26295,
+    "item": "Water Lily",
+    "location": "Forest Pond",
+    "mode": "fishes",
+    "rate": 370.3521126760563,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 7764,
+    "hits": 26295,
+    "item": "Yellow Perch",
+    "location": "Forest Pond",
+    "mode": "fishes",
+    "rate": 3.3867851622874805,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 1211,
+    "hits": 116103,
+    "item": "Amethyst",
+    "location": "Highland Hills",
+    "mode": "explores",
+    "rate": 95.87365813377374,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 140,
+    "hits": 116103,
+    "item": "Caterpillar",
+    "location": "Highland Hills",
+    "mode": "explores",
+    "rate": 829.3071428571428,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 5683,
+    "hits": 116103,
+    "item": "Feathers",
+    "location": "Highland Hills",
+    "mode": "explores",
+    "rate": 20.42987858525427,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 5325,
+    "hits": 116103,
+    "item": "Fern Leaf",
+    "location": "Highland Hills",
+    "mode": "explores",
+    "rate": 21.803380281690142,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 3,
+    "hits": 116103,
+    "item": "Medium Chest 01",
+    "location": "Highland Hills",
+    "mode": "explores",
+    "rate": 38701.0,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 5539,
+    "hits": 116103,
+    "item": "Purple Flower",
+    "location": "Highland Hills",
+    "mode": "explores",
+    "rate": 20.96100379129807,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 12,
+    "hits": 116103,
+    "item": "Runestone 14",
+    "location": "Highland Hills",
+    "mode": "explores",
+    "rate": 9675.25,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 5512,
+    "hits": 116103,
+    "item": "Stone",
+    "location": "Highland Hills",
+    "mode": "explores",
+    "rate": 21.06367924528302,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 66,
+    "hits": 116103,
+    "item": "Strange Letter",
+    "location": "Highland Hills",
+    "mode": "explores",
+    "rate": 1759.1363636363637,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 5486,
+    "hits": 116103,
+    "item": "Wood",
+    "location": "Highland Hills",
+    "mode": "explores",
+    "rate": 21.16350710900474,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 15283,
+    "hits": 67110,
+    "item": "Flamejack",
+    "location": "Lake Minerva",
+    "mode": "fishes",
+    "rate": 4.391153569325394,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 2688,
+    "hits": 67110,
+    "item": "Flarefin",
+    "location": "Lake Minerva",
+    "mode": "fishes",
+    "rate": 24.966517857142858,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 5523,
+    "hits": 67110,
+    "item": "Redgill",
+    "location": "Lake Minerva",
+    "mode": "fishes",
+    "rate": 12.151004888647474,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 1,
+    "hits": 67110,
+    "item": "Strange Ring",
+    "location": "Lake Minerva",
+    "mode": "fishes",
+    "rate": 67110.0,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 43592,
+    "hits": 67110,
+    "item": "Torch Fish",
+    "location": "Lake Minerva",
+    "mode": "fishes",
+    "rate": 1.5395026610387228,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 23,
+    "hits": 67110,
+    "item": "Treasure Key",
+    "location": "Lake Minerva",
+    "mode": "fishes",
+    "rate": 2917.8260869565215,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 15069,
+    "hits": 72135,
+    "item": "Crappie",
+    "location": "Lake Tempest",
+    "mode": "fishes",
+    "rate": 4.786979892494525,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 15079,
+    "hits": 72135,
+    "item": "Drum",
+    "location": "Lake Tempest",
+    "mode": "fishes",
+    "rate": 4.783805292128125,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 1293,
+    "hits": 72135,
+    "item": "Fish Bones",
+    "location": "Lake Tempest",
+    "mode": "fishes",
+    "rate": 55.78886310904873,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 1273,
+    "hits": 72135,
+    "item": "Flier",
+    "location": "Lake Tempest",
+    "mode": "fishes",
+    "rate": 56.66535742340927,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 2572,
+    "hits": 72135,
+    "item": "Globber",
+    "location": "Lake Tempest",
+    "mode": "fishes",
+    "rate": 28.046267496111977,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 15102,
+    "hits": 72135,
+    "item": "Largemouth Bass",
+    "location": "Lake Tempest",
+    "mode": "fishes",
+    "rate": 4.776519666269368,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 11,
+    "hits": 72135,
+    "item": "Runestone 15",
+    "location": "Lake Tempest",
+    "mode": "fishes",
+    "rate": 6557.727272727273,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 6790,
+    "hits": 72135,
+    "item": "Trout",
+    "location": "Lake Tempest",
+    "mode": "fishes",
+    "rate": 10.623711340206185,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 14946,
+    "hits": 72135,
+    "item": "Yellow Perch",
+    "location": "Lake Tempest",
+    "mode": "fishes",
+    "rate": 4.82637494981935,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 168763,
+    "hits": 911655,
+    "item": "Barracuda",
+    "location": "Large Island",
+    "mode": "fishes",
+    "rate": 5.401983847170292,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 114049,
+    "hits": 911655,
+    "item": "Plumbfish",
+    "location": "Large Island",
+    "mode": "fishes",
+    "rate": 7.99353786530351,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 77803,
+    "hits": 911655,
+    "item": "Ruby Coral",
+    "location": "Large Island",
+    "mode": "fishes",
+    "rate": 11.717478760459109,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 135500,
+    "hits": 911655,
+    "item": "Sea Catfish",
+    "location": "Large Island",
+    "mode": "fishes",
+    "rate": 6.728081180811808,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 86527,
+    "hits": 911655,
+    "item": "Serpent Eel",
+    "location": "Large Island",
+    "mode": "fishes",
+    "rate": 10.536075444658893,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 99141,
+    "hits": 911655,
+    "item": "Spiral Shell",
+    "location": "Large Island",
+    "mode": "fishes",
+    "rate": 9.195539685901897,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 229779,
+    "hits": 911655,
+    "item": "Swordfish",
+    "location": "Large Island",
+    "mode": "fishes",
+    "rate": 3.9675296698131683,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 93,
+    "hits": 911655,
+    "item": "Tribal Staff",
+    "location": "Large Island",
+    "mode": "fishes",
+    "rate": 9802.741935483871,
     "rate_type": "normal"
   },
   {
@@ -1980,6 +1107,276 @@
     "rate_type": "normal"
   },
   {
+    "drops": 6070,
+    "hits": 248120,
+    "item": "3-leaf Clover",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 40.87644151565074,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 1174,
+    "hits": 248120,
+    "item": "4-leaf Clover",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 211.3458262350937,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 13001,
+    "hits": 248120,
+    "item": "Acorn",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 19.084685793400507,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 12961,
+    "hits": 248120,
+    "item": "Blue Feathers",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 19.14358459995371,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 13240,
+    "hits": 248120,
+    "item": "Fern Leaf",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 18.740181268882175,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 6,
+    "hits": 245198,
+    "item": "Frog",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 40866.333333333336,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 15,
+    "hits": 248120,
+    "item": "Gold Feather",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 16541.333333333332,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 6180,
+    "hits": 248120,
+    "item": "Mushroom",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 40.14886731391586,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 1441,
+    "hits": 248120,
+    "item": "Pine Cone",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 172.18598195697433,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 42,
+    "hits": 248120,
+    "item": "Runestone 05",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 5907.619047619048,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 331,
+    "hits": 248120,
+    "item": "Shiny Beetle",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 749.607250755287,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 324,
+    "hits": 248120,
+    "item": "Spider",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 765.8024691358024,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 5946,
+    "hits": 248120,
+    "item": "Straw",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 41.7288933736966,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 5940,
+    "hits": 248120,
+    "item": "Sweet Root",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 41.77104377104377,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 2971,
+    "hits": 248120,
+    "item": "Unpolished Ruby",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 83.51396836082127,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 13032,
+    "hits": 248120,
+    "item": "Wood",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 19.03928790669122,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 7,
+    "hits": 110482,
+    "item": "Bacon",
+    "location": "Mount Banon",
+    "mode": "explores",
+    "rate": 15783.142857142857,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 2297,
+    "hits": 110482,
+    "item": "Carbon Sphere",
+    "location": "Mount Banon",
+    "mode": "explores",
+    "rate": 48.09838920330866,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 8084,
+    "hits": 110482,
+    "item": "Coal",
+    "location": "Mount Banon",
+    "mode": "explores",
+    "rate": 13.666749134092033,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 2,
+    "hits": 110482,
+    "item": "Dragon Skull",
+    "location": "Mount Banon",
+    "mode": "explores",
+    "rate": 55241.0,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 6,
+    "hits": 110482,
+    "item": "Gold Feather",
+    "location": "Mount Banon",
+    "mode": "explores",
+    "rate": 18413.666666666668,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 8132,
+    "hits": 110482,
+    "item": "Iron",
+    "location": "Mount Banon",
+    "mode": "explores",
+    "rate": 13.586079685194294,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 31,
+    "hits": 110482,
+    "item": "Magna Quartz",
+    "location": "Mount Banon",
+    "mode": "explores",
+    "rate": 3563.935483870968,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 7,
+    "hits": 110482,
+    "item": "Runestone 19",
+    "location": "Mount Banon",
+    "mode": "explores",
+    "rate": 15783.142857142857,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 5,
+    "hits": 110482,
+    "item": "Small Chest 02",
+    "location": "Mount Banon",
+    "mode": "explores",
+    "rate": 22096.4,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 7939,
+    "hits": 110482,
+    "item": "Stone",
+    "location": "Mount Banon",
+    "mode": "explores",
+    "rate": 13.916362262249654,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 2262,
+    "hits": 110482,
+    "item": "Unpolished Emerald",
+    "location": "Mount Banon",
+    "mode": "explores",
+    "rate": 48.84261715296198,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 8030,
+    "hits": 110482,
+    "item": "Unpolished Shimmer Stone",
+    "location": "Mount Banon",
+    "mode": "explores",
+    "rate": 13.75865504358655,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 10,
+    "hits": 6110,
+    "item": "Gold Peas",
+    "location": "Pea Seeds",
+    "mode": "harvests",
+    "rate": 611.0,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 32,
+    "hits": 7009,
+    "item": "Gold Peppers",
+    "location": "Pepper Seeds",
+    "mode": "harvests",
+    "rate": 219.03125,
+    "rate_type": "normal"
+  },
+  {
     "drops": 1,
     "hits": 360,
     "item": "Runestone 07",
@@ -1989,454 +1386,229 @@
     "rate_type": "normal"
   },
   {
-    "drops": 58002,
-    "hits": 1047850,
-    "item": "Mushroom",
-    "location": "Forest",
+    "drops": 183,
+    "hits": 10847,
+    "item": "Bone",
+    "location": "Small Cave",
     "mode": "explores",
-    "rate": 18.065756353229197,
-    "rate_type": "iron_depot"
-  },
-  {
-    "drops": 26252,
-    "hits": 1047850,
-    "item": "Hide",
-    "location": "Forest",
-    "mode": "explores",
-    "rate": 39.915054091116865,
-    "rate_type": "iron_depot"
-  },
-  {
-    "drops": 57691,
-    "hits": 1047850,
-    "item": "Straw",
-    "location": "Forest",
-    "mode": "explores",
-    "rate": 18.163145031287375,
-    "rate_type": "iron_depot"
-  },
-  {
-    "drops": 150862,
-    "hits": 1047850,
-    "item": "Wood",
-    "location": "Forest",
-    "mode": "explores",
-    "rate": 6.9457517466293694,
-    "rate_type": "iron_depot"
-  },
-  {
-    "drops": 13443,
-    "hits": 1047850,
-    "item": "Bird Egg",
-    "location": "Forest",
-    "mode": "explores",
-    "rate": 77.94763073718664,
-    "rate_type": "iron_depot"
-  },
-  {
-    "drops": 21281,
-    "hits": 1047850,
-    "item": "Antler",
-    "location": "Forest",
-    "mode": "explores",
-    "rate": 49.238757577181524,
-    "rate_type": "iron_depot"
-  },
-  {
-    "drops": 17716,
-    "hits": 1047850,
-    "item": "Arrowhead",
-    "location": "Forest",
-    "mode": "explores",
-    "rate": 59.14709866787085,
-    "rate_type": "iron_depot"
-  },
-  {
-    "drops": 2928,
-    "hits": 1047850,
-    "item": "Fire Ant",
-    "location": "Forest",
-    "mode": "explores",
-    "rate": 357.8722677595628,
-    "rate_type": "iron_depot"
-  },
-  {
-    "drops": 156,
-    "hits": 1047850,
-    "item": "Gold Feather",
-    "location": "Forest",
-    "mode": "explores",
-    "rate": 6716.98717948718,
-    "rate_type": "iron_depot"
-  },
-  {
-    "drops": 149,
-    "hits": 1047850,
-    "item": "Gold Leaf",
-    "location": "Forest",
-    "mode": "explores",
-    "rate": 7032.5503355704695,
-    "rate_type": "iron_depot"
-  },
-  {
-    "drops": 106,
-    "hits": 830221,
-    "item": "Frog",
-    "location": "Forest",
-    "mode": "explores",
-    "rate": 7832.273584905661,
-    "rate_type": "iron_depot"
-  },
-  {
-    "drops": 355252,
-    "hits": 3166711,
-    "item": "Oak",
-    "location": "Whispering Creek",
-    "mode": "explores",
-    "rate": 8.913985002195625,
-    "rate_type": "iron_depot"
-  },
-  {
-    "drops": 86794,
-    "hits": 3166711,
-    "item": "Salt Rock",
-    "location": "Whispering Creek",
-    "mode": "explores",
-    "rate": 36.48536765214185,
-    "rate_type": "iron_depot"
-  },
-  {
-    "drops": 24709,
-    "hits": 3166711,
-    "item": "Red Berries",
-    "location": "Whispering Creek",
-    "mode": "explores",
-    "rate": 128.16022501922376,
-    "rate_type": "iron_depot"
-  },
-  {
-    "drops": 24761,
-    "hits": 3166711,
-    "item": "Striped Feather",
-    "location": "Whispering Creek",
-    "mode": "explores",
-    "rate": 127.89107871249142,
-    "rate_type": "iron_depot"
-  },
-  {
-    "drops": 24287,
-    "hits": 3166711,
-    "item": "Thorns",
-    "location": "Whispering Creek",
-    "mode": "explores",
-    "rate": 130.38707950755548,
-    "rate_type": "iron_depot"
-  },
-  {
-    "drops": 40993,
-    "hits": 3166711,
-    "item": "Apple",
-    "location": "Whispering Creek",
-    "mode": "explores",
-    "rate": 77.25004269021541,
-    "rate_type": "iron_depot"
-  },
-  {
-    "drops": 24382,
-    "hits": 3166711,
-    "item": "Sour Root",
-    "location": "Whispering Creek",
-    "mode": "explores",
-    "rate": 129.8790501189402,
-    "rate_type": "iron_depot"
-  },
-  {
-    "drops": 8376,
-    "hits": 3166711,
-    "item": "Lemon",
-    "location": "Whispering Creek",
-    "mode": "explores",
-    "rate": 378.0696036294174,
-    "rate_type": "iron_depot"
-  },
-  {
-    "drops": 7954,
-    "hits": 3166711,
-    "item": "Orange",
-    "location": "Whispering Creek",
-    "mode": "explores",
-    "rate": 398.1281116419412,
-    "rate_type": "iron_depot"
-  },
-  {
-    "drops": 921,
-    "hits": 3166711,
-    "item": "Herbs",
-    "location": "Whispering Creek",
-    "mode": "explores",
-    "rate": 3438.339847991314,
-    "rate_type": "iron_depot"
-  },
-  {
-    "drops": 63438,
-    "hits": 3166711,
-    "item": "Unpolished Garnet",
-    "location": "Whispering Creek",
-    "mode": "explores",
-    "rate": 49.918203600365715,
-    "rate_type": "iron_depot"
-  },
-  {
-    "drops": 49923,
-    "hits": 3166711,
-    "item": "Blue Gel",
-    "location": "Whispering Creek",
-    "mode": "explores",
-    "rate": 63.43190513390621,
-    "rate_type": "iron_depot"
-  },
-  {
-    "drops": 131314,
-    "hits": 3166711,
-    "item": "Slimestone",
-    "location": "Whispering Creek",
-    "mode": "explores",
-    "rate": 24.115562697046773,
-    "rate_type": "iron_depot"
-  },
-  {
-    "drops": 18,
-    "hits": 3166711,
-    "item": "Raptor Egg",
-    "location": "Whispering Creek",
-    "mode": "explores",
-    "rate": 175928.38888888888,
-    "rate_type": "iron_depot"
-  },
-  {
-    "drops": 18,
-    "hits": 3166711,
-    "item": "Raptor Claw",
-    "location": "Whispering Creek",
-    "mode": "explores",
-    "rate": 175928.38888888888,
-    "rate_type": "iron_depot"
-  },
-  {
-    "drops": 39906,
-    "hits": 833445,
-    "item": "Glass Orb",
-    "location": "Ember Lagoon",
-    "mode": "explores",
-    "rate": 20.885205232295895,
-    "rate_type": "iron_depot"
-  },
-  {
-    "drops": 187678,
-    "hits": 833445,
-    "item": "Stone",
-    "location": "Ember Lagoon",
-    "mode": "explores",
-    "rate": 4.44082417758075,
-    "rate_type": "iron_depot"
-  },
-  {
-    "drops": 14132,
-    "hits": 833445,
-    "item": "Prism Shard",
-    "location": "Ember Lagoon",
-    "mode": "explores",
-    "rate": 58.97572884234362,
-    "rate_type": "iron_depot"
-  },
-  {
-    "drops": 4435,
-    "hits": 833445,
-    "item": "Ancient Coin",
-    "location": "Ember Lagoon",
-    "mode": "explores",
-    "rate": 187.92446448703495,
-    "rate_type": "iron_depot"
-  },
-  {
-    "drops": 1059,
-    "hits": 833445,
-    "item": "Moonstone",
-    "location": "Ember Lagoon",
-    "mode": "explores",
-    "rate": 787.0113314447592,
-    "rate_type": "iron_depot"
-  },
-  {
-    "drops": 478,
-    "hits": 833445,
-    "item": "Magicite",
-    "location": "Ember Lagoon",
-    "mode": "explores",
-    "rate": 1743.6087866108787,
-    "rate_type": "iron_depot"
-  },
-  {
-    "drops": 28646,
-    "hits": 833445,
-    "item": "Emberstone",
-    "location": "Ember Lagoon",
-    "mode": "explores",
-    "rate": 29.094637994833484,
-    "rate_type": "iron_depot"
-  },
-  {
-    "drops": 101,
-    "hits": 833445,
-    "item": "Runestone 17",
-    "location": "Ember Lagoon",
-    "mode": "explores",
-    "rate": 8251.930693069307,
-    "rate_type": "iron_depot"
-  },
-  {
-    "drops": 21,
-    "hits": 833445,
-    "item": "Diamond",
-    "location": "Ember Lagoon",
-    "mode": "explores",
-    "rate": 39687.857142857145,
-    "rate_type": "iron_depot"
-  },
-  {
-    "drops": 52,
-    "hits": 833445,
-    "item": "Large Chest 01",
-    "location": "Ember Lagoon",
-    "mode": "explores",
-    "rate": 16027.788461538461,
-    "rate_type": "iron_depot"
-  },
-  {
-    "drops": 5539,
-    "hits": 116103,
-    "item": "Purple Flower",
-    "location": "Highland Hills",
-    "mode": "explores",
-    "rate": 20.96100379129807,
-    "rate_type": "iron_depot"
-  },
-  {
-    "drops": 5486,
-    "hits": 116103,
-    "item": "Wood",
-    "location": "Highland Hills",
-    "mode": "explores",
-    "rate": 21.16350710900474,
-    "rate_type": "iron_depot"
-  },
-  {
-    "drops": 5325,
-    "hits": 116103,
-    "item": "Fern Leaf",
-    "location": "Highland Hills",
-    "mode": "explores",
-    "rate": 21.803380281690142,
-    "rate_type": "iron_depot"
-  },
-  {
-    "drops": 1211,
-    "hits": 116103,
-    "item": "Amethyst",
-    "location": "Highland Hills",
-    "mode": "explores",
-    "rate": 95.87365813377374,
-    "rate_type": "iron_depot"
-  },
-  {
-    "drops": 5683,
-    "hits": 116103,
-    "item": "Feathers",
-    "location": "Highland Hills",
-    "mode": "explores",
-    "rate": 20.42987858525427,
-    "rate_type": "iron_depot"
-  },
-  {
-    "drops": 5512,
-    "hits": 116103,
-    "item": "Stone",
-    "location": "Highland Hills",
-    "mode": "explores",
-    "rate": 21.06367924528302,
-    "rate_type": "iron_depot"
+    "rate": 59.27322404371585,
+    "rate_type": "normal"
   },
   {
     "drops": 12,
-    "hits": 116103,
-    "item": "Runestone 14",
-    "location": "Highland Hills",
+    "hits": 10847,
+    "item": "Grab Bag 02",
+    "location": "Small Cave",
     "mode": "explores",
-    "rate": 9675.25,
-    "rate_type": "iron_depot"
+    "rate": 903.9166666666666,
+    "rate_type": "normal"
   },
   {
-    "drops": 140,
-    "hits": 116103,
-    "item": "Caterpillar",
-    "location": "Highland Hills",
+    "drops": 550,
+    "hits": 10847,
+    "item": "Mushroom",
+    "location": "Small Cave",
     "mode": "explores",
-    "rate": 829.3071428571428,
-    "rate_type": "iron_depot"
+    "rate": 19.721818181818183,
+    "rate_type": "normal"
   },
   {
-    "drops": 66,
-    "hits": 116103,
-    "item": "Strange Letter",
-    "location": "Highland Hills",
+    "drops": 1218,
+    "hits": 10847,
+    "item": "Nails",
+    "location": "Small Cave",
     "mode": "explores",
-    "rate": 1759.1363636363637,
-    "rate_type": "iron_depot"
+    "rate": 8.905582922824301,
+    "rate_type": "normal"
   },
   {
     "drops": 3,
-    "hits": 116103,
-    "item": "Medium Chest 01",
-    "location": "Highland Hills",
+    "hits": 10847,
+    "item": "Runestone 04",
+    "location": "Small Cave",
     "mode": "explores",
-    "rate": 38701.0,
-    "rate_type": "iron_depot"
+    "rate": 3615.6666666666665,
+    "rate_type": "normal"
   },
   {
-    "drops": 68025,
-    "hits": 782787,
-    "item": "Feathers",
-    "location": "Small Spring",
-    "mode": "explores",
-    "rate": 11.507342888643882,
-    "rate_type": "iron_depot"
-  },
-  {
-    "drops": 29814,
-    "hits": 782787,
-    "item": "Mushroom",
-    "location": "Small Spring",
-    "mode": "explores",
-    "rate": 26.255685248540953,
-    "rate_type": "iron_depot"
-  },
-  {
-    "drops": 67931,
-    "hits": 782787,
+    "drops": 1222,
+    "hits": 10847,
     "item": "Stone",
-    "location": "Small Spring",
+    "location": "Small Cave",
     "mode": "explores",
-    "rate": 11.523266255465105,
-    "rate_type": "iron_depot"
+    "rate": 8.876432078559738,
+    "rate_type": "normal"
   },
   {
-    "drops": 68432,
-    "hits": 782787,
+    "drops": 1168,
+    "hits": 10847,
     "item": "Wood",
-    "location": "Small Spring",
+    "location": "Small Cave",
     "mode": "explores",
-    "rate": 11.438902852466683,
-    "rate_type": "iron_depot"
+    "rate": 9.286815068493151,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 16,
+    "hits": 10847,
+    "item": "Wooden Mask",
+    "location": "Small Cave",
+    "mode": "explores",
+    "rate": 677.9375,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 28482,
+    "hits": 199035,
+    "item": "Blue Crab",
+    "location": "Small Island",
+    "mode": "fishes",
+    "rate": 6.988097745944807,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 6952,
+    "hits": 199035,
+    "item": "Blue Sea Bass",
+    "location": "Small Island",
+    "mode": "fishes",
+    "rate": 28.62989067894131,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 14037,
+    "hits": 199035,
+    "item": "Blue Shell",
+    "location": "Small Island",
+    "mode": "fishes",
+    "rate": 14.179311818764694,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 30728,
+    "hits": 199035,
+    "item": "Green Chromis",
+    "location": "Small Island",
+    "mode": "fishes",
+    "rate": 6.477317104920593,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 84,
+    "hits": 171900,
+    "item": "Heart Necklace Left Piece",
+    "location": "Small Island",
+    "mode": "fishes",
+    "rate": 2046.4285714285713,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 5453,
+    "hits": 199035,
+    "item": "Jellyfish",
+    "location": "Small Island",
+    "mode": "fishes",
+    "rate": 36.50009169264625,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 1364,
+    "hits": 199035,
+    "item": "MIAB",
+    "location": "Small Island",
+    "mode": "fishes",
+    "rate": 145.92008797653958,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 29548,
+    "hits": 199035,
+    "item": "Mackerel",
+    "location": "Small Island",
+    "mode": "fishes",
+    "rate": 6.7359888994178965,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 5356,
+    "hits": 199035,
+    "item": "Mussel",
+    "location": "Small Island",
+    "mode": "fishes",
+    "rate": 37.16112770724421,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 723,
+    "hits": 199035,
+    "item": "Seaweed",
+    "location": "Small Island",
+    "mode": "fishes",
+    "rate": 275.2904564315353,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 76308,
+    "hits": 199035,
+    "item": "Small Prawn",
+    "location": "Small Island",
+    "mode": "fishes",
+    "rate": 2.6083110551973583,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 1065,
+    "hits": 247335,
+    "item": "Cogwheel",
+    "location": "Small Pond",
+    "mode": "fishes",
+    "rate": 232.2394366197183,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 118367,
+    "hits": 247335,
+    "item": "Drum",
+    "location": "Small Pond",
+    "mode": "fishes",
+    "rate": 2.089560434918516,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 8318,
+    "hits": 247335,
+    "item": "Fish Bones",
+    "location": "Small Pond",
+    "mode": "fishes",
+    "rate": 29.734912238518874,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 174,
+    "hits": 247335,
+    "item": "Runestone 08",
+    "location": "Small Pond",
+    "mode": "fishes",
+    "rate": 1421.4655172413793,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 148,
+    "hits": 247335,
+    "item": "Small Key",
+    "location": "Small Pond",
+    "mode": "fishes",
+    "rate": 1671.1824324324325,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 119263,
+    "hits": 247335,
+    "item": "Yellow Perch",
+    "location": "Small Pond",
+    "mode": "fishes",
+    "rate": 2.0738619689258195,
+    "rate_type": "normal"
   },
   {
     "drops": 9399,
@@ -2445,7 +1617,7 @@
     "location": "Small Spring",
     "mode": "explores",
     "rate": 83.28407277369934,
-    "rate_type": "iron_depot"
+    "rate_type": "normal"
   },
   {
     "drops": 14420,
@@ -2454,34 +1626,7 @@
     "location": "Small Spring",
     "mode": "explores",
     "rate": 54.28481276005548,
-    "rate_type": "iron_depot"
-  },
-  {
-    "drops": 1563,
-    "hits": 782787,
-    "item": "Snail",
-    "location": "Small Spring",
-    "mode": "explores",
-    "rate": 500.8234165067179,
-    "rate_type": "iron_depot"
-  },
-  {
-    "drops": 101,
-    "hits": 782787,
-    "item": "Small Chest 01",
-    "location": "Small Spring",
-    "mode": "explores",
-    "rate": 7750.366336633663,
-    "rate_type": "iron_depot"
-  },
-  {
-    "drops": 746,
-    "hits": 782787,
-    "item": "Spectacles",
-    "location": "Small Spring",
-    "mode": "explores",
-    "rate": 1049.3123324396784,
-    "rate_type": "iron_depot"
+    "rate_type": "normal"
   },
   {
     "drops": 760,
@@ -2490,7 +1635,25 @@
     "location": "Small Spring",
     "mode": "explores",
     "rate": 1029.9828947368421,
-    "rate_type": "iron_depot"
+    "rate_type": "normal"
+  },
+  {
+    "drops": 68025,
+    "hits": 782787,
+    "item": "Feathers",
+    "location": "Small Spring",
+    "mode": "explores",
+    "rate": 11.507342888643882,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 29814,
+    "hits": 782787,
+    "item": "Mushroom",
+    "location": "Small Spring",
+    "mode": "explores",
+    "rate": 26.255685248540953,
+    "rate_type": "normal"
   },
   {
     "drops": 10,
@@ -2499,159 +1662,339 @@
     "location": "Small Spring",
     "mode": "explores",
     "rate": 78278.7,
-    "rate_type": "iron_depot"
+    "rate_type": "normal"
   },
   {
-    "drops": 12622,
-    "hits": 241580,
-    "item": "Blue Feathers",
-    "location": "Misty Forest",
+    "drops": 101,
+    "hits": 782787,
+    "item": "Small Chest 01",
+    "location": "Small Spring",
     "mode": "explores",
-    "rate": 19.139597528125496,
-    "rate_type": "iron_depot"
+    "rate": 7750.366336633663,
+    "rate_type": "normal"
   },
   {
-    "drops": 6014,
-    "hits": 241580,
-    "item": "Mushroom",
-    "location": "Misty Forest",
+    "drops": 1563,
+    "hits": 782787,
+    "item": "Snail",
+    "location": "Small Spring",
     "mode": "explores",
-    "rate": 40.16960425673429,
-    "rate_type": "iron_depot"
+    "rate": 500.8234165067179,
+    "rate_type": "normal"
   },
   {
-    "drops": 12874,
-    "hits": 241580,
-    "item": "Fern Leaf",
-    "location": "Misty Forest",
+    "drops": 746,
+    "hits": 782787,
+    "item": "Spectacles",
+    "location": "Small Spring",
     "mode": "explores",
-    "rate": 18.764952617679043,
-    "rate_type": "iron_depot"
+    "rate": 1049.3123324396784,
+    "rate_type": "normal"
   },
   {
-    "drops": 12693,
-    "hits": 241580,
+    "drops": 67931,
+    "hits": 782787,
+    "item": "Stone",
+    "location": "Small Spring",
+    "mode": "explores",
+    "rate": 11.523266255465105,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 68432,
+    "hits": 782787,
     "item": "Wood",
-    "location": "Misty Forest",
+    "location": "Small Spring",
     "mode": "explores",
-    "rate": 19.032537619160166,
-    "rate_type": "iron_depot"
+    "rate": 11.438902852466683,
+    "rate_type": "normal"
   },
   {
-    "drops": 5917,
-    "hits": 241580,
-    "item": "3-leaf Clover",
-    "location": "Misty Forest",
-    "mode": "explores",
-    "rate": 40.8281223593037,
-    "rate_type": "iron_depot"
+    "drops": 11550,
+    "hits": 300405,
+    "item": "Blue Sea Bass",
+    "location": "Vast Ocean",
+    "mode": "fishes",
+    "rate": 26.009090909090908,
+    "rate_type": "normal"
   },
   {
-    "drops": 12667,
-    "hits": 241580,
-    "item": "Acorn",
-    "location": "Misty Forest",
-    "mode": "explores",
-    "rate": 19.071603378858452,
-    "rate_type": "iron_depot"
+    "drops": 17,
+    "hits": 300405,
+    "item": "Diving Helmet",
+    "location": "Vast Ocean",
+    "mode": "fishes",
+    "rate": 17670.882352941175,
+    "rate_type": "normal"
   },
   {
-    "drops": 5803,
-    "hits": 241580,
-    "item": "Straw",
-    "location": "Misty Forest",
-    "mode": "explores",
-    "rate": 41.63019128037222,
-    "rate_type": "iron_depot"
+    "drops": 9372,
+    "hits": 300405,
+    "item": "Fluorifish",
+    "location": "Vast Ocean",
+    "mode": "fishes",
+    "rate": 32.05345710627401,
+    "rate_type": "normal"
   },
   {
-    "drops": 1150,
-    "hits": 241580,
-    "item": "4-leaf Clover",
-    "location": "Misty Forest",
-    "mode": "explores",
-    "rate": 210.0695652173913,
-    "rate_type": "iron_depot"
+    "drops": 2259,
+    "hits": 300405,
+    "item": "Giant Squid",
+    "location": "Vast Ocean",
+    "mode": "fishes",
+    "rate": 132.98140770252323,
+    "rate_type": "normal"
   },
   {
-    "drops": 5788,
-    "hits": 241580,
-    "item": "Sweet Root",
-    "location": "Misty Forest",
-    "mode": "explores",
-    "rate": 41.73807878369039,
-    "rate_type": "iron_depot"
+    "drops": 19171,
+    "hits": 300405,
+    "item": "Green Jellyfish",
+    "location": "Vast Ocean",
+    "mode": "fishes",
+    "rate": 15.669761619112201,
+    "rate_type": "normal"
   },
   {
-    "drops": 2878,
-    "hits": 241580,
-    "item": "Unpolished Ruby",
-    "location": "Misty Forest",
-    "mode": "explores",
-    "rate": 83.94023627519111,
-    "rate_type": "iron_depot"
+    "drops": 9232,
+    "hits": 300405,
+    "item": "Jellyfish",
+    "location": "Vast Ocean",
+    "mode": "fishes",
+    "rate": 32.539536395147316,
+    "rate_type": "normal"
   },
   {
-    "drops": 310,
-    "hits": 241580,
-    "item": "Spider",
-    "location": "Misty Forest",
-    "mode": "explores",
-    "rate": 779.2903225806451,
-    "rate_type": "iron_depot"
+    "drops": 2464,
+    "hits": 300405,
+    "item": "MIAB",
+    "location": "Vast Ocean",
+    "mode": "fishes",
+    "rate": 121.91761363636364,
+    "rate_type": "normal"
   },
   {
-    "drops": 322,
-    "hits": 241580,
-    "item": "Shiny Beetle",
-    "location": "Misty Forest",
-    "mode": "explores",
-    "rate": 750.2484472049689,
-    "rate_type": "iron_depot"
+    "drops": 52228,
+    "hits": 300405,
+    "item": "Mackerel",
+    "location": "Vast Ocean",
+    "mode": "fishes",
+    "rate": 5.751799800873095,
+    "rate_type": "normal"
   },
   {
-    "drops": 1397,
-    "hits": 241580,
-    "item": "Pine Cone",
-    "location": "Misty Forest",
-    "mode": "explores",
-    "rate": 172.9277022190408,
-    "rate_type": "iron_depot"
+    "drops": 4698,
+    "hits": 300405,
+    "item": "Marlin",
+    "location": "Vast Ocean",
+    "mode": "fishes",
+    "rate": 63.94316730523627,
+    "rate_type": "normal"
   },
   {
-    "drops": 40,
-    "hits": 241580,
-    "item": "Runestone 05",
-    "location": "Misty Forest",
-    "mode": "explores",
-    "rate": 6039.5,
-    "rate_type": "iron_depot"
+    "drops": 3065,
+    "hits": 300405,
+    "item": "Octopus",
+    "location": "Vast Ocean",
+    "mode": "fishes",
+    "rate": 98.01141924959217,
+    "rate_type": "normal"
   },
   {
-    "drops": 14,
-    "hits": 241580,
-    "item": "Gold Feather",
-    "location": "Misty Forest",
-    "mode": "explores",
-    "rate": 17255.714285714286,
-    "rate_type": "iron_depot"
+    "drops": 4596,
+    "hits": 300405,
+    "item": "Ruby Fish",
+    "location": "Vast Ocean",
+    "mode": "fishes",
+    "rate": 65.36227154046998,
+    "rate_type": "normal"
   },
   {
-    "drops": 5,
-    "hits": 238658,
-    "item": "Frog",
-    "location": "Misty Forest",
-    "mode": "explores",
-    "rate": 47731.6,
-    "rate_type": "iron_depot"
+    "drops": 79,
+    "hits": 300405,
+    "item": "Runestone 18",
+    "location": "Vast Ocean",
+    "mode": "fishes",
+    "rate": 3802.5949367088606,
+    "rate_type": "normal"
   },
   {
-    "drops": 113179,
+    "drops": 108,
+    "hits": 288120,
+    "item": "Sea Dragon",
+    "location": "Vast Ocean",
+    "mode": "fishes",
+    "rate": 2667.777777777778,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 32925,
+    "hits": 300405,
+    "item": "Shrimp",
+    "location": "Vast Ocean",
+    "mode": "fishes",
+    "rate": 9.123917995444192,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 139425,
+    "hits": 300405,
+    "item": "Skipjack",
+    "location": "Vast Ocean",
+    "mode": "fishes",
+    "rate": 2.154599246906939,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 9216,
+    "hits": 300405,
+    "item": "Stingray",
+    "location": "Vast Ocean",
+    "mode": "fishes",
+    "rate": 32.596028645833336,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 40993,
+    "hits": 3166711,
+    "item": "Apple",
+    "location": "Whispering Creek",
+    "mode": "explores",
+    "rate": 77.25004269021541,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 49923,
+    "hits": 3166711,
+    "item": "Blue Gel",
+    "location": "Whispering Creek",
+    "mode": "explores",
+    "rate": 63.43190513390621,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 921,
+    "hits": 3166711,
+    "item": "Herbs",
+    "location": "Whispering Creek",
+    "mode": "explores",
+    "rate": 3438.339847991314,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 8376,
+    "hits": 3166711,
+    "item": "Lemon",
+    "location": "Whispering Creek",
+    "mode": "explores",
+    "rate": 378.0696036294174,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 355252,
+    "hits": 3166711,
+    "item": "Oak",
+    "location": "Whispering Creek",
+    "mode": "explores",
+    "rate": 8.913985002195625,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 7954,
+    "hits": 3166711,
+    "item": "Orange",
+    "location": "Whispering Creek",
+    "mode": "explores",
+    "rate": 398.1281116419412,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 18,
+    "hits": 3166711,
+    "item": "Raptor Claw",
+    "location": "Whispering Creek",
+    "mode": "explores",
+    "rate": 175928.38888888888,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 18,
+    "hits": 3166711,
+    "item": "Raptor Egg",
+    "location": "Whispering Creek",
+    "mode": "explores",
+    "rate": 175928.38888888888,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 24709,
+    "hits": 3166711,
+    "item": "Red Berries",
+    "location": "Whispering Creek",
+    "mode": "explores",
+    "rate": 128.16022501922376,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 86794,
+    "hits": 3166711,
+    "item": "Salt Rock",
+    "location": "Whispering Creek",
+    "mode": "explores",
+    "rate": 36.48536765214185,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 131314,
+    "hits": 3166711,
+    "item": "Slimestone",
+    "location": "Whispering Creek",
+    "mode": "explores",
+    "rate": 24.115562697046773,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 24382,
+    "hits": 3166711,
+    "item": "Sour Root",
+    "location": "Whispering Creek",
+    "mode": "explores",
+    "rate": 129.8790501189402,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 24761,
+    "hits": 3166711,
+    "item": "Striped Feather",
+    "location": "Whispering Creek",
+    "mode": "explores",
+    "rate": 127.89107871249142,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 24287,
+    "hits": 3166711,
+    "item": "Thorns",
+    "location": "Whispering Creek",
+    "mode": "explores",
+    "rate": 130.38707950755548,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 63438,
+    "hits": 3166711,
+    "item": "Unpolished Garnet",
+    "location": "Whispering Creek",
+    "mode": "explores",
+    "rate": 49.918203600365715,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 3255,
     "hits": 781301,
-    "item": "Sandstone",
+    "item": "Ancient Coin",
     "location": "Black Rock Canyon",
     "mode": "explores",
-    "rate": 6.903232931904329,
+    "rate": 240.0310291858679,
     "rate_type": "iron_depot"
   },
   {
@@ -2664,33 +2007,6 @@
     "rate_type": "iron_depot"
   },
   {
-    "drops": 16539,
-    "hits": 781301,
-    "item": "Horn",
-    "location": "Black Rock Canyon",
-    "mode": "explores",
-    "rate": 47.23991777011911,
-    "rate_type": "iron_depot"
-  },
-  {
-    "drops": 10299,
-    "hits": 781301,
-    "item": "Shimmer Quartz",
-    "location": "Black Rock Canyon",
-    "mode": "explores",
-    "rate": 75.86183124575201,
-    "rate_type": "iron_depot"
-  },
-  {
-    "drops": 3255,
-    "hits": 781301,
-    "item": "Ancient Coin",
-    "location": "Black Rock Canyon",
-    "mode": "explores",
-    "rate": 240.0310291858679,
-    "rate_type": "iron_depot"
-  },
-  {
     "drops": 2241,
     "hits": 781301,
     "item": "Giant Centipede",
@@ -2700,9 +2016,36 @@
     "rate_type": "iron_depot"
   },
   {
+    "drops": 16539,
+    "hits": 781301,
+    "item": "Horn",
+    "location": "Black Rock Canyon",
+    "mode": "explores",
+    "rate": 47.23991777011911,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 47,
+    "hits": 781301,
+    "item": "Large Chest 02",
+    "location": "Black Rock Canyon",
+    "mode": "explores",
+    "rate": 16623.425531914894,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 45,
+    "hits": 781301,
+    "item": "Medium Chest 02",
+    "location": "Black Rock Canyon",
+    "mode": "explores",
+    "rate": 17362.244444444445,
+    "rate_type": "iron_depot"
+  },
+  {
     "drops": 101,
     "hits": 781301,
-    "item": "Runestone 13",
+    "item": "Orange Gecko",
     "location": "Black Rock Canyon",
     "mode": "explores",
     "rate": 7735.653465346535,
@@ -2727,57 +2070,633 @@
     "rate_type": "iron_depot"
   },
   {
-    "drops": 45,
-    "hits": 781301,
-    "item": "Medium Chest 02",
-    "location": "Black Rock Canyon",
-    "mode": "explores",
-    "rate": 17362.244444444445,
-    "rate_type": "iron_depot"
-  },
-  {
     "drops": 101,
     "hits": 781301,
-    "item": "Orange Gecko",
+    "item": "Runestone 13",
     "location": "Black Rock Canyon",
     "mode": "explores",
     "rate": 7735.653465346535,
     "rate_type": "iron_depot"
   },
   {
-    "drops": 47,
+    "drops": 113179,
     "hits": 781301,
-    "item": "Large Chest 02",
+    "item": "Sandstone",
     "location": "Black Rock Canyon",
     "mode": "explores",
-    "rate": 16623.425531914894,
+    "rate": 6.903232931904329,
     "rate_type": "iron_depot"
   },
   {
-    "drops": 22785,
-    "hits": 145461,
-    "item": "Wood",
-    "location": "Small Cave",
+    "drops": 10299,
+    "hits": 781301,
+    "item": "Shimmer Quartz",
+    "location": "Black Rock Canyon",
     "mode": "explores",
-    "rate": 6.384068466096116,
+    "rate": 75.86183124575201,
     "rate_type": "iron_depot"
   },
   {
-    "drops": 9336,
-    "hits": 145461,
+    "drops": 542,
+    "hits": 328449,
+    "item": "Horned Beetle",
+    "location": "Cane Pole Ridge",
+    "mode": "explores",
+    "rate": 605.9944649446494,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 4997,
+    "hits": 328449,
+    "item": "Lemon Quartz",
+    "location": "Cane Pole Ridge",
+    "mode": "explores",
+    "rate": 65.72923754252551,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 4,
+    "hits": 328449,
+    "item": "Lima Bean",
+    "location": "Cane Pole Ridge",
+    "mode": "explores",
+    "rate": 82112.25,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 10989,
+    "hits": 328449,
     "item": "Mushroom",
-    "location": "Small Cave",
+    "location": "Cane Pole Ridge",
     "mode": "explores",
-    "rate": 15.580655526992288,
+    "rate": 29.88888888888889,
     "rate_type": "iron_depot"
   },
   {
-    "drops": 22620,
-    "hits": 145461,
-    "item": "Stone",
-    "location": "Small Cave",
+    "drops": 258,
+    "hits": 328449,
+    "item": "Pocket Watch",
+    "location": "Cane Pole Ridge",
     "mode": "explores",
-    "rate": 6.430636604774536,
+    "rate": 1273.0581395348838,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 24953,
+    "hits": 328449,
+    "item": "Stone",
+    "location": "Cane Pole Ridge",
+    "mode": "explores",
+    "rate": 13.162705887067688,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 3292,
+    "hits": 328000,
+    "item": "Tea Leaves",
+    "location": "Cane Pole Ridge",
+    "mode": "explores",
+    "rate": 99.63547995139733,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 24646,
+    "hits": 328449,
+    "item": "Unpolished Shimmer Stone",
+    "location": "Cane Pole Ridge",
+    "mode": "explores",
+    "rate": 13.326665584679056,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 24263,
+    "hits": 328449,
+    "item": "Wood",
+    "location": "Cane Pole Ridge",
+    "mode": "explores",
+    "rate": 13.537031694349421,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 4464,
+    "hits": 841125,
+    "item": "Ancient Coin",
+    "location": "Ember Lagoon",
+    "mode": "explores",
+    "rate": 188.42405913978496,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 21,
+    "hits": 841125,
+    "item": "Diamond",
+    "location": "Ember Lagoon",
+    "mode": "explores",
+    "rate": 40053.57142857143,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 28889,
+    "hits": 841125,
+    "item": "Emberstone",
+    "location": "Ember Lagoon",
+    "mode": "explores",
+    "rate": 29.115753400948456,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 40256,
+    "hits": 841125,
+    "item": "Glass Orb",
+    "location": "Ember Lagoon",
+    "mode": "explores",
+    "rate": 20.89440083465819,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 52,
+    "hits": 841125,
+    "item": "Large Chest 01",
+    "location": "Ember Lagoon",
+    "mode": "explores",
+    "rate": 16175.48076923077,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 480,
+    "hits": 841125,
+    "item": "Magicite",
+    "location": "Ember Lagoon",
+    "mode": "explores",
+    "rate": 1752.34375,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 1070,
+    "hits": 841125,
+    "item": "Moonstone",
+    "location": "Ember Lagoon",
+    "mode": "explores",
+    "rate": 786.0981308411215,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 14259,
+    "hits": 841125,
+    "item": "Prism Shard",
+    "location": "Ember Lagoon",
+    "mode": "explores",
+    "rate": 58.98905954134231,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 103,
+    "hits": 841125,
+    "item": "Runestone 17",
+    "location": "Ember Lagoon",
+    "mode": "explores",
+    "rate": 8166.26213592233,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 189474,
+    "hits": 841125,
+    "item": "Stone",
+    "location": "Ember Lagoon",
+    "mode": "explores",
+    "rate": 4.439263434560942,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 21281,
+    "hits": 1047850,
+    "item": "Antler",
+    "location": "Forest",
+    "mode": "explores",
+    "rate": 49.238757577181524,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 17716,
+    "hits": 1047850,
+    "item": "Arrowhead",
+    "location": "Forest",
+    "mode": "explores",
+    "rate": 59.14709866787085,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 13443,
+    "hits": 1047850,
+    "item": "Bird Egg",
+    "location": "Forest",
+    "mode": "explores",
+    "rate": 77.94763073718664,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 2928,
+    "hits": 1047850,
+    "item": "Fire Ant",
+    "location": "Forest",
+    "mode": "explores",
+    "rate": 357.8722677595628,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 106,
+    "hits": 830221,
+    "item": "Frog",
+    "location": "Forest",
+    "mode": "explores",
+    "rate": 7832.273584905661,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 156,
+    "hits": 1047850,
+    "item": "Gold Feather",
+    "location": "Forest",
+    "mode": "explores",
+    "rate": 6716.98717948718,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 149,
+    "hits": 1047850,
+    "item": "Gold Leaf",
+    "location": "Forest",
+    "mode": "explores",
+    "rate": 7032.5503355704695,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 26252,
+    "hits": 1047850,
+    "item": "Hide",
+    "location": "Forest",
+    "mode": "explores",
+    "rate": 39.915054091116865,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 58002,
+    "hits": 1047850,
+    "item": "Mushroom",
+    "location": "Forest",
+    "mode": "explores",
+    "rate": 18.065756353229197,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 57691,
+    "hits": 1047850,
+    "item": "Straw",
+    "location": "Forest",
+    "mode": "explores",
+    "rate": 18.163145031287375,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 150862,
+    "hits": 1047850,
+    "item": "Wood",
+    "location": "Forest",
+    "mode": "explores",
+    "rate": 6.9457517466293694,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 1211,
+    "hits": 116103,
+    "item": "Amethyst",
+    "location": "Highland Hills",
+    "mode": "explores",
+    "rate": 95.87365813377374,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 140,
+    "hits": 116103,
+    "item": "Caterpillar",
+    "location": "Highland Hills",
+    "mode": "explores",
+    "rate": 829.3071428571428,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 5683,
+    "hits": 116103,
+    "item": "Feathers",
+    "location": "Highland Hills",
+    "mode": "explores",
+    "rate": 20.42987858525427,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 5325,
+    "hits": 116103,
+    "item": "Fern Leaf",
+    "location": "Highland Hills",
+    "mode": "explores",
+    "rate": 21.803380281690142,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 3,
+    "hits": 116103,
+    "item": "Medium Chest 01",
+    "location": "Highland Hills",
+    "mode": "explores",
+    "rate": 38701.0,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 5539,
+    "hits": 116103,
+    "item": "Purple Flower",
+    "location": "Highland Hills",
+    "mode": "explores",
+    "rate": 20.96100379129807,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 12,
+    "hits": 116103,
+    "item": "Runestone 14",
+    "location": "Highland Hills",
+    "mode": "explores",
+    "rate": 9675.25,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 5512,
+    "hits": 116103,
+    "item": "Stone",
+    "location": "Highland Hills",
+    "mode": "explores",
+    "rate": 21.06367924528302,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 66,
+    "hits": 116103,
+    "item": "Strange Letter",
+    "location": "Highland Hills",
+    "mode": "explores",
+    "rate": 1759.1363636363637,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 5486,
+    "hits": 116103,
+    "item": "Wood",
+    "location": "Highland Hills",
+    "mode": "explores",
+    "rate": 21.16350710900474,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 6070,
+    "hits": 248120,
+    "item": "3-leaf Clover",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 40.87644151565074,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 1174,
+    "hits": 248120,
+    "item": "4-leaf Clover",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 211.3458262350937,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 13001,
+    "hits": 248120,
+    "item": "Acorn",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 19.084685793400507,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 12961,
+    "hits": 248120,
+    "item": "Blue Feathers",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 19.14358459995371,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 13240,
+    "hits": 248120,
+    "item": "Fern Leaf",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 18.740181268882175,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 6,
+    "hits": 245198,
+    "item": "Frog",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 40866.333333333336,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 15,
+    "hits": 248120,
+    "item": "Gold Feather",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 16541.333333333332,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 6180,
+    "hits": 248120,
+    "item": "Mushroom",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 40.14886731391586,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 1441,
+    "hits": 248120,
+    "item": "Pine Cone",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 172.18598195697433,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 42,
+    "hits": 248120,
+    "item": "Runestone 05",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 5907.619047619048,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 331,
+    "hits": 248120,
+    "item": "Shiny Beetle",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 749.607250755287,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 324,
+    "hits": 248120,
+    "item": "Spider",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 765.8024691358024,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 5946,
+    "hits": 248120,
+    "item": "Straw",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 41.7288933736966,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 5940,
+    "hits": 248120,
+    "item": "Sweet Root",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 41.77104377104377,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 2971,
+    "hits": 248120,
+    "item": "Unpolished Ruby",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 83.51396836082127,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 13032,
+    "hits": 248120,
+    "item": "Wood",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 19.03928790669122,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 16,
+    "hits": 218886,
+    "item": "Bacon",
+    "location": "Mount Banon",
+    "mode": "explores",
+    "rate": 13680.375,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 5695,
+    "hits": 218886,
+    "item": "Carbon Sphere",
+    "location": "Mount Banon",
+    "mode": "explores",
+    "rate": 38.43476733977173,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 20520,
+    "hits": 218886,
+    "item": "Coal",
+    "location": "Mount Banon",
+    "mode": "explores",
+    "rate": 10.666959064327486,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 1,
+    "hits": 218886,
+    "item": "Dragon Skull",
+    "location": "Mount Banon",
+    "mode": "explores",
+    "rate": 218886.0,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 15,
+    "hits": 218886,
+    "item": "Gold Feather",
+    "location": "Mount Banon",
+    "mode": "explores",
+    "rate": 14592.4,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 73,
+    "hits": 218886,
+    "item": "Magna Quartz",
+    "location": "Mount Banon",
+    "mode": "explores",
+    "rate": 2998.4383561643835,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 17,
+    "hits": 218886,
+    "item": "Runestone 19",
+    "location": "Mount Banon",
+    "mode": "explores",
+    "rate": 12875.64705882353,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 17,
+    "hits": 218886,
+    "item": "Small Chest 02",
+    "location": "Mount Banon",
+    "mode": "explores",
+    "rate": 12875.64705882353,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 20426,
+    "hits": 218886,
+    "item": "Stone",
+    "location": "Mount Banon",
+    "mode": "explores",
+    "rate": 10.716048173896015,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 5628,
+    "hits": 218886,
+    "item": "Unpolished Emerald",
+    "location": "Mount Banon",
+    "mode": "explores",
+    "rate": 38.89232409381663,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 20472,
+    "hits": 218886,
+    "item": "Unpolished Shimmer Stone",
+    "location": "Mount Banon",
+    "mode": "explores",
+    "rate": 10.691969519343493,
     "rate_type": "iron_depot"
   },
   {
@@ -2799,12 +2718,48 @@
     "rate_type": "iron_depot"
   },
   {
+    "drops": 4,
+    "hits": 145461,
+    "item": "Model Ship",
+    "location": "Small Cave",
+    "mode": "explores",
+    "rate": 36365.25,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 9336,
+    "hits": 145461,
+    "item": "Mushroom",
+    "location": "Small Cave",
+    "mode": "explores",
+    "rate": 15.580655526992288,
+    "rate_type": "iron_depot"
+  },
+  {
     "drops": 73,
     "hits": 145461,
     "item": "Runestone 04",
     "location": "Small Cave",
     "mode": "explores",
     "rate": 1992.6164383561643,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 22620,
+    "hits": 145461,
+    "item": "Stone",
+    "location": "Small Cave",
+    "mode": "explores",
+    "rate": 6.430636604774536,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 22785,
+    "hits": 145461,
+    "item": "Wood",
+    "location": "Small Cave",
+    "mode": "explores",
+    "rate": 6.384068466096116,
     "rate_type": "iron_depot"
   },
   {
@@ -2817,210 +2772,552 @@
     "rate_type": "iron_depot"
   },
   {
-    "drops": 4,
-    "hits": 145461,
-    "item": "Model Ship",
-    "location": "Small Cave",
+    "drops": 9399,
+    "hits": 782787,
+    "item": "Apple",
+    "location": "Small Spring",
     "mode": "explores",
-    "rate": 36365.25,
+    "rate": 83.28407277369934,
     "rate_type": "iron_depot"
   },
   {
-    "drops": 13548,
-    "hits": 144630,
-    "item": "Unpolished Shimmer Stone",
-    "location": "Mount Banon",
+    "drops": 14420,
+    "hits": 782787,
+    "item": "Aquamarine",
+    "location": "Small Spring",
     "mode": "explores",
-    "rate": 10.675376439326838,
+    "rate": 54.28481276005548,
     "rate_type": "iron_depot"
   },
   {
-    "drops": 13553,
-    "hits": 144630,
-    "item": "Stone",
-    "location": "Mount Banon",
+    "drops": 760,
+    "hits": 782787,
+    "item": "Dice",
+    "location": "Small Spring",
     "mode": "explores",
-    "rate": 10.67143805799454,
+    "rate": 1029.9828947368421,
     "rate_type": "iron_depot"
   },
   {
-    "drops": 3700,
-    "hits": 144630,
-    "item": "Unpolished Emerald",
-    "location": "Mount Banon",
+    "drops": 68025,
+    "hits": 782787,
+    "item": "Feathers",
+    "location": "Small Spring",
     "mode": "explores",
-    "rate": 39.08918918918919,
+    "rate": 11.507342888643882,
     "rate_type": "iron_depot"
   },
   {
-    "drops": 13480,
-    "hits": 144630,
-    "item": "Coal",
-    "location": "Mount Banon",
-    "mode": "explores",
-    "rate": 10.729228486646884,
-    "rate_type": "iron_depot"
-  },
-  {
-    "drops": 3764,
-    "hits": 144630,
-    "item": "Carbon Sphere",
-    "location": "Mount Banon",
-    "mode": "explores",
-    "rate": 38.42454835281615,
-    "rate_type": "iron_depot"
-  },
-  {
-    "drops": 48,
-    "hits": 144630,
-    "item": "Magna Quartz",
-    "location": "Mount Banon",
-    "mode": "explores",
-    "rate": 3013.125,
-    "rate_type": "iron_depot"
-  },
-  {
-    "drops": 11,
-    "hits": 144630,
-    "item": "Bacon",
-    "location": "Mount Banon",
-    "mode": "explores",
-    "rate": 13148.181818181818,
-    "rate_type": "iron_depot"
-  },
-  {
-    "drops": 9,
-    "hits": 144630,
-    "item": "Gold Feather",
-    "location": "Mount Banon",
-    "mode": "explores",
-    "rate": 16070.0,
-    "rate_type": "iron_depot"
-  },
-  {
-    "drops": 12,
-    "hits": 144630,
-    "item": "Small Chest 02",
-    "location": "Mount Banon",
-    "mode": "explores",
-    "rate": 12052.5,
-    "rate_type": "iron_depot"
-  },
-  {
-    "drops": 11,
-    "hits": 144630,
-    "item": "Runestone 19",
-    "location": "Mount Banon",
-    "mode": "explores",
-    "rate": 13148.181818181818,
-    "rate_type": "iron_depot"
-  },
-  {
-    "drops": 1,
-    "hits": 144630,
-    "item": "Dragon Skull",
-    "location": "Mount Banon",
-    "mode": "explores",
-    "rate": 144630.0,
-    "rate_type": "iron_depot"
-  },
-  {
-    "drops": 10493,
-    "hits": 314743,
+    "drops": 29814,
+    "hits": 782787,
     "item": "Mushroom",
-    "location": "Cane Pole Ridge",
+    "location": "Small Spring",
     "mode": "explores",
-    "rate": 29.995520823406082,
+    "rate": 26.255685248540953,
     "rate_type": "iron_depot"
   },
   {
-    "drops": 4780,
-    "hits": 314743,
-    "item": "Lemon Quartz",
-    "location": "Cane Pole Ridge",
+    "drops": 10,
+    "hits": 782787,
+    "item": "Skull Coin",
+    "location": "Small Spring",
     "mode": "explores",
-    "rate": 65.8458158995816,
+    "rate": 78278.7,
     "rate_type": "iron_depot"
   },
   {
-    "drops": 23618,
-    "hits": 314743,
-    "item": "Unpolished Shimmer Stone",
-    "location": "Cane Pole Ridge",
+    "drops": 101,
+    "hits": 782787,
+    "item": "Small Chest 01",
+    "location": "Small Spring",
     "mode": "explores",
-    "rate": 13.326403590481837,
+    "rate": 7750.366336633663,
     "rate_type": "iron_depot"
   },
   {
-    "drops": 23955,
-    "hits": 314743,
+    "drops": 1563,
+    "hits": 782787,
+    "item": "Snail",
+    "location": "Small Spring",
+    "mode": "explores",
+    "rate": 500.8234165067179,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 746,
+    "hits": 782787,
+    "item": "Spectacles",
+    "location": "Small Spring",
+    "mode": "explores",
+    "rate": 1049.3123324396784,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 67931,
+    "hits": 782787,
     "item": "Stone",
-    "location": "Cane Pole Ridge",
+    "location": "Small Spring",
     "mode": "explores",
-    "rate": 13.138927155082447,
+    "rate": 11.523266255465105,
     "rate_type": "iron_depot"
   },
   {
-    "drops": 23232,
-    "hits": 314743,
+    "drops": 68432,
+    "hits": 782787,
     "item": "Wood",
-    "location": "Cane Pole Ridge",
+    "location": "Small Spring",
     "mode": "explores",
-    "rate": 13.547821969696969,
+    "rate": 11.438902852466683,
     "rate_type": "iron_depot"
   },
   {
-    "drops": 518,
-    "hits": 314743,
-    "item": "Horned Beetle",
-    "location": "Cane Pole Ridge",
+    "drops": 40993,
+    "hits": 3166711,
+    "item": "Apple",
+    "location": "Whispering Creek",
     "mode": "explores",
-    "rate": 607.6119691119691,
+    "rate": 77.25004269021541,
     "rate_type": "iron_depot"
   },
   {
-    "drops": 3164,
-    "hits": 314294,
-    "item": "Tea Leaves",
-    "location": "Cane Pole Ridge",
+    "drops": 49923,
+    "hits": 3166711,
+    "item": "Blue Gel",
+    "location": "Whispering Creek",
     "mode": "explores",
-    "rate": 99.33438685208597,
+    "rate": 63.43190513390621,
     "rate_type": "iron_depot"
   },
   {
-    "drops": 247,
-    "hits": 314743,
-    "item": "Pocket Watch",
-    "location": "Cane Pole Ridge",
+    "drops": 921,
+    "hits": 3166711,
+    "item": "Herbs",
+    "location": "Whispering Creek",
     "mode": "explores",
-    "rate": 1274.2631578947369,
+    "rate": 3438.339847991314,
     "rate_type": "iron_depot"
   },
   {
-    "drops": 4,
-    "hits": 314743,
-    "item": "Lima Bean",
-    "location": "Cane Pole Ridge",
+    "drops": 8376,
+    "hits": 3166711,
+    "item": "Lemon",
+    "location": "Whispering Creek",
     "mode": "explores",
-    "rate": 78685.75,
+    "rate": 378.0696036294174,
     "rate_type": "iron_depot"
   },
   {
-    "drops": 333,
-    "hits": 1165,
-    "item": "Drum",
-    "location": "Forest Pond",
+    "drops": 355252,
+    "hits": 3166711,
+    "item": "Oak",
+    "location": "Whispering Creek",
+    "mode": "explores",
+    "rate": 8.913985002195625,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 7954,
+    "hits": 3166711,
+    "item": "Orange",
+    "location": "Whispering Creek",
+    "mode": "explores",
+    "rate": 398.1281116419412,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 18,
+    "hits": 3166711,
+    "item": "Raptor Claw",
+    "location": "Whispering Creek",
+    "mode": "explores",
+    "rate": 175928.38888888888,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 18,
+    "hits": 3166711,
+    "item": "Raptor Egg",
+    "location": "Whispering Creek",
+    "mode": "explores",
+    "rate": 175928.38888888888,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 24709,
+    "hits": 3166711,
+    "item": "Red Berries",
+    "location": "Whispering Creek",
+    "mode": "explores",
+    "rate": 128.16022501922376,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 86794,
+    "hits": 3166711,
+    "item": "Salt Rock",
+    "location": "Whispering Creek",
+    "mode": "explores",
+    "rate": 36.48536765214185,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 131314,
+    "hits": 3166711,
+    "item": "Slimestone",
+    "location": "Whispering Creek",
+    "mode": "explores",
+    "rate": 24.115562697046773,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 24382,
+    "hits": 3166711,
+    "item": "Sour Root",
+    "location": "Whispering Creek",
+    "mode": "explores",
+    "rate": 129.8790501189402,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 24761,
+    "hits": 3166711,
+    "item": "Striped Feather",
+    "location": "Whispering Creek",
+    "mode": "explores",
+    "rate": 127.89107871249142,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 24287,
+    "hits": 3166711,
+    "item": "Thorns",
+    "location": "Whispering Creek",
+    "mode": "explores",
+    "rate": 130.38707950755548,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 63438,
+    "hits": 3166711,
+    "item": "Unpolished Garnet",
+    "location": "Whispering Creek",
+    "mode": "explores",
+    "rate": 49.918203600365715,
+    "rate_type": "iron_depot"
+  },
+  {
+    "drops": 16,
+    "hits": 243,
+    "item": "Blue Catfish",
+    "location": "Crystal River",
     "mode": "fishes",
-    "rate": 3.4984984984984986,
+    "rate": 15.1875,
     "rate_type": "manual_fishing"
   },
   {
-    "drops": 330,
-    "hits": 1165,
-    "item": "Largemouth Bass",
-    "location": "Forest Pond",
+    "drops": 82,
+    "hits": 243,
+    "item": "Bone Fish",
+    "location": "Crystal River",
     "mode": "fishes",
-    "rate": 3.5303030303030303,
+    "rate": 2.9634146341463414,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 3,
+    "hits": 243,
+    "item": "Glass Bottle",
+    "location": "Crystal River",
+    "mode": "fishes",
+    "rate": 81.0,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 10,
+    "hits": 243,
+    "item": "Globber",
+    "location": "Crystal River",
+    "mode": "fishes",
+    "rate": 24.3,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 7,
+    "hits": 243,
+    "item": "Gold Catfish",
+    "location": "Crystal River",
+    "mode": "fishes",
+    "rate": 34.714285714285715,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 6,
+    "hits": 243,
+    "item": "Old Boot",
+    "location": "Crystal River",
+    "mode": "fishes",
+    "rate": 40.5,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 83,
+    "hits": 243,
+    "item": "Sunfish",
+    "location": "Crystal River",
+    "mode": "fishes",
+    "rate": 2.927710843373494,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 36,
+    "hits": 243,
+    "item": "Trout",
+    "location": "Crystal River",
+    "mode": "fishes",
+    "rate": 6.75,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 296,
+    "hits": 7743,
+    "item": "Blue Tiger Fish",
+    "location": "Emerald Beach",
+    "mode": "fishes",
+    "rate": 26.158783783783782,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 2267,
+    "hits": 7743,
+    "item": "Clam Shell",
+    "location": "Emerald Beach",
+    "mode": "fishes",
+    "rate": 3.415527128363476,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 478,
+    "hits": 7743,
+    "item": "Clownfish",
+    "location": "Emerald Beach",
+    "mode": "fishes",
+    "rate": 16.198744769874477,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 2213,
+    "hits": 7743,
+    "item": "Conch Shell",
+    "location": "Emerald Beach",
+    "mode": "fishes",
+    "rate": 3.498870311793945,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 4,
+    "hits": 7743,
+    "item": "Crab Claw",
+    "location": "Emerald Beach",
+    "mode": "fishes",
+    "rate": 1935.75,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 98,
+    "hits": 7743,
+    "item": "Goldray",
+    "location": "Emerald Beach",
+    "mode": "fishes",
+    "rate": 79.01020408163265,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 50,
+    "hits": 7743,
+    "item": "MIAB",
+    "location": "Emerald Beach",
+    "mode": "fishes",
+    "rate": 154.86,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 1,
+    "hits": 7743,
+    "item": "Magic Conch Shell",
+    "location": "Emerald Beach",
+    "mode": "fishes",
+    "rate": 7743.0,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 106,
+    "hits": 7743,
+    "item": "Marlin",
+    "location": "Emerald Beach",
+    "mode": "fishes",
+    "rate": 73.04716981132076,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 239,
+    "hits": 7743,
+    "item": "Pearl",
+    "location": "Emerald Beach",
+    "mode": "fishes",
+    "rate": 32.39748953974895,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 161,
+    "hits": 7743,
+    "item": "Puffer",
+    "location": "Emerald Beach",
+    "mode": "fishes",
+    "rate": 48.09316770186335,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 439,
+    "hits": 7743,
+    "item": "Red Starfish",
+    "location": "Emerald Beach",
+    "mode": "fishes",
+    "rate": 17.637813211845103,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 109,
+    "hits": 7743,
+    "item": "Ruby Fish",
+    "location": "Emerald Beach",
+    "mode": "fishes",
+    "rate": 71.03669724770643,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 177,
+    "hits": 7743,
+    "item": "Seahorse",
+    "location": "Emerald Beach",
+    "mode": "fishes",
+    "rate": 43.74576271186441,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 1,
+    "hits": 7743,
+    "item": "Spiked Shell",
+    "location": "Emerald Beach",
+    "mode": "fishes",
+    "rate": 7743.0,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 952,
+    "hits": 7743,
+    "item": "Starfish",
+    "location": "Emerald Beach",
+    "mode": "fishes",
+    "rate": 8.133403361344538,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 152,
+    "hits": 7743,
+    "item": "Stingray",
+    "location": "Emerald Beach",
+    "mode": "fishes",
+    "rate": 50.94078947368421,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 254,
+    "hits": 2555,
+    "item": "Carp",
+    "location": "Farm Pond",
+    "mode": "fishes",
+    "rate": 10.059055118110237,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 57,
+    "hits": 2555,
+    "item": "Catfish",
+    "location": "Farm Pond",
+    "mode": "fishes",
+    "rate": 44.824561403508774,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 592,
+    "hits": 2555,
+    "item": "Drum",
+    "location": "Farm Pond",
+    "mode": "fishes",
+    "rate": 4.315878378378378,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 54,
+    "hits": 2555,
+    "item": "Fish Bones",
+    "location": "Farm Pond",
+    "mode": "fishes",
+    "rate": 47.31481481481482,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 55,
+    "hits": 2555,
+    "item": "Flier",
+    "location": "Farm Pond",
+    "mode": "fishes",
+    "rate": 46.45454545454545,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 77,
+    "hits": 2555,
+    "item": "Gold Trout",
+    "location": "Farm Pond",
+    "mode": "fishes",
+    "rate": 33.18181818181818,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 614,
+    "hits": 2555,
+    "item": "Largemouth Bass",
+    "location": "Farm Pond",
+    "mode": "fishes",
+    "rate": 4.1612377850162865,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 3,
+    "hits": 2555,
+    "item": "Runestone 02",
+    "location": "Farm Pond",
+    "mode": "fishes",
+    "rate": 851.6666666666666,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 259,
+    "hits": 2555,
+    "item": "Trout",
+    "location": "Farm Pond",
+    "mode": "fishes",
+    "rate": 9.864864864864865,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 590,
+    "hits": 2555,
+    "item": "Yellow Perch",
+    "location": "Farm Pond",
+    "mode": "fishes",
+    "rate": 4.330508474576271,
     "rate_type": "manual_fishing"
   },
   {
@@ -3033,12 +3330,12 @@
     "rate_type": "manual_fishing"
   },
   {
-    "drops": 340,
+    "drops": 333,
     "hits": 1165,
-    "item": "Yellow Perch",
+    "item": "Drum",
     "location": "Forest Pond",
     "mode": "fishes",
-    "rate": 3.426470588235294,
+    "rate": 3.4984984984984986,
     "rate_type": "manual_fishing"
   },
   {
@@ -3069,12 +3366,12 @@
     "rate_type": "manual_fishing"
   },
   {
-    "drops": 2,
+    "drops": 330,
     "hits": 1165,
-    "item": "Water Lily",
+    "item": "Largemouth Bass",
     "location": "Forest Pond",
     "mode": "fishes",
-    "rate": 582.5,
+    "rate": 3.5303030303030303,
     "rate_type": "manual_fishing"
   },
   {
@@ -3096,30 +3393,84 @@
     "rate_type": "manual_fishing"
   },
   {
+    "drops": 2,
+    "hits": 1165,
+    "item": "Water Lily",
+    "location": "Forest Pond",
+    "mode": "fishes",
+    "rate": 582.5,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 340,
+    "hits": 1165,
+    "item": "Yellow Perch",
+    "location": "Forest Pond",
+    "mode": "fishes",
+    "rate": 3.426470588235294,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 538,
+    "hits": 2379,
+    "item": "Flamejack",
+    "location": "Lake Minerva",
+    "mode": "fishes",
+    "rate": 4.421933085501859,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 119,
+    "hits": 2379,
+    "item": "Flarefin",
+    "location": "Lake Minerva",
+    "mode": "fishes",
+    "rate": 19.991596638655462,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 55,
+    "hits": 2379,
+    "item": "Goldfin",
+    "location": "Lake Minerva",
+    "mode": "fishes",
+    "rate": 43.25454545454546,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 182,
+    "hits": 2379,
+    "item": "Redgill",
+    "location": "Lake Minerva",
+    "mode": "fishes",
+    "rate": 13.071428571428571,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 1483,
+    "hits": 2379,
+    "item": "Torch Fish",
+    "location": "Lake Minerva",
+    "mode": "fishes",
+    "rate": 1.6041807147673635,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 2,
+    "hits": 2379,
+    "item": "Treasure Key",
+    "location": "Lake Minerva",
+    "mode": "fishes",
+    "rate": 1189.5,
+    "rate_type": "manual_fishing"
+  },
+  {
     "drops": 1299,
     "hits": 6106,
     "item": "Crappie",
     "location": "Lake Tempest",
     "mode": "fishes",
     "rate": 4.7005388760585065,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 545,
-    "hits": 6106,
-    "item": "Trout",
-    "location": "Lake Tempest",
-    "mode": "fishes",
-    "rate": 11.203669724770641,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 1171,
-    "hits": 6106,
-    "item": "Yellow Perch",
-    "location": "Lake Tempest",
-    "mode": "fishes",
-    "rate": 5.214346712211785,
     "rate_type": "manual_fishing"
   },
   {
@@ -3132,12 +3483,12 @@
     "rate_type": "manual_fishing"
   },
   {
-    "drops": 1253,
+    "drops": 126,
     "hits": 6106,
-    "item": "Largemouth Bass",
+    "item": "Fish Bones",
     "location": "Lake Tempest",
     "mode": "fishes",
-    "rate": 4.8731045490822025,
+    "rate": 48.46031746031746,
     "rate_type": "manual_fishing"
   },
   {
@@ -3159,21 +3510,21 @@
     "rate_type": "manual_fishing"
   },
   {
-    "drops": 126,
-    "hits": 6106,
-    "item": "Fish Bones",
-    "location": "Lake Tempest",
-    "mode": "fishes",
-    "rate": 48.46031746031746,
-    "rate_type": "manual_fishing"
-  },
-  {
     "drops": 60,
     "hits": 6106,
     "item": "Gold Flier",
     "location": "Lake Tempest",
     "mode": "fishes",
     "rate": 101.76666666666667,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 1253,
+    "hits": 6106,
+    "item": "Largemouth Bass",
+    "location": "Lake Tempest",
+    "mode": "fishes",
+    "rate": 4.8731045490822025,
     "rate_type": "manual_fishing"
   },
   {
@@ -3186,264 +3537,210 @@
     "rate_type": "manual_fishing"
   },
   {
-    "drops": 614,
-    "hits": 2555,
-    "item": "Largemouth Bass",
-    "location": "Farm Pond",
-    "mode": "fishes",
-    "rate": 4.1612377850162865,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 590,
-    "hits": 2555,
-    "item": "Yellow Perch",
-    "location": "Farm Pond",
-    "mode": "fishes",
-    "rate": 4.330508474576271,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 254,
-    "hits": 2555,
-    "item": "Carp",
-    "location": "Farm Pond",
-    "mode": "fishes",
-    "rate": 10.059055118110237,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 259,
-    "hits": 2555,
-    "item": "Trout",
-    "location": "Farm Pond",
-    "mode": "fishes",
-    "rate": 9.864864864864865,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 592,
-    "hits": 2555,
-    "item": "Drum",
-    "location": "Farm Pond",
-    "mode": "fishes",
-    "rate": 4.315878378378378,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 77,
-    "hits": 2555,
-    "item": "Gold Trout",
-    "location": "Farm Pond",
-    "mode": "fishes",
-    "rate": 33.18181818181818,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 54,
-    "hits": 2555,
-    "item": "Fish Bones",
-    "location": "Farm Pond",
-    "mode": "fishes",
-    "rate": 47.31481481481482,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 57,
-    "hits": 2555,
-    "item": "Catfish",
-    "location": "Farm Pond",
-    "mode": "fishes",
-    "rate": 44.824561403508774,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 55,
-    "hits": 2555,
-    "item": "Flier",
-    "location": "Farm Pond",
-    "mode": "fishes",
-    "rate": 46.45454545454545,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 3,
-    "hits": 2555,
-    "item": "Runestone 02",
-    "location": "Farm Pond",
-    "mode": "fishes",
-    "rate": 851.6666666666666,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 949,
-    "hits": 7705,
-    "item": "Starfish",
-    "location": "Emerald Beach",
-    "mode": "fishes",
-    "rate": 8.119072708113803,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 238,
-    "hits": 7705,
-    "item": "Pearl",
-    "location": "Emerald Beach",
-    "mode": "fishes",
-    "rate": 32.37394957983193,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 2196,
-    "hits": 7705,
-    "item": "Conch Shell",
-    "location": "Emerald Beach",
-    "mode": "fishes",
-    "rate": 3.5086520947176685,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 2260,
-    "hits": 7705,
-    "item": "Clam Shell",
-    "location": "Emerald Beach",
-    "mode": "fishes",
-    "rate": 3.40929203539823,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 161,
-    "hits": 7705,
-    "item": "Puffer",
-    "location": "Emerald Beach",
-    "mode": "fishes",
-    "rate": 47.857142857142854,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 438,
-    "hits": 7705,
-    "item": "Red Starfish",
-    "location": "Emerald Beach",
-    "mode": "fishes",
-    "rate": 17.591324200913242,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 477,
-    "hits": 7705,
-    "item": "Clownfish",
-    "location": "Emerald Beach",
-    "mode": "fishes",
-    "rate": 16.153039832285117,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 293,
-    "hits": 7705,
-    "item": "Blue Tiger Fish",
-    "location": "Emerald Beach",
-    "mode": "fishes",
-    "rate": 26.296928327645052,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 151,
-    "hits": 7705,
-    "item": "Stingray",
-    "location": "Emerald Beach",
-    "mode": "fishes",
-    "rate": 51.026490066225165,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 175,
-    "hits": 7705,
-    "item": "Seahorse",
-    "location": "Emerald Beach",
-    "mode": "fishes",
-    "rate": 44.02857142857143,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 96,
-    "hits": 7705,
-    "item": "Goldray",
-    "location": "Emerald Beach",
-    "mode": "fishes",
-    "rate": 80.26041666666667,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 106,
-    "hits": 7705,
-    "item": "Marlin",
-    "location": "Emerald Beach",
-    "mode": "fishes",
-    "rate": 72.68867924528301,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 109,
-    "hits": 7705,
-    "item": "Ruby Fish",
-    "location": "Emerald Beach",
-    "mode": "fishes",
-    "rate": 70.68807339449542,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 50,
-    "hits": 7705,
-    "item": "MIAB",
-    "location": "Emerald Beach",
-    "mode": "fishes",
-    "rate": 154.1,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 1,
-    "hits": 7705,
-    "item": "Spiked Shell",
-    "location": "Emerald Beach",
-    "mode": "fishes",
-    "rate": 7705.0,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 4,
-    "hits": 7705,
-    "item": "Crab Claw",
-    "location": "Emerald Beach",
-    "mode": "fishes",
-    "rate": 1926.25,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 1,
-    "hits": 7705,
-    "item": "Magic Conch Shell",
-    "location": "Emerald Beach",
-    "mode": "fishes",
-    "rate": 7705.0,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 559,
-    "hits": 1216,
-    "item": "Drum",
-    "location": "Small Pond",
-    "mode": "fishes",
-    "rate": 2.1753130590339893,
-    "rate_type": "manual_fishing"
-  },
-  {
     "drops": 545,
-    "hits": 1216,
-    "item": "Yellow Perch",
-    "location": "Small Pond",
+    "hits": 6106,
+    "item": "Trout",
+    "location": "Lake Tempest",
     "mode": "fishes",
-    "rate": 2.231192660550459,
+    "rate": 11.203669724770641,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 1171,
+    "hits": 6106,
+    "item": "Yellow Perch",
+    "location": "Lake Tempest",
+    "mode": "fishes",
+    "rate": 5.214346712211785,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 2596,
+    "hits": 14630,
+    "item": "Barracuda",
+    "location": "Large Island",
+    "mode": "fishes",
+    "rate": 5.635593220338983,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 2,
+    "hits": 14630,
+    "item": "Gold Boot",
+    "location": "Large Island",
+    "mode": "fishes",
+    "rate": 7315.0,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 451,
+    "hits": 14630,
+    "item": "Gold Coral",
+    "location": "Large Island",
+    "mode": "fishes",
+    "rate": 32.4390243902439,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 1791,
+    "hits": 14630,
+    "item": "Plumbfish",
+    "location": "Large Island",
+    "mode": "fishes",
+    "rate": 8.168620882188721,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 1149,
+    "hits": 14630,
+    "item": "Ruby Coral",
+    "location": "Large Island",
+    "mode": "fishes",
+    "rate": 12.732811140121845,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 2090,
+    "hits": 14630,
+    "item": "Sea Catfish",
+    "location": "Large Island",
+    "mode": "fishes",
+    "rate": 7.0,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 1396,
+    "hits": 14630,
+    "item": "Serpent Eel",
+    "location": "Large Island",
+    "mode": "fishes",
+    "rate": 10.479942693409741,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 1600,
+    "hits": 14630,
+    "item": "Spiral Shell",
+    "location": "Large Island",
+    "mode": "fishes",
+    "rate": 9.14375,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 3553,
+    "hits": 14630,
+    "item": "Swordfish",
+    "location": "Large Island",
+    "mode": "fishes",
+    "rate": 4.117647058823529,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 2,
+    "hits": 14630,
+    "item": "Tribal Staff",
+    "location": "Large Island",
+    "mode": "fishes",
+    "rate": 7315.0,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 903,
+    "hits": 6513,
+    "item": "Blue Crab",
+    "location": "Small Island",
+    "mode": "fishes",
+    "rate": 7.212624584717608,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 195,
+    "hits": 6513,
+    "item": "Blue Sea Bass",
+    "location": "Small Island",
+    "mode": "fishes",
+    "rate": 33.4,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 429,
+    "hits": 6513,
+    "item": "Blue Shell",
+    "location": "Small Island",
+    "mode": "fishes",
+    "rate": 15.181818181818182,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 113,
+    "hits": 6513,
+    "item": "Gold Sea Bass",
+    "location": "Small Island",
+    "mode": "fishes",
+    "rate": 57.63716814159292,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 1048,
+    "hits": 6513,
+    "item": "Green Chromis",
+    "location": "Small Island",
+    "mode": "fishes",
+    "rate": 6.2146946564885495,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 178,
+    "hits": 6513,
+    "item": "Jellyfish",
+    "location": "Small Island",
+    "mode": "fishes",
+    "rate": 36.58988764044944,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 47,
+    "hits": 6513,
+    "item": "MIAB",
+    "location": "Small Island",
+    "mode": "fishes",
+    "rate": 138.5744680851064,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 1003,
+    "hits": 6513,
+    "item": "Mackerel",
+    "location": "Small Island",
+    "mode": "fishes",
+    "rate": 6.493519441674975,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 166,
+    "hits": 6513,
+    "item": "Mussel",
+    "location": "Small Island",
+    "mode": "fishes",
+    "rate": 39.234939759036145,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 28,
+    "hits": 6513,
+    "item": "Seaweed",
+    "location": "Small Island",
+    "mode": "fishes",
+    "rate": 232.60714285714286,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 2403,
+    "hits": 6513,
+    "item": "Small Prawn",
+    "location": "Small Island",
+    "mode": "fishes",
+    "rate": 2.7103620474406993,
     "rate_type": "manual_fishing"
   },
   {
@@ -3453,6 +3750,15 @@
     "location": "Small Pond",
     "mode": "fishes",
     "rate": 243.2,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 559,
+    "hits": 1216,
+    "item": "Drum",
+    "location": "Small Pond",
+    "mode": "fishes",
+    "rate": 2.1753130590339893,
     "rate_type": "manual_fishing"
   },
   {
@@ -3483,273 +3789,30 @@
     "rate_type": "manual_fishing"
   },
   {
-    "drops": 2403,
-    "hits": 6513,
-    "item": "Small Prawn",
-    "location": "Small Island",
+    "drops": 545,
+    "hits": 1216,
+    "item": "Yellow Perch",
+    "location": "Small Pond",
     "mode": "fishes",
-    "rate": 2.7103620474406993,
+    "rate": 2.231192660550459,
     "rate_type": "manual_fishing"
   },
   {
-    "drops": 1003,
-    "hits": 6513,
-    "item": "Mackerel",
-    "location": "Small Island",
-    "mode": "fishes",
-    "rate": 6.493519441674975,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 195,
-    "hits": 6513,
+    "drops": 130,
+    "hits": 3237,
     "item": "Blue Sea Bass",
-    "location": "Small Island",
+    "location": "Vast Ocean",
     "mode": "fishes",
-    "rate": 33.4,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 1048,
-    "hits": 6513,
-    "item": "Green Chromis",
-    "location": "Small Island",
-    "mode": "fishes",
-    "rate": 6.2146946564885495,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 429,
-    "hits": 6513,
-    "item": "Blue Shell",
-    "location": "Small Island",
-    "mode": "fishes",
-    "rate": 15.181818181818182,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 178,
-    "hits": 6513,
-    "item": "Jellyfish",
-    "location": "Small Island",
-    "mode": "fishes",
-    "rate": 36.58988764044944,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 166,
-    "hits": 6513,
-    "item": "Mussel",
-    "location": "Small Island",
-    "mode": "fishes",
-    "rate": 39.234939759036145,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 47,
-    "hits": 6513,
-    "item": "MIAB",
-    "location": "Small Island",
-    "mode": "fishes",
-    "rate": 138.5744680851064,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 903,
-    "hits": 6513,
-    "item": "Blue Crab",
-    "location": "Small Island",
-    "mode": "fishes",
-    "rate": 7.212624584717608,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 113,
-    "hits": 6513,
-    "item": "Gold Sea Bass",
-    "location": "Small Island",
-    "mode": "fishes",
-    "rate": 57.63716814159292,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 28,
-    "hits": 6513,
-    "item": "Seaweed",
-    "location": "Small Island",
-    "mode": "fishes",
-    "rate": 232.60714285714286,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 1057,
-    "hits": 11114,
-    "item": "Serpent Eel",
-    "location": "Large Island",
-    "mode": "fishes",
-    "rate": 10.514664143803216,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 358,
-    "hits": 11114,
-    "item": "Gold Coral",
-    "location": "Large Island",
-    "mode": "fishes",
-    "rate": 31.044692737430168,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 1953,
-    "hits": 11114,
-    "item": "Barracuda",
-    "location": "Large Island",
-    "mode": "fishes",
-    "rate": 5.690732206861239,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 2726,
-    "hits": 11114,
-    "item": "Swordfish",
-    "location": "Large Island",
-    "mode": "fishes",
-    "rate": 4.0770359501100515,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 1204,
-    "hits": 11114,
-    "item": "Spiral Shell",
-    "location": "Large Island",
-    "mode": "fishes",
-    "rate": 9.230897009966778,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 1582,
-    "hits": 11114,
-    "item": "Sea Catfish",
-    "location": "Large Island",
-    "mode": "fishes",
-    "rate": 7.025284450063211,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 1360,
-    "hits": 11114,
-    "item": "Plumbfish",
-    "location": "Large Island",
-    "mode": "fishes",
-    "rate": 8.172058823529412,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 872,
-    "hits": 11114,
-    "item": "Ruby Coral",
-    "location": "Large Island",
-    "mode": "fishes",
-    "rate": 12.745412844036696,
+    "rate": 24.9,
     "rate_type": "manual_fishing"
   },
   {
     "drops": 1,
-    "hits": 11114,
-    "item": "Tribal Staff",
-    "location": "Large Island",
-    "mode": "fishes",
-    "rate": 11114.0,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 1,
-    "hits": 11114,
-    "item": "Gold Boot",
-    "location": "Large Island",
-    "mode": "fishes",
-    "rate": 11114.0,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 538,
-    "hits": 2379,
-    "item": "Flamejack",
-    "location": "Lake Minerva",
-    "mode": "fishes",
-    "rate": 4.421933085501859,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 1483,
-    "hits": 2379,
-    "item": "Torch Fish",
-    "location": "Lake Minerva",
-    "mode": "fishes",
-    "rate": 1.6041807147673635,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 182,
-    "hits": 2379,
-    "item": "Redgill",
-    "location": "Lake Minerva",
-    "mode": "fishes",
-    "rate": 13.071428571428571,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 119,
-    "hits": 2379,
-    "item": "Flarefin",
-    "location": "Lake Minerva",
-    "mode": "fishes",
-    "rate": 19.991596638655462,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 55,
-    "hits": 2379,
-    "item": "Goldfin",
-    "location": "Lake Minerva",
-    "mode": "fishes",
-    "rate": 43.25454545454546,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 2,
-    "hits": 2379,
-    "item": "Treasure Key",
-    "location": "Lake Minerva",
-    "mode": "fishes",
-    "rate": 1189.5,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 1461,
     "hits": 3237,
-    "item": "Skipjack",
+    "item": "Diving Helmet",
     "location": "Vast Ocean",
     "mode": "fishes",
-    "rate": 2.215605749486653,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 321,
-    "hits": 3237,
-    "item": "Shrimp",
-    "location": "Vast Ocean",
-    "mode": "fishes",
-    "rate": 10.08411214953271,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 80,
-    "hits": 3237,
-    "item": "Stingray",
-    "location": "Vast Ocean",
-    "mode": "fishes",
-    "rate": 40.4625,
+    "rate": 3237.0,
     "rate_type": "manual_fishing"
   },
   {
@@ -3762,12 +3825,57 @@
     "rate_type": "manual_fishing"
   },
   {
+    "drops": 22,
+    "hits": 3237,
+    "item": "Giant Squid",
+    "location": "Vast Ocean",
+    "mode": "fishes",
+    "rate": 147.13636363636363,
+    "rate_type": "manual_fishing"
+  },
+  {
     "drops": 147,
     "hits": 3237,
     "item": "Goldjack",
     "location": "Vast Ocean",
     "mode": "fishes",
     "rate": 22.020408163265305,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 198,
+    "hits": 3237,
+    "item": "Green Jellyfish",
+    "location": "Vast Ocean",
+    "mode": "fishes",
+    "rate": 16.348484848484848,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 86,
+    "hits": 3237,
+    "item": "Jellyfish",
+    "location": "Vast Ocean",
+    "mode": "fishes",
+    "rate": 37.63953488372093,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 36,
+    "hits": 3237,
+    "item": "MIAB",
+    "location": "Vast Ocean",
+    "mode": "fishes",
+    "rate": 89.91666666666667,
+    "rate_type": "manual_fishing"
+  },
+  {
+    "drops": 532,
+    "hits": 3237,
+    "item": "Mackerel",
+    "location": "Vast Ocean",
+    "mode": "fishes",
+    "rate": 6.084586466165414,
     "rate_type": "manual_fishing"
   },
   {
@@ -3789,75 +3897,12 @@
     "rate_type": "manual_fishing"
   },
   {
-    "drops": 532,
-    "hits": 3237,
-    "item": "Mackerel",
-    "location": "Vast Ocean",
-    "mode": "fishes",
-    "rate": 6.084586466165414,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 36,
-    "hits": 3237,
-    "item": "MIAB",
-    "location": "Vast Ocean",
-    "mode": "fishes",
-    "rate": 89.91666666666667,
-    "rate_type": "manual_fishing"
-  },
-  {
     "drops": 43,
     "hits": 3237,
     "item": "Ruby Fish",
     "location": "Vast Ocean",
     "mode": "fishes",
     "rate": 75.27906976744185,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 198,
-    "hits": 3237,
-    "item": "Green Jellyfish",
-    "location": "Vast Ocean",
-    "mode": "fishes",
-    "rate": 16.348484848484848,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 130,
-    "hits": 3237,
-    "item": "Blue Sea Bass",
-    "location": "Vast Ocean",
-    "mode": "fishes",
-    "rate": 24.9,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 22,
-    "hits": 3237,
-    "item": "Giant Squid",
-    "location": "Vast Ocean",
-    "mode": "fishes",
-    "rate": 147.13636363636363,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 86,
-    "hits": 3237,
-    "item": "Jellyfish",
-    "location": "Vast Ocean",
-    "mode": "fishes",
-    "rate": 37.63953488372093,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 1,
-    "hits": 3237,
-    "item": "Sea Dragon",
-    "location": "Vast Ocean",
-    "mode": "fishes",
-    "rate": 3237.0,
     "rate_type": "manual_fishing"
   },
   {
@@ -3872,82 +3917,37 @@
   {
     "drops": 1,
     "hits": 3237,
-    "item": "Diving Helmet",
+    "item": "Sea Dragon",
     "location": "Vast Ocean",
     "mode": "fishes",
     "rate": 3237.0,
     "rate_type": "manual_fishing"
   },
   {
-    "drops": 82,
-    "hits": 243,
-    "item": "Bone Fish",
-    "location": "Crystal River",
+    "drops": 321,
+    "hits": 3237,
+    "item": "Shrimp",
+    "location": "Vast Ocean",
     "mode": "fishes",
-    "rate": 2.9634146341463414,
+    "rate": 10.08411214953271,
     "rate_type": "manual_fishing"
   },
   {
-    "drops": 83,
-    "hits": 243,
-    "item": "Sunfish",
-    "location": "Crystal River",
+    "drops": 1461,
+    "hits": 3237,
+    "item": "Skipjack",
+    "location": "Vast Ocean",
     "mode": "fishes",
-    "rate": 2.927710843373494,
+    "rate": 2.215605749486653,
     "rate_type": "manual_fishing"
   },
   {
-    "drops": 10,
-    "hits": 243,
-    "item": "Globber",
-    "location": "Crystal River",
+    "drops": 80,
+    "hits": 3237,
+    "item": "Stingray",
+    "location": "Vast Ocean",
     "mode": "fishes",
-    "rate": 24.3,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 36,
-    "hits": 243,
-    "item": "Trout",
-    "location": "Crystal River",
-    "mode": "fishes",
-    "rate": 6.75,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 6,
-    "hits": 243,
-    "item": "Old Boot",
-    "location": "Crystal River",
-    "mode": "fishes",
-    "rate": 40.5,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 16,
-    "hits": 243,
-    "item": "Blue Catfish",
-    "location": "Crystal River",
-    "mode": "fishes",
-    "rate": 15.1875,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 7,
-    "hits": 243,
-    "item": "Gold Catfish",
-    "location": "Crystal River",
-    "mode": "fishes",
-    "rate": 34.714285714285715,
-    "rate_type": "manual_fishing"
-  },
-  {
-    "drops": 3,
-    "hits": 243,
-    "item": "Glass Bottle",
-    "location": "Crystal River",
-    "mode": "fishes",
-    "rate": 81.0,
+    "rate": 40.4625,
     "rate_type": "manual_fishing"
   }
 ]
