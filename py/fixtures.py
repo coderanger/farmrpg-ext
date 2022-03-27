@@ -3,8 +3,10 @@ import csv
 import io
 import itertools
 import json
+import os
 import re
 from datetime import date, datetime
+from os import environ
 from pathlib import Path
 from typing import Iterable, Optional, Union
 from zoneinfo import ZoneInfo
@@ -437,20 +439,21 @@ def gen_quest_extra():
 
 
 def gen_wishing_well():
-    # Download and format the Wishing Well data from the wiki.
-    resp = httpx.get("https://farmrpg.com/wiki.php?page=ww%20drops%20table")
-    resp.raise_for_status()
-    page = resp.read().decode()
-    match = re.search(r"\[table\](.*)\[/table\]", page)
-    if not match:
-        raise Exception("No table found?")
-    ww_drops = match[1]
-    # Bbcode to CSV.
-    ww_drops = ww_drops.replace("[/th][th]", ",").replace("[/td][td]", ",")
-    ww_drops = ww_drops.replace("[/th][/tr][tr][td]", "\n").replace(
-        "[/td][/tr][tr][td]", "\n"
+    # Download and format the Wishing Well data from the spreadsheet.
+    spreadsheet_id = "1hYP-_PkvKvIm0hz8nhLhqzzZhAYl0zY6aRDoi6oN5qQ"
+    resp = httpx.get(
+        f"https://sheets.googleapis.com/v4/spreadsheets/{spreadsheet_id}/values/B5:C",
+        params={"key": os.environ["GOOGLE_API_KEY"]},
     )
-    ww_drops = ww_drops.replace("[tr][th]", "").replace("[/td][/tr]", "\n")
+    resp.raise_for_status()
+    page = resp.json()
+    rows = page["values"]
+    headers = rows.pop(0)
+    # Sanity check just in case.
+    assert headers == ["Input", "Output"]
+    ww_drops = collections.defaultdict(list)
+    for row in rows:
+        ww_drops[row[0]].append(row[1])
     # Parse.
     items = {it.name: it for it in load_items()}
     # Fix up some naming errors in the page.
@@ -463,14 +466,15 @@ def gen_wishing_well():
     for bad, good in misnamed_items.items():
         items[bad] = items[good]
     ww_data = []
-    for row in csv.DictReader(io.StringIO(ww_drops)):
-        ww_data.append(
-            {
-                "input": items[row["Toss In"]].id,
-                "output": items[row["To Get"]].id,
-                "chance": row["Chance"],
-            }
-        )
+    for input, outputs in sorted(ww_drops.items(), key=lambda kv: kv[0]):
+        for output in sorted(outputs):
+            ww_data.append(
+                {
+                    "input": items[input].id,
+                    "output": items[output].id,
+                    "chance": 1 / len(outputs),
+                }
+            )
     return ww_data
 
 
