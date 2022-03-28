@@ -232,7 +232,7 @@
       "225",
       "226"
     ],
-    "secondary": false
+    "secondary": true
   },
   {
     "image": "/img/items/npc_figure.png",
@@ -242,7 +242,7 @@
       "228",
       "231"
     ],
-    "secondary": false
+    "secondary": true
   },
   {
     "image": "/img/items/npc_figure.png",
@@ -251,7 +251,7 @@
       "230",
       "232"
     ],
-    "secondary": false
+    "secondary": true
   },
   {
     "image": "/img/items/a_027.png",
@@ -442,7 +442,7 @@
       "308",
       "309"
     ],
-    "secondary": false
+    "secondary": true
   },
   {
     "image": "/img/items/a_024.png",
@@ -550,7 +550,7 @@
       "386",
       "387"
     ],
-    "secondary": false
+    "secondary": true
   },
   {
     "image": "/img/items/a_028.png",
@@ -879,6 +879,73 @@
     "secondary": false
   },
   {
+    "image": "/img/items/a_011.png",
+    "name": "Main Story Quests",
+    "quests": [
+      "159",
+      "175",
+      "177",
+      "181",
+      "183",
+      "189",
+      "199",
+      "202",
+      "224",
+      "225",
+      "226",
+      "227",
+      "228",
+      "231",
+      "230",
+      "232",
+      "251",
+      "252",
+      "253",
+      "254",
+      "255",
+      "256",
+      "257",
+      "258",
+      "259",
+      "260",
+      "261",
+      "269",
+      "270",
+      "271",
+      "267",
+      "301",
+      "302",
+      "303",
+      "304",
+      "305",
+      "306",
+      "307",
+      "308",
+      "309",
+      "363",
+      "364",
+      "370",
+      "371",
+      "372",
+      "373",
+      "382",
+      "383",
+      "384",
+      "385",
+      "386",
+      "387",
+      "388",
+      "389",
+      "397",
+      "398",
+      "731",
+      "732",
+      "733",
+      "734"
+    ],
+    "secondary": false
+  },
+  {
     "image": "/img/items/a_027.png",
     "name": "Mystery Contraption",
     "quests": [
@@ -1011,7 +1078,7 @@
       "388",
       "389"
     ],
-    "secondary": false
+    "secondary": true
   },
   {
     "image": "/img/items/a_048.png",
@@ -1085,7 +1152,7 @@
       "733",
       "734"
     ],
-    "secondary": false
+    "secondary": true
   },
   {
     "image": "/img/items/a_011.png",

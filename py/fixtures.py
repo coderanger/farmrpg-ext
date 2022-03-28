@@ -1,12 +1,9 @@
 import collections
-import csv
-import io
 import itertools
 import json
 import os
 import re
 from datetime import date, datetime
-from os import environ
 from pathlib import Path
 from typing import Iterable, Optional, Union
 from zoneinfo import ZoneInfo
@@ -166,6 +163,8 @@ def _get_drops():
     # NOTES ABOUT GOLD BOOT DROP RATE
     # RySwim
     # @coderanger as of right now: 11 gold boots in exactly 46,850 casts
+    # Colemtg
+    # but if there is a way to update manually, for gold boot I had 97 over 320-340k fish.
 
     return (normal_drops, iron_depot_drops, manual_fish_drops)
 
@@ -290,8 +289,15 @@ def gen_questlines():
         if quest.name in questlines:
             questlines[quest.name].append({"id": quest.id, "weight": 1})
 
-    def override(questline: str, quest: str, weight: Union[int, float] = 1000):
-        questlines[questline].append({"id": quests[quest].id, "weight": weight})
+    # Questlines considered secondary so they don't count for prev/next links.
+    secondary = {"You Must Build A Boat", "Return Our Lost Friend"}
+
+    def override(
+        questline: str, quest: str, weight: Optional[Union[int, float]] = None
+    ) -> None:
+        questlines[questline].append(
+            {"id": quests[quest].id, "weight": weight or len(questlines[questline])}
+        )
 
     # Some manual overrides.
     override("Hare Handler", "Of Hares And Feathers")
@@ -320,8 +326,32 @@ def gen_questlines():
     override("Strange Stones", "Return Our Lost Friend V", 17)
     override("Strange Stones", "Lost and Found", 18)
 
+    def irange(start: int, stop: int) -> range:
+        return range(start, stop + 1)
+
+    # A special synthetic questline to cover the whole main arc.
+    main_quests = [
+        ("Consequences and Defenses", irange(1, 8)),
+        ("A Tower Divided", [None, 2, 3]),
+        ("A Tower Redecorated", [None, 2, 3]),
+        ("A Tower Remade", [None, 2]),
+        ("Defenses and Consequences", irange(1, 10)),
+        ("Consequences and Defenses", irange(9, 22)),
+        ("Defenses and Consequences", irange(11, 22)),
+        ("Shadow’s Reach", irange(1, 2)),
+        ("Strange Companions", irange(1, 6)),
+    ]
+    for base, subs in main_quests:
+        secondary.add(base)
+        for sub in subs:
+            quest_name = base
+            if sub is not None:
+                if isinstance(sub, int):
+                    sub = roman.toRoman(sub)
+                quest_name += f" {sub}"
+            override("Main Story Quests", quest_name)
+
     # Sort by weight.
-    secondary = {"You Must Build A Boat", "Return Our Lost Friend"}
     questlines_sorted = sorted(
         (
             {
@@ -425,12 +455,21 @@ def gen_quest_extra():
         it1, it2 = itertools.tee(questline["quests"])
         next(it2, None)
         for a, b in zip(it1, it2):
+            assert quest_adjacency[a]["next"] is None
             quest_adjacency[a]["next"] = b
+            assert quest_adjacency[b]["prev"] is None
             quest_adjacency[b]["prev"] = a
+
+    # Reverse map for quest search.
+    questlines_reverse = collections.defaultdict(list)
+    for questline in questlines_sorted:
+        for q in questline["quests"]:
+            questlines_reverse[q].append(questline["name"])
 
     return [
         {
             "id": q.id,
+            "questlines": questlines_reverse.get(q.id, []),
             **quest_adjacency.get(q.id, {}),
             **quest_dates.get(q.id, {}),
         }
