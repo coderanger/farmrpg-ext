@@ -21,6 +21,11 @@ import { setupProduction } from './lib/production.js'
 import { setupVineyard } from './lib/vineyard.js'
 import { setupQuests } from './lib/quests.js'
 
+/**
+ * @typedef {{
+ *  db: idb.DB
+ * }} GlobalState
+ */
 class GlobalState {
     constructor() {
         this.requestInterceptor = new RequestInterceptor()
