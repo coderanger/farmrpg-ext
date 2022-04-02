@@ -250,7 +250,7 @@ const main = async () => {
     renderSidebarFromGlobalState()
     fetchInventory(globalState).then(renderSidebarFromGlobalState)
     fetchPerks(globalState).then(() => {
-        console.log("Found initial perksetId", globalState.player.currentPerkset)
+        console.log("Found initial perkset", globalState.player.currentPerkset)
         renderSidebarFromGlobalState()
     })
 
@@ -265,7 +265,7 @@ const main = async () => {
             await renderSidebarFromGlobalState()
             break
         case "perk-refresh":
-            globalState.perksetId = await getPerksetId()
+            await fetchPerks(globalState)
             await renderSidebarFromGlobalState()
             break
         case "render-sidebar":
