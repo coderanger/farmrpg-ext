@@ -1,6 +1,29 @@
 [
   {
     "level1Items": [
+      "Board",
+      "Feathers",
+      "Iron Ring",
+      "Iron Cup"
+    ],
+    "level3Items": [
+      "Mushroom Paste",
+      "Leather",
+      "Steel",
+      "Magna Quartz"
+    ],
+    "level6Items": [
+      "Small Spring",
+      "Small Screw",
+      "Small Gear",
+      "Steel Wire"
+    ],
+    "id": "20",
+    "image": "/img/pets/arma.png",
+    "name": "Banded Armadillo"
+  },
+  {
+    "level1Items": [
       "Runestone 01",
       "Runestone 02",
       "Runestone 04",

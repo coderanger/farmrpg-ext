@@ -123,5 +123,10 @@
         "fishingLevel": 99,
         "craftingLevel": 99,
         "exploringLevel": 99
+    },
+    {
+        "name": "Banded Armadillo",
+        "cost": 125000000,
+        "craftingLevel": 75
     }
 ]

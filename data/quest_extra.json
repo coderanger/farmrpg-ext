@@ -5723,7 +5723,7 @@
   },
   {
     "id": "791",
-    "next": null,
+    "next": "817",
     "prev": "792",
     "questlines": [
       "A Way Back"
@@ -5771,8 +5771,24 @@
   },
   {
     "id": "797",
-    "next": null,
+    "next": "798",
     "prev": "796",
+    "questlines": [
+      "A Towering Investment"
+    ]
+  },
+  {
+    "id": "798",
+    "next": "799",
+    "prev": "797",
+    "questlines": [
+      "A Towering Investment"
+    ]
+  },
+  {
+    "id": "799",
+    "next": null,
+    "prev": "798",
     "questlines": [
       "A Towering Investment"
     ]
@@ -5926,5 +5942,95 @@
     "availableTo": 1648789199000,
     "id": "816",
     "questlines": []
+  },
+  {
+    "id": "817",
+    "next": "818",
+    "prev": "791",
+    "questlines": [
+      "A Way Back"
+    ]
+  },
+  {
+    "id": "818",
+    "next": "819",
+    "prev": "817",
+    "questlines": [
+      "A Way Back"
+    ]
+  },
+  {
+    "id": "819",
+    "next": "820",
+    "prev": "818",
+    "questlines": [
+      "A Way Back"
+    ]
+  },
+  {
+    "id": "820",
+    "next": "821",
+    "prev": "819",
+    "questlines": [
+      "A Way Back"
+    ]
+  },
+  {
+    "id": "821",
+    "next": null,
+    "prev": "820",
+    "questlines": [
+      "A Way Back"
+    ]
+  },
+  {
+    "availableFrom": 1648789200000,
+    "availableTo": 1651381199000,
+    "id": "822",
+    "next": "823",
+    "prev": null,
+    "questlines": [
+      "Fooled"
+    ]
+  },
+  {
+    "availableFrom": 1648789200000,
+    "availableTo": 1651381199000,
+    "id": "823",
+    "next": "824",
+    "prev": "822",
+    "questlines": [
+      "Fooled"
+    ]
+  },
+  {
+    "availableFrom": 1648789200000,
+    "availableTo": 1651381199000,
+    "id": "824",
+    "next": "826",
+    "prev": "823",
+    "questlines": [
+      "Fooled"
+    ]
+  },
+  {
+    "availableFrom": 1648789200000,
+    "availableTo": 1651381199000,
+    "id": "825",
+    "next": null,
+    "prev": "826",
+    "questlines": [
+      "Fooled"
+    ]
+  },
+  {
+    "availableFrom": 1648789200000,
+    "availableTo": 1651381199000,
+    "id": "826",
+    "next": "825",
+    "prev": "824",
+    "questlines": [
+      "Fooled"
+    ]
   }
 ]

@@ -24487,6 +24487,126 @@
     "requiresExploring": 92
   },
   {
+    "firstSeen": 1648443752186,
+    "itemRequests": [
+      {
+        "id": "108",
+        "quantity": 700
+      },
+      {
+        "id": "314",
+        "quantity": 700
+      },
+      {
+        "id": "87",
+        "quantity": 700
+      },
+      {
+        "id": "384",
+        "quantity": 400
+      },
+      {
+        "id": "479",
+        "quantity": 100
+      },
+      {
+        "id": "389",
+        "quantity": 100
+      },
+      {
+        "id": "281",
+        "quantity": 300
+      },
+      {
+        "id": "172",
+        "quantity": 300
+      },
+      {
+        "id": "459",
+        "quantity": 150
+      },
+      {
+        "id": "157",
+        "quantity": 500
+      },
+      {
+        "id": "382",
+        "quantity": 400
+      },
+      {
+        "id": "53",
+        "quantity": 700
+      },
+      {
+        "id": "321",
+        "quantity": 700
+      },
+      {
+        "id": "378",
+        "quantity": 300
+      },
+      {
+        "id": "473",
+        "quantity": 100
+      },
+      {
+        "id": "254",
+        "quantity": 700
+      },
+      {
+        "id": "199",
+        "quantity": 700
+      },
+      {
+        "id": "376",
+        "quantity": 700
+      },
+      {
+        "id": "478",
+        "quantity": 100
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "493",
+        "quantity": 1
+      }
+    ],
+    "id": "798",
+    "name": "A Towering Investment XVI",
+    "from": "Cecil",
+    "fromImage": "/img/items/a_027.png",
+    "text": "Cecil thinks the tower machinery is ready to be activated. Before attempting to activate the tower, Cecil would like to have an assortment of items available in case the mechanisms need some additional magical energy. Will you provide the needed items for an additional share in the tower treasure?",
+    "requiresFarming": 92,
+    "requiresCrafting": 92,
+    "requiresFishing": 92,
+    "requiresExploring": 92
+  },
+  {
+    "firstSeen": 1648789333341,
+    "itemRequests": [
+      {
+        "id": "65",
+        "quantity": 700
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "493",
+        "quantity": 1
+      }
+    ],
+    "id": "799",
+    "name": "A Towering Investment XVII",
+    "from": "Cecil",
+    "fromImage": "/img/items/a_027.png",
+    "text": "The doors to the tower are open!\n\nCecil has enlisted ROOMBA to do an initial exploration and cleaning of the tower. Will you bring corn to help power ROOMBA’s work?",
+    "requiresFarming": 92,
+    "requiresCrafting": 92,
+    "requiresFishing": 92,
+    "requiresExploring": 92
+  },
+  {
     "firstSeen": 1646723941323,
     "itemRequests": [
       {
@@ -25238,6 +25358,204 @@
     "availableTo": "Mar 31"
   },
   {
+    "firstSeen": 1648662746224,
+    "itemRequests": [
+      {
+        "id": "350",
+        "quantity": 2
+      },
+      {
+        "id": "120",
+        "quantity": 100
+      },
+      {
+        "id": "165",
+        "quantity": 2
+      },
+      {
+        "id": "368",
+        "quantity": 2
+      },
+      {
+        "id": "79",
+        "quantity": 2
+      },
+      {
+        "id": "61",
+        "quantity": 20
+      },
+      {
+        "id": "193",
+        "quantity": 10
+      },
+      {
+        "id": "44",
+        "quantity": 25
+      },
+      {
+        "id": "19",
+        "quantity": 35
+      },
+      {
+        "id": "33",
+        "quantity": 10
+      },
+      {
+        "id": "48",
+        "quantity": 35
+      },
+      {
+        "id": "43",
+        "quantity": 50
+      }
+    ],
+    "itemRewards": [],
+    "id": "817",
+    "name": "A Way Back XVI",
+    "from": "Thomas",
+    "fromImage": "/img/items/a_048.png",
+    "text": "Thomas feels a little more healthy after all of those vegetables, but his symptoms have not diminished. He sees things that aren’t actually there all the time now. There’s one especially unsettling thing that he always sees on the eastern horizon. It looks like a second sun that is rising, but it never actually rises. It just sits there glowing.\n\nThomas wants to go and try to find the location of this second sun. Will you bring him some supplies and come with him to the large island?",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "silverReward": 10000000
+  },
+  {
+    "firstSeen": 1648662791666,
+    "itemRequests": [
+      {
+        "id": "38",
+        "quantity": 1000
+      },
+      {
+        "id": "236",
+        "quantity": 20
+      },
+      {
+        "id": "237",
+        "quantity": 20
+      },
+      {
+        "id": "21",
+        "quantity": 1000
+      },
+      {
+        "id": "36",
+        "quantity": 1000
+      },
+      {
+        "id": "35",
+        "quantity": 1000
+      },
+      {
+        "id": "254",
+        "quantity": 1000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "250",
+        "quantity": 25
+      },
+      {
+        "id": "462",
+        "quantity": 10
+      },
+      {
+        "id": "500",
+        "quantity": 10
+      }
+    ],
+    "id": "818",
+    "name": "A Way Back XVII",
+    "from": "Thomas",
+    "fromImage": "/img/items/a_048.png",
+    "text": "The second sun that Thomas can see is brighter from the vantage point of the large island, but it is still far away on the horizon. He’s going to need a bigger boat to reach it that far out in the open seas.\n\nWill you help Thomas start gathering materials to build a vessel worthy of the open seas?",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "silverReward": 300000000
+  },
+  {
+    "firstSeen": 1648663462335,
+    "itemRequests": [
+      {
+        "id": "26",
+        "quantity": 12
+      },
+      {
+        "id": "11",
+        "quantity": 12
+      },
+      {
+        "id": "242",
+        "quantity": 12
+      },
+      {
+        "id": "33",
+        "quantity": 2
+      },
+      {
+        "id": "43",
+        "quantity": 12
+      },
+      {
+        "id": "48",
+        "quantity": 12
+      },
+      {
+        "id": "305",
+        "quantity": 10
+      },
+      {
+        "id": "186",
+        "quantity": 2
+      },
+      {
+        "id": "84",
+        "quantity": 10
+      },
+      {
+        "id": "349",
+        "quantity": 50
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "457",
+        "quantity": 10
+      },
+      {
+        "id": "123",
+        "quantity": 100
+      },
+      {
+        "id": "479",
+        "quantity": 10
+      },
+      {
+        "id": "185",
+        "quantity": 10
+      },
+      {
+        "id": "86",
+        "quantity": 60
+      }
+    ],
+    "id": "819",
+    "name": "A Way Back XVIII",
+    "from": "Thomas",
+    "fromImage": "/img/items/a_048.png",
+    "text": "While you were gathering materials for the ship, Thomas stumbled upon Captain Thomas passed out on the beach. Will you bring some food and drink to revive the good captain?",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "silverReward": 10000000
+  },
+  {
     "firstSeen": 1646727909110,
     "itemRequests": [
       {
@@ -25262,6 +25580,341 @@
     "text": "Jill's Cosplay Costume was a huge success at her last D&D session. However, when she went to cast a fireball spell, she found that she didn't have enough six-sided dice in her collection to roll them all at once for the spell. She would like you to find some fashionable dice that match her costume's theme. She would also like a nice new bag to carry them in, so that she doesn't lose any by mistake.",
     "silverReward": 100000,
     "requiresExploring": 60
+  },
+  {
+    "firstSeen": 1648663576925,
+    "itemRequests": [
+      {
+        "id": "303",
+        "quantity": 1000
+      },
+      {
+        "id": "314",
+        "quantity": 1000
+      },
+      {
+        "id": "23",
+        "quantity": 10
+      },
+      {
+        "id": "103",
+        "quantity": 1000
+      },
+      {
+        "id": "492",
+        "quantity": 1000
+      },
+      {
+        "id": "22",
+        "quantity": 1000
+      },
+      {
+        "id": "260",
+        "quantity": 100
+      },
+      {
+        "id": "145",
+        "quantity": 1000
+      },
+      {
+        "id": "409",
+        "quantity": 1000
+      },
+      {
+        "id": "38",
+        "quantity": 1000
+      },
+      {
+        "id": "163",
+        "quantity": 1000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "475",
+        "quantity": 10
+      },
+      {
+        "id": "458",
+        "quantity": 10
+      },
+      {
+        "id": "500",
+        "quantity": 10
+      }
+    ],
+    "id": "820",
+    "name": "A Way Back XIX",
+    "from": "Captain Thomas",
+    "fromImage": "/img/items/cthomas2.png",
+    "text": "Captain Thomas doesn’t want anything to do with this trip that Thomas is planning, but he also doesn’t want to see anyone get hurt. So, Captain Thomas will guide the construction of the boat until he’s feeling better. Captain Thomas hopes all the hard work will get Thomas to give up and go home anyway.\n\nWill you help gather more materials for the ship?",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "silverReward": 50000000
+  },
+  {
+    "firstSeen": 1648663620676,
+    "itemRequests": [
+      {
+        "id": "254",
+        "quantity": 1000
+      },
+      {
+        "id": "339",
+        "quantity": 1000
+      },
+      {
+        "id": "342",
+        "quantity": 200
+      },
+      {
+        "id": "215",
+        "quantity": 1000
+      },
+      {
+        "id": "341",
+        "quantity": 200
+      },
+      {
+        "id": "251",
+        "quantity": 1000
+      },
+      {
+        "id": "145",
+        "quantity": 1000
+      },
+      {
+        "id": "338",
+        "quantity": 200
+      },
+      {
+        "id": "303",
+        "quantity": 1000
+      },
+      {
+        "id": "38",
+        "quantity": 1000
+      },
+      {
+        "id": "178",
+        "quantity": 1000
+      },
+      {
+        "id": "193",
+        "quantity": 1000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "511",
+        "quantity": 1
+      },
+      {
+        "id": "491",
+        "quantity": 10
+      },
+      {
+        "id": "379",
+        "quantity": 25
+      },
+      {
+        "id": "500",
+        "quantity": 25
+      }
+    ],
+    "id": "821",
+    "name": "A Way Back XX",
+    "from": "Captain Thomas",
+    "fromImage": "/img/items/cthomas2.png",
+    "text": "Captain Thomas is feeling a little better and is going to help a little with the work. He can’t bear to sit and watch Thomas keep bungling simple tasks.\n\nCaptain Thomas thinks they almost have all the materials they need for the ship. Will you bring the last items, and a few replacements for the parts that Thomas mangled?",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "silverReward": 2147483647
+  },
+  {
+    "firstSeen": 1648789317009,
+    "itemRequests": [
+      {
+        "id": "85",
+        "quantity": 5
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "500",
+        "quantity": 1
+      },
+      {
+        "id": "512",
+        "quantity": 1
+      },
+      {
+        "id": "361",
+        "quantity": 5
+      }
+    ],
+    "id": "822",
+    "name": "Fooled I",
+    "from": "Buddy",
+    "fromImage": "/img/items/buddy.png",
+    "text": "Buddy would like to play a prank on his very dear friend, Vincent. For the prank, Buddy wants to make ice cream that looks great, but tastes terrible. Will you help Buddy get the ingredients he needs to make the prank ice cream?",
+    "requiresFarming": 5,
+    "requiresCrafting": 5,
+    "requiresFishing": 5,
+    "requiresExploring": 5,
+    "availableFrom": "Apr 1",
+    "availableTo": "Apr 30"
+  },
+  {
+    "firstSeen": 1648789327247,
+    "itemRequests": [
+      {
+        "id": "26",
+        "quantity": 6
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "123",
+        "quantity": 10
+      },
+      {
+        "id": "86",
+        "quantity": 5
+      },
+      {
+        "id": "511",
+        "quantity": 1
+      },
+      {
+        "id": "408",
+        "quantity": 1
+      }
+    ],
+    "id": "823",
+    "name": "Fooled II",
+    "from": "Buddy",
+    "fromImage": "/img/items/buddy.png",
+    "text": "The next ingredient Buddy needs is eggs. Will you help him get some eggs?",
+    "requiresFarming": 5,
+    "requiresCrafting": 5,
+    "requiresFishing": 5,
+    "requiresExploring": 5,
+    "availableFrom": "Apr 1",
+    "availableTo": "Apr 30"
+  },
+  {
+    "firstSeen": 1648789339473,
+    "itemRequests": [
+      {
+        "id": "84",
+        "quantity": 2
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "500",
+        "quantity": 2
+      },
+      {
+        "id": "330",
+        "quantity": 3
+      },
+      {
+        "id": "334",
+        "quantity": 3
+      },
+      {
+        "id": "44",
+        "quantity": 40
+      },
+      {
+        "id": "86",
+        "quantity": 5
+      },
+      {
+        "id": "369",
+        "quantity": 1
+      },
+      {
+        "id": "370",
+        "quantity": 5
+      }
+    ],
+    "id": "824",
+    "name": "Fooled III",
+    "from": "Buddy",
+    "fromImage": "/img/items/buddy.png",
+    "text": "Buddy is now ready for the secret ingredient to make the ice cream taste terrible. Will you bring Buddy some orange juice?",
+    "requiresFarming": 20,
+    "requiresCrafting": 20,
+    "requiresFishing": 20,
+    "requiresExploring": 20,
+    "availableFrom": "Apr 1",
+    "availableTo": "Apr 30"
+  },
+  {
+    "firstSeen": 1648789501696,
+    "itemRequests": [],
+    "itemRewards": [
+      {
+        "id": "375",
+        "quantity": 1
+      },
+      {
+        "id": "305",
+        "quantity": 1
+      }
+    ],
+    "id": "825",
+    "name": "Fooled V",
+    "from": "Buddy",
+    "fromImage": "/img/items/buddy.png",
+    "text": "Buddy’s prank went perfectly! Vincent was hesitant to eat the ice cream at first. Then, he smiled politely, said it was good, and finished the entire bowl. Vincent even asked for a little more. Buddy appreciates your help on this successful prank.",
+    "requiresFarming": 20,
+    "requiresCrafting": 20,
+    "requiresFishing": 20,
+    "requiresExploring": 20,
+    "availableFrom": "Apr 1",
+    "availableTo": "Apr 30"
+  },
+  {
+    "firstSeen": 1648789346194,
+    "itemRequests": [
+      {
+        "id": "412",
+        "quantity": 5
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "510",
+        "quantity": 1
+      },
+      {
+        "id": "487",
+        "quantity": 2
+      },
+      {
+        "id": "105",
+        "quantity": 2
+      }
+    ],
+    "id": "826",
+    "name": "Fooled IV",
+    "from": "Buddy",
+    "fromImage": "/img/items/buddy.png",
+    "text": "Buddy forgot that he needs ice to make ice cream! Do you have anything he could use to freeze his ice cream?",
+    "requiresFarming": 20,
+    "requiresCrafting": 20,
+    "requiresFishing": 20,
+    "requiresExploring": 20,
+    "availableFrom": "Apr 1",
+    "availableTo": "Apr 30"
   },
   {
     "firstSeen": 1646727906349,

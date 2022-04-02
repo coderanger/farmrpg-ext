@@ -210,7 +210,8 @@
         "name": "Lemonade",
         "quantity": 20
       }
-    ]
+    ],
+    "rarity": "Very Rare"
   },
   {
     "name": "Arrowhead",
@@ -282,6 +283,13 @@
     "event": true,
     "sellPrice": 1750,
     "xp": 1750
+  },
+  {
+    "firstSeen": 1648593733255,
+    "id": "514",
+    "name": "Bahltruvian Scales",
+    "image": "/img/items/2392.png",
+    "rarity": "Super Rare"
   },
   {
     "name": "Barracuda",
@@ -365,7 +373,8 @@
     "image": "/img/items/7842.PNG",
     "sellPrice": 75,
     "xp": 475,
-    "rarity": "Common"
+    "rarity": "Common",
+    "mastery": true
   },
   {
     "name": "Blue Crab",
@@ -636,6 +645,15 @@
     "sellPrice": 1750,
     "xp": 1750,
     "rarity": "Super Rare"
+  },
+  {
+    "firstSeen": 1648756088259,
+    "id": "520",
+    "name": "Bunny Ears",
+    "image": "/img/items/ears.png",
+    "event": true,
+    "xp": 2500,
+    "rarity": "Uncommon"
   },
   {
     "name": "Cabbage",
@@ -1291,6 +1309,13 @@
     "rarity": "Super Rare"
   },
   {
+    "firstSeen": 1648590375294,
+    "id": "513",
+    "name": "Diary of O'Dynn",
+    "image": "/img/items/pt_t_18.png",
+    "rarity": "Super Rare"
+  },
+  {
     "name": "Dice",
     "id": "212",
     "image": "/img/items/4848.png",
@@ -1341,6 +1366,126 @@
     "xp": 100,
     "givable": true,
     "mastery": true
+  },
+  {
+    "firstSeen": 1648756091188,
+    "id": "521",
+    "name": "Egg 01",
+    "image": "/img/items/egg01.png",
+    "event": true,
+    "xp": 2300,
+    "givable": true,
+    "rarity": "Very Rare"
+  },
+  {
+    "firstSeen": 1648756094288,
+    "id": "522",
+    "name": "Egg 02",
+    "image": "/img/items/egg02.png",
+    "event": true,
+    "xp": 2300,
+    "givable": true,
+    "rarity": "Very Rare"
+  },
+  {
+    "firstSeen": 1648756097430,
+    "id": "523",
+    "name": "Egg 03",
+    "image": "/img/items/egg03.png",
+    "event": true,
+    "xp": 2300,
+    "givable": true,
+    "rarity": "Very Rare"
+  },
+  {
+    "firstSeen": 1648756101482,
+    "id": "524",
+    "name": "Egg 04",
+    "image": "/img/items/egg04.png",
+    "event": true,
+    "xp": 2300,
+    "givable": true,
+    "rarity": "Very Rare"
+  },
+  {
+    "firstSeen": 1648756105908,
+    "id": "525",
+    "name": "Egg 05",
+    "image": "/img/items/egg05.png",
+    "event": true,
+    "xp": 2300,
+    "givable": true,
+    "rarity": "Very Rare"
+  },
+  {
+    "firstSeen": 1648756077995,
+    "id": "518",
+    "name": "Egg 06",
+    "image": "/img/items/egg06.png",
+    "event": true,
+    "xp": 2300,
+    "givable": true,
+    "rarity": "Very Rare"
+  },
+  {
+    "firstSeen": 1648756109694,
+    "id": "526",
+    "name": "Egg 07",
+    "image": "/img/items/egg07.png",
+    "event": true,
+    "xp": 2300,
+    "givable": true,
+    "rarity": "Very Rare"
+  },
+  {
+    "firstSeen": 1648756117648,
+    "id": "527",
+    "name": "Egg 08",
+    "image": "/img/items/egg08.png",
+    "event": true,
+    "xp": 2300,
+    "givable": true,
+    "rarity": "Very Rare"
+  },
+  {
+    "firstSeen": 1648756121396,
+    "id": "528",
+    "name": "Egg 09",
+    "image": "/img/items/egg09.png",
+    "event": true,
+    "xp": 2300,
+    "givable": true,
+    "rarity": "Very Rare"
+  },
+  {
+    "firstSeen": 1648756125605,
+    "id": "529",
+    "name": "Egg 10",
+    "image": "/img/items/egg10.png",
+    "event": true,
+    "xp": 2300,
+    "givable": true,
+    "rarity": "Very Rare"
+  },
+  {
+    "firstSeen": 1648756129358,
+    "id": "530",
+    "name": "Egg 11",
+    "image": "/img/items/egg11.png",
+    "event": true,
+    "xp": 2300,
+    "givable": true,
+    "rarity": "Very Rare"
+  },
+  {
+    "firstSeen": 1648756132519,
+    "id": "531",
+    "name": "Egg 12",
+    "image": "/img/items/egg12.png",
+    "event": true,
+    "xp": 2300,
+    "givable": true,
+    "rarity": "Very Rare"
   },
   {
     "name": "Eggplant",
@@ -3475,6 +3620,15 @@
     "craftPrice": 300
   },
   {
+    "firstSeen": 1648590725030,
+    "id": "476",
+    "name": "Mapping Compass",
+    "image": "/img/items/protractor.png",
+    "sellPrice": 2500,
+    "xp": 2500,
+    "rarity": "Rare"
+  },
+  {
     "name": "Marlin",
     "id": "114",
     "image": "/img/items/7816.png",
@@ -3690,6 +3844,13 @@
     "xp": 3000,
     "rarity": "Uncommon",
     "mastery": true
+  },
+  {
+    "firstSeen": 1648665777209,
+    "id": "515",
+    "name": "Odthorin's Charm",
+    "image": "/img/items/8455.png",
+    "rarity": "Super Rare"
   },
   {
     "firstSeen": 1646030519585,
@@ -4045,15 +4206,6 @@
     "rarity": "Common"
   },
   {
-    "firstSeen": 1643629314840,
-    "id": "476",
-    "name": "Protractor",
-    "image": "/img/items/protractor.png",
-    "sellPrice": 2500,
-    "xp": 2500,
-    "rarity": "Rare"
-  },
-  {
     "name": "Puffer",
     "id": "115",
     "image": "/img/items/7723.PNG",
@@ -4339,6 +4491,13 @@
     "xp": 2300,
     "givable": true,
     "rarity": "Very Rare"
+  },
+  {
+    "firstSeen": 1648665787378,
+    "id": "517",
+    "name": "Runecube",
+    "image": "/img/items/2099.png",
+    "rarity": "Super Rare"
   },
   {
     "name": "Runestone 01",
@@ -5102,6 +5261,13 @@
     "givable": true
   },
   {
+    "firstSeen": 1648665782215,
+    "id": "516",
+    "name": "Stones of Gallodor",
+    "image": "/img/items/2606.png",
+    "rarity": "Super Rare"
+  },
+  {
     "id": "345",
     "name": "Strange Gem",
     "image": "/img/items/5167.png",
@@ -5274,7 +5440,8 @@
     "id": "88",
     "image": "/img/items/7802.png",
     "sellPrice": 50,
-    "xp": 400
+    "xp": 400,
+    "mastery": true
   },
   {
     "name": "Sunflower",
@@ -5986,5 +6153,14 @@
     "givable": true,
     "mastery": true,
     "rarity": ""
+  },
+  {
+    "firstSeen": 1648756082829,
+    "id": "519",
+    "name": "frank's Basket",
+    "image": "/img/items/fbasket.png",
+    "xp": 1,
+    "givable": true,
+    "rarity": "Very Rare"
   }
 ]
