@@ -28,7 +28,7 @@ import { setupQuests } from './lib/quests.js'
  */
 class GlobalState {
     constructor() {
-        this.requestInterceptor = new RequestInterceptor()
+        this.requestInterceptor = new RequestInterceptor(this.logLatency.bind(this))
         this.ports = []
         this.clickHandlers = {}
         this.postMessageHandlers = {}
@@ -93,6 +93,18 @@ class GlobalState {
         }
         if (lastError !== null) {
             throw lastError
+        }
+    }
+
+    /**
+     * Log a latency recording.
+     * @param {number} ts
+     * @param {string} url
+     * @param {number} latency
+     */
+    async logLatency(ts, url, latency) {
+        if (this.db !== undefined) {
+            await this.db.put("latency", {ts, url, latency})
         }
     }
 }
@@ -171,7 +183,7 @@ const main = async () => {
     }
 
     // Initialize the database.
-    globalState.db = await idb.openDB("farmrpg-ext", 3, {
+    globalState.db = await idb.openDB("farmrpg-ext", 4, {
         upgrade(db, oldVer) {
             switch(oldVer) {
             case 0:
@@ -190,6 +202,9 @@ const main = async () => {
             case 2:
                 console.log("Running DB migrations for version 3")
                 db.createObjectStore("quests", { keyPath: "id" })
+            case 3:
+                console.log("Running DB migrations for version 4")
+                db.createObjectStore("latency", { keyPath: ["ts", "url"] })
             }
         },
     })
@@ -258,6 +273,7 @@ const main = async () => {
     browser.alarms.create("inventory-refresh", {periodInMinutes: 5})
     browser.alarms.create("perk-refresh", {periodInMinutes: 15})
     browser.alarms.create("render-sidebar", {periodInMinutes: 1})
+    browser.alarms.create("clear-latency", {periodInMinutes: 60})
     browser.alarms.onAlarm.addListener(async alarm => {
         switch (alarm.name) {
         case "inventory-refresh":
@@ -270,6 +286,10 @@ const main = async () => {
             break
         case "render-sidebar":
             await renderSidebarFromGlobalState()
+            break
+        case "clear-latency":
+            // Delete all but the last 24 hours of data.
+            await globalState.db.delete("latency", IDBKeyRange.upperBound(Date.now() - 24*60*60*1000))
             break
         }
     })
