@@ -32,7 +32,7 @@
     "name": "Large Island",
     "silverPerHit": null,
     "silverPerHitIronDepot": null,
-    "xpPerHit": 8441.414464957064,
+    "xpPerHit": 8441.41074059136,
     "xpPerHitIronDepot": null
   },
   {
@@ -111,10 +111,10 @@
     "baseDropRate": 0.3333333333333333,
     "id": "6",
     "name": "Black Rock Canyon",
-    "silverPerHit": 53.53218745976568,
-    "silverPerHitIronDepot": 53.53218745976568,
-    "xpPerHit": 50.948135702330376,
-    "xpPerHitIronDepot": 50.948135702330376
+    "silverPerHit": 53.52084137398688,
+    "silverPerHitIronDepot": 53.52084137398688,
+    "xpPerHit": 50.93585745529397,
+    "xpPerHitIronDepot": 50.93585745529397
   },
   {
     "baseDropRate": null,

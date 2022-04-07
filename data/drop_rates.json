@@ -8,34 +8,34 @@
   },
   {
     "drop_rates": {
-      "Ancient Coin": 273.0052724077329,
-      "Coal": 7.746317332721633,
-      "Giant Centipede": 379.8044009779951,
-      "Horn": 51.21324014242384,
-      "Large Chest 02": 12527.41935483871,
-      "Medium Chest 02": 25890.0,
-      "Orange Gecko": 8442.391304347826,
-      "Ruby Scorpion": 853.5164835164835,
-      "Runestone 09": 5393.75,
-      "Runestone 13": 8007.216494845361,
-      "Salt Rock": 29.724454649827784,
-      "Sandstone": 7.674749510879232,
-      "Shimmer Quartz": 84.01297998918334
+      "Ancient Coin": 273.1201686577653,
+      "Coal": 7.7459665766475005,
+      "Giant Centipede": 380.09779951100245,
+      "Horn": 51.205533596837945,
+      "Large Chest 02": 12537.09677419355,
+      "Medium Chest 02": 25910.0,
+      "Orange Gecko": 8448.91304347826,
+      "Ruby Scorpion": 854.1758241758242,
+      "Runestone 09": 5397.916666666667,
+      "Runestone 13": 8013.40206185567,
+      "Salt Rock": 29.730349971313828,
+      "Sandstone": 7.674535706880721,
+      "Shimmer Quartz": 84.01426718547341
     },
     "iron_depot_rates": {
-      "Ancient Coin": 273.0052724077329,
-      "Coal": 7.746317332721633,
-      "Giant Centipede": 379.8044009779951,
-      "Horn": 51.21324014242384,
-      "Large Chest 02": 12527.41935483871,
-      "Medium Chest 02": 25890.0,
-      "Orange Gecko": 8442.391304347826,
-      "Ruby Scorpion": 853.5164835164835,
-      "Runestone 09": 5393.75,
-      "Runestone 13": 8007.216494845361,
-      "Salt Rock": 29.724454649827784,
-      "Sandstone": 7.674749510879232,
-      "Shimmer Quartz": 84.01297998918334
+      "Ancient Coin": 273.1201686577653,
+      "Coal": 7.7459665766475005,
+      "Giant Centipede": 380.09779951100245,
+      "Horn": 51.205533596837945,
+      "Large Chest 02": 12537.09677419355,
+      "Medium Chest 02": 25910.0,
+      "Orange Gecko": 8448.91304347826,
+      "Ruby Scorpion": 854.1758241758242,
+      "Runestone 09": 5397.916666666667,
+      "Runestone 13": 8013.40206185567,
+      "Salt Rock": 29.730349971313828,
+      "Sandstone": 7.674535706880721,
+      "Shimmer Quartz": 84.01426718547341
     },
     "location": "Black Rock Canyon",
     "manual_fish_rates": {},
@@ -86,9 +86,9 @@
   },
   {
     "drop_rates": {
-      "Egg 03": 10008.0,
-      "Gold Carrot": 303.27272727272725,
-      "Runestone 01": 192.46153846153845
+      "Egg 03": 4124.5,
+      "Gold Carrot": 235.68571428571428,
+      "Runestone 01": 134.130081300813
     },
     "iron_depot_rates": {},
     "location": "Carrot Seeds",
@@ -97,7 +97,7 @@
   },
   {
     "drop_rates": {
-      "Runestone 11": 1128.4
+      "Runestone 11": 1029.090909090909
     },
     "iron_depot_rates": {},
     "location": "Corn Seeds",
@@ -138,7 +138,9 @@
     "mode": "fishes"
   },
   {
-    "drop_rates": {},
+    "drop_rates": {
+      "Runestone 06": 504.0
+    },
     "iron_depot_rates": {},
     "location": "Cucumber Seeds",
     "manual_fish_rates": {},
@@ -146,8 +148,8 @@
   },
   {
     "drop_rates": {
-      "Gold Eggplant": 990.5,
-      "Runestone 20": 1981.0
+      "Gold Eggplant": 410.6,
+      "Runestone 20": 2053.0
     },
     "iron_depot_rates": {},
     "location": "Eggplant Seeds",
@@ -411,22 +413,22 @@
     "iron_depot_rates": {},
     "location": "Large Island",
     "manual_fish_rates": {
-      "Barracuda": 5.644565217391304,
-      "Gold Boot": 7789.5,
-      "Gold Coral": 32.38877338877339,
-      "Plumbfish": 8.1140625,
-      "Ruby Coral": 12.811677631578947,
-      "Sea Catfish": 6.989232839838492,
-      "Serpent Eel": 10.47679892400807,
-      "Spiral Shell": 9.240213523131672,
-      "Swordfish": 4.104056902002108,
-      "Tribal Staff": 7789.5
+      "Barracuda": 5.644998194293969,
+      "Gold Boot": 7815.5,
+      "Gold Coral": 32.4968814968815,
+      "Plumbfish": 8.128445137805512,
+      "Ruby Coral": 12.801801801801801,
+      "Sea Catfish": 6.984361036639857,
+      "Serpent Eel": 10.48356807511737,
+      "Spiral Shell": 9.23272297696397,
+      "Swordfish": 4.10154815009184,
+      "Tribal Staff": 7815.5
     },
     "mode": "fishes"
   },
   {
     "drop_rates": {
-      "Runestone 10": 828.0
+      "Runestone 10": 662.4
     },
     "iron_depot_rates": {},
     "location": "Leek Seeds",
@@ -531,7 +533,7 @@
   },
   {
     "drop_rates": {
-      "Gold Peppers": 219.03125
+      "Gold Peppers": 176.2439024390244
     },
     "iron_depot_rates": {},
     "location": "Pepper Seeds",
@@ -733,7 +735,9 @@
     "mode": "fishes"
   },
   {
-    "drop_rates": {},
+    "drop_rates": {
+      "Piece of Heart": 1116.0
+    },
     "iron_depot_rates": {},
     "location": "Watermelon Seeds",
     "manual_fish_rates": {},

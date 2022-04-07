@@ -34,23 +34,23 @@ BASE_DROP_RATES = {
 
 CACHE_PATH_BASE = f"{os.path.dirname(__file__)}/.dropscache/{'{}'}.json"
 
-# Harvest drops to pay attention to.
+# Harvest drops to pay attention to. Mapped to their default seeds.
 HARVEST_DROPS = {
-    "Gold Peppers",
-    "Gold Carrot",
-    "Gold Peas",
-    "Gold Cucumber",
-    "Gold Eggplant",
-    "Runestone 01",
-    "Runestone 06",
-    "Runestone 07",
-    "Runestone 10",
-    "Runestone 11",
-    "Runestone 16",
-    "Runestone 20",
-    "Piece of Heart",
-    "Winged Amulet",
-    "Egg 03",
+    "Gold Peppers": "Pepper Seeds",
+    "Gold Carrot": "Carrot Seeds",
+    "Gold Peas": "Pea Seeds",
+    "Gold Cucumber": "Cucumber Seeds",
+    "Gold Eggplant": "Eggplant Seeds",
+    "Runestone 01": "Carrot Seeds",
+    "Runestone 06": "Cucumber Seeds",
+    "Runestone 07": "Radish Seeds",
+    "Runestone 10": "Leek Seeds",
+    "Runestone 11": "Corn Seeds",
+    "Runestone 16": "Hops Seeds",
+    "Runestone 20": "Eggplant Seeds",
+    "Piece of Heart": "Watermelon Seeds",
+    "Winged Amulet": "Tomato Seeds",
+    "Egg 03": "Carrot Seeds",
 }
 
 # When the Iron Depot drop change went live.
@@ -142,7 +142,14 @@ def location_for_row(row: dict) -> Optional[str]:
     if row["type"] == "harvestall":
         # For harvests, we pretend the seed is a location. I will probably regret this.
         # Check that this is a harvest of just one kind of seed, otherwise too hard to track.
-        seeds = {crop["seed"] for crop in row["results"]["crops"]}
+        seeds: set[Optional[str]] = {crop["seed"] for crop in row["results"]["crops"]}
+        if len(seeds) != 1 or None in seeds:
+            # Sometimes the data recording for seeds breaks, so just assume default seeds.
+            seeds = {
+                HARVEST_DROPS[it["item"]]
+                for it in row["results"]["items"]
+                if it["item"] in HARVEST_DROPS
+            }
         if len(seeds) != 1 or None in seeds:
             return None
         else:

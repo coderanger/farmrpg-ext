@@ -1,119 +1,119 @@
 [
   {
-    "drops": 2845,
-    "hits": 776700,
+    "drops": 2846,
+    "hits": 777300,
     "item": "Ancient Coin",
     "location": "Black Rock Canyon",
     "mode": "explores",
-    "rate": 273.0052724077329,
+    "rate": 273.1201686577653,
     "rate_type": "normal"
   },
   {
-    "drops": 100267,
-    "hits": 776700,
+    "drops": 100349,
+    "hits": 777300,
     "item": "Coal",
     "location": "Black Rock Canyon",
     "mode": "explores",
-    "rate": 7.746317332721633,
+    "rate": 7.7459665766475005,
     "rate_type": "normal"
   },
   {
     "drops": 2045,
-    "hits": 776700,
+    "hits": 777300,
     "item": "Giant Centipede",
     "location": "Black Rock Canyon",
     "mode": "explores",
-    "rate": 379.8044009779951,
+    "rate": 380.09779951100245,
     "rate_type": "normal"
   },
   {
-    "drops": 15166,
-    "hits": 776700,
+    "drops": 15180,
+    "hits": 777300,
     "item": "Horn",
     "location": "Black Rock Canyon",
     "mode": "explores",
-    "rate": 51.21324014242384,
+    "rate": 51.205533596837945,
     "rate_type": "normal"
   },
   {
     "drops": 62,
-    "hits": 776700,
+    "hits": 777300,
     "item": "Large Chest 02",
     "location": "Black Rock Canyon",
     "mode": "explores",
-    "rate": 12527.41935483871,
+    "rate": 12537.09677419355,
     "rate_type": "normal"
   },
   {
     "drops": 30,
-    "hits": 776700,
+    "hits": 777300,
     "item": "Medium Chest 02",
     "location": "Black Rock Canyon",
     "mode": "explores",
-    "rate": 25890.0,
+    "rate": 25910.0,
     "rate_type": "normal"
   },
   {
     "drops": 92,
-    "hits": 776700,
+    "hits": 777300,
     "item": "Orange Gecko",
     "location": "Black Rock Canyon",
     "mode": "explores",
-    "rate": 8442.391304347826,
+    "rate": 8448.91304347826,
     "rate_type": "normal"
   },
   {
     "drops": 910,
-    "hits": 776700,
+    "hits": 777300,
     "item": "Ruby Scorpion",
     "location": "Black Rock Canyon",
     "mode": "explores",
-    "rate": 853.5164835164835,
+    "rate": 854.1758241758242,
     "rate_type": "normal"
   },
   {
     "drops": 144,
-    "hits": 776700,
+    "hits": 777300,
     "item": "Runestone 09",
     "location": "Black Rock Canyon",
     "mode": "explores",
-    "rate": 5393.75,
+    "rate": 5397.916666666667,
     "rate_type": "normal"
   },
   {
     "drops": 97,
-    "hits": 776700,
+    "hits": 777300,
     "item": "Runestone 13",
     "location": "Black Rock Canyon",
     "mode": "explores",
-    "rate": 8007.216494845361,
+    "rate": 8013.40206185567,
     "rate_type": "normal"
   },
   {
-    "drops": 26130,
-    "hits": 776700,
+    "drops": 26145,
+    "hits": 777300,
     "item": "Salt Rock",
     "location": "Black Rock Canyon",
     "mode": "explores",
-    "rate": 29.724454649827784,
+    "rate": 29.730349971313828,
     "rate_type": "normal"
   },
   {
-    "drops": 101202,
-    "hits": 776700,
+    "drops": 101283,
+    "hits": 777300,
     "item": "Sandstone",
     "location": "Black Rock Canyon",
     "mode": "explores",
-    "rate": 7.674749510879232,
+    "rate": 7.674535706880721,
     "rate_type": "normal"
   },
   {
-    "drops": 9245,
-    "hits": 776700,
+    "drops": 9252,
+    "hits": 777300,
     "item": "Shimmer Quartz",
     "location": "Black Rock Canyon",
     "mode": "explores",
-    "rate": 84.01297998918334,
+    "rate": 84.01426718547341,
     "rate_type": "normal"
   },
   {
@@ -216,39 +216,39 @@
     "rate_type": "normal"
   },
   {
-    "drops": 1,
-    "hits": 10008,
+    "drops": 4,
+    "hits": 16498,
     "item": "Egg 03",
     "location": "Carrot Seeds",
     "mode": "harvests",
-    "rate": 10008.0,
+    "rate": 4124.5,
     "rate_type": "normal"
   },
   {
-    "drops": 33,
-    "hits": 10008,
+    "drops": 70,
+    "hits": 16498,
     "item": "Gold Carrot",
     "location": "Carrot Seeds",
     "mode": "harvests",
-    "rate": 303.27272727272725,
+    "rate": 235.68571428571428,
     "rate_type": "normal"
   },
   {
-    "drops": 52,
-    "hits": 10008,
+    "drops": 123,
+    "hits": 16498,
     "item": "Runestone 01",
     "location": "Carrot Seeds",
     "mode": "harvests",
-    "rate": 192.46153846153845,
+    "rate": 134.130081300813,
     "rate_type": "normal"
   },
   {
-    "drops": 10,
-    "hits": 11284,
+    "drops": 11,
+    "hits": 11320,
     "item": "Runestone 11",
     "location": "Corn Seeds",
     "mode": "harvests",
-    "rate": 1128.4,
+    "rate": 1029.090909090909,
     "rate_type": "normal"
   },
   {
@@ -324,21 +324,30 @@
     "rate_type": "normal"
   },
   {
-    "drops": 2,
-    "hits": 1981,
+    "drops": 1,
+    "hits": 504,
+    "item": "Runestone 06",
+    "location": "Cucumber Seeds",
+    "mode": "harvests",
+    "rate": 504.0,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 5,
+    "hits": 2053,
     "item": "Gold Eggplant",
     "location": "Eggplant Seeds",
     "mode": "harvests",
-    "rate": 990.5,
+    "rate": 410.6,
     "rate_type": "normal"
   },
   {
     "drops": 1,
-    "hits": 1981,
+    "hits": 2053,
     "item": "Runestone 20",
     "location": "Eggplant Seeds",
     "mode": "harvests",
-    "rate": 1981.0,
+    "rate": 2053.0,
     "rate_type": "normal"
   },
   {
@@ -1134,12 +1143,12 @@
     "rate_type": "normal"
   },
   {
-    "drops": 4,
+    "drops": 5,
     "hits": 3312,
     "item": "Runestone 10",
     "location": "Leek Seeds",
     "mode": "harvests",
-    "rate": 828.0,
+    "rate": 662.4,
     "rate_type": "normal"
   },
   {
@@ -1404,12 +1413,12 @@
     "rate_type": "normal"
   },
   {
-    "drops": 32,
-    "hits": 7009,
+    "drops": 41,
+    "hits": 7226,
     "item": "Gold Peppers",
     "location": "Pepper Seeds",
     "mode": "harvests",
-    "rate": 219.03125,
+    "rate": 176.2439024390244,
     "rate_type": "normal"
   },
   {
@@ -1890,6 +1899,15 @@
     "rate_type": "normal"
   },
   {
+    "drops": 1,
+    "hits": 1116,
+    "item": "Piece of Heart",
+    "location": "Watermelon Seeds",
+    "mode": "harvests",
+    "rate": 1116.0,
+    "rate_type": "normal"
+  },
+  {
     "drops": 41012,
     "hits": 3168782,
     "item": "Apple",
@@ -2025,120 +2043,120 @@
     "rate_type": "normal"
   },
   {
-    "drops": 2845,
-    "hits": 776700,
+    "drops": 2846,
+    "hits": 777300,
     "item": "Ancient Coin",
     "location": "Black Rock Canyon",
     "mode": "explores",
-    "rate": 273.0052724077329,
+    "rate": 273.1201686577653,
     "rate_type": "iron_depot"
   },
   {
-    "drops": 100267,
-    "hits": 776700,
+    "drops": 100349,
+    "hits": 777300,
     "item": "Coal",
     "location": "Black Rock Canyon",
     "mode": "explores",
-    "rate": 7.746317332721633,
+    "rate": 7.7459665766475005,
     "rate_type": "iron_depot"
   },
   {
     "drops": 2045,
-    "hits": 776700,
+    "hits": 777300,
     "item": "Giant Centipede",
     "location": "Black Rock Canyon",
     "mode": "explores",
-    "rate": 379.8044009779951,
+    "rate": 380.09779951100245,
     "rate_type": "iron_depot"
   },
   {
-    "drops": 15166,
-    "hits": 776700,
+    "drops": 15180,
+    "hits": 777300,
     "item": "Horn",
     "location": "Black Rock Canyon",
     "mode": "explores",
-    "rate": 51.21324014242384,
+    "rate": 51.205533596837945,
     "rate_type": "iron_depot"
   },
   {
     "drops": 62,
-    "hits": 776700,
+    "hits": 777300,
     "item": "Large Chest 02",
     "location": "Black Rock Canyon",
     "mode": "explores",
-    "rate": 12527.41935483871,
+    "rate": 12537.09677419355,
     "rate_type": "iron_depot"
   },
   {
     "drops": 30,
-    "hits": 776700,
+    "hits": 777300,
     "item": "Medium Chest 02",
     "location": "Black Rock Canyon",
     "mode": "explores",
-    "rate": 25890.0,
+    "rate": 25910.0,
     "rate_type": "iron_depot"
   },
   {
     "drops": 92,
-    "hits": 776700,
+    "hits": 777300,
     "item": "Orange Gecko",
     "location": "Black Rock Canyon",
     "mode": "explores",
-    "rate": 8442.391304347826,
+    "rate": 8448.91304347826,
     "rate_type": "iron_depot"
   },
   {
     "drops": 910,
-    "hits": 776700,
+    "hits": 777300,
     "item": "Ruby Scorpion",
     "location": "Black Rock Canyon",
     "mode": "explores",
-    "rate": 853.5164835164835,
+    "rate": 854.1758241758242,
     "rate_type": "iron_depot"
   },
   {
     "drops": 144,
-    "hits": 776700,
+    "hits": 777300,
     "item": "Runestone 09",
     "location": "Black Rock Canyon",
     "mode": "explores",
-    "rate": 5393.75,
+    "rate": 5397.916666666667,
     "rate_type": "iron_depot"
   },
   {
     "drops": 97,
-    "hits": 776700,
+    "hits": 777300,
     "item": "Runestone 13",
     "location": "Black Rock Canyon",
     "mode": "explores",
-    "rate": 8007.216494845361,
+    "rate": 8013.40206185567,
     "rate_type": "iron_depot"
   },
   {
-    "drops": 26130,
-    "hits": 776700,
+    "drops": 26145,
+    "hits": 777300,
     "item": "Salt Rock",
     "location": "Black Rock Canyon",
     "mode": "explores",
-    "rate": 29.724454649827784,
+    "rate": 29.730349971313828,
     "rate_type": "iron_depot"
   },
   {
-    "drops": 101202,
-    "hits": 776700,
+    "drops": 101283,
+    "hits": 777300,
     "item": "Sandstone",
     "location": "Black Rock Canyon",
     "mode": "explores",
-    "rate": 7.674749510879232,
+    "rate": 7.674535706880721,
     "rate_type": "iron_depot"
   },
   {
-    "drops": 9245,
-    "hits": 776700,
+    "drops": 9252,
+    "hits": 777300,
     "item": "Shimmer Quartz",
     "location": "Black Rock Canyon",
     "mode": "explores",
-    "rate": 84.01297998918334,
+    "rate": 84.01426718547341,
     "rate_type": "iron_depot"
   },
   {
@@ -3609,93 +3627,93 @@
     "rate_type": "manual_fishing"
   },
   {
-    "drops": 2760,
-    "hits": 15579,
+    "drops": 2769,
+    "hits": 15631,
     "item": "Barracuda",
     "location": "Large Island",
     "mode": "fishes",
-    "rate": 5.644565217391304,
+    "rate": 5.644998194293969,
     "rate_type": "manual_fishing"
   },
   {
     "drops": 2,
-    "hits": 15579,
+    "hits": 15631,
     "item": "Gold Boot",
     "location": "Large Island",
     "mode": "fishes",
-    "rate": 7789.5,
+    "rate": 7815.5,
     "rate_type": "manual_fishing"
   },
   {
     "drops": 481,
-    "hits": 15579,
+    "hits": 15631,
     "item": "Gold Coral",
     "location": "Large Island",
     "mode": "fishes",
-    "rate": 32.38877338877339,
+    "rate": 32.4968814968815,
     "rate_type": "manual_fishing"
   },
   {
-    "drops": 1920,
-    "hits": 15579,
+    "drops": 1923,
+    "hits": 15631,
     "item": "Plumbfish",
     "location": "Large Island",
     "mode": "fishes",
-    "rate": 8.1140625,
+    "rate": 8.128445137805512,
     "rate_type": "manual_fishing"
   },
   {
-    "drops": 1216,
-    "hits": 15579,
+    "drops": 1221,
+    "hits": 15631,
     "item": "Ruby Coral",
     "location": "Large Island",
     "mode": "fishes",
-    "rate": 12.811677631578947,
+    "rate": 12.801801801801801,
     "rate_type": "manual_fishing"
   },
   {
-    "drops": 2229,
-    "hits": 15579,
+    "drops": 2238,
+    "hits": 15631,
     "item": "Sea Catfish",
     "location": "Large Island",
     "mode": "fishes",
-    "rate": 6.989232839838492,
+    "rate": 6.984361036639857,
     "rate_type": "manual_fishing"
   },
   {
-    "drops": 1487,
-    "hits": 15579,
+    "drops": 1491,
+    "hits": 15631,
     "item": "Serpent Eel",
     "location": "Large Island",
     "mode": "fishes",
-    "rate": 10.47679892400807,
+    "rate": 10.48356807511737,
     "rate_type": "manual_fishing"
   },
   {
-    "drops": 1686,
-    "hits": 15579,
+    "drops": 1693,
+    "hits": 15631,
     "item": "Spiral Shell",
     "location": "Large Island",
     "mode": "fishes",
-    "rate": 9.240213523131672,
+    "rate": 9.23272297696397,
     "rate_type": "manual_fishing"
   },
   {
-    "drops": 3796,
-    "hits": 15579,
+    "drops": 3811,
+    "hits": 15631,
     "item": "Swordfish",
     "location": "Large Island",
     "mode": "fishes",
-    "rate": 4.104056902002108,
+    "rate": 4.10154815009184,
     "rate_type": "manual_fishing"
   },
   {
     "drops": 2,
-    "hits": 15579,
+    "hits": 15631,
     "item": "Tribal Staff",
     "location": "Large Island",
     "mode": "fishes",
-    "rate": 7789.5,
+    "rate": 7815.5,
     "rate_type": "manual_fishing"
   },
   {
