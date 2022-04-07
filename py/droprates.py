@@ -50,6 +50,7 @@ HARVEST_DROPS = {
     "Runestone 20",
     "Piece of Heart",
     "Winged Amulet",
+    "Egg 03",
 }
 
 # When the Iron Depot drop change went live.

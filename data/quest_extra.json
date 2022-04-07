@@ -5787,8 +5787,16 @@
   },
   {
     "id": "799",
-    "next": null,
+    "next": "800",
     "prev": "798",
+    "questlines": [
+      "A Towering Investment"
+    ]
+  },
+  {
+    "id": "800",
+    "next": null,
+    "prev": "799",
     "questlines": [
       "A Towering Investment"
     ]

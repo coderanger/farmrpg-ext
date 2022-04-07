@@ -637,6 +637,10 @@
   },
   {
     "dropMode": "harvests",
+    "id": "523"
+  },
+  {
+    "dropMode": "harvests",
     "id": "161"
   },
   {
@@ -690,6 +694,14 @@
   {
     "dropMode": "explores",
     "id": "155"
+  },
+  {
+    "dropMode": "harvests",
+    "id": "262"
+  },
+  {
+    "dropMode": "harvests",
+    "id": "230"
   },
   {
     "dropMode": "explores",

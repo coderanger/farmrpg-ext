@@ -24667,6 +24667,30 @@
     "requiresExploring": 60
   },
   {
+    "firstSeen": 1649091509607,
+    "itemRequests": [
+      {
+        "id": "493",
+        "quantity": 17
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "469",
+        "quantity": 1
+      }
+    ],
+    "id": "800",
+    "name": "A Towering Investment XVIII",
+    "from": "Cecil",
+    "fromImage": "/img/items/a_027.png",
+    "text": "ROOMBA’s inspection of the tower is complete! The tower looks to be functional and safe, and surprisingly well preserved on the inside.\n\nCecil also went ahead and performed his own inspection of the tower, and gathered his share of the treasure. He hopes you do not mind him proceeding without you.\n\nCecil thinks the tower is now ready for your use. In fact, as thanks for your enormous and incredible investment, Cecil would like to turn over the stewardship of the tower to you. He will retain a small role in the management of the tower, but he will leave its normal use, exploration, and operations to you.",
+    "requiresFarming": 92,
+    "requiresCrafting": 92,
+    "requiresFishing": 92,
+    "requiresExploring": 92
+  },
+  {
     "firstSeen": 1647839890471,
     "itemRequests": [],
     "itemRewards": [

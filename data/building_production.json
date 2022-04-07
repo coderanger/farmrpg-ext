@@ -229,5 +229,12 @@
         "item": "197",
         "frequency": "Any Time",
         "sort": 1
+    },
+    {
+        "building": "Community Center",
+        "image": "/img/items/comm.png",
+        "item": "530",
+        "frequency": "April 2nd, 2022",
+        "sort": 1
     }
 ]

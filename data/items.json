@@ -2174,6 +2174,14 @@
     "manualFishingOnly": true
   },
   {
+    "firstSeen": 1649189265164,
+    "id": "533",
+    "name": "Gold Egg",
+    "image": "/img/items/egg_gold.png",
+    "event": true,
+    "rarity": "Super Rare"
+  },
+  {
     "name": "Gold Eggplant",
     "id": "262",
     "image": "/img/items/geggplant.png?1",
@@ -2619,6 +2627,13 @@
     "event": true,
     "xp": 2500,
     "rarity": "Uncommon"
+  },
+  {
+    "firstSeen": 1649048182660,
+    "id": "532",
+    "name": "Growth Medallion I",
+    "image": "/img/items/ForestIcons_32_t.png",
+    "rarity": "Super Rare"
   },
   {
     "name": "Grubs",
@@ -5830,7 +5845,9 @@
     "id": "71",
     "image": "/img/items/8249.png",
     "sellPrice": 22500,
-    "xp": 10080
+    "xp": 10080,
+    "growthTime": 86400,
+    "mastery": true
   },
   {
     "name": "Wheat Seeds",
