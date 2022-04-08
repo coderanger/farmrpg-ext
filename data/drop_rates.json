@@ -86,9 +86,9 @@
   },
   {
     "drop_rates": {
-      "Egg 03": 4124.5,
-      "Gold Carrot": 235.68571428571428,
-      "Runestone 01": 134.130081300813
+      "Egg 03": 3786.8,
+      "Gold Carrot": 208.06593406593407,
+      "Runestone 01": 131.48611111111111
     },
     "iron_depot_rates": {},
     "location": "Carrot Seeds",
@@ -158,28 +158,28 @@
   },
   {
     "drop_rates": {
-      "Ancient Coin": 186.61168052601045,
-      "Diamond": 40207.041666666664,
-      "Emberstone": 29.00330618256139,
-      "Glass Orb": 20.932536497537907,
-      "Large Chest 01": 14620.742424242424,
-      "Magicite": 1764.1115173674589,
-      "Moonstone": 783.2540584415584,
-      "Prism Shard": 59.20781691005031,
-      "Runestone 17": 8177.703389830508,
-      "Stone": 4.437128694660561
+      "Ancient Coin": 186.61728872558498,
+      "Diamond": 40208.25,
+      "Emberstone": 29.004177812509393,
+      "Glass Orb": 20.932257434762803,
+      "Large Chest 01": 14621.181818181818,
+      "Magicite": 1764.164533820841,
+      "Moonstone": 783.2775974025974,
+      "Prism Shard": 59.20959626948092,
+      "Runestone 17": 8177.949152542373,
+      "Stone": 4.4370988210626985
     },
     "iron_depot_rates": {
-      "Ancient Coin": 186.61168052601045,
-      "Diamond": 40207.041666666664,
-      "Emberstone": 29.00330618256139,
-      "Glass Orb": 20.932536497537907,
-      "Large Chest 01": 14620.742424242424,
-      "Magicite": 1764.1115173674589,
-      "Moonstone": 783.2540584415584,
-      "Prism Shard": 59.20781691005031,
-      "Runestone 17": 8177.703389830508,
-      "Stone": 4.437128694660561
+      "Ancient Coin": 186.61728872558498,
+      "Diamond": 40208.25,
+      "Emberstone": 29.004177812509393,
+      "Glass Orb": 20.932257434762803,
+      "Large Chest 01": 14621.181818181818,
+      "Magicite": 1764.164533820841,
+      "Moonstone": 783.2775974025974,
+      "Prism Shard": 59.20959626948092,
+      "Runestone 17": 8177.949152542373,
+      "Stone": 4.4370988210626985
     },
     "location": "Ember Lagoon",
     "manual_fish_rates": {},

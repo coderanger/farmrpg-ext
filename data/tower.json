@@ -1,0 +1,1082 @@
+[
+  {
+    "itemName": "Growth Medallion I",
+    "level": 60,
+    "order": 1,
+    "quantity": 1
+  },
+  {
+    "itemName": "Beet",
+    "level": 60,
+    "order": 2,
+    "quantity": 150
+  },
+  {
+    "itemName": "Silver",
+    "level": 60,
+    "order": 3,
+    "quantity": 60000000
+  },
+  {
+    "itemName": "Large Net",
+    "level": 59,
+    "order": 1,
+    "quantity": 150
+  },
+  {
+    "itemName": "Apple Cider",
+    "level": 59,
+    "order": 2,
+    "quantity": 150
+  },
+  {
+    "itemName": "Arnold Palmer",
+    "level": 59,
+    "order": 3,
+    "quantity": 150
+  },
+  {
+    "itemName": "Grab Bag 07",
+    "level": 58,
+    "order": 1,
+    "quantity": 150
+  },
+  {
+    "itemName": "Green Shield",
+    "level": 58,
+    "order": 2,
+    "quantity": 150
+  },
+  {
+    "itemName": "Herbs",
+    "level": 58,
+    "order": 3,
+    "quantity": 150
+  },
+  {
+    "itemName": "Fancy Guitar",
+    "level": 57,
+    "order": 1,
+    "quantity": 150
+  },
+  {
+    "itemName": "Feed",
+    "level": 57,
+    "order": 2,
+    "quantity": 150
+  },
+  {
+    "itemName": "Flour",
+    "level": 57,
+    "order": 3,
+    "quantity": 150
+  },
+  {
+    "itemName": "Ruby",
+    "level": 56,
+    "order": 1,
+    "quantity": 150
+  },
+  {
+    "itemName": "Emerald",
+    "level": 56,
+    "order": 2,
+    "quantity": 150
+  },
+  {
+    "itemName": "Jade",
+    "level": 56,
+    "order": 3,
+    "quantity": 150
+  },
+  {
+    "itemName": "Barracuda",
+    "level": 55,
+    "order": 1,
+    "quantity": 150
+  },
+  {
+    "itemName": "Plumbfish",
+    "level": 55,
+    "order": 2,
+    "quantity": 150
+  },
+  {
+    "itemName": "Octopus",
+    "level": 55,
+    "order": 3,
+    "quantity": 150
+  },
+  {
+    "itemName": "Gold Leaf",
+    "level": 54,
+    "order": 1,
+    "quantity": 150
+  },
+  {
+    "itemName": "Gold Feather",
+    "level": 54,
+    "order": 2,
+    "quantity": 150
+  },
+  {
+    "itemName": "Gold Peas",
+    "level": 54,
+    "order": 3,
+    "quantity": 150
+  },
+  {
+    "itemName": "Runestone 16",
+    "level": 53,
+    "order": 1,
+    "quantity": 150
+  },
+  {
+    "itemName": "Runestone 17",
+    "level": 53,
+    "order": 2,
+    "quantity": 150
+  },
+  {
+    "itemName": "Runestone 18",
+    "level": 53,
+    "order": 3,
+    "quantity": 150
+  },
+  {
+    "itemName": "Fancy Drum",
+    "level": 52,
+    "order": 1,
+    "quantity": 150
+  },
+  {
+    "itemName": "Oak",
+    "level": 52,
+    "order": 2,
+    "quantity": 150
+  },
+  {
+    "itemName": "Unpolished Jade",
+    "level": 52,
+    "order": 3,
+    "quantity": 150
+  },
+  {
+    "itemName": "Ancient Coin",
+    "level": 51,
+    "order": 1,
+    "quantity": 150
+  },
+  {
+    "itemName": "Orange Juice",
+    "level": 51,
+    "order": 2,
+    "quantity": 150
+  },
+  {
+    "itemName": "Gold",
+    "level": 51,
+    "order": 3,
+    "quantity": 150
+  },
+  {
+    "itemName": "Runecube",
+    "level": 50,
+    "order": 1,
+    "quantity": 1
+  },
+  {
+    "itemName": "Arnold Palmer",
+    "level": 50,
+    "order": 2,
+    "quantity": 140
+  },
+  {
+    "itemName": "Silver",
+    "level": 50,
+    "order": 3,
+    "quantity": 50000000
+  },
+  {
+    "itemName": "Goldfish",
+    "level": 49,
+    "order": 1,
+    "quantity": 140
+  },
+  {
+    "itemName": "Spiked Shell",
+    "level": 49,
+    "order": 2,
+    "quantity": 140
+  },
+  {
+    "itemName": "Skull Coin",
+    "level": 49,
+    "order": 3,
+    "quantity": 140
+  },
+  {
+    "itemName": "Lava Sphere",
+    "level": 48,
+    "order": 1,
+    "quantity": 140
+  },
+  {
+    "itemName": "Inferno Sphere",
+    "level": 48,
+    "order": 2,
+    "quantity": 140
+  },
+  {
+    "itemName": "Large Clam Shell",
+    "level": 48,
+    "order": 3,
+    "quantity": 140
+  },
+  {
+    "itemName": "Goldray",
+    "level": 47,
+    "order": 1,
+    "quantity": 140
+  },
+  {
+    "itemName": "Goldgill",
+    "level": 47,
+    "order": 2,
+    "quantity": 140
+  },
+  {
+    "itemName": "Gold Crab",
+    "level": 47,
+    "order": 3,
+    "quantity": 140
+  },
+  {
+    "itemName": "Diamond",
+    "level": 46,
+    "order": 1,
+    "quantity": 140
+  },
+  {
+    "itemName": "Green Cloak",
+    "level": 46,
+    "order": 2,
+    "quantity": 140
+  },
+  {
+    "itemName": "Broccoli",
+    "level": 46,
+    "order": 3,
+    "quantity": 140
+  },
+  {
+    "itemName": "Small Chest 02",
+    "level": 45,
+    "order": 1,
+    "quantity": 140
+  },
+  {
+    "itemName": "Medium Chest 02",
+    "level": 45,
+    "order": 2,
+    "quantity": 140
+  },
+  {
+    "itemName": "Large Chest 02",
+    "level": 45,
+    "order": 3,
+    "quantity": 140
+  },
+  {
+    "itemName": "Grab Bag 04",
+    "level": 44,
+    "order": 1,
+    "quantity": 140
+  },
+  {
+    "itemName": "Grab Bag 05",
+    "level": 44,
+    "order": 2,
+    "quantity": 140
+  },
+  {
+    "itemName": "Grab Bag 06",
+    "level": 44,
+    "order": 3,
+    "quantity": 140
+  },
+  {
+    "itemName": "Runestone 13",
+    "level": 43,
+    "order": 1,
+    "quantity": 140
+  },
+  {
+    "itemName": "Runestone 14",
+    "level": 43,
+    "order": 2,
+    "quantity": 140
+  },
+  {
+    "itemName": "Runestone 15",
+    "level": 43,
+    "order": 3,
+    "quantity": 140
+  },
+  {
+    "itemName": "Slimestone",
+    "level": 42,
+    "order": 1,
+    "quantity": 140
+  },
+  {
+    "itemName": "Sea Dragon",
+    "level": 42,
+    "order": 2,
+    "quantity": 140
+  },
+  {
+    "itemName": "Ruby Scorpion",
+    "level": 42,
+    "order": 3,
+    "quantity": 140
+  },
+  {
+    "itemName": "Apple",
+    "level": 41,
+    "order": 1,
+    "quantity": 140
+  },
+  {
+    "itemName": "Orange",
+    "level": 41,
+    "order": 2,
+    "quantity": 140
+  },
+  {
+    "itemName": "Lemon",
+    "level": 41,
+    "order": 3,
+    "quantity": 140
+  },
+  {
+    "itemName": "Stones of Gallodor",
+    "level": 40,
+    "order": 1,
+    "quantity": 1
+  },
+  {
+    "itemName": "Iced Tea",
+    "level": 40,
+    "order": 2,
+    "quantity": 130
+  },
+  {
+    "itemName": "Silver",
+    "level": 40,
+    "order": 3,
+    "quantity": 40000000
+  },
+  {
+    "itemName": "Cheese",
+    "level": 39,
+    "order": 1,
+    "quantity": 130
+  },
+  {
+    "itemName": "Gouda",
+    "level": 39,
+    "order": 2,
+    "quantity": 130
+  },
+  {
+    "itemName": "Grapes",
+    "level": 39,
+    "order": 3,
+    "quantity": 130
+  },
+  {
+    "itemName": "Steel",
+    "level": 38,
+    "order": 1,
+    "quantity": 130
+  },
+  {
+    "itemName": "Steel Wire",
+    "level": 38,
+    "order": 2,
+    "quantity": 130
+  },
+  {
+    "itemName": "Glass Bottle",
+    "level": 38,
+    "order": 3,
+    "quantity": 130
+  },
+  {
+    "itemName": "Corn",
+    "level": 37,
+    "order": 1,
+    "quantity": 130
+  },
+  {
+    "itemName": "Potato",
+    "level": 37,
+    "order": 2,
+    "quantity": 130
+  },
+  {
+    "itemName": "Wheat",
+    "level": 37,
+    "order": 3,
+    "quantity": 130
+  },
+  {
+    "itemName": "Pearl Necklace",
+    "level": 36,
+    "order": 1,
+    "quantity": 130
+  },
+  {
+    "itemName": "Shimmer Ring",
+    "level": 36,
+    "order": 2,
+    "quantity": 130
+  },
+  {
+    "itemName": "Lemon Quartz Ring",
+    "level": 36,
+    "order": 3,
+    "quantity": 130
+  },
+  {
+    "itemName": "Flarefin",
+    "level": 35,
+    "order": 1,
+    "quantity": 130
+  },
+  {
+    "itemName": "Redgill",
+    "level": 35,
+    "order": 2,
+    "quantity": 130
+  },
+  {
+    "itemName": "Flamejack",
+    "level": 35,
+    "order": 3,
+    "quantity": 130
+  },
+  {
+    "itemName": "Gold Carrot",
+    "level": 34,
+    "order": 1,
+    "quantity": 130
+  },
+  {
+    "itemName": "Gold Cucumber",
+    "level": 34,
+    "order": 2,
+    "quantity": 130
+  },
+  {
+    "itemName": "Gold Eggplant",
+    "level": 34,
+    "order": 3,
+    "quantity": 130
+  },
+  {
+    "itemName": "Runestone 10",
+    "level": 33,
+    "order": 1,
+    "quantity": 130
+  },
+  {
+    "itemName": "Runestone 11",
+    "level": 33,
+    "order": 2,
+    "quantity": 130
+  },
+  {
+    "itemName": "Runestone 12",
+    "level": 33,
+    "order": 3,
+    "quantity": 130
+  },
+  {
+    "itemName": "Yarn",
+    "level": 32,
+    "order": 1,
+    "quantity": 130
+  },
+  {
+    "itemName": "Crab Claw",
+    "level": 32,
+    "order": 2,
+    "quantity": 130
+  },
+  {
+    "itemName": "Glass Orb",
+    "level": 32,
+    "order": 3,
+    "quantity": 130
+  },
+  {
+    "itemName": "Wine",
+    "level": 31,
+    "order": 1,
+    "quantity": 130
+  },
+  {
+    "itemName": "Apple Cider",
+    "level": 31,
+    "order": 2,
+    "quantity": 130
+  },
+  {
+    "itemName": "Arnold Palmer",
+    "level": 31,
+    "order": 3,
+    "quantity": 130
+  },
+  {
+    "itemName": "Odthorin's Charm",
+    "level": 30,
+    "order": 1,
+    "quantity": 1
+  },
+  {
+    "itemName": "Fishing Net",
+    "level": 30,
+    "order": 2,
+    "quantity": 120
+  },
+  {
+    "itemName": "Silver",
+    "level": 30,
+    "order": 3,
+    "quantity": 30000000
+  },
+  {
+    "itemName": "Cyclops Spider",
+    "level": 29,
+    "order": 1,
+    "quantity": 120
+  },
+  {
+    "itemName": "Frog",
+    "level": 29,
+    "order": 2,
+    "quantity": 120
+  },
+  {
+    "itemName": "Water Lily",
+    "level": 29,
+    "order": 3,
+    "quantity": 120
+  },
+  {
+    "itemName": "Lantern",
+    "level": 28,
+    "order": 1,
+    "quantity": 120
+  },
+  {
+    "itemName": "Garnet Ring",
+    "level": 28,
+    "order": 2,
+    "quantity": 120
+  },
+  {
+    "itemName": "Hourglass",
+    "level": 28,
+    "order": 3,
+    "quantity": 120
+  },
+  {
+    "itemName": "Small Chest 01",
+    "level": 27,
+    "order": 1,
+    "quantity": 120
+  },
+  {
+    "itemName": "Medium Chest 01",
+    "level": 27,
+    "order": 2,
+    "quantity": 120
+  },
+  {
+    "itemName": "Large Chest 01",
+    "level": 27,
+    "order": 3,
+    "quantity": 120
+  },
+  {
+    "itemName": "Lava Sphere",
+    "level": 26,
+    "order": 1,
+    "quantity": 120
+  },
+  {
+    "itemName": "Inferno Sphere",
+    "level": 26,
+    "order": 2,
+    "quantity": 120
+  },
+  {
+    "itemName": "Sturdy Bow",
+    "level": 26,
+    "order": 3,
+    "quantity": 120
+  },
+  {
+    "itemName": "Large Clam Shell",
+    "level": 25,
+    "order": 1,
+    "quantity": 120
+  },
+  {
+    "itemName": "Ruby Coral",
+    "level": 25,
+    "order": 2,
+    "quantity": 120
+  },
+  {
+    "itemName": "Serpent Eel",
+    "level": 25,
+    "order": 3,
+    "quantity": 120
+  },
+  {
+    "itemName": "Cotton",
+    "level": 24,
+    "order": 1,
+    "quantity": 120
+  },
+  {
+    "itemName": "Beet",
+    "level": 24,
+    "order": 2,
+    "quantity": 120
+  },
+  {
+    "itemName": "Sunflower",
+    "level": 24,
+    "order": 3,
+    "quantity": 120
+  },
+  {
+    "itemName": "Runestone 07",
+    "level": 23,
+    "order": 1,
+    "quantity": 120
+  },
+  {
+    "itemName": "Runestone 08",
+    "level": 23,
+    "order": 2,
+    "quantity": 120
+  },
+  {
+    "itemName": "Runestone 09",
+    "level": 23,
+    "order": 3,
+    "quantity": 120
+  },
+  {
+    "itemName": "Grab Bag 01",
+    "level": 22,
+    "order": 1,
+    "quantity": 120
+  },
+  {
+    "itemName": "Grab Bag 02",
+    "level": 22,
+    "order": 2,
+    "quantity": 120
+  },
+  {
+    "itemName": "Grab Bag 03",
+    "level": 22,
+    "order": 3,
+    "quantity": 120
+  },
+  {
+    "itemName": "Orange Juice",
+    "level": 21,
+    "order": 1,
+    "quantity": 120
+  },
+  {
+    "itemName": "Fishing Net",
+    "level": 21,
+    "order": 2,
+    "quantity": 120
+  },
+  {
+    "itemName": "Ancient Coin",
+    "level": 21,
+    "order": 3,
+    "quantity": 120
+  },
+  {
+    "itemName": "Bahltruvian Scales",
+    "level": 20,
+    "order": 1,
+    "quantity": 1
+  },
+  {
+    "itemName": "Lemonade",
+    "level": 20,
+    "order": 2,
+    "quantity": 110
+  },
+  {
+    "itemName": "Silver",
+    "level": 20,
+    "order": 3,
+    "quantity": 20000000
+  },
+  {
+    "itemName": "Bacon",
+    "level": 19,
+    "order": 1,
+    "quantity": 110
+  },
+  {
+    "itemName": "Steak",
+    "level": 19,
+    "order": 2,
+    "quantity": 110
+  },
+  {
+    "itemName": "Steak Kabob",
+    "level": 19,
+    "order": 3,
+    "quantity": 110
+  },
+  {
+    "itemName": "Small Spring",
+    "level": 18,
+    "order": 1,
+    "quantity": 110
+  },
+  {
+    "itemName": "Small Screw",
+    "level": 18,
+    "order": 2,
+    "quantity": 110
+  },
+  {
+    "itemName": "Small Gear",
+    "level": 18,
+    "order": 3,
+    "quantity": 110
+  },
+  {
+    "itemName": "Treasure Key",
+    "level": 17,
+    "order": 1,
+    "quantity": 110
+  },
+  {
+    "itemName": "Square Key",
+    "level": 17,
+    "order": 2,
+    "quantity": 110
+  },
+  {
+    "itemName": "Small Key",
+    "level": 17,
+    "order": 3,
+    "quantity": 110
+  },
+  {
+    "itemName": "Amethyst Necklace",
+    "level": 16,
+    "order": 1,
+    "quantity": 110
+  },
+  {
+    "itemName": "Jade Charm",
+    "level": 16,
+    "order": 2,
+    "quantity": 110
+  },
+  {
+    "itemName": "Mystic Ring",
+    "level": 16,
+    "order": 3,
+    "quantity": 110
+  },
+  {
+    "itemName": "Blue Sea Bass",
+    "level": 15,
+    "order": 1,
+    "quantity": 110
+  },
+  {
+    "itemName": "Bone Fish",
+    "level": 15,
+    "order": 2,
+    "quantity": 110
+  },
+  {
+    "itemName": "Fluorifish",
+    "level": 15,
+    "order": 3,
+    "quantity": 110
+  },
+  {
+    "itemName": "Tomato",
+    "level": 14,
+    "order": 1,
+    "quantity": 110
+  },
+  {
+    "itemName": "Cabbage",
+    "level": 14,
+    "order": 2,
+    "quantity": 110
+  },
+  {
+    "itemName": "Watermelon",
+    "level": 14,
+    "order": 3,
+    "quantity": 110
+  },
+  {
+    "itemName": "Runestone 04",
+    "level": 13,
+    "order": 1,
+    "quantity": 110
+  },
+  {
+    "itemName": "Runestone 05",
+    "level": 13,
+    "order": 2,
+    "quantity": 110
+  },
+  {
+    "itemName": "Runestone 06",
+    "level": 13,
+    "order": 3,
+    "quantity": 110
+  },
+  {
+    "itemName": "Honey",
+    "level": 12,
+    "order": 1,
+    "quantity": 110
+  },
+  {
+    "itemName": "Pine Tree",
+    "level": 12,
+    "order": 2,
+    "quantity": 110
+  },
+  {
+    "itemName": "Carbon Sphere",
+    "level": 12,
+    "order": 3,
+    "quantity": 110
+  },
+  {
+    "itemName": "Apple",
+    "level": 11,
+    "order": 1,
+    "quantity": 110
+  },
+  {
+    "itemName": "Grapes",
+    "level": 11,
+    "order": 2,
+    "quantity": 110
+  },
+  {
+    "itemName": "Tea Leaves",
+    "level": 11,
+    "order": 3,
+    "quantity": 110
+  },
+  {
+    "itemName": "Diary of O'Dynn",
+    "level": 10,
+    "order": 1,
+    "quantity": 1
+  },
+  {
+    "itemName": "Orange Juice",
+    "level": 10,
+    "order": 2,
+    "quantity": 100
+  },
+  {
+    "itemName": "Silver",
+    "level": 10,
+    "order": 3,
+    "quantity": 10000000
+  },
+  {
+    "itemName": "Grasshopper",
+    "level": 9,
+    "order": 1,
+    "quantity": 100
+  },
+  {
+    "itemName": "Orange Gecko",
+    "level": 9,
+    "order": 2,
+    "quantity": 100
+  },
+  {
+    "itemName": "Dragonfly",
+    "level": 9,
+    "order": 3,
+    "quantity": 100
+  },
+  {
+    "itemName": "Fancy Guitar",
+    "level": 8,
+    "order": 1,
+    "quantity": 100
+  },
+  {
+    "itemName": "Chum",
+    "level": 8,
+    "order": 2,
+    "quantity": 100
+  },
+  {
+    "itemName": "Salt",
+    "level": 8,
+    "order": 3,
+    "quantity": 100
+  },
+  {
+    "itemName": "Beet",
+    "level": 7,
+    "order": 1,
+    "quantity": 100
+  },
+  {
+    "itemName": "Sunflower",
+    "level": 7,
+    "order": 2,
+    "quantity": 100
+  },
+  {
+    "itemName": "Cotton",
+    "level": 7,
+    "order": 3,
+    "quantity": 100
+  },
+  {
+    "itemName": "Jade",
+    "level": 6,
+    "order": 1,
+    "quantity": 100
+  },
+  {
+    "itemName": "Garnet",
+    "level": 6,
+    "order": 2,
+    "quantity": 100
+  },
+  {
+    "itemName": "Emerald",
+    "level": 6,
+    "order": 3,
+    "quantity": 100
+  },
+  {
+    "itemName": "Blue Tiger Fish",
+    "level": 5,
+    "order": 1,
+    "quantity": 100
+  },
+  {
+    "itemName": "Flarefin",
+    "level": 5,
+    "order": 2,
+    "quantity": 100
+  },
+  {
+    "itemName": "Plumbfish",
+    "level": 5,
+    "order": 3,
+    "quantity": 100
+  },
+  {
+    "itemName": "Fishing Net",
+    "level": 4,
+    "order": 1,
+    "quantity": 100
+  },
+  {
+    "itemName": "Cotton",
+    "level": 4,
+    "order": 2,
+    "quantity": 100
+  },
+  {
+    "itemName": "Gold Peppers",
+    "level": 4,
+    "order": 3,
+    "quantity": 100
+  },
+  {
+    "itemName": "Runestone 01",
+    "level": 3,
+    "order": 1,
+    "quantity": 100
+  },
+  {
+    "itemName": "Runestone 02",
+    "level": 3,
+    "order": 2,
+    "quantity": 100
+  },
+  {
+    "itemName": "Runestone 03",
+    "level": 3,
+    "order": 3,
+    "quantity": 100
+  },
+  {
+    "itemName": "Apple Cider",
+    "level": 2,
+    "order": 1,
+    "quantity": 100
+  },
+  {
+    "itemName": "Ancient Coin",
+    "level": 2,
+    "order": 2,
+    "quantity": 100
+  },
+  {
+    "itemName": "Silver",
+    "level": 2,
+    "order": 3,
+    "quantity": 1000000
+  },
+  {
+    "itemName": "Apple",
+    "level": 1,
+    "order": 1,
+    "quantity": 100
+  },
+  {
+    "itemName": "Orange Juice",
+    "level": 1,
+    "order": 2,
+    "quantity": 100
+  },
+  {
+    "itemName": "Gold",
+    "level": 1,
+    "order": 3,
+    "quantity": 100
+  }
+]

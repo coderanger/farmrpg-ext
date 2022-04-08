@@ -596,6 +596,36 @@ def gen_location_extra():
     return sorted(loc_extra, key=lambda l: l["id"])
 
 
+def gen_tower():
+    tower_data_path = Path(__file__) / ".." / ".." / "data" / "tower.txt"
+    tower_data = tower_data_path.resolve().open("r").read()
+    tower_re = re.compile(
+        r"""
+^Level
+(?P<level>\d+)
+You got:$
+(?P<item1>[^(]+) \(x(?P<quantity1>[0-9,]+)\)
+(?P<item2>[^(]+) \(x(?P<quantity2>[0-9,]+)\)
+(?P<item3>[^(]+) \(x(?P<quantity3>[0-9,]+)\)$
+    """.strip(),
+        re.MULTILINE,
+    )
+    tower_items = []
+    for md in tower_re.finditer(tower_data):
+        level = int(md["level"])
+        for i in range(1, 4):
+            tower_items.append(
+                {
+                    "level": level,
+                    "order": i,
+                    "itemName": md[f"item{i}"],
+                    "quantity": int(md[f"quantity{i}"].replace(",", "")),
+                }
+            )
+
+    return tower_items
+
+
 GEN_FIXTURES = {
     "drop_rates": gen_drop_rates,
     "drop_rates_gql": gen_drop_rates_gql,
@@ -606,6 +636,7 @@ GEN_FIXTURES = {
     "locksmith_boxes": gen_locksmith_boxes,
     "locksmith_items": gen_locksmith_items,
     "location_extra": gen_location_extra,
+    "tower": gen_tower,
 }
 
 

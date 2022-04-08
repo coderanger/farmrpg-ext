@@ -165,10 +165,10 @@
     "baseDropRate": 0.3333333333333333,
     "id": "9",
     "name": "Ember Lagoon",
-    "silverPerHit": 99.41865075458382,
-    "silverPerHitIronDepot": 99.41865075458382,
-    "xpPerHit": 53.447339759101084,
-    "xpPerHitIronDepot": 53.447339759101084
+    "silverPerHit": 99.41579568040558,
+    "silverPerHitIronDepot": 99.41579568040558,
+    "xpPerHit": 53.44643823096006,
+    "xpPerHitIronDepot": 53.44643823096006
   },
   {
     "baseDropRate": null,
