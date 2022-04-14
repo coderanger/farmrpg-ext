@@ -22,6 +22,7 @@ import { setupVineyard } from './lib/vineyard.js'
 import { setupQuests } from './lib/quests.js'
 import { setupEmblems } from './lib/emblems.js'
 import { setupCommunityCenter } from './lib/communityCenter.js'
+import { setupBorgens } from './lib/borgen.js'
 
 /**
  * @typedef {{
@@ -185,7 +186,7 @@ const main = async () => {
     }
 
     // Initialize the database.
-    globalState.db = await idb.openDB("farmrpg-ext", 5, {
+    globalState.db = await idb.openDB("farmrpg-ext", 6, {
         upgrade(db, oldVer) {
             switch(oldVer) {
             case 0:
@@ -211,6 +212,9 @@ const main = async () => {
                 console.log("Running DB migrations for version 5")
                 db.createObjectStore("communityCenter", { keyPath: "date" })
                 db.createObjectStore("emblems", { keyPath: "id" })
+            case 5:
+                console.log("Running DB migrations for version 6")
+                db.createObjectStore("borgens", { keyPath: "date" })
             }
         },
     })
@@ -268,6 +272,7 @@ const main = async () => {
     setupQuests(globalState)
     setupEmblems(globalState)
     setupCommunityCenter(globalState)
+    setupBorgens(globalState)
 
     // Kick off some initial data population.
     renderSidebarFromGlobalState()
