@@ -26311,6 +26311,56 @@
     "availableTo": "Apr 30"
   },
   {
+    "firstSeen": 1649907768902,
+    "itemRequests": [
+      {
+        "id": "518",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "136",
+        "quantity": 10
+      },
+      {
+        "id": "193",
+        "quantity": 50
+      },
+      {
+        "id": "479",
+        "quantity": 10
+      },
+      {
+        "id": "86",
+        "quantity": 50
+      },
+      {
+        "id": "115",
+        "quantity": 10
+      },
+      {
+        "id": "305",
+        "quantity": 10
+      },
+      {
+        "id": "378",
+        "quantity": 10
+      }
+    ],
+    "id": "839",
+    "name": "Eggstremely Valuable IX",
+    "from": "Vincent",
+    "fromImage": "/img/items/a_047.png",
+    "text": "Vincent is prepared to now accept a smaller percentage of the profit made from selling the eggs. He thinks his share should be equivalent to the percentage of the eggs he finds plus 5%, for coming up with the idea. He still hasn’t found any eggs, but he’s still searching.\n\nHow is your search going?",
+    "requiresFarming": 5,
+    "requiresCrafting": 5,
+    "requiresFishing": 5,
+    "requiresExploring": 5,
+    "availableFrom": "Apr 13",
+    "availableTo": "Apr 30"
+  },
+  {
     "firstSeen": 1646727904341,
     "itemRequests": [
       {
