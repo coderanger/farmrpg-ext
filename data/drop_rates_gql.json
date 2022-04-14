@@ -216,39 +216,39 @@
     "rate_type": "normal"
   },
   {
-    "drops": 5,
-    "hits": 18934,
+    "drops": 7,
+    "hits": 25582,
     "item": "Egg 03",
     "location": "Carrot Seeds",
     "mode": "harvests",
-    "rate": 3786.8,
+    "rate": 3654.5714285714284,
     "rate_type": "normal"
   },
   {
-    "drops": 91,
-    "hits": 18934,
+    "drops": 111,
+    "hits": 25582,
     "item": "Gold Carrot",
     "location": "Carrot Seeds",
     "mode": "harvests",
-    "rate": 208.06593406593407,
+    "rate": 230.46846846846847,
     "rate_type": "normal"
   },
   {
-    "drops": 144,
-    "hits": 18934,
+    "drops": 193,
+    "hits": 25582,
     "item": "Runestone 01",
     "location": "Carrot Seeds",
     "mode": "harvests",
-    "rate": 131.48611111111111,
+    "rate": 132.54922279792746,
     "rate_type": "normal"
   },
   {
-    "drops": 11,
-    "hits": 11320,
+    "drops": 12,
+    "hits": 11644,
     "item": "Runestone 11",
     "location": "Corn Seeds",
     "mode": "harvests",
-    "rate": 1029.090909090909,
+    "rate": 970.3333333333334,
     "rate_type": "normal"
   },
   {
@@ -325,11 +325,20 @@
   },
   {
     "drops": 1,
-    "hits": 504,
+    "hits": 648,
+    "item": "Gold Cucumber",
+    "location": "Cucumber Seeds",
+    "mode": "harvests",
+    "rate": 648.0,
+    "rate_type": "normal"
+  },
+  {
+    "drops": 1,
+    "hits": 648,
     "item": "Runestone 06",
     "location": "Cucumber Seeds",
     "mode": "harvests",
-    "rate": 504.0,
+    "rate": 648.0,
     "rate_type": "normal"
   },
   {
@@ -1144,11 +1153,11 @@
   },
   {
     "drops": 5,
-    "hits": 3312,
+    "hits": 3528,
     "item": "Runestone 10",
     "location": "Leek Seeds",
     "mode": "harvests",
-    "rate": 662.4,
+    "rate": 705.6,
     "rate_type": "normal"
   },
   {
@@ -1900,11 +1909,11 @@
   },
   {
     "drops": 1,
-    "hits": 1116,
+    "hits": 1152,
     "item": "Piece of Heart",
     "location": "Watermelon Seeds",
     "mode": "harvests",
-    "rate": 1116.0,
+    "rate": 1152.0,
     "rate_type": "normal"
   },
   {
@@ -3537,93 +3546,93 @@
     "rate_type": "manual_fishing"
   },
   {
-    "drops": 1299,
-    "hits": 6106,
+    "drops": 1395,
+    "hits": 6567,
     "item": "Crappie",
     "location": "Lake Tempest",
     "mode": "fishes",
-    "rate": 4.7005388760585065,
+    "rate": 4.7075268817204305,
     "rate_type": "manual_fishing"
   },
   {
-    "drops": 1252,
-    "hits": 6106,
+    "drops": 1336,
+    "hits": 6567,
     "item": "Drum",
     "location": "Lake Tempest",
     "mode": "fishes",
-    "rate": 4.876996805111821,
+    "rate": 4.915419161676646,
     "rate_type": "manual_fishing"
   },
   {
-    "drops": 126,
-    "hits": 6106,
+    "drops": 131,
+    "hits": 6567,
     "item": "Fish Bones",
     "location": "Lake Tempest",
     "mode": "fishes",
-    "rate": 48.46031746031746,
+    "rate": 50.12977099236641,
     "rate_type": "manual_fishing"
   },
   {
-    "drops": 106,
-    "hits": 6106,
+    "drops": 115,
+    "hits": 6567,
     "item": "Flier",
     "location": "Lake Tempest",
     "mode": "fishes",
-    "rate": 57.60377358490566,
+    "rate": 57.10434782608696,
     "rate_type": "manual_fishing"
   },
   {
-    "drops": 292,
-    "hits": 6106,
+    "drops": 312,
+    "hits": 6567,
     "item": "Globber",
     "location": "Lake Tempest",
     "mode": "fishes",
-    "rate": 20.910958904109588,
+    "rate": 21.048076923076923,
     "rate_type": "manual_fishing"
   },
   {
-    "drops": 60,
-    "hits": 6106,
+    "drops": 62,
+    "hits": 6567,
     "item": "Gold Flier",
     "location": "Lake Tempest",
     "mode": "fishes",
-    "rate": 101.76666666666667,
+    "rate": 105.91935483870968,
     "rate_type": "manual_fishing"
   },
   {
-    "drops": 1253,
-    "hits": 6106,
+    "drops": 1356,
+    "hits": 6567,
     "item": "Largemouth Bass",
     "location": "Lake Tempest",
     "mode": "fishes",
-    "rate": 4.8731045490822025,
+    "rate": 4.842920353982301,
     "rate_type": "manual_fishing"
   },
   {
     "drops": 2,
-    "hits": 6106,
+    "hits": 6567,
     "item": "Runestone 15",
     "location": "Lake Tempest",
     "mode": "fishes",
-    "rate": 3053.0,
+    "rate": 3283.5,
     "rate_type": "manual_fishing"
   },
   {
-    "drops": 545,
-    "hits": 6106,
+    "drops": 593,
+    "hits": 6567,
     "item": "Trout",
     "location": "Lake Tempest",
     "mode": "fishes",
-    "rate": 11.203669724770641,
+    "rate": 11.074198988195615,
     "rate_type": "manual_fishing"
   },
   {
-    "drops": 1171,
-    "hits": 6106,
+    "drops": 1265,
+    "hits": 6567,
     "item": "Yellow Perch",
     "location": "Lake Tempest",
     "mode": "fishes",
-    "rate": 5.214346712211785,
+    "rate": 5.191304347826087,
     "rate_type": "manual_fishing"
   },
   {

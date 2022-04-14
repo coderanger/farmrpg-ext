@@ -664,6 +664,10 @@
     "id": "152"
   },
   {
+    "dropMode": "harvests",
+    "id": "189"
+  },
+  {
     "dropMode": "explores",
     "id": "202"
   },

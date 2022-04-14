@@ -86,9 +86,9 @@
   },
   {
     "drop_rates": {
-      "Egg 03": 3786.8,
-      "Gold Carrot": 208.06593406593407,
-      "Runestone 01": 131.48611111111111
+      "Egg 03": 3654.5714285714284,
+      "Gold Carrot": 230.46846846846847,
+      "Runestone 01": 132.54922279792746
     },
     "iron_depot_rates": {},
     "location": "Carrot Seeds",
@@ -97,7 +97,7 @@
   },
   {
     "drop_rates": {
-      "Runestone 11": 1029.090909090909
+      "Runestone 11": 970.3333333333334
     },
     "iron_depot_rates": {},
     "location": "Corn Seeds",
@@ -139,7 +139,8 @@
   },
   {
     "drop_rates": {
-      "Runestone 06": 504.0
+      "Gold Cucumber": 648.0,
+      "Runestone 06": 648.0
     },
     "iron_depot_rates": {},
     "location": "Cucumber Seeds",
@@ -386,16 +387,16 @@
     "iron_depot_rates": {},
     "location": "Lake Tempest",
     "manual_fish_rates": {
-      "Crappie": 4.7005388760585065,
-      "Drum": 4.876996805111821,
-      "Fish Bones": 48.46031746031746,
-      "Flier": 57.60377358490566,
-      "Globber": 20.910958904109588,
-      "Gold Flier": 101.76666666666667,
-      "Largemouth Bass": 4.8731045490822025,
-      "Runestone 15": 3053.0,
-      "Trout": 11.203669724770641,
-      "Yellow Perch": 5.214346712211785
+      "Crappie": 4.7075268817204305,
+      "Drum": 4.915419161676646,
+      "Fish Bones": 50.12977099236641,
+      "Flier": 57.10434782608696,
+      "Globber": 21.048076923076923,
+      "Gold Flier": 105.91935483870968,
+      "Largemouth Bass": 4.842920353982301,
+      "Runestone 15": 3283.5,
+      "Trout": 11.074198988195615,
+      "Yellow Perch": 5.191304347826087
     },
     "mode": "fishes"
   },
@@ -428,7 +429,7 @@
   },
   {
     "drop_rates": {
-      "Runestone 10": 662.4
+      "Runestone 10": 705.6
     },
     "iron_depot_rates": {},
     "location": "Leek Seeds",
@@ -736,7 +737,7 @@
   },
   {
     "drop_rates": {
-      "Piece of Heart": 1116.0
+      "Piece of Heart": 1152.0
     },
     "iron_depot_rates": {},
     "location": "Watermelon Seeds",

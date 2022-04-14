@@ -408,6 +408,22 @@
     "secondary": false
   },
   {
+    "image": "/img/items/buddy.png",
+    "name": "Buddy Rabbit",
+    "quests": [
+      "844",
+      "845",
+      "846",
+      "847",
+      "853",
+      "852",
+      "851",
+      "850",
+      "854"
+    ],
+    "secondary": false
+  },
+  {
     "image": "/img/items/a_027.png",
     "name": "Bug Life",
     "quests": [
@@ -582,6 +598,32 @@
       "633",
       "634",
       "635"
+    ],
+    "secondary": false
+  },
+  {
+    "image": "/img/items/npc_bunny1.png",
+    "name": "Eggstra Lucky",
+    "quests": [
+      "848",
+      "849",
+      "855",
+      "856"
+    ],
+    "secondary": false
+  },
+  {
+    "image": "/img/items/a_047.png",
+    "name": "Eggstremely Valuable",
+    "quests": [
+      "827",
+      "828",
+      "829",
+      "830",
+      "831",
+      "832",
+      "833",
+      "834"
     ],
     "secondary": false
   },

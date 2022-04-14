@@ -387,6 +387,28 @@
     "mastery": true
   },
   {
+    "firstSeen": 1649628671886,
+    "name": "Blue Dye",
+    "id": "535",
+    "image": "/img/items/bluedye.png",
+    "sellPrice": 2500,
+    "craftPrice": 250,
+    "xp": 4000,
+    "mastery": true,
+    "recipe": [
+      {
+        "id": "171",
+        "name": "Blue Feathers",
+        "quantity": 3
+      },
+      {
+        "id": "117",
+        "name": "Glass Bottle",
+        "quantity": 1
+      }
+    ]
+  },
+  {
     "name": "Blue Feathers",
     "id": "171",
     "image": "/img/items/5963.png",
@@ -409,6 +431,28 @@
     "event": true,
     "sellPrice": 250,
     "xp": 1750
+  },
+  {
+    "firstSeen": 1649628671889,
+    "name": "Blue Purse",
+    "id": "540",
+    "image": "/img/items/bluepurse.png",
+    "sellPrice": 110000,
+    "craftPrice": 850,
+    "xp": 5500,
+    "mastery": true,
+    "recipe": [
+      {
+        "id": "535",
+        "name": "Blue Dye",
+        "quantity": 1
+      },
+      {
+        "id": "122",
+        "name": "Coin Purse",
+        "quantity": 1
+      }
+    ]
   },
   {
     "name": "Blue Sea Bass",
@@ -434,7 +478,8 @@
     "image": "/img/items/5772.png",
     "sellPrice": 1500,
     "xp": 1500,
-    "rarity": "Common"
+    "rarity": "Common",
+    "mastery": true
   },
   {
     "name": "Bluegill",
@@ -3725,7 +3770,8 @@
     "image": "/img/items/8014.png",
     "sellPrice": 10000,
     "xp": 1500,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "fleaMarket": 10
   },
   {
     "firstSeen": 1647482860360,
@@ -4213,6 +4259,14 @@
     "rarity": "Uncommon"
   },
   {
+    "firstSeen": 1649447203500,
+    "id": "534",
+    "name": "Present 02",
+    "image": "/img/items/present02.png",
+    "xp": 1,
+    "rarity": "Very Rare"
+  },
+  {
     "name": "Prism Shard",
     "id": "179",
     "image": "/img/items/8072.png",
@@ -4251,6 +4305,28 @@
     ]
   },
   {
+    "firstSeen": 1649628671905,
+    "name": "Purple Bag",
+    "id": "539",
+    "image": "/img/items/purplebag.png",
+    "sellPrice": 105000,
+    "craftPrice": 1500,
+    "xp": 5500,
+    "mastery": true,
+    "recipe": [
+      {
+        "id": "166",
+        "name": "Leather Bag",
+        "quantity": 1
+      },
+      {
+        "id": "537",
+        "name": "Purple Dye",
+        "quantity": 1
+      }
+    ]
+  },
+  {
     "name": "Purple Diary",
     "id": "83",
     "image": "/img/items/purplebook.png",
@@ -4275,6 +4351,28 @@
       }
     ],
     "craftPrice": 10
+  },
+  {
+    "firstSeen": 1649628671907,
+    "name": "Purple Dye",
+    "id": "537",
+    "image": "/img/items/purpledye.png",
+    "sellPrice": 2500,
+    "craftPrice": 250,
+    "xp": 4000,
+    "mastery": true,
+    "recipe": [
+      {
+        "id": "117",
+        "name": "Glass Bottle",
+        "quantity": 1
+      },
+      {
+        "id": "53",
+        "name": "Purple Flower",
+        "quantity": 10
+      }
+    ]
   },
   {
     "name": "Purple Flower",
@@ -4365,12 +4463,61 @@
     "rarity": "Common"
   },
   {
+    "firstSeen": 1649628671908,
+    "name": "Red Dye",
+    "id": "536",
+    "image": "/img/items/reddye.png",
+    "sellPrice": 2500,
+    "craftPrice": 250,
+    "xp": 4000,
+    "mastery": true,
+    "recipe": [
+      {
+        "id": "117",
+        "name": "Glass Bottle",
+        "quantity": 1
+      },
+      {
+        "id": "320",
+        "name": "Striped Feather",
+        "quantity": 2
+      }
+    ]
+  },
+  {
     "id": "404",
     "name": "Red Ornament",
     "image": "/img/items/cr_t_03.png",
     "event": true,
     "sellPrice": 250,
     "xp": 1750
+  },
+  {
+    "firstSeen": 1649628671909,
+    "name": "Red Shield",
+    "id": "538",
+    "image": "/img/items/redshield.png",
+    "sellPrice": 100000,
+    "craftPrice": 2500,
+    "xp": 5500,
+    "mastery": true,
+    "recipe": [
+      {
+        "id": "536",
+        "name": "Red Dye",
+        "quantity": 1
+      },
+      {
+        "id": "145",
+        "name": "Steel",
+        "quantity": 3
+      },
+      {
+        "id": "127",
+        "name": "Wooden Shield",
+        "quantity": 1
+      }
+    ]
   },
   {
     "name": "Red Starfish",
@@ -4545,7 +4692,8 @@
     "image": "/img/items/rs4.png",
     "sellPrice": 4000,
     "xp": 4000,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "mastery": true
   },
   {
     "name": "Runestone 05",
@@ -4586,7 +4734,8 @@
     "image": "/img/items/rs9.png",
     "sellPrice": 9000,
     "xp": 9000,
-    "rarity": "Rare"
+    "rarity": "Rare",
+    "mastery": true
   },
   {
     "name": "Runestone 10",
@@ -4652,7 +4801,8 @@
     "image": "/img/items/rs17.png",
     "sellPrice": 17000,
     "xp": 17000,
-    "rarity": "Very Rare"
+    "rarity": "Very Rare",
+    "mastery": true
   },
   {
     "name": "Runestone 18",

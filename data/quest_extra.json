@@ -6040,5 +6040,215 @@
     "questlines": [
       "Fooled"
     ]
+  },
+  {
+    "availableFrom": 1649221200000,
+    "availableTo": 1651381199000,
+    "id": "827",
+    "next": "828",
+    "prev": null,
+    "questlines": [
+      "Eggstremely Valuable"
+    ]
+  },
+  {
+    "availableFrom": 1649221200000,
+    "availableTo": 1651381199000,
+    "id": "828",
+    "next": "829",
+    "prev": "827",
+    "questlines": [
+      "Eggstremely Valuable"
+    ]
+  },
+  {
+    "availableFrom": 1649221200000,
+    "availableTo": 1651381199000,
+    "id": "829",
+    "next": "830",
+    "prev": "828",
+    "questlines": [
+      "Eggstremely Valuable"
+    ]
+  },
+  {
+    "availableFrom": 1649221200000,
+    "availableTo": 1651381199000,
+    "id": "830",
+    "next": "831",
+    "prev": "829",
+    "questlines": [
+      "Eggstremely Valuable"
+    ]
+  },
+  {
+    "availableFrom": 1649826000000,
+    "availableTo": 1651381199000,
+    "id": "831",
+    "next": "832",
+    "prev": "830",
+    "questlines": [
+      "Eggstremely Valuable"
+    ]
+  },
+  {
+    "availableFrom": 1649826000000,
+    "availableTo": 1651381199000,
+    "id": "832",
+    "next": "833",
+    "prev": "831",
+    "questlines": [
+      "Eggstremely Valuable"
+    ]
+  },
+  {
+    "availableFrom": 1649826000000,
+    "availableTo": 1651381199000,
+    "id": "833",
+    "next": "834",
+    "prev": "832",
+    "questlines": [
+      "Eggstremely Valuable"
+    ]
+  },
+  {
+    "availableFrom": 1649826000000,
+    "availableTo": 1651381199000,
+    "id": "834",
+    "next": null,
+    "prev": "833",
+    "questlines": [
+      "Eggstremely Valuable"
+    ]
+  },
+  {
+    "availableFrom": 1649826000000,
+    "availableTo": 1651381199000,
+    "id": "844",
+    "next": "845",
+    "prev": null,
+    "questlines": [
+      "Buddy Rabbit"
+    ]
+  },
+  {
+    "availableFrom": 1649826000000,
+    "availableTo": 1651381199000,
+    "id": "845",
+    "next": "846",
+    "prev": "844",
+    "questlines": [
+      "Buddy Rabbit"
+    ]
+  },
+  {
+    "availableFrom": 1649826000000,
+    "availableTo": 1651381199000,
+    "id": "846",
+    "next": "847",
+    "prev": "845",
+    "questlines": [
+      "Buddy Rabbit"
+    ]
+  },
+  {
+    "availableFrom": 1649826000000,
+    "availableTo": 1651381199000,
+    "id": "847",
+    "next": "853",
+    "prev": "846",
+    "questlines": [
+      "Buddy Rabbit"
+    ]
+  },
+  {
+    "availableFrom": 1649826000000,
+    "availableTo": 1651381199000,
+    "id": "848",
+    "next": "849",
+    "prev": null,
+    "questlines": [
+      "Eggstra Lucky"
+    ]
+  },
+  {
+    "availableFrom": 1649826000000,
+    "availableTo": 1651381199000,
+    "id": "849",
+    "next": "855",
+    "prev": "848",
+    "questlines": [
+      "Eggstra Lucky"
+    ]
+  },
+  {
+    "availableFrom": 1649826000000,
+    "availableTo": 1651381199000,
+    "id": "850",
+    "next": "854",
+    "prev": "851",
+    "questlines": [
+      "Buddy Rabbit"
+    ]
+  },
+  {
+    "availableFrom": 1649826000000,
+    "availableTo": 1651381199000,
+    "id": "851",
+    "next": "850",
+    "prev": "852",
+    "questlines": [
+      "Buddy Rabbit"
+    ]
+  },
+  {
+    "availableFrom": 1649826000000,
+    "availableTo": 1651381199000,
+    "id": "852",
+    "next": "851",
+    "prev": "853",
+    "questlines": [
+      "Buddy Rabbit"
+    ]
+  },
+  {
+    "availableFrom": 1649826000000,
+    "availableTo": 1651381199000,
+    "id": "853",
+    "next": "852",
+    "prev": "847",
+    "questlines": [
+      "Buddy Rabbit"
+    ]
+  },
+  {
+    "availableFrom": 1649826000000,
+    "availableTo": 1651381199000,
+    "id": "854",
+    "next": null,
+    "prev": "850",
+    "questlines": [
+      "Buddy Rabbit"
+    ]
+  },
+  {
+    "availableFrom": 1649826000000,
+    "availableTo": 1651381199000,
+    "id": "855",
+    "next": "856",
+    "prev": "849",
+    "questlines": [
+      "Eggstra Lucky"
+    ]
+  },
+  {
+    "availableFrom": 1649826000000,
+    "availableTo": 1651381199000,
+    "id": "856",
+    "next": null,
+    "prev": "855",
+    "questlines": [
+      "Eggstra Lucky"
+    ]
   }
 ]

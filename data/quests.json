@@ -25941,6 +25941,132 @@
     "availableTo": "Apr 30"
   },
   {
+    "firstSeen": 1649901749846,
+    "itemRequests": [
+      {
+        "id": "530",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "194",
+        "quantity": 10
+      },
+      {
+        "id": "103",
+        "quantity": 25
+      },
+      {
+        "id": "186",
+        "quantity": 5
+      },
+      {
+        "id": "20",
+        "quantity": 200
+      },
+      {
+        "id": "242",
+        "quantity": 5
+      },
+      {
+        "id": "251",
+        "quantity": 10
+      }
+    ],
+    "id": "827",
+    "name": "Eggstremely Valuable I",
+    "from": "Vincent",
+    "fromImage": "/img/items/a_047.png",
+    "text": "Many times during his travels, Vincent heard tales of people finding decorated eggs hidden in strange places. The eggs were similar in size and heft to normal chicken eggs, but they were decorated with colors and designs. The eggs also seemed to be completely indestructible, at least the one Vincent saw couldn’t be cracked.\n\nThese decorated eggs always appeared in the early spring, and many of the legends said there were only 12 eggs that could be found. When spring ended, the eggs vanished until the following year. Then, the eggs reappeared hidden in new locations.\n\nA few of the legends spoke of a 13th golden egg that held vast powers or wealth or something like that. No one ever found the 13th egg in any of the stories.\n\nVincent would like you to keep an eye out this spring for mysteriously decorated eggs in strange places. If the two of you can find the 12 springtime eggs, maybe you can find the golden egg too. Vincent would be happy to evenly split any profit that could be made from the golden egg.\n\nIf you’re interested, just bring any strange eggs you find to Vincent to prove and secure.",
+    "requiresFarming": 5,
+    "requiresCrafting": 5,
+    "requiresFishing": 5,
+    "requiresExploring": 5,
+    "availableFrom": "Apr 6",
+    "availableTo": "Apr 30"
+  },
+  {
+    "firstSeen": 1649901778368,
+    "itemRequests": [
+      {
+        "id": "523",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "44",
+        "quantity": 50
+      },
+      {
+        "id": "330",
+        "quantity": 5
+      },
+      {
+        "id": "281",
+        "quantity": 3
+      },
+      {
+        "id": "78",
+        "quantity": 20
+      },
+      {
+        "id": "510",
+        "quantity": 1
+      }
+    ],
+    "id": "828",
+    "name": "Eggstremely Valuable II",
+    "from": "Vincent",
+    "fromImage": "/img/items/a_047.png",
+    "text": "Vincent hasn’t found any more eggs, yet. Have you?",
+    "requiresFarming": 5,
+    "requiresCrafting": 5,
+    "requiresFishing": 5,
+    "requiresExploring": 5,
+    "availableFrom": "Apr 6",
+    "availableTo": "Apr 30"
+  },
+  {
+    "firstSeen": 1649901785990,
+    "itemRequests": [
+      {
+        "id": "524",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "84",
+        "quantity": 20
+      },
+      {
+        "id": "123",
+        "quantity": 50
+      },
+      {
+        "id": "160",
+        "quantity": 16
+      },
+      {
+        "id": "508",
+        "quantity": 2
+      }
+    ],
+    "id": "829",
+    "name": "Eggstremely Valuable III",
+    "from": "Vincent",
+    "fromImage": "/img/items/a_047.png",
+    "text": "Vincent finds it strange that you have found 2 eggs and he has found none.\n\nHave you found more eggs?",
+    "requiresFarming": 5,
+    "requiresCrafting": 5,
+    "requiresFishing": 5,
+    "requiresExploring": 5,
+    "availableFrom": "Apr 6",
+    "availableTo": "Apr 30"
+  },
+  {
     "firstSeen": 1646727906349,
     "itemRequests": [
       {
@@ -25967,6 +26093,224 @@
     "requiresFarming": 10
   },
   {
+    "firstSeen": 1649901793062,
+    "itemRequests": [
+      {
+        "id": "522",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "250",
+        "quantity": 5
+      },
+      {
+        "id": "86",
+        "quantity": 25
+      },
+      {
+        "id": "475",
+        "quantity": 3
+      },
+      {
+        "id": "396",
+        "quantity": 5
+      },
+      {
+        "id": "333",
+        "quantity": 5
+      },
+      {
+        "id": "331",
+        "quantity": 6
+      },
+      {
+        "id": "338",
+        "quantity": 5
+      }
+    ],
+    "id": "830",
+    "name": "Eggstremely Valuable IV",
+    "from": "Vincent",
+    "fromImage": "/img/items/a_047.png",
+    "text": "Any more good fortune?",
+    "requiresFarming": 5,
+    "requiresCrafting": 5,
+    "requiresFishing": 5,
+    "requiresExploring": 5,
+    "availableFrom": "Apr 6",
+    "availableTo": "Apr 30"
+  },
+  {
+    "firstSeen": 1649901799606,
+    "itemRequests": [
+      {
+        "id": "525",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "339",
+        "quantity": 25
+      },
+      {
+        "id": "334",
+        "quantity": 5
+      },
+      {
+        "id": "500",
+        "quantity": 10
+      },
+      {
+        "id": "84",
+        "quantity": 20
+      }
+    ],
+    "id": "831",
+    "name": "Eggstremely Valuable V",
+    "from": "Vincent",
+    "fromImage": "/img/items/a_047.png",
+    "text": "Vincent still hasn’t found a single egg.\n\nYou clearly have the better luck. Have you found another egg?",
+    "requiresFarming": 5,
+    "requiresCrafting": 5,
+    "requiresFishing": 5,
+    "requiresExploring": 5,
+    "availableFrom": "Apr 13",
+    "availableTo": "Apr 30"
+  },
+  {
+    "firstSeen": 1649901806083,
+    "itemRequests": [
+      {
+        "id": "528",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "143",
+        "quantity": 10
+      },
+      {
+        "id": "123",
+        "quantity": 25
+      },
+      {
+        "id": "335",
+        "quantity": 5
+      },
+      {
+        "id": "336",
+        "quantity": 2
+      },
+      {
+        "id": "337",
+        "quantity": 2
+      },
+      {
+        "id": "491",
+        "quantity": 5
+      }
+    ],
+    "id": "832",
+    "name": "Eggstremely Valuable VI",
+    "from": "Vincent",
+    "fromImage": "/img/items/a_047.png",
+    "text": "If you continue to find all the eggs, Vincent thinks his share of the profit may have to be revised downward.\n\nDid you find another egg?",
+    "requiresFarming": 5,
+    "requiresCrafting": 5,
+    "requiresFishing": 5,
+    "requiresExploring": 5,
+    "availableFrom": "Apr 13",
+    "availableTo": "Apr 30"
+  },
+  {
+    "firstSeen": 1649903586370,
+    "itemRequests": [
+      {
+        "id": "529",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "341",
+        "quantity": 1
+      },
+      {
+        "id": "185",
+        "quantity": 5
+      },
+      {
+        "id": "457",
+        "quantity": 5
+      },
+      {
+        "id": "511",
+        "quantity": 1
+      },
+      {
+        "id": "379",
+        "quantity": 5
+      }
+    ],
+    "id": "833",
+    "name": "Eggstremely Valuable VII",
+    "from": "Vincent",
+    "fromImage": "/img/items/a_047.png",
+    "text": "Vincent finds his lack of success at finding eggs to be very disturbing.\n\nWhat do you have?",
+    "requiresFarming": 5,
+    "requiresCrafting": 5,
+    "requiresFishing": 5,
+    "requiresExploring": 5,
+    "availableFrom": "Apr 13",
+    "availableTo": "Apr 30"
+  },
+  {
+    "firstSeen": 1649904447379,
+    "itemRequests": [
+      {
+        "id": "521",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "194",
+        "quantity": 25
+      },
+      {
+        "id": "491",
+        "quantity": 2
+      },
+      {
+        "id": "193",
+        "quantity": 60
+      },
+      {
+        "id": "137",
+        "quantity": 10
+      },
+      {
+        "id": "65",
+        "quantity": 50
+      }
+    ],
+    "id": "834",
+    "name": "Eggstremely Valuable VIII",
+    "from": "Vincent",
+    "fromImage": "/img/items/a_047.png",
+    "text": "Vincent wonders what the odds are that he can find a single egg.\n\nWhich one did you find?",
+    "requiresFarming": 5,
+    "requiresCrafting": 5,
+    "requiresFishing": 5,
+    "requiresExploring": 5,
+    "availableFrom": "Apr 13",
+    "availableTo": "Apr 30"
+  },
+  {
     "firstSeen": 1646727904341,
     "itemRequests": [
       {
@@ -25987,6 +26331,238 @@
     "text": "Beatrix has a water wheel power generator that has lost a few cogs. Can you round up some spare parts for her, while she cleans out the muck caught in the stationary wheel?\n\nHint: The missing Cogwheels may have washed downstream into the small pond. It has a drop rate of 1/1000, so will take some time to get, but keep trying!",
     "silverReward": 5000,
     "requiresFishing": 5
+  },
+  {
+    "firstSeen": 1649903355140,
+    "itemRequests": [
+      {
+        "id": "42",
+        "quantity": 100
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "330",
+        "quantity": 1
+      },
+      {
+        "id": "334",
+        "quantity": 1
+      },
+      {
+        "id": "332",
+        "quantity": 1
+      },
+      {
+        "id": "333",
+        "quantity": 1
+      },
+      {
+        "id": "331",
+        "quantity": 4
+      }
+    ],
+    "id": "844",
+    "name": "Buddy Rabbit I",
+    "from": "Buddy",
+    "fromImage": "/img/items/buddy.png",
+    "text": "Buddy wants to join in the festive spirit everyone else in town seems to have, and has asked you to help him make a rabbit costume. He needs 100 feathers. You think that maybe he has never seen a rabbit before, and contemplate introducing him to frank, but realize that if you did, Buddy might want blue feathers instead.",
+    "requiresFarming": 5,
+    "requiresCrafting": 5,
+    "requiresFishing": 5,
+    "requiresExploring": 5,
+    "availableFrom": "Apr 13",
+    "availableTo": "Apr 30"
+  },
+  {
+    "firstSeen": 1649903368124,
+    "itemRequests": [
+      {
+        "id": "171",
+        "quantity": 150
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "330",
+        "quantity": 2
+      },
+      {
+        "id": "334",
+        "quantity": 2
+      },
+      {
+        "id": "332",
+        "quantity": 2
+      },
+      {
+        "id": "333",
+        "quantity": 2
+      },
+      {
+        "id": "331",
+        "quantity": 6
+      }
+    ],
+    "id": "845",
+    "name": "Buddy Rabbit II",
+    "from": "Buddy",
+    "fromImage": "/img/items/buddy.png",
+    "text": "Apparently Buddy ran into frank in town, and now wants blue feathers to continue working on his rabbit costume, because of course he does. Will you bring Buddy 150 blue feathers?",
+    "requiresFarming": 5,
+    "requiresCrafting": 5,
+    "requiresFishing": 5,
+    "requiresExploring": 30,
+    "availableFrom": "Apr 13",
+    "availableTo": "Apr 30"
+  },
+  {
+    "firstSeen": 1649903542099,
+    "itemRequests": [
+      {
+        "id": "128",
+        "quantity": 200
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "330",
+        "quantity": 3
+      },
+      {
+        "id": "334",
+        "quantity": 3
+      },
+      {
+        "id": "332",
+        "quantity": 3
+      },
+      {
+        "id": "333",
+        "quantity": 3
+      },
+      {
+        "id": "336",
+        "quantity": 3
+      },
+      {
+        "id": "337",
+        "quantity": 3
+      },
+      {
+        "id": "335",
+        "quantity": 8
+      },
+      {
+        "id": "331",
+        "quantity": 8
+      }
+    ],
+    "id": "846",
+    "name": "Buddy Rabbit III",
+    "from": "Buddy",
+    "fromImage": "/img/items/buddy.png",
+    "text": "Buddy now understands that rabbits don't lay eggs, and would instead like a chicken costume. He would like you to bring him a couple hundred straw. You wonder, not for the first time, whether Buddy knows what anything actually looks like...",
+    "requiresFarming": 5,
+    "requiresCrafting": 5,
+    "requiresFishing": 5,
+    "requiresExploring": 30,
+    "availableFrom": "Apr 13",
+    "availableTo": "Apr 30"
+  },
+  {
+    "firstSeen": 1649903558846,
+    "itemRequests": [
+      {
+        "id": "23",
+        "quantity": 100
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "529",
+        "quantity": 1
+      },
+      {
+        "id": "511",
+        "quantity": 1
+      }
+    ],
+    "id": "847",
+    "name": "Buddy Rabbit IV",
+    "from": "Buddy",
+    "fromImage": "/img/items/buddy.png",
+    "text": "Buddy is almost set for his festivities. He now would like you to bring him 100 buckets, so that he can leave them full of goodies for people around town. This is, sadly, the least strange request from him this holiday, so you feel lucky that things haven't gotten weirder.",
+    "requiresFarming": 5,
+    "requiresCrafting": 5,
+    "requiresFishing": 5,
+    "requiresExploring": 30,
+    "availableFrom": "Apr 13",
+    "availableTo": "Apr 30"
+  },
+  {
+    "firstSeen": 1649903378739,
+    "itemRequests": [
+      {
+        "id": "19",
+        "quantity": 100
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "194",
+        "quantity": 10
+      },
+      {
+        "id": "44",
+        "quantity": 25
+      },
+      {
+        "id": "123",
+        "quantity": 10
+      }
+    ],
+    "id": "848",
+    "name": "Eggstra Lucky I",
+    "from": "frank",
+    "fromImage": "/img/items/npc_bunny1.png",
+    "text": "After turning that river green, frank feels luckier than ever, but he also feels a little strange. Every morning lately, he wakes up and finds himself hugging a decorated egg. The eggs appearing wouldn’t be a big deal if they were something that frank could eat, but these eggs aren’t really useful at all.\n\nSo, frank has been hiding these decorated, huggable eggs all over town, as a fun surprise for people that like decorated, huggable eggs. He meant to ask if you like decorated, huggable eggs, but he forgot.\n\nIf you’ll bring him some good eats, he’ll try to remember to give you the next decorated, huggable egg that he wakes up hugging.",
+    "requiresFarming": 5,
+    "requiresCrafting": 5,
+    "requiresFishing": 5,
+    "requiresExploring": 5,
+    "availableFrom": "Apr 13",
+    "availableTo": "Apr 30"
+  },
+  {
+    "firstSeen": 1649903391247,
+    "itemRequests": [
+      {
+        "id": "27",
+        "quantity": 100
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "528",
+        "quantity": 1
+      },
+      {
+        "id": "358",
+        "quantity": 100
+      }
+    ],
+    "id": "849",
+    "name": "Eggstra Lucky II",
+    "from": "frank",
+    "fromImage": "/img/items/npc_bunny1.png",
+    "text": "frank found another egg this morning and remembered that he promised it to you. Would you mind getting him some breakfast to fill the hole that giving up this huggable egg will create?",
+    "requiresFarming": 5,
+    "requiresCrafting": 5,
+    "requiresFishing": 5,
+    "requiresExploring": 5,
+    "availableFrom": "Apr 13",
+    "availableTo": "Apr 30"
   },
   {
     "firstSeen": 1646727902337,
@@ -26035,6 +26611,280 @@
     "requiresCrafting": 5,
     "requiresFishing": 40,
     "requiresExploring": 30
+  },
+  {
+    "firstSeen": 1649903691672,
+    "itemRequests": [
+      {
+        "id": "317",
+        "quantity": 200
+      },
+      {
+        "id": "316",
+        "quantity": 200
+      },
+      {
+        "id": "94",
+        "quantity": 200
+      },
+      {
+        "id": "96",
+        "quantity": 200
+      },
+      {
+        "id": "195",
+        "quantity": 200
+      },
+      {
+        "id": "41",
+        "quantity": 200
+      },
+      {
+        "id": "125",
+        "quantity": 200
+      },
+      {
+        "id": "103",
+        "quantity": 200
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "346",
+        "quantity": 20
+      },
+      {
+        "id": "363",
+        "quantity": 20
+      },
+      {
+        "id": "347",
+        "quantity": 42
+      }
+    ],
+    "id": "850",
+    "name": "Buddy Rabbit VIII",
+    "from": "Buddy",
+    "fromImage": "/img/items/buddy.png",
+    "text": "Buddy says to really finish off his hoard, he needs some more green items, and more jewels. And a diamond. He also says he's very patient, so he will just need some coal, and he will try and make one himself. Well, that's a relief at least.",
+    "requiresFarming": 5,
+    "requiresCrafting": 52,
+    "requiresFishing": 5,
+    "requiresExploring": 70,
+    "availableFrom": "Apr 13",
+    "availableTo": "Apr 30",
+    "silverReward": 100000000
+  },
+  {
+    "firstSeen": 1649903626145,
+    "itemRequests": [
+      {
+        "id": "143",
+        "quantity": 200
+      },
+      {
+        "id": "146",
+        "quantity": 200
+      },
+      {
+        "id": "204",
+        "quantity": 200
+      },
+      {
+        "id": "142",
+        "quantity": 200
+      }
+    ],
+    "itemRewards": [],
+    "id": "851",
+    "name": "Buddy Rabbit VII",
+    "from": "Buddy",
+    "fromImage": "/img/items/buddy.png",
+    "text": "Buddy says his dragon costume is really coming along nicely. He thinks that it won't possibly be complete without the dragon's hoard of valuables. This seems eerily familiar for some reason...",
+    "requiresFarming": 5,
+    "requiresCrafting": 52,
+    "requiresFishing": 5,
+    "requiresExploring": 30,
+    "availableFrom": "Apr 13",
+    "availableTo": "Apr 30",
+    "silverReward": 25000000
+  },
+  {
+    "firstSeen": 1649903607370,
+    "itemRequests": [
+      {
+        "id": "350",
+        "quantity": 200
+      },
+      {
+        "id": "414",
+        "quantity": 200
+      }
+    ],
+    "itemRewards": [],
+    "id": "852",
+    "name": "Buddy Rabbit VI",
+    "from": "Buddy",
+    "fromImage": "/img/items/buddy.png",
+    "text": "Buddy now thinks that the best costume might be a dragon. Dragons lay eggs, right? He'd like some items to help him look like a dragon.",
+    "requiresFarming": 5,
+    "requiresCrafting": 55,
+    "requiresFishing": 5,
+    "requiresExploring": 30,
+    "availableFrom": "Apr 13",
+    "availableTo": "Apr 30",
+    "silverReward": 100000000
+  },
+  {
+    "firstSeen": 1649903573111,
+    "itemRequests": [
+      {
+        "id": "481",
+        "quantity": 100
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "346",
+        "quantity": 5
+      },
+      {
+        "id": "363",
+        "quantity": 5
+      },
+      {
+        "id": "347",
+        "quantity": 12
+      }
+    ],
+    "id": "853",
+    "name": "Buddy Rabbit V",
+    "from": "Buddy",
+    "fromImage": "/img/items/buddy.png",
+    "text": "Buddy thinks it would be a fun joke to leave a bucket of chum along with his bucket of goodies. You wondered when it was going to get weird, and apparently the answer is \"now\".",
+    "requiresFarming": 5,
+    "requiresCrafting": 52,
+    "requiresFishing": 5,
+    "requiresExploring": 30,
+    "availableFrom": "Apr 13",
+    "availableTo": "Apr 30"
+  },
+  {
+    "firstSeen": 1649904422243,
+    "itemRequests": [],
+    "itemRewards": [
+      {
+        "id": "501",
+        "quantity": 1
+      }
+    ],
+    "id": "854",
+    "name": "Buddy Rabbit IX",
+    "from": "Buddy",
+    "fromImage": "/img/items/buddy.png",
+    "text": "Buddy says his costume and buckets are perfect. He wants to make sure you are in on his gifts, and he hopes you'll be willing to help next time he gets a GREAT IDEA! He also might be confused about holidays...",
+    "availableFrom": "Apr 13",
+    "availableTo": "Apr 30"
+  },
+  {
+    "firstSeen": 1649903415508,
+    "itemRequests": [
+      {
+        "id": "43",
+        "quantity": 100
+      },
+      {
+        "id": "50",
+        "quantity": 100
+      },
+      {
+        "id": "15",
+        "quantity": 100
+      },
+      {
+        "id": "31",
+        "quantity": 100
+      },
+      {
+        "id": "33",
+        "quantity": 100
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "84",
+        "quantity": 20
+      },
+      {
+        "id": "86",
+        "quantity": 20
+      },
+      {
+        "id": "500",
+        "quantity": 1
+      },
+      {
+        "id": "358",
+        "quantity": 100
+      }
+    ],
+    "id": "855",
+    "name": "Eggstra Lucky III",
+    "from": "frank",
+    "fromImage": "/img/items/npc_bunny1.png",
+    "text": "frank only has one decorated, huggable egg left. He hasn’t woke up hugging an egg for days now.\n\nHe saved this last one because he couldn’t decide where to hide it. Do you want it? Would you be willing to make frank an amazing meal for it? frank means REALLY amazing.",
+    "requiresFarming": 20,
+    "requiresCrafting": 20,
+    "requiresFishing": 20,
+    "requiresExploring": 20,
+    "availableFrom": "Apr 13",
+    "availableTo": "Apr 30"
+  },
+  {
+    "firstSeen": 1649903438581,
+    "itemRequests": [
+      {
+        "id": "29",
+        "quantity": 100
+      },
+      {
+        "id": "13",
+        "quantity": 100
+      },
+      {
+        "id": "11",
+        "quantity": 100
+      },
+      {
+        "id": "19",
+        "quantity": 100
+      },
+      {
+        "id": "159",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "521",
+        "quantity": 1
+      },
+      {
+        "id": "358",
+        "quantity": 100
+      }
+    ],
+    "id": "856",
+    "name": "Eggstra Lucky IV",
+    "from": "frank",
+    "fromImage": "/img/items/npc_bunny1.png",
+    "text": "frank would like a few more ingredients added to his amazing meal, if you don’t mind. It’s almost perfect, like a decorated, huggable egg.",
+    "requiresFarming": 20,
+    "requiresCrafting": 20,
+    "requiresFishing": 20,
+    "requiresExploring": 20,
+    "availableFrom": "Apr 13",
+    "availableTo": "Apr 30"
   },
   {
     "firstSeen": 1646727900326,
