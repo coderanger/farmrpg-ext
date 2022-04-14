@@ -20,6 +20,8 @@ import { setupLocksmith } from './lib/locksmith.js'
 import { setupProduction } from './lib/production.js'
 import { setupVineyard } from './lib/vineyard.js'
 import { setupQuests } from './lib/quests.js'
+import { setupEmblems } from './lib/emblems.js'
+import { setupCommunityCenter } from './lib/communityCenter.js'
 
 /**
  * @typedef {{
@@ -183,7 +185,7 @@ const main = async () => {
     }
 
     // Initialize the database.
-    globalState.db = await idb.openDB("farmrpg-ext", 4, {
+    globalState.db = await idb.openDB("farmrpg-ext", 5, {
         upgrade(db, oldVer) {
             switch(oldVer) {
             case 0:
@@ -205,6 +207,10 @@ const main = async () => {
             case 3:
                 console.log("Running DB migrations for version 4")
                 db.createObjectStore("latency", { keyPath: ["ts", "url"] })
+            case 4:
+                console.log("Running DB migrations for version 5")
+                db.createObjectStore("communityCenter", { keyPath: "date" })
+                db.createObjectStore("emblems", { keyPath: "id" })
             }
         },
     })
@@ -260,6 +266,8 @@ const main = async () => {
     setupProduction(globalState)
     setupVineyard(globalState)
     setupQuests(globalState)
+    setupEmblems(globalState)
+    setupCommunityCenter(globalState)
 
     // Kick off some initial data population.
     renderSidebarFromGlobalState()
@@ -289,7 +297,7 @@ const main = async () => {
             break
         case "clear-latency":
             // Delete all but the last 24 hours of data.
-            await globalState.db.delete("latency", IDBKeyRange.upperBound(Date.now() - 24*60*60*1000))
+            // await globalState.db.delete("latency", IDBKeyRange.upperBound(Date.now() - 24*60*60*1000))
             break
         }
     })

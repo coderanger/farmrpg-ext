@@ -1,0 +1,83 @@
+[
+  {
+    "firstSeen": 1649819066474,
+    "date": "2022-04-05",
+    "goalItem": "Stone",
+    "goalQuantity": 1500000,
+    "rewardItem": "Snowball",
+    "rewardQuantity": 5,
+    "progress": 6451059
+  },
+  {
+    "firstSeen": 1649819066456,
+    "date": "2022-04-06",
+    "goalItem": "Tomato",
+    "goalQuantity": 500000,
+    "rewardItem": "Large Chest 02",
+    "rewardQuantity": 3,
+    "progress": 526481
+  },
+  {
+    "firstSeen": 1649819066452,
+    "date": "2022-04-07",
+    "goalItem": "Purple Flower",
+    "goalQuantity": 1000000,
+    "rewardItem": "Orange Juice",
+    "rewardQuantity": 100,
+    "progress": 1401387
+  },
+  {
+    "firstSeen": 1649819066446,
+    "date": "2022-04-08",
+    "goalItem": "Cucumber",
+    "goalQuantity": 800000,
+    "rewardItem": "Egg 11",
+    "rewardQuantity": 1,
+    "progress": 1036342
+  },
+  {
+    "firstSeen": 1649819066443,
+    "date": "2022-04-09",
+    "goalItem": "Marlin",
+    "goalQuantity": 750000,
+    "rewardItem": "Sea Dragon",
+    "rewardQuantity": 7,
+    "progress": 913468
+  },
+  {
+    "firstSeen": 1649819066436,
+    "date": "2022-04-10",
+    "goalItem": "Purple Diary",
+    "goalQuantity": 325000,
+    "rewardItem": "Corn",
+    "rewardQuantity": 100,
+    "progress": 403848
+  },
+  {
+    "firstSeen": 1649819066424,
+    "date": "2022-04-11",
+    "goalItem": "Bluegill",
+    "goalQuantity": 650000,
+    "rewardItem": "Apple",
+    "rewardQuantity": 100,
+    "progress": 911321
+  },
+  {
+    "firstSeen": 1649819066418,
+    "date": "2022-04-12",
+    "goalItem": "Clam Shell",
+    "goalQuantity": 1000000,
+    "rewardItem": "Crab Claw",
+    "rewardQuantity": 10,
+    "progress": 1863639
+  },
+  {
+    "firstSeen": 1649827334735,
+    "date": "2022-04-13",
+    "goalItem": "Tea Leaves",
+    "goalQuantity": 1000000,
+    "rewardItem": "Arnold Palmer",
+    "rewardQuantity": 4,
+    "progress": 109205
+  }
+]
