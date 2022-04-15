@@ -61,6 +61,8 @@ IRON_DEPOT_CHANGE = (
     * 1000
 )
 
+BROKEN_OVERFLOW_TYPES = {"cider", "large_net", "palmer"}
+
 
 def cache_path_for(**kwargs) -> str:
     buf = io.StringIO()
@@ -96,8 +98,10 @@ class ItemDrops:
     explores: int = 0
     lemonades: int = 0
     ciders: int = 0
+    palmers: int = 0
     fishes: int = 0
     nets: int = 0
+    large_nets: int = 0
     harvests: int = 0
     drops: int = 0
 
@@ -107,8 +111,10 @@ class LocationDrops:
     explores: int = 0
     lemonades: int = 0
     ciders: int = 0
+    palmers: int = 0
     fishes: int = 0
     nets: int = 0
+    large_nets: int = 0
     harvests: int = 0
     drops: int = 0
     items: dict[str, ItemDrops] = attrs.Factory(lambda: defaultdict(ItemDrops))
@@ -119,8 +125,10 @@ class Drops:
     explores: int = 0
     lemonades: int = 0
     ciders: int = 0
+    palmers: int = 0
     fishes: int = 0
     nets: int = 0
+    large_nets: int = 0
     harvests: int = 0
     drops: int = 0
     locations: dict[str, LocationDrops] = attrs.Factory(
@@ -179,12 +187,22 @@ def count_sources(
         # This is kind of wrong for global and location stats since not all explores count
         # for all items but it's more correct than not.
         drops.explores += row["results"].get("explores", row["results"]["stamina"])
+    elif row["type"] == "palmer":
+        drops.palmers += 1
+        if lemonade_fake_explores_location is not None:
+            drops.explores += round(
+                (1 / BASE_DROP_RATES[lemonade_fake_explores_location]) * 500
+            )
     elif row["type"] == "fish":
         drops.fishes += 1
     elif row["type"] == "net":
         drops.nets += 1
         if nets_fake_fishes:
             drops.fishes += sum(it.get("quantity", 1) for it in row["results"]["items"])
+    elif row["type"] == "large_net":
+        drops.large_nets += 1
+        if nets_fake_fishes:
+            drops.fishes += 400
     elif row["type"] == "harvestall":
         # We already checked that only mono-seed logs are considered.
         drops.harvests += len(row["results"]["crops"])
@@ -194,8 +212,10 @@ def compile_drops(
     explore: bool = False,
     lemonade: bool = False,
     cider: bool = False,
+    palmer: bool = False,
     fish: bool = False,
     net: bool = False,
+    large_net: bool = False,
     harvest: bool = False,
     since: int = 0,
     iron_depot: bool = False,
@@ -208,8 +228,10 @@ def compile_drops(
         e=explore,
         l=lemonade,
         c=cider,
+        p=palmer,
         f=fish,
         n=net,
+        m=large_net,
         h=harvest,
         s=since,
         i=iron_depot,
@@ -246,10 +268,14 @@ def compile_drops(
         types.add("lemonade")
     if cider:
         types.add("cider")
+    if palmer:
+        types.add("palmer")
     if fish:
         types.add("fish")
     if net:
         types.add("net")
+    if large_net:
+        types.add("large_net")
     if harvest:
         types.add("harvestall")
     explores = Drops()
@@ -273,7 +299,7 @@ def compile_drops(
                 # Ignore out-of-bounds drops. This allows accounting for stuff like drop
                 # rates changing substantially by manually resetting firstDropped.
                 continue
-            if row["type"] == "cider" and item["item"] in overflow_items:
+            if row["type"] in BROKEN_OVERFLOW_TYPES and item["item"] in overflow_items:
                 # Cider overflow always reports 0 drops so any item that overflows during
                 # a cider has to be ignored.
                 continue
@@ -317,7 +343,7 @@ def compile_drops(
             if row["ts"] not in when_items_dropped[(item, location_name)]:
                 # Item couldn't drop, this doesn't count.
                 continue
-            if row["type"] == "cider" and item in overflow_items:
+            if row["type"] in BROKEN_OVERFLOW_TYPES and item in overflow_items:
                 # Cider overflow always reports 0 drops so any item that overflows during
                 # a cider has to be ignored.
                 continue

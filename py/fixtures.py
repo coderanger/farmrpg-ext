@@ -137,6 +137,9 @@ def load_quests(resolve_items=False) -> Iterable[Quest]:
 def _get_drops():
     import droprates
 
+    # This seems to be ready to go but I reserve the right to change my mind.
+    USE_BIG_ITEMS = True
+
     normal_drops = droprates.compile_drops(
         explore=True,
         lemonade=True,
@@ -144,6 +147,9 @@ def _get_drops():
         harvest=True,
         lemonade_fake_explores=True,
         nets_fake_fishes=True,
+        cider=USE_BIG_ITEMS,
+        palmer=USE_BIG_ITEMS,
+        large_net=USE_BIG_ITEMS,
     )
 
     iron_depot_drops = droprates.compile_drops(
@@ -151,6 +157,8 @@ def _get_drops():
         lemonade=True,
         lemonade_fake_explores=True,
         iron_depot=True,
+        cider=USE_BIG_ITEMS,
+        palmer=USE_BIG_ITEMS,
     )
 
     manual_fish_drops = droprates.compile_drops(fish=True)
