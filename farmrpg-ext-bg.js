@@ -21,7 +21,7 @@ import { setupProduction } from './lib/production.js'
 import { setupVineyard } from './lib/vineyard.js'
 import { setupQuests } from './lib/quests.js'
 import { setupEmblems } from './lib/emblems.js'
-import { setupCommunityCenter } from './lib/communityCenter.js'
+import { fetchCommunityCenter, setupCommunityCenter } from './lib/communityCenter.js'
 import { setupBorgens } from './lib/borgen.js'
 
 /**
@@ -108,6 +108,27 @@ class GlobalState {
     async logLatency(ts, url, latency) {
         if (this.db !== undefined) {
             await this.db.put("latency", {ts, url, latency})
+        }
+    }
+
+    /**
+     * Helper for other fetch* methods.
+     * @param {string} url
+     * @param {(state: GlobalState, page: string | Document, url: string | URL) => Promise<void>} handler
+     * @param {{parse: boolean}} options
+     */
+    async fetchPage(url, handler, options = {}) {
+        const resp = await fetch(url)
+        if (!resp.ok) {
+            throw `Error getting ${url}`
+        }
+        let page = await resp.text()
+        if (options.parse) {
+            const parser = new DOMParser()
+            const dom = parser.parseFromString(page, "text/html")
+            await handler(this, dom, new URL(url))
+        } else {
+            await handler(this, page, url)
         }
     }
 }
@@ -287,6 +308,10 @@ const main = async () => {
     browser.alarms.create("perk-refresh", {periodInMinutes: 15})
     browser.alarms.create("render-sidebar", {periodInMinutes: 1})
     browser.alarms.create("clear-latency", {periodInMinutes: 60})
+    browser.alarms.create("community-center-refresh", {
+        periodInMinutes: 60*24,
+        when: luxon.DateTime.fromObject({}, {zone: "America/Chicago"}).startOf("day").plus({day: 1}).minus({minutes: 10}).toMillis(),
+    })
     browser.alarms.onAlarm.addListener(async alarm => {
         switch (alarm.name) {
         case "inventory-refresh":
@@ -304,12 +329,11 @@ const main = async () => {
             // Delete all but the last 24 hours of data.
             // await globalState.db.delete("latency", IDBKeyRange.upperBound(Date.now() - 24*60*60*1000))
             break
+        case "community-center-refresh":
+            await fetchCommunityCenter(globalState)
+            break
         }
     })
 }
 
 main()
-
-
-// https://farmrpg.com/worker.php?go=spin&type=Apples
-// You got:<br/><img src='/img/items/8297.png' class='itemimg'><br/>Apples (x9)
