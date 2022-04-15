@@ -5158,7 +5158,8 @@
     "image": "/img/items/5655.png",
     "sellPrice": 150,
     "xp": 150,
-    "rarity": "Common"
+    "rarity": "Common",
+    "givable": true
   },
   {
     "name": "Small Chest 01",

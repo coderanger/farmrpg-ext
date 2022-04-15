@@ -623,7 +623,8 @@
       "831",
       "832",
       "833",
-      "834"
+      "834",
+      "839"
     ],
     "secondary": false
   },
@@ -1278,6 +1279,17 @@
     "name": "Unique Fish",
     "quests": [
       "15"
+    ],
+    "secondary": false
+  },
+  {
+    "image": "/img/items/npc_horse.png",
+    "name": "Uptime Dreamin",
+    "quests": [
+      "859",
+      "860",
+      "861",
+      "862"
     ],
     "secondary": false
   },

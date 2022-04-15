@@ -6115,8 +6115,18 @@
     "availableFrom": 1649826000000,
     "availableTo": 1651381199000,
     "id": "834",
-    "next": null,
+    "next": "839",
     "prev": "833",
+    "questlines": [
+      "Eggstremely Valuable"
+    ]
+  },
+  {
+    "availableFrom": 1649826000000,
+    "availableTo": 1651381199000,
+    "id": "839",
+    "next": null,
+    "prev": "834",
     "questlines": [
       "Eggstremely Valuable"
     ]
@@ -6249,6 +6259,46 @@
     "prev": "855",
     "questlines": [
       "Eggstra Lucky"
+    ]
+  },
+  {
+    "availableFrom": 1649912400000,
+    "availableTo": 1650344399000,
+    "id": "859",
+    "next": "860",
+    "prev": null,
+    "questlines": [
+      "Uptime Dreamin"
+    ]
+  },
+  {
+    "availableFrom": 1649912400000,
+    "availableTo": 1650344399000,
+    "id": "860",
+    "next": "861",
+    "prev": "859",
+    "questlines": [
+      "Uptime Dreamin"
+    ]
+  },
+  {
+    "availableFrom": 1649912400000,
+    "availableTo": 1650344399000,
+    "id": "861",
+    "next": "862",
+    "prev": "860",
+    "questlines": [
+      "Uptime Dreamin"
+    ]
+  },
+  {
+    "availableFrom": 1649912400000,
+    "availableTo": 1650344399000,
+    "id": "862",
+    "next": null,
+    "prev": "861",
+    "questlines": [
+      "Uptime Dreamin"
     ]
   }
 ]

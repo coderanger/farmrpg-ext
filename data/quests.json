@@ -26937,6 +26937,27 @@
     "availableTo": "Apr 30"
   },
   {
+    "firstSeen": 1649973329421,
+    "itemRequests": [],
+    "itemRewards": [
+      {
+        "id": "508",
+        "quantity": 5
+      }
+    ],
+    "id": "859",
+    "name": "Uptime Dreamin I",
+    "from": "Charles Horsington III",
+    "fromImage": "/img/items/npc_horse.png",
+    "text": "Neigh….\n\nCharles pushes a card toward you.\n\n“What’s the difference between a computational device and a horse?\n\nA horse can get rid of its bugs…”",
+    "requiresFarming": 5,
+    "requiresCrafting": 5,
+    "requiresFishing": 5,
+    "requiresExploring": 5,
+    "availableFrom": "Apr 14",
+    "availableTo": "Apr 18"
+  },
+  {
     "firstSeen": 1646727900326,
     "itemRequests": [
       {
@@ -26975,6 +26996,74 @@
     "requiresFarming": 25,
     "requiresCrafting": 6,
     "requiresExploring": 20
+  },
+  {
+    "firstSeen": 1649973335926,
+    "itemRequests": [],
+    "itemRewards": [
+      {
+        "id": "500",
+        "quantity": 5
+      }
+    ],
+    "id": "860",
+    "name": "Uptime Dreamin II",
+    "from": "Charles Horsington III",
+    "fromImage": "/img/items/npc_horse.png",
+    "text": "Neigh neigh neigh.\n\nCharles pushes another card toward you.\n\n“Thanks for your patience…\n\nWhile the server was horsing around…”",
+    "requiresFarming": 20,
+    "requiresCrafting": 20,
+    "requiresFishing": 20,
+    "requiresExploring": 20,
+    "availableFrom": "Apr 14",
+    "availableTo": "Apr 18"
+  },
+  {
+    "firstSeen": 1649973342680,
+    "itemRequests": [],
+    "itemRewards": [
+      {
+        "id": "123",
+        "quantity": 100
+      }
+    ],
+    "id": "861",
+    "name": "Uptime Dreamin III",
+    "from": "Charles Horsington III",
+    "fromImage": "/img/items/npc_horse.png",
+    "text": "Neigh neigh neigh, neigh.\n\nCharles pushes another another card toward you.\n\nHopefully the servers will be more stable ;)",
+    "requiresFarming": 50,
+    "requiresCrafting": 50,
+    "requiresFishing": 50,
+    "requiresExploring": 50,
+    "availableFrom": "Apr 14",
+    "availableTo": "Apr 18"
+  },
+  {
+    "firstSeen": 1649973347318,
+    "itemRequests": [],
+    "itemRewards": [
+      {
+        "id": "346",
+        "quantity": 10
+      },
+      {
+        "id": "363",
+        "quantity": 10
+      },
+      {
+        "id": "347",
+        "quantity": 22
+      }
+    ],
+    "id": "862",
+    "name": "Uptime Dreamin IV",
+    "from": "Charles Horsington III",
+    "fromImage": "/img/items/npc_horse.png",
+    "text": "Charles hopes that the rest of the spring egg celebration goes well, without a hitch.",
+    "requiresFarming": 75,
+    "availableFrom": "Apr 14",
+    "availableTo": "Apr 18"
   },
   {
     "firstSeen": 1646727898331,

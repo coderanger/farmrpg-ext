@@ -78,6 +78,15 @@
     "goalQuantity": 1000000,
     "rewardItem": "Arnold Palmer",
     "rewardQuantity": 4,
-    "progress": 109205
+    "progress": 112063
+  },
+  {
+    "firstSeen": 1649973356599,
+    "date": "2022-04-14",
+    "goalItem": "Slimestone",
+    "goalQuantity": 1000000,
+    "rewardItem": "Herbs",
+    "rewardQuantity": 10,
+    "progress": 2745799
   }
 ]

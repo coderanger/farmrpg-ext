@@ -216,6 +216,10 @@
     "id": "336"
   },
   {
+    "dropMode": "explores",
+    "id": "527"
+  },
+  {
     "dropMode": "fishes",
     "id": "309"
   },
@@ -349,11 +353,11 @@
   },
   {
     "dropMode": "explores",
-    "id": "334"
+    "id": "150"
   },
   {
     "dropMode": "explores",
-    "id": "150"
+    "id": "334"
   },
   {
     "dropMode": "fishes",
@@ -566,6 +570,10 @@
   {
     "dropMode": "fishes",
     "id": "225"
+  },
+  {
+    "dropMode": "fishes",
+    "id": "526"
   },
   {
     "dropMode": "fishes",

@@ -86,7 +86,8 @@
       "Strange Letter",
       "Runestone 14",
       "Caterpillar",
-      "Medium Chest 01"
+      "Medium Chest 01",
+      "Egg 08"
     ],
     "id": "3",
     "type": "explore",
@@ -301,7 +302,8 @@
       "Flier",
       "Globber",
       "Runestone 15",
-      "Gold Flier"
+      "Gold Flier",
+      "Egg 07"
     ],
     "id": "4",
     "type": "fishing",
