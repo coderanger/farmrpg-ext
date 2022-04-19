@@ -8,7 +8,7 @@ Bugs with this extension should NOT be submitted to FarmRPG staff. This extensio
 
 ## Installation
 
-The browser extension is currently in limited beta. Please contact coderanger in-game or on Discord if you would like access.
+You can install it from https://addons.mozilla.org/en-US/firefox/addon/farmrpg-extensions/.
 
 ## Will this work with Chrome/Safari/iOS/Android?
 
