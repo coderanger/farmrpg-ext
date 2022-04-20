@@ -392,3 +392,26 @@
 
 - box: 5 Gold
   gold: 5
+
+- box: frank's Basket
+  gold: 25
+  items:
+    Apple: 25
+    Blue Feathers: 5
+    Bunny Ears: 1
+    Carrot Seeds: 12
+    Egg 06: 1
+    Purple Flower: 3
+
+- box: Mystical Chest 01
+  key: Treasure Key
+  items:
+    Magicite: 4
+    Mystic Ring: 10
+    Wizard Hat: 1
+    Shimmer Ring: 10
+    Winged Amulet: 1
+    Square Key: 3
+    Egyptian Necklace: 1
+    Gold Coral: 3
+    Goldgill: 5

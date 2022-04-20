@@ -6125,8 +6125,48 @@
     "availableFrom": 1649826000000,
     "availableTo": 1651381199000,
     "id": "839",
-    "next": null,
+    "next": "840",
     "prev": "834",
+    "questlines": [
+      "Eggstremely Valuable"
+    ]
+  },
+  {
+    "availableFrom": 1649826000000,
+    "availableTo": 1651381199000,
+    "id": "840",
+    "next": "841",
+    "prev": "839",
+    "questlines": [
+      "Eggstremely Valuable"
+    ]
+  },
+  {
+    "availableFrom": 1649826000000,
+    "availableTo": 1651381199000,
+    "id": "841",
+    "next": "842",
+    "prev": "840",
+    "questlines": [
+      "Eggstremely Valuable"
+    ]
+  },
+  {
+    "availableFrom": 1649826000000,
+    "availableTo": 1651381199000,
+    "id": "842",
+    "next": "843",
+    "prev": "841",
+    "questlines": [
+      "Eggstremely Valuable"
+    ]
+  },
+  {
+    "availableFrom": 1649826000000,
+    "availableTo": 1651381199000,
+    "id": "843",
+    "next": null,
+    "prev": "842",
     "questlines": [
       "Eggstremely Valuable"
     ]
@@ -6300,5 +6340,11 @@
     "questlines": [
       "Uptime Dreamin"
     ]
+  },
+  {
+    "availableFrom": 1649998800000,
+    "availableTo": 1650430799000,
+    "id": "863",
+    "questlines": []
   }
 ]

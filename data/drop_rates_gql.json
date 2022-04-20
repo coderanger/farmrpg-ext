@@ -217,29 +217,29 @@
   },
   {
     "drops": 8,
-    "hits": 31164,
+    "hits": 31452,
     "item": "Egg 03",
     "location": "Carrot Seeds",
     "mode": "harvests",
-    "rate": 3895.5,
+    "rate": 3931.5,
     "rate_type": "normal"
   },
   {
-    "drops": 128,
-    "hits": 31164,
+    "drops": 130,
+    "hits": 31452,
     "item": "Gold Carrot",
     "location": "Carrot Seeds",
     "mode": "harvests",
-    "rate": 243.46875,
+    "rate": 241.93846153846152,
     "rate_type": "normal"
   },
   {
-    "drops": 220,
-    "hits": 31164,
+    "drops": 223,
+    "hits": 31452,
     "item": "Runestone 01",
     "location": "Carrot Seeds",
     "mode": "harvests",
-    "rate": 141.65454545454546,
+    "rate": 141.0403587443946,
     "rate_type": "normal"
   },
   {
@@ -1098,75 +1098,75 @@
     "rate_type": "normal"
   },
   {
-    "drops": 370615,
-    "hits": 2011655,
+    "drops": 502693,
+    "hits": 2728455,
     "item": "Barracuda",
     "location": "Large Island",
     "mode": "fishes",
-    "rate": 5.427883383025511,
+    "rate": 5.42767653418687,
     "rate_type": "normal"
   },
   {
-    "drops": 252725,
-    "hits": 2012855,
+    "drops": 342602,
+    "hits": 2729655,
     "item": "Plumbfish",
     "location": "Large Island",
     "mode": "fishes",
-    "rate": 7.96460579681472,
+    "rate": 7.967422840497137,
     "rate_type": "normal"
   },
   {
-    "drops": 171656,
-    "hits": 2012855,
+    "drops": 232825,
+    "hits": 2729655,
     "item": "Ruby Coral",
     "location": "Large Island",
     "mode": "fishes",
-    "rate": 11.726097543925059,
+    "rate": 11.724063137549662,
     "rate_type": "normal"
   },
   {
-    "drops": 299828,
-    "hits": 2012855,
+    "drops": 407081,
+    "hits": 2729655,
     "item": "Sea Catfish",
     "location": "Large Island",
     "mode": "fishes",
-    "rate": 6.713365662980109,
+    "rate": 6.7054345449677095,
     "rate_type": "normal"
   },
   {
-    "drops": 191362,
-    "hits": 2012855,
+    "drops": 259193,
+    "hits": 2729655,
     "item": "Serpent Eel",
     "location": "Large Island",
     "mode": "fishes",
-    "rate": 10.518572130308003,
+    "rate": 10.531360800638906,
     "rate_type": "normal"
   },
   {
-    "drops": 218673,
-    "hits": 2012855,
+    "drops": 296486,
+    "hits": 2729655,
     "item": "Spiral Shell",
     "location": "Large Island",
     "mode": "fishes",
-    "rate": 9.204862968907912,
+    "rate": 9.20669104106096,
     "rate_type": "normal"
   },
   {
-    "drops": 505478,
-    "hits": 2004455,
+    "drops": 686101,
+    "hits": 2720855,
     "item": "Swordfish",
     "location": "Large Island",
     "mode": "fishes",
-    "rate": 3.965464372336679,
+    "rate": 3.965677065038529,
     "rate_type": "normal"
   },
   {
-    "drops": 194,
-    "hits": 2012855,
+    "drops": 257,
+    "hits": 2729655,
     "item": "Tribal Staff",
     "location": "Large Island",
     "mode": "fishes",
-    "rate": 10375.541237113403,
+    "rate": 10621.225680933852,
     "rate_type": "normal"
   },
   {
@@ -3852,57 +3852,57 @@
     "rate_type": "manual_fishing"
   },
   {
-    "drops": 5,
-    "hits": 1216,
+    "drops": 25,
+    "hits": 4108,
     "item": "Cogwheel",
     "location": "Small Pond",
     "mode": "fishes",
-    "rate": 243.2,
+    "rate": 164.32,
     "rate_type": "manual_fishing"
   },
   {
-    "drops": 559,
-    "hits": 1216,
+    "drops": 1833,
+    "hits": 4108,
     "item": "Drum",
     "location": "Small Pond",
     "mode": "fishes",
-    "rate": 2.1753130590339893,
+    "rate": 2.2411347517730498,
     "rate_type": "manual_fishing"
   },
   {
-    "drops": 50,
-    "hits": 1216,
+    "drops": 144,
+    "hits": 4108,
     "item": "Fish Bones",
     "location": "Small Pond",
     "mode": "fishes",
-    "rate": 24.32,
+    "rate": 28.52777777777778,
     "rate_type": "manual_fishing"
   },
   {
-    "drops": 56,
-    "hits": 1216,
+    "drops": 204,
+    "hits": 4108,
     "item": "Gold Drum",
     "location": "Small Pond",
     "mode": "fishes",
-    "rate": 21.714285714285715,
+    "rate": 20.137254901960784,
     "rate_type": "manual_fishing"
   },
   {
-    "drops": 1,
-    "hits": 1216,
+    "drops": 3,
+    "hits": 4108,
     "item": "Small Key",
     "location": "Small Pond",
     "mode": "fishes",
-    "rate": 1216.0,
+    "rate": 1369.3333333333333,
     "rate_type": "manual_fishing"
   },
   {
-    "drops": 545,
-    "hits": 1216,
+    "drops": 1899,
+    "hits": 4108,
     "item": "Yellow Perch",
     "location": "Small Pond",
     "mode": "fishes",
-    "rate": 2.231192660550459,
+    "rate": 2.163243812532912,
     "rate_type": "manual_fishing"
   },
   {

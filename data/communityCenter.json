@@ -87,6 +87,60 @@
     "goalQuantity": 1000000,
     "rewardItem": "Herbs",
     "rewardQuantity": 10,
-    "progress": 2745799
+    "progress": 2754698
+  },
+  {
+    "firstSeen": 1650050206583,
+    "date": "2022-04-15",
+    "goalItem": "Clownfish",
+    "goalQuantity": 750000,
+    "rewardItem": "Spiked Shell",
+    "rewardQuantity": 10,
+    "progress": 964498
+  },
+  {
+    "firstSeen": 1650131697407,
+    "date": "2022-04-16",
+    "goalItem": "Moonstone",
+    "goalQuantity": 1500000,
+    "rewardItem": "Mystical Chest 01",
+    "rewardQuantity": 1,
+    "progress": 1528939
+  },
+  {
+    "firstSeen": 1650172330290,
+    "date": "2022-04-17",
+    "goalItem": "Apple",
+    "goalQuantity": 1000000,
+    "rewardItem": "Egg 12",
+    "rewardQuantity": 1,
+    "progress": 1136805
+  },
+  {
+    "firstSeen": 1650258412593,
+    "date": "2022-04-18",
+    "goalItem": "Cabbage",
+    "goalQuantity": 1400000,
+    "rewardItem": "Small Screw",
+    "rewardQuantity": 10,
+    "progress": 654342
+  },
+  {
+    "firstSeen": 1650344864425,
+    "date": "2022-04-19",
+    "goalItem": "Barracuda",
+    "goalQuantity": 1000000,
+    "rewardItem": "Gold Coral",
+    "rewardQuantity": 10,
+    "progress": 1139044
+  },
+  {
+    "firstSeen": 1650485061422,
+    "date": "2022-04-20",
+    "goalItem": "Pine Cone",
+    "goalQuantity": 750000,
+    "rewardItem": "Gold Feather",
+    "rewardQuantity": 10,
+    "progress": 1256593
   }
 ]

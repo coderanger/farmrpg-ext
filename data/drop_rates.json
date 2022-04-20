@@ -86,9 +86,9 @@
   },
   {
     "drop_rates": {
-      "Egg 03": 3895.5,
-      "Gold Carrot": 243.46875,
-      "Runestone 01": 141.65454545454546
+      "Egg 03": 3931.5,
+      "Gold Carrot": 241.93846153846152,
+      "Runestone 01": 141.0403587443946
     },
     "iron_depot_rates": {},
     "location": "Carrot Seeds",
@@ -405,14 +405,14 @@
   },
   {
     "drop_rates": {
-      "Barracuda": 5.427883383025511,
-      "Plumbfish": 7.96460579681472,
-      "Ruby Coral": 11.726097543925059,
-      "Sea Catfish": 6.713365662980109,
-      "Serpent Eel": 10.518572130308003,
-      "Spiral Shell": 9.204862968907912,
-      "Swordfish": 3.965464372336679,
-      "Tribal Staff": 10375.541237113403
+      "Barracuda": 5.42767653418687,
+      "Plumbfish": 7.967422840497137,
+      "Ruby Coral": 11.724063137549662,
+      "Sea Catfish": 6.7054345449677095,
+      "Serpent Eel": 10.531360800638906,
+      "Spiral Shell": 9.20669104106096,
+      "Swordfish": 3.965677065038529,
+      "Tribal Staff": 10621.225680933852
     },
     "iron_depot_rates": {},
     "location": "Large Island",
@@ -642,12 +642,12 @@
     "iron_depot_rates": {},
     "location": "Small Pond",
     "manual_fish_rates": {
-      "Cogwheel": 243.2,
-      "Drum": 2.1753130590339893,
-      "Fish Bones": 24.32,
-      "Gold Drum": 21.714285714285715,
-      "Small Key": 1216.0,
-      "Yellow Perch": 2.231192660550459
+      "Cogwheel": 164.32,
+      "Drum": 2.2411347517730498,
+      "Fish Bones": 28.52777777777778,
+      "Gold Drum": 20.137254901960784,
+      "Small Key": 1369.3333333333333,
+      "Yellow Perch": 2.163243812532912
     },
     "mode": "fishes"
   },

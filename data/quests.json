@@ -26383,6 +26383,181 @@
     "requiresFishing": 5
   },
   {
+    "firstSeen": 1650226616787,
+    "itemRequests": [
+      {
+        "id": "526",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "509",
+        "quantity": 1
+      },
+      {
+        "id": "84",
+        "quantity": 25
+      },
+      {
+        "id": "194",
+        "quantity": 25
+      },
+      {
+        "id": "140",
+        "quantity": 10
+      }
+    ],
+    "id": "840",
+    "name": "Eggstremely Valuable X",
+    "from": "Vincent",
+    "fromImage": "/img/items/a_047.png",
+    "text": "Vincent’s chances of finding an egg are really slim now. Even though it’s a bit depressing to be so thoroughly defeated at searching for eggs, Vincent is completely amazed to see these legends turning out to be true. It may be enough to just have his curiosity satisfied. Nevertheless, he’s not giving up his search.\n\nHave you found a new egg?",
+    "requiresFarming": 5,
+    "requiresCrafting": 5,
+    "requiresFishing": 5,
+    "requiresExploring": 5,
+    "availableFrom": "Apr 13",
+    "availableTo": "Apr 30"
+  },
+  {
+    "firstSeen": 1650226622574,
+    "itemRequests": [
+      {
+        "id": "531",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "389",
+        "quantity": 10
+      },
+      {
+        "id": "123",
+        "quantity": 100
+      },
+      {
+        "id": "120",
+        "quantity": 100
+      },
+      {
+        "id": "466",
+        "quantity": 2
+      },
+      {
+        "id": "263",
+        "quantity": 10
+      }
+    ],
+    "id": "841",
+    "name": "Eggstremely Valuable XI",
+    "from": "Vincent",
+    "fromImage": "/img/items/a_047.png",
+    "text": "Vincent can’t wait to see all 12 eggs now. You’re so close!\n\nWill you continue and finish the search?",
+    "requiresFarming": 5,
+    "requiresCrafting": 5,
+    "requiresFishing": 5,
+    "requiresExploring": 5,
+    "availableFrom": "Apr 13",
+    "availableTo": "Apr 30"
+  },
+  {
+    "firstSeen": 1650226627545,
+    "itemRequests": [
+      {
+        "id": "527",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "454",
+        "quantity": 1
+      }
+    ],
+    "id": "842",
+    "name": "Eggstremely Valuable XII",
+    "from": "Vincent",
+    "fromImage": "/img/items/a_047.png",
+    "text": "Vincent hopes the legend of the golden egg is true. Even if you find it, Vincent just wants to see it.\n\nDid you find the last decorated egg?",
+    "requiresFarming": 20,
+    "requiresCrafting": 20,
+    "requiresFishing": 20,
+    "requiresExploring": 20,
+    "availableFrom": "Apr 13",
+    "availableTo": "Apr 30"
+  },
+  {
+    "firstSeen": 1650226635393,
+    "itemRequests": [],
+    "itemRewards": [
+      {
+        "id": "533",
+        "quantity": 1
+      },
+      {
+        "id": "521",
+        "quantity": 1
+      },
+      {
+        "id": "522",
+        "quantity": 1
+      },
+      {
+        "id": "523",
+        "quantity": 1
+      },
+      {
+        "id": "524",
+        "quantity": 1
+      },
+      {
+        "id": "525",
+        "quantity": 1
+      },
+      {
+        "id": "526",
+        "quantity": 1
+      },
+      {
+        "id": "518",
+        "quantity": 1
+      },
+      {
+        "id": "527",
+        "quantity": 1
+      },
+      {
+        "id": "528",
+        "quantity": 1
+      },
+      {
+        "id": "529",
+        "quantity": 1
+      },
+      {
+        "id": "530",
+        "quantity": 1
+      },
+      {
+        "id": "531",
+        "quantity": 1
+      }
+    ],
+    "id": "843",
+    "name": "Eggstremely Valuable XIII",
+    "from": "Vincent",
+    "fromImage": "/img/items/a_047.png",
+    "text": "You’re not going to believe this! Vincent found the golden egg!\n\nHe put all of the 12 decorated eggs together on a plate and they began to glow a soft red glow. The eggs glowed for hours and did nothing else. Confused, Vincent picked up the plate of eggs and moved toward his table. The eggs started glowing a soft green, but turned red again when he put the plate down.\n\nVincent picked the plate up again and started walking outside. The eggs glowed green whenever he was moving and got brighter when he moved toward the highland hills. So, he kept walking with the eggs right up to the center of the hills.\n\nSomewhere near the center of the hills, the eggs flashed like noonday sun. Vincent immediately stopped and sat down with the eggs while he waited for his eyes to readjust after the flash. When he finally looked around, Vincent saw something shiny in a knot of grass. It was the golden egg!\n\nThe decorated eggs stopped glowing after that flash, and nothing more happened when Vincent added the golden egg to the plate of decorated eggs. Whatever magic was at work in the eggs seems to be at rest now.\n\nNow, Vincent doesn’t know what to do with the eggs. He would love to make some money from them, but he feels like it isn’t really earned for his part. He’s also plenty satisfied just seeing legends he heard come to life.\n\nVincent thinks you should take the eggs. He appreciates all your hard work and figures that you deserve the reward for your efforts.",
+    "requiresFarming": 20,
+    "requiresCrafting": 20,
+    "requiresFishing": 20,
+    "requiresExploring": 20,
+    "availableFrom": "Apr 13",
+    "availableTo": "Apr 30"
+  },
+  {
     "firstSeen": 1649903355140,
     "itemRequests": [
       {
@@ -27064,6 +27239,28 @@
     "requiresFarming": 75,
     "availableFrom": "Apr 14",
     "availableTo": "Apr 18"
+  },
+  {
+    "firstSeen": 1650046752282,
+    "itemRequests": [
+      {
+        "id": "123",
+        "quantity": 525
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "522",
+        "quantity": 1
+      }
+    ],
+    "id": "863",
+    "name": "Eggstra Profits",
+    "from": "Borgen",
+    "fromImage": "/img/items/borgen.png",
+    "text": "Borgen heard there was really high demand for a certain item he was selling last week. He's pretty egg-cited to make a profit on this opportunity...",
+    "availableFrom": "Apr 15",
+    "availableTo": "Apr 19"
   },
   {
     "firstSeen": 1646727898331,

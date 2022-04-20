@@ -922,6 +922,15 @@
     "fleaMarket": 2
   },
   {
+    "firstSeen": 1650046739279,
+    "id": "541",
+    "name": "Chocolate Bunny",
+    "image": "/img/items/chocobunny.png",
+    "event": true,
+    "xp": 2500,
+    "rarity": "Uncommon"
+  },
+  {
     "name": "Christmas Present 01",
     "id": "399",
     "image": "/img/items/7468.png",
@@ -1974,6 +1983,13 @@
     "rarity": "Uncommon"
   },
   {
+    "firstSeen": 1650485248728,
+    "id": "544",
+    "name": "Friendship Bracelet",
+    "image": "/img/items/3788.png",
+    "rarity": "Super Rare"
+  },
+  {
     "name": "Frog",
     "id": "479",
     "image": "/img/items/frog.png",
@@ -2721,6 +2737,13 @@
     "craftPrice": 10
   },
   {
+    "firstSeen": 1650485237626,
+    "id": "542",
+    "name": "Headdress of Luna",
+    "image": "/img/items/3911.png",
+    "rarity": "Super Rare"
+  },
+  {
     "firstSeen": 1644110835040,
     "id": "486",
     "name": "Heart Necklace",
@@ -3016,7 +3039,8 @@
         "quantity": 1
       }
     ],
-    "craftPrice": 1000000
+    "craftPrice": 1000000,
+    "mastery": true
   },
   {
     "name": "Iron",
@@ -3313,7 +3337,8 @@
         "quantity": 1
       }
     ],
-    "craftPrice": 2000000
+    "craftPrice": 2000000,
+    "mastery": true
   },
   {
     "name": "Leather",
@@ -5215,7 +5240,8 @@
     "image": "/img/items/9380.png",
     "sellPrice": 1750,
     "xp": 1750,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "fleaMarket": 10
   },
   {
     "name": "Small Spring",
@@ -5819,6 +5845,13 @@
     "image": "/img/items/trident.png",
     "sellPrice": 100000,
     "xp": 5000,
+    "rarity": "Super Rare"
+  },
+  {
+    "firstSeen": 1650485242352,
+    "id": "543",
+    "name": "Trigon Knot",
+    "image": "/img/items/3179.png",
     "rarity": "Super Rare"
   },
   {
