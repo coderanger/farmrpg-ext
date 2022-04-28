@@ -301,7 +301,11 @@
       "818",
       "819",
       "820",
-      "821"
+      "821",
+      "868",
+      "869",
+      "870",
+      "871"
     ],
     "secondary": false
   },
@@ -708,13 +712,26 @@
     "secondary": false
   },
   {
+    "image": "/img/items/a_034.png",
+    "name": "Fire Alarm",
+    "quests": [
+      "178",
+      "182",
+      "188",
+      "194",
+      "200",
+      "201"
+    ],
+    "secondary": false
+  },
+  {
     "image": "/img/items/a_028.png",
     "name": "Fire in the Belly",
     "quests": [
       "194",
       "200"
     ],
-    "secondary": false
+    "secondary": true
   },
   {
     "image": "/img/items/a_048.png",
@@ -1008,7 +1025,15 @@
       "731",
       "732",
       "733",
-      "734"
+      "734",
+      "835",
+      "836",
+      "837",
+      "838",
+      "857",
+      "858",
+      "864",
+      "865"
     ],
     "secondary": false
   },
@@ -1217,7 +1242,15 @@
       "731",
       "732",
       "733",
-      "734"
+      "734",
+      "835",
+      "836",
+      "837",
+      "838",
+      "857",
+      "858",
+      "864",
+      "865"
     ],
     "secondary": true
   },
@@ -1260,6 +1293,15 @@
     "name": "Temporary Prankster",
     "quests": [
       "342"
+    ],
+    "secondary": false
+  },
+  {
+    "image": "/img/items/a_088.png",
+    "name": "The Big Cleanup",
+    "quests": [
+      "866",
+      "867"
     ],
     "secondary": false
   },

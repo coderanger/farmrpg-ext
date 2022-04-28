@@ -298,7 +298,7 @@ def gen_questlines():
             questlines[quest.name].append({"id": quest.id, "weight": 1})
 
     # Questlines considered secondary so they don't count for prev/next links.
-    secondary = {"You Must Build A Boat", "Return Our Lost Friend"}
+    secondary = {"You Must Build A Boat", "Return Our Lost Friend", "Fire in the Belly"}
 
     def override(
         questline: str, quest: str, weight: Optional[Union[int, float]] = None
@@ -333,6 +333,12 @@ def gen_questlines():
     override("Strange Stones", "Return Our Lost Friend IV", 16)
     override("Strange Stones", "Return Our Lost Friend V", 17)
     override("Strange Stones", "Lost and Found", 18)
+    override("Fire Alarm", "Fire Alarm")
+    override("Fire Alarm", "Fire in the Field")
+    override("Fire Alarm", "Fire Unstable")
+    override("Fire Alarm", "Fire in the Belly I")
+    override("Fire Alarm", "Fire in the Belly II")
+    override("Fire Alarm", "Fire in the Forest")
 
     def irange(start: int, stop: int) -> range:
         return range(start, stop + 1)
@@ -347,7 +353,7 @@ def gen_questlines():
         ("Consequences and Defenses", irange(9, 22)),
         ("Defenses and Consequences", irange(11, 22)),
         ("Shadow’s Reach", irange(1, 2)),
-        ("Strange Companions", irange(1, 6)),
+        ("Strange Companions", irange(1, 14)),
     ]
     for base, subs in main_quests:
         secondary.add(base)
@@ -604,6 +610,21 @@ def gen_location_extra():
     return sorted(loc_extra, key=lambda l: l["id"])
 
 
+def gen_item_api():
+    try:
+        existing_item_api = load_fixture("item_api")
+    except Exception:
+        existing_item_api = []
+    item_api: dict[str, dict] = {i["id"]: i for i in existing_item_api}
+    with httpx.Client() as c:
+        for item in load_items():
+            if item.id not in item_api:
+                api_data = c.get(f"https://farmrpg.com/api/item/{item.id}").json()[0]
+                api_data["id"] = str(api_data["id"])
+                item_api[item.id] = api_data
+    return sorted(item_api.values(), key=lambda i: i["id"])
+
+
 def gen_tower():
     tower_data_path = Path(__file__) / ".." / ".." / "data" / "tower.txt"
     tower_data = tower_data_path.resolve().open("r").read()
@@ -644,6 +665,7 @@ GEN_FIXTURES = {
     "locksmith_boxes": gen_locksmith_boxes,
     "locksmith_items": gen_locksmith_items,
     "location_extra": gen_location_extra,
+    "item_api": gen_item_api,
     "tower": gen_tower,
 }
 

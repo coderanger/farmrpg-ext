@@ -4097,6 +4097,14 @@
     "mastery": true
   },
   {
+    "firstSeen": 1650690623570,
+    "id": "545",
+    "name": "Peculiar Gem",
+    "image": "/img/items/4255.png",
+    "xp": 5000,
+    "rarity": "Super Rare"
+  },
+  {
     "name": "Pepper Seeds",
     "id": "12",
     "image": "/img/items/8301.png",
@@ -5322,7 +5330,8 @@
     "sellPrice": 50000,
     "xp": 2500,
     "rarity": "Rare",
-    "firstSeen": 1642564800000
+    "firstSeen": 1642564800000,
+    "fleaMarket": 10
   },
   {
     "name": "Spiral Shell",

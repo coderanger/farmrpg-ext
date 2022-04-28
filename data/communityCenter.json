@@ -141,6 +141,78 @@
     "goalQuantity": 750000,
     "rewardItem": "Gold Feather",
     "rewardQuantity": 10,
-    "progress": 1256593
+    "progress": 1323752
+  },
+  {
+    "firstSeen": 1650518351921,
+    "date": "2022-04-21",
+    "goalItem": "Skull Coin",
+    "goalQuantity": 100000,
+    "rewardItem": "Grab Bag 06",
+    "rewardQuantity": 5,
+    "progress": 152673
+  },
+  {
+    "firstSeen": 1650620795419,
+    "date": "2022-04-22",
+    "goalItem": "Horned Beetle",
+    "goalQuantity": 1250000,
+    "rewardItem": "Lemonade",
+    "rewardQuantity": 75,
+    "progress": 1467293
+  },
+  {
+    "firstSeen": 1650741918670,
+    "date": "2022-04-23",
+    "goalItem": "Blue Catfish",
+    "goalQuantity": 750000,
+    "rewardItem": "Fishing Net",
+    "rewardQuantity": 75,
+    "progress": 1008560
+  },
+  {
+    "firstSeen": 1650848676179,
+    "date": "2022-04-24",
+    "goalItem": "Aquamarine",
+    "goalQuantity": 1125000,
+    "rewardItem": "Ancient Coin",
+    "rewardQuantity": 250,
+    "progress": 804313
+  },
+  {
+    "firstSeen": 1650876382324,
+    "date": "2022-04-25",
+    "goalItem": "Bacon",
+    "goalQuantity": 250000,
+    "rewardItem": "Steak",
+    "rewardQuantity": 10,
+    "progress": 319716
+  },
+  {
+    "firstSeen": 1651011584104,
+    "date": "2022-04-26",
+    "goalItem": "Chum",
+    "goalQuantity": 1500000,
+    "rewardItem": "Treasure Key",
+    "rewardQuantity": 5,
+    "progress": 910202
+  },
+  {
+    "firstSeen": 1651043899809,
+    "date": "2022-04-27",
+    "goalItem": "Board",
+    "goalQuantity": 750000,
+    "rewardItem": "Leather",
+    "rewardQuantity": 100,
+    "progress": 2543814
+  },
+  {
+    "firstSeen": 1651123433245,
+    "date": "2022-04-28",
+    "goalItem": "Dice",
+    "goalQuantity": 400000,
+    "rewardItem": "Honey",
+    "rewardQuantity": 15,
+    "progress": 312076
   }
 ]

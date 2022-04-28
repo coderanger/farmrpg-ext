@@ -970,6 +970,12 @@
     "beta": false
   },
   {
+    "firstSeen": 1650510437690,
+    "id": "317",
+    "image": "img/emblems/TowerLevel40W.png",
+    "beta": false
+  },
+  {
     "id": "319",
     "image": "img/emblems/SturdySword96.png",
     "beta": false
@@ -1010,6 +1016,12 @@
     "beta": false
   },
   {
+    "firstSeen": 1650510437695,
+    "id": "328",
+    "image": "img/emblems/TowerLevel40SoG.png",
+    "beta": false
+  },
+  {
     "id": "33",
     "image": "img/emblems/Acoustic96.png",
     "beta": false
@@ -1046,14 +1058,188 @@
     "beta": false
   },
   {
+    "firstSeen": 1650510437500,
+    "id": "337",
+    "image": "img/emblems/SeaCatfish96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1650510437303,
+    "id": "338",
+    "image": "img/emblems/GoatBrown96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1650510437306,
+    "id": "339",
+    "image": "img/emblems/GoatWhite96.png",
+    "beta": false
+  },
+  {
     "id": "34",
     "image": "img/emblems/FarmBeta96.png",
     "beta": true
   },
   {
+    "firstSeen": 1651092763056,
+    "id": "340",
+    "image": "img/emblems/EggMustachePatch96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1651092763401,
+    "id": "341",
+    "image": "img/emblems/EggBeardShaggy96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1651092762805,
+    "id": "342",
+    "image": "img/emblems/Beet96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1651092762808,
+    "id": "343",
+    "image": "img/emblems/Broccoli96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1651092762847,
+    "id": "344",
+    "image": "img/emblems/Carrot96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1651092762945,
+    "id": "345",
+    "image": "img/emblems/GoldEggplant96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1651092762946,
+    "id": "346",
+    "image": "img/emblems/GoldPeas96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1651092763148,
+    "id": "347",
+    "image": "img/emblems/Potato96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1651092763435,
+    "id": "348",
+    "image": "img/emblems/Tomato96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1651092763442,
+    "id": "349",
+    "image": "img/emblems/Watermelon96.png",
+    "beta": false
+  },
+  {
     "id": "35",
     "image": "img/emblems/Mallard96.png",
     "beta": true
+  },
+  {
+    "firstSeen": 1651092762849,
+    "id": "350",
+    "image": "img/emblems/CatPawTeal96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1651092762848,
+    "id": "351",
+    "image": "img/emblems/CatPawRbow96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1651092763432,
+    "id": "352",
+    "image": "img/emblems/ToadstoolPink96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1651092763434,
+    "id": "353",
+    "image": "img/emblems/ToadstoolRbow96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1651092763007,
+    "id": "354",
+    "image": "img/emblems/JelloOrange96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1651092763004,
+    "id": "355",
+    "image": "img/emblems/JelloGreen96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1651092762999,
+    "id": "356",
+    "image": "img/emblems/JelloBlue96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1651092763009,
+    "id": "357",
+    "image": "img/emblems/JelloRed96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1651092763008,
+    "id": "358",
+    "image": "img/emblems/JelloRbow96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1651092763008,
+    "id": "359",
+    "image": "img/emblems/JelloPink96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1651092763422,
+    "id": "360",
+    "image": "img/emblems/Strawberry96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1651092763076,
+    "id": "361",
+    "image": "img/emblems/OrangeGecko96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1651092762892,
+    "id": "362",
+    "image": "img/emblems/FlameOrb96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1651092762812,
+    "id": "363",
+    "image": "img/emblems/CaptainsLog96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1651092762989,
+    "id": "364",
+    "image": "img/emblems/Hammer96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1651092762840,
+    "id": "365",
+    "image": "img/emblems/CarbonSphere96.png",
+    "beta": false
   },
   {
     "id": "38",

@@ -1042,7 +1042,11 @@
   },
   {
     "id": "178",
-    "questlines": []
+    "next": "182",
+    "prev": null,
+    "questlines": [
+      "Fire Alarm"
+    ]
   },
   {
     "id": "179",
@@ -1067,7 +1071,11 @@
   },
   {
     "id": "182",
-    "questlines": []
+    "next": "188",
+    "prev": "178",
+    "questlines": [
+      "Fire Alarm"
+    ]
   },
   {
     "id": "183",
@@ -1096,7 +1104,11 @@
   },
   {
     "id": "188",
-    "questlines": []
+    "next": "194",
+    "prev": "182",
+    "questlines": [
+      "Fire Alarm"
+    ]
   },
   {
     "id": "189",
@@ -1142,8 +1154,9 @@
   {
     "id": "194",
     "next": "200",
-    "prev": null,
+    "prev": "188",
     "questlines": [
+      "Fire Alarm",
       "Fire in the Belly"
     ]
   },
@@ -1180,15 +1193,20 @@
   },
   {
     "id": "200",
-    "next": null,
+    "next": "201",
     "prev": "194",
     "questlines": [
+      "Fire Alarm",
       "Fire in the Belly"
     ]
   },
   {
     "id": "201",
-    "questlines": []
+    "next": null,
+    "prev": "200",
+    "questlines": [
+      "Fire Alarm"
+    ]
   },
   {
     "id": "202",
@@ -5222,7 +5240,7 @@
   },
   {
     "id": "734",
-    "next": null,
+    "next": "835",
     "prev": "733",
     "questlines": [
       "Main Story Quests",
@@ -5985,7 +6003,7 @@
   },
   {
     "id": "821",
-    "next": null,
+    "next": "868",
     "prev": "820",
     "questlines": [
       "A Way Back"
@@ -6119,6 +6137,42 @@
     "prev": "833",
     "questlines": [
       "Eggstremely Valuable"
+    ]
+  },
+  {
+    "id": "835",
+    "next": "836",
+    "prev": "734",
+    "questlines": [
+      "Main Story Quests",
+      "Strange Companions"
+    ]
+  },
+  {
+    "id": "836",
+    "next": "837",
+    "prev": "835",
+    "questlines": [
+      "Main Story Quests",
+      "Strange Companions"
+    ]
+  },
+  {
+    "id": "837",
+    "next": "838",
+    "prev": "836",
+    "questlines": [
+      "Main Story Quests",
+      "Strange Companions"
+    ]
+  },
+  {
+    "id": "838",
+    "next": "857",
+    "prev": "837",
+    "questlines": [
+      "Main Story Quests",
+      "Strange Companions"
     ]
   },
   {
@@ -6302,6 +6356,24 @@
     ]
   },
   {
+    "id": "857",
+    "next": "858",
+    "prev": "838",
+    "questlines": [
+      "Main Story Quests",
+      "Strange Companions"
+    ]
+  },
+  {
+    "id": "858",
+    "next": "864",
+    "prev": "857",
+    "questlines": [
+      "Main Story Quests",
+      "Strange Companions"
+    ]
+  },
+  {
     "availableFrom": 1649912400000,
     "availableTo": 1650344399000,
     "id": "859",
@@ -6346,5 +6418,75 @@
     "availableTo": 1650430799000,
     "id": "863",
     "questlines": []
+  },
+  {
+    "id": "864",
+    "next": "865",
+    "prev": "858",
+    "questlines": [
+      "Main Story Quests",
+      "Strange Companions"
+    ]
+  },
+  {
+    "id": "865",
+    "next": null,
+    "prev": "864",
+    "questlines": [
+      "Main Story Quests",
+      "Strange Companions"
+    ]
+  },
+  {
+    "availableFrom": 1650603600000,
+    "availableTo": 1651381199000,
+    "id": "866",
+    "next": "867",
+    "prev": null,
+    "questlines": [
+      "The Big Cleanup"
+    ]
+  },
+  {
+    "availableFrom": 1650603600000,
+    "availableTo": 1651381199000,
+    "id": "867",
+    "next": null,
+    "prev": "866",
+    "questlines": [
+      "The Big Cleanup"
+    ]
+  },
+  {
+    "id": "868",
+    "next": "869",
+    "prev": "821",
+    "questlines": [
+      "A Way Back"
+    ]
+  },
+  {
+    "id": "869",
+    "next": "870",
+    "prev": "868",
+    "questlines": [
+      "A Way Back"
+    ]
+  },
+  {
+    "id": "870",
+    "next": "871",
+    "prev": "869",
+    "questlines": [
+      "A Way Back"
+    ]
+  },
+  {
+    "id": "871",
+    "next": null,
+    "prev": "870",
+    "questlines": [
+      "A Way Back"
+    ]
   }
 ]

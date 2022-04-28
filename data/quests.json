@@ -26311,6 +26311,267 @@
     "availableTo": "Apr 30"
   },
   {
+    "firstSeen": 1651003905989,
+    "itemRequests": [
+      {
+        "id": "347",
+        "quantity": 20
+      },
+      {
+        "id": "346",
+        "quantity": 10
+      },
+      {
+        "id": "363",
+        "quantity": 10
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "473",
+        "quantity": 10
+      },
+      {
+        "id": "508",
+        "quantity": 10
+      },
+      {
+        "id": "500",
+        "quantity": 10
+      }
+    ],
+    "id": "835",
+    "name": "Strange Companions VII",
+    "from": "Geist",
+    "fromImage": "/img/items/npc_beast.png",
+    "text": "Before you can step outside, Beatrix asks you all to wait a few moments while she goes ahead. After several seconds, you all step outside and see what you can only believe to be a dragon. Geist dwarfs your home, and she’s more majestic than a mountain. As she lowers her head to address you, flame crackles from her nose and a different fire burns in her eyes. It can only be described as sheer intelligent determination.\n\n“Greetings, I am Geist, and I owe you my unending thanks and gratitude for your care and friendship of my dear friend Beatrix. Rest assured that she is well and unharmed. This has been a traumatic several weeks for her, and I hope to ease her pain by telling you the rest of our story. I know you don't know me, but I know you all very well, as well as Beatrix herself does. Our shared memories make you all so familiar to me, I apologize if I address you all as if I've known you for years, because, you see, I have.\n\nIn that moment, so long ago, when Beatrix laid herself down beside me, I wept for the state of the world, for the wars and hatred that even I did not understand. To see so small a human laid low in empathy broke my heart, and it was in that moment of sadness and desperation to not see the world torn apart that something deep inside me changed. As I bled out from my strange wound, I blacked out, and when I came to, I was not me, but I was a part of Beatrix, and she was a part of me.\n\nWe eventually learned that only one of us could manifest at once, and through our experiences, Beatrix became so despondent that the only thing I could do for my dear friend was lock our memories away and give her a fresh start in a small village to live our life as normal as possible.\n\nI tell you this, because I believe the injustices we have seen Ric impose on our small town are as cruel as we have ever witnessed, and we know the loss and pain of friend and family. I want to help so I offer you this, the knowledge I have of the peculiar gem. Indeed, I have heard of it and I know it has power that neither Beatrix nor I understand. It seems crucial to understand why Star might have mentioned it now, and together we should seek this item out.”\n\nThe group stands around for a moment, deep in thought, when Lorn breaks the silence, “I have heard of this peculiar gem from travelers before, passed down by generations, its value incalculable to anyone. It seems to me the best path forward would be to speak with our resident collector, Cecil, mayhap he has heard of this gem, or has acquired it himself? I have no other leads to offer at this time, unfortunately.”\nEveryone agrees this seems like a reasonable first step, and the group decide it best to bring Cecil an offering of goodwill, knowing he is more open to talking about his collection when he’s adding to it.",
+    "requiresFarming": 75,
+    "requiresExploring": 70,
+    "silverReward": 250000000
+  },
+  {
+    "firstSeen": 1651003971453,
+    "itemRequests": [
+      {
+        "id": "171",
+        "quantity": 500
+      },
+      {
+        "id": "42",
+        "quantity": 500
+      },
+      {
+        "id": "320",
+        "quantity": 400
+      },
+      {
+        "id": "172",
+        "quantity": 250
+      },
+      {
+        "id": "314",
+        "quantity": 400
+      },
+      {
+        "id": "492",
+        "quantity": 400
+      },
+      {
+        "id": "41",
+        "quantity": 500
+      },
+      {
+        "id": "287",
+        "quantity": 400
+      },
+      {
+        "id": "104",
+        "quantity": 400
+      },
+      {
+        "id": "52",
+        "quantity": 500
+      },
+      {
+        "id": "318",
+        "quantity": 400
+      },
+      {
+        "id": "176",
+        "quantity": 400
+      },
+      {
+        "id": "389",
+        "quantity": 60
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "508",
+        "quantity": 15
+      },
+      {
+        "id": "379",
+        "quantity": 25
+      },
+      {
+        "id": "84",
+        "quantity": 400
+      },
+      {
+        "id": "500",
+        "quantity": 15
+      },
+      {
+        "id": "346",
+        "quantity": 5
+      },
+      {
+        "id": "363",
+        "quantity": 5
+      },
+      {
+        "id": "347",
+        "quantity": 12
+      },
+      {
+        "id": "491",
+        "quantity": 5
+      }
+    ],
+    "id": "836",
+    "name": "Strange Companions VIII",
+    "from": "Cecil",
+    "fromImage": "/img/items/a_027.png",
+    "text": "As a group, it is decided that you and Rosalie are best suited to see Cecil, so you head off to town with your goods, and make your way through town. Cecil’s house is an oddity, older than many other homes in the town, but it has always seemed to come through tragedy untouched and looking quite pristine.\n\nRosalie knocks on Cecil’s door and at first, there is no answer. A few moments later, the large front door opens slowly, and Cecil appears with an annoyed look on his face. His eyes quickly flit to Rosalie and before she says anything, he looks to you and says quietly, “You may enter. The mage’s pupil is not allowed in under any circumstance. These are my terms.” His eyes look like they will brook no argument and Rosalie gives you a quizzical look before stepping away from the door.\n\nCecil opens the door wider and allows you inside. The majesty and size of his home is not lost on you in that moment, as the door opens to a great hallway full of trinkets and baubles that distract the eye and glitter in unique and fascinating ways. Cecil walks you to a room you’ve never been in before and your eyes are drawn to even more trinkets and the energy core you brought back from Romuska, placed on a mantle in a base overseeing the room. You notice a kind of black cord coming down the side of the mantle but before you can figure out where it goes, Cecil interrupts your reverie by coughing gently.\n\n“I know why you’re here, and I need your help. You see, Ric has been asking me for more and more money lately to fund his operation. Obviously, money is easy to come by, but I need to replenish my collection of items I sell to various vendors. In return, I will tell you what I know.”\n\nYou see no other avenue forward, and Cecil hands you a list of items he wants you to acquire. It’s strangely similar to items Rosalie and Star have asked you for in the past.",
+    "requiresFarming": 75,
+    "requiresExploring": 70
+  },
+  {
+    "firstSeen": 1651011206267,
+    "itemRequests": [
+      {
+        "id": "188",
+        "quantity": 500
+      },
+      {
+        "id": "54",
+        "quantity": 500
+      },
+      {
+        "id": "144",
+        "quantity": 500
+      },
+      {
+        "id": "475",
+        "quantity": 30
+      },
+      {
+        "id": "45",
+        "quantity": 400
+      },
+      {
+        "id": "199",
+        "quantity": 400
+      },
+      {
+        "id": "465",
+        "quantity": 20
+      },
+      {
+        "id": "177",
+        "quantity": 400
+      },
+      {
+        "id": "100",
+        "quantity": 400
+      },
+      {
+        "id": "69",
+        "quantity": 400
+      },
+      {
+        "id": "249",
+        "quantity": 400
+      },
+      {
+        "id": "124",
+        "quantity": 500
+      },
+      {
+        "id": "96",
+        "quantity": 400
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "508",
+        "quantity": 20
+      },
+      {
+        "id": "379",
+        "quantity": 30
+      },
+      {
+        "id": "84",
+        "quantity": 400
+      },
+      {
+        "id": "500",
+        "quantity": 30
+      }
+    ],
+    "id": "837",
+    "name": "Strange Companions IX",
+    "from": "Cecil",
+    "fromImage": "/img/items/a_027.png",
+    "text": "Your task completed, Cecil greedily eyes the items and proceeds to stuff them all into a bag in the hallway, his eyes never watching where his hands move, he begins to gush to you,\n“Thank you! Finding some of these things are super difficult and you wouldn’t believe how useful and valuable some of these items are! Could you help me out with a few more items?”\n\nHe hands you a second list as suspicious as the first and pushes you out the door before you can get a word in edgewise.",
+    "requiresFarming": 75,
+    "requiresExploring": 70
+  },
+  {
+    "firstSeen": 1651011265369,
+    "itemRequests": [
+      {
+        "id": "499",
+        "quantity": 400
+      },
+      {
+        "id": "250",
+        "quantity": 50
+      },
+      {
+        "id": "44",
+        "quantity": 100
+      },
+      {
+        "id": "92",
+        "quantity": 200
+      },
+      {
+        "id": "281",
+        "quantity": 25
+      },
+      {
+        "id": "62",
+        "quantity": 25
+      },
+      {
+        "id": "85",
+        "quantity": 50
+      }
+    ],
+    "itemRewards": [],
+    "id": "838",
+    "name": "Strange Companions X",
+    "from": "Rosalie",
+    "fromImage": "/img/items/a_098.png",
+    "text": "When you return to Cecil’s house, he is positively beaming as you hand him the items. He carefully takes a ring off his finger and puts a new ring on before putting the rest in the same bag by the door. Curiously, he begins to wave you inside and suddenly his eyes turn cold.\n\n“Get out! If you mention any of this to Ric I will tell him about the peculiar gem and Beatrix both! I never want to see that mage’s pupil or you around here again!”\n\nYou turn away, seeing Rosalie standing off in the distance to your left trying her best to look innocuous, but failing miserably. As you step away from Cecil’s house, you glimpse a silver silhouette in the distance but struggle to identify the person.\n\nRosalie approaches you as you head towards the farm and apologizes profusely, “I’m sorry, I was just so worried about Star and Cecil was acting so strange I was trying to hear what was being said with a listening spell…”\n\nRosalie sniffles a little and you suggest some tea at Rosalie’s house to calm everyone’s nerves after the abrupt change in afternoon.",
+    "requiresFarming": 75,
+    "requiresExploring": 70,
+    "silverReward": 300000000
+  },
+  {
     "firstSeen": 1649907768902,
     "itemRequests": [
       {
@@ -27112,6 +27373,86 @@
     "availableTo": "Apr 30"
   },
   {
+    "firstSeen": 1651011310286,
+    "itemRequests": [
+      {
+        "id": "53",
+        "quantity": 500
+      },
+      {
+        "id": "499",
+        "quantity": 400
+      },
+      {
+        "id": "44",
+        "quantity": 400
+      },
+      {
+        "id": "120",
+        "quantity": 400
+      },
+      {
+        "id": "61",
+        "quantity": 400
+      },
+      {
+        "id": "349",
+        "quantity": 200
+      },
+      {
+        "id": "62",
+        "quantity": 400
+      },
+      {
+        "id": "85",
+        "quantity": 500
+      },
+      {
+        "id": "26",
+        "quantity": 500
+      },
+      {
+        "id": "122",
+        "quantity": 500
+      },
+      {
+        "id": "319",
+        "quantity": 400
+      },
+      {
+        "id": "305",
+        "quantity": 400
+      }
+    ],
+    "itemRewards": [],
+    "id": "857",
+    "name": "Strange Companions XI",
+    "from": "Rosalie",
+    "fromImage": "/img/items/a_098.png",
+    "text": "After some tea, Lorn stops by and after you recount your dealings with Cecil, he suggests that you may need to do some digging about what has Cecil so spooked, and why he was requesting some suspicious items. You all agree to spend some time asking townsfolk about Cecil and anything strange they might have noticed happening in the town lately.\n\nRosalie suggests nothing puts people at ease quite like a housewarming gift, so you set about to make a few housewarming gift packages for the townsfolk for when you can ask them some questions.",
+    "requiresFarming": 75,
+    "requiresExploring": 70,
+    "silverReward": 500000000
+  },
+  {
+    "firstSeen": 1651011524028,
+    "itemRequests": [],
+    "itemRewards": [
+      {
+        "id": "385",
+        "quantity": 2
+      }
+    ],
+    "id": "858",
+    "name": "Strange Companions XII",
+    "from": "Ric Ryph",
+    "fromImage": "/img/items/npc_figure2.png",
+    "text": "Your gift baskets in hand, you head into town. As you step onto the main street, none other than Ric Ryph steps out from the nearest home, his armor gleaming in the sunlight. He sees you and gives you a strange grin before approaching you.\n\n“Ah yes, a pleasure to see you out and about! I’ve noticed you’ve been spending a lot of time with many of the townsfolk recently. An admirable and good thing to do, why, one might even wonder if you were trying to gain public support!” He casts a significant look at your gift baskets.\n\n“Anyways, Cecil mentioned to me that his silver flow had temporarily been interrupted and that he needed to get a few key pieces of his cashflow back and suggested you would graciously help the town out in its greatest need to defend against the loathsome dragon at his previously donated rate. If you wouldn’t mind, a double deposit, just to keep the town running smoothly and the guard paid, would be ever so appreciated.”",
+    "requiresFarming": 75,
+    "requiresExploring": 70,
+    "silverRequest": 250000000
+  },
+  {
     "firstSeen": 1649973329421,
     "itemRequests": [],
     "itemRewards": [
@@ -27263,6 +27604,279 @@
     "availableTo": "Apr 19"
   },
   {
+    "firstSeen": 1651011539364,
+    "itemRequests": [
+      {
+        "id": "123",
+        "quantity": 10
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "508",
+        "quantity": 25
+      },
+      {
+        "id": "84",
+        "quantity": 100
+      },
+      {
+        "id": "363",
+        "quantity": 5
+      },
+      {
+        "id": "347",
+        "quantity": 6
+      },
+      {
+        "id": "379",
+        "quantity": 10
+      }
+    ],
+    "id": "864",
+    "name": "Strange Companions XIII",
+    "from": "George",
+    "fromImage": "/img/items/a_034.png",
+    "text": "Money in hand, you head to Ric’s house. Before you can knock, Ric opens the door and gives you a gracious handshake and takes the money from you.\n\n“Thank you, friend. It’s contributions like these that let me know the work we’re doing in this town to make it safe from dragons is worth doing. This money will be extremely useful in the coming days to make safe the townsfolk all over this area. I see you still plan on visiting other townsfolk, well, if you want my advice, don’t trust anyone that won’t give you anything you want immediately.”\n\nYou leave, Ric’s words echoing in your ears. You decide the best approach is to talk to some of the townsfolk you are better acquainted with, and approach George’s home.\n\nAs luck would have it, George is sitting on his porch playing guitar and singing a song, you pause to listen before approaching him.\n\n“I’d give anything\n\nTo be where you’re at\n\nI’d do anything\n\nTo become what you are\n\nIt’s too late\n\nI don’t have what it takes\n\nI don’t have it\n\nI don’t have it\n\nSo move on\n\nI’m alright\n\nI need to move on now\n\nCause I’m gonna be alright”\n\nThe melody catches your ear, haunting but pleasant. There’s a strange comfort in the words, and you give George a moment to finish his song before you approach him any further.\n\nAfter handing him the gift basket, you ask him about Cecil and any strange occurrences in the town, and George shakes his head, he’s been focused on his music lately and hasn’t paid too much attention to more than he’s had to do for Ric, which are just standard dragon defense tactics. You thank George for his time and offer your thanks for the song.",
+    "requiresFarming": 75,
+    "requiresExploring": 70
+  },
+  {
+    "firstSeen": 1651011562021,
+    "itemRequests": [
+      {
+        "id": "123",
+        "quantity": 10
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "491",
+        "quantity": 5
+      },
+      {
+        "id": "500",
+        "quantity": 25
+      },
+      {
+        "id": "498",
+        "quantity": 400
+      },
+      {
+        "id": "473",
+        "quantity": 5
+      }
+    ],
+    "id": "865",
+    "name": "Strange Companions XIV",
+    "from": "Thomas",
+    "fromImage": "/img/items/a_048.png",
+    "text": "Walking down the street, you realize many of these homes are foreign to you. As you walk the impression you’re being watched once again settles over you, the sense of unease makes your hairs stand on end, and you resist the urge to break into a run. You look to the sides and though it’s the middle of the day, shadows seem to grow around the houses around you and specks of light glitters in the shadows, like tiny eyes, following your every move.\nThe sense of real danger starts to mount, you furtively glance left to right and where there was once sun lit homes you now see dark houses with windows that seem to have gone dark – you try to look away but you become entranced with one window, a view of something unfathomable brushes your mind and just as you begin to see flecks of blue a hand wraps around your shoulder and you stifle a scream of terror.\n\nThomas, fishing pole in one hand, smiles at you and gives you a strange look.\n\n“Friend, you’re standing in the middle of the street perfectly still, are you okay?”\n\nYou blink, arms shaking, and the sun has returned to the sky. Thomas ushers you down a side street towards his home. After a few moments, you regain your composure enough to assure Thomas that you are fine and ask him about Cecil and strange happenings.\n\nThomas gives you a second strange look and breaks out in a belly laugh. “Oh, do you mean besides the dragon attack? Or Ric Ryph? Or perhaps you mean the fact that *I caught all these fish?!*” Thomas proudly shows you a drying rack with three trout.\n\n“Fished ‘em myself! Maybe I’m not a lost cause afterall, eh?”",
+    "requiresFarming": 75,
+    "requiresExploring": 70
+  },
+  {
+    "firstSeen": 1650667496542,
+    "itemRequests": [
+      {
+        "id": "212",
+        "quantity": 1
+      },
+      {
+        "id": "243",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "508",
+        "quantity": 2
+      },
+      {
+        "id": "84",
+        "quantity": 10
+      },
+      {
+        "id": "410",
+        "quantity": 5
+      },
+      {
+        "id": "330",
+        "quantity": 2
+      },
+      {
+        "id": "334",
+        "quantity": 2
+      }
+    ],
+    "id": "866",
+    "name": "The Big Cleanup I",
+    "from": "Lorn",
+    "fromImage": "/img/items/a_088.png",
+    "text": "As Lorn was walking through the woods near his home, he noticed that an area that usually floods during heavy rain was now dry and covered with trash. He suspects the trash all washed into that area from the stream that floods it.\n\nThat set Lorn to thinking. With all of the new folks moving into the area, there is likely a lot more trash being spread around. Before the population boom, it wasn’t hard to keep the woods and streams clean, but Lorn thinks it may take a little more mindful effort now.\n\nWill you pitch in and help gather up some of the trash littered around the area?",
+    "requiresFarming": 5,
+    "requiresCrafting": 5,
+    "requiresFishing": 5,
+    "requiresExploring": 5,
+    "availableFrom": "Apr 22",
+    "availableTo": "Apr 30"
+  },
+  {
+    "firstSeen": 1650667501399,
+    "itemRequests": [
+      {
+        "id": "215",
+        "quantity": 1
+      },
+      {
+        "id": "331",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "500",
+        "quantity": 5
+      },
+      {
+        "id": "498",
+        "quantity": 50
+      },
+      {
+        "id": "410",
+        "quantity": 5
+      },
+      {
+        "id": "453",
+        "quantity": 1
+      }
+    ],
+    "id": "867",
+    "name": "The Big Cleanup II",
+    "from": "Lorn",
+    "fromImage": "/img/items/a_088.png",
+    "text": "Lorn appreciates your help with the cleanup.\n\nNow, Lorn thinks it would probably be good to spend a little time clearing some trash from the waterways too. Will you help?",
+    "requiresFarming": 5,
+    "requiresCrafting": 5,
+    "requiresFishing": 5,
+    "requiresExploring": 5,
+    "availableFrom": "Apr 22",
+    "availableTo": "Apr 30"
+  },
+  {
+    "firstSeen": 1651035562492,
+    "itemRequests": [
+      {
+        "id": "23",
+        "quantity": 1
+      },
+      {
+        "id": "326",
+        "quantity": 1
+      },
+      {
+        "id": "535",
+        "quantity": 100
+      },
+      {
+        "id": "254",
+        "quantity": 300
+      }
+    ],
+    "itemRewards": [],
+    "id": "868",
+    "name": "A Way Back XXI",
+    "from": "Captain Thomas",
+    "fromImage": "/img/items/cthomas2.png",
+    "text": "Captain Thomas thinks the boat is ready to be tested on the open water. Unfortunately, he doesn’t think Thomas is quite ready to captain the boat on his own. So, Captain Thomas has decided to go and help Thomas on this voyage. Whatever is afflicting Thomas has made Captain Thomas curious. Maybe there’s really something to it, and maybe they’ll find something amazing in that distant glow.\n\nNow, Captain Thomas needs your help to prepare for the voyage. He can’t captain the ship properly without cleaning himself up first. Will you help Captain Thomas get ready to command the ship?",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "silverReward": 100000000
+  },
+  {
+    "firstSeen": 1651035568458,
+    "itemRequests": [
+      {
+        "id": "537",
+        "quantity": 300
+      },
+      {
+        "id": "535",
+        "quantity": 300
+      },
+      {
+        "id": "203",
+        "quantity": 300
+      },
+      {
+        "id": "536",
+        "quantity": 300
+      },
+      {
+        "id": "314",
+        "quantity": 300
+      },
+      {
+        "id": "492",
+        "quantity": 300
+      },
+      {
+        "id": "103",
+        "quantity": 300
+      },
+      {
+        "id": "91",
+        "quantity": 1000
+      },
+      {
+        "id": "72",
+        "quantity": 1
+      },
+      {
+        "id": "450",
+        "quantity": 300
+      },
+      {
+        "id": "111",
+        "quantity": 1000
+      },
+      {
+        "id": "121",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "508",
+        "quantity": 20
+      },
+      {
+        "id": "346",
+        "quantity": 5
+      },
+      {
+        "id": "363",
+        "quantity": 5
+      },
+      {
+        "id": "347",
+        "quantity": 12
+      }
+    ],
+    "id": "869",
+    "name": "A Way Back XXII",
+    "from": "Captain Thomas",
+    "fromImage": "/img/items/MustacheTom96.png",
+    "text": "Before they start testing the ship on the open water, Captain Thomas wants to christen the ship and give it a name. To properly name and christen the ship, Captain Thomas needs a bottle of wine and some paint.\n\nTo make a good, seaworthy paint to make sure the name stays on the ship, Captain Thomas will need your help getting some resources.\n\nWill you get the things Captain Thomas needs to name and christen the ship?",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "silverReward": 300000000
+  },
+  {
     "firstSeen": 1646727898331,
     "itemRequests": [
       {
@@ -27309,6 +27923,116 @@
     "requiresFarming": 18,
     "requiresFishing": 40,
     "requiresExploring": 30
+  },
+  {
+    "firstSeen": 1651035591451,
+    "itemRequests": [
+      {
+        "id": "103",
+        "quantity": 1000
+      },
+      {
+        "id": "178",
+        "quantity": 1000
+      },
+      {
+        "id": "72",
+        "quantity": 20
+      },
+      {
+        "id": "238",
+        "quantity": 2
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "500",
+        "quantity": 20
+      },
+      {
+        "id": "379",
+        "quantity": 20
+      },
+      {
+        "id": "78",
+        "quantity": 1000
+      }
+    ],
+    "id": "870",
+    "name": "A Way Back XXIII",
+    "from": "Captain Thomas",
+    "fromImage": "/img/items/MustacheTom96.png",
+    "text": "Captain Thomas is ready to take the Sarafina out for some test voyages. He expects to have good fortune on the ship, since the bottle of wine busted on the hull of the Sarafina perfectly, even though Thomas stumbled a bit as he swung at the hull.\n\nWill you start bringing coal and emberstone for the steam engine, so they can refuel it quickly after each test voyage?",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "silverReward": 10000000
+  },
+  {
+    "firstSeen": 1651035718382,
+    "itemRequests": [
+      {
+        "id": "339",
+        "quantity": 100
+      },
+      {
+        "id": "145",
+        "quantity": 500
+      },
+      {
+        "id": "21",
+        "quantity": 1000
+      },
+      {
+        "id": "38",
+        "quantity": 1000
+      },
+      {
+        "id": "342",
+        "quantity": 20
+      },
+      {
+        "id": "251",
+        "quantity": 20
+      },
+      {
+        "id": "215",
+        "quantity": 10
+      },
+      {
+        "id": "341",
+        "quantity": 10
+      },
+      {
+        "id": "303",
+        "quantity": 500
+      },
+      {
+        "id": "338",
+        "quantity": 10
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "379",
+        "quantity": 25
+      },
+      {
+        "id": "75",
+        "quantity": 1000
+      }
+    ],
+    "id": "871",
+    "name": "A Way Back XXIV",
+    "from": "Captain Thomas",
+    "fromImage": "/img/items/MustacheTom96.png",
+    "text": "The test voyages went really well, and Thomas performed his share of the duties surprisingly well, but Captain Thomas wants to improve a few issues he discovered with the Sarafina. Will you bring some more materials so the Thomases can make a few modifications to the ship?",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "silverReward": 300000000
   },
   {
     "firstSeen": 1646727896332,
