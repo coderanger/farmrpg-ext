@@ -32,7 +32,7 @@
     "name": "Large Island",
     "silverPerHit": null,
     "silverPerHitIronDepot": null,
-    "xpPerHit": 8441.748085271402,
+    "xpPerHit": 8441.868692089995,
     "xpPerHitIronDepot": null
   },
   {
@@ -111,10 +111,10 @@
     "baseDropRate": 0.3333333333333333,
     "id": "6",
     "name": "Black Rock Canyon",
-    "silverPerHit": 53.38039106730493,
-    "silverPerHitIronDepot": 53.38039106730493,
-    "xpPerHit": 50.8417990189157,
-    "xpPerHitIronDepot": 50.8417990189157
+    "silverPerHit": 53.48265954026684,
+    "silverPerHitIronDepot": 53.48265954026684,
+    "xpPerHit": 50.9319140813374,
+    "xpPerHitIronDepot": 50.9319140813374
   },
   {
     "baseDropRate": null,
@@ -165,10 +165,10 @@
     "baseDropRate": 0.3333333333333333,
     "id": "9",
     "name": "Ember Lagoon",
-    "silverPerHit": 98.74044175596623,
-    "silverPerHitIronDepot": 98.74044175596623,
-    "xpPerHit": 53.407413766756,
-    "xpPerHitIronDepot": 53.407413766756
+    "silverPerHit": 98.56674059220619,
+    "silverPerHitIronDepot": 98.56674059220619,
+    "xpPerHit": 53.39535719052194,
+    "xpPerHitIronDepot": 53.39535719052194
   },
   {
     "baseDropRate": null,

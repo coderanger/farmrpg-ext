@@ -305,7 +305,8 @@
       "868",
       "869",
       "870",
-      "871"
+      "871",
+      "872"
     ],
     "secondary": false
   },
@@ -1086,6 +1087,17 @@
       "292",
       "293",
       "294"
+    ],
+    "secondary": false
+  },
+  {
+    "image": "/img/items/a_011.png",
+    "name": "Performance Enhancing Grapes",
+    "quests": [
+      "878",
+      "879",
+      "880",
+      "881"
     ],
     "secondary": false
   },

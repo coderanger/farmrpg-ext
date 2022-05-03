@@ -213,6 +213,42 @@
     "goalQuantity": 400000,
     "rewardItem": "Honey",
     "rewardQuantity": 15,
-    "progress": 312076
+    "progress": 572048
+  },
+  {
+    "firstSeen": 1651217439521,
+    "date": "2022-04-29",
+    "goalItem": "Rope",
+    "goalQuantity": 1000000,
+    "rewardItem": "Large Net",
+    "rewardQuantity": 5,
+    "progress": 1027558
+  },
+  {
+    "firstSeen": 1651309547581,
+    "date": "2022-04-30",
+    "goalItem": "Eggplant",
+    "goalQuantity": 1000000,
+    "rewardItem": "Egg 05",
+    "rewardQuantity": 1,
+    "progress": 1211749
+  },
+  {
+    "firstSeen": 1651384937526,
+    "date": "2022-05-01",
+    "goalItem": "Old Boot",
+    "goalQuantity": 350000,
+    "rewardItem": "Orange Juice",
+    "rewardQuantity": 100,
+    "progress": 404830
+  },
+  {
+    "firstSeen": 1651477653596,
+    "date": "2022-05-02",
+    "goalItem": "Shovel",
+    "goalQuantity": 1000000,
+    "rewardItem": "Small Screw",
+    "rewardQuantity": 25,
+    "progress": 1006495
   }
 ]

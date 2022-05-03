@@ -28035,6 +28035,75 @@
     "silverReward": 300000000
   },
   {
+    "firstSeen": 1651377624767,
+    "itemRequests": [
+      {
+        "id": "373",
+        "quantity": 1000
+      },
+      {
+        "id": "305",
+        "quantity": 1000
+      },
+      {
+        "id": "178",
+        "quantity": 1000
+      },
+      {
+        "id": "35",
+        "quantity": 500
+      }
+    ],
+    "itemRewards": [],
+    "id": "872",
+    "name": "A Way Back XXV",
+    "from": "Captain Thomas",
+    "fromImage": "/img/items/MustacheTom96.png",
+    "text": "Captain Thomas appreciates all of your hard work to help bring this beautiful ship to life. The Sarafina is ready. Captain Thomas thinks she’s a sound ship that will carry the Thomases safely to the glow in the east and home again. Her name definitely suits her, even if it does sting Captain Thomas a little.\n\nNow, Captain Thomas has assigned Thomas the task of putting together a list of supplies for their voyage. Will you help him gather the supplies?\n\nWhile Thomas is getting the list together, will you bring Captain Thomas a load of sunflowers? For long voyages like this, Captain Thomas loves to eat roasted and salted sunflower seeds.",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "silverReward": 1000000000
+  },
+  {
+    "firstSeen": 1651526822201,
+    "itemRequests": [],
+    "itemRewards": [
+      {
+        "id": "112",
+        "quantity": 1
+      }
+    ],
+    "id": "878",
+    "name": "Performance Enhancing Grapes I",
+    "from": "Beatrix",
+    "fromImage": "/img/items/a_011.png",
+    "text": "Something unusual happened to the radishes that Beatrix was growing. She was strolling through her garden, drinking a glass of grape juice, when a thought suddenly popped into her head. The thought told her that she should pour some of the grape juice on the radishes. The thought felt familiar and kind, but Beatrix doesn’t remember ever pouring grape juice on still-growing crops. Beatrix started to dismiss the thought, but it came again, and it felt so comfortable. So, she poured a bit of the grape juice on her very freshly sprouted radishes. Instantly, the radish stems and leaves elongated to their full-grown height.\n\nBeatrix carefully pulled a radish from the ground and examined it. The radish was fully grown and perfectly ripe! Beatrix couldn’t believe it. She pulled the rest of the radishes and all were alike, ripe and fully grown.\n\nBeatrix is now tangled in curiosity. She wants to know more about this phenomenon. Will you help her experiment and learn more? Will you try some grape juice on your radishes?",
+    "requiresFarming": 10
+  },
+  {
+    "firstSeen": 1651526840131,
+    "itemRequests": [
+      {
+        "id": "31",
+        "quantity": 10
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "112",
+        "quantity": 1
+      }
+    ],
+    "id": "879",
+    "name": "Performance Enhancing Grapes II",
+    "from": "Beatrix",
+    "fromImage": "/img/items/a_011.png",
+    "text": "Whenever you finish testing the grape juice, will you bring Beatrix some of the radishes from your experiment? Then, she would like you to try some grape juice on cucumbers.",
+    "requiresFarming": 10
+  },
+  {
     "firstSeen": 1646727896332,
     "itemRequests": [
       {
@@ -28055,6 +28124,43 @@
     "text": "Rosalie is planning to host a fancy ball as a fundraiser charity event. She would like to have a pair of fancy masks to give away as a prize for one of the raffles. The masks she ordered, unfortunately, were lost during shipping, and now she hopes you can find something suitable to use in a pinch. Do you know where any masks might be found?\nHint: An ex-pirate hiding out in a small cave might have a few laying around. It has a drop rate of 1/1000, so will take some time to get, but keep trying!",
     "silverReward": 5000,
     "requiresExploring": 5
+  },
+  {
+    "firstSeen": 1651526848381,
+    "itemRequests": [
+      {
+        "id": "29",
+        "quantity": 10
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "112",
+        "quantity": 2
+      }
+    ],
+    "id": "880",
+    "name": "Performance Enhancing Grapes III",
+    "from": "Beatrix",
+    "fromImage": "/img/items/a_011.png",
+    "text": "Beatrix continued experimenting with pouring grape juice on different crops. All of the different seeds she planted finished growing instantly when sprinkled with grape juice. Unfortunately, she discovered a negative effect on the soil if the grape juice was used more than two or three times. So, don’t overuse this method.\n\nWill you bring Beatrix some of the cucumbers you grew with grape juice?",
+    "requiresFarming": 10
+  },
+  {
+    "firstSeen": 1651526859039,
+    "itemRequests": [],
+    "itemRewards": [
+      {
+        "id": "112",
+        "quantity": 2
+      }
+    ],
+    "id": "881",
+    "name": "Performance Enhancing Grapes IV",
+    "from": "Beatrix",
+    "fromImage": "/img/items/a_011.png",
+    "text": "There doesn’t seem to be anything out of the ordinary with the cucumbers you brought to Beatrix. They appear to be fully grown and ripe, just like the radishes.\n\nBeatrix appreciates your help with learning more about this strange phenomenon. Will you continue experimenting with using grape juice on your crops?",
+    "requiresFarming": 10
   },
   {
     "firstSeen": 1646727894328,

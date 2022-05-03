@@ -581,6 +581,13 @@
     "quantityLow": 1
   },
   {
+    "box": "396",
+    "group": 0,
+    "item": "347",
+    "quantityHigh": null,
+    "quantityLow": 1
+  },
+  {
     "box": "397",
     "group": 0,
     "item": "147",
@@ -1454,5 +1461,75 @@
     "item": "53",
     "quantityHigh": 3,
     "quantityLow": 3
+  },
+  {
+    "box": "534",
+    "group": 0,
+    "item": "123",
+    "quantityHigh": 50,
+    "quantityLow": 50
+  },
+  {
+    "box": "534",
+    "group": 1,
+    "item": "379",
+    "quantityHigh": 50,
+    "quantityLow": 50
+  },
+  {
+    "box": "534",
+    "group": 2,
+    "item": "500",
+    "quantityHigh": 50,
+    "quantityLow": 50
+  },
+  {
+    "box": "534",
+    "group": 3,
+    "item": "508",
+    "quantityHigh": 50,
+    "quantityLow": 50
+  },
+  {
+    "box": "548",
+    "group": 0,
+    "item": "112",
+    "quantityHigh": 3,
+    "quantityLow": 3
+  },
+  {
+    "box": "548",
+    "group": 1,
+    "item": "379",
+    "quantityHigh": 3,
+    "quantityLow": 3
+  },
+  {
+    "box": "548",
+    "group": 2,
+    "item": "508",
+    "quantityHigh": 3,
+    "quantityLow": 3
+  },
+  {
+    "box": "548",
+    "group": 3,
+    "item": "185",
+    "quantityHigh": 10,
+    "quantityLow": 10
+  },
+  {
+    "box": "548",
+    "group": 4,
+    "item": "84",
+    "quantityHigh": 25,
+    "quantityLow": 25
+  },
+  {
+    "box": "548",
+    "group": 5,
+    "item": "86",
+    "quantityHigh": 25,
+    "quantityLow": 25
   }
 ]

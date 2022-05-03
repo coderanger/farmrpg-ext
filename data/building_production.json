@@ -250,5 +250,12 @@
         "item": "525",
         "frequency": "Rarely",
         "sort": 1
+    },
+    {
+        "building": "FarmRPG",
+        "image": "/img/emblems/def.png",
+        "item": "534",
+        "frequency": "1 Year After Joining",
+        "sort": 1
     }
 ]

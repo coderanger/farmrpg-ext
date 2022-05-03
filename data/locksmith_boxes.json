@@ -223,5 +223,15 @@
     "box": "482",
     "gold": null,
     "mode": "multi"
+  },
+  {
+    "box": "534",
+    "gold": 500,
+    "mode": "multi"
+  },
+  {
+    "box": "548",
+    "gold": null,
+    "mode": "multi"
   }
 ]

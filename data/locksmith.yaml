@@ -134,6 +134,7 @@
     Gold Eggplant: 1-?
     Gold Peas: 1-?
     Gold Peppers: 1-?
+    Treasure Key: 1-?
 
 - box: Present 01
   items:
@@ -415,3 +416,20 @@
     Egyptian Necklace: 1
     Gold Coral: 3
     Goldgill: 5
+
+- box: Present 02
+  gold: 500
+  items:
+    Ancient Coin: 50
+    Apple Cider: 50
+    Large Net: 50
+    Arnold Palmer: 50
+
+- box: Drink Bundle
+  items:
+    Grape Juice: 3
+    Apple Cider: 3
+    Arnold Palmer: 3
+    Iced Tea: 10
+    Orange Juice: 25
+    Lemonade: 25

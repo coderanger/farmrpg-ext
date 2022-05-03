@@ -497,6 +497,7 @@ def gen_wishing_well():
     resp = httpx.get(
         f"https://sheets.googleapis.com/v4/spreadsheets/{spreadsheet_id}/values/B5:C",
         params={"key": os.environ["GOOGLE_API_KEY"]},
+        timeout=30,
     )
     resp.raise_for_status()
     page = resp.json()
@@ -655,6 +656,12 @@ You got:$
     return tower_items
 
 
+def gen_pbgs():
+    pbgs_data = Path(__file__) / ".." / ".." / "data" / "pbgs.yaml"
+    pbgs: list[dict] = yaml.safe_load(pbgs_data.resolve().open())
+    return [pbg | {"order": i} for i, pbg in enumerate(pbgs)]
+
+
 GEN_FIXTURES = {
     "drop_rates": gen_drop_rates,
     "drop_rates_gql": gen_drop_rates_gql,
@@ -667,6 +674,7 @@ GEN_FIXTURES = {
     "location_extra": gen_location_extra,
     "item_api": gen_item_api,
     "tower": gen_tower,
+    "pbgs": gen_pbgs,
 }
 
 

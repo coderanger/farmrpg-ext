@@ -488,7 +488,8 @@
     "sellPrice": 75,
     "xp": 475,
     "givable": true,
-    "rarity": "Common"
+    "rarity": "Common",
+    "mastery": true
   },
   {
     "name": "Board",
@@ -1410,6 +1411,14 @@
     "sellPrice": 250,
     "xp": 1750,
     "givable": true,
+    "rarity": "Uncommon"
+  },
+  {
+    "firstSeen": 1651438800685,
+    "id": "548",
+    "name": "Drink Bundle",
+    "image": "/img/items/juices.png",
+    "xp": 1,
     "rarity": "Uncommon"
   },
   {
