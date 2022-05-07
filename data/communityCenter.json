@@ -249,6 +249,42 @@
     "goalQuantity": 1000000,
     "rewardItem": "Small Screw",
     "rewardQuantity": 25,
-    "progress": 1006495
+    "progress": 1238993
+  },
+  {
+    "firstSeen": 1651564266085,
+    "date": "2022-05-03",
+    "goalItem": "Scissors",
+    "goalQuantity": 500000,
+    "rewardItem": "Grab Bag 05",
+    "rewardQuantity": 2,
+    "progress": 256893
+  },
+  {
+    "firstSeen": 1651641869525,
+    "date": "2022-05-04",
+    "goalItem": "Milk",
+    "goalQuantity": 1000000,
+    "rewardItem": "Blue Milk",
+    "rewardQuantity": 1,
+    "progress": 3393851
+  },
+  {
+    "firstSeen": 1651727904245,
+    "date": "2022-05-05",
+    "goalItem": "Peppers",
+    "goalQuantity": 1000000,
+    "rewardItem": "Piñata",
+    "rewardQuantity": 1,
+    "progress": 2188368
+  },
+  {
+    "firstSeen": 1651868003674,
+    "date": "2022-05-06",
+    "goalItem": "Potato",
+    "goalQuantity": 1000000,
+    "rewardItem": "Large Chest 02",
+    "rewardQuantity": 3,
+    "progress": 860517
   }
 ]

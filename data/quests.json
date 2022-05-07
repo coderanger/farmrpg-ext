@@ -28067,6 +28067,477 @@
     "silverReward": 1000000000
   },
   {
+    "firstSeen": 1651691572592,
+    "itemRequests": [
+      {
+        "id": "44",
+        "quantity": 1000
+      },
+      {
+        "id": "242",
+        "quantity": 1000
+      },
+      {
+        "id": "67",
+        "quantity": 1000
+      },
+      {
+        "id": "26",
+        "quantity": 1000
+      },
+      {
+        "id": "276",
+        "quantity": 1000
+      },
+      {
+        "id": "120",
+        "quantity": 1000
+      },
+      {
+        "id": "349",
+        "quantity": 1000
+      },
+      {
+        "id": "185",
+        "quantity": 1000
+      },
+      {
+        "id": "62",
+        "quantity": 1000
+      },
+      {
+        "id": "85",
+        "quantity": 1000
+      },
+      {
+        "id": "61",
+        "quantity": 1000
+      },
+      {
+        "id": "69",
+        "quantity": 1000
+      },
+      {
+        "id": "319",
+        "quantity": 1000
+      },
+      {
+        "id": "137",
+        "quantity": 1000
+      },
+      {
+        "id": "15",
+        "quantity": 1000
+      },
+      {
+        "id": "59",
+        "quantity": 1000
+      }
+    ],
+    "itemRewards": [],
+    "id": "873",
+    "name": "A Way Back XXVI",
+    "from": "Thomas",
+    "fromImage": "/img/items/a_048.png",
+    "text": "Thomas put together two lists of food supplies for the voyage. Will you start on the first list while he checks the second list again?",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "silverReward": 2147483647
+  },
+  {
+    "firstSeen": 1651699476934,
+    "itemRequests": [
+      {
+        "id": "256",
+        "quantity": 1000
+      },
+      {
+        "id": "19",
+        "quantity": 1000
+      },
+      {
+        "id": "65",
+        "quantity": 1000
+      },
+      {
+        "id": "29",
+        "quantity": 1000
+      },
+      {
+        "id": "13",
+        "quantity": 1000
+      },
+      {
+        "id": "458",
+        "quantity": 200
+      },
+      {
+        "id": "161",
+        "quantity": 1000
+      },
+      {
+        "id": "157",
+        "quantity": 1000
+      },
+      {
+        "id": "461",
+        "quantity": 200
+      },
+      {
+        "id": "250",
+        "quantity": 1000
+      },
+      {
+        "id": "50",
+        "quantity": 1000
+      },
+      {
+        "id": "43",
+        "quantity": 1000
+      },
+      {
+        "id": "33",
+        "quantity": 1000
+      },
+      {
+        "id": "48",
+        "quantity": 1000
+      },
+      {
+        "id": "31",
+        "quantity": 1000
+      },
+      {
+        "id": "305",
+        "quantity": 1000
+      },
+      {
+        "id": "92",
+        "quantity": 1000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "363",
+        "quantity": 10
+      },
+      {
+        "id": "347",
+        "quantity": 12
+      }
+    ],
+    "id": "874",
+    "name": "A Way Back XXVII",
+    "from": "Thomas",
+    "fromImage": "/img/items/a_048.png",
+    "text": "Thomas finished the second list of food supplies. Will you gather the supplies he needs?",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "silverReward": 2147483647
+  },
+  {
+    "firstSeen": 1651709130190,
+    "itemRequests": [
+      {
+        "id": "237",
+        "quantity": 2
+      },
+      {
+        "id": "105",
+        "quantity": 1000
+      },
+      {
+        "id": "129",
+        "quantity": 2
+      },
+      {
+        "id": "23",
+        "quantity": 10
+      },
+      {
+        "id": "212",
+        "quantity": 8
+      },
+      {
+        "id": "106",
+        "quantity": 1000
+      },
+      {
+        "id": "393",
+        "quantity": 1
+      },
+      {
+        "id": "194",
+        "quantity": 1000
+      },
+      {
+        "id": "117",
+        "quantity": 100
+      },
+      {
+        "id": "236",
+        "quantity": 2
+      },
+      {
+        "id": "191",
+        "quantity": 1000
+      },
+      {
+        "id": "277",
+        "quantity": 1000
+      },
+      {
+        "id": "260",
+        "quantity": 2
+      },
+      {
+        "id": "368",
+        "quantity": 50
+      },
+      {
+        "id": "79",
+        "quantity": 2
+      },
+      {
+        "id": "192",
+        "quantity": 1000
+      },
+      {
+        "id": "258",
+        "quantity": 2
+      },
+      {
+        "id": "213",
+        "quantity": 2
+      },
+      {
+        "id": "273",
+        "quantity": 2
+      },
+      {
+        "id": "72",
+        "quantity": 50
+      },
+      {
+        "id": "163",
+        "quantity": 1000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "479",
+        "quantity": 10
+      },
+      {
+        "id": "508",
+        "quantity": 25
+      },
+      {
+        "id": "84",
+        "quantity": 500
+      },
+      {
+        "id": "389",
+        "quantity": 10
+      }
+    ],
+    "id": "875",
+    "name": "A Way Back XXVIII",
+    "from": "Thomas",
+    "fromImage": "/img/items/a_048.png",
+    "text": "Thomas also put together a list of miscellaneous things they might need during the voyage. Will you help gather the items on his list?",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "silverReward": 500000000
+  },
+  {
+    "firstSeen": 1651710756321,
+    "itemRequests": [
+      {
+        "id": "540",
+        "quantity": 1000
+      },
+      {
+        "id": "314",
+        "quantity": 1000
+      },
+      {
+        "id": "103",
+        "quantity": 1000
+      },
+      {
+        "id": "267",
+        "quantity": 2
+      },
+      {
+        "id": "42",
+        "quantity": 100
+      },
+      {
+        "id": "82",
+        "quantity": 10
+      },
+      {
+        "id": "350",
+        "quantity": 4
+      },
+      {
+        "id": "204",
+        "quantity": 2
+      },
+      {
+        "id": "165",
+        "quantity": 10
+      },
+      {
+        "id": "338",
+        "quantity": 10
+      },
+      {
+        "id": "539",
+        "quantity": 10
+      },
+      {
+        "id": "536",
+        "quantity": 1000
+      },
+      {
+        "id": "193",
+        "quantity": 1000
+      },
+      {
+        "id": "238",
+        "quantity": 2
+      },
+      {
+        "id": "456",
+        "quantity": 2
+      },
+      {
+        "id": "300",
+        "quantity": 2
+      },
+      {
+        "id": "280",
+        "quantity": 1
+      },
+      {
+        "id": "252",
+        "quantity": 100
+      },
+      {
+        "id": "81",
+        "quantity": 1000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "491",
+        "quantity": 10
+      },
+      {
+        "id": "379",
+        "quantity": 200
+      },
+      {
+        "id": "475",
+        "quantity": 10
+      },
+      {
+        "id": "453",
+        "quantity": 5
+      },
+      {
+        "id": "186",
+        "quantity": 100
+      }
+    ],
+    "id": "876",
+    "name": "A Way Back XXIX",
+    "from": "Thomas",
+    "fromImage": "/img/items/a_048.png",
+    "text": "After discussing many possibilities with Captain Thomas, Thomas came up with another list of items they will need to map and explore whatever is waiting for them at the glow in the east. Will you help Thomas find these last few items?",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "silverReward": 500000000
+  },
+  {
+    "firstSeen": 1651710948230,
+    "itemRequests": [
+      {
+        "id": "123",
+        "quantity": 1000
+      },
+      {
+        "id": "54",
+        "quantity": 1000
+      },
+      {
+        "id": "41",
+        "quantity": 1000
+      },
+      {
+        "id": "175",
+        "quantity": 50
+      },
+      {
+        "id": "143",
+        "quantity": 1000
+      },
+      {
+        "id": "317",
+        "quantity": 1000
+      },
+      {
+        "id": "264",
+        "quantity": 1000
+      },
+      {
+        "id": "80",
+        "quantity": 1000
+      },
+      {
+        "id": "176",
+        "quantity": 1000
+      },
+      {
+        "id": "100",
+        "quantity": 1000
+      },
+      {
+        "id": "94",
+        "quantity": 1000
+      },
+      {
+        "id": "248",
+        "quantity": 1000
+      },
+      {
+        "id": "266",
+        "quantity": 700
+      }
+    ],
+    "itemRewards": [],
+    "id": "877",
+    "name": "A Way Back XXX",
+    "from": "Captain Thomas",
+    "fromImage": "/img/items/MustacheTom96.png",
+    "text": "Captain Thomas would like to have an assortment of coins and gems for the voyage. He wants to be prepared in case there is an opportunity to barter for supplies, purchase help, or if they just need to buy their way out of a tight spot. They may not end up using any of these valuables, but Captain Thomas still wants a good supply. Will you bring him an assortment of coins and gems?",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "silverReward": 2147483647
+  },
+  {
     "firstSeen": 1651526822201,
     "itemRequests": [],
     "itemRewards": [
@@ -28163,6 +28634,313 @@
     "requiresFarming": 10
   },
   {
+    "firstSeen": 1651691203017,
+    "itemRequests": [
+      {
+        "id": "42",
+        "quantity": 50
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "84",
+        "quantity": 10
+      },
+      {
+        "id": "330",
+        "quantity": 2
+      }
+    ],
+    "id": "882",
+    "name": "May The Horse Be With You I",
+    "from": "Charles Horsington III",
+    "fromImage": "/img/items/npc_horse.png",
+    "text": "You decide to visit Charles Horsington III, who is asleep under a shady tree. He appears to be having a nightmare, as he is kicking his leg and whinnying softly. He startles himself awake, and sees you. He places a single feather in front of you.\n\n“Neigh? Neigh neigh.”\n\nYou nod your head, and gather more feathers.",
+    "requiresFarming": 5,
+    "requiresCrafting": 5,
+    "requiresFishing": 5,
+    "requiresExploring": 5,
+    "availableFrom": "May 4",
+    "availableTo": "May 31"
+  },
+  {
+    "firstSeen": 1651691216031,
+    "itemRequests": [
+      {
+        "id": "168",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "332",
+        "quantity": 2
+      },
+      {
+        "id": "333",
+        "quantity": 2
+      },
+      {
+        "id": "331",
+        "quantity": 5
+      },
+      {
+        "id": "240",
+        "quantity": 1
+      },
+      {
+        "id": "86",
+        "quantity": 10
+      }
+    ],
+    "id": "883",
+    "name": "May The Horse Be With You II",
+    "from": "Star Meerif",
+    "fromImage": "/img/items/npc_figure.png",
+    "text": "Star Meerif appears, sensing the gathering of feathers was meant for him. He sees Charles Horsington III and smiles warmly. “Hello there!”\n\n“Neigh neigh. Neigh! NEIGH! …Neigh.”\n\nStar nods his head. “I understand, and I will help you learn the ways of the horse.”\n\nStar requests a strange letter from you, while he sets up his plan to help Charles feel more protected against whatever was in his bad dream.",
+    "requiresFarming": 10,
+    "requiresCrafting": 10,
+    "requiresFishing": 10,
+    "requiresExploring": 10,
+    "availableFrom": "May 4",
+    "availableTo": "May 31"
+  },
+  {
+    "firstSeen": 1651691228860,
+    "itemRequests": [
+      {
+        "id": "44",
+        "quantity": 10
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "123",
+        "quantity": 10
+      },
+      {
+        "id": "330",
+        "quantity": 1
+      },
+      {
+        "id": "334",
+        "quantity": 1
+      },
+      {
+        "id": "240",
+        "quantity": 1
+      }
+    ],
+    "id": "884",
+    "name": "May The Horse Be With You III",
+    "from": "Star Meerif",
+    "fromImage": "/img/items/npc_figure.png",
+    "text": "As you return with the letter for Star, you hear a familiar soft whinny. “He dozed off waiting for me to calculate the precise degree of altitude needed to properly conduct what I’m trying to accomplish. Please bring some apples.”",
+    "requiresFarming": 10,
+    "requiresCrafting": 10,
+    "requiresFishing": 10,
+    "requiresExploring": 10,
+    "availableFrom": "May 4",
+    "availableTo": "May 31"
+  },
+  {
+    "firstSeen": 1651691239418,
+    "itemRequests": [
+      {
+        "id": "44",
+        "quantity": 10
+      },
+      {
+        "id": "42",
+        "quantity": 50
+      },
+      {
+        "id": "76",
+        "quantity": 50
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "546",
+        "quantity": 1
+      },
+      {
+        "id": "194",
+        "quantity": 10
+      },
+      {
+        "id": "86",
+        "quantity": 10
+      },
+      {
+        "id": "84",
+        "quantity": 10
+      },
+      {
+        "id": "240",
+        "quantity": 1
+      },
+      {
+        "id": "336",
+        "quantity": 2
+      },
+      {
+        "id": "335",
+        "quantity": 3
+      }
+    ],
+    "id": "885",
+    "name": "May The Horse Be With You IV",
+    "from": "Star Meerif",
+    "fromImage": "/img/items/npc_figure.png",
+    "text": "The scent of a fresh, crisp apple wakes Charles from a deep sleep.\n\n“Ah yes, the horse awakens.” Star chuckles to himself, as if he told a joke only he would understand.\n\n“Neigh. Neigh neigh!”\n\nStar casts a protection spell on Charles Horsington III. “This should do the trick.” Charles still looks worried, so Star offers him some advice. “The best defense against an enemy is to use their own terrain against them.” Star pats Charles Horsington III. “Take this advice, and you will do just fine.”",
+    "requiresFarming": 20,
+    "requiresCrafting": 20,
+    "requiresFishing": 20,
+    "requiresExploring": 20,
+    "availableFrom": "May 4",
+    "availableTo": "May 31"
+  },
+  {
+    "firstSeen": 1651691280495,
+    "itemRequests": [
+      {
+        "id": "44",
+        "quantity": 100
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "274",
+        "quantity": 2
+      }
+    ],
+    "id": "886",
+    "name": "May The Horse Be With You V",
+    "from": "frank",
+    "fromImage": "/img/items/npc_bunny1.png",
+    "text": "frank sees you, and hops over. “I heard you helped ol’ Charlie get over his fear of cloaked desert creatures. Hearing him talk about his day gave me a really good idea.” He hands you 2 sealed letters to deliver.",
+    "requiresFarming": 50,
+    "requiresCrafting": 50,
+    "requiresFishing": 50,
+    "requiresExploring": 50,
+    "availableFrom": "May 4",
+    "availableTo": "May 31"
+  },
+  {
+    "firstSeen": 1651691460662,
+    "itemRequests": [
+      {
+        "id": "274",
+        "quantity": 2
+      },
+      {
+        "id": "387",
+        "quantity": 100
+      },
+      {
+        "id": "193",
+        "quantity": 100
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "387",
+        "quantity": 300
+      },
+      {
+        "id": "86",
+        "quantity": 100
+      },
+      {
+        "id": "84",
+        "quantity": 25
+      },
+      {
+        "id": "250",
+        "quantity": 10
+      }
+    ],
+    "id": "887",
+    "name": "May The Horse Be With You VI",
+    "from": "Thomas",
+    "fromImage": "/img/items/a_048.png",
+    "text": "The letters are addressed “Thomas” and “C. Thomas”. Both of them are conveniently standing near the docks, so you deliver the letters. Thomas opens his letter, and reads it carefully. “He wants…sand? I don’t have any sand! Would you please find some for me, and bring it to frank? I owe him a favor so I can’t say no..”\n\nCaptain Thomas opens his letter, and tells you he has sand to offer, but is running low on rope, and would be willing to trade with you.",
+    "requiresFarming": 50,
+    "requiresCrafting": 50,
+    "requiresFishing": 50,
+    "requiresExploring": 50,
+    "availableFrom": "May 4",
+    "availableTo": "May 31"
+  },
+  {
+    "firstSeen": 1651691488633,
+    "itemRequests": [
+      {
+        "id": "387",
+        "quantity": 200
+      },
+      {
+        "id": "42",
+        "quantity": 200
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "123",
+        "quantity": 100
+      },
+      {
+        "id": "500",
+        "quantity": 5
+      },
+      {
+        "id": "339",
+        "quantity": 5
+      }
+    ],
+    "id": "888",
+    "name": "May The Horse Be With You VII",
+    "from": "frank",
+    "fromImage": "/img/items/npc_bunny1.png",
+    "text": "You return with the sand, and surprisingly enough, Thomas and Captain Thomas are sitting with frank. You wonder why they didn’t just bring the sand here, themselves. frank tasks the Thomases with pouring sand in the shape of a feather in front of Star’s door. “Hey. Go knock on the door.”\n\nYou’ve learned not to question frank anymore, and knock on the door.",
+    "requiresFarming": 50,
+    "requiresCrafting": 50,
+    "requiresFishing": 50,
+    "requiresExploring": 50,
+    "availableFrom": "May 4",
+    "availableTo": "May 31"
+  },
+  {
+    "firstSeen": 1651691515172,
+    "itemRequests": [],
+    "itemRewards": [
+      {
+        "id": "546",
+        "quantity": 1
+      },
+      {
+        "id": "509",
+        "quantity": 1
+      },
+      {
+        "id": "379",
+        "quantity": 100
+      }
+    ],
+    "id": "889",
+    "name": "May The Horse Be With You VIII",
+    "from": "Star Meerif",
+    "fromImage": "/img/items/npc_figure.png",
+    "text": "Star Meerif opens the door, and greets you. He takes a step out, and slips on the sand he failed to notice on the ground below him. This may very well be the only time one of frank’s pranks has been successful against Star Meerif.\n\n\"I don't like sand! It's coarse and rough and irritating… and it gets everywhere.\" He shakes some sand from his cloak, and sees frank rolling around and laughing. “Laugh it up, fuzzball!” As he stands up, he sees Thomas, then Captain Thomas. He looks back and forth between them, and blinks a few times. “This is getting out of hand. Since when are there TWO of them?”\n\nStar quickly recomposes himself, and flicks his wrist to disperse the sand. He mutters a spell, and goes back inside.\n\nfrank has turned green, and his ears are pointing out sideways. His voice is…froggier than it normally is. “Got him good, this time I did.” He pauses. “Talking like this, why am I?”",
+    "requiresFarming": 50,
+    "requiresCrafting": 50,
+    "requiresFishing": 50,
+    "requiresExploring": 50,
+    "availableFrom": "May 4",
+    "availableTo": "May 31"
+  },
+  {
     "firstSeen": 1646727894328,
     "itemRequests": [
       {
@@ -28214,6 +28992,256 @@
     "requiresCrafting": 5,
     "requiresFishing": 20,
     "requiresExploring": 40
+  },
+  {
+    "firstSeen": 1651727814420,
+    "itemRequests": [
+      {
+        "id": "11",
+        "quantity": 25
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "21",
+        "quantity": 50
+      },
+      {
+        "id": "43",
+        "quantity": 50
+      },
+      {
+        "id": "84",
+        "quantity": 5
+      },
+      {
+        "id": "44",
+        "quantity": 5
+      },
+      {
+        "id": "512",
+        "quantity": 1
+      }
+    ],
+    "id": "890",
+    "name": "5 Times Tastier I",
+    "from": "Holger",
+    "fromImage": "/img/items/a_028.png",
+    "text": "As Holger was recently rummaging through Borgen’s wagon, he found a recipe that he thought was long lost. The recipe belonged to their father, and he got it somewhere far across the sea in some distant land. The recipe is for a dish that Holger loves at least five times more than any other food.\n\nIf you’ll help him get the ingredients, Holger will share with you a sample of this amazing recipe.",
+    "requiresFarming": 5,
+    "requiresCrafting": 5,
+    "requiresFishing": 5,
+    "requiresExploring": 5,
+    "availableFrom": "May 5",
+    "availableTo": "May 31"
+  },
+  {
+    "firstSeen": 1651727828583,
+    "itemRequests": [
+      {
+        "id": "33",
+        "quantity": 25
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "78",
+        "quantity": 50
+      },
+      {
+        "id": "120",
+        "quantity": 50
+      },
+      {
+        "id": "110",
+        "quantity": 50
+      },
+      {
+        "id": "44",
+        "quantity": 50
+      },
+      {
+        "id": "194",
+        "quantity": 50
+      }
+    ],
+    "id": "891",
+    "name": "5 Times Tastier II",
+    "from": "Holger",
+    "fromImage": "/img/items/a_028.png",
+    "text": "Holger noticed that the recipe makes enough to serve about four people. He’s not really satisfied with that number of servings. Fortunately, you brought enough peppers to make five times the recipe. So, Holger is going to make enough for twenty.\n\nWill you bring him a load of onions now?",
+    "requiresFarming": 15,
+    "requiresCrafting": 15,
+    "requiresFishing": 15,
+    "requiresExploring": 15,
+    "availableFrom": "May 5",
+    "availableTo": "May 31"
+  },
+  {
+    "firstSeen": 1651727836053,
+    "itemRequests": [
+      {
+        "id": "15",
+        "quantity": 50
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "86",
+        "quantity": 50
+      },
+      {
+        "id": "162",
+        "quantity": 5
+      },
+      {
+        "id": "379",
+        "quantity": 5
+      },
+      {
+        "id": "250",
+        "quantity": 5
+      },
+      {
+        "id": "185",
+        "quantity": 5
+      }
+    ],
+    "id": "892",
+    "name": "5 Times Tastier III",
+    "from": "Holger",
+    "fromImage": "/img/items/a_028.png",
+    "text": "Holger needs tomatoes now. Will you bring him a large load of tomatoes?",
+    "requiresFarming": 25,
+    "requiresCrafting": 25,
+    "requiresFishing": 25,
+    "requiresExploring": 25,
+    "availableFrom": "May 5",
+    "availableTo": "May 31"
+  },
+  {
+    "firstSeen": 1651727841707,
+    "itemRequests": [
+      {
+        "id": "137",
+        "quantity": 5
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "508",
+        "quantity": 5
+      },
+      {
+        "id": "242",
+        "quantity": 5
+      },
+      {
+        "id": "475",
+        "quantity": 5
+      },
+      {
+        "id": "264",
+        "quantity": 5
+      },
+      {
+        "id": "549",
+        "quantity": 5
+      }
+    ],
+    "id": "893",
+    "name": "5 Times Tastier IV",
+    "from": "Holger",
+    "fromImage": "/img/items/a_028.png",
+    "text": "Now, Holger needs meat for the recipe. He knows that it is a big expense, but he promises that it will be worth your investment.",
+    "requiresFarming": 25,
+    "requiresCrafting": 25,
+    "requiresFishing": 25,
+    "requiresExploring": 25,
+    "availableFrom": "May 5",
+    "availableTo": "May 31",
+    "silverReward": 500000
+  },
+  {
+    "firstSeen": 1651727849417,
+    "itemRequests": [
+      {
+        "id": "65",
+        "quantity": 250
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "123",
+        "quantity": 250
+      },
+      {
+        "id": "84",
+        "quantity": 55
+      },
+      {
+        "id": "500",
+        "quantity": 5
+      },
+      {
+        "id": "549",
+        "quantity": 5
+      }
+    ],
+    "id": "894",
+    "name": "5 Times Tastier V",
+    "from": "Holger",
+    "fromImage": "/img/items/a_028.png",
+    "text": "Holger appreciates your incredible efforts to help bring this grand feast to his table, but he needs more help. Holger used all the corn he had available, but he still needs a lot more. Will you bring him a large load of corn?",
+    "requiresFarming": 50,
+    "requiresCrafting": 50,
+    "requiresFishing": 50,
+    "requiresExploring": 50,
+    "availableFrom": "May 5",
+    "availableTo": "May 31",
+    "silverReward": 2500000
+  },
+  {
+    "firstSeen": 1651727858958,
+    "itemRequests": [
+      {
+        "id": "546",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "104",
+        "quantity": 50
+      },
+      {
+        "id": "39",
+        "quantity": 50
+      },
+      {
+        "id": "18",
+        "quantity": 50
+      },
+      {
+        "id": "84",
+        "quantity": 50
+      },
+      {
+        "id": "194",
+        "quantity": 50
+      }
+    ],
+    "id": "895",
+    "name": "Revenge Of The Fifth",
+    "from": "Holger",
+    "fromImage": "/img/items/a_028.png",
+    "text": "Holger isn’t feeling well right now. He thinks he ate a few too many tacos. Will you give him something to help aid his digestive processes?",
+    "requiresFarming": 25,
+    "requiresCrafting": 25,
+    "requiresFishing": 25,
+    "requiresExploring": 25,
+    "availableFrom": "May 5",
+    "availableTo": "May 31"
   },
   {
     "firstSeen": 1646723936403,

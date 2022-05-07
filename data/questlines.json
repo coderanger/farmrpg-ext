@@ -19,6 +19,18 @@
     "secondary": false
   },
   {
+    "image": "/img/items/a_028.png",
+    "name": "5 Times Tastier",
+    "quests": [
+      "890",
+      "891",
+      "892",
+      "893",
+      "894"
+    ],
+    "secondary": false
+  },
+  {
     "image": "/img/items/a_034.png",
     "name": "99 Bottles",
     "quests": [
@@ -306,7 +318,12 @@
       "869",
       "870",
       "871",
-      "872"
+      "872",
+      "873",
+      "874",
+      "875",
+      "876",
+      "877"
     ],
     "secondary": false
   },
@@ -1035,6 +1052,21 @@
       "858",
       "864",
       "865"
+    ],
+    "secondary": false
+  },
+  {
+    "image": "/img/items/npc_horse.png",
+    "name": "May The Horse Be With You",
+    "quests": [
+      "882",
+      "883",
+      "884",
+      "885",
+      "886",
+      "887",
+      "888",
+      "889"
     ],
     "secondary": false
   },

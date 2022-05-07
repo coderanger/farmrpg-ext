@@ -342,6 +342,13 @@
     "rarity": "Common"
   },
   {
+    "firstSeen": 1651887542639,
+    "name": "Birthday Present",
+    "id": "547",
+    "image": "/img/items/present03.png",
+    "rarity": ""
+  },
+  {
     "name": "Black Powder",
     "id": "104",
     "image": "/img/items/powder.png",
@@ -423,6 +430,13 @@
     "sellPrice": 150,
     "xp": 150,
     "rarity": "Common"
+  },
+  {
+    "firstSeen": 1651642018577,
+    "id": "546",
+    "name": "Blue Milk",
+    "image": "/img/items/bluemilk.png?2",
+    "xp": 5
   },
   {
     "id": "406",
@@ -4210,6 +4224,15 @@
     "rarity": "Uncommon"
   },
   {
+    "firstSeen": 1651727905572,
+    "id": "550",
+    "name": "Piñata",
+    "image": "/img/items/pinata.png",
+    "event": true,
+    "xp": 2500,
+    "rarity": "Uncommon"
+  },
+  {
     "name": "Plumbfish",
     "id": "309",
     "image": "/img/items/7754.png",
@@ -4989,7 +5012,8 @@
     "sellPrice": 50000,
     "xp": 2500,
     "rarity": "Rare",
-    "firstSeen": 1642564800000
+    "firstSeen": 1642564800000,
+    "fleaMarket": 25
   },
   {
     "name": "Seahorse",
@@ -5302,6 +5326,15 @@
     "image": "/img/items/cr_t_08.png",
     "event": true,
     "sellPrice": 50000,
+    "xp": 2500,
+    "rarity": "Uncommon"
+  },
+  {
+    "firstSeen": 1651727922931,
+    "id": "551",
+    "name": "Sombrero",
+    "image": "/img/items/sombrero.png",
+    "event": true,
     "xp": 2500,
     "rarity": "Uncommon"
   },
@@ -5691,6 +5724,15 @@
     "xp": 7500,
     "rarity": "Common",
     "mastery": true
+  },
+  {
+    "firstSeen": 1651727913967,
+    "id": "549",
+    "name": "Taco",
+    "image": "/img/items/taco.png",
+    "event": true,
+    "xp": 2500,
+    "rarity": "Uncommon"
   },
   {
     "name": "Taffy",
