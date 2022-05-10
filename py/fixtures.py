@@ -167,6 +167,9 @@ def _get_drops():
     normal_drops.locations["Cane Pole Ridge"].items[
         "Tea Leaves"
     ] = iron_depot_drops.locations["Cane Pole Ridge"].items["Tea Leaves"]
+    normal_drops.locations["Small Cave"].items[
+        "Skeleton Key"
+    ] = iron_depot_drops.locations["Small Cave"].items["Skeleton Key"]
 
     # NOTES ABOUT GOLD BOOT DROP RATE
     # RySwim

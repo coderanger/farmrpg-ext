@@ -546,6 +546,13 @@
     "xp": 1000
   },
   {
+    "firstSeen": 1652125717663,
+    "id": "552",
+    "name": "Book of Fish",
+    "image": "/img/items/bookoffish.png",
+    "xp": 1000
+  },
+  {
     "name": "Book of Flora",
     "id": "182",
     "image": "/img/items/7587.png",
@@ -4895,6 +4902,14 @@
     "mastery": true
   },
   {
+    "firstSeen": 1652125725456,
+    "id": "553",
+    "name": "Runestone 23",
+    "image": "/img/items/5658.png",
+    "xp": 20000,
+    "rarity": "Very Rare"
+  },
+  {
     "name": "Salt",
     "id": "305",
     "image": "/img/items/salt.png",
@@ -5199,7 +5214,8 @@
     "image": "/img/items/skelkey.png",
     "event": true,
     "xp": 1750,
-    "rarity": "Very Rare"
+    "rarity": "Very Rare",
+    "firstDropped": 1652134440000
   },
   {
     "name": "Skipjack",

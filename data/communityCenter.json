@@ -285,6 +285,33 @@
     "goalQuantity": 1000000,
     "rewardItem": "Large Chest 02",
     "rewardQuantity": 3,
-    "progress": 860517
+    "progress": 1027408
+  },
+  {
+    "firstSeen": 1651912941777,
+    "date": "2022-05-07",
+    "goalItem": "Snail",
+    "goalQuantity": 1000000,
+    "rewardItem": "Orange Juice",
+    "rewardQuantity": 100,
+    "progress": 1440644
+  },
+  {
+    "firstSeen": 1651998421062,
+    "date": "2022-05-08",
+    "goalItem": "Iron Cup",
+    "goalQuantity": 500000,
+    "rewardItem": "Treasure Key",
+    "rewardQuantity": 3,
+    "progress": 8118346
+  },
+  {
+    "firstSeen": 1652120174277,
+    "date": "2022-05-09",
+    "goalItem": "Mushroom",
+    "goalQuantity": 1250000,
+    "rewardItem": "Gold Peas",
+    "rewardQuantity": 10,
+    "progress": 1261004
   }
 ]

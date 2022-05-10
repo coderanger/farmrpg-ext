@@ -4,9 +4,9 @@
     "id": "1",
     "name": "Small Cave",
     "silverPerHit": 6.48935189453305,
-    "silverPerHitIronDepot": 11.11369652236967,
+    "silverPerHitIronDepot": 11.037244250157986,
     "xpPerHit": 9.042131464921177,
-    "xpPerHitIronDepot": 11.701822233488773
+    "xpPerHitIronDepot": 11.670686386484466
   },
   {
     "baseDropRate": null,
@@ -76,9 +76,9 @@
     "id": "4",
     "name": "Cane Pole Ridge",
     "silverPerHit": 7.95248673531813,
-    "silverPerHitIronDepot": 12.738571117854375,
+    "silverPerHitIronDepot": 12.86420944766088,
     "xpPerHit": 10.395114223972495,
-    "xpPerHitIronDepot": 14.873014766903385
+    "xpPerHitIronDepot": 14.840850935628819
   },
   {
     "baseDropRate": null,
@@ -93,10 +93,10 @@
     "baseDropRate": 0.3333333333333333,
     "id": "5",
     "name": "Misty Forest",
-    "silverPerHit": 30.647316960505044,
-    "silverPerHitIronDepot": 30.647316960505044,
-    "xpPerHit": 37.12200533318402,
-    "xpPerHitIronDepot": 37.12200533318402
+    "silverPerHit": 30.494004254937813,
+    "silverPerHitIronDepot": 30.494004254937813,
+    "xpPerHit": 36.9729370023598,
+    "xpPerHitIronDepot": 36.9729370023598
   },
   {
     "baseDropRate": null,
@@ -176,7 +176,7 @@
     "name": "Lake Minerva",
     "silverPerHit": null,
     "silverPerHitIronDepot": null,
-    "xpPerHit": 3080.788108353229,
+    "xpPerHit": 3080.9223145780047,
     "xpPerHitIronDepot": null
   }
 ]
