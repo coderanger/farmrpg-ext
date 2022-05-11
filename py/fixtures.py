@@ -5,7 +5,7 @@ import os
 import re
 from datetime import date, datetime
 from pathlib import Path
-from typing import Iterable, Optional, Union
+from typing import Any, Iterable, Optional, Union
 from zoneinfo import ZoneInfo
 
 import attrs
@@ -665,6 +665,43 @@ def gen_pbgs():
     return [pbg | {"order": i} for i, pbg in enumerate(pbgs)]
 
 
+def _get_passwords() -> Iterable[dict[str, Any]]:
+    passwords_data = Path(__file__) / ".." / ".." / "data" / "passwords.yaml"
+    passwords: list[dict] = yaml.safe_load(passwords_data.resolve().open())
+    for i, pw in enumerate(passwords):
+        if not (pw.get("clue1") and pw.get("clue2") and pw.get("clue3")):
+            # FOR NOW: skip unfinished passwords
+            continue
+        yield pw | {"id": i + 1}
+
+
+def gen_passwords():
+    passwords = []
+    for pw in _get_passwords():
+        reward = pw.pop("reward")
+        pw["gold"] = reward.get("Gold")
+        pw["silver"] = reward.get("Silver")
+        passwords.append(pw)
+    return passwords
+
+
+def get_password_items():
+    items = {it.name: it.id for it in load_items()}
+    password_items = []
+    for pw in _get_passwords():
+        for reward_name, reward_quantity in pw["reward"].items():
+            if reward_name == "Silver" or reward_name == "Gold":
+                continue
+            password_items.append(
+                {
+                    "password_id": pw["id"],
+                    "item_id": items[reward_name],
+                    "quantity": reward_quantity,
+                }
+            )
+    return password_items
+
+
 GEN_FIXTURES = {
     "drop_rates": gen_drop_rates,
     "drop_rates_gql": gen_drop_rates_gql,
@@ -678,6 +715,8 @@ GEN_FIXTURES = {
     "item_api": gen_item_api,
     "tower": gen_tower,
     "pbgs": gen_pbgs,
+    "passwords": gen_passwords,
+    "password_items": get_password_items,
 }
 
 
