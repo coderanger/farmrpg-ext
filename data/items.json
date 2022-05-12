@@ -487,6 +487,15 @@
     "mastery": true
   },
   {
+    "firstSeen": 1652320422801,
+    "id": "568",
+    "name": "Blue Spritz",
+    "image": "/img/items/bluedrink.png",
+    "event": true,
+    "xp": 2500,
+    "rarity": "Uncommon"
+  },
+  {
     "name": "Blue Tiger Fish",
     "id": "200",
     "image": "/img/items/5772.png",
@@ -1254,6 +1263,15 @@
     "growthTime": 14400,
     "mastery": true,
     "rarity": "Everywhere"
+  },
+  {
+    "firstSeen": 1652320417848,
+    "id": "567",
+    "name": "Corn Kabob",
+    "image": "/img/items/cornkabob.png",
+    "event": true,
+    "xp": 2500,
+    "rarity": "Uncommon"
   },
   {
     "name": "Corn Seeds",
@@ -2958,6 +2976,17 @@
     "xp": 1750
   },
   {
+    "firstSeen": 1652320367645,
+    "name": "Hot Potato",
+    "id": "565",
+    "image": "/img/items/hotpotato.png",
+    "event": true,
+    "xp": 250,
+    "givable": true,
+    "rarity": "Very Rare",
+    "growthTime": 1500
+  },
+  {
     "id": "388",
     "name": "Hourglass",
     "image": "/img/items/4241.png",
@@ -3994,6 +4023,15 @@
     "givable": true,
     "growthTime": 900,
     "mastery": true
+  },
+  {
+    "firstSeen": 1652320414403,
+    "id": "566",
+    "name": "Onion Rings",
+    "image": "/img/items/onionrings.png",
+    "event": true,
+    "xp": 2500,
+    "rarity": "Uncommon"
   },
   {
     "id": "34",

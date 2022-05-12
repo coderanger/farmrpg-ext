@@ -29244,6 +29244,76 @@
     "availableTo": "May 31"
   },
   {
+    "firstSeen": 1652320149647,
+    "itemRequests": [
+      {
+        "id": "470",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "508",
+        "quantity": 50
+      },
+      {
+        "id": "482",
+        "quantity": 1
+      },
+      {
+        "id": "366",
+        "quantity": 2
+      }
+    ],
+    "id": "896",
+    "name": "A Way Back XXXI",
+    "from": "Thomas",
+    "fromImage": "/img/items/a_048.png",
+    "text": "Before he leaves to find the glow, Thomas would like to ask you for one more, enormous favor.\n\nDuring these weeks of shipbuilding, Thomas found that if he stood in the center of the island, he almost felt normal again. He talked to Captain Thomas about it, and Captain Thomas told him about all the strange phenomena that he has observed. Captain Thomas also mentioned the hourglass he made with sand from this island that behaves much like the center area.\n\nWill you lend Thomas the hourglass that Captain Thomas made? If it doesn’t have the same effect that the center of the island has on Thomas, he’ll give it right back. If it does help Thomas feel better, will you let him borrow it until he comes back from the glow?",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99
+  },
+  {
+    "firstSeen": 1652320165580,
+    "itemRequests": [],
+    "itemRewards": [
+      {
+        "id": "552",
+        "quantity": 1
+      }
+    ],
+    "id": "897",
+    "name": "A Way Back XXXII",
+    "from": "Thomas",
+    "fromImage": "/img/items/a_048.png",
+    "text": "It works! Thomas feels a little more normal when he holds the center of the hourglass. So, he would like to take it along on this voyage, and return it to you as soon as he returns. Thomas is certain you can trust the quest to return him safely home with the hourglass.\n\nNow friend, Thomas is very thankful for all of your help. He definitely could not have made it this far without you. You have helped him become a better person, in addition to all the other help you’ve given. Thomas would like you to accept this book as a small token of his thanks.\n\nThomas also hopes to have a great story for you when he returns. Maybe he’ll even catch a shark while he’s gone.",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99
+  },
+  {
+    "firstSeen": 1652320171478,
+    "itemRequests": [],
+    "itemRewards": [
+      {
+        "id": "553",
+        "quantity": 1
+      }
+    ],
+    "id": "898",
+    "name": "A Way Back XXXIII",
+    "from": "Captain Thomas",
+    "fromImage": "/img/items/7475.png",
+    "text": "My friend,\nBy the time you get this letter, Thomas and I should be well out to sea and well on our way to find the glow. I’m sorry to leave this letter as my goodbye, instead of a face-to-face exchange. Goodbyes are tough and I wanted to make sure I got my words just right.\n\nYou are a true friend, and you’ve helped me without reservation since I landed on your world. Even when you saw me succumb to desperation, you continued to help me. I’ve also watched as you helped others, no matter what they needed. Your example is part of why I’m helping Thomas on this voyage. If I’m to be stuck on this world, I should make it a better place, just like you do. It would make my Sarafina proud too.\n\nNo more feeling sorry for myself. I have a friend in need.\n\nFinally, I’m leaving this runestone in your care. It was in my pocket when I was pulled from my world. It appears to be one of a few that are unique to my universe. Please keep it safe until I return.\n\nYour friend,\nCaptain Thomas",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99
+  },
+  {
     "firstSeen": 1646723936403,
     "itemRequests": [
       {

@@ -6531,7 +6531,7 @@
   },
   {
     "id": "877",
-    "next": null,
+    "next": "896",
     "prev": "876",
     "questlines": [
       "A Way Back"
@@ -6704,5 +6704,29 @@
     "availableTo": 1654059599000,
     "id": "895",
     "questlines": []
+  },
+  {
+    "id": "896",
+    "next": "897",
+    "prev": "877",
+    "questlines": [
+      "A Way Back"
+    ]
+  },
+  {
+    "id": "897",
+    "next": "898",
+    "prev": "896",
+    "questlines": [
+      "A Way Back"
+    ]
+  },
+  {
+    "id": "898",
+    "next": null,
+    "prev": "897",
+    "questlines": [
+      "A Way Back"
+    ]
   }
 ]

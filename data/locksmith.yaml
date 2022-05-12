@@ -22,7 +22,6 @@
     Snail: 1-?
     Giant Centipede: 1-?
     Shiny Beetle: 1-?
-    Fish Bones: 1-?
     Gummy Worms: 1-?
     Fire Ant: 1-?
     Globber: 1-?
@@ -433,3 +432,14 @@
     Iced Tea: 10
     Orange Juice: 25
     Lemonade: 25
+
+- box: Birthday Present
+  items:
+    Apple: 200
+    Orange: 200
+    Lemon: 200
+    Glass Bottle: 200
+    Grapes: 200
+    Fishing Net: 100
+    Apple Cider: 25
+    Arnold Palmer: 10

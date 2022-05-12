@@ -231,13 +231,6 @@
     "quantityLow": 1
   },
   {
-    "box": "334",
-    "group": 0,
-    "item": "45",
-    "quantityHigh": null,
-    "quantityLow": 1
-  },
-  {
     "box": "336",
     "group": 0,
     "item": "123",
@@ -1489,6 +1482,62 @@
     "item": "508",
     "quantityHigh": 50,
     "quantityLow": 50
+  },
+  {
+    "box": "547",
+    "group": 0,
+    "item": "44",
+    "quantityHigh": 200,
+    "quantityLow": 200
+  },
+  {
+    "box": "547",
+    "group": 1,
+    "item": "61",
+    "quantityHigh": 200,
+    "quantityLow": 200
+  },
+  {
+    "box": "547",
+    "group": 2,
+    "item": "62",
+    "quantityHigh": 200,
+    "quantityLow": 200
+  },
+  {
+    "box": "547",
+    "group": 3,
+    "item": "117",
+    "quantityHigh": 200,
+    "quantityLow": 200
+  },
+  {
+    "box": "547",
+    "group": 4,
+    "item": "120",
+    "quantityHigh": 200,
+    "quantityLow": 200
+  },
+  {
+    "box": "547",
+    "group": 5,
+    "item": "194",
+    "quantityHigh": 100,
+    "quantityLow": 100
+  },
+  {
+    "box": "547",
+    "group": 6,
+    "item": "379",
+    "quantityHigh": 25,
+    "quantityLow": 25
+  },
+  {
+    "box": "547",
+    "group": 7,
+    "item": "508",
+    "quantityHigh": 10,
+    "quantityLow": 10
   },
   {
     "box": "548",
