@@ -668,11 +668,15 @@ def gen_pbgs():
 def _get_passwords() -> Iterable[dict[str, Any]]:
     passwords_data = Path(__file__) / ".." / ".." / "data" / "passwords.yaml"
     passwords: list[dict] = yaml.safe_load(passwords_data.resolve().open())
-    for i, pw in enumerate(passwords):
-        if not (pw.get("clue1") and pw.get("clue2") and pw.get("clue3")):
-            # FOR NOW: skip unfinished passwords
-            continue
-        yield pw | {"id": i + 1}
+    i = 0
+    for group in passwords:
+        group_name = group["group"]
+        for pw in group["passwords"]:
+            i += 1
+            if not (pw.get("clue1") and pw.get("clue2") and pw.get("clue3")):
+                # FOR NOW: skip unfinished passwords
+                continue
+            yield pw | {"id": i, "group": group_name}
 
 
 def gen_passwords():
@@ -681,6 +685,7 @@ def gen_passwords():
         reward = pw.pop("reward")
         pw["gold"] = reward.get("Gold")
         pw["silver"] = reward.get("Silver")
+        pw["password"] = pw["password"].lower()
         passwords.append(pw)
     return passwords
 
@@ -694,8 +699,8 @@ def get_password_items():
                 continue
             password_items.append(
                 {
-                    "password_id": pw["id"],
-                    "item_id": items[reward_name],
+                    "password": pw["id"],
+                    "item": items[reward_name],
                     "quantity": reward_quantity,
                 }
             )
