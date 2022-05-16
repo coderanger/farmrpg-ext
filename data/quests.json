@@ -29468,6 +29468,74 @@
     "silverReward": 5
   },
   {
+    "firstSeen": 1652392285277,
+    "itemRequests": [
+      {
+        "id": "26",
+        "quantity": 12
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "194",
+        "quantity": 10
+      },
+      {
+        "id": "84",
+        "quantity": 10
+      },
+      {
+        "id": "123",
+        "quantity": 5
+      }
+    ],
+    "id": "928",
+    "name": "Ring King I",
+    "from": "George",
+    "fromImage": "/img/items/a_034.png",
+    "text": "One of George’s favorite foods is onion rings. For the past ten years he’s been perfecting a recipe that he created. Now, George thinks that it’s finally time to share his onion rings with the world.\n\nDuring the big anniversary jubilee, George wants to set up a stand to sell his onion rings. While he’s setting up his stand, will you help him gather the ingredients he needs for the onion ring batter?",
+    "requiresFarming": 5,
+    "requiresCrafting": 5,
+    "requiresFishing": 5,
+    "requiresExploring": 5,
+    "availableFrom": "May 12",
+    "availableTo": "May 31"
+  },
+  {
+    "firstSeen": 1652392294623,
+    "itemRequests": [
+      {
+        "id": "85",
+        "quantity": 12
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "44",
+        "quantity": 25
+      },
+      {
+        "id": "86",
+        "quantity": 10
+      },
+      {
+        "id": "330",
+        "quantity": 2
+      }
+    ],
+    "id": "929",
+    "name": "Ring King II",
+    "from": "George",
+    "fromImage": "/img/items/a_034.png",
+    "text": "George is still getting his frying station ready. While he’s busy, will you get another ingredient for his onion ring batter?",
+    "requiresFarming": 5,
+    "requiresCrafting": 5,
+    "requiresFishing": 5,
+    "requiresExploring": 5,
+    "availableFrom": "May 12",
+    "availableTo": "May 31"
+  },
+  {
     "firstSeen": 1646727886303,
     "itemRequests": [
       {
@@ -29487,6 +29555,391 @@
     "fromImage": "/img/items/a_088.png",
     "text": "Now that you have named your farm, and planted your first seeds, a friendly Neighbor comes to say hello. \"Hello, new friend! I'll trade you one of those peppers for a handful of seeds.\n\nAfter that, when you come back here, you will find that there are lots of people in town who could use your help and help teach you the ropes of running your old farm. Once these seeds grow, come back, and I'll have some more advice for you.\"",
     "requiresFarming": 1
+  },
+  {
+    "firstSeen": 1652392300907,
+    "itemRequests": [
+      {
+        "id": "35",
+        "quantity": 50
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "186",
+        "quantity": 5
+      },
+      {
+        "id": "250",
+        "quantity": 5
+      },
+      {
+        "id": "84",
+        "quantity": 20
+      },
+      {
+        "id": "281",
+        "quantity": 2
+      },
+      {
+        "id": "81",
+        "quantity": 50
+      }
+    ],
+    "id": "930",
+    "name": "Ring King III",
+    "from": "George",
+    "fromImage": "/img/items/a_034.png",
+    "text": "To keep the oil really hot for all of these onion rings, George is going to need a stable and strong fire. While he starts making his batter, will you bring a load of wood for the fire?",
+    "requiresFarming": 5,
+    "requiresCrafting": 5,
+    "requiresFishing": 5,
+    "requiresExploring": 5,
+    "availableFrom": "May 12",
+    "availableTo": "May 31"
+  },
+  {
+    "firstSeen": 1652392308712,
+    "itemRequests": [
+      {
+        "id": "33",
+        "quantity": 100
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "123",
+        "quantity": 10
+      },
+      {
+        "id": "508",
+        "quantity": 2
+      },
+      {
+        "id": "185",
+        "quantity": 5
+      },
+      {
+        "id": "500",
+        "quantity": 2
+      }
+    ],
+    "id": "931",
+    "name": "Ring King IV",
+    "from": "George",
+    "fromImage": "/img/items/a_034.png",
+    "text": "George is ready for the onions, but before you bring them, he wants to make sure that you know that they will make him cry. If seeing a grown man cry while cooking makes you uncomfortable, George understands. He won’t be offended if you drop off the onions and quickly leave.\n\nWill you bring him as many onions as you can?",
+    "requiresFarming": 12,
+    "requiresCrafting": 12,
+    "requiresFishing": 12,
+    "requiresExploring": 12,
+    "availableFrom": "May 12",
+    "availableTo": "May 31"
+  },
+  {
+    "firstSeen": 1652392638187,
+    "itemRequests": [],
+    "itemRewards": [
+      {
+        "id": "566",
+        "quantity": 5
+      }
+    ],
+    "id": "932",
+    "name": "Ring King V",
+    "from": "George",
+    "fromImage": "/img/items/a_034.png",
+    "text": "George appreciates all of your help with his onion rings stand. His onion rings cooked up perfectly, and everyone seems to love them! Would you like to try George’s onion rings?",
+    "requiresFarming": 12,
+    "requiresCrafting": 12,
+    "requiresFishing": 12,
+    "requiresExploring": 12,
+    "availableFrom": "May 12",
+    "availableTo": "May 31"
+  },
+  {
+    "firstSeen": 1652473992582,
+    "itemRequests": [
+      {
+        "id": "43",
+        "quantity": 200
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "508",
+        "quantity": 5
+      },
+      {
+        "id": "498",
+        "quantity": 50
+      },
+      {
+        "id": "242",
+        "quantity": 5
+      },
+      {
+        "id": "123",
+        "quantity": 5
+      },
+      {
+        "id": "84",
+        "quantity": 20
+      }
+    ],
+    "id": "933",
+    "name": "Always Be Corn-ing I",
+    "from": "Vincent",
+    "fromImage": "/img/items/a_047.png",
+    "text": "Vincent thinks that the anniversary jubilee is the perfect time to sell some food and make some money. So, once again, Vincent is coming to you for assistance with setting up a stand in town. This time he has all the materials to set up the stand, but he needs your help getting the ingredients to make the corn kabobs that he wants to sell. To start, will you bring Vincent a load of mushrooms?",
+    "requiresFarming": 5,
+    "requiresCrafting": 5,
+    "requiresFishing": 5,
+    "requiresExploring": 5,
+    "availableFrom": "May 12",
+    "availableTo": "May 31"
+  },
+  {
+    "firstSeen": 1652475936893,
+    "itemRequests": [
+      {
+        "id": "15",
+        "quantity": 100
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "500",
+        "quantity": 5
+      },
+      {
+        "id": "123",
+        "quantity": 25
+      },
+      {
+        "id": "112",
+        "quantity": 4
+      },
+      {
+        "id": "334",
+        "quantity": 3
+      },
+      {
+        "id": "389",
+        "quantity": 2
+      }
+    ],
+    "id": "934",
+    "name": "Always Be Corn-ing II",
+    "from": "Vincent",
+    "fromImage": "/img/items/a_047.png",
+    "text": "Vincent finished setting up his stand. Now, he’s ready for you to help him get more of the ingredients for his kabobs, while he gets his fire going and his grill prepared. Will you bring him a load of tomatoes?",
+    "requiresFarming": 20,
+    "requiresCrafting": 20,
+    "requiresFishing": 20,
+    "requiresExploring": 20,
+    "availableFrom": "May 12",
+    "availableTo": "May 31"
+  },
+  {
+    "firstSeen": 1652476922676,
+    "itemRequests": [
+      {
+        "id": "92",
+        "quantity": 200
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "123",
+        "quantity": 50
+      },
+      {
+        "id": "508",
+        "quantity": 10
+      },
+      {
+        "id": "339",
+        "quantity": 5
+      },
+      {
+        "id": "491",
+        "quantity": 2
+      }
+    ],
+    "id": "935",
+    "name": "Always Be Corn-ing IV",
+    "from": "Vincent",
+    "fromImage": "/img/items/a_047.png",
+    "text": "Vincent learned how to make these kabobs while he was working way out west, and he’s loved them ever since. They require a special combination of seasonings to make them really tasty. Unfortunately, Vincent is running low on one of the secret ingredients to make the seasoning. Will you bring him a load of sweet roots and be very discreet about it?",
+    "requiresFarming": 30,
+    "requiresCrafting": 30,
+    "requiresFishing": 30,
+    "requiresExploring": 30,
+    "availableFrom": "May 12",
+    "availableTo": "May 31"
+  },
+  {
+    "firstSeen": 1652476908949,
+    "itemRequests": [
+      {
+        "id": "65",
+        "quantity": 200
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "84",
+        "quantity": 50
+      },
+      {
+        "id": "44",
+        "quantity": 50
+      },
+      {
+        "id": "336",
+        "quantity": 2
+      },
+      {
+        "id": "337",
+        "quantity": 2
+      },
+      {
+        "id": "335",
+        "quantity": 5
+      }
+    ],
+    "id": "936",
+    "name": "Always Be Corn-ing III",
+    "from": "Vincent",
+    "fromImage": "/img/items/a_047.png",
+    "text": "Vincent is now ready for the star of the corn kabobs. Will you bring him a large load of corn?",
+    "requiresFarming": 26,
+    "requiresCrafting": 26,
+    "requiresFishing": 26,
+    "requiresExploring": 26,
+    "availableFrom": "May 12",
+    "availableTo": "May 31",
+    "silverReward": 2000000
+  },
+  {
+    "firstSeen": 1652476929505,
+    "itemRequests": [],
+    "itemRewards": [
+      {
+        "id": "567",
+        "quantity": 5
+      }
+    ],
+    "id": "937",
+    "name": "Always Be Corn-ing V",
+    "from": "Vincent",
+    "fromImage": "/img/items/a_047.png",
+    "text": "Once again, Vincent appreciates your help with his money-making endeavors. The corn kabobs are selling better than pine trees during the holidays.",
+    "requiresFarming": 30,
+    "requiresCrafting": 30,
+    "requiresFishing": 30,
+    "requiresExploring": 30,
+    "availableFrom": "May 12",
+    "availableTo": "May 31"
+  },
+  {
+    "firstSeen": 1652476933892,
+    "itemRequests": [
+      {
+        "id": "65",
+        "quantity": 300
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "346",
+        "quantity": 5
+      },
+      {
+        "id": "347",
+        "quantity": 6
+      },
+      {
+        "id": "567",
+        "quantity": 5
+      }
+    ],
+    "id": "938",
+    "name": "Always Be Corn-ing VI",
+    "from": "Vincent",
+    "fromImage": "/img/items/a_047.png",
+    "text": "The corn kabobs are going fast. Now, Vincent is running low on corn. Will you bring him more corn?",
+    "requiresFarming": 50,
+    "requiresCrafting": 50,
+    "requiresFishing": 50,
+    "requiresExploring": 50,
+    "availableFrom": "May 12",
+    "availableTo": "May 31",
+    "silverReward": 5000000
+  },
+  {
+    "firstSeen": 1652476941650,
+    "itemRequests": [
+      {
+        "id": "65",
+        "quantity": 400
+      },
+      {
+        "id": "15",
+        "quantity": 200
+      },
+      {
+        "id": "43",
+        "quantity": 400
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "363",
+        "quantity": 5
+      },
+      {
+        "id": "347",
+        "quantity": 6
+      },
+      {
+        "id": "567",
+        "quantity": 10
+      },
+      {
+        "id": "341",
+        "quantity": 2
+      },
+      {
+        "id": "475",
+        "quantity": 5
+      },
+      {
+        "id": "491",
+        "quantity": 5
+      },
+      {
+        "id": "457",
+        "quantity": 5
+      },
+      {
+        "id": "565",
+        "quantity": 1
+      }
+    ],
+    "id": "939",
+    "name": "Always Be Corn-ing VII",
+    "from": "Vincent",
+    "fromImage": "/img/items/a_047.png",
+    "text": "Vincent can’t keep up with the demand for his corn kabobs. He needs more of almost everything. Will you help him?",
+    "requiresFarming": 70,
+    "requiresCrafting": 70,
+    "requiresFishing": 70,
+    "requiresExploring": 70,
+    "availableFrom": "May 12",
+    "availableTo": "May 31",
+    "silverReward": 8000000
   },
   {
     "firstSeen": 1646727885118,
@@ -29509,6 +29962,219 @@
     "text": "Lorn has come to check up on your progress. \"Seems like you have the basics of planting down. You know where to buy seeds in town, and you can always sell your crops at the Farmer's Market. You can take this OJ to drink, and try exploring that small cave nearby. You might find something there to bring back to me?\"",
     "silverReward": 100,
     "requiresFarming": 1
+  },
+  {
+    "firstSeen": 1652553512768,
+    "itemRequests": [
+      {
+        "id": "62",
+        "quantity": 10
+      },
+      {
+        "id": "61",
+        "quantity": 10
+      },
+      {
+        "id": "44",
+        "quantity": 20
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "194",
+        "quantity": 20
+      },
+      {
+        "id": "160",
+        "quantity": 20
+      }
+    ],
+    "id": "940",
+    "name": "To Quench The Worst Thirst",
+    "from": "Buddy",
+    "fromImage": "/img/items/buddy.png",
+    "text": "Buddy is incredibly thirsty. He has a very special drink that he would like to make, and if he doesn’t drink it all, share with the town during the annual celebration. He will need some fruits for a lovely cool concoction. Will you bring him some fruit to start a batch?",
+    "requiresExploring": 15,
+    "availableFrom": "May 12",
+    "availableTo": "May 31"
+  },
+  {
+    "firstSeen": 1652553518179,
+    "itemRequests": [
+      {
+        "id": "117",
+        "quantity": 50
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "120",
+        "quantity": 100
+      },
+      {
+        "id": "285",
+        "quantity": 10
+      },
+      {
+        "id": "123",
+        "quantity": 10
+      }
+    ],
+    "id": "941",
+    "name": "To Quench The Worst Thirst II",
+    "from": "Buddy",
+    "fromImage": "/img/items/buddy.png",
+    "text": "Buddy says his drink is coming along well, but he needs something to store it in. Can you bring some bottles? He also says not to worry about the caterpillars he’s offering, and promises that they aren’t used in the drink in any way. He’s… probably telling the truth? Otherwise, he’d be keeping them to use them, not giving them away. Right?",
+    "requiresCrafting": 5,
+    "availableFrom": "May 12",
+    "availableTo": "May 31"
+  },
+  {
+    "firstSeen": 1652553534140,
+    "itemRequests": [
+      {
+        "id": "499",
+        "quantity": 20
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "568",
+        "quantity": 5
+      }
+    ],
+    "id": "942",
+    "name": "To Quench The Worst Thirst III",
+    "from": "Buddy",
+    "fromImage": "/img/items/buddy.png",
+    "text": "Buddy believes the last thing he needs to perfect this drink is some tea leaves. If you bring some, he will share his drink with you.",
+    "requiresExploring": 20,
+    "availableFrom": "May 12",
+    "availableTo": "May 31"
+  },
+  {
+    "firstSeen": 1652553579669,
+    "itemRequests": [
+      {
+        "id": "41",
+        "quantity": 20
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "508",
+        "quantity": 10
+      }
+    ],
+    "id": "943",
+    "name": "To Quench The Worst Thirst IV",
+    "from": "Buddy",
+    "fromImage": "/img/items/buddy.png",
+    "text": "Buddy thinks he might be able to improve the blue spritz if he adds some things to help with the color. This doesn’t seem like something that anyone should be drinking...",
+    "availableFrom": "May 12",
+    "availableTo": "May 31"
+  },
+  {
+    "firstSeen": 1652553605627,
+    "itemRequests": [
+      {
+        "id": "171",
+        "quantity": 20
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "508",
+        "quantity": 10
+      },
+      {
+        "id": "194",
+        "quantity": 20
+      }
+    ],
+    "id": "944",
+    "name": "To Quench The Worst Thirst V",
+    "from": "Buddy",
+    "fromImage": "/img/items/buddy.png",
+    "text": "Buddy is pretty sure that he’s getting close to the right color, but he needs some blue feathers to help boost it just a little more. Those definitely can’t be healthy to drink, can they?",
+    "requiresExploring": 30,
+    "availableFrom": "May 12",
+    "availableTo": "May 31"
+  },
+  {
+    "firstSeen": 1652553612189,
+    "itemRequests": [
+      {
+        "id": "177",
+        "quantity": 10
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "508",
+        "quantity": 100
+      },
+      {
+        "id": "123",
+        "quantity": 50
+      }
+    ],
+    "id": "945",
+    "name": "To Quench The Worst Thirst VI",
+    "from": "Buddy",
+    "fromImage": "/img/items/buddy.png",
+    "text": "The color is almost perfect. Maybe some Moonstones might help get it just right?",
+    "requiresExploring": 60,
+    "availableFrom": "May 12",
+    "availableTo": "May 31"
+  },
+  {
+    "firstSeen": 1652553616528,
+    "itemRequests": [
+      {
+        "id": "314",
+        "quantity": 100
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "508",
+        "quantity": 100
+      },
+      {
+        "id": "194",
+        "quantity": 100
+      },
+      {
+        "id": "250",
+        "quantity": 10
+      }
+    ],
+    "id": "946",
+    "name": "To Quench The Worst Thirst VII",
+    "from": "Buddy",
+    "fromImage": "/img/items/buddy.png",
+    "text": "Blue gel is the last thing Buddy can think of that would help get the color just right. Can you bring some from Whispering Creek?",
+    "requiresExploring": 70,
+    "availableFrom": "May 12",
+    "availableTo": "May 31"
+  },
+  {
+    "firstSeen": 1652553622984,
+    "itemRequests": [],
+    "itemRewards": [
+      {
+        "id": "568",
+        "quantity": 10
+      }
+    ],
+    "id": "947",
+    "name": "To Quench The Worst Thirst VIII",
+    "from": "Buddy",
+    "fromImage": "/img/items/buddy.png",
+    "text": "Buddy has decided that adding everything to his blue spritz really took away from the taste, so he’s keeping it just like it was. He’d like to give you some more as a thank you for helping him try everything out.",
+    "availableFrom": "May 12",
+    "availableTo": "May 31"
   },
   {
     "firstSeen": 1646727882309,

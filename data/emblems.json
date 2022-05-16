@@ -1307,6 +1307,18 @@
     "beta": false
   },
   {
+    "firstSeen": 1652428058454,
+    "id": "380",
+    "image": "img/emblems/Stingray96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1652428058646,
+    "id": "381",
+    "image": "img/emblems/StingrayGold96.png",
+    "beta": true
+  },
+  {
     "id": "39",
     "image": "img/emblems/CropDusterRev96.png",
     "beta": true

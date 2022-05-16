@@ -32,17 +32,17 @@
     "name": "Large Island",
     "silverPerHit": null,
     "silverPerHitIronDepot": null,
-    "xpPerHit": 8441.868692089995,
+    "xpPerHit": 8441.881012838157,
     "xpPerHitIronDepot": null
   },
   {
     "baseDropRate": 0.3333333333333333,
     "id": "2",
     "name": "Small Spring",
-    "silverPerHit": 9.953112834986788,
-    "silverPerHitIronDepot": 9.953112834986788,
-    "xpPerHit": 15.171796041846237,
-    "xpPerHitIronDepot": 15.171796041846237
+    "silverPerHit": 9.94127917322795,
+    "silverPerHitIronDepot": 9.94127917322795,
+    "xpPerHit": 15.159686804350091,
+    "xpPerHitIronDepot": 15.159686804350091
   },
   {
     "baseDropRate": null,
@@ -76,9 +76,9 @@
     "id": "4",
     "name": "Cane Pole Ridge",
     "silverPerHit": 7.95248673531813,
-    "silverPerHitIronDepot": 12.86420944766088,
+    "silverPerHitIronDepot": 12.857279953186715,
     "xpPerHit": 10.395114223972495,
-    "xpPerHitIronDepot": 14.840850935628819
+    "xpPerHitIronDepot": 14.856019895645389
   },
   {
     "baseDropRate": null,
@@ -165,10 +165,10 @@
     "baseDropRate": 0.3333333333333333,
     "id": "9",
     "name": "Ember Lagoon",
-    "silverPerHit": 98.47933770088235,
-    "silverPerHitIronDepot": 98.47933770088235,
-    "xpPerHit": 53.41844510113013,
-    "xpPerHitIronDepot": 53.41844510113013
+    "silverPerHit": 98.2871126096469,
+    "silverPerHitIronDepot": 98.2871126096469,
+    "xpPerHit": 53.39372168416378,
+    "xpPerHitIronDepot": 53.39372168416378
   },
   {
     "baseDropRate": null,

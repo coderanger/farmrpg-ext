@@ -339,6 +339,24 @@
     "goalQuantity": 1000000,
     "rewardItem": "Birthday Present",
     "rewardQuantity": 1,
-    "progress": 264260
+    "progress": 1632162
+  },
+  {
+    "firstSeen": 1652418348861,
+    "date": "2022-05-13",
+    "goalItem": "Acorn",
+    "goalQuantity": 1500000,
+    "rewardItem": "Lemonade",
+    "rewardQuantity": 75,
+    "progress": 2897784
+  },
+  {
+    "firstSeen": 1652553500281,
+    "date": "2022-05-14",
+    "goalItem": "Drum",
+    "goalQuantity": 400000,
+    "rewardItem": "Grab Bag 04",
+    "rewardQuantity": 2,
+    "progress": 1843962
   }
 ]

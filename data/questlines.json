@@ -349,6 +349,20 @@
     "secondary": false
   },
   {
+    "image": "/img/items/a_047.png",
+    "name": "Always Be Corn-ing",
+    "quests": [
+      "933",
+      "934",
+      "936",
+      "935",
+      "937",
+      "938",
+      "939"
+    ],
+    "secondary": false
+  },
+  {
     "image": "/img/items/a_028.png",
     "name": "Be Mine",
     "quests": [
@@ -1202,6 +1216,18 @@
     "secondary": true
   },
   {
+    "image": "/img/items/a_034.png",
+    "name": "Ring King",
+    "quests": [
+      "928",
+      "929",
+      "930",
+      "931",
+      "932"
+    ],
+    "secondary": false
+  },
+  {
     "image": "/img/items/a_088.png",
     "name": "Secrets With Lorn",
     "quests": [
@@ -1364,6 +1390,21 @@
       "707",
       "708",
       "709"
+    ],
+    "secondary": false
+  },
+  {
+    "image": "/img/items/buddy.png",
+    "name": "To Quench The Worst Thirst",
+    "quests": [
+      "940",
+      "941",
+      "942",
+      "943",
+      "944",
+      "945",
+      "946",
+      "947"
     ],
     "secondary": false
   },
