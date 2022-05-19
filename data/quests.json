@@ -297,7 +297,11 @@
     "name": "Shark Week IV",
     "from": "Thomas",
     "fromImage": "/img/items/a_048.png",
-    "text": "Thomas found 2 more shark teeth while he was trying out the new bait you helped him create. He is now convinced that he is on the trail of a massive shark. If you'll bring him more mushroom paste, bones, and feathers, you can have the shark teeth he found."
+    "text": "Thomas found 2 more shark teeth while he was trying out the new bait you helped him create. He is now convinced that he is on the trail of a massive shark. If you'll bring him more mushroom paste, bones, and feathers, you can have the shark teeth he found.",
+    "requiresFarming": 1,
+    "requiresCrafting": 1,
+    "requiresFishing": 1,
+    "requiresExploring": 5
   },
   {
     "firstSeen": 1646727862266,
@@ -420,7 +424,8 @@
     "from": "Buddy",
     "fromImage": "/img/items/buddy.png",
     "text": "Lots of people come to the Small Cave looking for treasure. Buddy would hate for them to leave being disappointed. So, he wants to bury lots of treasure chests around for people to find. Can you bring him some spare chests to use? He will give you some spare junk he found in return.",
-    "silverReward": 100000
+    "silverReward": 100000,
+    "requiresCrafting": 32
   },
   {
     "firstSeen": 1646724107935,
@@ -705,7 +710,7 @@
     "from": "Beatrix",
     "fromImage": "/img/items/a_011.png",
     "text": "Beatrix got another clue about runestones. Jill said that her family found a few runestones when they grew certain crops when she was a kid. She said that they found one stone among eggplants and another in their cornfield. Beatrix would like you to try harvesting eggplants to see if Jill's tale is true.",
-    "goldReward": 25,
+    "goldReward": 10,
     "requiresFarming": 8,
     "requiresExploring": 60
   },
@@ -732,7 +737,7 @@
     "from": "Beatrix",
     "fromImage": "/img/items/a_011.png",
     "text": "Jill was right! Beatrix would like you to try to get a runestone from harvesting corn now.",
-    "goldReward": 25,
+    "goldReward": 10,
     "requiresFarming": 14,
     "requiresExploring": 60
   },
@@ -790,7 +795,7 @@
     "from": "Beatrix",
     "fromImage": "/img/items/a_011.png",
     "text": "Beatrix got another clue. It's secondhand and unverified, but Vincent really believes it. So it should be as good as the clues for the other stones. Vincent heard from a brewer, sometime during his travels, he wouldn't say where, that the secret to his incredible ale was a stone that he found in a bag of hops. Vincent said the ale was easily the best he ever had. Beatrix would like you to try harvesting some hops.",
-    "goldReward": 25,
+    "goldReward": 10,
     "requiresFarming": 16,
     "requiresExploring": 60
   },
@@ -1009,12 +1014,16 @@
       }
     ],
     "id": "127",
-    "name": "Set Sail for Pirate Cove",
+    "name": "Set Sail for Pirate's Cove",
     "from": "Vincent",
     "fromImage": "/img/items/a_047.png",
     "text": "Finally, you set sail, Vincent stares darkly at the horizon, which strikes you as odd. Noticing you noticing him, he suggests you play a game of dice while time is on your side...",
     "silverReward": 1000000,
-    "goldReward": 10
+    "goldReward": 5,
+    "requiresFarming": 70,
+    "requiresCrafting": 10,
+    "requiresFishing": 10,
+    "requiresExploring": 50
   },
   {
     "firstSeen": 1646727816064,
@@ -1184,7 +1193,7 @@
       }
     ],
     "id": "131",
-    "name": "Pirate Cove II",
+    "name": "Pirate's Cove II",
     "from": "Vincent",
     "fromImage": "/img/items/a_047.png",
     "text": "Vincent, with a gleam in his eye, offers you the opportunity to join him in his adventure. He suggests you bring along some basic items of survival, and he'll provide the rest, for now...",
@@ -1235,10 +1244,10 @@
     ],
     "itemRewards": [],
     "id": "133",
-    "name": "Pirate Cove I",
+    "name": "Pirate's Cove I",
     "from": "Vincent",
     "fromImage": "/img/items/a_047.png",
-    "text": "Vincent, ever the opportunist, tells you he's looking for the Pirate Cove. He offers you money and promises for riches in exchange for a rune that he thinks may guide him to the cove he seeks.",
+    "text": "Vincent, ever the opportunist, tells you he's looking for the Pirate's Cove. He offers you money and promises for riches in exchange for a rune that he thinks may guide him to the cove he seeks.",
     "silverReward": 125000,
     "goldReward": 10,
     "requiresCrafting": 10,
@@ -1473,7 +1482,7 @@
       }
     ],
     "id": "140",
-    "name": "Pirate Cove III",
+    "name": "Pirate's Cove III",
     "from": "Vincent",
     "fromImage": "/img/items/a_047.png",
     "text": "The water crashing around you in the morning light, you see land ahead. As you look around, Vincent is nowhere in sight. The boat seems quite damaged, it looks like you ran into a giant rock, oops. With no other choice, you paddle towards the shore, and notice some footprints and an oddly broken branch farther up the shore. You resolve to find Vincent and repair the boat, in that order.",
@@ -1537,7 +1546,7 @@
       }
     ],
     "id": "141",
-    "name": "Pirate Cove IV",
+    "name": "Pirate's Cove IV",
     "from": "Buddy",
     "fromImage": "/img/items/buddy.png",
     "text": "After following some marks in trees and subtly scuffed moss, you stumble upon a Small Cave, it seems oddly familiar. A voice greets you. “Hi, my name is Buddy! Let’s be friends and have dinner!” He requests you bring food for dinner “Because that’s what new friends do!”. His face looks happy, but his demeanor seems demanding, so you set out to help make dinner for your new ‘friend’. He offers you one of his pirate coins on loan if you’ll help him make new friends after you eat.",
@@ -1586,7 +1595,7 @@
       }
     ],
     "id": "142",
-    "name": "Pirate Cove V",
+    "name": "Pirate's Cove V",
     "from": "Buddy",
     "fromImage": "/img/items/buddy.png",
     "text": "During dinner, you hear faint bird chirps from deeper in the cave. They’re distracting, but you try to focus while Buddy explains that he just really wants to make new friends, but every time he sees someone, they keep walking without giving him a second thought. He’s devised a new idea to get friends, using magic! He asks for your help in obtaining these items in hope that he can cast a spell that will make people want to be his friend.",
@@ -1646,7 +1655,7 @@
     ],
     "itemRewards": [],
     "id": "143",
-    "name": "Pirate Cove VI",
+    "name": "Pirate's Cove VI",
     "from": "Buddy",
     "fromImage": "/img/items/buddy.png",
     "text": "Buddy looks downtrodden, his ‘magic spells’ did not make him any friends. An owl hoots and his eyes flash angrily for a moment before softening somewhat. Buddy has heard that wealth is a great way to make friends, and he demands you bring him things that will make his cave flaunt his wealth and people will surely want to be his friend! You get the nagging sensation you’re forgetting something right now…",
@@ -1671,7 +1680,7 @@
       }
     ],
     "id": "144",
-    "name": "Pirate Cove VII",
+    "name": "Pirate's Cove VII",
     "from": "Vincent",
     "fromImage": "/img/items/a_047.png",
     "text": "As you watch Buddy decorate his cave, the sounds of birds echo louder and you decide to investigate. While Buddy is distracted, you take a quick peek and discover Vincent in a cage! It turns out that Vincent and Buddy are clearly not friends, though Vincent doesn’t seem willing to discuss why at the moment. Buddy, realizing you know Vincent, demands his pirate coin back, and tells you to leave at once!",
@@ -1703,7 +1712,7 @@
       }
     ],
     "id": "145",
-    "name": "Pirate Cove VIII",
+    "name": "Pirate's Cove VIII",
     "from": "Vincent",
     "fromImage": "/img/items/a_047.png",
     "text": "You take a look at the cage, you can see areas where Vincent tried to break out, but the cage was cleverly made. Hesitant to leave Vincent alone, you devise a plan to break Vincent out using bottle rockets placed in the cave as a distraction, and some minor explosives to break open the cage.",
@@ -1755,7 +1764,7 @@
       }
     ],
     "id": "146",
-    "name": "Pirate Cove IX",
+    "name": "Pirate's Cove IX",
     "from": "Vincent",
     "fromImage": "/img/items/a_047.png",
     "text": "As Vincent hurls insults at Buddy, you run back towards the ship, an incensed Buddy seems close behind. Vincent suggests some kind of extra distraction while you repair the ship.",
@@ -1841,11 +1850,11 @@
       }
     ],
     "id": "148",
-    "name": "Escape from Pirate Cove",
+    "name": "Escape from Pirate's Cove",
     "from": "Vincent",
     "fromImage": "/img/items/a_047.png",
     "text": "The boat, looking worse for the wear, but still seaworthy (you hope!) sets off, cannons in the background. You catch Buddy and Vincent glaring angrily at each other, no love lost there it seems. Vincent turns to you and offers you the pirate bandana as proof of your piratical adventure, and with a sly smile, palms you a coin and rare-looking pipe he swiped from the cave during the escape. Perhaps they will be useful later on a new adventure…",
-    "goldReward": 25,
+    "goldReward": 10,
     "requiresFarming": 70,
     "requiresCrafting": 10,
     "requiresFishing": 10,
@@ -9891,7 +9900,7 @@
     "name": "Strange Companions II",
     "from": "Rosalie",
     "fromImage": "/img/items/a_098.png",
-    "text": "As you head into town, clouds roll in and the smell of rain adds to the sensation of dread in the town. The constant vibrant energy of the town has been drained, replaced by townsfolk who keep to themselves, afraid of having to defend themselves from the consequences of any action that Ric might find unsavory in your – no, his – town.\n\nYou notice Rosalie walking out of the country store ahead, her countenance betraying the fake smile she flashes to you. You feel for the letter in your pocket reassuringly and approach her.\n\nAs if compelled, you hand her the letter you intended to deliver to her in private, and after a moment, she passes it back to you, fear and worry mar her features.\n\nDearest Rosalie,\nYou’re a real strange gem. I won’t be able to make it for dinner tomorrow. A shadow is falling.\nYours in magic,\nStar\nRosalie motions you silently to follow her and as you turn the corner, you collide with a figure and stumble backwards, the letter falling from your hands to the ground. Stunned for a moment, you check on your wounded pride and notice Beatrix reading the letter.\n\nAfter a moment, Beatrix begins to speak, but the words seem crisper, and more precise than you expect from her. “Tell us Child, what exactly have you gotten yourself into?”\nRosalie hastily retrieves the note from Beatrix and suggests you gather various tea supplies. You can meet her back at her home with Beatrix in a few days to avoid suspicion from Ric. As you turn to leave, Beatrix places a hand on your shoulder and draws you in closely, whispering, \"Geist really likes her tea with black powder and a bit of a bite, if you don't mind?\"",
+    "text": "As you head into town, clouds roll in and the smell of rain adds to the sensation of dread in the town. The constant vibrant energy of the town has been drained, replaced by townsfolk who keep to themselves, afraid of having to defend themselves from the consequences of any action that Ric might find unsavory in your – no, his – town.\n\nYou notice Rosalie walking out of the country store ahead, her countenance betraying the fake smile she flashes to you. You feel for the letter in your pocket reassuringly and approach her.\n\nAs if compelled, you hand her the letter you intended to deliver to her in private, and after a moment, she passes it back to you, fear and worry mar her features.\n\nDearest Rosalie,\nYou’re a real peculiar gem. I won’t be able to make it for dinner tomorrow. A shadow is falling.\nYours in magic,\nStar\nRosalie motions you silently to follow her and as you turn the corner, you collide with a figure and stumble backwards, the letter falling from your hands to the ground. Stunned for a moment, you check on your wounded pride and notice Beatrix reading the letter.\n\nAfter a moment, Beatrix begins to speak, but the words seem crisper, and more precise than you expect from her. “Tell us Child, what exactly have you gotten yourself into?”\nRosalie hastily retrieves the note from Beatrix and suggests you gather various tea supplies. You can meet her back at her home with Beatrix in a few days to avoid suspicion from Ric. As you turn to leave, Beatrix places a hand on your shoulder and draws you in closely, whispering, \"Geist really likes her tea with black powder and a bit of a bite, if you don't mind?\"",
     "silverReward": 90000000,
     "requiresFarming": 75
   },
@@ -21414,7 +21423,7 @@
     "name": "Strange Companions III",
     "from": "Lorn",
     "fromImage": "/img/items/a_088.png",
-    "text": "A few days later, your home remains quiet and noticeably uninterrupted. Trips into town have felt tense and you have intentionally avoided speaking to Beatrix and Rosalie except in passing. After gathering the items for tea, you arrive at Rosalie’s home, ready to discuss the letter and what has her so anxious with Beatrix.\nWhen you arrive, you’re surprised to find a third person sitting in a chair near Rosalie’s fireplace. Lorn greets you warmly and motions for you to join the group. Rosalie looks pensive, and Beatrix seems quiet and unreadable as ever. After sitting, the tense mood of the room becomes too much to bear, and Rosalie breaks the tension by suggesting tea.\nThe group prepare their tea, Beatrix adding some very odd ingredients to her tea in the process. After some time of small talk, the tension in the room again reaches palpable levels, and Lorn quietly draws the letter out of his pocket and says, “So, a strange gem?” Beatrix looks intently at Lorn, and for a moment, the fire seems to pulse in intensity, almost exactly at her pace of breathing, but you shake the feeling off as your imagination as Lorn continues, “I’ve heard many things about many various gems, but what do you all know about the power of gems?”\nRosalie blinks and gives Lorn an odd look, “Star hasn’t mentioned many things about gems, he seems to dislike a certain type, but I’ve never taken much notice to be honest.”\nBefore Lorn can reply, Beatrix in a crisp accent cuts him off, “Gems can hold many powers, they attune to the aether of the world, and some types have affinities towards elements and types of magic. For example, many of the elements attune to basic gems like rubies for fire, or emerald for earth. Using gems for magical enhancement is not a common art in the world any longer.”\nRosalie leans back looking surprised in her chair as what you now recognize as the voice of Geist speaks. Lorn takes a moment to process this information before continuing, “Indeed, I’ve heard similar stories about gems and magic, but there are some gems, some very strange, that seem to do things that defy a normal explanation.”\nThe fire in the room suddenly burns bright as Beatrix straightens and says, “I remember…fragments. A war! A gem! Pain! Loss…” \nSuddenly, Beatrix crumples to the ground as the fireplace loses intensity. Lorn and Rosalie rush to Beatrix’s aid. Her eyes open slightly, she looks directly at you and says, “I need rest…and the Flame Orb.”\nBeatrix closes her eyes, and Lorn asks you to gather some items to help Beatrix regain her strength.",
+    "text": "A few days later, your home remains quiet and noticeably uninterrupted. Trips into town have felt tense and you have intentionally avoided speaking to Beatrix and Rosalie except in passing. After gathering the items for tea, you arrive at Rosalie’s home, ready to discuss the letter and what has her so anxious with Beatrix.\nWhen you arrive, you’re surprised to find a third person sitting in a chair near Rosalie’s fireplace. Lorn greets you warmly and motions for you to join the group. Rosalie looks pensive, and Beatrix seems quiet and unreadable as ever. After sitting, the tense mood of the room becomes too much to bear, and Rosalie breaks the tension by suggesting tea.\nThe group prepare their tea, Beatrix adding some very odd ingredients to her tea in the process. After some time of small talk, the tension in the room again reaches palpable levels, and Lorn quietly draws the letter out of his pocket and says, “So, a peculiar gem?” Beatrix looks intently at Lorn, and for a moment, the fire seems to pulse in intensity, almost exactly at her pace of breathing, but you shake the feeling off as your imagination as Lorn continues, “I’ve heard many things about many various gems, but what do you all know about the power of gems?”\nRosalie blinks and gives Lorn an odd look, “Star hasn’t mentioned many things about gems, he seems to dislike a certain type, but I’ve never taken much notice to be honest.”\nBefore Lorn can reply, Beatrix in a crisp accent cuts him off, “Gems can hold many powers, they attune to the aether of the world, and some types have affinities towards elements and types of magic. For example, many of the elements attune to basic gems like rubies for fire, or emerald for earth. Using gems for magical enhancement is not a common art in the world any longer.”\nRosalie leans back looking surprised in her chair as what you now recognize as the voice of Geist speaks. Lorn takes a moment to process this information before continuing, “Indeed, I’ve heard similar stories about gems and magic, but there are some gems, some very peculiar, that seem to do things that defy a normal explanation.”\nThe fire in the room suddenly burns bright as Beatrix straightens and says, “I remember…fragments. A war! A gem! Pain! Loss…” \nSuddenly, Beatrix crumples to the ground as the fireplace loses intensity. Lorn and Rosalie rush to Beatrix’s aid. Her eyes open slightly, she looks directly at you and says, “I need rest…and the Flame Orb.”\nBeatrix closes her eyes, and Lorn asks you to gather some items to help Beatrix regain her strength.",
     "silverReward": 50000000,
     "requiresFarming": 75,
     "requiresExploring": 70
@@ -21614,7 +21623,7 @@
     "name": "Strange Companions VI",
     "from": "Beatrix",
     "fromImage": "/img/items/a_011.png",
-    "text": "When you get back to the farmhouse, Beatrix is resting comfortably, and Rosalie continues to pacing while pensive and impatient. Lorn arrives and begins smoking a pipe, his presence of calm and serenity have an immediate soothing impact to your frayed nerves. Rosalie steps out of the other room, and upon seeing Lorn mentions how thankful she is to him for helping restock some of her other magic supplies.\n“On the contrary, our dear friend here found most of the goods for you, but I did add a little something special for you myself.” Lorn replies. He winks slyly to Rosalie before settling into a chair. \nAfter putting some tea on, Beatrix sits down and invites you all to listen to her tale. She puts a hand on the flame orb and the orb emits a searing light and the words seem to rush out of Beatrix. \n\n“Many years ago, dragons and humans lived in relative peace. Magic was abundant in the land, and tribes grew up around different wizarding traditions. I grew up in such a tribe, but I was not born with any magical talent myself. Our family was well known, and one day, a man came to our tribe asking for help from wizards. Only later did they find out that there was a war between humans and dragons, and before we knew it, the war descended upon our tribe too. \nThe wrath of the dragons was terrible, and despite my pleading with father, the wizarding tribes were upset at the slaughter of humans and fought back. Many, many dragons died, and many of my friends and family died too. During the worst of the fighting, a dragon soared overhead, pleading with everyone to stop fighting and I was caught up in their words. I followed the dragon many miles and found her pleading with her brethren to stop the fighting. Her words fell on deaf ears, but I was so encouraged that I revealed myself to her and that is how Geist and I became comrades. We rushed to another battlefield to plead to stop the fighting, but it fell on deaf ears. In the fighting, Geist was wounded by a mage who held strange powers, and in my grief I screamed and shouted for the fighting to stop, but it never did… they wouldn’t stop fighting. They wouldn’t listen! In that moment, I lost all hope for humanity and dragonkind and laid beside Geist, waiting for the death of the battlefield I knew was inevitable.”\nBeatrix is now openly crying and Lorn puts a hand on her shoulder to comfort her. \nLorn suggests you take a few minutes to let Beatrix regain her composure, and through tears, Beatrix suggests Geist tell you the rest of the story. She asks for some surf and turf, because she’ll likely be hungry anyways, and asks you all to step outside.",
+    "text": "When you get back to the farmhouse, Beatrix is resting comfortably, and Rosalie continues to pace while pensive and impatient. Lorn arrives and begins smoking a pipe, his presence of calm and serenity have an immediate soothing impact to your frayed nerves. Rosalie steps out of the other room, and upon seeing Lorn mentions how thankful she is to him for helping restock some of her other magic supplies.\n“On the contrary, our dear friend here found most of the goods for you, but I did add a little something special for you myself.” Lorn replies. He winks slyly to Rosalie before settling into a chair. \nAfter putting some tea on, Beatrix sits down and invites you all to listen to her tale. She puts a hand on the flame orb and the orb emits a searing light and the words seem to rush out of Beatrix. \n\n“Many years ago, dragons and humans lived in relative peace. Magic was abundant in the land, and tribes grew up around different wizarding traditions. I grew up in such a tribe, but I was not born with any magical talent myself. Our family was well known, and one day, a man came to our tribe asking for help from wizards. Only later did they find out that there was a war between humans and dragons, and before we knew it, the war descended upon our tribe too. \nThe wrath of the dragons was terrible, and despite my pleading with father, the wizarding tribes were upset at the slaughter of humans and fought back. Many, many dragons died, and many of my friends and family died too. During the worst of the fighting, a dragon soared overhead, pleading with everyone to stop fighting and I was caught up in their words. I followed the dragon many miles and found her pleading with her brethren to stop the fighting. Her words fell on deaf ears, but I was so encouraged that I revealed myself to her and that is how Geist and I became comrades. We rushed to another battlefield to plead to stop the fighting, but it fell on deaf ears. In the fighting, Geist was wounded by a mage who held strange powers, and in my grief I screamed and shouted for the fighting to stop, but it never did… they wouldn’t stop fighting. They wouldn’t listen! In that moment, I lost all hope for humanity and dragonkind and laid beside Geist, waiting for the death of the battlefield I knew was inevitable.”\nBeatrix is now openly crying and Lorn puts a hand on her shoulder to comfort her. \nLorn suggests you take a few minutes to let Beatrix regain her composure, and through tears, Beatrix suggests Geist tell you the rest of the story. She asks for some surf and turf, because she’ll likely be hungry anyways, and asks you all to step outside.",
     "requiresFarming": 75,
     "requiresExploring": 70
   },
@@ -25978,12 +25987,12 @@
     "name": "Eggstremely Valuable I",
     "from": "Vincent",
     "fromImage": "/img/items/a_047.png",
-    "text": "Many times during his travels, Vincent heard tales of people finding decorated eggs hidden in strange places. The eggs were similar in size and heft to normal chicken eggs, but they were decorated with colors and designs. The eggs also seemed to be completely indestructible, at least the one Vincent saw couldn’t be cracked.\n\nThese decorated eggs always appeared in the early spring, and many of the legends said there were only 12 eggs that could be found. When spring ended, the eggs vanished until the following year. Then, the eggs reappeared hidden in new locations.\n\nA few of the legends spoke of a 13th golden egg that held vast powers or wealth or something like that. No one ever found the 13th egg in any of the stories.\n\nVincent would like you to keep an eye out this spring for mysteriously decorated eggs in strange places. If the two of you can find the 12 springtime eggs, maybe you can find the golden egg too. Vincent would be happy to evenly split any profit that could be made from the golden egg.\n\nIf you’re interested, just bring any strange eggs you find to Vincent to prove and secure.",
+    "text": "Many times during his travels, Vincent heard tales of people finding decorated eggs hidden in strange places. The eggs were similar in size and heft to normal chicken eggs, but they were decorated with colors and designs. The eggs also seemed to be completely indestructible, at least the one Vincent saw couldn’t be cracked.\n\nThese decorated eggs always appeared in the early spring, and many of the legends said there were only 12 eggs that could be found. When spring ended, the eggs vanished until the following year. Then, the eggs reappeared, hidden in new locations.\n\nA few of the legends spoke of a 13th golden egg that held vast powers or wealth or something like that. No one ever found the 13th egg in any of the stories.\n\nVincent would like you to keep an eye out this spring for mysteriously decorated eggs in strange places. If the two of you can find the 12 springtime eggs, maybe you can find the golden egg too. Vincent would be happy to evenly split any profit that could be made from the golden egg.\n\nIf you’re interested, just bring any strange eggs you find to Vincent to prove and secure.",
     "requiresFarming": 5,
     "requiresCrafting": 5,
     "requiresFishing": 5,
     "requiresExploring": 5,
-    "availableFrom": "Apr 6",
+    "availableFrom": "Apr 13",
     "availableTo": "Apr 30"
   },
   {
@@ -26025,7 +26034,7 @@
     "requiresCrafting": 5,
     "requiresFishing": 5,
     "requiresExploring": 5,
-    "availableFrom": "Apr 6",
+    "availableFrom": "Apr 13",
     "availableTo": "Apr 30"
   },
   {
@@ -26063,7 +26072,7 @@
     "requiresCrafting": 5,
     "requiresFishing": 5,
     "requiresExploring": 5,
-    "availableFrom": "Apr 6",
+    "availableFrom": "Apr 13",
     "availableTo": "Apr 30"
   },
   {
@@ -26139,7 +26148,7 @@
     "requiresCrafting": 5,
     "requiresFishing": 5,
     "requiresExploring": 5,
-    "availableFrom": "Apr 6",
+    "availableFrom": "Apr 13",
     "availableTo": "Apr 30"
   },
   {
@@ -27191,7 +27200,7 @@
     "requiresCrafting": 52,
     "requiresFishing": 5,
     "requiresExploring": 30,
-    "availableFrom": "Apr 13",
+    "availableFrom": "Apr 14",
     "availableTo": "Apr 30",
     "silverReward": 25000000
   },
@@ -27213,7 +27222,7 @@
     "from": "Buddy",
     "fromImage": "/img/items/buddy.png",
     "text": "Buddy now thinks that the best costume might be a dragon. Dragons lay eggs, right? He'd like some items to help him look like a dragon.",
-    "requiresFarming": 5,
+    "requiresFarming": 70,
     "requiresCrafting": 55,
     "requiresFishing": 5,
     "requiresExploring": 30,
@@ -29707,7 +29716,7 @@
     "fromImage": "/img/items/a_098.png",
     "text": "A new Mayor has been elected! Mayor-elect Pedro has asked Rosalie to head up the committee to build a new town hall. A lot of building supplies are needed, so everyone is being asked to pitch in.",
     "silverReward": 2000000,
-    "goldReward": 10,
+    "goldReward": 5,
     "requiresCrafting": 15,
     "requiresExploring": 50
   },
