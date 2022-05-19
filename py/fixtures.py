@@ -544,7 +544,7 @@ def gen_locksmith_boxes():
     boxes = yaml.safe_load(locksmith_data.resolve().open())
     return [
         {
-            "box": items[box["box"]].id,
+            "boxId": items[box["box"]].id,
             "gold": box.get("gold"),
             "mode": box.get("mode", "multi"),
         }
@@ -576,14 +576,14 @@ def gen_locksmith_items():
                     quantity_high = int(quantity_high)
             locksmith_items.append(
                 {
-                    "box": box_id,
+                    "boxId": box_id,
                     "group": group,
-                    "item": item_id,
+                    "itemId": item_id,
                     "quantityLow": quantity_low,
                     "quantityHigh": quantity_high,
                 }
             )
-    return sorted(locksmith_items, key=lambda i: (i["box"], i["group"], i["item"]))
+    return sorted(locksmith_items, key=lambda i: (i["boxId"], i["group"], i["itemId"]))
 
 
 def gen_location_extra():
