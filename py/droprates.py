@@ -432,7 +432,7 @@ class CSVOutput:
 def droprates_cmd(
     filter: Optional[str] = typer.Argument(None),
     lemonade: bool = True,
-    cider: bool = False,
+    cider: bool = True,
     harvest: bool = True,
     since: int = 0,
     output: list[str] = [],
@@ -442,7 +442,7 @@ def droprates_cmd(
     cache: bool = True,
     csv: bool = False,
     fishing: bool = False,
-    iron_depot: bool = False,
+    iron_depot: bool = True,
 ) -> None:
     # If any output types are a comma-separated string, expand them.
     # ["foo,bar", "baz"] -> ["foo", "bar", "baz"]
