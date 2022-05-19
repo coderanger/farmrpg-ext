@@ -170,6 +170,9 @@ def _get_drops():
     normal_drops.locations["Small Cave"].items[
         "Skeleton Key"
     ] = iron_depot_drops.locations["Small Cave"].items["Skeleton Key"]
+    normal_drops.locations["Small Cave"].items[
+        "Model Ship"
+    ] = iron_depot_drops.locations["Small Cave"].items["Model Ship"]
 
     # NOTES ABOUT GOLD BOOT DROP RATE
     # RySwim
