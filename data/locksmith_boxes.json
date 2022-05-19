@@ -1,241 +1,241 @@
 [
   {
-    "box": "454",
+    "boxId": "454",
     "gold": 100,
     "mode": "multi"
   },
   {
-    "box": "330",
+    "boxId": "330",
     "gold": null,
     "mode": "single"
   },
   {
-    "box": "334",
+    "boxId": "334",
     "gold": null,
     "mode": "single"
   },
   {
-    "box": "397",
+    "boxId": "397",
     "gold": null,
     "mode": "single"
   },
   {
-    "box": "398",
+    "boxId": "398",
     "gold": null,
     "mode": "single"
   },
   {
-    "box": "491",
+    "boxId": "491",
     "gold": null,
     "mode": "single"
   },
   {
-    "box": "346",
+    "boxId": "346",
     "gold": null,
     "mode": "multi"
   },
   {
-    "box": "363",
+    "boxId": "363",
     "gold": null,
     "mode": "multi"
   },
   {
-    "box": "336",
+    "boxId": "336",
     "gold": null,
     "mode": "multi"
   },
   {
-    "box": "337",
+    "boxId": "337",
     "gold": null,
     "mode": "multi"
   },
   {
-    "box": "332",
+    "boxId": "332",
     "gold": null,
     "mode": "multi"
   },
   {
-    "box": "333",
+    "boxId": "333",
     "gold": null,
     "mode": "multi"
   },
   {
-    "box": "396",
+    "boxId": "396",
     "gold": null,
     "mode": "single"
   },
   {
-    "box": "344",
+    "boxId": "344",
     "gold": null,
     "mode": "multi"
   },
   {
-    "box": "483",
+    "boxId": "483",
     "gold": 25,
     "mode": "multi"
   },
   {
-    "box": "377",
+    "boxId": "377",
     "gold": null,
     "mode": "multi"
   },
   {
-    "box": "494",
+    "boxId": "494",
     "gold": 25,
     "mode": "multi"
   },
   {
-    "box": "453",
+    "boxId": "453",
     "gold": null,
     "mode": "single"
   },
   {
-    "box": "329",
+    "boxId": "329",
     "gold": null,
     "mode": "multi"
   },
   {
-    "box": "490",
+    "boxId": "490",
     "gold": null,
     "mode": "multi"
   },
   {
-    "box": "360",
+    "boxId": "360",
     "gold": null,
     "mode": "multi"
   },
   {
-    "box": "364",
+    "boxId": "364",
     "gold": null,
     "mode": "multi"
   },
   {
-    "box": "372",
+    "boxId": "372",
     "gold": null,
     "mode": "multi"
   },
   {
-    "box": "399",
+    "boxId": "399",
     "gold": 50,
     "mode": "multi"
   },
   {
-    "box": "429",
+    "boxId": "429",
     "gold": null,
     "mode": "multi"
   },
   {
-    "box": "430",
+    "boxId": "430",
     "gold": null,
     "mode": "multi"
   },
   {
-    "box": "431",
+    "boxId": "431",
     "gold": null,
     "mode": "multi"
   },
   {
-    "box": "432",
+    "boxId": "432",
     "gold": null,
     "mode": "multi"
   },
   {
-    "box": "433",
+    "boxId": "433",
     "gold": null,
     "mode": "multi"
   },
   {
-    "box": "434",
+    "boxId": "434",
     "gold": 100,
     "mode": "multi"
   },
   {
-    "box": "435",
+    "boxId": "435",
     "gold": null,
     "mode": "multi"
   },
   {
-    "box": "436",
+    "boxId": "436",
     "gold": null,
     "mode": "multi"
   },
   {
-    "box": "437",
+    "boxId": "437",
     "gold": null,
     "mode": "multi"
   },
   {
-    "box": "438",
+    "boxId": "438",
     "gold": null,
     "mode": "multi"
   },
   {
-    "box": "439",
+    "boxId": "439",
     "gold": 150,
     "mode": "multi"
   },
   {
-    "box": "419",
+    "boxId": "419",
     "gold": null,
     "mode": "multi"
   },
   {
-    "box": "501",
+    "boxId": "501",
     "gold": 50,
     "mode": "multi"
   },
   {
-    "box": "502",
+    "boxId": "502",
     "gold": 25,
     "mode": "multi"
   },
   {
-    "box": "503",
+    "boxId": "503",
     "gold": 10,
     "mode": "multi"
   },
   {
-    "box": "509",
+    "boxId": "509",
     "gold": 50,
     "mode": "multi"
   },
   {
-    "box": "510",
+    "boxId": "510",
     "gold": 25,
     "mode": "multi"
   },
   {
-    "box": "511",
+    "boxId": "511",
     "gold": 10,
     "mode": "multi"
   },
   {
-    "box": "512",
+    "boxId": "512",
     "gold": 5,
     "mode": "multi"
   },
   {
-    "box": "519",
+    "boxId": "519",
     "gold": 25,
     "mode": "multi"
   },
   {
-    "box": "482",
+    "boxId": "482",
     "gold": null,
     "mode": "multi"
   },
   {
-    "box": "534",
+    "boxId": "534",
     "gold": 500,
     "mode": "multi"
   },
   {
-    "box": "548",
+    "boxId": "548",
     "gold": null,
     "mode": "multi"
   },
   {
-    "box": "547",
+    "boxId": "547",
     "gold": null,
     "mode": "multi"
   }

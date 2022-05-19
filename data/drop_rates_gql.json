@@ -1485,6 +1485,15 @@
     "rate_type": "normal"
   },
   {
+    "drops": 15,
+    "hits": 891233,
+    "item": "Model Ship",
+    "location": "Small Cave",
+    "mode": "explores",
+    "rate": 59415.53333333333,
+    "rate_type": "normal"
+  },
+  {
     "drops": 605,
     "hits": 11847,
     "item": "Mushroom",

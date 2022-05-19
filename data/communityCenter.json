@@ -357,6 +357,42 @@
     "goalQuantity": 400000,
     "rewardItem": "Grab Bag 04",
     "rewardQuantity": 2,
-    "progress": 1843962
+    "progress": 2146164
+  },
+  {
+    "firstSeen": 1652647517491,
+    "date": "2022-05-15",
+    "goalItem": "Trout",
+    "goalQuantity": 2000000,
+    "rewardItem": "Shrimp",
+    "rewardQuantity": 100,
+    "progress": 2889349
+  },
+  {
+    "firstSeen": 1652683606758,
+    "date": "2022-05-16",
+    "goalItem": "4-leaf Clover",
+    "goalQuantity": 1500000,
+    "rewardItem": "Grapes",
+    "rewardQuantity": 100,
+    "progress": 1702666
+  },
+  {
+    "firstSeen": 1652836430558,
+    "date": "2022-05-17",
+    "goalItem": "Bacon",
+    "goalQuantity": 250000,
+    "rewardItem": "Small Screw",
+    "rewardQuantity": 10,
+    "progress": 306835
+  },
+  {
+    "firstSeen": 1652850049283,
+    "date": "2022-05-18",
+    "goalItem": "Blue Gel",
+    "goalQuantity": 2000000,
+    "rewardItem": "Cheese",
+    "rewardQuantity": 25,
+    "progress": 145250
   }
 ]

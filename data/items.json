@@ -4853,7 +4853,8 @@
     "image": "/img/items/rs10.png",
     "sellPrice": 10000,
     "xp": 10000,
-    "rarity": "Rare"
+    "rarity": "Rare",
+    "mastery": true
   },
   {
     "name": "Runestone 11",

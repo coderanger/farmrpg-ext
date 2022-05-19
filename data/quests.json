@@ -29314,6 +29314,75 @@
     "requiresExploring": 99
   },
   {
+    "firstSeen": 1652851308416,
+    "itemRequests": [
+      {
+        "id": "130",
+        "quantity": 1000
+      },
+      {
+        "id": "36",
+        "quantity": 1000
+      },
+      {
+        "id": "52",
+        "quantity": 1000
+      },
+      {
+        "id": "53",
+        "quantity": 1000
+      },
+      {
+        "id": "44",
+        "quantity": 1000
+      },
+      {
+        "id": "171",
+        "quantity": 1000
+      },
+      {
+        "id": "320",
+        "quantity": 1000
+      },
+      {
+        "id": "165",
+        "quantity": 1000
+      },
+      {
+        "id": "339",
+        "quantity": 1000
+      },
+      {
+        "id": "321",
+        "quantity": 1000
+      },
+      {
+        "id": "392",
+        "quantity": 1000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "379",
+        "quantity": 200
+      },
+      {
+        "id": "508",
+        "quantity": 200
+      }
+    ],
+    "id": "899",
+    "name": "Giamics' Jubilee",
+    "from": "Rosalie",
+    "fromImage": "/img/items/a_098.png",
+    "text": "Rosalie is planning the annual Giamics’ Jubilee, which celebrates the town’s founding, and its first mayor, Andrew Giamics. She thanks you for being so helpful to everyone in town in the short time you’ve lived here, and asks if you would be willing to help her gather some of the items she needs for the jubilee, while she continues planning. She promises to compensate you for your time and offers you a list of items she needs.",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "silverReward": 500000000
+  },
+  {
     "firstSeen": 1646723936403,
     "itemRequests": [
       {
@@ -29397,6 +29466,202 @@
     "requiresCrafting": 5,
     "requiresFishing": 5,
     "requiresExploring": 5
+  },
+  {
+    "firstSeen": 1652852794220,
+    "itemRequests": [
+      {
+        "id": "72",
+        "quantity": 1000
+      },
+      {
+        "id": "44",
+        "quantity": 1000
+      },
+      {
+        "id": "23",
+        "quantity": 1000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "84",
+        "quantity": 200
+      },
+      {
+        "id": "461",
+        "quantity": 10
+      },
+      {
+        "id": "110",
+        "quantity": 500
+      }
+    ],
+    "id": "900",
+    "name": "Giamics' Jubilee II",
+    "from": "Rosalie",
+    "fromImage": "/img/items/a_098.png",
+    "text": "Rosalie thanks you for bringing her supplies. She now wants to organize some party games everyone can play. She hands you another list, and uses the blue feathers you brought to cast a levitation spell. The barrels start shifting into neat, organized lines.",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "silverReward": 200000000
+  },
+  {
+    "firstSeen": 1652852804968,
+    "itemRequests": [
+      {
+        "id": "44",
+        "quantity": 1000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "84",
+        "quantity": 200
+      }
+    ],
+    "id": "901",
+    "name": "Giamics' Jubilee III",
+    "from": "Rosalie",
+    "fromImage": "/img/items/a_098.png",
+    "text": "You’ve just finished dragging over the last batch of apples, and you hear Rosalie shout, “I still need a few more apples, please!” Now apples are floating through the air and plopping into the barrels. You’re impressed, and bring her more apples.",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99
+  },
+  {
+    "firstSeen": 1652852809030,
+    "itemRequests": [
+      {
+        "id": "36",
+        "quantity": 1000
+      },
+      {
+        "id": "387",
+        "quantity": 1000
+      },
+      {
+        "id": "540",
+        "quantity": 1000
+      },
+      {
+        "id": "122",
+        "quantity": 1000
+      },
+      {
+        "id": "23",
+        "quantity": 1000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "86",
+        "quantity": 200
+      },
+      {
+        "id": "194",
+        "quantity": 200
+      },
+      {
+        "id": "389",
+        "quantity": 10
+      }
+    ],
+    "id": "902",
+    "name": "Giamics' Jubilee IV",
+    "from": "Holger",
+    "fromImage": "/img/items/a_028.png",
+    "text": "Holger happens to walk by, and sees apples whizzing through the air. He offers Rosalie some assistance, and can not take his eyes off of the food flying by him. He’s been tasked to fill each barrel with water, and to build some wooden pieces that are needed for a new game, which Rosalie swears she absolutely came up with all on her own.",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "silverReward": 400000000
+  },
+  {
+    "firstSeen": 1652853012944,
+    "itemRequests": [
+      {
+        "id": "44",
+        "quantity": 1000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "194",
+        "quantity": 100
+      },
+      {
+        "id": "84",
+        "quantity": 100
+      }
+    ],
+    "id": "903",
+    "name": "Giamics' Jubilee V",
+    "from": "Rosalie",
+    "fromImage": "/img/items/a_098.png",
+    "text": "Rosalie informs you that some of the apples you gathered have mysteriously gone missing. You wonder if Holger might have anything to do with the disappearance, as a few apple cores can be seen around Holger’s workbench.",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "silverReward": 100000000
+  },
+  {
+    "firstSeen": 1652853119600,
+    "itemRequests": [
+      {
+        "id": "19",
+        "quantity": 1000
+      },
+      {
+        "id": "256",
+        "quantity": 1000
+      },
+      {
+        "id": "58",
+        "quantity": 1000
+      },
+      {
+        "id": "26",
+        "quantity": 1000
+      },
+      {
+        "id": "85",
+        "quantity": 1000
+      },
+      {
+        "id": "268",
+        "quantity": 250
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "508",
+        "quantity": 50
+      },
+      {
+        "id": "363",
+        "quantity": 10
+      },
+      {
+        "id": "347",
+        "quantity": 11
+      }
+    ],
+    "id": "904",
+    "name": "Giamics' Jubilee VI",
+    "from": "Holger",
+    "fromImage": "/img/items/a_028.png",
+    "text": "After you share some words with Holger, he promises to not eat any more apples, until the celebration. He says that he is still hungry, and if you bring him something to eat it will help him remember his promise.",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "silverReward": 350000000
   },
   {
     "firstSeen": 1646727890346,

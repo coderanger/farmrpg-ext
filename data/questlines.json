@@ -804,6 +804,19 @@
     "secondary": false
   },
   {
+    "image": "/img/items/a_098.png",
+    "name": "Giamics' Jubilee",
+    "quests": [
+      "899",
+      "900",
+      "901",
+      "902",
+      "903",
+      "904"
+    ],
+    "secondary": false
+  },
+  {
     "image": "/img/items/npc_bunny1.png",
     "name": "Green Initiative",
     "quests": [

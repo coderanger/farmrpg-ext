@@ -6730,6 +6730,54 @@
     ]
   },
   {
+    "id": "899",
+    "next": "900",
+    "prev": null,
+    "questlines": [
+      "Giamics' Jubilee"
+    ]
+  },
+  {
+    "id": "900",
+    "next": "901",
+    "prev": "899",
+    "questlines": [
+      "Giamics' Jubilee"
+    ]
+  },
+  {
+    "id": "901",
+    "next": "902",
+    "prev": "900",
+    "questlines": [
+      "Giamics' Jubilee"
+    ]
+  },
+  {
+    "id": "902",
+    "next": "903",
+    "prev": "901",
+    "questlines": [
+      "Giamics' Jubilee"
+    ]
+  },
+  {
+    "id": "903",
+    "next": "904",
+    "prev": "902",
+    "questlines": [
+      "Giamics' Jubilee"
+    ]
+  },
+  {
+    "id": "904",
+    "next": null,
+    "prev": "903",
+    "questlines": [
+      "Giamics' Jubilee"
+    ]
+  },
+  {
     "availableFrom": 1652331600000,
     "availableTo": 1654059599000,
     "id": "928",
