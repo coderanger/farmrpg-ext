@@ -112,6 +112,15 @@
     "rarity": "Uncommon"
   },
   {
+    "firstSeen": 1652992955568,
+    "id": "569",
+    "name": "Anglerfish",
+    "image": "/img/items/pirates_76_t.png",
+    "sellPrice": 350000,
+    "xp": 2500,
+    "rarity": "Common"
+  },
+  {
     "name": "Antler",
     "id": "170",
     "image": "/img/items/5922.png",
@@ -1317,6 +1326,16 @@
     ]
   },
   {
+    "firstSeen": 1652992974898,
+    "id": "574",
+    "name": "Crab",
+    "image": "/img/items/3296.PNG",
+    "sellPrice": 8500,
+    "xp": 7750,
+    "rarity": "Common",
+    "mastery": true
+  },
+  {
     "id": "475",
     "name": "Crab Claw",
     "image": "/img/items/crabclaw.png",
@@ -1367,6 +1386,14 @@
     "xp": 2300,
     "givable": true,
     "rarity": "Very Rare"
+  },
+  {
+    "firstSeen": 1652992999748,
+    "id": "581",
+    "name": "Cutlass",
+    "image": "/img/items/pirates_47_t.png",
+    "xp": 2500,
+    "rarity": "Uncommon"
   },
   {
     "id": "383",
@@ -2336,6 +2363,16 @@
     "rarity": "Uncommon"
   },
   {
+    "firstSeen": 1652992995711,
+    "id": "580",
+    "name": "Gold Jelly",
+    "image": "/img/items/goldjelly.png",
+    "sellPrice": 12000,
+    "xp": 9500,
+    "rarity": "Uncommon",
+    "mastery": true
+  },
+  {
     "name": "Gold Leaf",
     "id": "281",
     "image": "/img/items/8774.png",
@@ -2556,6 +2593,16 @@
     "xp": 1750,
     "givable": true,
     "rarity": "Uncommon"
+  },
+  {
+    "firstSeen": 1652992977780,
+    "id": "575",
+    "name": "Green Barracuda",
+    "image": "/img/items/3284.png",
+    "sellPrice": 9000,
+    "xp": 8000,
+    "rarity": "Common",
+    "mastery": true
   },
   {
     "name": "Green Chromis",
@@ -3226,6 +3273,16 @@
     "mastery": true
   },
   {
+    "firstSeen": 1652992984963,
+    "id": "577",
+    "name": "Jumbo Fish",
+    "image": "/img/items/3279.png",
+    "sellPrice": 10000,
+    "xp": 8500,
+    "rarity": "Common",
+    "mastery": true
+  },
+  {
     "name": "Ladder",
     "id": "260",
     "image": "/img/items/5629.png",
@@ -3296,6 +3353,14 @@
     "image": "/img/items/8572.png",
     "xp": 1,
     "rarity": "Very Rare"
+  },
+  {
+    "firstSeen": 1652992971364,
+    "id": "573",
+    "name": "Large Chest 03",
+    "image": "/img/items/8572.png",
+    "xp": 1,
+    "rarity": "Super Rare"
   },
   {
     "name": "Large Clam Shell",
@@ -3867,6 +3932,16 @@
     "rarity": "Very Rare"
   },
   {
+    "firstSeen": 1652992981876,
+    "id": "576",
+    "name": "Mulberry Snapper",
+    "image": "/img/items/3276.png",
+    "sellPrice": 9500,
+    "xp": 8250,
+    "rarity": "Common",
+    "mastery": true
+  },
+  {
     "name": "Mushroom",
     "id": "43",
     "image": "/img/items/mushroom.png",
@@ -3957,6 +4032,14 @@
     "image": "/img/items/4456.png",
     "xp": 1,
     "rarity": "Very Rare"
+  },
+  {
+    "firstSeen": 1652992968566,
+    "id": "572",
+    "name": "Mystical Chest 02",
+    "image": "/img/items/4456.png",
+    "xp": 1,
+    "rarity": "Super Rare"
   },
   {
     "name": "Mystical Staff",
@@ -4098,6 +4181,16 @@
     "event": true,
     "sellPrice": 250,
     "xp": 1750
+  },
+  {
+    "firstSeen": 1652992991894,
+    "id": "579",
+    "name": "Orcafish",
+    "image": "/img/items/3282.png",
+    "sellPrice": 11000,
+    "xp": 9000,
+    "rarity": "Common",
+    "mastery": true
   },
   {
     "name": "Paper Receipt",
@@ -4269,6 +4362,14 @@
     "rarity": "Uncommon"
   },
   {
+    "firstSeen": 1652992615937,
+    "id": "571",
+    "name": "Pirate Hook",
+    "image": "/img/items/pirates_38_t.png",
+    "sellPrice": 100000,
+    "rarity": "Super Rare"
+  },
+  {
     "firstSeen": 1651727905572,
     "id": "550",
     "name": "Piñata",
@@ -4435,6 +4536,16 @@
         "quantity": 1
       }
     ]
+  },
+  {
+    "firstSeen": 1652992959753,
+    "id": "570",
+    "name": "Purple Butterfly Fish",
+    "image": "/img/items/pirates_77_t.png",
+    "sellPrice": 7500,
+    "xp": 7500,
+    "rarity": "Common",
+    "mastery": true
   },
   {
     "name": "Purple Diary",
@@ -4949,6 +5060,14 @@
     "rarity": "Very Rare"
   },
   {
+    "firstSeen": 1652993002242,
+    "id": "582",
+    "name": "Runestone Necklace",
+    "image": "/img/items/pirates_17_t.png",
+    "xp": 2500,
+    "rarity": "Rare"
+  },
+  {
     "name": "Salt",
     "id": "305",
     "image": "/img/items/salt.png",
@@ -5400,6 +5519,16 @@
     "sellPrice": 1000,
     "xp": 1500,
     "rarity": "Common"
+  },
+  {
+    "firstSeen": 1652992988105,
+    "id": "578",
+    "name": "Speckled Grouper",
+    "image": "/img/items/3281.png",
+    "sellPrice": 10500,
+    "xp": 8750,
+    "rarity": "Common",
+    "mastery": true
   },
   {
     "name": "Spectacles",

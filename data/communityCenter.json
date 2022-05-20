@@ -393,6 +393,15 @@
     "goalQuantity": 2000000,
     "rewardItem": "Cheese",
     "rewardQuantity": 25,
-    "progress": 2466092
+    "progress": 2469145
+  },
+  {
+    "firstSeen": 1652937361137,
+    "date": "2022-05-19",
+    "goalItem": "Mushroom",
+    "goalQuantity": 1250000,
+    "rewardItem": "Gold Feather",
+    "rewardQuantity": 10,
+    "progress": 1272638
   }
 ]
