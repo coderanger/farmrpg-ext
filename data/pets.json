@@ -116,6 +116,29 @@
   },
   {
     "level1Items": [
+      "Clownfish",
+      "Fishing Net",
+      "Eye Patch",
+      "Plumbfish"
+    ],
+    "level3Items": [
+      "Pirate Flag",
+      "Pirate Bandana",
+      "Large Chest 02",
+      "Blue Dye"
+    ],
+    "level6Items": [
+      "Skeleton Key",
+      "Crab Claw",
+      "Large Net",
+      "Anglerfish"
+    ],
+    "id": "21",
+    "image": "/img/pets/pet_a_parrot.png",
+    "name": "Frigate Macaw"
+  },
+  {
+    "level1Items": [
       "Cabbage",
       "Explosive",
       "Straw",
