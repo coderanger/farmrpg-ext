@@ -231,13 +231,6 @@
         "sort": 1
     },
     {
-        "building": "Community Center",
-        "image": "/img/items/comm.png",
-        "item": "530",
-        "frequency": "April 2, 2022",
-        "sort": 1
-    },
-    {
         "building": "Wheel of Borgen",
         "image": "/img/items/spinner.png?2",
         "item": "525",
