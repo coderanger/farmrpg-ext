@@ -693,7 +693,7 @@ def gen_passwords():
     return passwords
 
 
-def get_password_items():
+def gen_password_items():
     items = {it.name: it.id for it in load_items()}
     password_items = []
     for pw in _get_passwords():
@@ -710,6 +710,22 @@ def get_password_items():
     return password_items
 
 
+def gen_recipes():
+    recipes = []
+    for item in load_items():
+        if not item.recipe:
+            continue
+        for row in item.recipe:
+            recipes.append(
+                {
+                    "inputId": row.id,
+                    "quantity": row.quantity,
+                    "outputId": item.id,
+                }
+            )
+    return recipes
+
+
 GEN_FIXTURES = {
     "drop_rates": gen_drop_rates,
     "drop_rates_gql": gen_drop_rates_gql,
@@ -724,7 +740,8 @@ GEN_FIXTURES = {
     "tower": gen_tower,
     "pbgs": gen_pbgs,
     "passwords": gen_passwords,
-    "password_items": get_password_items,
+    "password_items": gen_password_items,
+    "recipes": gen_recipes,
 }
 
 
