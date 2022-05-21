@@ -23,6 +23,7 @@ import { setupQuests } from './lib/quests.js'
 import { setupEmblems } from './lib/emblems.js'
 import { fetchCommunityCenter, setupCommunityCenter } from './lib/communityCenter.js'
 import { setupBorgens } from './lib/borgen.js'
+import { setupExchangeCenter } from './lib/exchange.js'
 
 /**
  * @typedef {{
@@ -207,7 +208,7 @@ const main = async () => {
     }
 
     // Initialize the database.
-    globalState.db = await idb.openDB("farmrpg-ext", 6, {
+    globalState.db = await idb.openDB("farmrpg-ext", 7, {
         upgrade(db, oldVer) {
             switch(oldVer) {
             case 0:
@@ -236,6 +237,9 @@ const main = async () => {
             case 5:
                 console.log("Running DB migrations for version 6")
                 db.createObjectStore("borgens", { keyPath: "date" })
+            case 6:
+                console.log("Running DB migrations for version 7")
+                db.createObjectStore("exchangeCenter", { keyPath: ["date", "giveItem", "receiveItem"] })
             }
         },
     })
@@ -294,6 +298,7 @@ const main = async () => {
     setupEmblems(globalState)
     setupCommunityCenter(globalState)
     setupBorgens(globalState)
+    setupExchangeCenter(globalState)
 
     // Kick off some initial data population.
     renderSidebarFromGlobalState()
