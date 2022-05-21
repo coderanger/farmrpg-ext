@@ -11,15 +11,20 @@
   costItem: Winged Amulet
   costQuantity: 25
 
+- image: bg_16.jpg
+  name: Doom
+  costItem: Strange Ring
+  costQuantity: 25
+
 - image: bg_37.jpg
   name: The Mountain
   costItem: Dragon Skull
   costQuantity: 25
 
-- image: bg_16.jpg
-  name: Doom
-  costItem: Strange Ring
-  costQuantity: 25
+- image: bg_42.jpg
+  name: Buddy
+  costItem: Buddystone
+  costQuantity: 100
 
 - image: bg_41.jpg
   name: Corn
