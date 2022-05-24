@@ -1171,6 +1171,51 @@
     "goalQuantity": 1250000,
     "rewardItem": "Gold Feather",
     "rewardQuantity": 10,
-    "progress": 1272638
+    "progress": 1461895
+  },
+  {
+    "firstSeen": 1653024184389,
+    "date": "2022-05-20",
+    "goalItem": "Bucket",
+    "goalQuantity": 1600000,
+    "rewardItem": "Yarn",
+    "rewardQuantity": 150,
+    "progress": 1185177
+  },
+  {
+    "firstSeen": 1653176126450,
+    "date": "2022-05-21",
+    "goalItem": "Tea Leaves",
+    "goalQuantity": 250000,
+    "rewardItem": "Treasure Key",
+    "rewardQuantity": 5,
+    "progress": 189964
+  },
+  {
+    "firstSeen": 1653197578953,
+    "date": "2022-05-22",
+    "goalItem": "Acorn",
+    "goalQuantity": 2500000,
+    "rewardItem": "Apple",
+    "rewardQuantity": 100,
+    "progress": 2683163
+  },
+  {
+    "firstSeen": 1653285007621,
+    "date": "2022-05-23",
+    "goalItem": "Apple",
+    "goalQuantity": 500000,
+    "rewardItem": "Grasshopper",
+    "rewardQuantity": 40,
+    "progress": 522016
+  },
+  {
+    "firstSeen": 1653372200960,
+    "date": "2022-05-24",
+    "goalItem": "Barracuda",
+    "goalQuantity": 1000000,
+    "rewardItem": "Sea Dragon",
+    "rewardQuantity": 7,
+    "progress": 200368
   }
 ]

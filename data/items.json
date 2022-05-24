@@ -3707,7 +3707,8 @@
     "sellPrice": 2000,
     "xp": 2000,
     "fleaMarket": 3,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "mastery": true
   },
   {
     "name": "Mackerel",
@@ -4931,7 +4932,8 @@
     "image": "/img/items/rs6.png",
     "sellPrice": 6000,
     "xp": 6000,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "mastery": true
   },
   {
     "name": "Runestone 07",
@@ -5211,7 +5213,9 @@
     "image": "/img/items/fishing_75_t.png",
     "sellPrice": 2500,
     "xp": 2500,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "fleaMarket": 10,
+    "mastery": true
   },
   {
     "id": "327",

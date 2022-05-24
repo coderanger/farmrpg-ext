@@ -29673,6 +29673,159 @@
     "silverReward": 350000000
   },
   {
+    "firstSeen": 1653372204931,
+    "itemRequests": [
+      {
+        "id": "325",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "274",
+        "quantity": 1
+      }
+    ],
+    "id": "905",
+    "name": "Giamics' Jubilee VII",
+    "from": "Rosalie",
+    "fromImage": "/img/items/a_098.png",
+    "text": "Rosalie tells you that this celebration needs a little bit of magic to make it special. You look at the floating apples from her active levitation spell, and she shakes her head. “Not my magic.” She tasks you with finding Star Meerif, and hands you a sealed letter to give him. She tells you there’s a big, open clearing near the river, and that you can probably find him there.",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99
+  },
+  {
+    "firstSeen": 1653372212630,
+    "itemRequests": [
+      {
+        "id": "274",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "42",
+        "quantity": 1000
+      },
+      {
+        "id": "240",
+        "quantity": 1
+      },
+      {
+        "id": "325",
+        "quantity": 1
+      }
+    ],
+    "id": "906",
+    "name": "Giamics' Jubilee VIII",
+    "from": "Star Meerif",
+    "fromImage": "/img/items/npc_figure.png",
+    "text": "You head to the clearing, and see nothing but emptiness, and a few scattered feathers. Trying to call for Star seems pointless, until you say you have a letter from Rosalie. Before your eyes, Star’s tower appears. He rushes out, and holds his hand out for the letter. He looks disheveled, and seems to be in a big hurry. You hand him the letter, and he runs back inside, mumbling something about \"the penumbra of the equator.\" He and his tower are gone as quickly as they appeared.",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99
+  },
+  {
+    "firstSeen": 1653372221000,
+    "itemRequests": [
+      {
+        "id": "19",
+        "quantity": 1000
+      },
+      {
+        "id": "159",
+        "quantity": 1000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "508",
+        "quantity": 200
+      }
+    ],
+    "id": "907",
+    "name": "Giamics' Jubilee IX",
+    "from": "frank",
+    "fromImage": "/img/items/npc_bunny1.png",
+    "text": "Rosalie would like to give a special job to frank, who told her earlier that he will be busy taking a nap. You find frank nestled in a pile of carrot tops, basking in the sun. Calling his name does not wake him up, nor does jostling him lightly. You decide to harvest some carrots, and chop them up very finely. You sprinkle the carrot shavings in a trail, leading to Rosalie, and wait.",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99
+  },
+  {
+    "firstSeen": 1653372235121,
+    "itemRequests": [
+      {
+        "id": "55",
+        "quantity": 1000
+      },
+      {
+        "id": "37",
+        "quantity": 1000
+      },
+      {
+        "id": "328",
+        "quantity": 1000
+      },
+      {
+        "id": "368",
+        "quantity": 1000
+      },
+      {
+        "id": "281",
+        "quantity": 1000
+      },
+      {
+        "id": "172",
+        "quantity": 1000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "84",
+        "quantity": 250
+      }
+    ],
+    "id": "908",
+    "name": "Giamics' Jubilee X",
+    "from": "Rosalie",
+    "fromImage": "/img/items/a_098.png",
+    "text": "After waiting for about three and a half minutes, you see frank vacuuming up the carrot bits, and as expected, he stops where you and Rosalie have been waiting. “Was that a trick to get me to come do something? I feel like that was a trick to get me to come do something.” Rosalie smiles, and pats frank. She asks you to bring her some more materials while she updates frank on his part in her celebration.",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "silverReward": 500000000
+  },
+  {
+    "firstSeen": 1653372270527,
+    "itemRequests": [
+      {
+        "id": "474",
+        "quantity": 1000
+      },
+      {
+        "id": "393",
+        "quantity": 1000
+      }
+    ],
+    "itemRewards": [],
+    "id": "909",
+    "name": "Giamics' Jubilee XI",
+    "from": "Rosalie",
+    "fromImage": "/img/items/a_098.png",
+    "text": "You return, and frank is nowhere to be seen. Rosalie shows you a nearly complete stage. “No celebration is complete without music! We need lots of instruments! If you don’t have enough flutes, I heard you can find some at the wishing well!”",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "silverReward": 500000000
+  },
+  {
     "firstSeen": 1646727890346,
     "itemRequests": [
       {
