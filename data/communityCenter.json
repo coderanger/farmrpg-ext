@@ -2,7 +2,7 @@
   {
     "date": "2021-12-27",
     "goalItem": "Herbs",
-    "goalQuantity": 400000.0,
+    "goalQuantity": 400000,
     "rewardItem": "Large Clam Shell",
     "rewardQuantity": 2,
     "progress": 0
@@ -10,7 +10,7 @@
   {
     "date": "2021-12-28",
     "goalItem": "Runestone 01",
-    "goalQuantity": 1000000.0,
+    "goalQuantity": 1000000,
     "rewardItem": "Strange Gem",
     "rewardQuantity": 1,
     "progress": 0
@@ -18,7 +18,7 @@
   {
     "date": "2021-12-29",
     "goalItem": "Corn",
-    "goalQuantity": 500000.0,
+    "goalQuantity": 500000,
     "rewardItem": "Runestone 11",
     "rewardQuantity": 1,
     "progress": null
@@ -26,7 +26,7 @@
   {
     "date": "2021-12-31",
     "goalItem": "Black Powder",
-    "goalQuantity": 1000000.0,
+    "goalQuantity": 1000000,
     "rewardItem": "Fireworks",
     "rewardQuantity": 3,
     "progress": null
@@ -34,7 +34,7 @@
   {
     "date": "2022-01-01",
     "goalItem": "Grapes",
-    "goalQuantity": 850000.0,
+    "goalQuantity": 850000,
     "rewardItem": "Gold",
     "rewardQuantity": 35,
     "progress": null
@@ -42,7 +42,7 @@
   {
     "date": "2022-01-02",
     "goalItem": "Mushroom",
-    "goalQuantity": 500000.0,
+    "goalQuantity": 500000,
     "rewardItem": "Apple",
     "rewardQuantity": 100,
     "progress": null
@@ -50,7 +50,7 @@
   {
     "date": "2022-01-03",
     "goalItem": "Steak",
-    "goalQuantity": 10000.0,
+    "goalQuantity": 10000,
     "rewardItem": "Bacon",
     "rewardQuantity": 25,
     "progress": null
@@ -58,7 +58,7 @@
   {
     "date": "2022-01-04",
     "goalItem": "Snowball",
-    "goalQuantity": 1000000.0,
+    "goalQuantity": 1000000,
     "rewardItem": "Holiday Candles",
     "rewardQuantity": 1,
     "progress": null
@@ -66,7 +66,7 @@
   {
     "date": "2022-01-05",
     "goalItem": "Trout",
-    "goalQuantity": 2000000.0,
+    "goalQuantity": 2000000,
     "rewardItem": "Grab Bag 04",
     "rewardQuantity": 2,
     "progress": null
@@ -74,7 +74,7 @@
   {
     "date": "2022-01-06",
     "goalItem": "Runestone 10",
-    "goalQuantity": 75000.0,
+    "goalQuantity": 75000,
     "rewardItem": "Grab Bag 05",
     "rewardQuantity": 2,
     "progress": null
@@ -82,7 +82,7 @@
   {
     "date": "2022-01-07",
     "goalItem": "Shiny Beetle",
-    "goalQuantity": 500000.0,
+    "goalQuantity": 500000,
     "rewardItem": "Gift Basket 01",
     "rewardQuantity": 1,
     "progress": null
@@ -90,7 +90,7 @@
   {
     "date": "2022-01-08",
     "goalItem": "Feathers",
-    "goalQuantity": 2750000.0,
+    "goalQuantity": 2750000,
     "rewardItem": "Gold Feather",
     "rewardQuantity": 15,
     "progress": null
@@ -98,7 +98,7 @@
   {
     "date": "2022-01-09",
     "goalItem": "Herbs",
-    "goalQuantity": 200000.0,
+    "goalQuantity": 200000,
     "rewardItem": "Goldfish",
     "rewardQuantity": 3,
     "progress": null
@@ -106,7 +106,7 @@
   {
     "date": "2022-01-10",
     "goalItem": "Leek",
-    "goalQuantity": 250000.0,
+    "goalQuantity": 250000,
     "rewardItem": "Grape Juice",
     "rewardQuantity": 3,
     "progress": null
@@ -114,7 +114,7 @@
   {
     "date": "2022-01-11",
     "goalItem": "Wax Candle",
-    "goalQuantity": 30000.0,
+    "goalQuantity": 30000,
     "rewardItem": "Winged Amulet",
     "rewardQuantity": 1,
     "progress": null
@@ -122,7 +122,7 @@
   {
     "date": "2022-01-12",
     "goalItem": "Stone",
-    "goalQuantity": 2500000.0,
+    "goalQuantity": 2500000,
     "rewardItem": "Carbon Sphere",
     "rewardQuantity": 100,
     "progress": null
@@ -130,7 +130,7 @@
   {
     "date": "2022-01-13",
     "goalItem": "Small Key",
-    "goalQuantity": 100000.0,
+    "goalQuantity": 100000,
     "rewardItem": "Large Chest 01",
     "rewardQuantity": 1,
     "progress": 0
@@ -138,7 +138,7 @@
   {
     "date": "2022-01-14",
     "goalItem": "Apple Cider",
-    "goalQuantity": 50000.0,
+    "goalQuantity": 50000,
     "rewardItem": "Orange Juice",
     "rewardQuantity": 125,
     "progress": 0
@@ -146,7 +146,7 @@
   {
     "date": "2022-01-15",
     "goalItem": "Raptor Claw",
-    "goalQuantity": 5000.0,
+    "goalQuantity": 5000,
     "rewardItem": "Raptor Egg",
     "rewardQuantity": 1,
     "progress": null
@@ -154,7 +154,7 @@
   {
     "date": "2022-01-16",
     "goalItem": "Worms",
-    "goalQuantity": 3000000.0,
+    "goalQuantity": 3000000,
     "rewardItem": "Gummy Worms",
     "rewardQuantity": 100,
     "progress": null
@@ -162,7 +162,7 @@
   {
     "date": "2022-01-17",
     "goalItem": "3-leaf Clover",
-    "goalQuantity": 2000000.0,
+    "goalQuantity": 2000000,
     "rewardItem": "4-leaf Clover",
     "rewardQuantity": 25,
     "progress": 0
@@ -170,7 +170,7 @@
   {
     "date": "2022-01-18",
     "goalItem": "Prism Shard",
-    "goalQuantity": 1000000.0,
+    "goalQuantity": 1000000,
     "rewardItem": "Magicite",
     "rewardQuantity": 25,
     "progress": 0
@@ -178,7 +178,7 @@
   {
     "date": "2022-01-19",
     "goalItem": "Giant Squid",
-    "goalQuantity": 400000.0,
+    "goalQuantity": 400000,
     "rewardItem": "Runestone 18",
     "rewardQuantity": 1,
     "progress": 0
@@ -186,7 +186,7 @@
   {
     "date": "2022-01-20",
     "goalItem": "Bacon",
-    "goalQuantity": 200000.0,
+    "goalQuantity": 200000,
     "rewardItem": "Magna Quartz",
     "rewardQuantity": 10,
     "progress": null
@@ -194,7 +194,7 @@
   {
     "date": "2022-01-21",
     "goalItem": "Blue Gel",
-    "goalQuantity": 2000000.0,
+    "goalQuantity": 2000000,
     "rewardItem": "Fancy Guitar",
     "rewardQuantity": 15,
     "progress": null
@@ -202,7 +202,7 @@
   {
     "date": "2022-01-22",
     "goalItem": "Antler",
-    "goalQuantity": 1000000.0,
+    "goalQuantity": 1000000,
     "rewardItem": "Gold Leaf",
     "rewardQuantity": 10,
     "progress": null
@@ -210,7 +210,7 @@
   {
     "date": "2022-01-23",
     "goalItem": "Spider",
-    "goalQuantity": 1500000.0,
+    "goalQuantity": 1500000,
     "rewardItem": "Cyclops Spider",
     "rewardQuantity": 1,
     "progress": 0
@@ -218,7 +218,7 @@
   {
     "date": "2022-01-24",
     "goalItem": "Eggs",
-    "goalQuantity": 2500000.0,
+    "goalQuantity": 2500000,
     "rewardItem": "Fishing Net",
     "rewardQuantity": 30,
     "progress": null
@@ -226,7 +226,7 @@
   {
     "date": "2022-01-25",
     "goalItem": "Flour",
-    "goalQuantity": 2000000.0,
+    "goalQuantity": 2000000,
     "rewardItem": "Carbon Sphere",
     "rewardQuantity": 125,
     "progress": 0
@@ -234,7 +234,7 @@
   {
     "date": "2022-01-26",
     "goalItem": "Bluegill",
-    "goalQuantity": 750000.0,
+    "goalQuantity": 750000,
     "rewardItem": "Yarn",
     "rewardQuantity": 50,
     "progress": null
@@ -242,7 +242,7 @@
   {
     "date": "2022-01-27",
     "goalItem": "Pumpkin",
-    "goalQuantity": 200000.0,
+    "goalQuantity": 200000,
     "rewardItem": "Cornucopia",
     "rewardQuantity": 2,
     "progress": 0
@@ -250,7 +250,7 @@
   {
     "date": "2022-01-28",
     "goalItem": "Peppers",
-    "goalQuantity": 5000000.0,
+    "goalQuantity": 5000000,
     "rewardItem": "Lemonade",
     "rewardQuantity": 50,
     "progress": 0
@@ -258,7 +258,7 @@
   {
     "date": "2022-01-29",
     "goalItem": "Ancient Coin",
-    "goalQuantity": 1000000.0,
+    "goalQuantity": 1000000,
     "rewardItem": "Treat Bag 03",
     "rewardQuantity": 3,
     "progress": 0
@@ -266,7 +266,7 @@
   {
     "date": "2022-01-30",
     "goalItem": "Trout",
-    "goalQuantity": 2500000.0,
+    "goalQuantity": 2500000,
     "rewardItem": "Grab Bag 04",
     "rewardQuantity": 3,
     "progress": 0
@@ -274,7 +274,7 @@
   {
     "date": "2022-01-31",
     "goalItem": "Skull Coin",
-    "goalQuantity": 150000.0,
+    "goalQuantity": 150000,
     "rewardItem": "Grab Bag 06",
     "rewardQuantity": 2,
     "progress": 0
@@ -282,7 +282,7 @@
   {
     "date": "2022-02-01",
     "goalItem": "Stone",
-    "goalQuantity": 17000000.0,
+    "goalQuantity": 17000000,
     "rewardItem": "Ancient Coin",
     "rewardQuantity": 100,
     "progress": 0
@@ -290,7 +290,7 @@
   {
     "date": "2022-02-02",
     "goalItem": "Runestone 01",
-    "goalQuantity": 50000.0,
+    "goalQuantity": 50000,
     "rewardItem": "Runestone 04",
     "rewardQuantity": 1,
     "progress": 0
@@ -298,7 +298,7 @@
   {
     "date": "2022-02-03",
     "goalItem": "Acorn",
-    "goalQuantity": 1500000.0,
+    "goalQuantity": 1500000,
     "rewardItem": "Orange Juice",
     "rewardQuantity": 100,
     "progress": null
@@ -306,7 +306,7 @@
   {
     "date": "2022-02-04",
     "goalItem": "Carp",
-    "goalQuantity": 750000.0,
+    "goalQuantity": 750000,
     "rewardItem": "Fishing Net",
     "rewardQuantity": 125,
     "progress": null
@@ -314,7 +314,7 @@
   {
     "date": "2022-02-05",
     "goalItem": "Hops",
-    "goalQuantity": 1500000.0,
+    "goalQuantity": 1500000,
     "rewardItem": "Runestone 16",
     "rewardQuantity": 1,
     "progress": 0
@@ -322,7 +322,7 @@
   {
     "date": "2022-02-06",
     "goalItem": "Peppers",
-    "goalQuantity": 4500000.0,
+    "goalQuantity": 4500000,
     "rewardItem": "Lemonade",
     "rewardQuantity": 100,
     "progress": null
@@ -330,7 +330,7 @@
   {
     "date": "2022-02-07",
     "goalItem": "Grapes",
-    "goalQuantity": 2000000.0,
+    "goalQuantity": 2000000,
     "rewardItem": "Grape Juice",
     "rewardQuantity": 3,
     "progress": 0
@@ -338,7 +338,7 @@
   {
     "date": "2022-02-08",
     "goalItem": "Bucket",
-    "goalQuantity": 1600000.0,
+    "goalQuantity": 1600000,
     "rewardItem": "Treasure Key",
     "rewardQuantity": 4,
     "progress": null
@@ -346,7 +346,7 @@
   {
     "date": "2022-02-09",
     "goalItem": "Apple",
-    "goalQuantity": 850000.0,
+    "goalQuantity": 850000,
     "rewardItem": "Gold",
     "rewardQuantity": 25,
     "progress": null
@@ -354,7 +354,7 @@
   {
     "date": "2022-02-10",
     "goalItem": "Bacon",
-    "goalQuantity": 250000.0,
+    "goalQuantity": 250000,
     "rewardItem": "Steak",
     "rewardQuantity": 10,
     "progress": 269300
@@ -362,7 +362,7 @@
   {
     "date": "2022-02-11",
     "goalItem": "Antler",
-    "goalQuantity": 1000000.0,
+    "goalQuantity": 1000000,
     "rewardItem": "Gold Leaf",
     "rewardQuantity": 10,
     "progress": 1038400
@@ -370,7 +370,7 @@
   {
     "date": "2022-02-12",
     "goalItem": "Mushroom",
-    "goalQuantity": 1250000.0,
+    "goalQuantity": 1250000,
     "rewardItem": "Apple",
     "rewardQuantity": 100,
     "progress": 1292250
@@ -378,7 +378,7 @@
   {
     "date": "2022-02-13",
     "goalItem": "Feed",
-    "goalQuantity": 2000000.0,
+    "goalQuantity": 2000000,
     "rewardItem": "Sea Dragon",
     "rewardQuantity": 5,
     "progress": 2010800
@@ -386,7 +386,7 @@
   {
     "date": "2022-02-14",
     "goalItem": "Apple",
-    "goalQuantity": 500000.0,
+    "goalQuantity": 500000,
     "rewardItem": "Bouquet of Roses",
     "rewardQuantity": 1,
     "progress": 593100
@@ -394,7 +394,7 @@
   {
     "date": "2022-02-15",
     "goalItem": "Red Berries",
-    "goalQuantity": 2000000.0,
+    "goalQuantity": 2000000,
     "rewardItem": "Salt",
     "rewardQuantity": 50,
     "progress": 2010600
@@ -402,7 +402,7 @@
   {
     "date": "2022-02-16",
     "goalItem": "Axe",
-    "goalQuantity": 1000000.0,
+    "goalQuantity": 1000000,
     "rewardItem": "Apple Cider",
     "rewardQuantity": 3,
     "progress": 1154000
@@ -410,7 +410,7 @@
   {
     "date": "2022-02-17",
     "goalItem": "Spider",
-    "goalQuantity": 1250000.0,
+    "goalQuantity": 1250000,
     "rewardItem": "Cyclops Spider",
     "rewardQuantity": 1,
     "progress": 742250
@@ -418,7 +418,7 @@
   {
     "date": "2022-02-18",
     "goalItem": "Carrot",
-    "goalQuantity": 150000.0,
+    "goalQuantity": 150000,
     "rewardItem": "Lemonade",
     "rewardQuantity": 75,
     "progress": 834404
@@ -426,7 +426,7 @@
   {
     "date": "2022-02-19",
     "goalItem": "Ruby Scorpion",
-    "goalQuantity": 2000000.0,
+    "goalQuantity": 2000000,
     "rewardItem": "Grab Bag 06",
     "rewardQuantity": 3,
     "progress": 1024200
@@ -434,7 +434,7 @@
   {
     "date": "2022-02-20",
     "goalItem": "Flour",
-    "goalQuantity": 3000000.0,
+    "goalQuantity": 3000000,
     "rewardItem": "Orange Gecko",
     "rewardQuantity": 10,
     "progress": 1495200
@@ -442,7 +442,7 @@
   {
     "date": "2022-02-21",
     "goalItem": "Lemon Quartz Ring",
-    "goalQuantity": 300000.0,
+    "goalQuantity": 300000,
     "rewardItem": "Honey",
     "rewardQuantity": 10,
     "progress": 462180
@@ -450,7 +450,7 @@
   {
     "date": "2022-02-22",
     "goalItem": "Coin Purse",
-    "goalQuantity": 1000000.0,
+    "goalQuantity": 1000000,
     "rewardItem": "Gold",
     "rewardQuantity": 10,
     "progress": 1258800
@@ -458,7 +458,7 @@
   {
     "date": "2022-02-23",
     "goalItem": "Peas",
-    "goalQuantity": 500000.0,
+    "goalQuantity": 500000,
     "rewardItem": "Gold Peas",
     "rewardQuantity": 10,
     "progress": 1196850
@@ -466,7 +466,7 @@
   {
     "date": "2022-02-24",
     "goalItem": "Lemon",
-    "goalQuantity": 2000000.0,
+    "goalQuantity": 2000000,
     "rewardItem": "Grapes",
     "rewardQuantity": 100,
     "progress": 397400
@@ -474,7 +474,7 @@
   {
     "date": "2022-02-25",
     "goalItem": "Twine",
-    "goalQuantity": 1000000.0,
+    "goalQuantity": 1000000,
     "rewardItem": "Wine",
     "rewardQuantity": 10,
     "progress": 1252800
@@ -482,7 +482,7 @@
   {
     "date": "2022-02-26",
     "goalItem": "Small Flute",
-    "goalQuantity": 20000.0,
+    "goalQuantity": 20000,
     "rewardItem": "Gold Peppers",
     "rewardQuantity": 50,
     "progress": 6612
@@ -490,7 +490,7 @@
   {
     "date": "2022-02-27",
     "goalItem": "Coal",
-    "goalQuantity": 2200000.0,
+    "goalQuantity": 2200000,
     "rewardItem": "Orange Juice",
     "rewardQuantity": 100,
     "progress": 2966700
@@ -498,7 +498,7 @@
   {
     "date": "2022-02-28",
     "goalItem": "Valentines Card",
-    "goalQuantity": 500000.0,
+    "goalQuantity": 500000,
     "rewardItem": "Heart Necklace",
     "rewardQuantity": 25,
     "progress": 219850
@@ -506,7 +506,7 @@
   {
     "date": "2022-03-01",
     "goalItem": "Yellow Perch",
-    "goalQuantity": 300000.0,
+    "goalQuantity": 300000,
     "rewardItem": "Apple",
     "rewardQuantity": 100,
     "progress": 1385460
@@ -514,7 +514,7 @@
   {
     "date": "2022-03-02",
     "goalItem": "Watermelon",
-    "goalQuantity": 300000.0,
+    "goalQuantity": 300000,
     "rewardItem": "Pumpkin",
     "rewardQuantity": 100,
     "progress": 213330
@@ -522,7 +522,7 @@
   {
     "date": "2022-03-03",
     "goalItem": "Seaweed",
-    "goalQuantity": 250000.0,
+    "goalQuantity": 250000,
     "rewardItem": "Shrimp",
     "rewardQuantity": 100,
     "progress": 42500
@@ -530,7 +530,7 @@
   {
     "date": "2022-03-04",
     "goalItem": "Drum",
-    "goalQuantity": 400000.0,
+    "goalQuantity": 400000,
     "rewardItem": "Mussel",
     "rewardQuantity": 100,
     "progress": 1348640
@@ -538,7 +538,7 @@
   {
     "date": "2022-03-05",
     "goalItem": "Small Prawn",
-    "goalQuantity": 1000000.0,
+    "goalQuantity": 1000000,
     "rewardItem": "Puffer",
     "rewardQuantity": 100,
     "progress": 1696699
@@ -546,7 +546,7 @@
   {
     "date": "2022-03-06",
     "goalItem": "Cucumber",
-    "goalQuantity": 650000.0,
+    "goalQuantity": 650000,
     "rewardItem": "Eggplant",
     "rewardQuantity": 100,
     "progress": 760370
@@ -554,7 +554,7 @@
   {
     "date": "2022-03-07",
     "goalItem": "Carrot",
-    "goalQuantity": 175000.0,
+    "goalQuantity": 175000,
     "rewardItem": "Radish",
     "rewardQuantity": 100,
     "progress": null
@@ -562,7 +562,7 @@
   {
     "date": "2022-03-08",
     "goalItem": "Lemon",
-    "goalQuantity": 1500000.0,
+    "goalQuantity": 1500000,
     "rewardItem": "Orange",
     "rewardQuantity": 300,
     "progress": 365100
@@ -570,7 +570,7 @@
   {
     "date": "2022-03-09",
     "goalItem": "Grapes",
-    "goalQuantity": 750000.0,
+    "goalQuantity": 750000,
     "rewardItem": "Wine",
     "rewardQuantity": 10,
     "progress": 543000
@@ -578,7 +578,7 @@
   {
     "date": "2022-03-10",
     "goalItem": "Starfish",
-    "goalQuantity": 1000000.0,
+    "goalQuantity": 1000000,
     "rewardItem": "Strange Mushroom",
     "rewardQuantity": 1,
     "progress": 1242800
@@ -586,7 +586,7 @@
   {
     "date": "2022-03-11",
     "goalItem": "Sour Root",
-    "goalQuantity": 3000000.0,
+    "goalQuantity": 3000000,
     "rewardItem": "Salt",
     "rewardQuantity": 60,
     "progress": 3016500
@@ -594,7 +594,7 @@
   {
     "date": "2022-03-12",
     "goalItem": "Acorn",
-    "goalQuantity": 2500000.0,
+    "goalQuantity": 2500000,
     "rewardItem": "Corn",
     "rewardQuantity": 100,
     "progress": 2604250
@@ -602,7 +602,7 @@
   {
     "date": "2022-03-13",
     "goalItem": "Seahorse",
-    "goalQuantity": 1000000.0,
+    "goalQuantity": 1000000,
     "rewardItem": "Crab Claw",
     "rewardQuantity": 10,
     "progress": 1025900
@@ -610,7 +610,7 @@
   {
     "date": "2022-03-14",
     "goalItem": "Green Parchment",
-    "goalQuantity": 300000.0,
+    "goalQuantity": 300000,
     "rewardItem": "Pie",
     "rewardQuantity": 1,
     "progress": 454259
@@ -618,7 +618,7 @@
   {
     "date": "2022-03-15",
     "goalItem": "Amethyst",
-    "goalQuantity": 750000.0,
+    "goalQuantity": 750000,
     "rewardItem": "Cheese",
     "rewardQuantity": 25,
     "progress": 978974
@@ -626,7 +626,7 @@
   {
     "date": "2022-03-16",
     "goalItem": "Tea Leaves",
-    "goalQuantity": 250000.0,
+    "goalQuantity": 250000,
     "rewardItem": "Iced Tea",
     "rewardQuantity": 25,
     "progress": 262950
@@ -634,7 +634,7 @@
   {
     "date": "2022-03-17",
     "goalItem": "4-leaf Clover",
-    "goalQuantity": 1500000.0,
+    "goalQuantity": 1500000,
     "rewardItem": "Pot of Gold (Large)",
     "rewardQuantity": 1,
     "progress": 1582050
@@ -642,7 +642,7 @@
   {
     "date": "2022-03-18",
     "goalItem": "3-leaf Clover",
-    "goalQuantity": 2000000.0,
+    "goalQuantity": 2000000,
     "rewardItem": "Mug of Beer",
     "rewardQuantity": 1,
     "progress": 2277600
@@ -650,7 +650,7 @@
   {
     "date": "2022-03-19",
     "goalItem": "Green Dye",
-    "goalQuantity": 1500000.0,
+    "goalQuantity": 1500000,
     "rewardItem": "Green Top Hat",
     "rewardQuantity": 1,
     "progress": 509550
@@ -658,7 +658,7 @@
   {
     "date": "2022-03-20",
     "goalItem": "Horseshoe",
-    "goalQuantity": 2000000.0,
+    "goalQuantity": 2000000,
     "rewardItem": "Gold Horseshoe",
     "rewardQuantity": 1,
     "progress": 3015800
@@ -666,7 +666,7 @@
   {
     "date": "2022-03-21",
     "goalItem": "Peppers",
-    "goalQuantity": 4500000.0,
+    "goalQuantity": 4500000,
     "rewardItem": "Lemonade",
     "rewardQuantity": 75,
     "progress": 4633199
@@ -674,7 +674,7 @@
   {
     "date": "2022-03-22",
     "goalItem": "Eggs",
-    "goalQuantity": 3000000.0,
+    "goalQuantity": 3000000,
     "rewardItem": "Fishing Net",
     "rewardQuantity": 100,
     "progress": 4053000
@@ -682,7 +682,7 @@
   {
     "date": "2022-03-23",
     "goalItem": "Trout",
-    "goalQuantity": 2500000.0,
+    "goalQuantity": 2500000,
     "rewardItem": "Grab Bag 07",
     "rewardQuantity": 3,
     "progress": 2958500
@@ -690,7 +690,7 @@
   {
     "date": "2022-03-24",
     "goalItem": "Unpolished Emerald",
-    "goalQuantity": 2000000.0,
+    "goalQuantity": 2000000,
     "rewardItem": "Unpolished Jade",
     "rewardQuantity": 50,
     "progress": 2012200
@@ -698,7 +698,7 @@
   {
     "date": "2022-03-25",
     "goalItem": "Feed",
-    "goalQuantity": 1250000.0,
+    "goalQuantity": 1250000,
     "rewardItem": "Carbon Sphere",
     "rewardQuantity": 100,
     "progress": 1323375
@@ -706,7 +706,7 @@
   {
     "date": "2022-03-26",
     "goalItem": "Spider",
-    "goalQuantity": 1250000.0,
+    "goalQuantity": 1250000,
     "rewardItem": "Cyclops Spider",
     "rewardQuantity": 5,
     "progress": 1259750
@@ -714,7 +714,7 @@
   {
     "date": "2022-03-29",
     "goalItem": "MIAB",
-    "goalQuantity": 1300000.0,
+    "goalQuantity": 1300000,
     "rewardItem": "Goldray",
     "rewardQuantity": 5,
     "progress": 1382290
@@ -722,7 +722,7 @@
   {
     "date": "2022-03-30",
     "goalItem": "Fern Leaf",
-    "goalQuantity": 1000000.0,
+    "goalQuantity": 1000000,
     "rewardItem": "Essence of Slime",
     "rewardQuantity": 10,
     "progress": 1032799
@@ -730,7 +730,7 @@
   {
     "date": "2022-03-31",
     "goalItem": "Green Diary",
-    "goalQuantity": 400000.0,
+    "goalQuantity": 400000,
     "rewardItem": "Honey",
     "rewardQuantity": 10,
     "progress": 415440
@@ -738,7 +738,7 @@
   {
     "date": "2022-04-01",
     "goalItem": "Runestone 20",
-    "goalQuantity": 1500000.0,
+    "goalQuantity": 1500000,
     "rewardItem": "Buddystone",
     "rewardQuantity": 1,
     "progress": 431400
@@ -746,7 +746,7 @@
   {
     "date": "2022-04-02",
     "goalItem": "Carrot",
-    "goalQuantity": 500000.0,
+    "goalQuantity": 500000,
     "rewardItem": "Egg 11",
     "rewardQuantity": 1,
     "progress": 874599
@@ -754,7 +754,7 @@
   {
     "date": "2022-04-03",
     "goalItem": "Prism Shard",
-    "goalQuantity": 1400000.0,
+    "goalQuantity": 1400000,
     "rewardItem": "Moonstone",
     "rewardQuantity": 25,
     "progress": 774340
@@ -762,12 +762,11 @@
   {
     "date": "2022-04-04",
     "goalItem": "Blue Sea Bass",
-    "goalQuantity": 1400000.0,
+    "goalQuantity": 1400000,
     "rewardItem": "Gold Sea Bass",
     "rewardQuantity": 10,
     "progress": 1443399
   },
-
   {
     "firstSeen": 1649819066474,
     "date": "2022-04-05",
@@ -1216,6 +1215,6 @@
     "goalQuantity": 1000000,
     "rewardItem": "Sea Dragon",
     "rewardQuantity": 7,
-    "progress": 200368
+    "progress": 1153314
   }
 ]
