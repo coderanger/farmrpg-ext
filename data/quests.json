@@ -830,7 +830,6 @@
     "from": "Beatrix",
     "fromImage": "/img/items/a_011.png",
     "text": "A few weeks ago, Beatrix hired a fishing charter for Lake Tempest. She asked the crew about strange stones before they left. A couple of the older hands said that they found a few strange stones on a variety of fishing trips. After a lot of disagreement, Captain Logan suggested the best strategy would be to follow the flow of the water and search the lake, the river, and the ocean. Since then, Beatrix has fished and hired charters every day with no success. Will you try the lake?",
-    "goldReward": 25,
     "requiresFishing": 10,
     "requiresExploring": 60
   },
@@ -869,7 +868,6 @@
     "from": "Beatrix",
     "fromImage": "/img/items/a_011.png",
     "text": "With the addition of that 8th runestone, something strange happened. The runestones started glowing. Beatrix really wants to see if there are any more runestones. Will you try the river?",
-    "goldReward": 25,
     "requiresFishing": 30,
     "requiresExploring": 60
   },
@@ -892,7 +890,6 @@
     "from": "Beatrix",
     "fromImage": "/img/items/a_011.png",
     "text": "Nothing changed with the addition of the 9th runestone. Beatrix expected something more to happen, but the stones are just glowing. Beatrix thinks there must be another runestone. Will you try the ocean?",
-    "goldReward": 25,
     "requiresFishing": 50,
     "requiresExploring": 60
   },
@@ -981,11 +978,10 @@
     "from": "Vincent",
     "fromImage": "/img/items/a_047.png",
     "text": "For finishing touches, Vincent suggests a cabin for sleeping and shelter if the weather gets rough. The bed he's suggesting looks to be extremely soft! Hopefully you're almost done.",
-    "silverReward": 15000000,
-    "goldReward": 25,
     "requiresFarming": 70,
     "requiresCrafting": 10,
-    "requiresExploring": 50
+    "requiresExploring": 50,
+    "silverReward": 15000000
   },
   {
     "firstSeen": 1646727818058,
@@ -7293,7 +7289,6 @@
     "from": "Star Meerif",
     "fromImage": "/img/items/npc_figure.png",
     "text": "As you open the door to your home, you hear a familiar sound, followed by a new one.\n\nPOOF\n\n“ALERT! ALERT! A MESS OF FEATHERS DETECTED!”\n\nROOMBA whirs into motion, cleaning feathers.\n\nStar, unannounced once again with his favorite spell, has shown up to your home.\n\n“I sensed from the sunspot disturbances you had something for me, so hand it over.” His demeanor is strangely intense, and you feel compelled to hand over the letter. Star opens it daintily, and begins reading half aloud and half to himself. His face starts serene but quickly contorts in anger.\n\n“Yes, I’m sure you got it ALL. ON. YOUR. OWN.”\n\nHe continues reading and his face grows red. The lights in your home begin to dim in an alarming fashion.\n\n“Your tricks can’t stop me forever!”\n\nHe continues to grow redder as he continues to read and his face is misshapen at this point. The room begins to expand and you hear snapping and popping that you can't explain. The lights are bright and yet dim all at once.\n\n“Greedy?! WHO'S THE GREEDY ONE?! GREEDY MAGE!?\nI. AM. A. WIZARD!\n\nAt this point, you begin to fear for your own safety. The room is now twice the size you remember it being. Fire is pouring out of your fireplace. Various pieces of furniture are levitating and vibrating uncontrollably.\n\n“YOUR FAMILY STARTED!”\n\nStar is now stomping on the letter and in quite a fit.\n\n“STARS AND STONES AND CURSED CREEK!”\n\nSuddenly, Star seems to realize his loss of control and the room instantaneously reverts to its previous state.\n\nStar takes a few extra moments to compose himself and turns to you with a big smile on his face.\n“Well well well, it seems I could use some more help in the future, and some good food. Maybe you can use this to help us both out now and in the future.”\nHe produces an orb that seems to be simultaneously opaque and completely transparent. \"You'll know what to do with this.\"\nROOMBA has stopped whirring, oblivious to whatever just happened, having finally cleaned up all the feathers as Star disappears in yet another shower of feathers.\n“ALERT! ALERT! FEATHER INTRUDERS! MAN THE BROOMS!”",
-    "goldReward": 50,
     "requiresExploring": 70
   },
   {
