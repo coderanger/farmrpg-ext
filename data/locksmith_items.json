@@ -1459,8 +1459,8 @@
     "boxId": "534",
     "group": 0,
     "itemId": "123",
-    "quantityHigh": 50,
-    "quantityLow": 50
+    "quantityHigh": 500,
+    "quantityLow": 500
   },
   {
     "boxId": "534",
