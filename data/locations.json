@@ -329,6 +329,13 @@
     "image": "/img/items/largeisland.png"
   },
   {
+    "items": [],
+    "id": "11",
+    "type": "fishing",
+    "name": "Pirate's Cove",
+    "image": "/img/items/cove.png"
+  },
+  {
     "items": [
       "Green Chromis",
       "Blue Crab",

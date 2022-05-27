@@ -2556,6 +2556,14 @@
     "rarity": "Uncommon"
   },
   {
+    "firstSeen": 1653506326772,
+    "id": "583",
+    "name": "Grab Bag 08",
+    "image": "/img/items/4497.png",
+    "xp": 1,
+    "rarity": "Uncommon"
+  },
+  {
     "name": "Grape Juice",
     "id": "112",
     "image": "/img/items/grapejuice.png",
@@ -3833,7 +3841,7 @@
     "firstSeen": 1648590725030,
     "id": "476",
     "name": "Mapping Compass",
-    "image": "/img/items/protractor.png",
+    "image": "/img/items/mappingcompass.png",
     "sellPrice": 2500,
     "xp": 2500,
     "rarity": "Rare"

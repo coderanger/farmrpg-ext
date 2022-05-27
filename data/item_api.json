@@ -9306,6 +9306,24 @@
     "xp": 2500
   },
   {
+    "base_yield_minutes": 0,
+    "buy_price": 0,
+    "can_buy": 0,
+    "can_sell": 0,
+    "craftable": 0,
+    "crafting_level": 0,
+    "description": "What will you get?<br/>Take to Locksmith to open",
+    "id": "583",
+    "img": "/img/items/4497.png",
+    "mailable": 0,
+    "masterable": 0,
+    "min_mailable_level": 0,
+    "name": "Grab Bag 08",
+    "sell_price": 0,
+    "type": "item",
+    "xp": 1
+  },
+  {
     "base_yield_minutes": 120,
     "buy_price": 0,
     "can_buy": 0,

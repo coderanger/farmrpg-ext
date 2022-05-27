@@ -1215,6 +1215,33 @@
     "goalQuantity": 1000000,
     "rewardItem": "Sea Dragon",
     "rewardQuantity": 7,
-    "progress": 1153314
+    "progress": 1153660
+  },
+  {
+    "firstSeen": 1653502801340,
+    "date": "2022-05-25",
+    "goalItem": "Apple",
+    "goalQuantity": 1000000,
+    "rewardItem": "Mug of Beer",
+    "rewardQuantity": 1,
+    "progress": 754571
+  },
+  {
+    "firstSeen": 1653564353461,
+    "date": "2022-05-26",
+    "goalItem": "Blue Gel",
+    "goalQuantity": 2000000,
+    "rewardItem": "Grab Bag 04",
+    "rewardQuantity": 3,
+    "progress": 2510109
+  },
+  {
+    "firstSeen": 1653641202456,
+    "date": "2022-05-27",
+    "goalItem": "Shovel",
+    "goalQuantity": 1000000,
+    "rewardItem": "Honey",
+    "rewardQuantity": 7,
+    "progress": 1002214
   }
 ]

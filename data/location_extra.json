@@ -36,6 +36,15 @@
     "xpPerHitIronDepot": null
   },
   {
+    "baseDropRate": null,
+    "id": "11",
+    "name": "Pirate's Cove",
+    "silverPerHit": null,
+    "silverPerHitIronDepot": null,
+    "xpPerHit": null,
+    "xpPerHitIronDepot": null
+  },
+  {
     "baseDropRate": 0.3333333333333333,
     "id": "2",
     "name": "Small Spring",
