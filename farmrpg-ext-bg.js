@@ -20,10 +20,10 @@ import { setupLocksmith } from './lib/locksmith.js'
 import { setupProduction } from './lib/production.js'
 import { setupVineyard } from './lib/vineyard.js'
 import { setupQuests } from './lib/quests.js'
-import { setupEmblems } from './lib/emblems.js'
+import { fetchEmblems, setupEmblems } from './lib/emblems.js'
 import { fetchCommunityCenter, setupCommunityCenter } from './lib/communityCenter.js'
 import { setupBorgens } from './lib/borgen.js'
-import { setupExchangeCenter } from './lib/exchange.js'
+import { fetchExchangeCenter, setupExchangeCenter } from './lib/exchange.js'
 
 /**
  * @typedef {{
@@ -315,7 +315,7 @@ const main = async () => {
     browser.alarms.create("clear-latency", {periodInMinutes: 60})
     browser.alarms.create("community-center-refresh", {
         periodInMinutes: 60*24,
-        when: luxon.DateTime.fromObject({}, {zone: "America/Chicago"}).startOf("day").plus({day: 1}).minus({minutes: 10}).toMillis(),
+        when: luxon.DateTime.fromObject({}, {zone: "America/Chicago"}).startOf("day").plus({day: 1}).minus({minutes: 30}).toMillis(),
     })
     browser.alarms.onAlarm.addListener(async alarm => {
         switch (alarm.name) {
@@ -336,6 +336,8 @@ const main = async () => {
             break
         case "community-center-refresh":
             await fetchCommunityCenter(globalState)
+            await fetchExchangeCenter(globalState)
+            await fetchEmblems(globalState)
             break
         }
     })
