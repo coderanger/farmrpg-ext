@@ -170,6 +170,16 @@
     "oneShot": false
   },
   {
+    "firstSeen": 1653696244685,
+    "date": "2022-05-23",
+    "giveItem": "Bone",
+    "giveQuantity": 1000,
+    "receiveItem": "Shinefish",
+    "receiveQuantity": 10,
+    "completed": true,
+    "oneShot": false
+  },
+  {
     "firstSeen": 1653282644097,
     "date": "2022-05-23",
     "giveItem": "Gold Feather",
@@ -267,6 +277,36 @@
     "receiveItem": "Salt",
     "receiveQuantity": 15,
     "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1653696142146,
+    "date": "2022-05-27",
+    "giveItem": "Acorn",
+    "giveQuantity": 250,
+    "receiveItem": "Grapes",
+    "receiveQuantity": 125,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1653696142148,
+    "date": "2022-05-27",
+    "giveItem": "Bird Egg",
+    "giveQuantity": 500,
+    "receiveItem": "Arnold Palmer",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1653696142152,
+    "date": "2022-05-27",
+    "giveItem": "Bone",
+    "giveQuantity": 1000,
+    "receiveItem": "Shinefish",
+    "receiveQuantity": 10,
+    "completed": false,
     "oneShot": false
   }
 ]
