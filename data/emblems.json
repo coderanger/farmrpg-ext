@@ -976,6 +976,12 @@
     "beta": false
   },
   {
+    "firstSeen": 1653766047900,
+    "id": "318",
+    "image": "img/emblems/TowerLevel50W.png",
+    "beta": false
+  },
+  {
     "id": "319",
     "image": "img/emblems/SturdySword96.png",
     "beta": false
@@ -1019,6 +1025,12 @@
     "firstSeen": 1650510437695,
     "id": "328",
     "image": "img/emblems/TowerLevel40SoG.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1653766047903,
+    "id": "329",
+    "image": "img/emblems/TowerLevel50Rc.png",
     "beta": false
   },
   {

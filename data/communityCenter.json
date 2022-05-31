@@ -1242,6 +1242,42 @@
     "goalQuantity": 1000000,
     "rewardItem": "Honey",
     "rewardQuantity": 7,
-    "progress": 1002214
+    "progress": 1043698
+  },
+  {
+    "firstSeen": 1653718622207,
+    "date": "2022-05-28",
+    "goalItem": "Starfish",
+    "goalQuantity": 1000000,
+    "rewardItem": "Lemonade",
+    "rewardQuantity": 75,
+    "progress": 1181735
+  },
+  {
+    "firstSeen": 1653816829413,
+    "date": "2022-05-29",
+    "goalItem": "Board",
+    "goalQuantity": 750000,
+    "rewardItem": "Gold Sea Bass",
+    "rewardQuantity": 10,
+    "progress": 2018173
+  },
+  {
+    "firstSeen": 1653907305893,
+    "date": "2022-05-30",
+    "goalItem": "Bird Egg",
+    "goalQuantity": 1100000,
+    "rewardItem": "Large Chest 02",
+    "rewardQuantity": 3,
+    "progress": 1763901
+  },
+  {
+    "firstSeen": 1654027427958,
+    "date": "2022-05-31",
+    "goalItem": "Feathers",
+    "goalQuantity": 2750000,
+    "rewardItem": "Pumpkin",
+    "rewardQuantity": 100,
+    "progress": 2856987
   }
 ]

@@ -30599,6 +30599,39 @@
     "availableTo": "May 31"
   },
   {
+    "firstSeen": 1654028172536,
+    "itemRequests": [
+      {
+        "id": "569",
+        "quantity": 1
+      },
+      {
+        "id": "307",
+        "quantity": 500
+      },
+      {
+        "id": "312",
+        "quantity": 500
+      },
+      {
+        "id": "241",
+        "quantity": 100
+      },
+      {
+        "id": "308",
+        "quantity": 500
+      }
+    ],
+    "itemRewards": [],
+    "id": "948",
+    "name": "Intruders Beware I",
+    "from": "Holger",
+    "fromImage": "/img/items/a_028.png",
+    "text": "Holger usually doesn’t take anything when he sneaks into Borgen’s wagon. He also doesn’t usually break anything in Borgen’s collections. That’s why Holger is fairly certain that the model ship he stepped on, in Borgen’s wagon, was broken before he got there. Additionally, the crunch he heard when he stepped on the model sounded like something already broken, and not like a fresh break. It was more grind and snap than crunch and pop.\n\nWhen Holger looked down to see the wreckage of the model ship, it was clear that the model was broken before he stepped on it. It was also clear that there was something stuffed inside the hull. Going against his normal tendency, Holger took the contents of the ship. Holger suspects that Borgen didn’t even know the map was jammed inside the model. So Borgen won’t miss it, but he will likely be very sore about the broken ship.\n\nWill you help Holger put together a gift to make Borgen feel better about his broken model ship? Holger would like a gift for Borgen that will remind him of the sea, but maybe not boats.",
+    "requiresFishing": 80,
+    "silverReward": 50000000
+  },
+  {
     "firstSeen": 1646727882309,
     "itemRequests": [
       {

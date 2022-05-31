@@ -243,5 +243,12 @@
         "item": "534",
         "frequency": "1 Year After Joining",
         "sort": 1
+    },
+    {
+        "building": "Exchange Center",
+        "image": "/img/items/exchange.png?1",
+        "item": "241",
+        "frequency": "Sometimes",
+        "sort": 1
     }
 ]
