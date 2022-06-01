@@ -29869,6 +29869,143 @@
     "requiresExploring": 50
   },
   {
+    "firstSeen": 1654060772977,
+    "itemRequests": [
+      {
+        "id": "203",
+        "quantity": 1000
+      },
+      {
+        "id": "535",
+        "quantity": 1000
+      },
+      {
+        "id": "536",
+        "quantity": 1000
+      },
+      {
+        "id": "537",
+        "quantity": 1000
+      },
+      {
+        "id": "104",
+        "quantity": 1000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "110",
+        "quantity": 1000
+      }
+    ],
+    "id": "910",
+    "name": "Giamics' Jubilee XII",
+    "from": "Rosalie",
+    "fromImage": "/img/items/a_098.png",
+    "text": "Rosalie needs some dye to add a splash of color to the festivities.",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "silverReward": 25000000
+  },
+  {
+    "firstSeen": 1654060995680,
+    "itemRequests": [
+      {
+        "id": "26",
+        "quantity": 1000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "394",
+        "quantity": 2
+      }
+    ],
+    "id": "911",
+    "name": "Giamics' Jubilee XIII",
+    "from": "Rosalie",
+    "fromImage": "/img/items/a_098.png",
+    "text": "Rosalie is baffled that she forgot such an integral part of the event: EGGS!\nNobody can quite remember when the tradition started, but the town’s celebration has always involved colorful eggs.",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99
+  },
+  {
+    "firstSeen": 1654061002115,
+    "itemRequests": [
+      {
+        "id": "26",
+        "quantity": 1000
+      },
+      {
+        "id": "36",
+        "quantity": 1000
+      },
+      {
+        "id": "37",
+        "quantity": 1000
+      },
+      {
+        "id": "117",
+        "quantity": 1000
+      },
+      {
+        "id": "427",
+        "quantity": 1000
+      },
+      {
+        "id": "130",
+        "quantity": 1000
+      },
+      {
+        "id": "111",
+        "quantity": 1000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "330",
+        "quantity": 25
+      },
+      {
+        "id": "334",
+        "quantity": 25
+      },
+      {
+        "id": "396",
+        "quantity": 25
+      },
+      {
+        "id": "397",
+        "quantity": 25
+      },
+      {
+        "id": "398",
+        "quantity": 25
+      },
+      {
+        "id": "453",
+        "quantity": 25
+      },
+      {
+        "id": "491",
+        "quantity": 25
+      }
+    ],
+    "id": "912",
+    "name": "Giamics' Jubilee XIV",
+    "from": "Rosalie",
+    "fromImage": "/img/items/a_098.png",
+    "text": "Rosalie needs more eggs, and wants to set up some stations to color the eggs.",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99
+  },
+  {
     "firstSeen": 1646727888372,
     "itemRequests": [
       {

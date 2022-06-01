@@ -1278,6 +1278,15 @@
     "goalQuantity": 2750000,
     "rewardItem": "Pumpkin",
     "rewardQuantity": 100,
-    "progress": 2856987
+    "progress": 2973748
+  },
+  {
+    "firstSeen": 1654059915249,
+    "date": "2022-06-01",
+    "goalItem": "Conch Shell",
+    "goalQuantity": 750000,
+    "rewardItem": "Honey",
+    "rewardQuantity": 10,
+    "progress": 811594
   }
 ]

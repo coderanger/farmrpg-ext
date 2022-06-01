@@ -6811,8 +6811,32 @@
   },
   {
     "id": "909",
-    "next": null,
+    "next": "910",
     "prev": "908",
+    "questlines": [
+      "Giamics' Jubilee"
+    ]
+  },
+  {
+    "id": "910",
+    "next": "911",
+    "prev": "909",
+    "questlines": [
+      "Giamics' Jubilee"
+    ]
+  },
+  {
+    "id": "911",
+    "next": "912",
+    "prev": "910",
+    "questlines": [
+      "Giamics' Jubilee"
+    ]
+  },
+  {
+    "id": "912",
+    "next": null,
+    "prev": "911",
     "questlines": [
       "Giamics' Jubilee"
     ]
@@ -7015,6 +7039,12 @@
     "prev": "946",
     "questlines": [
       "To Quench The Worst Thirst"
+    ]
+  },
+  {
+    "id": "948",
+    "questlines": [
+      "Intruders Beware"
     ]
   }
 ]

@@ -817,7 +817,10 @@
       "906",
       "907",
       "908",
-      "909"
+      "909",
+      "910",
+      "911",
+      "912"
     ],
     "secondary": false
   },
@@ -922,6 +925,14 @@
     "name": "Interior Design",
     "quests": [
       "38"
+    ],
+    "secondary": false
+  },
+  {
+    "image": "/img/items/a_028.png",
+    "name": "Intruders Beware",
+    "quests": [
+      "948"
     ],
     "secondary": false
   },

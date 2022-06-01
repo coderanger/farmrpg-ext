@@ -238,5 +238,10 @@
     "boxId": "547",
     "gold": null,
     "mode": "multi"
+  },
+  {
+    "boxId": "584",
+    "gold": null,
+    "mode": "multi"
   }
 ]

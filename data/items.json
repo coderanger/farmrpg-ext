@@ -1354,6 +1354,44 @@
     "givable": true
   },
   {
+    "firstSeen": 1654114892090,
+    "name": "Crossbow",
+    "id": "585",
+    "image": "/img/items/8976.png",
+    "sellPrice": 125000,
+    "craftPrice": 28000,
+    "xp": 2500,
+    "rarity": "Rare",
+    "mastery": true,
+    "recipe": [
+      {
+        "id": "108",
+        "name": "Arrowhead",
+        "quantity": 1
+      },
+      {
+        "id": "22",
+        "name": "Iron",
+        "quantity": 2
+      },
+      {
+        "id": "95",
+        "name": "Iron Ring",
+        "quantity": 2
+      },
+      {
+        "id": "303",
+        "name": "Oak",
+        "quantity": 3
+      },
+      {
+        "id": "392",
+        "name": "Steel Wire",
+        "quantity": 1
+      }
+    ]
+  },
+  {
     "name": "Cucumber",
     "id": "29",
     "image": "/img/items/5805.png",
@@ -5920,6 +5958,14 @@
     "xp": 7500,
     "rarity": "Common",
     "mastery": true
+  },
+  {
+    "firstSeen": 1654049057533,
+    "id": "584",
+    "name": "Tackle Box",
+    "image": "/img/items/7847.png",
+    "xp": 1,
+    "rarity": "Uncommon"
   },
   {
     "firstSeen": 1651727913967,
