@@ -220,7 +220,8 @@
         "quantity": 20
       }
     ],
-    "rarity": "Very Rare"
+    "rarity": "Very Rare",
+    "givable": true
   },
   {
     "name": "Arrowhead",
@@ -1387,7 +1388,7 @@
       {
         "id": "392",
         "name": "Steel Wire",
-        "quantity": 1
+        "quantity": 2
       }
     ]
   },

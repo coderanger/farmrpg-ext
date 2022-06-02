@@ -249,7 +249,7 @@ def compile_drops(
         with open(cache_path) as cachef:
             return cattrs.structure(json.load(cachef), Drops)
 
-    items = fixtures.load_items()
+    items = list(fixtures.load_items())
     when_items_dropped: dict[tuple[str, str], Union[range, InfRange]] = defaultdict(
         InfRange
     )
