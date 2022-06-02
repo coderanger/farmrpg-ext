@@ -1603,7 +1603,8 @@
     "event": true,
     "xp": 2300,
     "givable": true,
-    "rarity": "Very Rare"
+    "rarity": "Very Rare",
+    "lastDropped": 1651381200000
   },
   {
     "firstSeen": 1648756117648,
@@ -1613,7 +1614,8 @@
     "event": true,
     "xp": 2300,
     "givable": true,
-    "rarity": "Very Rare"
+    "rarity": "Very Rare",
+    "lastDropped": 1651381200000
   },
   {
     "firstSeen": 1648756121396,

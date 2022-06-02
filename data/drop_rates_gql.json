@@ -874,11 +874,11 @@
   },
   {
     "drops": 10,
-    "hits": 706112,
+    "hits": 688612,
     "item": "Egg 08",
     "location": "Highland Hills",
     "mode": "explores",
-    "rate": 70611.2,
+    "rate": 68861.2,
     "rate_type": "normal"
   },
   {
@@ -1036,11 +1036,11 @@
   },
   {
     "drops": 10,
-    "hits": 66400,
+    "hits": 66000,
     "item": "Egg 07",
     "location": "Lake Tempest",
     "mode": "fishes",
-    "rate": 6640.0,
+    "rate": 6600.0,
     "rate_type": "normal"
   },
   {
@@ -1495,11 +1495,11 @@
   },
   {
     "drops": 24,
-    "hits": 1140532,
+    "hits": 1146500,
     "item": "Model Ship",
     "location": "Small Cave",
     "mode": "explores",
-    "rate": 47522.166666666664,
+    "rate": 47770.833333333336,
     "rate_type": "normal"
   },
   {
@@ -1530,12 +1530,12 @@
     "rate_type": "normal"
   },
   {
-    "drops": 30,
-    "hits": 249299,
+    "drops": 33,
+    "hits": 255267,
     "item": "Skeleton Key",
     "location": "Small Cave",
     "mode": "explores",
-    "rate": 8309.966666666667,
+    "rate": 7735.363636363636,
     "rate_type": "normal"
   },
   {
@@ -2521,11 +2521,11 @@
   },
   {
     "drops": 10,
-    "hits": 706112,
+    "hits": 688612,
     "item": "Egg 08",
     "location": "Highland Hills",
     "mode": "explores",
-    "rate": 70611.2,
+    "rate": 68861.2,
     "rate_type": "iron_depot"
   },
   {
@@ -2853,84 +2853,84 @@
     "rate_type": "iron_depot"
   },
   {
-    "drops": 7792,
-    "hits": 396782,
+    "drops": 7911,
+    "hits": 402750,
     "item": "Bone",
     "location": "Small Cave",
     "mode": "explores",
-    "rate": 50.92171457905544,
+    "rate": 50.91012514220705,
     "rate_type": "iron_depot"
   },
   {
-    "drops": 1763,
-    "hits": 1140532,
+    "drops": 1771,
+    "hits": 1146500,
     "item": "Grab Bag 02",
     "location": "Small Cave",
     "mode": "explores",
-    "rate": 646.9268292682926,
+    "rate": 647.3743647656692,
     "rate_type": "iron_depot"
   },
   {
     "drops": 24,
-    "hits": 1140532,
+    "hits": 1146500,
     "item": "Model Ship",
     "location": "Small Cave",
     "mode": "explores",
-    "rate": 47522.166666666664,
+    "rate": 47770.833333333336,
     "rate_type": "iron_depot"
   },
   {
-    "drops": 70682,
-    "hits": 1108032,
+    "drops": 71043,
+    "hits": 1114000,
     "item": "Mushroom",
     "location": "Small Cave",
     "mode": "explores",
-    "rate": 15.676296652613113,
+    "rate": 15.68064411694326,
     "rate_type": "iron_depot"
   },
   {
-    "drops": 557,
-    "hits": 1140532,
+    "drops": 563,
+    "hits": 1146500,
     "item": "Runestone 04",
     "location": "Small Cave",
     "mode": "explores",
-    "rate": 2047.6337522441652,
+    "rate": 2036.412078152753,
     "rate_type": "iron_depot"
   },
   {
-    "drops": 30,
-    "hits": 249299,
+    "drops": 33,
+    "hits": 255267,
     "item": "Skeleton Key",
     "location": "Small Cave",
     "mode": "explores",
-    "rate": 8309.966666666667,
+    "rate": 7735.363636363636,
     "rate_type": "iron_depot"
   },
   {
-    "drops": 94523,
-    "hits": 608032,
+    "drops": 95539,
+    "hits": 614000,
     "item": "Stone",
     "location": "Small Cave",
     "mode": "explores",
-    "rate": 6.432635443225458,
+    "rate": 6.426694857597421,
     "rate_type": "iron_depot"
   },
   {
-    "drops": 167583,
-    "hits": 1073032,
+    "drops": 168495,
+    "hits": 1079000,
     "item": "Wood",
     "location": "Small Cave",
     "mode": "explores",
-    "rate": 6.402988369942059,
+    "rate": 6.403750853141043,
     "rate_type": "iron_depot"
   },
   {
-    "drops": 1697,
-    "hits": 1140532,
+    "drops": 1708,
+    "hits": 1146500,
     "item": "Wooden Mask",
     "location": "Small Cave",
     "mode": "explores",
-    "rate": 672.0872127283442,
+    "rate": 671.2529274004684,
     "rate_type": "iron_depot"
   },
   {
