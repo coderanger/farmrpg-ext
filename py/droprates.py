@@ -219,6 +219,7 @@ def compile_drops(
     harvest: bool = False,
     since: int = 0,
     iron_depot: bool = False,
+    runecube: bool = False,
     lemonade_fake_explores: bool = False,
     nets_fake_fishes: bool = False,
     harvest_true_drops: bool = False,
@@ -235,6 +236,7 @@ def compile_drops(
         h=harvest,
         s=since,
         i=iron_depot,
+        r=runecube,
         x=lemonade_fake_explores,
         y=nets_fake_fishes,
         t=harvest_true_drops,
@@ -282,6 +284,8 @@ def compile_drops(
     logs = [row for row in parse_logs.parse_logs(since=since) if row["type"] in types]
     # First run through to count drops and work out which items are in each locations.
     for row in logs:
+        if row["results"].get("runecube", False) != runecube:
+            continue
         location_name = location_for_row(row)
         if not location_name:
             continue
@@ -319,6 +323,8 @@ def compile_drops(
             explores.drops += quantity
     # Second pass to get the explore counts.
     for row in logs:
+        if row["results"].get("runecube", False) != runecube:
+            continue
         location_name = location_for_row(row)
         if not location_name:
             continue
@@ -443,6 +449,7 @@ def droprates_cmd(
     csv: bool = False,
     fishing: bool = False,
     iron_depot: bool = True,
+    runecube: bool = False,
 ) -> None:
     # If any output types are a comma-separated string, expand them.
     # ["foo,bar", "baz"] -> ["foo", "bar", "baz"]
@@ -459,6 +466,7 @@ def droprates_cmd(
         since=since,
         cache=cache,
         iron_depot=iron_depot,
+        runecube=runecube,
     )
     filter_is_location = filter is not None and filter in drops.locations
     filter_is_item = filter is not None and any(
