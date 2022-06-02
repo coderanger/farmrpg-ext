@@ -510,16 +510,6 @@
     "oneShot": false
   },
   {
-    "firstSeen": 1654146848470,
-    "date": "2022-06-02",
-    "giveItem": "Cyclops Spider",
-    "giveQuantity": 25,
-    "receiveItem": "Cutlass",
-    "receiveQuantity": 3,
-    "completed": true,
-    "oneShot": false
-  },
-  {
     "firstSeen": 1654193951057,
     "date": "2022-06-02",
     "giveItem": "Jade",
