@@ -30817,6 +30817,46 @@
     "goldReward": 5
   },
   {
+    "firstSeen": 1654195947105,
+    "itemRequests": [
+      {
+        "id": "171",
+        "quantity": 1000
+      },
+      {
+        "id": "42",
+        "quantity": 1000
+      },
+      {
+        "id": "320",
+        "quantity": 1000
+      },
+      {
+        "id": "172",
+        "quantity": 1000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "325",
+        "quantity": 1
+      },
+      {
+        "id": "240",
+        "quantity": 1
+      }
+    ],
+    "id": "960",
+    "name": "Hold The Line I",
+    "from": "Star Meerif",
+    "fromImage": "/img/items/npc_figure.png",
+    "text": "Star’s calculations and vast strategy may not be enough to hold back the Shadow if someone fails to do their part. So it is that Star finds himself coming to you on a universal Thursday to ask for assistance. It appears that the meticulously crafted barrier that Star engineered was compromised by a shift in the distribution of ethereal focusing scepters.\n\nThe undermining force appears to be the monetary value of the staff. Star has corrected this issue, but now he needs to correct both the architectural and logistical distribution. That’s where he needs your help.\n\nWill you accept another mystical staff and keep it secret, and keep it safe, until Star or one of his duly authorized messengers calls for it?",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99
+  },
+  {
     "firstSeen": 1646727878300,
     "itemRequests": [
       {

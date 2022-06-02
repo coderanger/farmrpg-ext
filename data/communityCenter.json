@@ -1287,6 +1287,15 @@
     "goalQuantity": 750000,
     "rewardItem": "Honey",
     "rewardQuantity": 10,
-    "progress": 811594
+    "progress": 1439412
+  },
+  {
+    "firstSeen": 1654158485788,
+    "date": "2022-06-02",
+    "goalItem": "Blue Gel",
+    "goalQuantity": 2000000,
+    "rewardItem": "Goldfish",
+    "rewardQuantity": 3,
+    "progress": 2409286
   }
 ]
