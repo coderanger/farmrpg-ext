@@ -134,7 +134,7 @@ def load_quests(resolve_items=False) -> Iterable[Quest]:
         yield Quest(**quest)
 
 
-def _get_drops():
+def _get_drops(runecube: bool = False):
     import droprates
 
     # This seems to be ready to go but I reserve the right to change my mind.
@@ -150,6 +150,7 @@ def _get_drops():
         cider=USE_BIG_ITEMS,
         palmer=USE_BIG_ITEMS,
         large_net=USE_BIG_ITEMS,
+        runecube=runecube,
     )
 
     iron_depot_drops = droprates.compile_drops(
@@ -159,20 +160,22 @@ def _get_drops():
         iron_depot=True,
         cider=USE_BIG_ITEMS,
         palmer=USE_BIG_ITEMS,
+        runecube=runecube,
     )
 
-    manual_fish_drops = droprates.compile_drops(fish=True)
+    manual_fish_drops = droprates.compile_drops(fish=True, runecube=runecube)
 
-    # TEMPORARY GIANT HACK UNTIL I CAN DO MORE SOLVER-ING.
-    normal_drops.locations["Cane Pole Ridge"].items[
-        "Tea Leaves"
-    ] = iron_depot_drops.locations["Cane Pole Ridge"].items["Tea Leaves"]
-    normal_drops.locations["Small Cave"].items[
-        "Skeleton Key"
-    ] = iron_depot_drops.locations["Small Cave"].items["Skeleton Key"]
-    normal_drops.locations["Small Cave"].items[
-        "Model Ship"
-    ] = iron_depot_drops.locations["Small Cave"].items["Model Ship"]
+    if not runecube:
+        # TEMPORARY GIANT HACK UNTIL I CAN DO MORE SOLVER-ING.
+        normal_drops.locations["Cane Pole Ridge"].items[
+            "Tea Leaves"
+        ] = iron_depot_drops.locations["Cane Pole Ridge"].items["Tea Leaves"]
+        normal_drops.locations["Small Cave"].items[
+            "Skeleton Key"
+        ] = iron_depot_drops.locations["Small Cave"].items["Skeleton Key"]
+        normal_drops.locations["Small Cave"].items[
+            "Model Ship"
+        ] = iron_depot_drops.locations["Small Cave"].items["Model Ship"]
 
     # NOTES ABOUT GOLD BOOT DROP RATE
     # RySwim
@@ -233,13 +236,19 @@ def gen_drop_rates_gql():
     import droprates
 
     normal_drops, iron_depot_drops, manual_fish_drops = _get_drops()
+    rc_normal_drops, rc_iron_depot_drops, rc_manual_fish_drops = _get_drops(
+        runecube=True
+    )
 
     # Build a secondary fixture for Gatsby's GraphQL layer.
     drop_rates_gql = []
-    for rate_type, drops in [
-        ("normal", normal_drops),
-        ("iron_depot", iron_depot_drops),
-        ("manual_fishing", manual_fish_drops),
+    for rate_type, drops, runecube in [
+        ("normal", normal_drops, False),
+        ("iron_depot", iron_depot_drops, False),
+        ("manual_fishing", manual_fish_drops, False),
+        ("normal", rc_normal_drops, True),
+        ("iron_depot", rc_iron_depot_drops, True),
+        ("manual_fishing", rc_manual_fish_drops, True),
     ]:
         for location, loc_drops in sorted(
             drops.locations.items(), key=lambda kv: kv[0]
@@ -248,7 +257,7 @@ def gen_drop_rates_gql():
                 loc_drops.items.items(), key=lambda kv: kv[0]
             ):
                 mode, hits = droprates.mode_for_drops(item_drops)
-                hits_per_drop = hits / item_drops.drops
+                hits_per_drop = hits / item_drops.drops if item_drops.drops else 0
                 drop_rates_gql.append(
                     {
                         "location": location,
@@ -258,6 +267,7 @@ def gen_drop_rates_gql():
                         "rate": hits_per_drop,
                         "hits": hits,
                         "drops": item_drops.drops,
+                        "runecube": runecube,
                     }
                 )
     return drop_rates_gql
