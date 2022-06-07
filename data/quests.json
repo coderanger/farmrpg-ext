@@ -30752,7 +30752,7 @@
       },
       {
         "id": "241",
-        "quantity": 100
+        "quantity": 50
       },
       {
         "id": "308",
@@ -30765,6 +30765,31 @@
     "from": "Holger",
     "fromImage": "/img/items/a_028.png",
     "text": "Holger usually doesn’t take anything when he sneaks into Borgen’s wagon. He also doesn’t usually break anything in Borgen’s collections. That’s why Holger is fairly certain that the model ship he stepped on, in Borgen’s wagon, was broken before he got there. Additionally, the crunch he heard when he stepped on the model sounded like something already broken, and not like a fresh break. It was more grind and snap than crunch and pop.\n\nWhen Holger looked down to see the wreckage of the model ship, it was clear that the model was broken before he stepped on it. It was also clear that there was something stuffed inside the hull. Going against his normal tendency, Holger took the contents of the ship. Holger suspects that Borgen didn’t even know the map was jammed inside the model. So Borgen won’t miss it, but he will likely be very sore about the broken ship.\n\nWill you help Holger put together a gift to make Borgen feel better about his broken model ship? Holger would like a gift for Borgen that will remind him of the sea, but maybe not boats.",
+    "requiresFishing": 80,
+    "silverReward": 50000000
+  },
+  {
+    "firstSeen": 1654541179750,
+    "itemRequests": [
+      {
+        "id": "311",
+        "quantity": 500
+      },
+      {
+        "id": "505",
+        "quantity": 3
+      },
+      {
+        "id": "309",
+        "quantity": 500
+      }
+    ],
+    "itemRewards": [],
+    "id": "949",
+    "name": "Intruders Beware II",
+    "from": "Holger",
+    "fromImage": "/img/items/a_028.png",
+    "text": "Holger can’t figure out the map that he found in Borgen’s broken model ship. The writing on the map is in a language that Holger doesn’t recognize, but he thinks the map shows a maze of underground tunnels and how to navigate them. However, the entrances to the tunnels, at either end of the maze, are a mystery. Each entrance is drawn as a series of broken squiggles.\n\nHolger has no idea what the squiggles could mean, but he isn’t ready to give up on this mystery. He thinks some food might help him think more clearly. Will you bring him some fish to fry and eat?",
     "requiresFishing": 80,
     "silverReward": 50000000
   },
@@ -30793,6 +30818,339 @@
     "text": "Did you find a Mushroom in the small cave? If so, Lorn has some more work for you. \"You might have found some stone in that cave. You can use it, along with some Iron you can buy from the Country Store to make Iron Cups. That will help your crafting skill grow fast. Before you can craft, you need to build a Workshop on your farm. I'll loan you this silver to help with that. Here are some materials you can practice with. Bring me back the cups you make, and we will call it even.\"",
     "silverReward": 1500,
     "requiresFarming": 1
+  },
+  {
+    "firstSeen": 1654541190255,
+    "itemRequests": [
+      {
+        "id": "193",
+        "quantity": 500
+      },
+      {
+        "id": "81",
+        "quantity": 500
+      },
+      {
+        "id": "37",
+        "quantity": 100
+      },
+      {
+        "id": "122",
+        "quantity": 500
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "500",
+        "quantity": 20
+      },
+      {
+        "id": "582",
+        "quantity": 1
+      }
+    ],
+    "id": "950",
+    "name": "Intruders Beware III",
+    "from": "Lorn",
+    "fromImage": "/img/items/a_088.png",
+    "text": "Lorn found a load of wreckage washed up on the beach this morning. He thinks that the storm yesterday may have been unkind to some poor sailor, but Lorn hopes that it was an old wreck stirred up and not a new disaster. Many of the items in the wreckage look quite old. Perhaps Lorn’s hopes are not unfounded.\n\nLorn is gathering up the interesting and useful items among the wreckage to make them available at the Exchange Center. He has his wagon to carry everything, but he could use help loading and securing the items. Will you help Lorn? He’ll give you a couple of the more interesting and useful items as compensation.",
+    "requiresFishing": 80
+  },
+  {
+    "firstSeen": 1654541198069,
+    "itemRequests": [
+      {
+        "id": "266",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "86",
+        "quantity": 100
+      },
+      {
+        "id": "84",
+        "quantity": 100
+      }
+    ],
+    "id": "951",
+    "name": "Intruders Beware IV",
+    "from": "Holger",
+    "fromImage": "/img/items/a_028.png",
+    "text": "Holger hasn’t made any further progress on deciphering the map. He suspects that the entrance squiggles require a legend, or key of some sort, that isn’t on the map.\n\nSince no solutions were presenting themselves, Holger hiked all over the area looking for anything that might be a clue. He was hoping that he would see something that might shake an idea loose in his brain and help him decipher those squiggles. Eventually, he ended up at the Exchange Center and started talking to Lorn about the map.\n\nAs Holger was drawing out some of the squiggles, Lorn had an epiphany. Lorn saw a coin once with very similar markings to one of the groups of squiggles. At first, Lorn thought he had one of the coins in the exchange center storeroom, but after searching for several minutes he couldn’t find a coin that matched what he remembered.\n\nSince Lorn couldn’t find the coin, he tried to do a simple drawing of it. Holger has a general idea of what he’s looking for now. If you happen to come across a coin with a skull on it, will you bring it to Holger?",
+    "requiresFishing": 80
+  },
+  {
+    "firstSeen": 1654541234887,
+    "itemRequests": [
+      {
+        "id": "150",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "508",
+        "quantity": 10
+      },
+      {
+        "id": "44",
+        "quantity": 500
+      }
+    ],
+    "id": "952",
+    "name": "Intruders Beware V",
+    "from": "Holger",
+    "fromImage": "/img/items/a_028.png",
+    "text": "The coin fit with the squiggles on the map perfectly. There’s even some sort of resistance when Holger removes the coin from its spot on the map. It’s strange, but the coin and the map definitely belong together.\n\nThe image created by the map’s squiggles and the coin suggests a cove with a skull-shaped cave as the northern entrance to the maze. Holger’s never seen a place like that, but he remembers a bit of a story from Vincent. Vincent was trying to find a specific runestone to help him find a place called Pirate’s Cove. Maybe that’s the place on this map. Holger thinks it may be worth asking Vincent about.\n\nWhile Holger talks to Vincent, will you find a runestone like the one Vincent wanted for finding Pirate’s Cove?",
+    "requiresFishing": 80
+  },
+  {
+    "firstSeen": 1654541268565,
+    "itemRequests": [
+      {
+        "id": "166",
+        "quantity": 10
+      },
+      {
+        "id": "239",
+        "quantity": 10
+      },
+      {
+        "id": "368",
+        "quantity": 500
+      },
+      {
+        "id": "237",
+        "quantity": 1
+      },
+      {
+        "id": "581",
+        "quantity": 1
+      },
+      {
+        "id": "236",
+        "quantity": 1
+      },
+      {
+        "id": "242",
+        "quantity": 100
+      },
+      {
+        "id": "26",
+        "quantity": 100
+      },
+      {
+        "id": "120",
+        "quantity": 100
+      },
+      {
+        "id": "351",
+        "quantity": 10
+      },
+      {
+        "id": "349",
+        "quantity": 50
+      },
+      {
+        "id": "86",
+        "quantity": 25
+      },
+      {
+        "id": "238",
+        "quantity": 1
+      },
+      {
+        "id": "193",
+        "quantity": 100
+      },
+      {
+        "id": "15",
+        "quantity": 100
+      },
+      {
+        "id": "11",
+        "quantity": 100
+      }
+    ],
+    "itemRewards": [],
+    "id": "953",
+    "name": "Intruders Beware VI",
+    "from": "Holger",
+    "fromImage": "/img/items/a_028.png",
+    "text": "Vincent wasn’t sure if Pirate’s Cove has a skull-shaped cave. He didn’t get a good look when he was there. Actually, Vincent didn’t want to talk about his time at Pirate’s Cove, but he did tell Holger that he was trying to use the runestone to find Pirate’s Cove.\n\nSpeaking of the runestone, Holger has great news! After he returned from talking to Vincent, he noticed that the backside of the runestone, that you found, was similar to the squiggles on the southern entrance on the map. So, he put the runestone face down on the map and lined it up with the squiggles. It fit perfectly! It also had a reaction like the coin, where it resists being removed from the map. Strangely, that resistance doesn’t happen with the runestone face up.\n\nIt took Holger a little while to recognize the image created by the runestone and the map, but he’s pretty sure that it’s the small cave not far from Lake Tempest.\n\nNow, Holger wants to go explore the small cave and see if the map is correct. Will you help him prepare for exploring the cave?",
+    "requiresFishing": 80,
+    "silverReward": 75000000
+  },
+  {
+    "firstSeen": 1654541347758,
+    "itemRequests": [
+      {
+        "id": "581",
+        "quantity": 3
+      },
+      {
+        "id": "258",
+        "quantity": 100
+      },
+      {
+        "id": "246",
+        "quantity": 100
+      },
+      {
+        "id": "245",
+        "quantity": 100
+      },
+      {
+        "id": "266",
+        "quantity": 50
+      }
+    ],
+    "itemRewards": [],
+    "id": "954",
+    "name": "Intruders Beware VII",
+    "from": "Holger",
+    "fromImage": "/img/items/a_028.png",
+    "text": "Holger found Buddy wandering around while he was exploring the small cave, and Buddy decided to join in the search for the tunnels. Oddly, Buddy knew a lot about the map and the tunnels. Buddy also mentioned that he knew Holger’s father a long time ago. Eventually, Buddy stopped and said that it was unsafe to go further. Holger would have continued, but Buddy seemed adamant.\n\nWhile Holger was consulting the map to figure out a different path, Buddy warned Holger about pursuing any other options. Buddy explained that all of the tunnel entrances are lined with traps, very deadly ones. He also said that he had a tool to disable the traps, but that the pirate magic powering the traps has weakened over the years. Without stabilizing the pirate magic, the shutoff mechanism wouldn’t work.\n\nBuddy suggested that Holger find a load of pirate artifacts and bring them to the cave. The artifacts will still have a little pirate magic in them that can be accumulated together and shared with the trap mechanisms. Then, Buddy can turn off the traps and let Holger through the tunnels.\n\nWill you help Holger gather up old pirate artifacts?",
+    "requiresFishing": 80,
+    "silverReward": 50000000
+  },
+  {
+    "firstSeen": 1654541421527,
+    "itemRequests": [
+      {
+        "id": "125",
+        "quantity": 500
+      },
+      {
+        "id": "126",
+        "quantity": 500
+      },
+      {
+        "id": "471",
+        "quantity": 20
+      },
+      {
+        "id": "316",
+        "quantity": 500
+      },
+      {
+        "id": "196",
+        "quantity": 500
+      },
+      {
+        "id": "249",
+        "quantity": 500
+      },
+      {
+        "id": "123",
+        "quantity": 500
+      },
+      {
+        "id": "462",
+        "quantity": 100
+      },
+      {
+        "id": "459",
+        "quantity": 100
+      },
+      {
+        "id": "461",
+        "quantity": 100
+      },
+      {
+        "id": "380",
+        "quantity": 2
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "500",
+        "quantity": 25
+      },
+      {
+        "id": "508",
+        "quantity": 25
+      },
+      {
+        "id": "347",
+        "quantity": 12
+      },
+      {
+        "id": "346",
+        "quantity": 5
+      },
+      {
+        "id": "363",
+        "quantity": 5
+      },
+      {
+        "id": "573",
+        "quantity": 1
+      }
+    ],
+    "id": "955",
+    "name": "Intruders Beware VIII",
+    "from": "Holger",
+    "fromImage": "/img/items/a_028.png",
+    "text": "Buddy double-crossed Holger. They got the pirate magic shared from the old artifacts to the trap mechanisms. Suddenly, the entire cave felt electric and Holger could hear gears turning and ropes pulling. It was like all of the traps were being reset. Then, out of nowhere Buddy laughed and vanished.\n\nHolger considered trying his luck with the tunnels without Buddy. He even walked to the point where Buddy stopped during their first exploration of the cave. Then, Holger tossed one of his lanterns several meters into a tunnel. It landed on the tunnel floor and a giant boulder immediately fell from the ceiling. The boulder fell exactly where the lantern fell. At that, Holger decided to come home and have a nice meal.\n\nWill you find Buddy and see if you can get him to turn the traps off in the cave? Maybe you could take Buddy a gift as reminder of your friendship.",
+    "requiresFishing": 80,
+    "silverReward": 100000000
+  },
+  {
+    "firstSeen": 1654544313167,
+    "itemRequests": [
+      {
+        "id": "175",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "298",
+        "quantity": 1
+      }
+    ],
+    "id": "956",
+    "name": "Intruders Beware IX",
+    "from": "Buddy",
+    "fromImage": "/img/items/buddy.png",
+    "text": "Buddy doesn’t think that Holger is ready for the treasures and truths that await him at the end of the tunnels. Pirate’s Cove has many secrets that Holger is too immature to understand. However, since you are one of Buddy’s best friends, Buddy will give you the key to disabling the tunnel traps, if you help Holger do one, very important good deed.\n\nBuddy will trade you a powerful stone for a beautiful diamond as proof of your covenant.",
+    "requiresFishing": 80
+  },
+  {
+    "firstSeen": 1654544323373,
+    "itemRequests": [
+      {
+        "id": "219",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [],
+    "id": "957",
+    "name": "Intruders Beware X",
+    "from": "Holger",
+    "fromImage": "/img/items/a_028.png",
+    "text": "Holger isn’t sure what to think about this plan, or about Buddy’s judgment. Nevertheless, he has a perfect idea of what to do for the good deed. All he needs is a replacement model ship.",
+    "requiresFishing": 80,
+    "silverReward": 100000000
+  },
+  {
+    "firstSeen": 1654544330415,
+    "itemRequests": [],
+    "itemRewards": [
+      {
+        "id": "476",
+        "quantity": 1
+      }
+    ],
+    "id": "958",
+    "name": "Intruders Beware XI",
+    "from": "Buddy",
+    "fromImage": "/img/items/buddy.png",
+    "text": "Buddy is satisfied with Holger’s good deed. He thinks Holger and Borgen would make their father pretty proud if he was still around. Buddy wonders if it would be fun to tell Holger and Borgen that he is their father. That may be better left for a trek through the stars, or an intergalactic imperial incursion.\n\nBuddy is glad to give you the key for shutting off the tunnel traps. However, he intends to keep protecting visitors that are exploring the small cave from running into the tunnels. He’ll stop everyone he finds in the cave and try to help them avoid unsafe areas.\n\nRemember, to use the key, stick it in the skull mark on the floor between the tunnel entrance and the cave, and then turn it clockwise. Buddy loves the sound it makes when the traps disengage. He hopes you enjoy it too.",
+    "requiresFishing": 80
   },
   {
     "firstSeen": 1646727880284,

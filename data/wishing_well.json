@@ -690,6 +690,16 @@
     "output": "354"
   },
   {
+    "chance": 0.5,
+    "input": "382",
+    "output": "471"
+  },
+  {
+    "chance": 0.5,
+    "input": "382",
+    "output": "362"
+  },
+  {
     "chance": 0.16666666666666666,
     "input": "349",
     "output": "65"

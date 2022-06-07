@@ -21,10 +21,10 @@
     "baseDropRate": 0.26666666666666666,
     "id": "10",
     "name": "Whispering Creek",
-    "silverPerHit": 166.29947168370404,
-    "silverPerHitIronDepot": 166.29947168370404,
-    "xpPerHit": 181.48861789156507,
-    "xpPerHitIronDepot": 181.48861789156507
+    "silverPerHit": 166.29366429545883,
+    "silverPerHitIronDepot": 166.29366429545883,
+    "xpPerHit": 181.48177122668335,
+    "xpPerHitIronDepot": 181.48177122668335
   },
   {
     "baseDropRate": null,
@@ -41,7 +41,7 @@
     "name": "Pirate's Cove",
     "silverPerHit": null,
     "silverPerHitIronDepot": null,
-    "xpPerHit": null,
+    "xpPerHit": 8090.934684684684,
     "xpPerHitIronDepot": null
   },
   {

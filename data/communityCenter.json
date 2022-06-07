@@ -1296,6 +1296,42 @@
     "goalQuantity": 2000000,
     "rewardItem": "Goldfish",
     "rewardQuantity": 3,
-    "progress": 2409286
+    "progress": 2616723
+  },
+  {
+    "firstSeen": 1654304558092,
+    "date": "2022-06-03",
+    "goalItem": "Corn",
+    "goalQuantity": 500000,
+    "rewardItem": "Carbon Sphere",
+    "rewardQuantity": 100,
+    "progress": 504440
+  },
+  {
+    "firstSeen": 1654396490496,
+    "date": "2022-06-04",
+    "goalItem": "Peppers",
+    "goalQuantity": 750000,
+    "rewardItem": "Small Screw",
+    "rewardQuantity": 10,
+    "progress": 3029540
+  },
+  {
+    "firstSeen": 1654405574833,
+    "date": "2022-06-05",
+    "goalItem": "Purple Diary",
+    "goalQuantity": 325000,
+    "rewardItem": "Runestone 18",
+    "rewardQuantity": 1,
+    "progress": 368288
+  },
+  {
+    "firstSeen": 1654544340849,
+    "date": "2022-06-06",
+    "goalItem": "Potato",
+    "goalQuantity": 1000000,
+    "rewardItem": "Large Chest 02",
+    "rewardQuantity": 3,
+    "progress": 669682
   }
 ]

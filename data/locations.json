@@ -329,7 +329,19 @@
     "image": "/img/items/largeisland.png"
   },
   {
-    "items": [],
+    "items": [
+      "Purple Butterfly Fish",
+      "Pirate Hook",
+      "Mystical Chest 02",
+      "Large Chest 03",
+      "Crab",
+      "Green Barracuda",
+      "Mulberry Snapper",
+      "Jumbo Fish",
+      "Speckled Grouper",
+      "Orcafish",
+      "Gold Jelly"
+    ],
     "id": "11",
     "type": "fishing",
     "name": "Pirate's Cove",
