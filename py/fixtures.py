@@ -113,11 +113,18 @@ class Quest:
     requires_fishing: Optional[int] = None
     requires_crafting: Optional[int] = None
     requires_exploring: Optional[int] = None
+    is_personal: Optional[bool] = None
 
 
-def load_quests(resolve_items=False) -> Iterable[Quest]:
+def load_quests(
+    resolve_items=False, personal_help_requests: bool = False
+) -> Iterable[Quest]:
     items = {it.id: it for it in load_items()} if resolve_items else {}
     for quest in load_fixture("quests"):
+        # Ignore known PHRs.
+        if quest.get("is_personal", False) != personal_help_requests:
+            continue
+
         # from is a Python keyword so I can't use it.
         quest["from_"] = quest.pop("from")
         # Convert the sub-lists.
