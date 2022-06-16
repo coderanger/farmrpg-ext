@@ -63,6 +63,10 @@ IRON_DEPOT_CHANGE = (
 
 BROKEN_OVERFLOW_TYPES = {"cider", "large_net", "palmer"}
 
+# When the cider "changed drop rates" went live.
+CIDER_CHANGE = 1654722709000
+NEW_CIDER_BASE_DROP_RATE = 0.4  # Confirmed by FS in chat
+
 
 def cache_path_for(**kwargs) -> str:
     buf = io.StringIO()
@@ -172,6 +176,7 @@ def count_sources(
     row: dict[str, Any],
     lemonade_fake_explores_location: Optional[str] = None,
     nets_fake_fishes: bool = False,
+    cider_location: Optional[str] = None,
 ) -> None:
     if row["type"] == "explore":
         drops.explores += row["results"]["stamina"]
@@ -184,9 +189,17 @@ def count_sources(
             )
     elif row["type"] == "cider":
         drops.ciders += 1
+        cider_explores = row["results"]["explores"]
+        if row["ts"] >= CIDER_CHANGE:
+            # Work out how many normal explores this would have been.
+            total_drops = cider_explores * NEW_CIDER_BASE_DROP_RATE
+            base_drop_rate = (
+                BASE_DROP_RATES[cider_location] if cider_location else (1 / 3)
+            )
+            cider_explores = total_drops / base_drop_rate
         # This is kind of wrong for global and location stats since not all explores count
         # for all items but it's more correct than not.
-        drops.explores += row["results"].get("explores", row["results"]["stamina"])
+        drops.explores += cider_explores
     elif row["type"] == "palmer":
         drops.palmers += 1
         if lemonade_fake_explores_location is not None:
@@ -344,6 +357,7 @@ def compile_drops(
             if lemonade_fake_explores
             else None,
             nets_fake_fishes=nets_fake_fishes,
+            cider_location=location_name,
         )
         for item, item_explores in explores.locations[location_name].items.items():
             if row["ts"] not in when_items_dropped[(item, location_name)]:
