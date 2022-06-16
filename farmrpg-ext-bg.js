@@ -333,6 +333,9 @@ const main = async () => {
         case "clear-latency":
             // Delete all but the last 24 hours of data.
             // await globalState.db.delete("latency", IDBKeyRange.upperBound(Date.now() - 24*60*60*1000))
+            await fetchCommunityCenter(globalState)
+            await fetchExchangeCenter(globalState)
+            await fetchEmblems(globalState)
             break
         case "community-center-refresh":
             await fetchCommunityCenter(globalState)
