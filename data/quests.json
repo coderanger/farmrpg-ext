@@ -304,6 +304,160 @@
     "requiresExploring": 5
   },
   {
+    "firstSeen": 1655327352105,
+    "itemRequests": [
+      {
+        "id": "308",
+        "quantity": 250
+      },
+      {
+        "id": "576",
+        "quantity": 55
+      },
+      {
+        "id": "75",
+        "quantity": 250
+      },
+      {
+        "id": "303",
+        "quantity": 35
+      },
+      {
+        "id": "575",
+        "quantity": 250
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "189",
+        "quantity": 90
+      },
+      {
+        "id": "299",
+        "quantity": 90
+      },
+      {
+        "id": "586",
+        "quantity": 1
+      }
+    ],
+    "id": "10480",
+    "name": "Lost Items",
+    "isPersonal": true,
+    "from": "Rosalie",
+    "fromImage": "/img/items/a_098.png",
+    "text": "A while back Rosalie lost some items and would really love to have them again. Can you help?",
+    "silverReward": 27985000
+  },
+  {
+    "firstSeen": 1655327488351,
+    "itemRequests": [
+      {
+        "id": "103",
+        "quantity": 250
+      },
+      {
+        "id": "76",
+        "quantity": 35
+      },
+      {
+        "id": "33",
+        "quantity": 250
+      },
+      {
+        "id": "570",
+        "quantity": 85
+      },
+      {
+        "id": "301",
+        "quantity": 35
+      },
+      {
+        "id": "579",
+        "quantity": 180
+      },
+      {
+        "id": "13",
+        "quantity": 250
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "86",
+        "quantity": 90
+      },
+      {
+        "id": "92",
+        "quantity": 90
+      },
+      {
+        "id": "73",
+        "quantity": 90
+      },
+      {
+        "id": "586",
+        "quantity": 1
+      }
+    ],
+    "id": "10481",
+    "name": "Special Order",
+    "isPersonal": true,
+    "from": "Rosalie",
+    "fromImage": "/img/items/a_098.png",
+    "text": "Rosalie is trying to fulfill a special order for a customer. Will you get a few of the items ready so Rosalie can get this order out quickly?",
+    "silverReward": 25845000
+  },
+  {
+    "firstSeen": 1655327980193,
+    "itemRequests": [
+      {
+        "id": "31",
+        "quantity": 145
+      },
+      {
+        "id": "499",
+        "quantity": 250
+      },
+      {
+        "id": "309",
+        "quantity": 250
+      },
+      {
+        "id": "82",
+        "quantity": 35
+      },
+      {
+        "id": "575",
+        "quantity": 250
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "104",
+        "quantity": 20
+      },
+      {
+        "id": "336",
+        "quantity": 60
+      },
+      {
+        "id": "74",
+        "quantity": 90
+      },
+      {
+        "id": "586",
+        "quantity": 1
+      }
+    ],
+    "id": "10482",
+    "name": "Box of Items",
+    "isPersonal": true,
+    "from": "Thomas",
+    "fromImage": "/img/items/a_048.png",
+    "text": "Thomas found a box full of stuff that you might find useful. If you can bring the following items you can have the box of stuff.",
+    "silverReward": 26855000
+  },
+  {
     "firstSeen": 1646727862266,
     "itemRequests": [
       {
@@ -2595,6 +2749,144 @@
     "silverReward": 3000,
     "requiresFarming": 26,
     "requiresExploring": 30
+  },
+  {
+    "firstSeen": 1655292151062,
+    "itemRequests": [
+      {
+        "id": "576",
+        "quantity": 35
+      },
+      {
+        "id": "31",
+        "quantity": 250
+      },
+      {
+        "id": "308",
+        "quantity": 35
+      },
+      {
+        "id": "388",
+        "quantity": 250
+      },
+      {
+        "id": "77",
+        "quantity": 55
+      },
+      {
+        "id": "301",
+        "quantity": 35
+      },
+      {
+        "id": "103",
+        "quantity": 250
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "54",
+        "quantity": 25
+      },
+      {
+        "id": "459",
+        "quantity": 90
+      }
+    ],
+    "id": "1681",
+    "name": "Items Wanted",
+    "isPersonal": true,
+    "from": "Borgen",
+    "fromImage": "/img/items/borgen.png",
+    "text": "If you can find the following items and give them to Borgen, you'll be rewarded for your effort.",
+    "silverReward": 34195000
+  },
+  {
+    "firstSeen": 1655292224752,
+    "itemRequests": [
+      {
+        "id": "570",
+        "quantity": 35
+      },
+      {
+        "id": "77",
+        "quantity": 55
+      },
+      {
+        "id": "306",
+        "quantity": 35
+      },
+      {
+        "id": "311",
+        "quantity": 35
+      },
+      {
+        "id": "106",
+        "quantity": 250
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "317",
+        "quantity": 90
+      },
+      {
+        "id": "136",
+        "quantity": 90
+      },
+      {
+        "id": "186",
+        "quantity": 90
+      }
+    ],
+    "id": "1682",
+    "name": "Special Project",
+    "isPersonal": true,
+    "from": "Buddy",
+    "fromImage": "/img/items/buddy.png",
+    "text": "Buddy is working on a project and could use the following things. You will be rewarded for your effort.",
+    "silverReward": 21800000
+  },
+  {
+    "firstSeen": 1655292465472,
+    "itemRequests": [
+      {
+        "id": "43",
+        "quantity": 35
+      },
+      {
+        "id": "106",
+        "quantity": 250
+      },
+      {
+        "id": "456",
+        "quantity": 250
+      },
+      {
+        "id": "570",
+        "quantity": 35
+      },
+      {
+        "id": "110",
+        "quantity": 135
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "585",
+        "quantity": 90
+      },
+      {
+        "id": "11",
+        "quantity": 90
+      }
+    ],
+    "id": "1683",
+    "name": "Box of Items",
+    "isPersonal": true,
+    "from": "George",
+    "fromImage": "/img/items/a_034.png",
+    "text": "George found a box full of stuff that you might find useful. If you can bring the following items you can have the box of stuff.",
+    "silverReward": 61560000
   },
   {
     "firstSeen": 1646727734082,
@@ -30006,6 +30298,22 @@
     "requiresExploring": 99
   },
   {
+    "firstSeen": 1655327321009,
+    "itemRequests": [],
+    "itemRewards": [
+      {
+        "id": "586",
+        "quantity": 1
+      }
+    ],
+    "id": "9127",
+    "name": "Peaches For Free I",
+    "from": "Borgen",
+    "fromImage": "/img/items/borgen.png",
+    "text": "As Borgen was exploring a marketplace in the Unincorporated Southern Arcagos, his hound Jax accidentally knocked over a bin filled with strange fruit. The fruit didn’t appear to be damaged or spoiled, but the bin completely emptied onto the ground. The farmer selling the strange fruit was absolutely distraught over the spill. As a fellow seller of fine goods, Borgen could relate. So, he reluctantly parted with some of his ancient coins to purchase the entire bin of fruit.\n\nNow, according to the farmer, these peaches should be reaching the peak of ripeness in the next day or so. As they do, Borgen would like to get this new fruit out to several people to test the potential market for these “Peaches of the Unincorporated Southern Arcagos”.\n\nWould you like to try a peach? If you like it, Borgen welcomes you to come back and buy a few more.",
+    "requiresFarming": 60
+  },
+  {
     "firstSeen": 1646727888372,
     "itemRequests": [
       {
@@ -30025,6 +30333,27 @@
     "fromImage": "/img/items/buddy.png",
     "text": "Buddy lost his peg leg. Can you find something he can use as a replacement?",
     "silverReward": 5
+  },
+  {
+    "firstSeen": 1655327327278,
+    "itemRequests": [
+      {
+        "id": "123",
+        "quantity": 25
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "586",
+        "quantity": 10
+      }
+    ],
+    "id": "9278",
+    "name": "Peaches For Free II",
+    "from": "Borgen",
+    "fromImage": "/img/items/borgen.png",
+    "text": "Borgen would like to offer you a special deal, if you enjoyed the peach and want a few more of them. Would you like some more peaches?",
+    "requiresFarming": 60
   },
   {
     "firstSeen": 1652392285277,
@@ -30093,6 +30422,27 @@
     "requiresExploring": 5,
     "availableFrom": "May 12",
     "availableTo": "May 31"
+  },
+  {
+    "firstSeen": 1655327331707,
+    "itemRequests": [
+      {
+        "id": "123",
+        "quantity": 100
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "587",
+        "quantity": 2
+      }
+    ],
+    "id": "9297",
+    "name": "Peaches For Free III",
+    "from": "Borgen",
+    "fromImage": "/img/items/borgen.png",
+    "text": "Borgen took some of the peaches and attempted to make a few upgraded products to sell. Canned peaches worked pretty well, but it wasn’t different enough. Peach desserts, like pie and cobbler, are amazing, but too labor intensive. Then, Borgen had a breakthrough: peach juice!\n\nUnfortunately, the peach juice has an unwanted side effect for a seller of fine goods like Borgen. It makes you invisible for a short duration after you drink it. Nevertheless, maybe you could find a use for this peach juice. Borgen would be happy to share it with you at a very reasonable price.",
+    "requiresFarming": 60
   },
   {
     "firstSeen": 1646727886303,

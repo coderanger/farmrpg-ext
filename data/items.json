@@ -230,7 +230,8 @@
     "sellPrice": 150,
     "xp": 150,
     "fleaMarket": 1,
-    "rarity": "Common"
+    "rarity": "Common",
+    "givable": true
   },
   {
     "name": "Axe",
@@ -2411,7 +2412,8 @@
     "sellPrice": 12000,
     "xp": 9500,
     "rarity": "Uncommon",
-    "mastery": true
+    "mastery": true,
+    "manualFishingOnly": true
   },
   {
     "name": "Gold Leaf",
@@ -3696,7 +3698,8 @@
       }
     ],
     "rarity": "",
-    "craftPrice": 2
+    "craftPrice": 2,
+    "fleaMarket": 3
   },
   {
     "name": "Lima Bean",
@@ -4260,6 +4263,37 @@
     "possibleDrops": [
       "Peas",
       "Gold Peas"
+    ]
+  },
+  {
+    "firstSeen": 1655256943932,
+    "id": "586",
+    "name": "Peach",
+    "image": "/img/items/peach.png",
+    "sellPrice": 50,
+    "givable": true,
+    "rarity": "Uncommon"
+  },
+  {
+    "firstSeen": 1655256944929,
+    "id": "587",
+    "name": "Peach Juice",
+    "image": "/img/items/peachjuice.png",
+    "sellPrice": 3500,
+    "craftPrice": 200,
+    "xp": 500,
+    "mastery": true,
+    "recipe": [
+      {
+        "id": "117",
+        "name": "Glass Bottle",
+        "quantity": 1
+      },
+      {
+        "id": "586",
+        "name": "Peach",
+        "quantity": 10
+      }
     ]
   },
   {

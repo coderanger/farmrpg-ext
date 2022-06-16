@@ -97,7 +97,7 @@
   },
   {
     "drop_rates": {
-      "Runestone 11": 1051.923076923077
+      "Runestone 11": 1073.4615384615386
     },
     "iron_depot_rates": {},
     "location": "Corn Seeds",
@@ -407,14 +407,14 @@
   },
   {
     "drop_rates": {
-      "Barracuda": 5.424257570077888,
-      "Plumbfish": 7.962384060160355,
-      "Ruby Coral": 11.725681469231976,
-      "Sea Catfish": 6.70246530636246,
-      "Serpent Eel": 10.547845218485683,
-      "Spiral Shell": 9.217883476576636,
-      "Swordfish": 3.965184081311263,
-      "Tribal Staff": 10245.58426966292
+      "Barracuda": 5.424268819008385,
+      "Plumbfish": 7.9625124859424,
+      "Ruby Coral": 11.725745189154994,
+      "Sea Catfish": 6.702393184253579,
+      "Serpent Eel": 10.54777012600367,
+      "Spiral Shell": 9.218002628120894,
+      "Swordfish": 3.9651525442644733,
+      "Tribal Staff": 10246.483146067416
     },
     "iron_depot_rates": {},
     "location": "Large Island",
@@ -557,28 +557,28 @@
   },
   {
     "drop_rates": {
-      "Crab": 4.902927762744156,
-      "Green Barracuda": 6.5594478153971085,
-      "Jumbo Fish": 9.465529587917453,
-      "Large Chest 03": 10203.508771929824,
-      "Mulberry Snapper": 7.9812270999437365,
-      "Mystical Chest 02": 14540.0,
-      "Orcafish": 10.911615166694808,
-      "Pirate Hook": 19386.666666666668,
-      "Purple Butterfly Fish": 4.144559729789559,
-      "Speckled Grouper": 12.577310669953722
+      "Crab": 4.908701912079336,
+      "Green Barracuda": 6.5558450894060565,
+      "Jumbo Fish": 9.469298757933263,
+      "Large Chest 03": 9475.324675324675,
+      "Mulberry Snapper": 7.96593514575827,
+      "Mystical Chest 02": 14889.795918367347,
+      "Orcafish": 10.941155299622098,
+      "Pirate Hook": 19200.0,
+      "Purple Butterfly Fish": 4.139459551615378,
+      "Speckled Grouper": 12.59298893625835
     },
     "iron_depot_rates": {},
     "location": "Pirate's Cove",
     "manual_fish_rates": {
-      "Crab": 4.906077348066298,
-      "Gold Jelly": 37.0,
-      "Green Barracuda": 6.9921259842519685,
-      "Jumbo Fish": 8.792079207920793,
-      "Mulberry Snapper": 8.792079207920793,
-      "Orcafish": 13.661538461538461,
-      "Purple Butterfly Fish": 4.149532710280374,
-      "Speckled Grouper": 11.84
+      "Crab": 5.249357326478149,
+      "Gold Jelly": 36.464285714285715,
+      "Green Barracuda": 7.0657439446366785,
+      "Jumbo Fish": 9.36697247706422,
+      "Mulberry Snapper": 8.689361702127659,
+      "Orcafish": 11.735632183908047,
+      "Purple Butterfly Fish": 3.98828125,
+      "Speckled Grouper": 12.08284023668639
     },
     "mode": "fishes"
   },
@@ -609,25 +609,25 @@
     "drop_rates": {
       "Bone": 60.753846153846155,
       "Grab Bag 02": 987.25,
-      "Model Ship": 47770.833333333336,
+      "Model Ship": 48604.166666666664,
       "Mushroom": 19.581818181818182,
       "Nails": 8.905582922824301,
       "Runestone 04": 2369.4,
-      "Skeleton Key": 7735.363636363636,
+      "Skeleton Key": 7864.771428571428,
       "Stone": 8.90751879699248,
       "Wood": 9.4776,
       "Wooden Mask": 696.8823529411765
     },
     "iron_depot_rates": {
-      "Bone": 50.91012514220705,
-      "Grab Bag 02": 647.3743647656692,
-      "Model Ship": 47770.833333333336,
-      "Mushroom": 15.68064411694326,
-      "Runestone 04": 2036.412078152753,
-      "Skeleton Key": 7735.363636363636,
-      "Stone": 6.426694857597421,
-      "Wood": 6.403750853141043,
-      "Wooden Mask": 671.2529274004684
+      "Bone": 50.78078078078078,
+      "Grab Bag 02": 646.6186252771619,
+      "Model Ship": 48604.166666666664,
+      "Mushroom": 15.684430367491458,
+      "Runestone 04": 2050.0878734622142,
+      "Skeleton Key": 7864.771428571428,
+      "Stone": 6.4175236861284315,
+      "Wood": 6.400214311088852,
+      "Wooden Mask": 670.7878090856814
     },
     "location": "Small Cave",
     "manual_fish_rates": {},

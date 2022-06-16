@@ -3,10 +3,10 @@
     "baseDropRate": 0.4,
     "id": "1",
     "name": "Small Cave",
-    "silverPerHit": 6.48935189453305,
-    "silverPerHitIronDepot": 10.832845673505798,
-    "xpPerHit": 9.042131464921177,
-    "xpPerHitIronDepot": 11.798274077387049
+    "silverPerHit": 9.947144404410015,
+    "silverPerHitIronDepot": 9.947144404410015,
+    "xpPerHit": 11.599067674445006,
+    "xpPerHitIronDepot": 11.599067674445006
   },
   {
     "baseDropRate": null,
@@ -21,10 +21,10 @@
     "baseDropRate": 0.26666666666666666,
     "id": "10",
     "name": "Whispering Creek",
-    "silverPerHit": 166.29366429545883,
-    "silverPerHitIronDepot": 166.29366429545883,
-    "xpPerHit": 181.48177122668335,
-    "xpPerHitIronDepot": 181.48177122668335
+    "silverPerHit": 166.4034523264137,
+    "silverPerHitIronDepot": 166.4034523264137,
+    "xpPerHit": 181.5806673265064,
+    "xpPerHitIronDepot": 181.5806673265064
   },
   {
     "baseDropRate": null,
@@ -32,7 +32,7 @@
     "name": "Large Island",
     "silverPerHit": null,
     "silverPerHitIronDepot": null,
-    "xpPerHit": 8441.889584396515,
+    "xpPerHit": 8438.68027341399,
     "xpPerHitIronDepot": null
   },
   {
@@ -41,17 +41,17 @@
     "name": "Pirate's Cove",
     "silverPerHit": null,
     "silverPerHitIronDepot": null,
-    "xpPerHit": 8090.934684684684,
+    "xpPerHit": 8061.756368913469,
     "xpPerHitIronDepot": null
   },
   {
     "baseDropRate": 0.3333333333333333,
     "id": "2",
     "name": "Small Spring",
-    "silverPerHit": 9.923986005383739,
-    "silverPerHitIronDepot": 9.923986005383739,
-    "xpPerHit": 15.153896450035298,
-    "xpPerHitIronDepot": 15.153896450035298
+    "silverPerHit": 9.842386289575403,
+    "silverPerHitIronDepot": 9.842386289575403,
+    "xpPerHit": 15.007082076991864,
+    "xpPerHitIronDepot": 15.007082076991864
   },
   {
     "baseDropRate": null,
@@ -59,17 +59,17 @@
     "name": "Farm Pond",
     "silverPerHit": null,
     "silverPerHitIronDepot": null,
-    "xpPerHit": 201.85720448662642,
+    "xpPerHit": 200.40170594483902,
     "xpPerHitIronDepot": null
   },
   {
     "baseDropRate": 0.25,
     "id": "3",
     "name": "Highland Hills",
-    "silverPerHit": 7.7160554165106525,
-    "silverPerHitIronDepot": 7.7160554165106525,
-    "xpPerHit": 8.053491145242424,
-    "xpPerHitIronDepot": 8.053491145242424
+    "silverPerHit": 7.560424734443344,
+    "silverPerHitIronDepot": 7.560424734443344,
+    "xpPerHit": 7.941795807902498,
+    "xpPerHitIronDepot": 7.941795807902498
   },
   {
     "baseDropRate": null,
@@ -77,17 +77,17 @@
     "name": "Forest Pond",
     "silverPerHit": null,
     "silverPerHitIronDepot": null,
-    "xpPerHit": 169.11936389148735,
+    "xpPerHit": 168.79421012333887,
     "xpPerHitIronDepot": null
   },
   {
     "baseDropRate": 0.2857142857142857,
     "id": "4",
     "name": "Cane Pole Ridge",
-    "silverPerHit": 7.95248673531813,
-    "silverPerHitIronDepot": 12.640519428887314,
-    "xpPerHit": 10.398367257100045,
-    "xpPerHitIronDepot": 14.745648251749772
+    "silverPerHit": 12.909966515207213,
+    "silverPerHitIronDepot": 12.909966515207213,
+    "xpPerHit": 14.966386449980321,
+    "xpPerHitIronDepot": 14.966386449980321
   },
   {
     "baseDropRate": null,
@@ -95,17 +95,17 @@
     "name": "Lake Tempest",
     "silverPerHit": null,
     "silverPerHitIronDepot": null,
-    "xpPerHit": 217.23750666226744,
+    "xpPerHit": 216.44084098840264,
     "xpPerHitIronDepot": null
   },
   {
     "baseDropRate": 0.3333333333333333,
     "id": "5",
     "name": "Misty Forest",
-    "silverPerHit": 30.59489163971005,
-    "silverPerHitIronDepot": 30.59489163971005,
-    "xpPerHit": 37.053008180784865,
-    "xpPerHitIronDepot": 37.053008180784865
+    "silverPerHit": 30.79418969784533,
+    "silverPerHitIronDepot": 30.79418969784533,
+    "xpPerHit": 37.019122699729074,
+    "xpPerHitIronDepot": 37.019122699729074
   },
   {
     "baseDropRate": null,
@@ -113,17 +113,17 @@
     "name": "Small Island",
     "silverPerHit": null,
     "silverPerHitIronDepot": null,
-    "xpPerHit": 372.4451581501956,
+    "xpPerHit": 371.72383400305597,
     "xpPerHitIronDepot": null
   },
   {
     "baseDropRate": 0.3333333333333333,
     "id": "6",
     "name": "Black Rock Canyon",
-    "silverPerHit": 53.43792752696196,
-    "silverPerHitIronDepot": 53.43792752696196,
-    "xpPerHit": 50.90811279604854,
-    "xpPerHitIronDepot": 50.90811279604854
+    "silverPerHit": 53.47189226702967,
+    "silverPerHitIronDepot": 53.47189226702967,
+    "xpPerHit": 50.82139014346648,
+    "xpPerHitIronDepot": 50.82139014346648
   },
   {
     "baseDropRate": null,
@@ -131,17 +131,17 @@
     "name": "Crystal River",
     "silverPerHit": null,
     "silverPerHitIronDepot": null,
-    "xpPerHit": 427.0914061255906,
+    "xpPerHit": 427.050708762024,
     "xpPerHitIronDepot": null
   },
   {
     "baseDropRate": 0.3333333333333333,
     "id": "7",
     "name": "Forest",
-    "silverPerHit": 26.144577682855388,
-    "silverPerHitIronDepot": 26.144577682855388,
-    "xpPerHit": 31.09834747801491,
-    "xpPerHitIronDepot": 31.09834747801491
+    "silverPerHit": 25.945785214691057,
+    "silverPerHitIronDepot": 25.945785214691057,
+    "xpPerHit": 30.830570738045047,
+    "xpPerHitIronDepot": 30.830570738045047
   },
   {
     "baseDropRate": null,
@@ -149,17 +149,17 @@
     "name": "Emerald Beach",
     "silverPerHit": null,
     "silverPerHitIronDepot": null,
-    "xpPerHit": 622.3936790108198,
+    "xpPerHit": 622.0302712388349,
     "xpPerHitIronDepot": null
   },
   {
     "baseDropRate": 0.3333333333333333,
     "id": "8",
     "name": "Mount Banon",
-    "silverPerHit": 34.51185713509893,
-    "silverPerHitIronDepot": 41.763474251072196,
-    "xpPerHit": 20.25954454119223,
-    "xpPerHitIronDepot": 24.466747283222087
+    "silverPerHit": 41.741702094032476,
+    "silverPerHitIronDepot": 41.741702094032476,
+    "xpPerHit": 24.503394838739744,
+    "xpPerHitIronDepot": 24.503394838739744
   },
   {
     "baseDropRate": null,
@@ -167,17 +167,17 @@
     "name": "Vast Ocean",
     "silverPerHit": null,
     "silverPerHitIronDepot": null,
-    "xpPerHit": 646.6857031955651,
+    "xpPerHit": 646.4167236842383,
     "xpPerHitIronDepot": null
   },
   {
     "baseDropRate": 0.3333333333333333,
     "id": "9",
     "name": "Ember Lagoon",
-    "silverPerHit": 98.08392887339713,
-    "silverPerHitIronDepot": 98.08392887339713,
-    "xpPerHit": 53.36547903968117,
-    "xpPerHitIronDepot": 53.36547903968117
+    "silverPerHit": 97.76475624461084,
+    "silverPerHitIronDepot": 97.76475624461084,
+    "xpPerHit": 52.98922961206419,
+    "xpPerHitIronDepot": 52.98922961206419
   },
   {
     "baseDropRate": null,
@@ -185,7 +185,7 @@
     "name": "Lake Minerva",
     "silverPerHit": null,
     "silverPerHitIronDepot": null,
-    "xpPerHit": 3080.9223145780047,
+    "xpPerHit": 3070.8422855989775,
     "xpPerHitIronDepot": null
   }
 ]

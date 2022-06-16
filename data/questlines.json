@@ -1187,6 +1187,16 @@
     "secondary": false
   },
   {
+    "image": "/img/items/borgen.png",
+    "name": "Peaches For Free",
+    "quests": [
+      "9127",
+      "9278",
+      "9297"
+    ],
+    "secondary": false
+  },
+  {
     "image": "/img/items/a_011.png",
     "name": "Performance Enhancing Grapes",
     "quests": [

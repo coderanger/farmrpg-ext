@@ -1332,6 +1332,87 @@
     "goalQuantity": 1000000,
     "rewardItem": "Large Chest 02",
     "rewardQuantity": 3,
-    "progress": 669682
+    "progress": 1005253
+  },
+  {
+    "firstSeen": 1654578377587,
+    "date": "2022-06-07",
+    "goalItem": "Twine",
+    "goalQuantity": 1000000,
+    "rewardItem": "Apple",
+    "rewardQuantity": 100,
+    "progress": 1179327
+  },
+  {
+    "firstSeen": 1654720017542,
+    "date": "2022-06-08",
+    "goalItem": "Purple Flower",
+    "goalQuantity": 1400000,
+    "rewardItem": "Crab Claw",
+    "rewardQuantity": 10,
+    "progress": 744256
+  },
+  {
+    "firstSeen": 1654754740756,
+    "date": "2022-06-09",
+    "goalItem": "Fern Leaf",
+    "goalQuantity": 1000000,
+    "rewardItem": "Grab Bag 04",
+    "rewardQuantity": 2,
+    "progress": 1191370
+  },
+  {
+    "firstSeen": 1654837959568,
+    "date": "2022-06-10",
+    "goalItem": "Barracuda",
+    "goalQuantity": 1000000,
+    "rewardItem": "Orange Juice",
+    "rewardQuantity": 125,
+    "progress": 1402568
+  },
+  {
+    "firstSeen": 1654924357491,
+    "date": "2022-06-11",
+    "goalItem": "Eggs",
+    "goalQuantity": 3000000,
+    "rewardItem": "Honey",
+    "rewardQuantity": 10,
+    "progress": 3779072
+  },
+  {
+    "firstSeen": 1655010755398,
+    "date": "2022-06-12",
+    "goalItem": "MIAB",
+    "goalQuantity": 1300000,
+    "rewardItem": "Fishing Net",
+    "rewardQuantity": 100,
+    "progress": 1351583
+  },
+  {
+    "firstSeen": 1655097888748,
+    "date": "2022-06-13",
+    "goalItem": "Trout",
+    "goalQuantity": 2500000,
+    "rewardItem": "Steak",
+    "rewardQuantity": 10,
+    "progress": 2920292
+  },
+  {
+    "firstSeen": 1655187590501,
+    "date": "2022-06-14",
+    "goalItem": "Bacon",
+    "goalQuantity": 250000,
+    "rewardItem": "Sea Dragon",
+    "rewardQuantity": 5,
+    "progress": 323373
+  },
+  {
+    "firstSeen": 1655270388480,
+    "date": "2022-06-15",
+    "goalItem": "Acorn",
+    "goalQuantity": 2500000,
+    "rewardItem": "Large Chest 02",
+    "rewardQuantity": 3,
+    "progress": 2689812
   }
 ]

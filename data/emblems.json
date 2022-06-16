@@ -1012,6 +1012,12 @@
     "beta": false
   },
   {
+    "firstSeen": 1654576193992,
+    "id": "324",
+    "image": "img/emblems/TowerLevel60W.png",
+    "beta": false
+  },
+  {
     "id": "326",
     "image": "img/emblems/TowerLevel10Diary.png",
     "beta": false
@@ -1036,6 +1042,12 @@
   {
     "id": "33",
     "image": "img/emblems/Acoustic96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1654576194009,
+    "id": "330",
+    "image": "img/emblems/TowerLevel60GM.png",
     "beta": false
   },
   {
@@ -1460,14 +1472,140 @@
     "beta": false
   },
   {
+    "firstSeen": 1654637280910,
+    "id": "406",
+    "image": "img/emblems/BookFish96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1654637280915,
+    "id": "407",
+    "image": "img/emblems/BookMaps96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1654637280913,
+    "id": "408",
+    "image": "img/emblems/BookInsects96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1654637280909,
+    "id": "409",
+    "image": "img/emblems/BookClues96.png",
+    "beta": false
+  },
+  {
     "id": "41",
     "image": "img/emblems/BlueCorn96.png",
     "beta": true
   },
   {
+    "firstSeen": 1654637280912,
+    "id": "410",
+    "image": "img/emblems/BookFlora96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1654637280918,
+    "id": "411",
+    "image": "img/emblems/BookSkill96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1654637280914,
+    "id": "412",
+    "image": "img/emblems/BookKnots96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1654637280915,
+    "id": "413",
+    "image": "img/emblems/BookSchemas96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1654637280921,
+    "id": "414",
+    "image": "img/emblems/BookTime96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1654637281190,
+    "id": "415",
+    "image": "img/emblems/Spellbinding96.png",
+    "beta": true
+  },
+  {
+    "firstSeen": 1654720018246,
+    "id": "416",
+    "image": "img/emblems/PartyJelloPurple96.png",
+    "beta": true
+  },
+  {
+    "firstSeen": 1654720018246,
+    "id": "417",
+    "image": "img/emblems/JelloEyesDustyPink96.png",
+    "beta": true
+  },
+  {
+    "firstSeen": 1654720018089,
+    "id": "418",
+    "image": "img/emblems/MoonShine96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1655327987351,
+    "id": "419",
+    "image": "img/emblems/Lemon96.png",
+    "beta": false
+  },
+  {
     "id": "42",
     "image": "img/emblems/RedCorn96.png",
     "beta": true
+  },
+  {
+    "firstSeen": 1655327987318,
+    "id": "420",
+    "image": "img/emblems/Bacon96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1655327987360,
+    "id": "421",
+    "image": "img/emblems/OldBoot96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1655327987364,
+    "id": "422",
+    "image": "img/emblems/PocketWatch96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1655327987337,
+    "id": "423",
+    "image": "img/emblems/JelloDealPink96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1655327987336,
+    "id": "424",
+    "image": "img/emblems/JelloDealLBlue96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1655327987342,
+    "id": "425",
+    "image": "img/emblems/frankncorn96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1655327987378,
+    "id": "426",
+    "image": "img/emblems/team podcast emblem.png",
+    "beta": false
   },
   {
     "id": "43",
