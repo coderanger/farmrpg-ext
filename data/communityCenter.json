@@ -1413,6 +1413,24 @@
     "goalQuantity": 2500000,
     "rewardItem": "Large Chest 02",
     "rewardQuantity": 3,
-    "progress": 2728644
+    "progress": 2782871
+  },
+  {
+    "firstSeen": 1655358316873,
+    "date": "2022-06-16",
+    "goalItem": "Conch Shell",
+    "goalQuantity": 750000,
+    "rewardItem": "Salt",
+    "rewardQuantity": 50,
+    "progress": 1399779
+  },
+  {
+    "firstSeen": 1655444715986,
+    "date": "2022-06-17",
+    "goalItem": "Old Boot",
+    "goalQuantity": 350000,
+    "rewardItem": "Gold Sea Bass",
+    "rewardQuantity": 10,
+    "progress": 174300
   }
 ]

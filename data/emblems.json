@@ -1608,8 +1608,32 @@
     "beta": false
   },
   {
+    "firstSeen": 1655394316764,
+    "id": "427",
+    "image": "img/emblems/NinjaR96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1655394316761,
+    "id": "428",
+    "image": "img/emblems/NinjaD96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1655394316764,
+    "id": "429",
+    "image": "img/emblems/NinjaM96.png",
+    "beta": false
+  },
+  {
     "id": "43",
     "image": "img/emblems/Gnorman96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1655394316762,
+    "id": "430",
+    "image": "img/emblems/NinjaL96.png",
     "beta": false
   },
   {

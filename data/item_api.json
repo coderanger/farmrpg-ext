@@ -9396,6 +9396,24 @@
     "xp": 500
   },
   {
+    "base_yield_minutes": 12960,
+    "buy_price": 1890000,
+    "can_buy": 0,
+    "can_sell": 0,
+    "craftable": 0,
+    "crafting_level": 1,
+    "description": "Harvest every 216 hours, yields 10x Beet per seed planted",
+    "id": "588",
+    "img": "/img/items/mbeet.png",
+    "mailable": 0,
+    "masterable": 1,
+    "min_mailable_level": 0,
+    "name": "Mega Beet Seeds",
+    "sell_price": 0,
+    "type": "seeds",
+    "xp": 90720
+  },
+  {
     "base_yield_minutes": 120,
     "buy_price": 0,
     "can_buy": 0,

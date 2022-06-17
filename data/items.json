@@ -3920,6 +3920,12 @@
     "rarity": "Very Rare"
   },
   {
+    "firstSeen": 1655441581230,
+    "name": "Mega Beet Seeds",
+    "id": "588",
+    "image": "/img/items/mbeet.png"
+  },
+  {
     "name": "Milk",
     "id": "85",
     "image": "/img/items/8382.PNG",

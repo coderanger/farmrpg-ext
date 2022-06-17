@@ -154,6 +154,322 @@
     "silverReward": 26855000
   },
   {
+    "firstSeen": 1655364402860,
+    "itemRequests": [
+      {
+        "id": "577",
+        "quantity": 250
+      },
+      {
+        "id": "76",
+        "quantity": 35
+      },
+      {
+        "id": "393",
+        "quantity": 250
+      },
+      {
+        "id": "100",
+        "quantity": 35
+      },
+      {
+        "id": "368",
+        "quantity": 250
+      },
+      {
+        "id": "106",
+        "quantity": 250
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "241",
+        "quantity": 20
+      },
+      {
+        "id": "110",
+        "quantity": 30
+      },
+      {
+        "id": "140",
+        "quantity": 90
+      },
+      {
+        "id": "586",
+        "quantity": 1
+      }
+    ],
+    "id": "11728",
+    "name": "Helping Hand",
+    "isPersonal": true,
+    "from": "George",
+    "fromImage": "/img/items/a_034.png",
+    "text": "George needs some things and is having trouble finding them. Can you bring the following?",
+    "silverReward": 78830000
+  },
+  {
+    "firstSeen": 1655367249120,
+    "itemRequests": [
+      {
+        "id": "579",
+        "quantity": 250
+      },
+      {
+        "id": "77",
+        "quantity": 35
+      },
+      {
+        "id": "53",
+        "quantity": 250
+      },
+      {
+        "id": "128",
+        "quantity": 35
+      },
+      {
+        "id": "76",
+        "quantity": 35
+      },
+      {
+        "id": "392",
+        "quantity": 250
+      },
+      {
+        "id": "308",
+        "quantity": 120
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "186",
+        "quantity": 90
+      },
+      {
+        "id": "81",
+        "quantity": 90
+      },
+      {
+        "id": "215",
+        "quantity": 90
+      },
+      {
+        "id": "384",
+        "quantity": 90
+      },
+      {
+        "id": "586",
+        "quantity": 1
+      }
+    ],
+    "id": "11729",
+    "name": "Wishing Well",
+    "isPersonal": true,
+    "from": "Cecil",
+    "fromImage": "/img/items/a_027.png",
+    "text": "Cecil would like to try some new items in the wishing well. Will you help Cecil get a few different items to try?",
+    "silverReward": 27750000
+  },
+  {
+    "firstSeen": 1655365220276,
+    "itemRequests": [
+      {
+        "id": "310",
+        "quantity": 35
+      },
+      {
+        "id": "393",
+        "quantity": 250
+      },
+      {
+        "id": "239",
+        "quantity": 70
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "144",
+        "quantity": 90
+      },
+      {
+        "id": "91",
+        "quantity": 90
+      },
+      {
+        "id": "586",
+        "quantity": 1
+      }
+    ],
+    "id": "11730",
+    "name": "Box of Items",
+    "isPersonal": true,
+    "from": "Jill",
+    "fromImage": "/img/items/a_024.png",
+    "text": "Jill found a box full of stuff that you might find useful. If you can bring the following items you can have the box of stuff.",
+    "silverReward": 53830000
+  },
+  {
+    "firstSeen": 1655455973645,
+    "itemRequests": [
+      {
+        "id": "102",
+        "quantity": 250
+      },
+      {
+        "id": "35",
+        "quantity": 35
+      },
+      {
+        "id": "143",
+        "quantity": 35
+      },
+      {
+        "id": "41",
+        "quantity": 35
+      },
+      {
+        "id": "239",
+        "quantity": 140
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "127",
+        "quantity": 90
+      },
+      {
+        "id": "382",
+        "quantity": 90
+      },
+      {
+        "id": "305",
+        "quantity": 90
+      },
+      {
+        "id": "586",
+        "quantity": 1
+      }
+    ],
+    "id": "14482",
+    "name": "Items Wanted",
+    "isPersonal": true,
+    "from": "George",
+    "fromImage": "/img/items/a_034.png",
+    "text": "If you can find the following items and give them to George, you'll be rewarded for your effort.",
+    "silverReward": 21320000
+  },
+  {
+    "firstSeen": 1655455986096,
+    "itemRequests": [
+      {
+        "id": "42",
+        "quantity": 35
+      },
+      {
+        "id": "578",
+        "quantity": 35
+      },
+      {
+        "id": "577",
+        "quantity": 35
+      },
+      {
+        "id": "170",
+        "quantity": 35
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "576",
+        "quantity": 20
+      },
+      {
+        "id": "320",
+        "quantity": 90
+      },
+      {
+        "id": "350",
+        "quantity": 90
+      },
+      {
+        "id": "330",
+        "quantity": 90
+      },
+      {
+        "id": "585",
+        "quantity": 90
+      },
+      {
+        "id": "586",
+        "quantity": 1
+      }
+    ],
+    "id": "14483",
+    "name": "Wishing Well",
+    "isPersonal": true,
+    "from": "Holger",
+    "fromImage": "/img/items/a_028.png",
+    "text": "Holger would like to try some new items in the wishing well. Will you help Holger get a few different items to try?",
+    "silverReward": 21485000
+  },
+  {
+    "firstSeen": 1655455989942,
+    "itemRequests": [
+      {
+        "id": "309",
+        "quantity": 250
+      },
+      {
+        "id": "456",
+        "quantity": 250
+      },
+      {
+        "id": "109",
+        "quantity": 35
+      },
+      {
+        "id": "499",
+        "quantity": 200
+      },
+      {
+        "id": "43",
+        "quantity": 35
+      },
+      {
+        "id": "21",
+        "quantity": 35
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "203",
+        "quantity": 90
+      },
+      {
+        "id": "166",
+        "quantity": 90
+      },
+      {
+        "id": "303",
+        "quantity": 20
+      },
+      {
+        "id": "17",
+        "quantity": 90
+      },
+      {
+        "id": "586",
+        "quantity": 1
+      }
+    ],
+    "id": "14484",
+    "name": "Box of Items",
+    "isPersonal": true,
+    "from": "Beatrix",
+    "fromImage": "/img/items/a_011.png",
+    "text": "Beatrix found a box full of stuff that you might find useful. If you can bring the following items you can have the box of stuff.",
+    "silverReward": 62995000
+  },
+  {
     "firstSeen": 1655292151062,
     "itemRequests": [
       {
