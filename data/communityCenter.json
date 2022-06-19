@@ -1431,6 +1431,15 @@
     "goalQuantity": 350000,
     "rewardItem": "Gold Sea Bass",
     "rewardQuantity": 10,
-    "progress": 174300
+    "progress": 366085
+  },
+  {
+    "firstSeen": 1655528823817,
+    "date": "2022-06-18",
+    "goalItem": "Shovel",
+    "goalQuantity": 1000000,
+    "rewardItem": "Pumpkin",
+    "rewardQuantity": 100,
+    "progress": 1029985
   }
 ]

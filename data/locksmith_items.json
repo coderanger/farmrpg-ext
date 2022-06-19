@@ -1372,6 +1372,13 @@
     "quantityLow": 1
   },
   {
+    "boxId": "491",
+    "group": 0,
+    "itemId": "580",
+    "quantityHigh": 5,
+    "quantityLow": 1
+  },
+  {
     "boxId": "494",
     "group": 0,
     "itemId": "187",

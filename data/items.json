@@ -2625,7 +2625,8 @@
       }
     ],
     "craftPrice": 500,
-    "sellPrice": 60000
+    "sellPrice": 60000,
+    "fleaMarket": 25
   },
   {
     "name": "Grapes",
@@ -4836,7 +4837,8 @@
     "image": "/img/items/8814.png?1",
     "sellPrice": 500,
     "xp": 500,
-    "rarity": "Common"
+    "rarity": "Common",
+    "mastery": true
   },
   {
     "name": "Redgill",

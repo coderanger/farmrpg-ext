@@ -1018,6 +1018,12 @@
     "beta": false
   },
   {
+    "firstSeen": 1655604422645,
+    "id": "325",
+    "image": "img/emblems/TowerLevel70W.png",
+    "beta": false
+  },
+  {
     "id": "326",
     "image": "img/emblems/TowerLevel10Diary.png",
     "beta": false
@@ -1299,6 +1305,12 @@
     "firstSeen": 1651513656720,
     "id": "371",
     "image": "img/emblems/HeartUkraine96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1655604422646,
+    "id": "372",
+    "image": "img/emblems/TowerLevel70TK96.png",
     "beta": false
   },
   {

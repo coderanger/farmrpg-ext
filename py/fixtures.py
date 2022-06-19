@@ -113,6 +113,7 @@ class Quest:
     requires_fishing: Optional[int] = None
     requires_crafting: Optional[int] = None
     requires_exploring: Optional[int] = None
+    requires_tower: Optional[int] = None
     is_personal: Optional[bool] = None
 
 

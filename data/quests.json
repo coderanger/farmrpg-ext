@@ -3844,6 +3844,57 @@
     "requiresFishing": 30
   },
   {
+    "firstSeen": 1655615062434,
+    "itemRequests": [],
+    "itemRewards": [
+      {
+        "id": "44",
+        "quantity": 100
+      },
+      {
+        "id": "84",
+        "quantity": 25
+      },
+      {
+        "id": "86",
+        "quantity": 25
+      },
+      {
+        "id": "194",
+        "quantity": 25
+      },
+      {
+        "id": "123",
+        "quantity": 50
+      },
+      {
+        "id": "511",
+        "quantity": 1
+      },
+      {
+        "id": "112",
+        "quantity": 2
+      },
+      {
+        "id": "250",
+        "quantity": 10
+      }
+    ],
+    "id": "20071",
+    "name": "The Elusiveness of Freedom",
+    "isPersonal": false,
+    "from": "Lorn",
+    "fromImage": "/img/items/a_088.png",
+    "text": "One of Lorn’s biggest regrets happened many years ago, far away from Redbrook. He was a soldier then, and he was sent with his battalion to free a group of people that were enslaved for many, many years.\n\nA dispatch was sent to the town ahead of the battalion to allow everyone time to gather. The slaveholders and the enslaved were assembled and waiting when the soldiers arrived. Lorn was given a proclamation to read to the town. The proclamation announced that those currently in the bondage of slavery were freed and would be treated as such. Lorn’s battalion remained in the area only long enough to make sure the proclamation was obeyed, and then they moved on to their next assignment.\n\nTo this day, Lorn worries that he didn’t do enough to help those newly freed people. He did his duty and followed his orders, but those newly freed men and women and children needed more than being released from forced labor. They needed kindness, friendship, and support.\n\nEvery year on this day, Lorn remembers. Then, he tries to find someone around him that needs a little more help and he reaches out to help.\n\nLorn would like everyone in town to join him in celebrating this day of freedom by helping others. Will you join him and remember someone that needs help?",
+    "requiresFarming": 5,
+    "requiresCrafting": 5,
+    "requiresFishing": 5,
+    "requiresExploring": 5,
+    "requiresTower": 5,
+    "availableFrom": "Jun 19",
+    "availableTo": "Jun 26"
+  },
+  {
     "firstSeen": 1646727669476,
     "itemRequests": [
       {
