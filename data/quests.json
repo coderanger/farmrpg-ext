@@ -3890,7 +3890,6 @@
     "requiresCrafting": 5,
     "requiresFishing": 5,
     "requiresExploring": 5,
-    "requiresTower": 5,
     "availableFrom": "Jun 19",
     "availableTo": "Jun 26"
   },

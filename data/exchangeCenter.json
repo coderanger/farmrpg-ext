@@ -2008,5 +2008,55 @@
     "receiveQuantity": 1,
     "completed": false,
     "oneShot": false
+  },
+  {
+    "firstSeen": 1655615222049,
+    "date": "2022-06-19-0",
+    "giveItem": "Bacon",
+    "giveQuantity": 100,
+    "receiveItem": "Honey",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1655615222052,
+    "date": "2022-06-19-0",
+    "giveItem": "Beet Seeds",
+    "giveQuantity": 500,
+    "receiveItem": "Mega Beet Seeds",
+    "receiveQuantity": 50,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1655615222049,
+    "date": "2022-06-19-0",
+    "giveItem": "Gold Feather",
+    "giveQuantity": 50,
+    "receiveItem": "Gold Leaf",
+    "receiveQuantity": 40,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1655615222050,
+    "date": "2022-06-19-0",
+    "giveItem": "Hammer",
+    "giveQuantity": 250,
+    "receiveItem": "Bell",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1655615222051,
+    "date": "2022-06-19-0",
+    "giveItem": "Runestone 11",
+    "giveQuantity": 500,
+    "receiveItem": "Buddystone",
+    "receiveQuantity": 1,
+    "completed": false,
+    "oneShot": false
   }
 ]

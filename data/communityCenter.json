@@ -1440,6 +1440,15 @@
     "goalQuantity": 1000000,
     "rewardItem": "Pumpkin",
     "rewardQuantity": 100,
-    "progress": 1029985
+    "progress": 1032830
+  },
+  {
+    "firstSeen": 1655615221849,
+    "date": "2022-06-19",
+    "goalItem": "Moonstone",
+    "goalQuantity": 1500000,
+    "rewardItem": "Mug of Beer",
+    "rewardQuantity": 1,
+    "progress": 18140
   }
 ]
