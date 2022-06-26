@@ -1449,6 +1449,69 @@
     "goalQuantity": 1500000,
     "rewardItem": "Mug of Beer",
     "rewardQuantity": 1,
-    "progress": 18140
+    "progress": 663743
+  },
+  {
+    "firstSeen": 1655701560245,
+    "date": "2022-06-20",
+    "goalItem": "Axe",
+    "goalQuantity": 1000000,
+    "rewardItem": "Pumpkin",
+    "rewardQuantity": 100,
+    "progress": 1029337
+  },
+  {
+    "firstSeen": 1655788017829,
+    "date": "2022-06-21",
+    "goalItem": "Eggs",
+    "goalQuantity": 3000000,
+    "rewardItem": "Cheese",
+    "rewardQuantity": 25,
+    "progress": 5231162
+  },
+  {
+    "firstSeen": 1655874545604,
+    "date": "2022-06-22",
+    "goalItem": "Caterpillar",
+    "goalQuantity": 1000000,
+    "rewardItem": "Gold Sea Bass",
+    "rewardQuantity": 10,
+    "progress": 1503183
+  },
+  {
+    "firstSeen": 1655962700892,
+    "date": "2022-06-23",
+    "goalItem": "Mushroom",
+    "goalQuantity": 500000,
+    "rewardItem": "Grab Bag 06",
+    "rewardQuantity": 5,
+    "progress": 2135559
+  },
+  {
+    "firstSeen": 1656047133888,
+    "date": "2022-06-24",
+    "goalItem": "Clownfish",
+    "goalQuantity": 750000,
+    "rewardItem": "Honey",
+    "rewardQuantity": 10,
+    "progress": 1582829
+  },
+  {
+    "firstSeen": 1656135496747,
+    "date": "2022-06-25",
+    "goalItem": "Carrot",
+    "goalQuantity": 150000,
+    "rewardItem": "Apple",
+    "rewardQuantity": 100,
+    "progress": 1627153
+  },
+  {
+    "firstSeen": 1656220237570,
+    "date": "2022-06-26",
+    "goalItem": "3-leaf Clover",
+    "goalQuantity": 2000000,
+    "rewardItem": "Orange Gecko",
+    "rewardQuantity": 10,
+    "progress": 1182913
   }
 ]

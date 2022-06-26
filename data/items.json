@@ -162,7 +162,8 @@
       }
     ],
     "craftPrice": 5000,
-    "givable": true
+    "givable": true,
+    "fleaMarket": 15
   },
   {
     "name": "Aquamarine",
@@ -2009,7 +2010,8 @@
         "quantity": 2
       }
     ],
-    "craftPrice": 100
+    "craftPrice": 100,
+    "fleaMarket": 3
   },
   {
     "name": "Flame Orb",
@@ -2744,7 +2746,8 @@
         "quantity": 1
       }
     ],
-    "craftPrice": 2
+    "craftPrice": 2,
+    "fleaMarket": 3
   },
   {
     "name": "Green Jellyfish",
@@ -4232,7 +4235,8 @@
         "quantity": 6
       }
     ],
-    "craftPrice": 2
+    "craftPrice": 2,
+    "fleaMarket": 6
   },
   {
     "id": "402",
