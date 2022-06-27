@@ -2140,5 +2140,167 @@
     "fromImage": "/img/items/buddy.png",
     "text": "Buddy is preparing a gift for Rosalie. Will you help gather a few more items to make the gift really special?",
     "silverReward": 54905000
+  },
+  {
+    "firstSeen": 1656306988866,
+    "itemRequests": [
+      {
+        "id": "145",
+        "quantity": 250
+      },
+      {
+        "id": "127",
+        "quantity": 250
+      },
+      {
+        "id": "174",
+        "quantity": 250
+      },
+      {
+        "id": "46",
+        "quantity": 250
+      },
+      {
+        "id": "326",
+        "quantity": 250
+      },
+      {
+        "id": "252",
+        "quantity": 250
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "165",
+        "quantity": 90
+      },
+      {
+        "id": "116",
+        "quantity": 90
+      },
+      {
+        "id": "586",
+        "quantity": 1
+      }
+    ],
+    "id": "41785",
+    "name": "Items Wanted",
+    "isPersonal": true,
+    "from": "Thomas",
+    "fromImage": "/img/items/a_048.png",
+    "text": "If you can find the following items and give them to Thomas, you'll be rewarded for your effort.",
+    "silverReward": 56015000
+  },
+  {
+    "firstSeen": 1656306996578,
+    "itemRequests": [
+      {
+        "id": "81",
+        "quantity": 95
+      },
+      {
+        "id": "109",
+        "quantity": 250
+      },
+      {
+        "id": "146",
+        "quantity": 250
+      },
+      {
+        "id": "22",
+        "quantity": 250
+      },
+      {
+        "id": "107",
+        "quantity": 250
+      },
+      {
+        "id": "141",
+        "quantity": 250
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "304",
+        "quantity": 90
+      },
+      {
+        "id": "350",
+        "quantity": 90
+      },
+      {
+        "id": "126",
+        "quantity": 90
+      },
+      {
+        "id": "92",
+        "quantity": 90
+      },
+      {
+        "id": "23",
+        "quantity": 90
+      },
+      {
+        "id": "586",
+        "quantity": 1
+      }
+    ],
+    "id": "41786",
+    "name": "Special Gift",
+    "isPersonal": true,
+    "from": "Lorn",
+    "fromImage": "/img/items/a_088.png",
+    "text": "Lorn is preparing a gift for Vincent. Will you help gather a few more items to make the gift really special?",
+    "silverReward": 51480000
+  },
+  {
+    "firstSeen": 1656306956451,
+    "itemRequests": [
+      {
+        "id": "138",
+        "quantity": 250
+      },
+      {
+        "id": "99",
+        "quantity": 250
+      },
+      {
+        "id": "409",
+        "quantity": 250
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "19",
+        "quantity": 90
+      },
+      {
+        "id": "127",
+        "quantity": 90
+      },
+      {
+        "id": "585",
+        "quantity": 90
+      },
+      {
+        "id": "384",
+        "quantity": 90
+      },
+      {
+        "id": "348",
+        "quantity": 60
+      },
+      {
+        "id": "586",
+        "quantity": 1
+      }
+    ],
+    "id": "41787",
+    "name": "Lost Items",
+    "isPersonal": true,
+    "from": "George",
+    "fromImage": "/img/items/a_034.png",
+    "text": "A while back George lost some items and would really love to have them again. Can you help?",
+    "silverReward": 55585000
   }
 ]

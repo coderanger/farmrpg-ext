@@ -9414,6 +9414,24 @@
     "xp": 90720
   },
   {
+    "base_yield_minutes": 8640,
+    "buy_price": 1260000,
+    "can_buy": 0,
+    "can_sell": 0,
+    "craftable": 0,
+    "crafting_level": 1,
+    "description": "Harvest every 144 hours,<br/>yields 10x Sunflower per seed<br/> planted",
+    "id": "589",
+    "img": "/img/items/msun.png?2",
+    "mailable": 0,
+    "masterable": 1,
+    "min_mailable_level": 0,
+    "name": "Mega Sunflower Seeds",
+    "sell_price": 0,
+    "type": "seeds",
+    "xp": 60480
+  },
+  {
     "base_yield_minutes": 120,
     "buy_price": 0,
     "can_buy": 0,

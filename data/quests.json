@@ -30072,6 +30072,321 @@
     "requiresFarming": 60
   },
   {
+    "firstSeen": 1656366321880,
+    "itemRequests": [],
+    "itemRewards": [
+      {
+        "id": "274",
+        "quantity": 14
+      },
+      {
+        "id": "329",
+        "quantity": 1
+      }
+    ],
+    "id": "913",
+    "name": "Jubilee Invitation",
+    "isPersonal": false,
+    "from": "Rosalie",
+    "fromImage": "/img/items/a_098.png",
+    "text": "Rosalie is finally ready to send the invitations! She hands you sealed letters to give out to those who haven’t been involved in the set up, and asks you to create and bring each person a gift basket of things they like.",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99
+  },
+  {
+    "firstSeen": 1656366350668,
+    "itemRequests": [
+      {
+        "id": "341",
+        "quantity": 100
+      },
+      {
+        "id": "274",
+        "quantity": 1
+      },
+      {
+        "id": "65",
+        "quantity": 1000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "84",
+        "quantity": 200
+      },
+      {
+        "id": "298",
+        "quantity": 1
+      },
+      {
+        "id": "589",
+        "quantity": 50
+      }
+    ],
+    "id": "914",
+    "name": "Jubilee Invitation II",
+    "isPersonal": false,
+    "from": "ROOMBA",
+    "fromImage": "/img/items/robot_02.png",
+    "text": "“THANK YOU. I WILL ARRIVE AFTER I LOCATE MY LEFT SHOE.”",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "silverReward": 100000000
+  },
+  {
+    "firstSeen": 1656366605092,
+    "itemRequests": [
+      {
+        "id": "274",
+        "quantity": 1
+      },
+      {
+        "id": "44",
+        "quantity": 500
+      },
+      {
+        "id": "111",
+        "quantity": 500
+      },
+      {
+        "id": "109",
+        "quantity": 500
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "78",
+        "quantity": 500
+      }
+    ],
+    "id": "915",
+    "name": "Jubilee Invitation III",
+    "isPersonal": false,
+    "from": "Lorn",
+    "fromImage": "/img/items/a_088.png",
+    "text": "You hand Lorn a neatly packed gift basket, and he thanks you. He will be attending.",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "silverReward": 200000000
+  },
+  {
+    "firstSeen": 1656366615974,
+    "itemRequests": [
+      {
+        "id": "274",
+        "quantity": 1
+      },
+      {
+        "id": "121",
+        "quantity": 200
+      },
+      {
+        "id": "80",
+        "quantity": 1000
+      },
+      {
+        "id": "268",
+        "quantity": 50
+      },
+      {
+        "id": "269",
+        "quantity": 50
+      },
+      {
+        "id": "270",
+        "quantity": 50
+      },
+      {
+        "id": "271",
+        "quantity": 50
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "508",
+        "quantity": 200
+      },
+      {
+        "id": "84",
+        "quantity": 200
+      },
+      {
+        "id": "500",
+        "quantity": 200
+      },
+      {
+        "id": "123",
+        "quantity": 1000
+      },
+      {
+        "id": "347",
+        "quantity": 100
+      },
+      {
+        "id": "335",
+        "quantity": 100
+      },
+      {
+        "id": "331",
+        "quantity": 100
+      },
+      {
+        "id": "573",
+        "quantity": 10
+      }
+    ],
+    "id": "916",
+    "name": "Jubilee Invitation IV",
+    "isPersonal": false,
+    "from": "Cecil",
+    "fromImage": "/img/items/a_027.png",
+    "text": "Cecil is grateful you remembered his favorite things, and will be attending.",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "silverReward": 2147483647
+  },
+  {
+    "firstSeen": 1656366648367,
+    "itemRequests": [
+      {
+        "id": "274",
+        "quantity": 1
+      },
+      {
+        "id": "123",
+        "quantity": 1000
+      },
+      {
+        "id": "112",
+        "quantity": 500
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "508",
+        "quantity": 200
+      }
+    ],
+    "id": "917",
+    "name": "Jubilee Invitation V",
+    "isPersonal": false,
+    "from": "Borgen",
+    "fromImage": "/img/items/borgen.png",
+    "text": "You catch Borgen as he’s counting up his Ancient Coins, and hand him his basket. “Thank you! I can’t wait to see what Rosalie’s got planned this year!”",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "silverReward": 25000000
+  },
+  {
+    "firstSeen": 1656368102486,
+    "itemRequests": [
+      {
+        "id": "274",
+        "quantity": 2
+      },
+      {
+        "id": "378",
+        "quantity": 500
+      },
+      {
+        "id": "331",
+        "quantity": 100
+      },
+      {
+        "id": "250",
+        "quantity": 200
+      },
+      {
+        "id": "499",
+        "quantity": 200
+      },
+      {
+        "id": "539",
+        "quantity": 25
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "363",
+        "quantity": 10
+      },
+      {
+        "id": "336",
+        "quantity": 10
+      },
+      {
+        "id": "335",
+        "quantity": 12
+      },
+      {
+        "id": "347",
+        "quantity": 12
+      }
+    ],
+    "id": "918",
+    "name": "Jubilee Invitation VI",
+    "isPersonal": false,
+    "from": "Beatrix",
+    "fromImage": "/img/items/a_011.png",
+    "text": "The basket for Beatrix will be shared with Geist, so you make sure there are things for both of them included. Beatrix thanks you, and tells you that Geist talks about your tea quite often. She says it is delicious and soothing.",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99
+  },
+  {
+    "firstSeen": 1656368111322,
+    "itemRequests": [
+      {
+        "id": "274",
+        "quantity": 1
+      },
+      {
+        "id": "140",
+        "quantity": 500
+      },
+      {
+        "id": "107",
+        "quantity": 500
+      },
+      {
+        "id": "136",
+        "quantity": 500
+      },
+      {
+        "id": "39",
+        "quantity": 500
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "491",
+        "quantity": 25
+      }
+    ],
+    "id": "919",
+    "name": "Jubilee Invitation VII",
+    "isPersonal": false,
+    "from": "Thomas",
+    "fromImage": "/img/items/a_048.png",
+    "text": "Thomas is very excited, and immediately heads to the town square. He forgot to say thank you.",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "silverReward": 10000000
+  },
+  {
     "firstSeen": 1646727888372,
     "itemRequests": [
       {
@@ -30091,6 +30406,316 @@
     "fromImage": "/img/items/buddy.png",
     "text": "Buddy lost his peg leg. Can you find something he can use as a replacement?",
     "silverReward": 5
+  },
+  {
+    "firstSeen": 1656368121511,
+    "itemRequests": [
+      {
+        "id": "274",
+        "quantity": 1
+      },
+      {
+        "id": "458",
+        "quantity": 100
+      },
+      {
+        "id": "459",
+        "quantity": 100
+      },
+      {
+        "id": "270",
+        "quantity": 100
+      },
+      {
+        "id": "460",
+        "quantity": 100
+      },
+      {
+        "id": "462",
+        "quantity": 100
+      },
+      {
+        "id": "465",
+        "quantity": 100
+      },
+      {
+        "id": "457",
+        "quantity": 100
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "185",
+        "quantity": 500
+      }
+    ],
+    "id": "920",
+    "name": "Jubilee Invitation VIII",
+    "isPersonal": false,
+    "from": "Captain Thomas",
+    "fromImage": "/img/items/MustacheTom96.png",
+    "text": "Captain Thomas appreciates the trouble you went through, but will not be attending. He looks a bit uncomfortable. He takes his gift basket, and heads back towards his boat.",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99
+  },
+  {
+    "firstSeen": 1656368132764,
+    "itemRequests": [
+      {
+        "id": "274",
+        "quantity": 1
+      },
+      {
+        "id": "46",
+        "quantity": 1000
+      },
+      {
+        "id": "117",
+        "quantity": 1000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "250",
+        "quantity": 25
+      },
+      {
+        "id": "475",
+        "quantity": 25
+      }
+    ],
+    "id": "921",
+    "name": "Jubilee Invitation IX",
+    "isPersonal": false,
+    "from": "George",
+    "fromImage": "/img/items/a_034.png",
+    "text": "“These will be a fine addition to my stash. Thank you. I will see you later!” You hope George is okay.",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "silverReward": 20000000
+  },
+  {
+    "firstSeen": 1656368187944,
+    "itemRequests": [
+      {
+        "id": "274",
+        "quantity": 1
+      },
+      {
+        "id": "538",
+        "quantity": 500
+      },
+      {
+        "id": "236",
+        "quantity": 1000
+      },
+      {
+        "id": "81",
+        "quantity": 500
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "145",
+        "quantity": 1000
+      },
+      {
+        "id": "508",
+        "quantity": 100
+      },
+      {
+        "id": "84",
+        "quantity": 100
+      }
+    ],
+    "id": "922",
+    "name": "Jubilee Invitation X",
+    "isPersonal": false,
+    "from": "Vincent",
+    "fromImage": "/img/items/a_047.png",
+    "text": "Vincent accepts your gift basket, and hopes you will also be in attendance.",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "silverReward": 200000000
+  },
+  {
+    "firstSeen": 1656368975330,
+    "itemRequests": [
+      {
+        "id": "274",
+        "quantity": 1
+      },
+      {
+        "id": "65",
+        "quantity": 1000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "500",
+        "quantity": 25
+      }
+    ],
+    "id": "923",
+    "name": "Jubilee Invitation XI",
+    "isPersonal": false,
+    "from": "Jill",
+    "fromImage": "/img/items/a_024.png",
+    "text": "Jill is delighted with her gift basket. “I appreciate the thought! My silo is still running off of what you’ve given me before, but I’m sure I will find a use for this. I will see you at the jubilee!”",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "silverReward": 10000000
+  },
+  {
+    "firstSeen": 1656369090569,
+    "itemRequests": [
+      {
+        "id": "274",
+        "quantity": 1
+      },
+      {
+        "id": "44",
+        "quantity": 500
+      },
+      {
+        "id": "128",
+        "quantity": 1000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "61",
+        "quantity": 1000
+      },
+      {
+        "id": "62",
+        "quantity": 1000
+      }
+    ],
+    "id": "924",
+    "name": "Jubilee Invitation XII",
+    "isPersonal": false,
+    "from": "Charles Horsington III",
+    "fromImage": "/img/items/npc_horse.png",
+    "text": "“NEIGH! Neigh neigh… NEIGH!” You assume this means he will be attending.",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99
+  },
+  {
+    "firstSeen": 1656369124119,
+    "itemRequests": [
+      {
+        "id": "274",
+        "quantity": 1
+      },
+      {
+        "id": "106",
+        "quantity": 1000
+      },
+      {
+        "id": "105",
+        "quantity": 1000
+      },
+      {
+        "id": "104",
+        "quantity": 1000
+      },
+      {
+        "id": "392",
+        "quantity": 500
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "508",
+        "quantity": 200
+      },
+      {
+        "id": "298",
+        "quantity": 1
+      }
+    ],
+    "id": "925",
+    "name": "Jubilee Invitation XIII",
+    "isPersonal": false,
+    "from": "Buddy",
+    "fromImage": "/img/items/buddy.png",
+    "text": "You carefully carry Buddy’s gift basket to the cave, leave it outside, and walk away. You don’t want to be there when he uses those things.",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99
+  },
+  {
+    "firstSeen": 1656370339107,
+    "itemRequests": [
+      {
+        "id": "274",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [],
+    "id": "926",
+    "name": "Jubilee Invitation XIV",
+    "isPersonal": false,
+    "from": "The Mayor",
+    "fromImage": "/img/items/missing.png",
+    "text": "You crumple up the invitation addressed to the town’s Mayor. That situation is too messy to drag into such a joyous day. Nobody has to know… Right?",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "silverReward": 500000000
+  },
+  {
+    "firstSeen": 1656370365215,
+    "itemRequests": [],
+    "itemRewards": [
+      {
+        "id": "508",
+        "quantity": 250
+      },
+      {
+        "id": "500",
+        "quantity": 250
+      },
+      {
+        "id": "84",
+        "quantity": 400
+      },
+      {
+        "id": "110",
+        "quantity": 1000
+      },
+      {
+        "id": "145",
+        "quantity": 1000
+      },
+      {
+        "id": "75",
+        "quantity": 1000
+      }
+    ],
+    "id": "927",
+    "name": "Jubilee Invitation XV",
+    "isPersonal": false,
+    "from": "Rosalie",
+    "fromImage": "/img/items/a_098.png",
+    "text": "Rosalie thanks you for all your hard work, and hands you a gift basket. “I appreciate all you’ve done to help me, I hope you like your basket!”",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99
   },
   {
     "firstSeen": 1655327327278,

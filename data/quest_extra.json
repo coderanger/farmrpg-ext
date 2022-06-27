@@ -6842,6 +6842,126 @@
     ]
   },
   {
+    "id": "913",
+    "next": "914",
+    "prev": null,
+    "questlines": [
+      "Jubilee Invitation"
+    ]
+  },
+  {
+    "id": "914",
+    "next": "915",
+    "prev": "913",
+    "questlines": [
+      "Jubilee Invitation"
+    ]
+  },
+  {
+    "id": "915",
+    "next": "916",
+    "prev": "914",
+    "questlines": [
+      "Jubilee Invitation"
+    ]
+  },
+  {
+    "id": "916",
+    "next": "917",
+    "prev": "915",
+    "questlines": [
+      "Jubilee Invitation"
+    ]
+  },
+  {
+    "id": "917",
+    "next": "918",
+    "prev": "916",
+    "questlines": [
+      "Jubilee Invitation"
+    ]
+  },
+  {
+    "id": "918",
+    "next": "919",
+    "prev": "917",
+    "questlines": [
+      "Jubilee Invitation"
+    ]
+  },
+  {
+    "id": "919",
+    "next": "920",
+    "prev": "918",
+    "questlines": [
+      "Jubilee Invitation"
+    ]
+  },
+  {
+    "id": "920",
+    "next": "921",
+    "prev": "919",
+    "questlines": [
+      "Jubilee Invitation"
+    ]
+  },
+  {
+    "id": "921",
+    "next": "922",
+    "prev": "920",
+    "questlines": [
+      "Jubilee Invitation"
+    ]
+  },
+  {
+    "id": "922",
+    "next": "923",
+    "prev": "921",
+    "questlines": [
+      "Jubilee Invitation"
+    ]
+  },
+  {
+    "id": "923",
+    "next": "924",
+    "prev": "922",
+    "questlines": [
+      "Jubilee Invitation"
+    ]
+  },
+  {
+    "id": "924",
+    "next": "925",
+    "prev": "923",
+    "questlines": [
+      "Jubilee Invitation"
+    ]
+  },
+  {
+    "id": "925",
+    "next": "926",
+    "prev": "924",
+    "questlines": [
+      "Jubilee Invitation"
+    ]
+  },
+  {
+    "id": "926",
+    "next": "927",
+    "prev": "925",
+    "questlines": [
+      "Jubilee Invitation"
+    ]
+  },
+  {
+    "id": "927",
+    "next": null,
+    "prev": "926",
+    "questlines": [
+      "Jubilee Invitation"
+    ]
+  },
+  {
     "availableFrom": 1652331600000,
     "availableTo": 1654059599000,
     "id": "928",

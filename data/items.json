@@ -3139,7 +3139,8 @@
         "name": "Tea Leaves",
         "quantity": 3
       }
-    ]
+    ],
+    "fleaMarket": 10
   },
   {
     "name": "Inferno Sphere",
@@ -3928,6 +3929,12 @@
     "name": "Mega Beet Seeds",
     "id": "588",
     "image": "/img/items/mbeet.png"
+  },
+  {
+    "firstSeen": 1656366690897,
+    "name": "Mega Sunflower Seeds",
+    "id": "589",
+    "image": "/img/items/msun.png?2"
   },
   {
     "name": "Milk",
