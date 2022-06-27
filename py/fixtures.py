@@ -18,6 +18,9 @@ import roman
 CAMEL_ONE_RE = re.compile(r"(.)([A-Z][a-z]+)")
 CAMEL_TWO_RE = re.compile(r"([a-z0-9])([A-Z])")
 
+TRADE_DATE_RE = re.compile(r"^(\d{4})-(\d{2})-(\d{2})(?:-(\d{1,2}))?$")
+TRADE_ID_RE = re.compile(r"[^a-z0-9]+")
+
 
 def camel_to_snake(name):
     name = CAMEL_ONE_RE.sub(r"\1_\2", name)
@@ -140,6 +143,54 @@ def load_quests(
                 for it in quest["item_rewards"]
             )
         yield Quest(**quest)
+
+
+@attrs.define(frozen=True)
+class AbstractTrade:
+    give_item: str
+    give_quantity: int
+    receive_item: str
+    receive_quantity: int
+    one_shot: bool
+
+
+@attrs.define(frozen=True)
+class Trade:
+    first_seen: int
+    date: str
+    give_item: str
+    give_quantity: int
+    receive_item: str
+    receive_quantity: int
+    completed: bool
+    one_shot: bool
+    ts: datetime
+
+    @property
+    def abstract(self) -> AbstractTrade:
+        return AbstractTrade(
+            give_item=self.give_item,
+            give_quantity=self.give_quantity,
+            receive_item=self.receive_item,
+            receive_quantity=self.receive_quantity,
+            one_shot=self.one_shot,
+        )
+
+
+def load_exchange_center() -> Iterable[Trade]:
+    for row in load_fixture("exchangeCenter"):
+        # Turn the date into a timestamp.
+        match = TRADE_DATE_RE.match(row["date"])
+        if match is None:
+            raise ValueError(f"Unable to parse date string {row['date']!r}")
+        ts = datetime(
+            year=int(match[1]),
+            month=int(match[2]),
+            day=int(match[3]),
+            hour=int(match[4]) if match[4] else 0,
+            tzinfo=ZoneInfo("America/Chicago"),
+        )
+        yield Trade(ts=ts, **row)
 
 
 def _get_drops(runecube: bool = False):
@@ -744,6 +795,53 @@ def gen_recipes():
     return recipes
 
 
+def _trade_id(item_name: str) -> str:
+    return TRADE_ID_RE.sub("-", item_name.lower())
+
+
+def gen_trades():
+    now = datetime.now(tz=ZoneInfo("UTC"))
+    first_seen: dict[AbstractTrade, datetime] = {}
+    last_seen: dict[AbstractTrade, datetime] = {}
+    id_map: dict[AbstractTrade, str] = {}
+    id_counts: collections.Counter[str] = collections.Counter()
+    for trade in load_exchange_center():
+        first_seen.setdefault(trade.abstract, trade.ts)
+        last_seen[trade.abstract] = trade.ts
+    # Stable order.
+    trades = sorted(
+        first_seen, key=lambda t: (first_seen[t], t.give_item, t.receive_item)
+    )
+    # Generate a "pretty" but unique ID for each trade.
+    for trade in trades:
+        base_id = f"{_trade_id(trade.give_item)}-for-{_trade_id(trade.receive_item)}"
+        count = id_counts[base_id] + 1
+        if count == 1:
+            id = base_id
+        else:
+            id = f"{base_id}-{count}"
+        id_map[trade] = id
+        id_counts[base_id] = count
+
+    return [
+        {
+            "id": id_map[trade],
+            "giveItemName": trade.give_item,
+            "giveQuantity": trade.give_quantity,
+            "receiveItemName": trade.receive_item,
+            "receiveQuantity": trade.receive_quantity,
+            "oneShot": trade.one_shot,
+            "firstSeen": int(first_seen[trade].timestamp()),
+            "lastSeen": 0 if trade.one_shot else int(last_seen[trade].timestamp()),
+            "lastSeenRelative": 0
+            if trade.one_shot
+            else int((now - last_seen[trade]).total_seconds()),
+            "order": i,
+        }
+        for i, trade in enumerate(trades)
+    ]
+
+
 GEN_FIXTURES = {
     "drop_rates": gen_drop_rates,
     "drop_rates_gql": gen_drop_rates_gql,
@@ -760,6 +858,7 @@ GEN_FIXTURES = {
     "passwords": gen_passwords,
     "password_items": gen_password_items,
     "recipes": gen_recipes,
+    "trades": gen_trades,
 }
 
 
