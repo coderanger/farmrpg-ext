@@ -2302,5 +2302,195 @@
     "fromImage": "/img/items/a_034.png",
     "text": "A while back George lost some items and would really love to have them again. Can you help?",
     "silverReward": 55585000
+  },
+  {
+    "firstSeen": 1656403801703,
+    "itemRequests": [
+      {
+        "id": "85",
+        "quantity": 250
+      },
+      {
+        "id": "38",
+        "quantity": 250
+      },
+      {
+        "id": "236",
+        "quantity": 250
+      },
+      {
+        "id": "392",
+        "quantity": 250
+      },
+      {
+        "id": "578",
+        "quantity": 35
+      },
+      {
+        "id": "94",
+        "quantity": 250
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "536",
+        "quantity": 90
+      },
+      {
+        "id": "263",
+        "quantity": 90
+      },
+      {
+        "id": "214",
+        "quantity": 90
+      },
+      {
+        "id": "586",
+        "quantity": 1
+      }
+    ],
+    "id": "44908",
+    "name": "Special Order",
+    "isPersonal": true,
+    "from": "Rosalie",
+    "fromImage": "/img/items/a_098.png",
+    "text": "Rosalie is trying to fulfill a special order for a customer. Will you get a few of the items ready so Rosalie can get this order out quickly?",
+    "silverReward": 52690000
+  },
+  {
+    "firstSeen": 1656403648282,
+    "itemRequests": [
+      {
+        "id": "40",
+        "quantity": 250
+      },
+      {
+        "id": "145",
+        "quantity": 250
+      },
+      {
+        "id": "42",
+        "quantity": 250
+      },
+      {
+        "id": "427",
+        "quantity": 250
+      },
+      {
+        "id": "303",
+        "quantity": 250
+      },
+      {
+        "id": "87",
+        "quantity": 250
+      },
+      {
+        "id": "414",
+        "quantity": 250
+      },
+      {
+        "id": "110",
+        "quantity": 250
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "347",
+        "quantity": 90
+      },
+      {
+        "id": "199",
+        "quantity": 90
+      },
+      {
+        "id": "77",
+        "quantity": 90
+      },
+      {
+        "id": "579",
+        "quantity": 20
+      },
+      {
+        "id": "473",
+        "quantity": 90
+      },
+      {
+        "id": "586",
+        "quantity": 1
+      }
+    ],
+    "id": "44909",
+    "name": "House Cleaning",
+    "isPersonal": true,
+    "from": "George",
+    "fromImage": "/img/items/a_034.png",
+    "text": "George is doing some house cleaning and will give you some nice items if you can bring the following.",
+    "silverReward": 52300000
+  },
+  {
+    "firstSeen": 1656403818275,
+    "itemRequests": [
+      {
+        "id": "127",
+        "quantity": 35
+      },
+      {
+        "id": "240",
+        "quantity": 250
+      },
+      {
+        "id": "90",
+        "quantity": 250
+      },
+      {
+        "id": "75",
+        "quantity": 35
+      },
+      {
+        "id": "302",
+        "quantity": 250
+      },
+      {
+        "id": "99",
+        "quantity": 250
+      },
+      {
+        "id": "277",
+        "quantity": 250
+      },
+      {
+        "id": "126",
+        "quantity": 250
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "458",
+        "quantity": 20
+      },
+      {
+        "id": "213",
+        "quantity": 90
+      },
+      {
+        "id": "287",
+        "quantity": 90
+      },
+      {
+        "id": "53",
+        "quantity": 20
+      },
+      {
+        "id": "586",
+        "quantity": 1
+      }
+    ],
+    "id": "44910",
+    "name": "Special Project",
+    "isPersonal": true,
+    "from": "Cecil",
+    "fromImage": "/img/items/a_027.png",
+    "text": "Cecil is working on a project and could use the following things. You will be rewarded for your effort.",
+    "silverReward": 52325000
   }
 ]

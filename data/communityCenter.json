@@ -1521,6 +1521,24 @@
     "goalQuantity": 750000,
     "rewardItem": "Steak",
     "rewardQuantity": 10,
-    "progress": 1203756
+    "progress": 1286191
+  },
+  {
+    "firstSeen": 1656395984797,
+    "date": "2022-06-28",
+    "goalItem": "Shiny Beetle",
+    "goalQuantity": 1500000,
+    "rewardItem": "Crab Claw",
+    "rewardQuantity": 10,
+    "progress": 1853169
+  },
+  {
+    "firstSeen": 1656480842541,
+    "date": "2022-06-29",
+    "goalItem": "Drum",
+    "goalQuantity": 400000,
+    "rewardItem": "Orange Juice",
+    "rewardQuantity": 125,
+    "progress": 5060415
   }
 ]

@@ -684,6 +684,15 @@
     ]
   },
   {
+    "firstSeen": 1656539985339,
+    "id": "593",
+    "name": "Broken Pipe",
+    "image": "/img/items/9389.PNG",
+    "sellPrice": 2500,
+    "xp": 2500,
+    "rarity": "Common"
+  },
+  {
     "name": "Broom",
     "id": "129",
     "image": "/img/items/5717.PNG",
@@ -1267,6 +1276,15 @@
     "rarity": "Uncommon"
   },
   {
+    "firstSeen": 1656539980507,
+    "id": "591",
+    "name": "Copper Wire",
+    "image": "/img/items/9327.PNG",
+    "sellPrice": 2500,
+    "xp": 2500,
+    "rarity": "Uncommon"
+  },
+  {
     "name": "Corn",
     "id": "65",
     "image": "/img/items/8288.png",
@@ -1283,6 +1301,13 @@
     "image": "/img/items/cornkabob.png",
     "event": true,
     "xp": 2500,
+    "rarity": "Uncommon"
+  },
+  {
+    "firstSeen": 1656540023485,
+    "id": "602",
+    "name": "Corn Prize Bag",
+    "image": "/img/items/bagofcorn.png",
     "rarity": "Uncommon"
   },
   {
@@ -3768,6 +3793,15 @@
     "mastery": true
   },
   {
+    "firstSeen": 1656540006735,
+    "id": "598",
+    "name": "Machine Part",
+    "image": "/img/items/9331.PNG",
+    "sellPrice": 1000,
+    "xp": 1000,
+    "rarity": "Common"
+  },
+  {
     "name": "Mackerel",
     "id": "198",
     "image": "/img/items/5768.png",
@@ -4199,6 +4233,15 @@
     ]
   },
   {
+    "firstSeen": 1656540003502,
+    "id": "599",
+    "name": "Onyx Scorpion",
+    "image": "/img/items/4514b.png",
+    "sellPrice": 10000,
+    "xp": 7500,
+    "rarity": "Uncommon"
+  },
+  {
     "id": "470",
     "name": "Opposition Hourglass",
     "image": "/img/items/hourglass.png",
@@ -4580,6 +4623,15 @@
     "rarity": "Very Rare"
   },
   {
+    "firstSeen": 1656539995144,
+    "id": "596",
+    "name": "Prickly Pear",
+    "image": "/img/items/pricklypear.png",
+    "sellPrice": 2500,
+    "xp": 2500,
+    "rarity": "Common"
+  },
+  {
     "name": "Prism Shard",
     "id": "179",
     "image": "/img/items/8072.png",
@@ -4595,6 +4647,15 @@
     "xp": 400,
     "rarity": "Common",
     "mastery": true
+  },
+  {
+    "firstSeen": 1656539977404,
+    "id": "590",
+    "name": "Pulley",
+    "image": "/img/items/pulley.png",
+    "sellPrice": 2500,
+    "xp": 2500,
+    "rarity": "Uncommon"
   },
   {
     "id": "69",
@@ -5222,6 +5283,14 @@
     "craftPrice": 750
   },
   {
+    "firstSeen": 1656540036968,
+    "id": "604",
+    "name": "Sand Dollar",
+    "image": "/img/items/sanddollar.png?1",
+    "xp": 2500,
+    "rarity": "Uncommon"
+  },
+  {
     "name": "Sandstone",
     "id": "202",
     "image": "/img/items/5197.png",
@@ -5272,6 +5341,24 @@
       }
     ],
     "craftPrice": 250
+  },
+  {
+    "firstSeen": 1656540020869,
+    "id": "601",
+    "name": "Scrap Metal",
+    "image": "/img/items/9383.PNG",
+    "sellPrice": 500,
+    "xp": 500,
+    "rarity": "Common"
+  },
+  {
+    "firstSeen": 1656540017304,
+    "id": "600",
+    "name": "Scrap Wire",
+    "image": "/img/items/9398.PNG",
+    "sellPrice": 750,
+    "xp": 750,
+    "rarity": "Common"
   },
   {
     "name": "Sea Catfish",
@@ -5506,6 +5593,15 @@
     "xp": 150,
     "rarity": "Common",
     "givable": true
+  },
+  {
+    "firstSeen": 1656539992206,
+    "id": "595",
+    "name": "Small Bolt",
+    "image": "/img/items/9374.PNG",
+    "sellPrice": 5000,
+    "xp": 2500,
+    "rarity": "Uncommon"
   },
   {
     "name": "Small Chest 01",
@@ -5749,6 +5845,15 @@
     "craftPrice": 250
   },
   {
+    "firstSeen": 1656539982973,
+    "id": "592",
+    "name": "Steel Plate",
+    "image": "/img/items/9313.png",
+    "sellPrice": 7000,
+    "xp": 5000,
+    "mastery": true
+  },
+  {
     "name": "Steel Wire",
     "id": "392",
     "image": "/img/items/wire.png",
@@ -5969,6 +6074,15 @@
     "craftPrice": 1500
   },
   {
+    "firstSeen": 1656540028288,
+    "id": "603",
+    "name": "Summer Basket",
+    "image": "/img/items/basket.png",
+    "xp": 1,
+    "givable": true,
+    "rarity": "Very Rare"
+  },
+  {
     "name": "Sunfish",
     "id": "88",
     "image": "/img/items/7802.png",
@@ -6113,6 +6227,15 @@
     "image": "/img/items/7140.png",
     "xp": 5000,
     "rarity": "Super Rare"
+  },
+  {
+    "firstSeen": 1656540000215,
+    "id": "597",
+    "name": "Transistor",
+    "image": "/img/items/9319.png",
+    "sellPrice": 700,
+    "xp": 700,
+    "rarity": "Common"
   },
   {
     "name": "Treasure Chest",
@@ -6676,6 +6799,15 @@
     "image": "/img/items/7758.png",
     "givable": true,
     "buyPrice": 3
+  },
+  {
+    "firstSeen": 1656539988872,
+    "id": "594",
+    "name": "Wrench",
+    "image": "/img/items/9310.png",
+    "sellPrice": 7000,
+    "xp": 5000,
+    "mastery": true
   },
   {
     "name": "Yarn",
