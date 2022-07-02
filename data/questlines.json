@@ -381,6 +381,17 @@
     "secondary": false
   },
   {
+    "image": "/img/items/borgen.png",
+    "name": "Beach Bum",
+    "quests": [
+      "46177",
+      "46187",
+      "46194",
+      "46205"
+    ],
+    "secondary": false
+  },
+  {
     "image": "/img/items/a_011.png",
     "name": "Better Late Than Never",
     "quests": [
@@ -1454,6 +1465,24 @@
     "quests": [
       "866",
       "867"
+    ],
+    "secondary": false
+  },
+  {
+    "image": "/img/items/a_011.png",
+    "name": "The Rocket\u2019s Red Glare",
+    "quests": [
+      "33536",
+      "33612",
+      "33679",
+      "33701",
+      "33849",
+      "43273",
+      "43292",
+      "43305",
+      "43973",
+      "43966",
+      "43974"
     ],
     "secondary": false
   },

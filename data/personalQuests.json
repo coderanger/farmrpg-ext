@@ -2492,5 +2492,337 @@
     "fromImage": "/img/items/a_027.png",
     "text": "Cecil is working on a project and could use the following things. You will be rewarded for your effort.",
     "silverReward": 52325000
+  },
+  {
+    "firstSeen": 1656546583801,
+    "itemRequests": [
+      {
+        "id": "174",
+        "quantity": 250
+      },
+      {
+        "id": "326",
+        "quantity": 250
+      },
+      {
+        "id": "54",
+        "quantity": 250
+      },
+      {
+        "id": "240",
+        "quantity": 250
+      },
+      {
+        "id": "498",
+        "quantity": 250
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "124",
+        "quantity": 90
+      },
+      {
+        "id": "282",
+        "quantity": 90
+      },
+      {
+        "id": "50",
+        "quantity": 90
+      },
+      {
+        "id": "280",
+        "quantity": 60
+      },
+      {
+        "id": "86",
+        "quantity": 90
+      },
+      {
+        "id": "586",
+        "quantity": 1
+      }
+    ],
+    "id": "48912",
+    "name": "Lost Items",
+    "isPersonal": true,
+    "from": "Holger",
+    "fromImage": "/img/items/a_028.png",
+    "text": "A while back Holger lost some items and would really love to have them again. Can you help?",
+    "silverReward": 53345000
+  },
+  {
+    "firstSeen": 1656546593144,
+    "itemRequests": [
+      {
+        "id": "538",
+        "quantity": 40
+      },
+      {
+        "id": "27",
+        "quantity": 250
+      },
+      {
+        "id": "61",
+        "quantity": 250
+      },
+      {
+        "id": "83",
+        "quantity": 250
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "397",
+        "quantity": 90
+      },
+      {
+        "id": "13",
+        "quantity": 90
+      },
+      {
+        "id": "55",
+        "quantity": 90
+      },
+      {
+        "id": "586",
+        "quantity": 1
+      }
+    ],
+    "id": "48913",
+    "name": "Helping Hand",
+    "isPersonal": true,
+    "from": "Beatrix",
+    "fromImage": "/img/items/a_011.png",
+    "text": "Beatrix needs some things and is having trouble finding them. Can you bring the following?",
+    "silverReward": 58270000
+  },
+  {
+    "firstSeen": 1656546596312,
+    "itemRequests": [
+      {
+        "id": "118",
+        "quantity": 250
+      },
+      {
+        "id": "90",
+        "quantity": 250
+      },
+      {
+        "id": "33",
+        "quantity": 250
+      },
+      {
+        "id": "108",
+        "quantity": 250
+      },
+      {
+        "id": "317",
+        "quantity": 35
+      },
+      {
+        "id": "126",
+        "quantity": 35
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "101",
+        "quantity": 90
+      },
+      {
+        "id": "574",
+        "quantity": 20
+      },
+      {
+        "id": "76",
+        "quantity": 20
+      },
+      {
+        "id": "239",
+        "quantity": 90
+      },
+      {
+        "id": "335",
+        "quantity": 90
+      },
+      {
+        "id": "586",
+        "quantity": 1
+      }
+    ],
+    "id": "48914",
+    "name": "Special Order",
+    "isPersonal": true,
+    "from": "Borgen",
+    "fromImage": "/img/items/borgen.png",
+    "text": "Borgen is trying to fulfill a special order for a customer. Will you get a few of the items ready so Borgen can get this order out quickly?",
+    "silverReward": 51465000
+  },
+  {
+    "firstSeen": 1656654400221,
+    "itemRequests": [
+      {
+        "id": "289",
+        "quantity": 250
+      },
+      {
+        "id": "536",
+        "quantity": 250
+      },
+      {
+        "id": "122",
+        "quantity": 35
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "239",
+        "quantity": 90
+      },
+      {
+        "id": "71",
+        "quantity": 90
+      },
+      {
+        "id": "145",
+        "quantity": 90
+      },
+      {
+        "id": "586",
+        "quantity": 1
+      }
+    ],
+    "id": "52195",
+    "name": "House Cleaning",
+    "isPersonal": true,
+    "from": "Holger",
+    "fromImage": "/img/items/a_028.png",
+    "text": "Holger is doing some house cleaning and will give you some nice items if you can bring the following.",
+    "silverReward": 51450000
+  },
+  {
+    "firstSeen": 1656654344528,
+    "itemRequests": [
+      {
+        "id": "311",
+        "quantity": 250
+      },
+      {
+        "id": "54",
+        "quantity": 250
+      },
+      {
+        "id": "373",
+        "quantity": 1
+      },
+      {
+        "id": "179",
+        "quantity": 250
+      },
+      {
+        "id": "27",
+        "quantity": 250
+      },
+      {
+        "id": "87",
+        "quantity": 250
+      },
+      {
+        "id": "38",
+        "quantity": 250
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "300",
+        "quantity": 90
+      },
+      {
+        "id": "233",
+        "quantity": 20
+      },
+      {
+        "id": "586",
+        "quantity": 1
+      }
+    ],
+    "id": "52196",
+    "name": "Special Gift",
+    "isPersonal": true,
+    "from": "Cecil",
+    "fromImage": "/img/items/a_027.png",
+    "text": "Cecil is preparing a gift for Beatrix. Will you help gather a few more items to make the gift really special?",
+    "silverReward": 56985000
+  },
+  {
+    "firstSeen": 1656654520865,
+    "itemRequests": [
+      {
+        "id": "202",
+        "quantity": 250
+      },
+      {
+        "id": "308",
+        "quantity": 250
+      },
+      {
+        "id": "126",
+        "quantity": 250
+      },
+      {
+        "id": "188",
+        "quantity": 250
+      },
+      {
+        "id": "33",
+        "quantity": 250
+      },
+      {
+        "id": "52",
+        "quantity": 250
+      },
+      {
+        "id": "144",
+        "quantity": 250
+      },
+      {
+        "id": "87",
+        "quantity": 250
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "392",
+        "quantity": 90
+      },
+      {
+        "id": "302",
+        "quantity": 90
+      },
+      {
+        "id": "146",
+        "quantity": 90
+      },
+      {
+        "id": "242",
+        "quantity": 90
+      },
+      {
+        "id": "320",
+        "quantity": 90
+      },
+      {
+        "id": "586",
+        "quantity": 1
+      }
+    ],
+    "id": "52197",
+    "name": "Junk for Trade",
+    "isPersonal": true,
+    "from": "Cecil",
+    "fromImage": "/img/items/a_027.png",
+    "text": "Cecil found a bunch of junk they don't need and would trade you for the following items.",
+    "silverReward": 54380000
   }
 ]

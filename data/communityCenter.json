@@ -1539,6 +1539,24 @@
     "goalQuantity": 400000,
     "rewardItem": "Orange Juice",
     "rewardQuantity": 125,
-    "progress": 5060415
+    "progress": 5569307
+  },
+  {
+    "firstSeen": 1656565317271,
+    "date": "2022-06-30",
+    "goalItem": "Corn",
+    "goalQuantity": 500000,
+    "rewardItem": "Lemonade",
+    "rewardQuantity": 50,
+    "progress": 540175
+  },
+  {
+    "firstSeen": 1656652862720,
+    "date": "2022-07-01",
+    "goalItem": "Steak",
+    "goalQuantity": 10000,
+    "rewardItem": "Fishing Net",
+    "rewardQuantity": 125,
+    "progress": 5135590
   }
 ]

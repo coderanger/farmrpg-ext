@@ -8439,6 +8439,38 @@
     "availableTo": "Nov 3"
   },
   {
+    "firstSeen": 1656735999067,
+    "itemRequests": [
+      {
+        "id": "23",
+        "quantity": 10
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "86",
+        "quantity": 10
+      },
+      {
+        "id": "194",
+        "quantity": 10
+      }
+    ],
+    "id": "33536",
+    "name": "The Rocket’s Red Glare I",
+    "isPersonal": false,
+    "from": "Beatrix",
+    "fromImage": "/img/items/a_011.png",
+    "text": "Beatrix would like to begin her pyrotechnics preparations with safety in mind this year. The small amount of rain over the past month is unusual, and could be a cause for concern with the amount of explosives that she intends to use. She hopes to not inadvertently start a wildfire.\n\nWill you bring her some buckets so she can have plenty of water around her launch area?",
+    "requiresFarming": 5,
+    "requiresCrafting": 5,
+    "requiresFishing": 5,
+    "requiresExploring": 5,
+    "availableFrom": "Jul 1",
+    "availableTo": "Jul 31",
+    "silverReward": 5000
+  },
+  {
     "firstSeen": 1646727398892,
     "itemRequests": [
       {
@@ -8467,6 +8499,218 @@
     "text": "Geist isn’t sure why, but she loves Halloween. She wishes it was safe for her to go to a party.",
     "availableFrom": "Oct 14",
     "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1656736003861,
+    "itemRequests": [
+      {
+        "id": "21",
+        "quantity": 40
+      },
+      {
+        "id": "38",
+        "quantity": 100
+      },
+      {
+        "id": "95",
+        "quantity": 10
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "84",
+        "quantity": 25
+      },
+      {
+        "id": "123",
+        "quantity": 10
+      },
+      {
+        "id": "396",
+        "quantity": 2
+      }
+    ],
+    "id": "33612",
+    "name": "The Rocket’s Red Glare II",
+    "isPersonal": false,
+    "from": "Beatrix",
+    "fromImage": "/img/items/a_011.png",
+    "text": "Beatrix could use some more help, if you’re available. She would like to build a platform that she can use to safely launch the more impressive rockets. Hopefully, the platform will help protect the field from the sparks and flames that accompany the launch of these more impressive rockets.\n\nWill you help her get the supplies for building the launch platform?",
+    "requiresFarming": 5,
+    "requiresCrafting": 5,
+    "requiresFishing": 5,
+    "requiresExploring": 5,
+    "availableFrom": "Jul 1",
+    "availableTo": "Jul 31",
+    "silverReward": 5000
+  },
+  {
+    "firstSeen": 1656736129316,
+    "itemRequests": [
+      {
+        "id": "136",
+        "quantity": 5
+      },
+      {
+        "id": "58",
+        "quantity": 40
+      },
+      {
+        "id": "63",
+        "quantity": 10
+      },
+      {
+        "id": "107",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "194",
+        "quantity": 25
+      },
+      {
+        "id": "379",
+        "quantity": 5
+      },
+      {
+        "id": "508",
+        "quantity": 5
+      },
+      {
+        "id": "511",
+        "quantity": 1
+      }
+    ],
+    "id": "33679",
+    "name": "The Rocket’s Red Glare III",
+    "isPersonal": false,
+    "from": "Rosalie",
+    "fromImage": "/img/items/a_098.png",
+    "text": "Beatrix invited Rosalie to join forces for the fireworks celebration this year. Rosalie would like to start on some refreshments for the show before she works on setting up her fireworks.\n\nWill you help Rosalie gather some of the things she needs for her refreshments tables?",
+    "requiresFarming": 20,
+    "requiresCrafting": 20,
+    "requiresFishing": 20,
+    "requiresExploring": 20,
+    "availableFrom": "Jul 1",
+    "availableTo": "Jul 31",
+    "silverReward": 10000
+  },
+  {
+    "firstSeen": 1656736135038,
+    "itemRequests": [
+      {
+        "id": "59",
+        "quantity": 100
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "44",
+        "quantity": 100
+      },
+      {
+        "id": "123",
+        "quantity": 100
+      },
+      {
+        "id": "213",
+        "quantity": 5
+      },
+      {
+        "id": "500",
+        "quantity": 2
+      }
+    ],
+    "id": "33701",
+    "name": "The Rocket’s Red Glare IV",
+    "isPersonal": false,
+    "from": "Rosalie",
+    "fromImage": "/img/items/a_098.png",
+    "text": "Rosalie would like to have loads of watermelon available at the refreshment tables. Will you bring her a load of watermelon?",
+    "requiresFarming": 23,
+    "requiresCrafting": 23,
+    "requiresFishing": 23,
+    "requiresExploring": 23,
+    "availableFrom": "Jul 1",
+    "availableTo": "Jul 31",
+    "silverReward": 500000
+  },
+  {
+    "firstSeen": 1656736162541,
+    "itemRequests": [
+      {
+        "id": "104",
+        "quantity": 200
+      },
+      {
+        "id": "171",
+        "quantity": 100
+      },
+      {
+        "id": "172",
+        "quantity": 1
+      },
+      {
+        "id": "21",
+        "quantity": 50
+      },
+      {
+        "id": "163",
+        "quantity": 100
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "84",
+        "quantity": 50
+      },
+      {
+        "id": "86",
+        "quantity": 50
+      },
+      {
+        "id": "194",
+        "quantity": 50
+      },
+      {
+        "id": "396",
+        "quantity": 10
+      },
+      {
+        "id": "250",
+        "quantity": 10
+      },
+      {
+        "id": "464",
+        "quantity": 5
+      },
+      {
+        "id": "453",
+        "quantity": 10
+      },
+      {
+        "id": "347",
+        "quantity": 5
+      },
+      {
+        "id": "362",
+        "quantity": 10
+      }
+    ],
+    "id": "33849",
+    "name": "The Rocket’s Red Glare V",
+    "isPersonal": false,
+    "from": "Beatrix",
+    "fromImage": "/img/items/a_011.png",
+    "text": "Beatrix and Rosalie are ready to work on some of their fireworks. Will you help gather some of the ingredients they need to make impressive rockets?",
+    "requiresFarming": 40,
+    "requiresCrafting": 40,
+    "requiresFishing": 40,
+    "requiresExploring": 40,
+    "availableFrom": "Jul 1",
+    "availableTo": "Jul 31",
+    "silverReward": 100000
   },
   {
     "firstSeen": 1646728004547,
@@ -11189,6 +11433,93 @@
     "requiresCrafting": 14
   },
   {
+    "firstSeen": 1656736191726,
+    "itemRequests": [
+      {
+        "id": "105",
+        "quantity": 100
+      },
+      {
+        "id": "72",
+        "quantity": 10
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "242",
+        "quantity": 10
+      },
+      {
+        "id": "263",
+        "quantity": 100
+      },
+      {
+        "id": "457",
+        "quantity": 5
+      },
+      {
+        "id": "335",
+        "quantity": 10
+      },
+      {
+        "id": "336",
+        "quantity": 3
+      },
+      {
+        "id": "337",
+        "quantity": 3
+      }
+    ],
+    "id": "43273",
+    "name": "The Rocket’s Red Glare VI",
+    "isPersonal": false,
+    "from": "Rosalie",
+    "fromImage": "/img/items/a_098.png",
+    "text": "Rosalie would like to also have a good supply of smaller fireworks for the show. Will you help her put together a large load of bottle rockets?",
+    "requiresFarming": 40,
+    "requiresCrafting": 40,
+    "requiresFishing": 40,
+    "requiresExploring": 40,
+    "availableFrom": "Jul 1",
+    "availableTo": "Jul 31"
+  },
+  {
+    "firstSeen": 1656736197240,
+    "itemRequests": [
+      {
+        "id": "106",
+        "quantity": 200
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "508",
+        "quantity": 5
+      },
+      {
+        "id": "500",
+        "quantity": 5
+      },
+      {
+        "id": "117",
+        "quantity": 100
+      }
+    ],
+    "id": "43292",
+    "name": "The Rocket’s Red Glare VII",
+    "isPersonal": false,
+    "from": "Beatrix",
+    "fromImage": "/img/items/a_011.png",
+    "text": "Beatrix needs a little more kick for her rockets. She also wants some extra explosives for a richer, more immersive sound for the show. Will you bring her some explosives?",
+    "requiresFarming": 50,
+    "requiresCrafting": 50,
+    "requiresFishing": 50,
+    "requiresExploring": 50,
+    "availableFrom": "Jul 1",
+    "availableTo": "Jul 31",
+    "silverReward": 300000
+  },
+  {
     "firstSeen": 1646727203946,
     "itemRequests": [
       {
@@ -11229,6 +11560,61 @@
     "requiresCrafting": 5,
     "requiresFishing": 5,
     "requiresExploring": 5
+  },
+  {
+    "firstSeen": 1656736201949,
+    "itemRequests": [
+      {
+        "id": "106",
+        "quantity": 300
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "123",
+        "quantity": 100
+      },
+      {
+        "id": "347",
+        "quantity": 10
+      },
+      {
+        "id": "346",
+        "quantity": 4
+      },
+      {
+        "id": "363",
+        "quantity": 4
+      },
+      {
+        "id": "339",
+        "quantity": 10
+      },
+      {
+        "id": "338",
+        "quantity": 5
+      },
+      {
+        "id": "305",
+        "quantity": 10
+      },
+      {
+        "id": "491",
+        "quantity": 5
+      }
+    ],
+    "id": "43305",
+    "name": "The Rocket’s Red Glare VIII",
+    "isPersonal": false,
+    "from": "Beatrix",
+    "fromImage": "/img/items/a_011.png",
+    "text": "Beatrix would really appreciate another load of explosives, if it’s not too much trouble. She’s hopeful that this load will be enough to really make the fireworks show a feast for all the senses.",
+    "requiresFarming": 70,
+    "requiresCrafting": 70,
+    "requiresFishing": 70,
+    "requiresExploring": 70,
+    "availableFrom": "Jul 1",
+    "availableTo": "Jul 31"
   },
   {
     "firstSeen": 1646727201940,
@@ -11427,6 +11813,141 @@
     "text": "As you bring your first load of corn to Jill, she thanks you and updates you on your progress. She says you’re 2.6 (repeating of course) percent of the way there. It’s a strangely specific number, but hey, progress is progress, you tell yourself. It shouldn't be too hard to finish this at all!",
     "silverReward": 1500000,
     "requiresFarming": 55
+  },
+  {
+    "firstSeen": 1656736547984,
+    "itemRequests": [
+      {
+        "id": "59",
+        "quantity": 1000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "508",
+        "quantity": 25
+      },
+      {
+        "id": "500",
+        "quantity": 25
+      },
+      {
+        "id": "341",
+        "quantity": 5
+      },
+      {
+        "id": "397",
+        "quantity": 5
+      },
+      {
+        "id": "398",
+        "quantity": 5
+      },
+      {
+        "id": "266",
+        "quantity": 5
+      },
+      {
+        "id": "366",
+        "quantity": 5
+      },
+      {
+        "id": "394",
+        "quantity": 1
+      }
+    ],
+    "id": "43966",
+    "name": "The Rocket’s Red Glare X",
+    "isPersonal": false,
+    "from": "Beatrix",
+    "fromImage": "/img/items/a_011.png",
+    "text": "Beatrix is pleasantly surprised that turnout for the fireworks celebration is significantly higher than expected. Now, Beatrix needs some help getting more refreshments for the show. Will you help gather more watermelon?",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "availableFrom": "Jul 1",
+    "availableTo": "Jul 31"
+  },
+  {
+    "firstSeen": 1656736206540,
+    "itemRequests": [
+      {
+        "id": "452",
+        "quantity": 10
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "362",
+        "quantity": 500
+      },
+      {
+        "id": "111",
+        "quantity": 1000
+      },
+      {
+        "id": "237",
+        "quantity": 500
+      },
+      {
+        "id": "236",
+        "quantity": 500
+      },
+      {
+        "id": "91",
+        "quantity": 1000
+      },
+      {
+        "id": "113",
+        "quantity": 500
+      },
+      {
+        "id": "491",
+        "quantity": 10
+      }
+    ],
+    "id": "43973",
+    "name": "The Rocket’s Red Glare IX",
+    "isPersonal": false,
+    "from": "Beatrix",
+    "fromImage": "/img/items/a_011.png",
+    "text": "This may seem excessive, but Beatrix needs a little more pop to the fireworks display. Recently, she saw that Lorn had some very special fireworks at the Exchange Center. Will you go and get her some of the fireworks that Lorn has stocked?",
+    "requiresFarming": 80,
+    "requiresCrafting": 80,
+    "requiresFishing": 80,
+    "requiresExploring": 80,
+    "availableFrom": "Jul 1",
+    "availableTo": "Jul 31"
+  },
+  {
+    "firstSeen": 1656736598665,
+    "itemRequests": [
+      {
+        "id": "65",
+        "quantity": 2000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "602",
+        "quantity": 1
+      }
+    ],
+    "id": "43974",
+    "name": "The Rocket’s Red Glare XI",
+    "isPersonal": false,
+    "from": "Rosalie",
+    "fromImage": "/img/items/a_098.png",
+    "text": "Rosalie needs a lot more corn for the refreshments tables. Will you help her get more corn?",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "requiresTower": 30,
+    "availableFrom": "Jul 1",
+    "availableTo": "Jul 31",
+    "silverReward": 100000000
   },
   {
     "firstSeen": 1646727189931,
@@ -11821,6 +12342,214 @@
     "requiresFarming": 55
   },
   {
+    "firstSeen": 1656735902856,
+    "itemRequests": [
+      {
+        "id": "90",
+        "quantity": 10
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "44",
+        "quantity": 100
+      },
+      {
+        "id": "194",
+        "quantity": 25
+      },
+      {
+        "id": "332",
+        "quantity": 5
+      },
+      {
+        "id": "333",
+        "quantity": 5
+      },
+      {
+        "id": "331",
+        "quantity": 12
+      },
+      {
+        "id": "498",
+        "quantity": 50
+      }
+    ],
+    "id": "46177",
+    "name": "Beach Bum I",
+    "isPersonal": false,
+    "from": "Borgen",
+    "fromImage": "/img/items/borgen.png",
+    "text": "Borgen is going to spend a week or two at the beach. It’s not a vacation though. He’s going to set up a stand and sell keepsakes to the folks vacationing at the beach. Will you help him find some beach themed items to sell?",
+    "requiresFarming": 20,
+    "requiresCrafting": 20,
+    "requiresFishing": 20,
+    "requiresExploring": 20,
+    "availableFrom": "Jul 1",
+    "availableTo": "Jul 31"
+  },
+  {
+    "firstSeen": 1656735908621,
+    "itemRequests": [
+      {
+        "id": "101",
+        "quantity": 50
+      },
+      {
+        "id": "97",
+        "quantity": 50
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "379",
+        "quantity": 10
+      },
+      {
+        "id": "242",
+        "quantity": 5
+      },
+      {
+        "id": "107",
+        "quantity": 10
+      },
+      {
+        "id": "160",
+        "quantity": 24
+      },
+      {
+        "id": "190",
+        "quantity": 24
+      },
+      {
+        "id": "158",
+        "quantity": 24
+      },
+      {
+        "id": "162",
+        "quantity": 24
+      },
+      {
+        "id": "352",
+        "quantity": 24
+      }
+    ],
+    "id": "46187",
+    "name": "Beach Bum II ",
+    "isPersonal": false,
+    "from": "Borgen",
+    "fromImage": "/img/items/borgen.png",
+    "text": "Borgen would like you to keep the beach keepsakes coming. Can you find him some more shells?",
+    "requiresFarming": 40,
+    "requiresCrafting": 40,
+    "requiresFishing": 40,
+    "requiresExploring": 40,
+    "availableFrom": "Jul 1",
+    "availableTo": "Jul 31"
+  },
+  {
+    "firstSeen": 1656735913593,
+    "itemRequests": [
+      {
+        "id": "310",
+        "quantity": 100
+      },
+      {
+        "id": "473",
+        "quantity": 5
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "508",
+        "quantity": 10
+      },
+      {
+        "id": "500",
+        "quantity": 25
+      },
+      {
+        "id": "475",
+        "quantity": 5
+      },
+      {
+        "id": "338",
+        "quantity": 5
+      },
+      {
+        "id": "349",
+        "quantity": 5
+      }
+    ],
+    "id": "46194",
+    "name": "Beach Bum III",
+    "isPersonal": false,
+    "from": "Borgen",
+    "fromImage": "/img/items/borgen.png",
+    "text": "Keep the shells coming! Borgen says they’re selling as fast as he can get them on display.",
+    "requiresFarming": 70,
+    "requiresCrafting": 70,
+    "requiresFishing": 70,
+    "requiresExploring": 70,
+    "availableFrom": "Jul 1",
+    "availableTo": "Jul 31"
+  },
+  {
+    "firstSeen": 1656735993644,
+    "itemRequests": [
+      {
+        "id": "604",
+        "quantity": 2
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "123",
+        "quantity": 50
+      },
+      {
+        "id": "587",
+        "quantity": 2
+      },
+      {
+        "id": "194",
+        "quantity": 25
+      },
+      {
+        "id": "84",
+        "quantity": 20
+      },
+      {
+        "id": "452",
+        "quantity": 1
+      },
+      {
+        "id": "185",
+        "quantity": 5
+      },
+      {
+        "id": "396",
+        "quantity": 5
+      },
+      {
+        "id": "453",
+        "quantity": 1
+      }
+    ],
+    "id": "46198",
+    "name": "Beach Bum Hard Mode ",
+    "isPersonal": false,
+    "from": "Borgen",
+    "fromImage": "/img/items/borgen.png",
+    "text": "Borgen would like to have some sand dollars to sell. Can you help him find some for his stand?",
+    "requiresFarming": 20,
+    "requiresCrafting": 20,
+    "requiresFishing": 20,
+    "requiresExploring": 20,
+    "availableFrom": "Jul 1",
+    "availableTo": "Jul 31"
+  },
+  {
     "firstSeen": 1646727145841,
     "itemRequests": [
       {
@@ -11836,6 +12565,49 @@
     "text": "Revvin' your tractor\nListenin' to its howlin' roar\nMetal under tension\nBeggin' you to touch and go\nHIGHWAY TO THE CORN ZONE\nI'LL TAKE YOU RIGHT INTO THE CORN ZONE\n\n80% of the way through the corn zone!",
     "silverReward": 3500000,
     "requiresFarming": 55
+  },
+  {
+    "firstSeen": 1656735945667,
+    "itemRequests": [
+      {
+        "id": "241",
+        "quantity": 10
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "84",
+        "quantity": 50
+      },
+      {
+        "id": "491",
+        "quantity": 10
+      },
+      {
+        "id": "389",
+        "quantity": 10
+      },
+      {
+        "id": "121",
+        "quantity": 5
+      },
+      {
+        "id": "394",
+        "quantity": 1
+      }
+    ],
+    "id": "46205",
+    "name": "Beach Bum IV",
+    "isPersonal": false,
+    "from": "Borgen",
+    "fromImage": "/img/items/borgen.png",
+    "text": "Borgen knows what the people really want from his souvenir stand. Will you help him find some shark teeth?",
+    "requiresFarming": 80,
+    "requiresCrafting": 80,
+    "requiresFishing": 80,
+    "requiresExploring": 80,
+    "availableFrom": "Jul 1",
+    "availableTo": "Jul 31"
   },
   {
     "firstSeen": 1646727143838,

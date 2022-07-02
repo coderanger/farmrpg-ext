@@ -4758,5 +4758,1935 @@
     "rate": 40.77777777777778,
     "rate_type": "manual_fishing",
     "runecube": false
+  },
+  {
+    "drops": 2632,
+    "hits": 598260,
+    "item": "Ancient Coin",
+    "location": "Black Rock Canyon",
+    "mode": "explores",
+    "rate": 227.30243161094225,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 71175,
+    "hits": 596760,
+    "item": "Coal",
+    "location": "Black Rock Canyon",
+    "mode": "explores",
+    "rate": 8.384404636459431,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 57,
+    "hits": 19260,
+    "item": "Giant Centipede",
+    "location": "Black Rock Canyon",
+    "mode": "explores",
+    "rate": 337.89473684210526,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 1771,
+    "hits": 76260,
+    "item": "Horn",
+    "location": "Black Rock Canyon",
+    "mode": "explores",
+    "rate": 43.06041784302654,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 41,
+    "hits": 598260,
+    "item": "Large Chest 02",
+    "location": "Black Rock Canyon",
+    "mode": "explores",
+    "rate": 14591.707317073171,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 29,
+    "hits": 598260,
+    "item": "Medium Chest 02",
+    "location": "Black Rock Canyon",
+    "mode": "explores",
+    "rate": 20629.655172413793,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 76,
+    "hits": 598260,
+    "item": "Orange Gecko",
+    "location": "Black Rock Canyon",
+    "mode": "explores",
+    "rate": 7871.8421052631575,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 43,
+    "hits": 104760,
+    "item": "Ruby Scorpion",
+    "location": "Black Rock Canyon",
+    "mode": "explores",
+    "rate": 2436.279069767442,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 120,
+    "hits": 598260,
+    "item": "Runestone 09",
+    "location": "Black Rock Canyon",
+    "mode": "explores",
+    "rate": 4985.5,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 88,
+    "hits": 598260,
+    "item": "Runestone 13",
+    "location": "Black Rock Canyon",
+    "mode": "explores",
+    "rate": 6798.409090909091,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 29432,
+    "hits": 598260,
+    "item": "Salt Rock",
+    "location": "Black Rock Canyon",
+    "mode": "explores",
+    "rate": 20.32685512367491,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 6522,
+    "hits": 55260,
+    "item": "Sandstone",
+    "location": "Black Rock Canyon",
+    "mode": "explores",
+    "rate": 8.472861085556577,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 9013,
+    "hits": 598260,
+    "item": "Shimmer Quartz",
+    "location": "Black Rock Canyon",
+    "mode": "explores",
+    "rate": 66.37745478752912,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 589,
+    "hits": 91148,
+    "item": "Ancient Coin",
+    "location": "Ember Lagoon",
+    "mode": "explores",
+    "rate": 154.75042444821733,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 1,
+    "hits": 91148,
+    "item": "Diamond",
+    "location": "Ember Lagoon",
+    "mode": "explores",
+    "rate": 91148.0,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 3973,
+    "hits": 91148,
+    "item": "Emberstone",
+    "location": "Ember Lagoon",
+    "mode": "explores",
+    "rate": 22.94185753838409,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 6384,
+    "hits": 91148,
+    "item": "Glass Orb",
+    "location": "Ember Lagoon",
+    "mode": "explores",
+    "rate": 14.277568922305765,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 6,
+    "hits": 91148,
+    "item": "Large Chest 01",
+    "location": "Ember Lagoon",
+    "mode": "explores",
+    "rate": 15191.333333333334,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 47,
+    "hits": 91148,
+    "item": "Magicite",
+    "location": "Ember Lagoon",
+    "mode": "explores",
+    "rate": 1939.3191489361702,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 153,
+    "hits": 91148,
+    "item": "Moonstone",
+    "location": "Ember Lagoon",
+    "mode": "explores",
+    "rate": 595.7385620915032,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 1655,
+    "hits": 82148,
+    "item": "Prism Shard",
+    "location": "Ember Lagoon",
+    "mode": "explores",
+    "rate": 49.63625377643505,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 11,
+    "hits": 91148,
+    "item": "Runestone 17",
+    "location": "Ember Lagoon",
+    "mode": "explores",
+    "rate": 8286.181818181818,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 17330,
+    "hits": 89648,
+    "item": "Stone",
+    "location": "Ember Lagoon",
+    "mode": "explores",
+    "rate": 5.172994806693595,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 10921,
+    "hits": 440204,
+    "item": "Antler",
+    "location": "Forest",
+    "mode": "explores",
+    "rate": 40.30803040014651,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 868,
+    "hits": 44204,
+    "item": "Arrowhead",
+    "location": "Forest",
+    "mode": "explores",
+    "rate": 50.92626728110599,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 659,
+    "hits": 41204,
+    "item": "Bird Egg",
+    "location": "Forest",
+    "mode": "explores",
+    "rate": 62.52503793626707,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 42,
+    "hits": 15704,
+    "item": "Fire Ant",
+    "location": "Forest",
+    "mode": "explores",
+    "rate": 373.9047619047619,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 67,
+    "hits": 440204,
+    "item": "Frog",
+    "location": "Forest",
+    "mode": "explores",
+    "rate": 6570.20895522388,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 74,
+    "hits": 440204,
+    "item": "Gold Feather",
+    "location": "Forest",
+    "mode": "explores",
+    "rate": 5948.7027027027025,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 73,
+    "hits": 440204,
+    "item": "Gold Leaf",
+    "location": "Forest",
+    "mode": "explores",
+    "rate": 6030.191780821918,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 14459,
+    "hits": 440204,
+    "item": "Hide",
+    "location": "Forest",
+    "mode": "explores",
+    "rate": 30.444982363925583,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 23199,
+    "hits": 440204,
+    "item": "Mushroom",
+    "location": "Forest",
+    "mode": "explores",
+    "rate": 18.975128238286132,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 21533,
+    "hits": 413204,
+    "item": "Straw",
+    "location": "Forest",
+    "mode": "explores",
+    "rate": 19.189337296242975,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 57948,
+    "hits": 434204,
+    "item": "Wood",
+    "location": "Forest",
+    "mode": "explores",
+    "rate": 7.492993718506247,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 3773,
+    "hits": 274000,
+    "item": "Amethyst",
+    "location": "Highland Hills",
+    "mode": "explores",
+    "rate": 72.62125629472568,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 372,
+    "hits": 274000,
+    "item": "Caterpillar",
+    "location": "Highland Hills",
+    "mode": "explores",
+    "rate": 736.5591397849462,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 12982,
+    "hits": 274000,
+    "item": "Feathers",
+    "location": "Highland Hills",
+    "mode": "explores",
+    "rate": 21.106146972731473,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 12903,
+    "hits": 274000,
+    "item": "Fern Leaf",
+    "location": "Highland Hills",
+    "mode": "explores",
+    "rate": 21.23537161900333,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 6,
+    "hits": 274000,
+    "item": "Medium Chest 01",
+    "location": "Highland Hills",
+    "mode": "explores",
+    "rate": 45666.666666666664,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 12912,
+    "hits": 274000,
+    "item": "Purple Flower",
+    "location": "Highland Hills",
+    "mode": "explores",
+    "rate": 21.220570012391573,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 22,
+    "hits": 274000,
+    "item": "Runestone 14",
+    "location": "Highland Hills",
+    "mode": "explores",
+    "rate": 12454.545454545454,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 11973,
+    "hits": 256000,
+    "item": "Stone",
+    "location": "Highland Hills",
+    "mode": "explores",
+    "rate": 21.381441576881315,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 168,
+    "hits": 274000,
+    "item": "Strange Letter",
+    "location": "Highland Hills",
+    "mode": "explores",
+    "rate": 1630.952380952381,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 12750,
+    "hits": 270000,
+    "item": "Wood",
+    "location": "Highland Hills",
+    "mode": "explores",
+    "rate": 21.176470588235293,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 31,
+    "hits": 1500,
+    "item": "3-leaf Clover",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 48.38709677419355,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 32,
+    "hits": 6000,
+    "item": "4-leaf Clover",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 187.5,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 464,
+    "hits": 9000,
+    "item": "Acorn",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 19.396551724137932,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 7,
+    "hits": 423000,
+    "item": "Amber",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 60428.57142857143,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 21982,
+    "hits": 423000,
+    "item": "Blue Feathers",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 19.24301701392048,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 21982,
+    "hits": 423000,
+    "item": "Fern Leaf",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 19.24301701392048,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 24,
+    "hits": 423000,
+    "item": "Frog",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 17625.0,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 26,
+    "hits": 423000,
+    "item": "Gold Feather",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 16269.23076923077,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 10348,
+    "hits": 423000,
+    "item": "Mushroom",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 40.877464244298416,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 39,
+    "hits": 6000,
+    "item": "Pine Cone",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 153.84615384615384,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 83,
+    "hits": 423000,
+    "item": "Runestone 05",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 5096.385542168675,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 715,
+    "hits": 423000,
+    "item": "Shiny Beetle",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 591.6083916083916,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 630,
+    "hits": 423000,
+    "item": "Spider",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 671.4285714285714,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 10052,
+    "hits": 423000,
+    "item": "Straw",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 42.08117787504974,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 32,
+    "hits": 1500,
+    "item": "Sweet Root",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 46.875,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 6631,
+    "hits": 423000,
+    "item": "Unpolished Ruby",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 63.791283366008145,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 21852,
+    "hits": 423000,
+    "item": "Wood",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 19.357495881383855,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 49697,
+    "hits": 221500,
+    "item": "Crab",
+    "location": "Pirate's Cove",
+    "mode": "fishes",
+    "rate": 4.457009477433245,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 33885,
+    "hits": 221500,
+    "item": "Green Barracuda",
+    "location": "Pirate's Cove",
+    "mode": "fishes",
+    "rate": 6.536815700162314,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 23846,
+    "hits": 221500,
+    "item": "Jumbo Fish",
+    "location": "Pirate's Cove",
+    "mode": "fishes",
+    "rate": 9.288769604965193,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 17,
+    "hits": 221500,
+    "item": "Large Chest 03",
+    "location": "Pirate's Cove",
+    "mode": "fishes",
+    "rate": 13029.411764705883,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 26518,
+    "hits": 221500,
+    "item": "Mulberry Snapper",
+    "location": "Pirate's Cove",
+    "mode": "fishes",
+    "rate": 8.352816954521456,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 21,
+    "hits": 221500,
+    "item": "Mystical Chest 02",
+    "location": "Pirate's Cove",
+    "mode": "fishes",
+    "rate": 10547.619047619048,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 20161,
+    "hits": 221500,
+    "item": "Orcafish",
+    "location": "Pirate's Cove",
+    "mode": "fishes",
+    "rate": 10.986558206438172,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 10,
+    "hits": 221500,
+    "item": "Pirate Hook",
+    "location": "Pirate's Cove",
+    "mode": "fishes",
+    "rate": 22150.0,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 49201,
+    "hits": 221500,
+    "item": "Purple Butterfly Fish",
+    "location": "Pirate's Cove",
+    "mode": "fishes",
+    "rate": 4.501941017458995,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 18144,
+    "hits": 221500,
+    "item": "Speckled Grouper",
+    "location": "Pirate's Cove",
+    "mode": "fishes",
+    "rate": 12.20789241622575,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 162,
+    "hits": 11816,
+    "item": "Apple",
+    "location": "Small Spring",
+    "mode": "explores",
+    "rate": 72.93827160493827,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 300,
+    "hits": 11816,
+    "item": "Aquamarine",
+    "location": "Small Spring",
+    "mode": "explores",
+    "rate": 39.38666666666666,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 10,
+    "hits": 11816,
+    "item": "Dice",
+    "location": "Small Spring",
+    "mode": "explores",
+    "rate": 1181.6,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 1007,
+    "hits": 11816,
+    "item": "Feathers",
+    "location": "Small Spring",
+    "mode": "explores",
+    "rate": 11.733862959285005,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 455,
+    "hits": 11816,
+    "item": "Mushroom",
+    "location": "Small Spring",
+    "mode": "explores",
+    "rate": 25.96923076923077,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 2,
+    "hits": 11816,
+    "item": "Small Chest 01",
+    "location": "Small Spring",
+    "mode": "explores",
+    "rate": 5908.0,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 35,
+    "hits": 11816,
+    "item": "Snail",
+    "location": "Small Spring",
+    "mode": "explores",
+    "rate": 337.6,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 18,
+    "hits": 11816,
+    "item": "Spectacles",
+    "location": "Small Spring",
+    "mode": "explores",
+    "rate": 656.4444444444445,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 1026,
+    "hits": 11816,
+    "item": "Stone",
+    "location": "Small Spring",
+    "mode": "explores",
+    "rate": 11.516569200779728,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 979,
+    "hits": 11816,
+    "item": "Wood",
+    "location": "Small Spring",
+    "mode": "explores",
+    "rate": 12.069458631256383,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 47,
+    "hits": 2463,
+    "item": "Apple",
+    "location": "Whispering Creek",
+    "mode": "explores",
+    "rate": 52.40425531914894,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 47,
+    "hits": 2463,
+    "item": "Blue Gel",
+    "location": "Whispering Creek",
+    "mode": "explores",
+    "rate": 52.40425531914894,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 8,
+    "hits": 2463,
+    "item": "Lemon",
+    "location": "Whispering Creek",
+    "mode": "explores",
+    "rate": 307.875,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 229,
+    "hits": 2463,
+    "item": "Oak",
+    "location": "Whispering Creek",
+    "mode": "explores",
+    "rate": 10.755458515283843,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 9,
+    "hits": 2463,
+    "item": "Orange",
+    "location": "Whispering Creek",
+    "mode": "explores",
+    "rate": 273.6666666666667,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 26,
+    "hits": 2463,
+    "item": "Red Berries",
+    "location": "Whispering Creek",
+    "mode": "explores",
+    "rate": 94.73076923076923,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 95,
+    "hits": 2463,
+    "item": "Salt Rock",
+    "location": "Whispering Creek",
+    "mode": "explores",
+    "rate": 25.926315789473684,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 87,
+    "hits": 2463,
+    "item": "Slimestone",
+    "location": "Whispering Creek",
+    "mode": "explores",
+    "rate": 28.310344827586206,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 34,
+    "hits": 2463,
+    "item": "Sour Root",
+    "location": "Whispering Creek",
+    "mode": "explores",
+    "rate": 72.44117647058823,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 16,
+    "hits": 2463,
+    "item": "Striped Feather",
+    "location": "Whispering Creek",
+    "mode": "explores",
+    "rate": 153.9375,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 16,
+    "hits": 2463,
+    "item": "Thorns",
+    "location": "Whispering Creek",
+    "mode": "explores",
+    "rate": 153.9375,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 58,
+    "hits": 2463,
+    "item": "Unpolished Garnet",
+    "location": "Whispering Creek",
+    "mode": "explores",
+    "rate": 42.46551724137931,
+    "rate_type": "normal",
+    "runecube": true
+  },
+  {
+    "drops": 2632,
+    "hits": 598260,
+    "item": "Ancient Coin",
+    "location": "Black Rock Canyon",
+    "mode": "explores",
+    "rate": 227.30243161094225,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 71175,
+    "hits": 596760,
+    "item": "Coal",
+    "location": "Black Rock Canyon",
+    "mode": "explores",
+    "rate": 8.384404636459431,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 57,
+    "hits": 19260,
+    "item": "Giant Centipede",
+    "location": "Black Rock Canyon",
+    "mode": "explores",
+    "rate": 337.89473684210526,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 1771,
+    "hits": 76260,
+    "item": "Horn",
+    "location": "Black Rock Canyon",
+    "mode": "explores",
+    "rate": 43.06041784302654,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 41,
+    "hits": 598260,
+    "item": "Large Chest 02",
+    "location": "Black Rock Canyon",
+    "mode": "explores",
+    "rate": 14591.707317073171,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 29,
+    "hits": 598260,
+    "item": "Medium Chest 02",
+    "location": "Black Rock Canyon",
+    "mode": "explores",
+    "rate": 20629.655172413793,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 76,
+    "hits": 598260,
+    "item": "Orange Gecko",
+    "location": "Black Rock Canyon",
+    "mode": "explores",
+    "rate": 7871.8421052631575,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 43,
+    "hits": 104760,
+    "item": "Ruby Scorpion",
+    "location": "Black Rock Canyon",
+    "mode": "explores",
+    "rate": 2436.279069767442,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 120,
+    "hits": 598260,
+    "item": "Runestone 09",
+    "location": "Black Rock Canyon",
+    "mode": "explores",
+    "rate": 4985.5,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 88,
+    "hits": 598260,
+    "item": "Runestone 13",
+    "location": "Black Rock Canyon",
+    "mode": "explores",
+    "rate": 6798.409090909091,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 29432,
+    "hits": 598260,
+    "item": "Salt Rock",
+    "location": "Black Rock Canyon",
+    "mode": "explores",
+    "rate": 20.32685512367491,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 6522,
+    "hits": 55260,
+    "item": "Sandstone",
+    "location": "Black Rock Canyon",
+    "mode": "explores",
+    "rate": 8.472861085556577,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 9013,
+    "hits": 598260,
+    "item": "Shimmer Quartz",
+    "location": "Black Rock Canyon",
+    "mode": "explores",
+    "rate": 66.37745478752912,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 589,
+    "hits": 91148,
+    "item": "Ancient Coin",
+    "location": "Ember Lagoon",
+    "mode": "explores",
+    "rate": 154.75042444821733,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 1,
+    "hits": 91148,
+    "item": "Diamond",
+    "location": "Ember Lagoon",
+    "mode": "explores",
+    "rate": 91148.0,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 3973,
+    "hits": 91148,
+    "item": "Emberstone",
+    "location": "Ember Lagoon",
+    "mode": "explores",
+    "rate": 22.94185753838409,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 6384,
+    "hits": 91148,
+    "item": "Glass Orb",
+    "location": "Ember Lagoon",
+    "mode": "explores",
+    "rate": 14.277568922305765,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 6,
+    "hits": 91148,
+    "item": "Large Chest 01",
+    "location": "Ember Lagoon",
+    "mode": "explores",
+    "rate": 15191.333333333334,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 47,
+    "hits": 91148,
+    "item": "Magicite",
+    "location": "Ember Lagoon",
+    "mode": "explores",
+    "rate": 1939.3191489361702,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 153,
+    "hits": 91148,
+    "item": "Moonstone",
+    "location": "Ember Lagoon",
+    "mode": "explores",
+    "rate": 595.7385620915032,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 1655,
+    "hits": 82148,
+    "item": "Prism Shard",
+    "location": "Ember Lagoon",
+    "mode": "explores",
+    "rate": 49.63625377643505,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 11,
+    "hits": 91148,
+    "item": "Runestone 17",
+    "location": "Ember Lagoon",
+    "mode": "explores",
+    "rate": 8286.181818181818,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 17330,
+    "hits": 89648,
+    "item": "Stone",
+    "location": "Ember Lagoon",
+    "mode": "explores",
+    "rate": 5.172994806693595,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 10921,
+    "hits": 440204,
+    "item": "Antler",
+    "location": "Forest",
+    "mode": "explores",
+    "rate": 40.30803040014651,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 868,
+    "hits": 44204,
+    "item": "Arrowhead",
+    "location": "Forest",
+    "mode": "explores",
+    "rate": 50.92626728110599,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 659,
+    "hits": 41204,
+    "item": "Bird Egg",
+    "location": "Forest",
+    "mode": "explores",
+    "rate": 62.52503793626707,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 42,
+    "hits": 15704,
+    "item": "Fire Ant",
+    "location": "Forest",
+    "mode": "explores",
+    "rate": 373.9047619047619,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 67,
+    "hits": 440204,
+    "item": "Frog",
+    "location": "Forest",
+    "mode": "explores",
+    "rate": 6570.20895522388,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 74,
+    "hits": 440204,
+    "item": "Gold Feather",
+    "location": "Forest",
+    "mode": "explores",
+    "rate": 5948.7027027027025,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 73,
+    "hits": 440204,
+    "item": "Gold Leaf",
+    "location": "Forest",
+    "mode": "explores",
+    "rate": 6030.191780821918,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 14459,
+    "hits": 440204,
+    "item": "Hide",
+    "location": "Forest",
+    "mode": "explores",
+    "rate": 30.444982363925583,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 23199,
+    "hits": 440204,
+    "item": "Mushroom",
+    "location": "Forest",
+    "mode": "explores",
+    "rate": 18.975128238286132,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 21533,
+    "hits": 413204,
+    "item": "Straw",
+    "location": "Forest",
+    "mode": "explores",
+    "rate": 19.189337296242975,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 57948,
+    "hits": 434204,
+    "item": "Wood",
+    "location": "Forest",
+    "mode": "explores",
+    "rate": 7.492993718506247,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 3773,
+    "hits": 274000,
+    "item": "Amethyst",
+    "location": "Highland Hills",
+    "mode": "explores",
+    "rate": 72.62125629472568,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 372,
+    "hits": 274000,
+    "item": "Caterpillar",
+    "location": "Highland Hills",
+    "mode": "explores",
+    "rate": 736.5591397849462,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 12982,
+    "hits": 274000,
+    "item": "Feathers",
+    "location": "Highland Hills",
+    "mode": "explores",
+    "rate": 21.106146972731473,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 12903,
+    "hits": 274000,
+    "item": "Fern Leaf",
+    "location": "Highland Hills",
+    "mode": "explores",
+    "rate": 21.23537161900333,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 6,
+    "hits": 274000,
+    "item": "Medium Chest 01",
+    "location": "Highland Hills",
+    "mode": "explores",
+    "rate": 45666.666666666664,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 12912,
+    "hits": 274000,
+    "item": "Purple Flower",
+    "location": "Highland Hills",
+    "mode": "explores",
+    "rate": 21.220570012391573,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 22,
+    "hits": 274000,
+    "item": "Runestone 14",
+    "location": "Highland Hills",
+    "mode": "explores",
+    "rate": 12454.545454545454,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 11973,
+    "hits": 256000,
+    "item": "Stone",
+    "location": "Highland Hills",
+    "mode": "explores",
+    "rate": 21.381441576881315,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 168,
+    "hits": 274000,
+    "item": "Strange Letter",
+    "location": "Highland Hills",
+    "mode": "explores",
+    "rate": 1630.952380952381,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 12750,
+    "hits": 270000,
+    "item": "Wood",
+    "location": "Highland Hills",
+    "mode": "explores",
+    "rate": 21.176470588235293,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 31,
+    "hits": 1500,
+    "item": "3-leaf Clover",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 48.38709677419355,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 32,
+    "hits": 6000,
+    "item": "4-leaf Clover",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 187.5,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 464,
+    "hits": 9000,
+    "item": "Acorn",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 19.396551724137932,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 7,
+    "hits": 423000,
+    "item": "Amber",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 60428.57142857143,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 21982,
+    "hits": 423000,
+    "item": "Blue Feathers",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 19.24301701392048,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 21982,
+    "hits": 423000,
+    "item": "Fern Leaf",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 19.24301701392048,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 24,
+    "hits": 423000,
+    "item": "Frog",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 17625.0,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 26,
+    "hits": 423000,
+    "item": "Gold Feather",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 16269.23076923077,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 10348,
+    "hits": 423000,
+    "item": "Mushroom",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 40.877464244298416,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 39,
+    "hits": 6000,
+    "item": "Pine Cone",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 153.84615384615384,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 83,
+    "hits": 423000,
+    "item": "Runestone 05",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 5096.385542168675,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 715,
+    "hits": 423000,
+    "item": "Shiny Beetle",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 591.6083916083916,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 630,
+    "hits": 423000,
+    "item": "Spider",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 671.4285714285714,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 10052,
+    "hits": 423000,
+    "item": "Straw",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 42.08117787504974,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 32,
+    "hits": 1500,
+    "item": "Sweet Root",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 46.875,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 6631,
+    "hits": 423000,
+    "item": "Unpolished Ruby",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 63.791283366008145,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 21852,
+    "hits": 423000,
+    "item": "Wood",
+    "location": "Misty Forest",
+    "mode": "explores",
+    "rate": 19.357495881383855,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 1044,
+    "hits": 46250,
+    "item": "Bone",
+    "location": "Small Cave",
+    "mode": "explores",
+    "rate": 44.3007662835249,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 237,
+    "hits": 115000,
+    "item": "Grab Bag 02",
+    "location": "Small Cave",
+    "mode": "explores",
+    "rate": 485.2320675105485,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 4,
+    "hits": 115000,
+    "item": "Model Ship",
+    "location": "Small Cave",
+    "mode": "explores",
+    "rate": 28750.0,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 7367,
+    "hits": 115000,
+    "item": "Mushroom",
+    "location": "Small Cave",
+    "mode": "explores",
+    "rate": 15.610153386724583,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 59,
+    "hits": 115000,
+    "item": "Runestone 04",
+    "location": "Small Cave",
+    "mode": "explores",
+    "rate": 1949.1525423728813,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 16,
+    "hits": 115000,
+    "item": "Skeleton Key",
+    "location": "Small Cave",
+    "mode": "explores",
+    "rate": 7187.5,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 6962,
+    "hits": 45000,
+    "item": "Stone",
+    "location": "Small Cave",
+    "mode": "explores",
+    "rate": 6.463659867854065,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 17845,
+    "hits": 115000,
+    "item": "Wood",
+    "location": "Small Cave",
+    "mode": "explores",
+    "rate": 6.44438217988232,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 225,
+    "hits": 115000,
+    "item": "Wooden Mask",
+    "location": "Small Cave",
+    "mode": "explores",
+    "rate": 511.1111111111111,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 162,
+    "hits": 11816,
+    "item": "Apple",
+    "location": "Small Spring",
+    "mode": "explores",
+    "rate": 72.93827160493827,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 300,
+    "hits": 11816,
+    "item": "Aquamarine",
+    "location": "Small Spring",
+    "mode": "explores",
+    "rate": 39.38666666666666,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 10,
+    "hits": 11816,
+    "item": "Dice",
+    "location": "Small Spring",
+    "mode": "explores",
+    "rate": 1181.6,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 1007,
+    "hits": 11816,
+    "item": "Feathers",
+    "location": "Small Spring",
+    "mode": "explores",
+    "rate": 11.733862959285005,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 455,
+    "hits": 11816,
+    "item": "Mushroom",
+    "location": "Small Spring",
+    "mode": "explores",
+    "rate": 25.96923076923077,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 2,
+    "hits": 11816,
+    "item": "Small Chest 01",
+    "location": "Small Spring",
+    "mode": "explores",
+    "rate": 5908.0,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 35,
+    "hits": 11816,
+    "item": "Snail",
+    "location": "Small Spring",
+    "mode": "explores",
+    "rate": 337.6,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 18,
+    "hits": 11816,
+    "item": "Spectacles",
+    "location": "Small Spring",
+    "mode": "explores",
+    "rate": 656.4444444444445,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 1026,
+    "hits": 11816,
+    "item": "Stone",
+    "location": "Small Spring",
+    "mode": "explores",
+    "rate": 11.516569200779728,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 979,
+    "hits": 11816,
+    "item": "Wood",
+    "location": "Small Spring",
+    "mode": "explores",
+    "rate": 12.069458631256383,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 47,
+    "hits": 2463,
+    "item": "Apple",
+    "location": "Whispering Creek",
+    "mode": "explores",
+    "rate": 52.40425531914894,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 47,
+    "hits": 2463,
+    "item": "Blue Gel",
+    "location": "Whispering Creek",
+    "mode": "explores",
+    "rate": 52.40425531914894,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 8,
+    "hits": 2463,
+    "item": "Lemon",
+    "location": "Whispering Creek",
+    "mode": "explores",
+    "rate": 307.875,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 229,
+    "hits": 2463,
+    "item": "Oak",
+    "location": "Whispering Creek",
+    "mode": "explores",
+    "rate": 10.755458515283843,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 9,
+    "hits": 2463,
+    "item": "Orange",
+    "location": "Whispering Creek",
+    "mode": "explores",
+    "rate": 273.6666666666667,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 26,
+    "hits": 2463,
+    "item": "Red Berries",
+    "location": "Whispering Creek",
+    "mode": "explores",
+    "rate": 94.73076923076923,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 95,
+    "hits": 2463,
+    "item": "Salt Rock",
+    "location": "Whispering Creek",
+    "mode": "explores",
+    "rate": 25.926315789473684,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 87,
+    "hits": 2463,
+    "item": "Slimestone",
+    "location": "Whispering Creek",
+    "mode": "explores",
+    "rate": 28.310344827586206,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 34,
+    "hits": 2463,
+    "item": "Sour Root",
+    "location": "Whispering Creek",
+    "mode": "explores",
+    "rate": 72.44117647058823,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 16,
+    "hits": 2463,
+    "item": "Striped Feather",
+    "location": "Whispering Creek",
+    "mode": "explores",
+    "rate": 153.9375,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 16,
+    "hits": 2463,
+    "item": "Thorns",
+    "location": "Whispering Creek",
+    "mode": "explores",
+    "rate": 153.9375,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 58,
+    "hits": 2463,
+    "item": "Unpolished Garnet",
+    "location": "Whispering Creek",
+    "mode": "explores",
+    "rate": 42.46551724137931,
+    "rate_type": "iron_depot",
+    "runecube": true
+  },
+  {
+    "drops": 7,
+    "hits": 43,
+    "item": "Carp",
+    "location": "Farm Pond",
+    "mode": "fishes",
+    "rate": 6.142857142857143,
+    "rate_type": "manual_fishing",
+    "runecube": true
+  },
+  {
+    "drops": 2,
+    "hits": 43,
+    "item": "Catfish",
+    "location": "Farm Pond",
+    "mode": "fishes",
+    "rate": 21.5,
+    "rate_type": "manual_fishing",
+    "runecube": true
+  },
+  {
+    "drops": 8,
+    "hits": 43,
+    "item": "Drum",
+    "location": "Farm Pond",
+    "mode": "fishes",
+    "rate": 5.375,
+    "rate_type": "manual_fishing",
+    "runecube": true
+  },
+  {
+    "drops": 1,
+    "hits": 43,
+    "item": "Fish Bones",
+    "location": "Farm Pond",
+    "mode": "fishes",
+    "rate": 43.0,
+    "rate_type": "manual_fishing",
+    "runecube": true
+  },
+  {
+    "drops": 2,
+    "hits": 43,
+    "item": "Flier",
+    "location": "Farm Pond",
+    "mode": "fishes",
+    "rate": 21.5,
+    "rate_type": "manual_fishing",
+    "runecube": true
+  },
+  {
+    "drops": 8,
+    "hits": 43,
+    "item": "Largemouth Bass",
+    "location": "Farm Pond",
+    "mode": "fishes",
+    "rate": 5.375,
+    "rate_type": "manual_fishing",
+    "runecube": true
+  },
+  {
+    "drops": 6,
+    "hits": 43,
+    "item": "Trout",
+    "location": "Farm Pond",
+    "mode": "fishes",
+    "rate": 7.166666666666667,
+    "rate_type": "manual_fishing",
+    "runecube": true
+  },
+  {
+    "drops": 9,
+    "hits": 43,
+    "item": "Yellow Perch",
+    "location": "Farm Pond",
+    "mode": "fishes",
+    "rate": 4.777777777777778,
+    "rate_type": "manual_fishing",
+    "runecube": true
   }
 ]

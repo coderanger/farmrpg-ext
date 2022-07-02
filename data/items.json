@@ -6807,7 +6807,20 @@
     "image": "/img/items/9310.png",
     "sellPrice": 7000,
     "xp": 5000,
-    "mastery": true
+    "mastery": true,
+    "craftPrice": 1000,
+    "recipe": [
+      {
+        "id": "178",
+        "name": "Emberstone",
+        "quantity": 5
+      },
+      {
+        "id": "145",
+        "name": "Steel",
+        "quantity": 1
+      }
+    ]
   },
   {
     "name": "Yarn",

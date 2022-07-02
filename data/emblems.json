@@ -1314,6 +1314,12 @@
     "beta": false
   },
   {
+    "firstSeen": 1656718956892,
+    "id": "373",
+    "image": "img/emblems/TowerLevel80FB96.png",
+    "beta": false
+  },
+  {
     "firstSeen": 1651714134582,
     "id": "376",
     "image": "img/emblems/PizzaPepperoni96.png",
@@ -1711,6 +1717,12 @@
     "firstSeen": 1655911641309,
     "id": "440",
     "image": "img/emblems/ShimmerTopaz96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1656614559293,
+    "id": "441",
+    "image": "img/emblems/YellowDragon96.png",
     "beta": false
   },
   {

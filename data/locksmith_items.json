@@ -1713,5 +1713,75 @@
     "itemId": "500",
     "quantityHigh": 5,
     "quantityLow": 5
+  },
+  {
+    "boxId": "603",
+    "group": 0,
+    "itemId": "84",
+    "quantityHigh": 25,
+    "quantityLow": 25
+  },
+  {
+    "boxId": "603",
+    "group": 1,
+    "itemId": "86",
+    "quantityHigh": 10,
+    "quantityLow": 10
+  },
+  {
+    "boxId": "603",
+    "group": 2,
+    "itemId": "112",
+    "quantityHigh": 2,
+    "quantityLow": 2
+  },
+  {
+    "boxId": "603",
+    "group": 3,
+    "itemId": "452",
+    "quantityHigh": 2,
+    "quantityLow": 2
+  },
+  {
+    "boxId": "603",
+    "group": 4,
+    "itemId": "500",
+    "quantityHigh": 5,
+    "quantityLow": 5
+  },
+  {
+    "boxId": "603",
+    "group": 5,
+    "itemId": "508",
+    "quantityHigh": 5,
+    "quantityLow": 5
+  },
+  {
+    "boxId": "603",
+    "group": 6,
+    "itemId": "535",
+    "quantityHigh": 5,
+    "quantityLow": 5
+  },
+  {
+    "boxId": "603",
+    "group": 7,
+    "itemId": "536",
+    "quantityHigh": 5,
+    "quantityLow": 5
+  },
+  {
+    "boxId": "603",
+    "group": 8,
+    "itemId": "587",
+    "quantityHigh": 2,
+    "quantityLow": 2
+  },
+  {
+    "boxId": "603",
+    "group": 9,
+    "itemId": "604",
+    "quantityHigh": 3,
+    "quantityLow": 3
   }
 ]
