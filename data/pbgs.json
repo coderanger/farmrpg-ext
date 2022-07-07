@@ -1,0 +1,117 @@
+[
+  {
+    "image": "bg_def.jpg",
+    "name": "The Farm",
+    "order": 0
+  },
+  {
+    "costItem": "Model Ship",
+    "costQuantity": 10,
+    "image": "bg_20.jpg",
+    "name": "Buddy's Cave",
+    "order": 1
+  },
+  {
+    "costItem": "Winged Amulet",
+    "costQuantity": 25,
+    "image": "bg_31.jpg",
+    "name": "Unknown Lands",
+    "order": 2
+  },
+  {
+    "costItem": "Strange Ring",
+    "costQuantity": 25,
+    "image": "bg_16.jpg",
+    "name": "Doom",
+    "order": 3
+  },
+  {
+    "costItem": "Dragon Skull",
+    "costQuantity": 25,
+    "image": "bg_37.jpg",
+    "name": "The Mountain",
+    "order": 4
+  },
+  {
+    "costItem": "Buddystone",
+    "costQuantity": 100,
+    "image": "bg_42.jpg",
+    "name": "Buddy",
+    "order": 5
+  },
+  {
+    "costItem": "Runestone 11",
+    "costQuantity": 100,
+    "image": "bg_41.jpg",
+    "name": "Corn",
+    "order": 6
+  },
+  {
+    "costItem": "Sturdy Sword",
+    "costQuantity": 250,
+    "image": "bg_17.jpg",
+    "name": "The Forge",
+    "order": 7
+  },
+  {
+    "costItem": "Sand",
+    "costQuantity": 1000,
+    "image": "bg_09.jpg",
+    "name": "Jundland Desert",
+    "order": 8
+  },
+  {
+    "costGold": 100,
+    "image": "bg_25.jpg",
+    "name": "Quiet Shore",
+    "order": 9
+  },
+  {
+    "costGold": 100,
+    "image": "bg_01.jpg",
+    "name": "Misty Forest",
+    "order": 10
+  },
+  {
+    "costGold": 100,
+    "image": "bg_27.jpg",
+    "name": "Castrum Romuska",
+    "order": 11
+  },
+  {
+    "costGold": 100,
+    "image": "bg_36.jpg",
+    "name": "Lost Ruins",
+    "order": 12
+  },
+  {
+    "costGold": 100,
+    "image": "bg_07.jpg",
+    "name": "Stone Road",
+    "order": 13
+  },
+  {
+    "costSilver": 1000000,
+    "image": "bg_26.jpg",
+    "name": "Town at Night",
+    "order": 14
+  },
+  {
+    "costSilver": 10000000,
+    "image": "bg_33.jpg",
+    "name": "Tree of Life",
+    "order": 15
+  },
+  {
+    "costSilver": 100000000,
+    "image": "bg_34.jpg",
+    "name": "Sword Ruins",
+    "order": 16
+  },
+  {
+    "costSilver": 1000000000,
+    "image": "bg_39.jpg",
+    "name": "Lost Merchant",
+    "order": 17
+  }
+]

@@ -1,8 +1,24 @@
 [
   {
+    "firstSeen": 1648147445894,
+    "id": "511",
+    "name": "10 Gold",
+    "image": "/img/items/10gold.png",
+    "givable": true,
+    "rarity": "Very Rare"
+  },
+  {
     "id": "454",
     "name": "100 Gold",
-    "image": "/img/items/goldpouch1.png",
+    "image": "/img/items/goldpouch2.png",
+    "givable": true,
+    "rarity": "Very Rare"
+  },
+  {
+    "firstSeen": 1648147442419,
+    "id": "510",
+    "name": "25 Gold",
+    "image": "/img/items/25gold.png",
     "givable": true,
     "rarity": "Very Rare"
   },
@@ -23,6 +39,22 @@
     "xp": 2000,
     "fleaMarket": 2,
     "rarity": "Common"
+  },
+  {
+    "firstSeen": 1648147451370,
+    "id": "512",
+    "name": "5 Gold",
+    "image": "/img/items/5gold.png",
+    "givable": true,
+    "rarity": "Very Rare"
+  },
+  {
+    "firstSeen": 1648147434300,
+    "id": "509",
+    "name": "50 Gold",
+    "image": "/img/items/goldpouch1.png",
+    "givable": true,
+    "rarity": "Very Rare"
   },
   {
     "name": "Acorn",
@@ -56,10 +88,18 @@
     "xp": 1000,
     "rarity": "Common",
     "mastery": true,
-    "recipe": {
-      "Amethyst": 1,
-      "Iron Ring": 2
-    },
+    "recipe": [
+      {
+        "id": "54",
+        "name": "Amethyst",
+        "quantity": 1
+      },
+      {
+        "id": "95",
+        "name": "Iron Ring",
+        "quantity": 2
+      }
+    ],
     "craftPrice": 50
   },
   {
@@ -70,6 +110,15 @@
     "xp": 1000,
     "fleaMarket": 3,
     "rarity": "Uncommon"
+  },
+  {
+    "firstSeen": 1652992955568,
+    "id": "569",
+    "name": "Anglerfish",
+    "image": "/img/items/pirates_76_t.png",
+    "sellPrice": 350000,
+    "xp": 2500,
+    "rarity": "Common"
   },
   {
     "name": "Antler",
@@ -95,13 +144,26 @@
     "image": "/img/items/8984.png",
     "xp": 100,
     "mastery": true,
-    "recipe": {
-      "Apple": 50,
-      "Glass Bottle": 1,
-      "Orange": 1
-    },
+    "recipe": [
+      {
+        "id": "44",
+        "name": "Apple",
+        "quantity": 40
+      },
+      {
+        "id": "117",
+        "name": "Glass Bottle",
+        "quantity": 1
+      },
+      {
+        "id": "61",
+        "name": "Orange",
+        "quantity": 1
+      }
+    ],
     "craftPrice": 5000,
-    "givable": true
+    "givable": true,
+    "fleaMarket": 15
   },
   {
     "name": "Aquamarine",
@@ -120,12 +182,47 @@
     "xp": 1000,
     "rarity": "Common",
     "mastery": true,
-    "recipe": {
-      "Aquamarine": 1,
-      "Iron Ring": 1,
-      "Mushroom Paste": 1
-    },
+    "recipe": [
+      {
+        "id": "41",
+        "name": "Aquamarine",
+        "quantity": 1
+      },
+      {
+        "id": "95",
+        "name": "Iron Ring",
+        "quantity": 1
+      },
+      {
+        "id": "75",
+        "name": "Mushroom Paste",
+        "quantity": 1
+      }
+    ],
     "craftPrice": 50
+  },
+  {
+    "firstSeen": 1647879718660,
+    "name": "Arnold Palmer",
+    "id": "508",
+    "image": "/img/items/ap.png",
+    "craftPrice": 100,
+    "xp": 3500,
+    "mastery": true,
+    "recipe": [
+      {
+        "id": "185",
+        "name": "Iced Tea",
+        "quantity": 1
+      },
+      {
+        "id": "86",
+        "name": "Lemonade",
+        "quantity": 20
+      }
+    ],
+    "rarity": "Very Rare",
+    "givable": true
   },
   {
     "name": "Arrowhead",
@@ -134,7 +231,8 @@
     "sellPrice": 150,
     "xp": 150,
     "fleaMarket": 1,
-    "rarity": "Common"
+    "rarity": "Common",
+    "givable": true
   },
   {
     "name": "Axe",
@@ -144,13 +242,33 @@
     "xp": 450,
     "givable": true,
     "mastery": true,
-    "recipe": {
-      "Board": 1,
-      "Iron": 1,
-      "Mushroom Paste": 1,
-      "Nails": 2,
-      "Stone": 1
-    },
+    "recipe": [
+      {
+        "id": "21",
+        "name": "Board",
+        "quantity": 1
+      },
+      {
+        "id": "22",
+        "name": "Iron",
+        "quantity": 1
+      },
+      {
+        "id": "75",
+        "name": "Mushroom Paste",
+        "quantity": 1
+      },
+      {
+        "id": "38",
+        "name": "Nails",
+        "quantity": 2
+      },
+      {
+        "id": "40",
+        "name": "Stone",
+        "quantity": 1
+      }
+    ],
     "craftPrice": 25
   },
   {
@@ -177,6 +295,13 @@
     "event": true,
     "sellPrice": 1750,
     "xp": 1750
+  },
+  {
+    "firstSeen": 1648593733255,
+    "id": "514",
+    "name": "Bahltruvian Scales",
+    "image": "/img/items/2392.png",
+    "rarity": "Super Rare"
   },
   {
     "name": "Barracuda",
@@ -229,6 +354,13 @@
     "rarity": "Common"
   },
   {
+    "firstSeen": 1651887542639,
+    "name": "Birthday Present",
+    "id": "547",
+    "image": "/img/items/present03.png",
+    "rarity": ""
+  },
+  {
     "name": "Black Powder",
     "id": "104",
     "image": "/img/items/powder.png",
@@ -236,9 +368,13 @@
     "xp": 1500,
     "givable": true,
     "mastery": true,
-    "recipe": {
-      "Coal": 3
-    },
+    "recipe": [
+      {
+        "id": "103",
+        "name": "Coal",
+        "quantity": 3
+      }
+    ],
     "craftPrice": 50
   },
   {
@@ -256,7 +392,8 @@
     "image": "/img/items/7842.PNG",
     "sellPrice": 75,
     "xp": 475,
-    "rarity": "Common"
+    "rarity": "Common",
+    "mastery": true
   },
   {
     "name": "Blue Crab",
@@ -267,6 +404,28 @@
     "givable": true,
     "rarity": "Common",
     "mastery": true
+  },
+  {
+    "firstSeen": 1649628671886,
+    "name": "Blue Dye",
+    "id": "535",
+    "image": "/img/items/bluedye.png",
+    "sellPrice": 2500,
+    "craftPrice": 250,
+    "xp": 4000,
+    "mastery": true,
+    "recipe": [
+      {
+        "id": "171",
+        "name": "Blue Feathers",
+        "quantity": 3
+      },
+      {
+        "id": "117",
+        "name": "Glass Bottle",
+        "quantity": 1
+      }
+    ]
   },
   {
     "name": "Blue Feathers",
@@ -285,12 +444,41 @@
     "rarity": "Common"
   },
   {
+    "firstSeen": 1651642018577,
+    "id": "546",
+    "name": "Blue Milk",
+    "image": "/img/items/bluemilk.png?2",
+    "xp": 5
+  },
+  {
     "id": "406",
     "name": "Blue Ornament",
     "image": "/img/items/cr_t_03_f.png",
     "event": true,
     "sellPrice": 250,
     "xp": 1750
+  },
+  {
+    "firstSeen": 1649628671889,
+    "name": "Blue Purse",
+    "id": "540",
+    "image": "/img/items/bluepurse.png",
+    "sellPrice": 110000,
+    "craftPrice": 850,
+    "xp": 5500,
+    "mastery": true,
+    "recipe": [
+      {
+        "id": "535",
+        "name": "Blue Dye",
+        "quantity": 1
+      },
+      {
+        "id": "122",
+        "name": "Coin Purse",
+        "quantity": 1
+      }
+    ]
   },
   {
     "name": "Blue Sea Bass",
@@ -311,12 +499,22 @@
     "mastery": true
   },
   {
+    "firstSeen": 1652320422801,
+    "id": "568",
+    "name": "Blue Spritz",
+    "image": "/img/items/bluedrink.png",
+    "event": true,
+    "xp": 2500,
+    "rarity": "Uncommon"
+  },
+  {
     "name": "Blue Tiger Fish",
     "id": "200",
     "image": "/img/items/5772.png",
     "sellPrice": 1500,
     "xp": 1500,
-    "rarity": "Common"
+    "rarity": "Common",
+    "mastery": true
   },
   {
     "name": "Bluegill",
@@ -325,7 +523,8 @@
     "sellPrice": 75,
     "xp": 475,
     "givable": true,
-    "rarity": "Common"
+    "rarity": "Common",
+    "mastery": true
   },
   {
     "name": "Board",
@@ -333,9 +532,13 @@
     "image": "/img/items/5885.png",
     "xp": 25,
     "mastery": true,
-    "recipe": {
-      "Wood": 5
-    },
+    "recipe": [
+      {
+        "id": "35",
+        "name": "Wood",
+        "quantity": 5
+      }
+    ],
     "rarity": "",
     "craftPrice": 1
   },
@@ -354,12 +557,20 @@
     "id": "87",
     "image": "/img/items/7741.PNG",
     "sellPrice": 50,
-    "xp": 400
+    "xp": 400,
+    "mastery": true
   },
   {
     "name": "Book of Clues",
     "id": "183",
     "image": "/img/items/6979.png",
+    "xp": 1000
+  },
+  {
+    "firstSeen": 1652125717663,
+    "id": "552",
+    "name": "Book of Fish",
+    "image": "/img/items/bookoffish.png",
     "xp": 1000
   },
   {
@@ -411,11 +622,23 @@
     "sellPrice": 150,
     "xp": 300,
     "mastery": true,
-    "recipe": {
-      "Black Powder": 1,
-      "Feathers": 2,
-      "Wood": 3
-    },
+    "recipe": [
+      {
+        "id": "104",
+        "name": "Black Powder",
+        "quantity": 1
+      },
+      {
+        "id": "42",
+        "name": "Feathers",
+        "quantity": 2
+      },
+      {
+        "id": "35",
+        "name": "Wood",
+        "quantity": 3
+      }
+    ],
     "rarity": "",
     "craftPrice": 100
   },
@@ -461,16 +684,33 @@
     ]
   },
   {
+    "firstSeen": 1656539985339,
+    "id": "593",
+    "name": "Broken Pipe",
+    "image": "/img/items/9389.PNG",
+    "sellPrice": 2500,
+    "xp": 2500,
+    "rarity": "Common"
+  },
+  {
     "name": "Broom",
     "id": "129",
     "image": "/img/items/5717.PNG",
     "sellPrice": 300,
     "xp": 250,
     "mastery": true,
-    "recipe": {
-      "Board": 1,
-      "Straw": 1
-    },
+    "recipe": [
+      {
+        "id": "21",
+        "name": "Board",
+        "quantity": 1
+      },
+      {
+        "id": "128",
+        "name": "Straw",
+        "quantity": 1
+      }
+    ],
     "craftPrice": 15
   },
   {
@@ -481,10 +721,18 @@
     "xp": 250,
     "givable": true,
     "mastery": true,
-    "recipe": {
-      "Board": 5,
-      "Iron": 1
-    },
+    "recipe": [
+      {
+        "id": "21",
+        "name": "Board",
+        "quantity": 5
+      },
+      {
+        "id": "22",
+        "name": "Iron",
+        "quantity": 1
+      }
+    ],
     "craftPrice": 5
   },
   {
@@ -494,6 +742,15 @@
     "sellPrice": 1750,
     "xp": 1750,
     "rarity": "Super Rare"
+  },
+  {
+    "firstSeen": 1648756088259,
+    "id": "520",
+    "name": "Bunny Ears",
+    "image": "/img/items/ears.png",
+    "event": true,
+    "xp": 2500,
+    "rarity": "Uncommon"
   },
   {
     "name": "Cabbage",
@@ -717,6 +974,15 @@
     "fleaMarket": 2
   },
   {
+    "firstSeen": 1650046739279,
+    "id": "541",
+    "name": "Chocolate Bunny",
+    "image": "/img/items/chocobunny.png",
+    "event": true,
+    "xp": 2500,
+    "rarity": "Uncommon"
+  },
+  {
     "name": "Christmas Present 01",
     "id": "399",
     "image": "/img/items/7468.png",
@@ -846,12 +1112,28 @@
     "sellPrice": 5000,
     "xp": 25,
     "mastery": true,
-    "recipe": {
-      "Bucket": 1,
-      "Grubs": 7,
-      "Minnows": 4,
-      "Worms": 10
-    },
+    "recipe": [
+      {
+        "id": "23",
+        "name": "Bucket",
+        "quantity": 1
+      },
+      {
+        "id": "191",
+        "name": "Grubs",
+        "quantity": 7
+      },
+      {
+        "id": "192",
+        "name": "Minnows",
+        "quantity": 4
+      },
+      {
+        "id": "18",
+        "name": "Worms",
+        "quantity": 10
+      }
+    ],
     "craftPrice": 50
   },
   {
@@ -903,10 +1185,18 @@
     "sellPrice": 250,
     "xp": 750,
     "mastery": true,
-    "recipe": {
-      "Iron Ring": 1,
-      "Leather": 2
-    },
+    "recipe": [
+      {
+        "id": "95",
+        "name": "Iron Ring",
+        "quantity": 1
+      },
+      {
+        "id": "110",
+        "name": "Leather",
+        "quantity": 2
+      }
+    ],
     "craftPrice": 25
   },
   {
@@ -924,16 +1214,49 @@
     "image": "/img/items/4919.png",
     "xp": 50000,
     "rarity": "Super Rare",
-    "recipe": {
-      "Aquamarine": 1,
-      "Glass Orb": 1,
-      "Iron Ring": 1,
-      "Magna Core": 1,
-      "Ruby": 1,
-      "Small Screw": 4,
-      "Twine": 1,
-      "Wood": 2
-    }
+    "recipe": [
+      {
+        "id": "41",
+        "name": "Aquamarine",
+        "quantity": 1
+      },
+      {
+        "id": "78",
+        "name": "Glass Orb",
+        "quantity": 1
+      },
+      {
+        "id": "95",
+        "name": "Iron Ring",
+        "quantity": 1
+      },
+      {
+        "id": "340",
+        "name": "Magna Core",
+        "quantity": 1
+      },
+      {
+        "id": "94",
+        "name": "Ruby",
+        "quantity": 1
+      },
+      {
+        "id": "339",
+        "name": "Small Screw",
+        "quantity": 4
+      },
+      {
+        "id": "163",
+        "name": "Twine",
+        "quantity": 1
+      },
+      {
+        "id": "35",
+        "name": "Wood",
+        "quantity": 2
+      }
+    ],
+    "craftPrice": 250000
   },
   {
     "name": "Conch Shell",
@@ -953,6 +1276,15 @@
     "rarity": "Uncommon"
   },
   {
+    "firstSeen": 1656539980507,
+    "id": "591",
+    "name": "Copper Wire",
+    "image": "/img/items/9327.PNG",
+    "sellPrice": 2500,
+    "xp": 2500,
+    "rarity": "Uncommon"
+  },
+  {
     "name": "Corn",
     "id": "65",
     "image": "/img/items/8288.png",
@@ -961,6 +1293,22 @@
     "growthTime": 14400,
     "mastery": true,
     "rarity": "Everywhere"
+  },
+  {
+    "firstSeen": 1652320417848,
+    "id": "567",
+    "name": "Corn Kabob",
+    "image": "/img/items/cornkabob.png",
+    "event": true,
+    "xp": 2500,
+    "rarity": "Uncommon"
+  },
+  {
+    "firstSeen": 1656540023485,
+    "id": "602",
+    "name": "Corn Prize Bag",
+    "image": "/img/items/bagofcorn.png",
+    "rarity": "Uncommon"
   },
   {
     "name": "Corn Seeds",
@@ -1006,6 +1354,16 @@
     ]
   },
   {
+    "firstSeen": 1652992974898,
+    "id": "574",
+    "name": "Crab",
+    "image": "/img/items/3296.PNG",
+    "sellPrice": 8500,
+    "xp": 7750,
+    "rarity": "Common",
+    "mastery": true
+  },
+  {
     "id": "475",
     "name": "Crab Claw",
     "image": "/img/items/crabclaw.png",
@@ -1022,6 +1380,44 @@
     "sellPrice": 15,
     "xp": 250,
     "givable": true
+  },
+  {
+    "firstSeen": 1654114892090,
+    "name": "Crossbow",
+    "id": "585",
+    "image": "/img/items/8976.png",
+    "sellPrice": 125000,
+    "craftPrice": 28000,
+    "xp": 2500,
+    "rarity": "Rare",
+    "mastery": true,
+    "recipe": [
+      {
+        "id": "108",
+        "name": "Arrowhead",
+        "quantity": 1
+      },
+      {
+        "id": "22",
+        "name": "Iron",
+        "quantity": 2
+      },
+      {
+        "id": "95",
+        "name": "Iron Ring",
+        "quantity": 2
+      },
+      {
+        "id": "303",
+        "name": "Oak",
+        "quantity": 3
+      },
+      {
+        "id": "392",
+        "name": "Steel Wire",
+        "quantity": 2
+      }
+    ]
   },
   {
     "name": "Cucumber",
@@ -1058,6 +1454,14 @@
     "rarity": "Very Rare"
   },
   {
+    "firstSeen": 1652992999748,
+    "id": "581",
+    "name": "Cutlass",
+    "image": "/img/items/pirates_47_t.png",
+    "xp": 2500,
+    "rarity": "Uncommon"
+  },
+  {
     "id": "383",
     "name": "Cyclops Spider",
     "image": "/img/items/4080.png",
@@ -1089,6 +1493,13 @@
     "image": "/img/items/7999.png",
     "sellPrice": 100000,
     "xp": 5000,
+    "rarity": "Super Rare"
+  },
+  {
+    "firstSeen": 1648590375294,
+    "id": "513",
+    "name": "Diary of O'Dynn",
+    "image": "/img/items/pt_t_18.png",
     "rarity": "Super Rare"
   },
   {
@@ -1135,6 +1546,14 @@
     "rarity": "Uncommon"
   },
   {
+    "firstSeen": 1651438800685,
+    "id": "548",
+    "name": "Drink Bundle",
+    "image": "/img/items/juices.png",
+    "xp": 1,
+    "rarity": "Uncommon"
+  },
+  {
     "name": "Drum",
     "id": "17",
     "image": "/img/items/7718.PNG",
@@ -1142,6 +1561,128 @@
     "xp": 100,
     "givable": true,
     "mastery": true
+  },
+  {
+    "firstSeen": 1648756091188,
+    "id": "521",
+    "name": "Egg 01",
+    "image": "/img/items/egg01.png",
+    "event": true,
+    "xp": 2300,
+    "givable": true,
+    "rarity": "Very Rare"
+  },
+  {
+    "firstSeen": 1648756094288,
+    "id": "522",
+    "name": "Egg 02",
+    "image": "/img/items/egg02.png",
+    "event": true,
+    "xp": 2300,
+    "givable": true,
+    "rarity": "Very Rare"
+  },
+  {
+    "firstSeen": 1648756097430,
+    "id": "523",
+    "name": "Egg 03",
+    "image": "/img/items/egg03.png",
+    "event": true,
+    "xp": 2300,
+    "givable": true,
+    "rarity": "Very Rare"
+  },
+  {
+    "firstSeen": 1648756101482,
+    "id": "524",
+    "name": "Egg 04",
+    "image": "/img/items/egg04.png",
+    "event": true,
+    "xp": 2300,
+    "givable": true,
+    "rarity": "Very Rare"
+  },
+  {
+    "firstSeen": 1648756105908,
+    "id": "525",
+    "name": "Egg 05",
+    "image": "/img/items/egg05.png",
+    "event": true,
+    "xp": 2300,
+    "givable": true,
+    "rarity": "Very Rare"
+  },
+  {
+    "firstSeen": 1648756077995,
+    "id": "518",
+    "name": "Egg 06",
+    "image": "/img/items/egg06.png",
+    "event": true,
+    "xp": 2300,
+    "givable": true,
+    "rarity": "Very Rare"
+  },
+  {
+    "firstSeen": 1648756109694,
+    "id": "526",
+    "name": "Egg 07",
+    "image": "/img/items/egg07.png",
+    "event": true,
+    "xp": 2300,
+    "givable": true,
+    "rarity": "Very Rare",
+    "lastDropped": 1651381200000
+  },
+  {
+    "firstSeen": 1648756117648,
+    "id": "527",
+    "name": "Egg 08",
+    "image": "/img/items/egg08.png",
+    "event": true,
+    "xp": 2300,
+    "givable": true,
+    "rarity": "Very Rare",
+    "lastDropped": 1651381200000
+  },
+  {
+    "firstSeen": 1648756121396,
+    "id": "528",
+    "name": "Egg 09",
+    "image": "/img/items/egg09.png",
+    "event": true,
+    "xp": 2300,
+    "givable": true,
+    "rarity": "Very Rare"
+  },
+  {
+    "firstSeen": 1648756125605,
+    "id": "529",
+    "name": "Egg 10",
+    "image": "/img/items/egg10.png",
+    "event": true,
+    "xp": 2300,
+    "givable": true,
+    "rarity": "Very Rare"
+  },
+  {
+    "firstSeen": 1648756129358,
+    "id": "530",
+    "name": "Egg 11",
+    "image": "/img/items/egg11.png",
+    "event": true,
+    "xp": 2300,
+    "givable": true,
+    "rarity": "Very Rare"
+  },
+  {
+    "firstSeen": 1648756132519,
+    "id": "531",
+    "name": "Egg 12",
+    "image": "/img/items/egg12.png",
+    "event": true,
+    "xp": 2300,
+    "givable": true,
+    "rarity": "Very Rare"
   },
   {
     "name": "Eggplant",
@@ -1201,10 +1742,18 @@
     "xp": 450,
     "rarity": "Common",
     "mastery": true,
-    "recipe": {
-      "Stone": 2,
-      "Unpolished Emerald": 2
-    },
+    "recipe": [
+      {
+        "id": "40",
+        "name": "Stone",
+        "quantity": 2
+      },
+      {
+        "id": "142",
+        "name": "Unpolished Emerald",
+        "quantity": 2
+      }
+    ],
     "craftPrice": 100
   },
   {
@@ -1215,11 +1764,23 @@
     "xp": 2500,
     "rarity": "Common",
     "mastery": true,
-    "recipe": {
-      "Emerald": 1,
-      "Iron Ring": 1,
-      "Mushroom Paste": 1
-    },
+    "recipe": [
+      {
+        "id": "143",
+        "name": "Emerald",
+        "quantity": 1
+      },
+      {
+        "id": "95",
+        "name": "Iron Ring",
+        "quantity": 1
+      },
+      {
+        "id": "75",
+        "name": "Mushroom Paste",
+        "quantity": 1
+      }
+    ],
     "craftPrice": 300
   },
   {
@@ -1239,12 +1800,28 @@
     "craftPrice": 1500,
     "xp": 500,
     "mastery": true,
-    "recipe": {
-      "Glass Orb": 1,
-      "Hammer": 1,
-      "Iron Ring": 1,
-      "Slimestone": 2
-    }
+    "recipe": [
+      {
+        "id": "78",
+        "name": "Glass Orb",
+        "quantity": 1
+      },
+      {
+        "id": "236",
+        "name": "Hammer",
+        "quantity": 1
+      },
+      {
+        "id": "95",
+        "name": "Iron Ring",
+        "quantity": 1
+      },
+      {
+        "id": "302",
+        "name": "Slimestone",
+        "quantity": 2
+      }
+    ]
   },
   {
     "name": "Explosive",
@@ -1253,12 +1830,28 @@
     "sellPrice": 300,
     "xp": 350,
     "mastery": true,
-    "recipe": {
-      "Black Powder": 2,
-      "Board": 3,
-      "Feathers": 1,
-      "Nails": 6
-    },
+    "recipe": [
+      {
+        "id": "104",
+        "name": "Black Powder",
+        "quantity": 2
+      },
+      {
+        "id": "21",
+        "name": "Board",
+        "quantity": 3
+      },
+      {
+        "id": "42",
+        "name": "Feathers",
+        "quantity": 1
+      },
+      {
+        "id": "38",
+        "name": "Nails",
+        "quantity": 6
+      }
+    ],
     "craftPrice": 100
   },
   {
@@ -1287,12 +1880,28 @@
     "xp": 2500,
     "rarity": "Rare",
     "mastery": true,
-    "recipe": {
-      "Leather": 2,
-      "Mushroom Paste": 2,
-      "Oak": 15,
-      "Yarn": 4
-    },
+    "recipe": [
+      {
+        "id": "110",
+        "name": "Leather",
+        "quantity": 2
+      },
+      {
+        "id": "75",
+        "name": "Mushroom Paste",
+        "quantity": 2
+      },
+      {
+        "id": "303",
+        "name": "Oak",
+        "quantity": 15
+      },
+      {
+        "id": "427",
+        "name": "Yarn",
+        "quantity": 4
+      }
+    ],
     "craftPrice": 20000
   },
   {
@@ -1302,12 +1911,28 @@
     "sellPrice": 65000,
     "xp": 55000,
     "mastery": true,
-    "recipe": {
-      "Iron": 4,
-      "Mushroom Paste": 3,
-      "Oak": 5,
-      "Steel Wire": 6
-    },
+    "recipe": [
+      {
+        "id": "22",
+        "name": "Iron",
+        "quantity": 4
+      },
+      {
+        "id": "75",
+        "name": "Mushroom Paste",
+        "quantity": 3
+      },
+      {
+        "id": "303",
+        "name": "Oak",
+        "quantity": 5
+      },
+      {
+        "id": "392",
+        "name": "Steel Wire",
+        "quantity": 6
+      }
+    ],
     "craftPrice": 8550
   },
   {
@@ -1318,11 +1943,23 @@
     "xp": 5000,
     "rarity": "Uncommon",
     "mastery": true,
-    "recipe": {
-      "Iron": 1,
-      "Iron Ring": 3,
-      "Wood": 2
-    },
+    "recipe": [
+      {
+        "id": "22",
+        "name": "Iron",
+        "quantity": 1
+      },
+      {
+        "id": "95",
+        "name": "Iron Ring",
+        "quantity": 3
+      },
+      {
+        "id": "35",
+        "name": "Wood",
+        "quantity": 2
+      }
+    ],
     "craftPrice": 150
   },
   {
@@ -1381,12 +2018,25 @@
     "xp": 1500,
     "givable": true,
     "mastery": true,
-    "recipe": {
-      "Antler": 1,
-      "Iron": 4,
-      "Rope": 2
-    },
-    "craftPrice": 100
+    "recipe": [
+      {
+        "id": "170",
+        "name": "Antler",
+        "quantity": 1
+      },
+      {
+        "id": "22",
+        "name": "Iron",
+        "quantity": 4
+      },
+      {
+        "id": "193",
+        "name": "Rope",
+        "quantity": 2
+      }
+    ],
+    "craftPrice": 100,
+    "fleaMarket": 3
   },
   {
     "name": "Flame Orb",
@@ -1448,11 +2098,23 @@
     "xp": 2500,
     "rarity": "Uncommon",
     "mastery": true,
-    "recipe": {
-      "Small Gear": 1,
-      "Small Screw": 7,
-      "Steel": 20
-    },
+    "recipe": [
+      {
+        "id": "342",
+        "name": "Small Gear",
+        "quantity": 1
+      },
+      {
+        "id": "339",
+        "name": "Small Screw",
+        "quantity": 7
+      },
+      {
+        "id": "145",
+        "name": "Steel",
+        "quantity": 20
+      }
+    ],
     "craftPrice": 50000
   },
   {
@@ -1465,13 +2127,21 @@
     "rarity": "Uncommon"
   },
   {
+    "firstSeen": 1650485248728,
+    "id": "544",
+    "name": "Friendship Bracelet",
+    "image": "/img/items/3788.png",
+    "rarity": "Super Rare"
+  },
+  {
     "name": "Frog",
     "id": "479",
     "image": "/img/items/frog.png",
     "sellPrice": 2500,
     "xp": 2500,
     "rarity": "Rare",
-    "firstSeen": 1642564800000
+    "firstSeen": 1642564800000,
+    "fleaMarket": 10
   },
   {
     "name": "Garnet",
@@ -1481,10 +2151,18 @@
     "xp": 15000,
     "rarity": "Common",
     "mastery": true,
-    "recipe": {
-      "Stone": 1,
-      "Unpolished Garnet": 2
-    },
+    "recipe": [
+      {
+        "id": "40",
+        "name": "Stone",
+        "quantity": 1
+      },
+      {
+        "id": "318",
+        "name": "Unpolished Garnet",
+        "quantity": 2
+      }
+    ],
     "craftPrice": 750
   },
   {
@@ -1494,11 +2172,23 @@
     "sellPrice": 30000,
     "xp": 30000,
     "mastery": true,
-    "recipe": {
-      "Garnet": 1,
-      "Iron Ring": 1,
-      "Mushroom Paste": 1
-    },
+    "recipe": [
+      {
+        "id": "317",
+        "name": "Garnet",
+        "quantity": 1
+      },
+      {
+        "id": "95",
+        "name": "Iron Ring",
+        "quantity": 1
+      },
+      {
+        "id": "75",
+        "name": "Mushroom Paste",
+        "quantity": 1
+      }
+    ],
     "rarity": "",
     "craftPrice": 1500
   },
@@ -1519,7 +2209,8 @@
     "sellPrice": 5000,
     "xp": 3500,
     "rarity": "Uncommon",
-    "mastery": true
+    "mastery": true,
+    "fleaMarket": 15
   },
   {
     "name": "Gift Basket 01",
@@ -1558,10 +2249,18 @@
     "xp": 150,
     "rarity": "Common",
     "mastery": true,
-    "recipe": {
-      "Glass Orb": 1,
-      "Stone": 1
-    },
+    "recipe": [
+      {
+        "id": "78",
+        "name": "Glass Orb",
+        "quantity": 1
+      },
+      {
+        "id": "40",
+        "name": "Stone",
+        "quantity": 1
+      }
+    ],
     "craftPrice": 25
   },
   {
@@ -1573,10 +2272,18 @@
     "givable": true,
     "rarity": "Common",
     "mastery": true,
-    "recipe": {
-      "Shimmer Stone": 2,
-      "Stone": 1
-    },
+    "recipe": [
+      {
+        "id": "77",
+        "name": "Shimmer Stone",
+        "quantity": 2
+      },
+      {
+        "id": "40",
+        "name": "Stone",
+        "quantity": 1
+      }
+    ],
     "craftPrice": 10
   },
   {
@@ -1585,7 +2292,8 @@
     "image": "/img/items/5766.png",
     "sellPrice": 1000,
     "xp": 1000,
-    "rarity": "Common"
+    "rarity": "Common",
+    "mastery": true
   },
   {
     "id": "467",
@@ -1593,7 +2301,8 @@
     "image": "/img/items/goldboot.png?1",
     "sellPrice": 500000,
     "xp": 5000,
-    "rarity": "Super Rare"
+    "rarity": "Super Rare",
+    "manualFishingOnly": true
   },
   {
     "name": "Gold Carrot",
@@ -1620,7 +2329,8 @@
     "xp": 550,
     "givable": true,
     "rarity": "Common",
-    "mastery": true
+    "mastery": true,
+    "manualFishingOnly": true
   },
   {
     "id": "459",
@@ -1629,7 +2339,8 @@
     "sellPrice": 100000,
     "xp": 15000,
     "rarity": "Uncommon",
-    "mastery": true
+    "mastery": true,
+    "manualFishingOnly": true
   },
   {
     "name": "Gold Crab",
@@ -1663,7 +2374,17 @@
     "sellPrice": 120,
     "xp": 120,
     "givable": true,
-    "rarity": "Common"
+    "rarity": "Common",
+    "mastery": true,
+    "manualFishingOnly": true
+  },
+  {
+    "firstSeen": 1649189265164,
+    "id": "533",
+    "name": "Gold Egg",
+    "image": "/img/items/egg_gold.png",
+    "event": true,
+    "rarity": "Super Rare"
   },
   {
     "name": "Gold Eggplant",
@@ -1698,7 +2419,28 @@
     "sellPrice": 2500,
     "xp": 500,
     "rarity": "Common",
-    "mastery": true
+    "mastery": true,
+    "manualFishingOnly": true
+  },
+  {
+    "firstSeen": 1647482867996,
+    "id": "507",
+    "name": "Gold Horseshoe",
+    "image": "/img/items/goldhs.png",
+    "event": true,
+    "xp": 2500,
+    "rarity": "Uncommon"
+  },
+  {
+    "firstSeen": 1652992995711,
+    "id": "580",
+    "name": "Gold Jelly",
+    "image": "/img/items/goldjelly.png",
+    "sellPrice": 12000,
+    "xp": 9500,
+    "rarity": "Uncommon",
+    "mastery": true,
+    "manualFishingOnly": true
   },
   {
     "name": "Gold Leaf",
@@ -1724,7 +2466,8 @@
     "xp": 60,
     "givable": true,
     "rarity": "Uncommon",
-    "growthTime": 180
+    "growthTime": 180,
+    "fleaMarket": 4
   },
   {
     "name": "Gold Pepper Seeds",
@@ -1741,7 +2484,8 @@
     "xp": 20,
     "givable": true,
     "fleaMarket": 2,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "growthTime": 60
   },
   {
     "id": "465",
@@ -1750,7 +2494,17 @@
     "sellPrice": 3000,
     "xp": 600,
     "rarity": "Common",
-    "mastery": true
+    "mastery": true,
+    "manualFishingOnly": true
+  },
+  {
+    "firstSeen": 1647482851023,
+    "id": "504",
+    "name": "Gold Shamrock",
+    "image": "/img/items/goldclover.png",
+    "event": true,
+    "xp": 5000,
+    "rarity": "Super Rare"
   },
   {
     "name": "Gold Trout",
@@ -1760,7 +2514,8 @@
     "xp": 350,
     "givable": true,
     "rarity": "Common",
-    "mastery": true
+    "mastery": true,
+    "manualFishingOnly": true
   },
   {
     "id": "461",
@@ -1768,7 +2523,9 @@
     "image": "/img/items/goldfin.png",
     "sellPrice": 65000,
     "xp": 6500,
-    "rarity": "Common"
+    "rarity": "Common",
+    "mastery": true,
+    "manualFishingOnly": true
   },
   {
     "name": "Goldfish",
@@ -1786,7 +2543,8 @@
     "xp": 525,
     "givable": true,
     "rarity": "Common",
-    "mastery": true
+    "mastery": true,
+    "manualFishingOnly": true
   },
   {
     "id": "466",
@@ -1794,7 +2552,9 @@
     "image": "/img/items/goldjack.png?1",
     "sellPrice": 5000,
     "xp": 500,
-    "rarity": "Common"
+    "rarity": "Common",
+    "mastery": true,
+    "manualFishingOnly": true
   },
   {
     "id": "464",
@@ -1803,7 +2563,8 @@
     "sellPrice": 4000,
     "xp": 400,
     "rarity": "Common",
-    "mastery": true
+    "mastery": true,
+    "manualFishingOnly": true
   },
   {
     "name": "Gouda",
@@ -1865,16 +2626,34 @@
     "rarity": "Uncommon"
   },
   {
+    "firstSeen": 1653506326772,
+    "id": "583",
+    "name": "Grab Bag 08",
+    "image": "/img/items/4497.png",
+    "xp": 1,
+    "rarity": "Uncommon"
+  },
+  {
     "name": "Grape Juice",
     "id": "112",
     "image": "/img/items/grapejuice.png",
     "xp": 100,
     "mastery": true,
-    "recipe": {
-      "Glass Bottle": 1,
-      "Grapes": 200
-    },
-    "craftPrice": 500
+    "recipe": [
+      {
+        "id": "117",
+        "name": "Glass Bottle",
+        "quantity": 1
+      },
+      {
+        "id": "120",
+        "name": "Grapes",
+        "quantity": 200
+      }
+    ],
+    "craftPrice": 500,
+    "sellPrice": 60000,
+    "fleaMarket": 25
   },
   {
     "name": "Grapes",
@@ -1895,6 +2674,16 @@
     "rarity": "Uncommon"
   },
   {
+    "firstSeen": 1652992977780,
+    "id": "575",
+    "name": "Green Barracuda",
+    "image": "/img/items/3284.png",
+    "sellPrice": 9000,
+    "xp": 8000,
+    "rarity": "Common",
+    "mastery": true
+  },
+  {
     "name": "Green Chromis",
     "id": "56",
     "image": "/img/items/7828.PNG",
@@ -1911,12 +2700,28 @@
     "sellPrice": 125000,
     "xp": 125000,
     "mastery": true,
-    "recipe": {
-      "Cotton": 1,
-      "Green Dye": 10,
-      "Leather": 5,
-      "Twine": 10
-    },
+    "recipe": [
+      {
+        "id": "254",
+        "name": "Cotton",
+        "quantity": 1
+      },
+      {
+        "id": "203",
+        "name": "Green Dye",
+        "quantity": 10
+      },
+      {
+        "id": "110",
+        "name": "Leather",
+        "quantity": 5
+      },
+      {
+        "id": "163",
+        "name": "Twine",
+        "quantity": 10
+      }
+    ],
     "craftPrice": 2500
   },
   {
@@ -1926,12 +2731,25 @@
     "sellPrice": 150,
     "xp": 200,
     "mastery": true,
-    "recipe": {
-      "Green Parchment": 1,
-      "Mushroom Paste": 1,
-      "White Parchment": 1
-    },
-    "rarity": ""
+    "recipe": [
+      {
+        "id": "74",
+        "name": "Green Parchment",
+        "quantity": 1
+      },
+      {
+        "id": "75",
+        "name": "Mushroom Paste",
+        "quantity": 1
+      },
+      {
+        "id": "81",
+        "name": "White Parchment",
+        "quantity": 1
+      }
+    ],
+    "rarity": "",
+    "craftPrice": 10
   },
   {
     "name": "Green Dye",
@@ -1941,11 +2759,20 @@
     "xp": 500,
     "givable": true,
     "mastery": true,
-    "recipe": {
-      "Fern Leaf": 6,
-      "Glass Bottle": 1
-    },
-    "craftPrice": 2
+    "recipe": [
+      {
+        "id": "52",
+        "name": "Fern Leaf",
+        "quantity": 6
+      },
+      {
+        "id": "117",
+        "name": "Glass Bottle",
+        "quantity": 1
+      }
+    ],
+    "craftPrice": 2,
+    "fleaMarket": 3
   },
   {
     "name": "Green Jellyfish",
@@ -1972,9 +2799,13 @@
     "xp": 100,
     "givable": true,
     "mastery": true,
-    "recipe": {
-      "Fern Leaf": 3
-    },
+    "recipe": [
+      {
+        "id": "52",
+        "name": "Fern Leaf",
+        "quantity": 3
+      }
+    ],
     "craftPrice": 2
   },
   {
@@ -1984,10 +2815,18 @@
     "sellPrice": 3200,
     "xp": 1750,
     "mastery": true,
-    "recipe": {
-      "Green Dye": 1,
-      "Yarn": 2
-    },
+    "recipe": [
+      {
+        "id": "203",
+        "name": "Green Dye",
+        "quantity": 1
+      },
+      {
+        "id": "427",
+        "name": "Yarn",
+        "quantity": 2
+      }
+    ],
     "craftPrice": 1000
   },
   {
@@ -1997,12 +2836,40 @@
     "sellPrice": 5500,
     "xp": 5500,
     "mastery": true,
-    "recipe": {
-      "Green Dye": 1,
-      "Iron": 3,
-      "Wooden Shield": 1
-    },
+    "recipe": [
+      {
+        "id": "203",
+        "name": "Green Dye",
+        "quantity": 1
+      },
+      {
+        "id": "22",
+        "name": "Iron",
+        "quantity": 3
+      },
+      {
+        "id": "127",
+        "name": "Wooden Shield",
+        "quantity": 1
+      }
+    ],
     "craftPrice": 500
+  },
+  {
+    "firstSeen": 1647482863982,
+    "id": "506",
+    "name": "Green Top Hat",
+    "image": "/img/items/greenhat.png",
+    "event": true,
+    "xp": 2500,
+    "rarity": "Uncommon"
+  },
+  {
+    "firstSeen": 1649048182660,
+    "id": "532",
+    "name": "Growth Medallion I",
+    "image": "/img/items/ForestIcons_32_t.png",
+    "rarity": "Super Rare"
   },
   {
     "name": "Grubs",
@@ -2024,13 +2891,32 @@
     "xp": 350,
     "givable": true,
     "mastery": true,
-    "recipe": {
-      "Board": 1,
-      "Iron": 1,
-      "Mushroom Paste": 1
-    },
+    "recipe": [
+      {
+        "id": "21",
+        "name": "Board",
+        "quantity": 1
+      },
+      {
+        "id": "22",
+        "name": "Iron",
+        "quantity": 1
+      },
+      {
+        "id": "75",
+        "name": "Mushroom Paste",
+        "quantity": 1
+      }
+    ],
     "rarity": "",
     "craftPrice": 10
+  },
+  {
+    "firstSeen": 1650485237626,
+    "id": "542",
+    "name": "Headdress of Luna",
+    "image": "/img/items/3911.png",
+    "rarity": "Super Rare"
   },
   {
     "firstSeen": 1644110835040,
@@ -2042,12 +2928,7 @@
     "xp": 2500,
     "rarity": "Uncommon",
     "craftPrice": 300,
-    "mastery": true,
-    "recipe": {
-      "Heart Necklace Left Piece": 1,
-      "Heart Necklace Right Piece": 1,
-      "Steel Wire": 1
-    }
+    "mastery": true
   },
   {
     "firstSeen": 1644110823342,
@@ -2151,12 +3032,28 @@
     "sellPrice": 2500,
     "xp": 2500,
     "mastery": true,
-    "recipe": {
-      "Horn": 1,
-      "Iron Ring": 2,
-      "Twine": 1,
-      "Wood": 1
-    },
+    "recipe": [
+      {
+        "id": "164",
+        "name": "Horn",
+        "quantity": 1
+      },
+      {
+        "id": "95",
+        "name": "Iron Ring",
+        "quantity": 2
+      },
+      {
+        "id": "163",
+        "name": "Twine",
+        "quantity": 1
+      },
+      {
+        "id": "35",
+        "name": "Wood",
+        "quantity": 1
+      }
+    ],
     "rarity": "",
     "craftPrice": 150
   },
@@ -2177,11 +3074,23 @@
     "sellPrice": 1000,
     "xp": 1000,
     "mastery": true,
-    "recipe": {
-      "Iron": 5,
-      "Nails": 7,
-      "Stone": 2
-    },
+    "recipe": [
+      {
+        "id": "22",
+        "name": "Iron",
+        "quantity": 5
+      },
+      {
+        "id": "38",
+        "name": "Nails",
+        "quantity": 7
+      },
+      {
+        "id": "40",
+        "name": "Stone",
+        "quantity": 2
+      }
+    ],
     "rarity": "",
     "craftPrice": 100
   },
@@ -2194,18 +3103,45 @@
     "xp": 1750
   },
   {
+    "firstSeen": 1652320367645,
+    "name": "Hot Potato",
+    "id": "565",
+    "image": "/img/items/hotpotato.png",
+    "event": true,
+    "xp": 250,
+    "givable": true,
+    "rarity": "Very Rare",
+    "growthTime": 1500
+  },
+  {
     "id": "388",
     "name": "Hourglass",
     "image": "/img/items/4241.png",
     "sellPrice": 25000,
     "xp": 25000,
     "mastery": true,
-    "recipe": {
-      "Glass Bottle": 2,
-      "Mushroom Paste": 2,
-      "Sand": 1,
-      "Wood": 6
-    },
+    "recipe": [
+      {
+        "id": "117",
+        "name": "Glass Bottle",
+        "quantity": 2
+      },
+      {
+        "id": "75",
+        "name": "Mushroom Paste",
+        "quantity": 2
+      },
+      {
+        "id": "387",
+        "name": "Sand",
+        "quantity": 1
+      },
+      {
+        "id": "35",
+        "name": "Wood",
+        "quantity": 6
+      }
+    ],
     "craftPrice": 2000
   },
   {
@@ -2213,7 +3149,23 @@
     "id": "185",
     "image": "/img/items/tea.png",
     "xp": 100,
-    "givable": true
+    "givable": true,
+    "sellPrice": 1000,
+    "craftPrice": 2500,
+    "mastery": true,
+    "recipe": [
+      {
+        "id": "117",
+        "name": "Glass Bottle",
+        "quantity": 1
+      },
+      {
+        "id": "499",
+        "name": "Tea Leaves",
+        "quantity": 3
+      }
+    ],
+    "fleaMarket": 10
   },
   {
     "name": "Inferno Sphere",
@@ -2222,19 +3174,60 @@
     "sellPrice": 2000000,
     "xp": 50000,
     "rarity": "Super Rare",
-    "recipe": {
-      "Runestone 01": 1,
-      "Runestone 02": 1,
-      "Runestone 03": 1,
-      "Runestone 04": 1,
-      "Runestone 05": 1,
-      "Runestone 06": 1,
-      "Runestone 07": 1,
-      "Runestone 08": 1,
-      "Runestone 09": 1,
-      "Runestone 10": 1
-    },
-    "craftPrice": 1000000
+    "recipe": [
+      {
+        "id": "147",
+        "name": "Runestone 01",
+        "quantity": 1
+      },
+      {
+        "id": "148",
+        "name": "Runestone 02",
+        "quantity": 1
+      },
+      {
+        "id": "149",
+        "name": "Runestone 03",
+        "quantity": 1
+      },
+      {
+        "id": "150",
+        "name": "Runestone 04",
+        "quantity": 1
+      },
+      {
+        "id": "151",
+        "name": "Runestone 05",
+        "quantity": 1
+      },
+      {
+        "id": "152",
+        "name": "Runestone 06",
+        "quantity": 1
+      },
+      {
+        "id": "153",
+        "name": "Runestone 07",
+        "quantity": 1
+      },
+      {
+        "id": "154",
+        "name": "Runestone 08",
+        "quantity": 1
+      },
+      {
+        "id": "155",
+        "name": "Runestone 09",
+        "quantity": 1
+      },
+      {
+        "id": "156",
+        "name": "Runestone 10",
+        "quantity": 1
+      }
+    ],
+    "craftPrice": 1000000,
+    "mastery": true
   },
   {
     "name": "Iron",
@@ -2252,10 +3245,18 @@
     "givable": true,
     "rarity": "Common",
     "mastery": true,
-    "recipe": {
-      "Iron": 3,
-      "Stone": 1
-    },
+    "recipe": [
+      {
+        "id": "22",
+        "name": "Iron",
+        "quantity": 3
+      },
+      {
+        "id": "40",
+        "name": "Stone",
+        "quantity": 1
+      }
+    ],
     "craftPrice": 15
   },
   {
@@ -2266,10 +3267,18 @@
     "xp": 25,
     "rarity": "Common",
     "mastery": true,
-    "recipe": {
-      "Iron": 2,
-      "Stone": 1
-    },
+    "recipe": [
+      {
+        "id": "22",
+        "name": "Iron",
+        "quantity": 2
+      },
+      {
+        "id": "40",
+        "name": "Stone",
+        "quantity": 1
+      }
+    ],
     "craftPrice": 10
   },
   {
@@ -2289,10 +3298,18 @@
     "xp": 3000,
     "rarity": "Common",
     "mastery": true,
-    "recipe": {
-      "Stone": 1,
-      "Unpolished Jade": 2
-    },
+    "recipe": [
+      {
+        "id": "40",
+        "name": "Stone",
+        "quantity": 1
+      },
+      {
+        "id": "263",
+        "name": "Unpolished Jade",
+        "quantity": 2
+      }
+    ],
     "craftPrice": 500
   },
   {
@@ -2303,12 +3320,28 @@
     "xp": 8000,
     "rarity": "Common",
     "mastery": true,
-    "recipe": {
-      "Iron Ring": 1,
-      "Jade": 1,
-      "Steel": 2,
-      "Stone": 6
-    },
+    "recipe": [
+      {
+        "id": "95",
+        "name": "Iron Ring",
+        "quantity": 1
+      },
+      {
+        "id": "264",
+        "name": "Jade",
+        "quantity": 1
+      },
+      {
+        "id": "145",
+        "name": "Steel",
+        "quantity": 2
+      },
+      {
+        "id": "40",
+        "name": "Stone",
+        "quantity": 6
+      }
+    ],
     "craftPrice": 1000
   },
   {
@@ -2321,6 +3354,16 @@
     "mastery": true
   },
   {
+    "firstSeen": 1652992984963,
+    "id": "577",
+    "name": "Jumbo Fish",
+    "image": "/img/items/3279.png",
+    "sellPrice": 10000,
+    "xp": 8500,
+    "rarity": "Common",
+    "mastery": true
+  },
+  {
     "name": "Ladder",
     "id": "260",
     "image": "/img/items/5629.png",
@@ -2328,10 +3371,18 @@
     "xp": 500,
     "givable": true,
     "mastery": true,
-    "recipe": {
-      "Board": 6,
-      "Nails": 8
-    },
+    "recipe": [
+      {
+        "id": "21",
+        "name": "Board",
+        "quantity": 6
+      },
+      {
+        "id": "38",
+        "name": "Nails",
+        "quantity": 8
+      }
+    ],
     "craftPrice": 10
   },
   {
@@ -2341,13 +3392,33 @@
     "sellPrice": 40000,
     "xp": 40000,
     "mastery": true,
-    "recipe": {
-      "Coal": 1,
-      "Glass Bottle": 1,
-      "Iron": 3,
-      "Iron Ring": 1,
-      "Twine": 2
-    },
+    "recipe": [
+      {
+        "id": "103",
+        "name": "Coal",
+        "quantity": 1
+      },
+      {
+        "id": "117",
+        "name": "Glass Bottle",
+        "quantity": 1
+      },
+      {
+        "id": "22",
+        "name": "Iron",
+        "quantity": 3
+      },
+      {
+        "id": "95",
+        "name": "Iron Ring",
+        "quantity": 1
+      },
+      {
+        "id": "163",
+        "name": "Twine",
+        "quantity": 2
+      }
+    ],
     "craftPrice": 4000
   },
   {
@@ -2365,12 +3436,43 @@
     "rarity": "Very Rare"
   },
   {
+    "firstSeen": 1652992971364,
+    "id": "573",
+    "name": "Large Chest 03",
+    "image": "/img/items/8572.png",
+    "xp": 1,
+    "rarity": "Super Rare"
+  },
+  {
     "name": "Large Clam Shell",
     "id": "269",
     "image": "/img/items/fishing_74_t.png",
     "sellPrice": 250000,
     "xp": 2500,
     "rarity": "Common"
+  },
+  {
+    "firstSeen": 1646770772226,
+    "name": "Large Net",
+    "id": "500",
+    "image": "/img/items/lnet.png?1",
+    "craftPrice": 100,
+    "xp": 3500,
+    "mastery": true,
+    "recipe": [
+      {
+        "id": "194",
+        "name": "Fishing Net",
+        "quantity": 25
+      },
+      {
+        "id": "95",
+        "name": "Iron Ring",
+        "quantity": 25
+      }
+    ],
+    "givable": true,
+    "rarity": "Very Rare"
   },
   {
     "name": "Largemouth Bass",
@@ -2388,19 +3490,60 @@
     "sellPrice": 4000000,
     "xp": 150000,
     "rarity": "Super Rare",
-    "recipe": {
-      "Runestone 11": 1,
-      "Runestone 12": 1,
-      "Runestone 13": 1,
-      "Runestone 14": 1,
-      "Runestone 15": 1,
-      "Runestone 16": 1,
-      "Runestone 17": 1,
-      "Runestone 18": 1,
-      "Runestone 19": 1,
-      "Runestone 20": 1
-    },
-    "craftPrice": 2000000
+    "recipe": [
+      {
+        "id": "221",
+        "name": "Runestone 11",
+        "quantity": 1
+      },
+      {
+        "id": "222",
+        "name": "Runestone 12",
+        "quantity": 1
+      },
+      {
+        "id": "223",
+        "name": "Runestone 13",
+        "quantity": 1
+      },
+      {
+        "id": "224",
+        "name": "Runestone 14",
+        "quantity": 1
+      },
+      {
+        "id": "225",
+        "name": "Runestone 15",
+        "quantity": 1
+      },
+      {
+        "id": "226",
+        "name": "Runestone 16",
+        "quantity": 1
+      },
+      {
+        "id": "227",
+        "name": "Runestone 17",
+        "quantity": 1
+      },
+      {
+        "id": "228",
+        "name": "Runestone 18",
+        "quantity": 1
+      },
+      {
+        "id": "229",
+        "name": "Runestone 19",
+        "quantity": 1
+      },
+      {
+        "id": "230",
+        "name": "Runestone 20",
+        "quantity": 1
+      }
+    ],
+    "craftPrice": 2000000,
+    "mastery": true
   },
   {
     "name": "Leather",
@@ -2410,9 +3553,13 @@
     "xp": 250,
     "givable": true,
     "mastery": true,
-    "recipe": {
-      "Hide": 2
-    },
+    "recipe": [
+      {
+        "id": "109",
+        "name": "Hide",
+        "quantity": 2
+      }
+    ],
     "craftPrice": 25
   },
   {
@@ -2422,11 +3569,23 @@
     "sellPrice": 3000,
     "xp": 3000,
     "mastery": true,
-    "recipe": {
-      "Iron Ring": 4,
-      "Leather": 2,
-      "Twine": 2
-    },
+    "recipe": [
+      {
+        "id": "95",
+        "name": "Iron Ring",
+        "quantity": 4
+      },
+      {
+        "id": "110",
+        "name": "Leather",
+        "quantity": 2
+      },
+      {
+        "id": "163",
+        "name": "Twine",
+        "quantity": 2
+      }
+    ],
     "craftPrice": 250
   },
   {
@@ -2437,11 +3596,23 @@
     "xp": 250,
     "givable": true,
     "mastery": true,
-    "recipe": {
-      "Leather": 1,
-      "Mushroom Paste": 1,
-      "White Parchment": 1
-    },
+    "recipe": [
+      {
+        "id": "110",
+        "name": "Leather",
+        "quantity": 1
+      },
+      {
+        "id": "75",
+        "name": "Mushroom Paste",
+        "quantity": 1
+      },
+      {
+        "id": "81",
+        "name": "White Parchment",
+        "quantity": 1
+      }
+    ],
     "craftPrice": 25
   },
   {
@@ -2451,11 +3622,23 @@
     "sellPrice": 3250,
     "xp": 3250,
     "mastery": true,
-    "recipe": {
-      "Iron Ring": 1,
-      "Leather": 2,
-      "Twine": 2
-    },
+    "recipe": [
+      {
+        "id": "95",
+        "name": "Iron Ring",
+        "quantity": 1
+      },
+      {
+        "id": "110",
+        "name": "Leather",
+        "quantity": 2
+      },
+      {
+        "id": "163",
+        "name": "Twine",
+        "quantity": 2
+      }
+    ],
     "craftPrice": 275
   },
   {
@@ -2505,11 +3688,23 @@
     "xp": 1000,
     "rarity": "Common",
     "mastery": true,
-    "recipe": {
-      "Iron Ring": 1,
-      "Lemon Quartz": 1,
-      "Mushroom Paste": 1
-    },
+    "recipe": [
+      {
+        "id": "95",
+        "name": "Iron Ring",
+        "quantity": 1
+      },
+      {
+        "id": "80",
+        "name": "Lemon Quartz",
+        "quantity": 1
+      },
+      {
+        "id": "75",
+        "name": "Mushroom Paste",
+        "quantity": 1
+      }
+    ],
     "craftPrice": 75
   },
   {
@@ -2520,12 +3715,21 @@
     "xp": 500,
     "givable": true,
     "mastery": true,
-    "recipe": {
-      "Glass Bottle": 1,
-      "Lemon": 6
-    },
+    "recipe": [
+      {
+        "id": "117",
+        "name": "Glass Bottle",
+        "quantity": 1
+      },
+      {
+        "id": "62",
+        "name": "Lemon",
+        "quantity": 6
+      }
+    ],
     "rarity": "",
-    "craftPrice": 2
+    "craftPrice": 2,
+    "fleaMarket": 3
   },
   {
     "name": "Lima Bean",
@@ -2552,11 +3756,24 @@
     "xp": 2500,
     "rarity": "Common",
     "mastery": true,
-    "recipe": {
-      "Board": 3,
-      "Glass Orb": 1,
-      "Iron": 1
-    }
+    "recipe": [
+      {
+        "id": "21",
+        "name": "Board",
+        "quantity": 3
+      },
+      {
+        "id": "78",
+        "name": "Glass Orb",
+        "quantity": 1
+      },
+      {
+        "id": "22",
+        "name": "Iron",
+        "quantity": 1
+      }
+    ],
+    "craftPrice": 50
   },
   {
     "id": "468",
@@ -2572,7 +3789,17 @@
     "sellPrice": 2000,
     "xp": 2000,
     "fleaMarket": 3,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "mastery": true
+  },
+  {
+    "firstSeen": 1656540006735,
+    "id": "598",
+    "name": "Machine Part",
+    "image": "/img/items/9331.PNG",
+    "sellPrice": 1000,
+    "xp": 1000,
+    "rarity": "Common"
   },
   {
     "name": "Mackerel",
@@ -2599,27 +3826,60 @@
     "xp": 3000,
     "rarity": "Uncommon",
     "mastery": true,
-    "recipe": {
-      "Prism Shard": 3
-    },
+    "recipe": [
+      {
+        "id": "179",
+        "name": "Prism Shard",
+        "quantity": 3
+      }
+    ],
     "craftPrice": 5000
   },
   {
     "id": "340",
     "name": "Magna Core",
     "image": "/img/items/9376.png",
-    "sellPrice": 2000,
+    "sellPrice": 2000000,
     "xp": 50000,
     "rarity": "Uncommon",
-    "recipe": {
-      "Cogwheel": 3,
-      "Flywheel": 2,
-      "Magna Quartz": 25,
-      "Seeing Stone": 1,
-      "Small Screw": 10,
-      "Small Spring": 5,
-      "Steel": 40
-    }
+    "recipe": [
+      {
+        "id": "215",
+        "name": "Cogwheel",
+        "quantity": 3
+      },
+      {
+        "id": "341",
+        "name": "Flywheel",
+        "quantity": 2
+      },
+      {
+        "id": "338",
+        "name": "Magna Quartz",
+        "quantity": 25
+      },
+      {
+        "id": "327",
+        "name": "Seeing Stone",
+        "quantity": 1
+      },
+      {
+        "id": "339",
+        "name": "Small Screw",
+        "quantity": 10
+      },
+      {
+        "id": "251",
+        "name": "Small Spring",
+        "quantity": 5
+      },
+      {
+        "id": "145",
+        "name": "Steel",
+        "quantity": 40
+      }
+    ],
+    "craftPrice": 500000
   },
   {
     "name": "Magna Quartz",
@@ -2636,13 +3896,38 @@
     "sellPrice": 5250,
     "xp": 5250,
     "mastery": true,
-    "recipe": {
-      "Board": 1,
-      "Glass Orb": 1,
-      "Iron": 3,
-      "Iron Ring": 1
-    },
+    "recipe": [
+      {
+        "id": "21",
+        "name": "Board",
+        "quantity": 1
+      },
+      {
+        "id": "78",
+        "name": "Glass Orb",
+        "quantity": 1
+      },
+      {
+        "id": "22",
+        "name": "Iron",
+        "quantity": 3
+      },
+      {
+        "id": "95",
+        "name": "Iron Ring",
+        "quantity": 1
+      }
+    ],
     "craftPrice": 300
+  },
+  {
+    "firstSeen": 1648590725030,
+    "id": "476",
+    "name": "Mapping Compass",
+    "image": "/img/items/mappingcompass.png",
+    "sellPrice": 2500,
+    "xp": 2500,
+    "rarity": "Rare"
   },
   {
     "name": "Marlin",
@@ -2672,6 +3957,18 @@
     "image": "/img/items/8574.png",
     "xp": 1,
     "rarity": "Very Rare"
+  },
+  {
+    "firstSeen": 1655441581230,
+    "name": "Mega Beet Seeds",
+    "id": "588",
+    "image": "/img/items/mbeet.png"
+  },
+  {
+    "firstSeen": 1656366690897,
+    "name": "Mega Sunflower Seeds",
+    "id": "589",
+    "image": "/img/items/msun.png?2"
   },
   {
     "name": "Milk",
@@ -2726,7 +4023,27 @@
     "image": "/img/items/8014.png",
     "sellPrice": 10000,
     "xp": 1500,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "fleaMarket": 10
+  },
+  {
+    "firstSeen": 1647482860360,
+    "id": "505",
+    "name": "Mug of Beer",
+    "image": "/img/items/7264.png?1",
+    "sellPrice": 15000,
+    "xp": 2500,
+    "rarity": "Very Rare"
+  },
+  {
+    "firstSeen": 1652992981876,
+    "id": "576",
+    "name": "Mulberry Snapper",
+    "image": "/img/items/3276.png",
+    "sellPrice": 9500,
+    "xp": 8250,
+    "rarity": "Common",
+    "mastery": true
   },
   {
     "name": "Mushroom",
@@ -2746,9 +4063,13 @@
     "xp": 25,
     "givable": true,
     "mastery": true,
-    "recipe": {
-      "Mushroom": 3
-    },
+    "recipe": [
+      {
+        "id": "43",
+        "name": "Mushroom",
+        "quantity": 3
+      }
+    ],
     "craftPrice": 2
   },
   {
@@ -2769,7 +4090,8 @@
     "image": "/img/items/7785.png",
     "sellPrice": 400,
     "xp": 400,
-    "rarity": "Common"
+    "rarity": "Common",
+    "mastery": true
   },
   {
     "name": "Mystic Ring",
@@ -2778,13 +4100,33 @@
     "sellPrice": 5000,
     "xp": 5000,
     "mastery": true,
-    "recipe": {
-      "Aquamarine": 1,
-      "Emerald": 2,
-      "Iron Ring": 1,
-      "Mushroom Paste": 3,
-      "Stone": 1
-    },
+    "recipe": [
+      {
+        "id": "41",
+        "name": "Aquamarine",
+        "quantity": 1
+      },
+      {
+        "id": "143",
+        "name": "Emerald",
+        "quantity": 2
+      },
+      {
+        "id": "95",
+        "name": "Iron Ring",
+        "quantity": 1
+      },
+      {
+        "id": "75",
+        "name": "Mushroom Paste",
+        "quantity": 3
+      },
+      {
+        "id": "40",
+        "name": "Stone",
+        "quantity": 1
+      }
+    ],
     "craftPrice": 600
   },
   {
@@ -2794,6 +4136,14 @@
     "image": "/img/items/4456.png",
     "xp": 1,
     "rarity": "Very Rare"
+  },
+  {
+    "firstSeen": 1652992968566,
+    "id": "572",
+    "name": "Mystical Chest 02",
+    "image": "/img/items/4456.png",
+    "xp": 1,
+    "rarity": "Super Rare"
   },
   {
     "name": "Mystical Staff",
@@ -2824,7 +4174,15 @@
     "image": "/img/items/8802.png",
     "sellPrice": 3000,
     "xp": 3000,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "mastery": true
+  },
+  {
+    "firstSeen": 1648665777209,
+    "id": "515",
+    "name": "Odthorin's Charm",
+    "image": "/img/items/8455.png",
+    "rarity": "Super Rare"
   },
   {
     "firstSeen": 1646030519585,
@@ -2854,6 +4212,15 @@
     "mastery": true
   },
   {
+    "firstSeen": 1652320414403,
+    "id": "566",
+    "name": "Onion Rings",
+    "image": "/img/items/onionrings.png",
+    "event": true,
+    "xp": 2500,
+    "rarity": "Uncommon"
+  },
+  {
     "id": "34",
     "name": "Onion Seeds",
     "image": "/img/items/8317.png",
@@ -2864,6 +4231,15 @@
     "possibleDrops": [
       "Onion"
     ]
+  },
+  {
+    "firstSeen": 1656540003502,
+    "id": "599",
+    "name": "Onyx Scorpion",
+    "image": "/img/items/4514b.png",
+    "sellPrice": 10000,
+    "xp": 7500,
+    "rarity": "Uncommon"
   },
   {
     "id": "470",
@@ -2886,7 +4262,8 @@
     "image": "/img/items/3493.png",
     "sellPrice": 25000,
     "xp": 2500,
-    "rarity": "Rare"
+    "rarity": "Rare",
+    "fleaMarket": 25
   },
   {
     "name": "Orange Juice",
@@ -2896,11 +4273,20 @@
     "xp": 500,
     "givable": true,
     "mastery": true,
-    "recipe": {
-      "Glass Bottle": 1,
-      "Orange": 6
-    },
-    "craftPrice": 2
+    "recipe": [
+      {
+        "id": "117",
+        "name": "Glass Bottle",
+        "quantity": 1
+      },
+      {
+        "id": "61",
+        "name": "Orange",
+        "quantity": 6
+      }
+    ],
+    "craftPrice": 2,
+    "fleaMarket": 6
   },
   {
     "id": "402",
@@ -2909,6 +4295,16 @@
     "event": true,
     "sellPrice": 250,
     "xp": 1750
+  },
+  {
+    "firstSeen": 1652992991894,
+    "id": "579",
+    "name": "Orcafish",
+    "image": "/img/items/3282.png",
+    "sellPrice": 11000,
+    "xp": 9000,
+    "rarity": "Common",
+    "mastery": true
   },
   {
     "name": "Paper Receipt",
@@ -2931,6 +4327,37 @@
     ]
   },
   {
+    "firstSeen": 1655256943932,
+    "id": "586",
+    "name": "Peach",
+    "image": "/img/items/peach.png",
+    "sellPrice": 50,
+    "givable": true,
+    "rarity": "Uncommon"
+  },
+  {
+    "firstSeen": 1655256944929,
+    "id": "587",
+    "name": "Peach Juice",
+    "image": "/img/items/peachjuice.png",
+    "sellPrice": 3500,
+    "craftPrice": 200,
+    "xp": 500,
+    "mastery": true,
+    "recipe": [
+      {
+        "id": "117",
+        "name": "Glass Bottle",
+        "quantity": 1
+      },
+      {
+        "id": "586",
+        "name": "Peach",
+        "quantity": 10
+      }
+    ]
+  },
+  {
     "name": "Pearl",
     "id": "100",
     "image": "/img/items/7876.PNG",
@@ -2946,11 +4373,24 @@
     "sellPrice": 1000,
     "xp": 1000,
     "mastery": true,
-    "recipe": {
-      "Iron Ring": 1,
-      "Pearl": 1,
-      "Twine": 1
-    }
+    "recipe": [
+      {
+        "id": "95",
+        "name": "Iron Ring",
+        "quantity": 1
+      },
+      {
+        "id": "100",
+        "name": "Pearl",
+        "quantity": 1
+      },
+      {
+        "id": "163",
+        "name": "Twine",
+        "quantity": 1
+      }
+    ],
+    "craftPrice": 100
   },
   {
     "name": "Peas",
@@ -2961,6 +4401,14 @@
     "givable": true,
     "growthTime": 180,
     "mastery": true
+  },
+  {
+    "firstSeen": 1650690623570,
+    "id": "545",
+    "name": "Peculiar Gem",
+    "image": "/img/items/4255.png",
+    "xp": 5000,
+    "rarity": "Super Rare"
   },
   {
     "name": "Pepper Seeds",
@@ -3027,7 +4475,9 @@
     "id": "409",
     "image": "/img/items/cr_t_06.png",
     "sellPrice": 10000,
-    "xp": 5000
+    "xp": 5000,
+    "growthTime": 28800,
+    "mastery": true
   },
   {
     "firstSeen": 1644110892988,
@@ -3057,6 +4507,23 @@
     "rarity": "Uncommon"
   },
   {
+    "firstSeen": 1652992615937,
+    "id": "571",
+    "name": "Pirate Hook",
+    "image": "/img/items/pirates_38_t.png",
+    "sellPrice": 100000,
+    "rarity": "Super Rare"
+  },
+  {
+    "firstSeen": 1651727905572,
+    "id": "550",
+    "name": "Piñata",
+    "image": "/img/items/pinata.png",
+    "event": true,
+    "xp": 2500,
+    "rarity": "Uncommon"
+  },
+  {
     "name": "Plumbfish",
     "id": "309",
     "image": "/img/items/7754.png",
@@ -3081,6 +4548,33 @@
     "sellPrice": 1750,
     "xp": 1750,
     "rarity": "Uncommon"
+  },
+  {
+    "firstSeen": 1647482822069,
+    "id": "501",
+    "name": "Pot of Gold (Large)",
+    "image": "/img/items/potogold.png",
+    "event": true,
+    "givable": true,
+    "rarity": "Very Rare"
+  },
+  {
+    "firstSeen": 1647482844974,
+    "id": "502",
+    "name": "Pot of Gold (Medium)",
+    "image": "/img/items/pog2.png",
+    "event": true,
+    "givable": true,
+    "rarity": "Very Rare"
+  },
+  {
+    "firstSeen": 1647482820835,
+    "id": "503",
+    "name": "Pot of Gold (Small)",
+    "image": "/img/items/pog3.png",
+    "event": true,
+    "givable": true,
+    "rarity": "Very Rare"
   },
   {
     "name": "Potato",
@@ -3121,6 +4615,23 @@
     "rarity": "Uncommon"
   },
   {
+    "firstSeen": 1649447203500,
+    "id": "534",
+    "name": "Present 02",
+    "image": "/img/items/present02.png",
+    "xp": 1,
+    "rarity": "Very Rare"
+  },
+  {
+    "firstSeen": 1656539995144,
+    "id": "596",
+    "name": "Prickly Pear",
+    "image": "/img/items/pricklypear.png",
+    "sellPrice": 2500,
+    "xp": 2500,
+    "rarity": "Common"
+  },
+  {
     "name": "Prism Shard",
     "id": "179",
     "image": "/img/items/8072.png",
@@ -3129,21 +4640,22 @@
     "rarity": "Common"
   },
   {
-    "firstSeen": 1643629314840,
-    "id": "476",
-    "name": "Protractor",
-    "image": "/img/items/protractor.png",
-    "sellPrice": 2500,
-    "xp": 2500,
-    "rarity": "Rare"
-  },
-  {
     "name": "Puffer",
     "id": "115",
     "image": "/img/items/7723.PNG",
     "sellPrice": 400,
     "xp": 400,
-    "rarity": "Common"
+    "rarity": "Common",
+    "mastery": true
+  },
+  {
+    "firstSeen": 1656539977404,
+    "id": "590",
+    "name": "Pulley",
+    "image": "/img/items/pulley.png",
+    "sellPrice": 2500,
+    "xp": 2500,
+    "rarity": "Uncommon"
   },
   {
     "id": "69",
@@ -3167,17 +4679,84 @@
     ]
   },
   {
+    "firstSeen": 1649628671905,
+    "name": "Purple Bag",
+    "id": "539",
+    "image": "/img/items/purplebag.png",
+    "sellPrice": 105000,
+    "craftPrice": 1500,
+    "xp": 5500,
+    "mastery": true,
+    "recipe": [
+      {
+        "id": "166",
+        "name": "Leather Bag",
+        "quantity": 1
+      },
+      {
+        "id": "537",
+        "name": "Purple Dye",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "firstSeen": 1652992959753,
+    "id": "570",
+    "name": "Purple Butterfly Fish",
+    "image": "/img/items/pirates_77_t.png",
+    "sellPrice": 7500,
+    "xp": 7500,
+    "rarity": "Common",
+    "mastery": true
+  },
+  {
     "name": "Purple Diary",
     "id": "83",
     "image": "/img/items/purplebook.png",
     "sellPrice": 150,
     "xp": 200,
     "mastery": true,
-    "recipe": {
-      "Mushroom Paste": 1,
-      "Purple Parchment": 1,
-      "White Parchment": 1
-    }
+    "recipe": [
+      {
+        "id": "75",
+        "name": "Mushroom Paste",
+        "quantity": 1
+      },
+      {
+        "id": "73",
+        "name": "Purple Parchment",
+        "quantity": 1
+      },
+      {
+        "id": "81",
+        "name": "White Parchment",
+        "quantity": 1
+      }
+    ],
+    "craftPrice": 10
+  },
+  {
+    "firstSeen": 1649628671907,
+    "name": "Purple Dye",
+    "id": "537",
+    "image": "/img/items/purpledye.png",
+    "sellPrice": 2500,
+    "craftPrice": 250,
+    "xp": 4000,
+    "mastery": true,
+    "recipe": [
+      {
+        "id": "117",
+        "name": "Glass Bottle",
+        "quantity": 1
+      },
+      {
+        "id": "53",
+        "name": "Purple Flower",
+        "quantity": 10
+      }
+    ]
   },
   {
     "name": "Purple Flower",
@@ -3203,9 +4782,13 @@
     "xp": 100,
     "givable": true,
     "mastery": true,
-    "recipe": {
-      "Purple Flower": 3
-    },
+    "recipe": [
+      {
+        "id": "53",
+        "name": "Purple Flower",
+        "quantity": 3
+      }
+    ],
     "craftPrice": 2
   },
   {
@@ -3223,7 +4806,9 @@
     "image": "/img/items/radish.png?1",
     "sellPrice": 113,
     "xp": 100,
-    "givable": true
+    "givable": true,
+    "growthTime": 600,
+    "mastery": true
   },
   {
     "name": "Radish Seeds",
@@ -3262,6 +4847,28 @@
     "rarity": "Common"
   },
   {
+    "firstSeen": 1649628671908,
+    "name": "Red Dye",
+    "id": "536",
+    "image": "/img/items/reddye.png",
+    "sellPrice": 2500,
+    "craftPrice": 250,
+    "xp": 4000,
+    "mastery": true,
+    "recipe": [
+      {
+        "id": "117",
+        "name": "Glass Bottle",
+        "quantity": 1
+      },
+      {
+        "id": "320",
+        "name": "Striped Feather",
+        "quantity": 2
+      }
+    ]
+  },
+  {
     "id": "404",
     "name": "Red Ornament",
     "image": "/img/items/cr_t_03.png",
@@ -3270,12 +4877,40 @@
     "xp": 1750
   },
   {
+    "firstSeen": 1649628671909,
+    "name": "Red Shield",
+    "id": "538",
+    "image": "/img/items/redshield.png",
+    "sellPrice": 100000,
+    "craftPrice": 2500,
+    "xp": 5500,
+    "mastery": true,
+    "recipe": [
+      {
+        "id": "536",
+        "name": "Red Dye",
+        "quantity": 1
+      },
+      {
+        "id": "145",
+        "name": "Steel",
+        "quantity": 3
+      },
+      {
+        "id": "127",
+        "name": "Wooden Shield",
+        "quantity": 1
+      }
+    ]
+  },
+  {
     "name": "Red Starfish",
     "id": "205",
     "image": "/img/items/8814.png?1",
     "sellPrice": 500,
     "xp": 500,
-    "rarity": "Common"
+    "rarity": "Common",
+    "mastery": true
   },
   {
     "name": "Redgill",
@@ -3283,7 +4918,8 @@
     "image": "/img/items/5182-2.png",
     "sellPrice": 5500,
     "xp": 5500,
-    "rarity": "Common"
+    "rarity": "Common",
+    "mastery": true
   },
   {
     "name": "Ring of Renthisj",
@@ -3301,9 +4937,13 @@
     "xp": 1500,
     "givable": true,
     "mastery": true,
-    "recipe": {
-      "Twine": 3
-    },
+    "recipe": [
+      {
+        "id": "163",
+        "name": "Twine",
+        "quantity": 3
+      }
+    ],
     "craftPrice": 50
   },
   {
@@ -3322,10 +4962,19 @@
     "xp": 350,
     "rarity": "Common",
     "mastery": true,
-    "recipe": {
-      "Stone": 1,
-      "Unpolished Ruby": 2
-    }
+    "recipe": [
+      {
+        "id": "40",
+        "name": "Stone",
+        "quantity": 1
+      },
+      {
+        "id": "93",
+        "name": "Unpolished Ruby",
+        "quantity": 2
+      }
+    ],
+    "craftPrice": 50
   },
   {
     "name": "Ruby Coral",
@@ -3343,7 +4992,8 @@
     "sellPrice": 1000,
     "xp": 1000,
     "rarity": "Common",
-    "mastery": true
+    "mastery": true,
+    "fleaMarket": 5
   },
   {
     "name": "Ruby Ring",
@@ -3353,11 +5003,23 @@
     "xp": 1500,
     "rarity": "Common",
     "mastery": true,
-    "recipe": {
-      "Iron Ring": 1,
-      "Mushroom Paste": 1,
-      "Ruby": 1
-    },
+    "recipe": [
+      {
+        "id": "95",
+        "name": "Iron Ring",
+        "quantity": 1
+      },
+      {
+        "id": "75",
+        "name": "Mushroom Paste",
+        "quantity": 1
+      },
+      {
+        "id": "94",
+        "name": "Ruby",
+        "quantity": 1
+      }
+    ],
     "craftPrice": 100
   },
   {
@@ -3378,12 +5040,20 @@
     "rarity": "Very Rare"
   },
   {
+    "firstSeen": 1648665787378,
+    "id": "517",
+    "name": "Runecube",
+    "image": "/img/items/2099.png",
+    "rarity": "Super Rare"
+  },
+  {
     "name": "Runestone 01",
     "id": "147",
     "image": "/img/items/rs1.png",
     "sellPrice": 1000,
     "xp": 1000,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "mastery": true
   },
   {
     "name": "Runestone 02",
@@ -3407,7 +5077,8 @@
     "image": "/img/items/rs4.png",
     "sellPrice": 4000,
     "xp": 4000,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "mastery": true
   },
   {
     "name": "Runestone 05",
@@ -3424,7 +5095,8 @@
     "image": "/img/items/rs6.png",
     "sellPrice": 6000,
     "xp": 6000,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "mastery": true
   },
   {
     "name": "Runestone 07",
@@ -3448,7 +5120,8 @@
     "image": "/img/items/rs9.png",
     "sellPrice": 9000,
     "xp": 9000,
-    "rarity": "Rare"
+    "rarity": "Rare",
+    "mastery": true
   },
   {
     "name": "Runestone 10",
@@ -3456,7 +5129,8 @@
     "image": "/img/items/rs10.png",
     "sellPrice": 10000,
     "xp": 10000,
-    "rarity": "Rare"
+    "rarity": "Rare",
+    "mastery": true
   },
   {
     "name": "Runestone 11",
@@ -3472,7 +5146,8 @@
     "image": "/img/items/rs12.png",
     "sellPrice": 12000,
     "xp": 12000,
-    "rarity": "Rare"
+    "rarity": "Rare",
+    "mastery": true
   },
   {
     "name": "Runestone 13",
@@ -3488,7 +5163,8 @@
     "image": "/img/items/rs14.png?1",
     "sellPrice": 14000,
     "xp": 14000,
-    "rarity": "Rare"
+    "rarity": "Rare",
+    "mastery": true
   },
   {
     "name": "Runestone 15",
@@ -3512,7 +5188,8 @@
     "image": "/img/items/rs17.png",
     "sellPrice": 17000,
     "xp": 17000,
-    "rarity": "Very Rare"
+    "rarity": "Very Rare",
+    "mastery": true
   },
   {
     "name": "Runestone 18",
@@ -3536,7 +5213,24 @@
     "image": "/img/items/rs20.png",
     "sellPrice": 20000,
     "xp": 20000,
+    "rarity": "Very Rare",
+    "mastery": true
+  },
+  {
+    "firstSeen": 1652125725456,
+    "id": "553",
+    "name": "Runestone 23",
+    "image": "/img/items/5658.png",
+    "xp": 20000,
     "rarity": "Very Rare"
+  },
+  {
+    "firstSeen": 1652993002242,
+    "id": "582",
+    "name": "Runestone Necklace",
+    "image": "/img/items/pirates_17_t.png",
+    "xp": 2500,
+    "rarity": "Rare"
   },
   {
     "name": "Salt",
@@ -3545,10 +5239,18 @@
     "sellPrice": 50000,
     "xp": 5000,
     "mastery": true,
-    "recipe": {
-      "Hammer": 1,
-      "Salt Rock": 50
-    },
+    "recipe": [
+      {
+        "id": "236",
+        "name": "Hammer",
+        "quantity": 1
+      },
+      {
+        "id": "304",
+        "name": "Salt Rock",
+        "quantity": 50
+      }
+    ],
     "craftPrice": 10000
   },
   {
@@ -3566,11 +5268,27 @@
     "sellPrice": 500,
     "xp": 250,
     "mastery": true,
-    "recipe": {
-      "Leather": 1,
-      "Sandstone": 5
-    },
+    "recipe": [
+      {
+        "id": "110",
+        "name": "Leather",
+        "quantity": 1
+      },
+      {
+        "id": "202",
+        "name": "Sandstone",
+        "quantity": 5
+      }
+    ],
     "craftPrice": 750
+  },
+  {
+    "firstSeen": 1656540036968,
+    "id": "604",
+    "name": "Sand Dollar",
+    "image": "/img/items/sanddollar.png?1",
+    "xp": 2500,
+    "rarity": "Uncommon"
   },
   {
     "name": "Sandstone",
@@ -3595,13 +5313,52 @@
     "xp": 1750,
     "rarity": "Uncommon",
     "mastery": true,
-    "recipe": {
-      "Iron Ring": 1,
-      "Nails": 1,
-      "Steel": 2,
-      "Stone": 1,
-      "Wood": 2
-    }
+    "recipe": [
+      {
+        "id": "95",
+        "name": "Iron Ring",
+        "quantity": 1
+      },
+      {
+        "id": "38",
+        "name": "Nails",
+        "quantity": 1
+      },
+      {
+        "id": "145",
+        "name": "Steel",
+        "quantity": 2
+      },
+      {
+        "id": "40",
+        "name": "Stone",
+        "quantity": 1
+      },
+      {
+        "id": "35",
+        "name": "Wood",
+        "quantity": 2
+      }
+    ],
+    "craftPrice": 250
+  },
+  {
+    "firstSeen": 1656540020869,
+    "id": "601",
+    "name": "Scrap Metal",
+    "image": "/img/items/9383.PNG",
+    "sellPrice": 500,
+    "xp": 500,
+    "rarity": "Common"
+  },
+  {
+    "firstSeen": 1656540017304,
+    "id": "600",
+    "name": "Scrap Wire",
+    "image": "/img/items/9398.PNG",
+    "sellPrice": 750,
+    "xp": 750,
+    "rarity": "Common"
   },
   {
     "name": "Sea Catfish",
@@ -3619,7 +5376,8 @@
     "sellPrice": 50000,
     "xp": 2500,
     "rarity": "Rare",
-    "firstSeen": 1642564800000
+    "firstSeen": 1642564800000,
+    "fleaMarket": 25
   },
   {
     "name": "Seahorse",
@@ -3627,7 +5385,8 @@
     "image": "/img/items/8819.png",
     "sellPrice": 2500,
     "xp": 2500,
-    "rarity": "Common"
+    "rarity": "Common",
+    "mastery": true
   },
   {
     "id": "274",
@@ -3643,7 +5402,9 @@
     "image": "/img/items/fishing_75_t.png",
     "sellPrice": 2500,
     "xp": 2500,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "fleaMarket": 10,
+    "mastery": true
   },
   {
     "id": "327",
@@ -3685,11 +5446,23 @@
     "sellPrice": 5000,
     "xp": 5000,
     "mastery": true,
-    "recipe": {
-      "Iron Ring": 1,
-      "Mushroom Paste": 1,
-      "Shimmer Topaz": 1
-    },
+    "recipe": [
+      {
+        "id": "95",
+        "name": "Iron Ring",
+        "quantity": 1
+      },
+      {
+        "id": "75",
+        "name": "Mushroom Paste",
+        "quantity": 1
+      },
+      {
+        "id": "248",
+        "name": "Shimmer Topaz",
+        "quantity": 1
+      }
+    ],
     "craftPrice": 1000
   },
   {
@@ -3701,9 +5474,13 @@
     "givable": true,
     "rarity": "Common",
     "mastery": true,
-    "recipe": {
-      "Unpolished Shimmer Stone": 2
-    },
+    "recipe": [
+      {
+        "id": "76",
+        "name": "Unpolished Shimmer Stone",
+        "quantity": 2
+      }
+    ],
     "craftPrice": 5
   },
   {
@@ -3713,9 +5490,13 @@
     "sellPrice": 2500,
     "xp": 2500,
     "mastery": true,
-    "recipe": {
-      "Shimmer Quartz": 3
-    },
+    "recipe": [
+      {
+        "id": "102",
+        "name": "Shimmer Quartz",
+        "quantity": 3
+      }
+    ],
     "craftPrice": 500
   },
   {
@@ -3744,12 +5525,29 @@
     "xp": 550,
     "givable": true,
     "mastery": true,
-    "recipe": {
-      "Board": 1,
-      "Iron": 2,
-      "Mushroom Paste": 1,
-      "Stone": 1
-    }
+    "recipe": [
+      {
+        "id": "21",
+        "name": "Board",
+        "quantity": 1
+      },
+      {
+        "id": "22",
+        "name": "Iron",
+        "quantity": 2
+      },
+      {
+        "id": "75",
+        "name": "Mushroom Paste",
+        "quantity": 1
+      },
+      {
+        "id": "40",
+        "name": "Stone",
+        "quantity": 1
+      }
+    ],
+    "craftPrice": 45
   },
   {
     "name": "Shrimp",
@@ -3767,7 +5565,8 @@
     "image": "/img/items/skelkey.png",
     "event": true,
     "xp": 1750,
-    "rarity": "Very Rare"
+    "rarity": "Very Rare",
+    "firstDropped": 1652134440000
   },
   {
     "name": "Skipjack",
@@ -3792,7 +5591,17 @@
     "image": "/img/items/5655.png",
     "sellPrice": 150,
     "xp": 150,
-    "rarity": "Common"
+    "rarity": "Common",
+    "givable": true
+  },
+  {
+    "firstSeen": 1656539992206,
+    "id": "595",
+    "name": "Small Bolt",
+    "image": "/img/items/9374.PNG",
+    "sellPrice": 5000,
+    "xp": 2500,
+    "rarity": "Uncommon"
   },
   {
     "name": "Small Chest 01",
@@ -3848,7 +5657,8 @@
     "image": "/img/items/9380.png",
     "sellPrice": 1750,
     "xp": 1750,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "fleaMarket": 10
   },
   {
     "name": "Small Spring",
@@ -3896,12 +5706,31 @@
     "rarity": "Uncommon"
   },
   {
+    "firstSeen": 1651727922931,
+    "id": "551",
+    "name": "Sombrero",
+    "image": "/img/items/sombrero.png",
+    "event": true,
+    "xp": 2500,
+    "rarity": "Uncommon"
+  },
+  {
     "name": "Sour Root",
     "id": "322",
     "image": "/img/items/ForestIcons_11_t.png",
     "sellPrice": 1000,
     "xp": 1500,
     "rarity": "Common"
+  },
+  {
+    "firstSeen": 1652992988105,
+    "id": "578",
+    "name": "Speckled Grouper",
+    "image": "/img/items/3281.png",
+    "sellPrice": 10500,
+    "xp": 8750,
+    "rarity": "Common",
+    "mastery": true
   },
   {
     "name": "Spectacles",
@@ -3929,7 +5758,8 @@
     "sellPrice": 50000,
     "xp": 2500,
     "rarity": "Rare",
-    "firstSeen": 1642564800000
+    "firstSeen": 1642564800000,
+    "fleaMarket": 10
   },
   {
     "name": "Spiral Shell",
@@ -3972,7 +5802,8 @@
     "image": "/img/items/7821.png",
     "sellPrice": 110,
     "xp": 500,
-    "rarity": "Common"
+    "rarity": "Common",
+    "mastery": true
   },
   {
     "name": "Steak",
@@ -3994,12 +5825,33 @@
     "sellPrice": 800,
     "xp": 100,
     "mastery": true,
-    "recipe": {
-      "Carbon Sphere": 1,
-      "Glass Orb": 1,
-      "Iron": 10
-    },
+    "recipe": [
+      {
+        "id": "144",
+        "name": "Carbon Sphere",
+        "quantity": 1
+      },
+      {
+        "id": "78",
+        "name": "Glass Orb",
+        "quantity": 1
+      },
+      {
+        "id": "22",
+        "name": "Iron",
+        "quantity": 10
+      }
+    ],
     "craftPrice": 250
+  },
+  {
+    "firstSeen": 1656539982973,
+    "id": "592",
+    "name": "Steel Plate",
+    "image": "/img/items/9313.png",
+    "sellPrice": 7000,
+    "xp": 5000,
+    "mastery": true
   },
   {
     "name": "Steel Wire",
@@ -4008,12 +5860,25 @@
     "sellPrice": 2000,
     "xp": 1000,
     "mastery": true,
-    "recipe": {
-      "Carbon Sphere": 1,
-      "Iron": 10,
-      "Stone": 1
-    },
-    "rarity": ""
+    "recipe": [
+      {
+        "id": "144",
+        "name": "Carbon Sphere",
+        "quantity": 1
+      },
+      {
+        "id": "22",
+        "name": "Iron",
+        "quantity": 10
+      },
+      {
+        "id": "40",
+        "name": "Stone",
+        "quantity": 1
+      }
+    ],
+    "rarity": "",
+    "craftPrice": 100
   },
   {
     "name": "Stingray",
@@ -4032,6 +5897,13 @@
     "sellPrice": 1,
     "xp": 10,
     "givable": true
+  },
+  {
+    "firstSeen": 1648665782215,
+    "id": "516",
+    "name": "Stones of Gallodor",
+    "image": "/img/items/2606.png",
+    "rarity": "Super Rare"
   },
   {
     "id": "345",
@@ -4089,13 +5961,33 @@
     "sellPrice": 80000,
     "xp": 40000,
     "mastery": true,
-    "recipe": {
-      "Mushroom Paste": 2,
-      "Oak": 4,
-      "Steel": 1,
-      "Stone": 2,
-      "Twine": 2
-    },
+    "recipe": [
+      {
+        "id": "75",
+        "name": "Mushroom Paste",
+        "quantity": 2
+      },
+      {
+        "id": "303",
+        "name": "Oak",
+        "quantity": 4
+      },
+      {
+        "id": "145",
+        "name": "Steel",
+        "quantity": 1
+      },
+      {
+        "id": "40",
+        "name": "Stone",
+        "quantity": 2
+      },
+      {
+        "id": "163",
+        "name": "Twine",
+        "quantity": 2
+      }
+    ],
     "craftPrice": 25000
   },
   {
@@ -4105,11 +5997,23 @@
     "sellPrice": 275,
     "xp": 500,
     "mastery": true,
-    "recipe": {
-      "Iron": 2,
-      "Nails": 6,
-      "Wood Plank": 6
-    },
+    "recipe": [
+      {
+        "id": "22",
+        "name": "Iron",
+        "quantity": 2
+      },
+      {
+        "id": "38",
+        "name": "Nails",
+        "quantity": 6
+      },
+      {
+        "id": "36",
+        "name": "Wood Plank",
+        "quantity": 6
+      }
+    ],
     "craftPrice": 15
   },
   {
@@ -4119,11 +6023,23 @@
     "sellPrice": 4000,
     "xp": 4000,
     "mastery": true,
-    "recipe": {
-      "Iron": 6,
-      "Nails": 6,
-      "Wood Plank": 1
-    },
+    "recipe": [
+      {
+        "id": "22",
+        "name": "Iron",
+        "quantity": 6
+      },
+      {
+        "id": "38",
+        "name": "Nails",
+        "quantity": 6
+      },
+      {
+        "id": "36",
+        "name": "Wood Plank",
+        "quantity": 1
+      }
+    ],
     "craftPrice": 500
   },
   {
@@ -4133,20 +6049,46 @@
     "sellPrice": 11000,
     "xp": 11000,
     "mastery": true,
-    "recipe": {
-      "Iron": 2,
-      "Leather": 1,
-      "Mushroom Paste": 1,
-      "Steel": 1
-    },
+    "recipe": [
+      {
+        "id": "22",
+        "name": "Iron",
+        "quantity": 2
+      },
+      {
+        "id": "110",
+        "name": "Leather",
+        "quantity": 1
+      },
+      {
+        "id": "75",
+        "name": "Mushroom Paste",
+        "quantity": 1
+      },
+      {
+        "id": "145",
+        "name": "Steel",
+        "quantity": 1
+      }
+    ],
     "craftPrice": 1500
+  },
+  {
+    "firstSeen": 1656540028288,
+    "id": "603",
+    "name": "Summer Basket",
+    "image": "/img/items/basket.png",
+    "xp": 1,
+    "givable": true,
+    "rarity": "Very Rare"
   },
   {
     "name": "Sunfish",
     "id": "88",
     "image": "/img/items/7802.png",
     "sellPrice": 50,
-    "xp": 400
+    "xp": 400,
+    "mastery": true
   },
   {
     "name": "Sunflower",
@@ -4186,6 +6128,23 @@
     "xp": 7500,
     "rarity": "Common",
     "mastery": true
+  },
+  {
+    "firstSeen": 1654049057533,
+    "id": "584",
+    "name": "Tackle Box",
+    "image": "/img/items/7847.png",
+    "xp": 1,
+    "rarity": "Uncommon"
+  },
+  {
+    "firstSeen": 1651727913967,
+    "id": "549",
+    "name": "Taco",
+    "image": "/img/items/taco.png",
+    "event": true,
+    "xp": 2500,
+    "rarity": "Uncommon"
   },
   {
     "name": "Taffy",
@@ -4236,7 +6195,9 @@
     "image": "/img/items/8290.png",
     "sellPrice": 375,
     "xp": 300,
-    "givable": true
+    "givable": true,
+    "growthTime": 1800,
+    "mastery": true
   },
   {
     "name": "Tomato Seeds",
@@ -4268,17 +6229,38 @@
     "rarity": "Super Rare"
   },
   {
+    "firstSeen": 1656540000215,
+    "id": "597",
+    "name": "Transistor",
+    "image": "/img/items/9319.png",
+    "sellPrice": 700,
+    "xp": 700,
+    "rarity": "Common"
+  },
+  {
     "name": "Treasure Chest",
     "id": "252",
     "image": "/img/items/4917.png",
     "sellPrice": 7500,
     "xp": 7500,
     "mastery": true,
-    "recipe": {
-      "Iron": 12,
-      "Nails": 22,
-      "Wood Plank": 6
-    },
+    "recipe": [
+      {
+        "id": "22",
+        "name": "Iron",
+        "quantity": 12
+      },
+      {
+        "id": "38",
+        "name": "Nails",
+        "quantity": 22
+      },
+      {
+        "id": "36",
+        "name": "Wood Plank",
+        "quantity": 6
+      }
+    ],
     "rarity": "",
     "craftPrice": 1000
   },
@@ -4347,6 +6329,13 @@
     "rarity": "Super Rare"
   },
   {
+    "firstSeen": 1650485242352,
+    "id": "543",
+    "name": "Trigon Knot",
+    "image": "/img/items/3179.png",
+    "rarity": "Super Rare"
+  },
+  {
     "name": "Trout",
     "id": "63",
     "image": "/img/items/trout.png",
@@ -4364,10 +6353,18 @@
     "xp": 250,
     "givable": true,
     "mastery": true,
-    "recipe": {
-      "Straw": 2,
-      "Wood": 1
-    },
+    "recipe": [
+      {
+        "id": "128",
+        "name": "Straw",
+        "quantity": 2
+      },
+      {
+        "id": "35",
+        "name": "Wood",
+        "quantity": 1
+      }
+    ],
     "rarity": "",
     "craftPrice": 10
   },
@@ -4411,10 +6408,18 @@
     "xp": 50,
     "givable": true,
     "mastery": true,
-    "recipe": {
-      "Emberstone": 1,
-      "Sandstone": 1
-    },
+    "recipe": [
+      {
+        "id": "178",
+        "name": "Emberstone",
+        "quantity": 1
+      },
+      {
+        "id": "202",
+        "name": "Sandstone",
+        "quantity": 1
+      }
+    ],
     "craftPrice": 10
   },
   {
@@ -4427,12 +6432,6 @@
     "rarity": "Uncommon",
     "craftPrice": 150,
     "mastery": true,
-    "recipe": {
-      "Feathers": 3,
-      "Fish Bones": 1,
-      "Mushroom Paste": 1,
-      "White Parchment": 2
-    },
     "sellPrice": 500,
     "givable": true
   },
@@ -4453,10 +6452,18 @@
     "xp": 1750,
     "rarity": "Uncommon",
     "mastery": true,
-    "recipe": {
-      "Board": 12,
-      "Nails": 14
-    },
+    "recipe": [
+      {
+        "id": "21",
+        "name": "Board",
+        "quantity": 12
+      },
+      {
+        "id": "38",
+        "name": "Nails",
+        "quantity": 14
+      }
+    ],
     "craftPrice": 250
   },
   {
@@ -4473,7 +6480,9 @@
     "id": "59",
     "image": "/img/items/8293.png",
     "sellPrice": 1600,
-    "xp": 840
+    "xp": 840,
+    "growthTime": 7200,
+    "mastery": true
   },
   {
     "name": "Watermelon Seeds",
@@ -4501,7 +6510,9 @@
     "id": "71",
     "image": "/img/items/8249.png",
     "sellPrice": 22500,
-    "xp": 10080
+    "xp": 10080,
+    "growthTime": 86400,
+    "mastery": true
   },
   {
     "name": "Wheat Seeds",
@@ -4522,9 +6533,13 @@
     "sellPrice": 50,
     "xp": 100,
     "mastery": true,
-    "recipe": {
-      "Feathers": 3
-    },
+    "recipe": [
+      {
+        "id": "42",
+        "name": "Feathers",
+        "quantity": 3
+      }
+    ],
     "craftPrice": 2
   },
   {
@@ -4534,10 +6549,18 @@
     "sellPrice": 1000,
     "xp": 2000,
     "mastery": true,
-    "recipe": {
-      "Glass Bottle": 1,
-      "Grapes": 100
-    },
+    "recipe": [
+      {
+        "id": "117",
+        "name": "Glass Bottle",
+        "quantity": 1
+      },
+      {
+        "id": "120",
+        "name": "Grapes",
+        "quantity": 100
+      }
+    ],
     "craftPrice": 250
   },
   {
@@ -4573,11 +6596,24 @@
     "sellPrice": 3300,
     "xp": 3300,
     "mastery": true,
-    "recipe": {
-      "Leather": 2,
-      "Purple Flower": 10,
-      "Twine": 3
-    }
+    "recipe": [
+      {
+        "id": "110",
+        "name": "Leather",
+        "quantity": 2
+      },
+      {
+        "id": "53",
+        "name": "Purple Flower",
+        "quantity": 10
+      },
+      {
+        "id": "163",
+        "name": "Twine",
+        "quantity": 3
+      }
+    ],
+    "craftPrice": 300
   },
   {
     "name": "Wood",
@@ -4594,10 +6630,18 @@
     "image": "/img/items/5733.PNG",
     "xp": 50,
     "mastery": true,
-    "recipe": {
-      "Board": 4,
-      "Nails": 4
-    },
+    "recipe": [
+      {
+        "id": "21",
+        "name": "Board",
+        "quantity": 4
+      },
+      {
+        "id": "38",
+        "name": "Nails",
+        "quantity": 4
+      }
+    ],
     "craftPrice": 2
   },
   {
@@ -4607,11 +6651,23 @@
     "sellPrice": 315,
     "xp": 350,
     "mastery": true,
-    "recipe": {
-      "Board": 10,
-      "Iron": 4,
-      "Nails": 10
-    },
+    "recipe": [
+      {
+        "id": "21",
+        "name": "Board",
+        "quantity": 10
+      },
+      {
+        "id": "22",
+        "name": "Iron",
+        "quantity": 4
+      },
+      {
+        "id": "38",
+        "name": "Nails",
+        "quantity": 10
+      }
+    ],
     "craftPrice": 25
   },
   {
@@ -4621,12 +6677,28 @@
     "sellPrice": 2500,
     "xp": 2500,
     "mastery": true,
-    "recipe": {
-      "Fern Leaf": 1,
-      "Iron": 2,
-      "Twine": 2,
-      "Wood": 4
-    },
+    "recipe": [
+      {
+        "id": "52",
+        "name": "Fern Leaf",
+        "quantity": 1
+      },
+      {
+        "id": "22",
+        "name": "Iron",
+        "quantity": 2
+      },
+      {
+        "id": "163",
+        "name": "Twine",
+        "quantity": 2
+      },
+      {
+        "id": "35",
+        "name": "Wood",
+        "quantity": 4
+      }
+    ],
     "craftPrice": 400
   },
   {
@@ -4637,10 +6709,18 @@
     "xp": 200,
     "givable": true,
     "mastery": true,
-    "recipe": {
-      "Nails": 6,
-      "Wood Plank": 6
-    },
+    "recipe": [
+      {
+        "id": "38",
+        "name": "Nails",
+        "quantity": 6
+      },
+      {
+        "id": "36",
+        "name": "Wood Plank",
+        "quantity": 6
+      }
+    ],
     "craftPrice": 10
   },
   {
@@ -4667,11 +6747,23 @@
     "sellPrice": 500,
     "xp": 450,
     "mastery": true,
-    "recipe": {
-      "Iron": 1,
-      "Nails": 4,
-      "Wood Plank": 1
-    },
+    "recipe": [
+      {
+        "id": "22",
+        "name": "Iron",
+        "quantity": 1
+      },
+      {
+        "id": "38",
+        "name": "Nails",
+        "quantity": 4
+      },
+      {
+        "id": "36",
+        "name": "Wood Plank",
+        "quantity": 1
+      }
+    ],
     "craftPrice": 75
   },
   {
@@ -4682,11 +6774,23 @@
     "xp": 1750,
     "rarity": "Uncommon",
     "mastery": true,
-    "recipe": {
-      "Board": 1,
-      "Iron": 2,
-      "Twine": 4
-    },
+    "recipe": [
+      {
+        "id": "21",
+        "name": "Board",
+        "quantity": 1
+      },
+      {
+        "id": "22",
+        "name": "Iron",
+        "quantity": 2
+      },
+      {
+        "id": "163",
+        "name": "Twine",
+        "quantity": 4
+      }
+    ],
     "craftPrice": 250
   },
   {
@@ -4697,6 +6801,28 @@
     "buyPrice": 3
   },
   {
+    "firstSeen": 1656539988872,
+    "id": "594",
+    "name": "Wrench",
+    "image": "/img/items/9310.png",
+    "sellPrice": 7000,
+    "xp": 5000,
+    "mastery": true,
+    "craftPrice": 1000,
+    "recipe": [
+      {
+        "id": "178",
+        "name": "Emberstone",
+        "quantity": 5
+      },
+      {
+        "id": "145",
+        "name": "Steel",
+        "quantity": 1
+      }
+    ]
+  },
+  {
     "name": "Yarn",
     "id": "427",
     "image": "/img/items/pt_t_07.png",
@@ -4705,9 +6831,13 @@
     "givable": true,
     "rarity": "Common",
     "mastery": true,
-    "recipe": {
-      "Twine": 4
-    },
+    "recipe": [
+      {
+        "id": "163",
+        "name": "Twine",
+        "quantity": 4
+      }
+    ],
     "craftPrice": 100
   },
   {
@@ -4727,5 +6857,14 @@
     "givable": true,
     "mastery": true,
     "rarity": ""
+  },
+  {
+    "firstSeen": 1648756082829,
+    "id": "519",
+    "name": "frank's Basket",
+    "image": "/img/items/fbasket.png",
+    "xp": 1,
+    "givable": true,
+    "rarity": "Very Rare"
   }
 ]

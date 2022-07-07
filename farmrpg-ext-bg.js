@@ -19,10 +19,20 @@ import { setupSettings } from './lib/settings.js'
 import { setupLocksmith } from './lib/locksmith.js'
 import { setupProduction } from './lib/production.js'
 import { setupVineyard } from './lib/vineyard.js'
+import { setupQuests } from './lib/quests.js'
+import { fetchEmblems, setupEmblems } from './lib/emblems.js'
+import { fetchCommunityCenter, setupCommunityCenter } from './lib/communityCenter.js'
+import { setupBorgens } from './lib/borgen.js'
+import { fetchExchangeCenter, setupExchangeCenter } from './lib/exchange.js'
 
+/**
+ * @typedef {{
+ *  db: idb.DB
+ * }} GlobalState
+ */
 class GlobalState {
     constructor() {
-        this.requestInterceptor = new RequestInterceptor()
+        this.requestInterceptor = new RequestInterceptor(this.logLatency.bind(this))
         this.ports = []
         this.clickHandlers = {}
         this.postMessageHandlers = {}
@@ -87,6 +97,39 @@ class GlobalState {
         }
         if (lastError !== null) {
             throw lastError
+        }
+    }
+
+    /**
+     * Log a latency recording.
+     * @param {number} ts
+     * @param {string} url
+     * @param {number} latency
+     */
+    async logLatency(ts, url, latency) {
+        if (this.db !== undefined) {
+            await this.db.put("latency", {ts, url, latency})
+        }
+    }
+
+    /**
+     * Helper for other fetch* methods.
+     * @param {string} url
+     * @param {(state: GlobalState, page: string | Document, url: string | URL) => Promise<void>} handler
+     * @param {{parse: boolean}} options
+     */
+    async fetchPage(url, handler, options = {}) {
+        const resp = await fetch(url)
+        if (!resp.ok) {
+            throw `Error getting ${url}`
+        }
+        let page = await resp.text()
+        if (options.parse) {
+            const parser = new DOMParser()
+            const dom = parser.parseFromString(page, "text/html")
+            await handler(this, dom, new URL(url))
+        } else {
+            await handler(this, page, url)
         }
     }
 }
@@ -165,7 +208,7 @@ const main = async () => {
     }
 
     // Initialize the database.
-    globalState.db = await idb.openDB("farmrpg-ext", 2, {
+    globalState.db = await idb.openDB("farmrpg-ext", 7, {
         upgrade(db, oldVer) {
             switch(oldVer) {
             case 0:
@@ -181,6 +224,22 @@ const main = async () => {
                 const pets = db.createObjectStore("pets", { keyPath: "name" })
                 pets.createIndex("byID", "id", {unique: true})
                 db.createObjectStore("player", { keyPath: "id", autoIncrement: true })
+            case 2:
+                console.log("Running DB migrations for version 3")
+                db.createObjectStore("quests", { keyPath: "id" })
+            case 3:
+                console.log("Running DB migrations for version 4")
+                db.createObjectStore("latency", { keyPath: ["ts", "url"] })
+            case 4:
+                console.log("Running DB migrations for version 5")
+                db.createObjectStore("communityCenter", { keyPath: "date" })
+                db.createObjectStore("emblems", { keyPath: "id" })
+            case 5:
+                console.log("Running DB migrations for version 6")
+                db.createObjectStore("borgens", { keyPath: "date" })
+            case 6:
+                console.log("Running DB migrations for version 7")
+                db.createObjectStore("exchangeCenter", { keyPath: ["date", "giveItem", "receiveItem"] })
             }
         },
     })
@@ -189,7 +248,9 @@ const main = async () => {
     const itemCount = await globalState.db.count("items")
     const locationCount = await globalState.db.count("locations")
     const logCount = await globalState.db.count("log")
-    console.log(`Database loaded, items ${itemCount} locations ${locationCount} log ${logCount}`)
+    const petsCount = await globalState.db.count("pets")
+    const questsCount = await globalState.db.count("quests")
+    console.log(`Database loaded, items ${itemCount} locations ${locationCount} pets ${petsCount} quests ${questsCount} log ${logCount}`)
 
     // Munge outgoing requests to fix the origin and referer headers.
     browser.webRequest.onBeforeSendHeaders.addListener(
@@ -233,12 +294,17 @@ const main = async () => {
     setupLocksmith(globalState)
     setupProduction(globalState)
     setupVineyard(globalState)
+    setupQuests(globalState)
+    setupEmblems(globalState)
+    setupCommunityCenter(globalState)
+    setupBorgens(globalState)
+    setupExchangeCenter(globalState)
 
     // Kick off some initial data population.
     renderSidebarFromGlobalState()
     fetchInventory(globalState).then(renderSidebarFromGlobalState)
     fetchPerks(globalState).then(() => {
-        console.log("Found initial perksetId", globalState.player.currentPerkset)
+        console.log("Found initial perkset", globalState.player.currentPerkset)
         renderSidebarFromGlobalState()
     })
 
@@ -246,6 +312,11 @@ const main = async () => {
     browser.alarms.create("inventory-refresh", {periodInMinutes: 5})
     browser.alarms.create("perk-refresh", {periodInMinutes: 15})
     browser.alarms.create("render-sidebar", {periodInMinutes: 1})
+    browser.alarms.create("clear-latency", {periodInMinutes: 60})
+    browser.alarms.create("community-center-refresh", {
+        periodInMinutes: 60*24,
+        when: luxon.DateTime.fromObject({}, {zone: "America/Chicago"}).startOf("day").plus({day: 1}).minus({minutes: 30}).toMillis(),
+    })
     browser.alarms.onAlarm.addListener(async alarm => {
         switch (alarm.name) {
         case "inventory-refresh":
@@ -253,18 +324,26 @@ const main = async () => {
             await renderSidebarFromGlobalState()
             break
         case "perk-refresh":
-            globalState.perksetId = await getPerksetId()
+            await fetchPerks(globalState)
             await renderSidebarFromGlobalState()
             break
         case "render-sidebar":
             await renderSidebarFromGlobalState()
+            break
+        case "clear-latency":
+            // Delete all but the last 24 hours of data.
+            // await globalState.db.delete("latency", IDBKeyRange.upperBound(Date.now() - 24*60*60*1000))
+            await fetchCommunityCenter(globalState)
+            await fetchExchangeCenter(globalState)
+            await fetchEmblems(globalState)
+            break
+        case "community-center-refresh":
+            await fetchCommunityCenter(globalState)
+            await fetchExchangeCenter(globalState)
+            await fetchEmblems(globalState)
             break
         }
     })
 }
 
 main()
-
-
-// https://farmrpg.com/worker.php?go=spin&type=Apples
-// You got:<br/><img src='/img/items/8297.png' class='itemimg'><br/>Apples (x9)

@@ -1,0 +1,78 @@
+- image: bg_def.jpg
+  name: The Farm
+
+- image: bg_20.jpg
+  name: Buddy's Cave
+  costItem: Model Ship
+  costQuantity: 10
+
+- image: bg_31.jpg
+  name: Unknown Lands
+  costItem: Winged Amulet
+  costQuantity: 25
+
+- image: bg_16.jpg
+  name: Doom
+  costItem: Strange Ring
+  costQuantity: 25
+
+- image: bg_37.jpg
+  name: The Mountain
+  costItem: Dragon Skull
+  costQuantity: 25
+
+- image: bg_42.jpg
+  name: Buddy
+  costItem: Buddystone
+  costQuantity: 100
+
+- image: bg_41.jpg
+  name: Corn
+  costItem: Runestone 11
+  costQuantity: 100
+
+- image: bg_17.jpg
+  name: The Forge
+  costItem: Sturdy Sword
+  costQuantity: 250
+
+- image: bg_09.jpg
+  name: Jundland Desert
+  costItem: Sand
+  costQuantity: 1000
+
+- image: bg_25.jpg
+  name: Quiet Shore
+  costGold: 100
+
+- image: bg_01.jpg
+  name: Misty Forest
+  costGold: 100
+
+- image: bg_27.jpg
+  name: Castrum Romuska
+  costGold: 100
+
+- image: bg_36.jpg
+  name: Lost Ruins
+  costGold: 100
+
+- image: bg_07.jpg
+  name: Stone Road
+  costGold: 100
+
+- image: bg_26.jpg
+  name: Town at Night
+  costSilver: 1000000
+
+- image: bg_33.jpg
+  name: Tree of Life
+  costSilver: 10000000
+
+- image: bg_34.jpg
+  name: Sword Ruins
+  costSilver: 100000000
+
+- image: bg_39.jpg
+  name: Lost Merchant
+  costSilver: 1000000000

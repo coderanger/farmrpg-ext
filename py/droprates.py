@@ -10,7 +10,7 @@ import time
 import zoneinfo
 from collections import defaultdict
 from csv import DictWriter
-from typing import Any, Optional, Union
+from typing import Any, Iterable, Optional, Union
 
 import attrs
 import cattrs
@@ -32,24 +32,25 @@ BASE_DROP_RATES = {
     "Whispering Creek": 4 / 15,
 }
 
-CACHE_PATH_BASE = f"{os.path.dirname(__file__)}/.drops.{'{}'}.json"
+CACHE_PATH_BASE = f"{os.path.dirname(__file__)}/.dropscache/{'{}'}.json"
 
-# Harvest drops to pay attention to.
+# Harvest drops to pay attention to. Mapped to their default seeds.
 HARVEST_DROPS = {
-    "Gold Peppers",
-    "Gold Carrot",
-    "Gold Peas",
-    "Gold Cucumber",
-    "Gold Eggplant",
-    "Runestone 01",
-    "Runestone 06",
-    "Runestone 07",
-    "Runestone 10",
-    "Runestone 11",
-    "Runestone 16",
-    "Runestone 20",
-    "Piece of Heart",
-    "Winged Amulet",
+    "Gold Peppers": "Pepper Seeds",
+    "Gold Carrot": "Carrot Seeds",
+    "Gold Peas": "Pea Seeds",
+    "Gold Cucumber": "Cucumber Seeds",
+    "Gold Eggplant": "Eggplant Seeds",
+    "Runestone 01": "Carrot Seeds",
+    "Runestone 06": "Cucumber Seeds",
+    "Runestone 07": "Radish Seeds",
+    "Runestone 10": "Leek Seeds",
+    "Runestone 11": "Corn Seeds",
+    "Runestone 16": "Hops Seeds",
+    "Runestone 20": "Eggplant Seeds",
+    "Piece of Heart": "Watermelon Seeds",
+    "Winged Amulet": "Tomato Seeds",
+    "Egg 03": "Carrot Seeds",
 }
 
 # When the Iron Depot drop change went live.
@@ -59,6 +60,12 @@ IRON_DEPOT_CHANGE = (
     ).timestamp()
     * 1000
 )
+
+BROKEN_OVERFLOW_TYPES = {"cider", "large_net", "palmer"}
+
+# When the cider "changed drop rates" went live.
+CIDER_CHANGE = 1654722709000
+NEW_CIDER_BASE_DROP_RATE = 0.4  # Confirmed by FS in chat
 
 
 def cache_path_for(**kwargs) -> str:
@@ -73,8 +80,19 @@ def cache_path_for(**kwargs) -> str:
     return CACHE_PATH_BASE.format(buf.getvalue())
 
 
-def when_dropped(item: fixtures.Item) -> range:
+class InfRange:
+    """A fake range that is always true."""
+
+    def __contains__(self, val: int) -> bool:
+        return True
+
+
+def when_dropped(item: fixtures.Item, location: fixtures.Location) -> range:
     first_dropped = item.first_dropped or item.first_seen or 0
+    if location.name == "Black Rock Canyon":
+        # Hack, Thursday, March 31, 2022 1:00:00 PM GMT-07:00
+        # Salt Rock was added.
+        first_dropped = 1648756800000
     last_dropped = item.last_dropped or round((time.time() + 10000000) * 1000)
     return range(first_dropped, last_dropped + 1)
 
@@ -84,8 +102,10 @@ class ItemDrops:
     explores: int = 0
     lemonades: int = 0
     ciders: int = 0
+    palmers: int = 0
     fishes: int = 0
     nets: int = 0
+    large_nets: int = 0
     harvests: int = 0
     drops: int = 0
 
@@ -95,8 +115,10 @@ class LocationDrops:
     explores: int = 0
     lemonades: int = 0
     ciders: int = 0
+    palmers: int = 0
     fishes: int = 0
     nets: int = 0
+    large_nets: int = 0
     harvests: int = 0
     drops: int = 0
     items: dict[str, ItemDrops] = attrs.Factory(lambda: defaultdict(ItemDrops))
@@ -107,13 +129,21 @@ class Drops:
     explores: int = 0
     lemonades: int = 0
     ciders: int = 0
+    palmers: int = 0
     fishes: int = 0
     nets: int = 0
+    large_nets: int = 0
     harvests: int = 0
     drops: int = 0
     locations: dict[str, LocationDrops] = attrs.Factory(
         lambda: defaultdict(LocationDrops)
     )
+
+    @property
+    def items(self) -> Iterable[tuple[str, str, ItemDrops]]:
+        for location, loc_drops in self.locations.items():
+            for item, item_drops in loc_drops.items.items():
+                yield location, item, item_drops
 
 
 AnyDrops = Union[Drops, LocationDrops, ItemDrops]
@@ -124,7 +154,14 @@ def location_for_row(row: dict) -> Optional[str]:
     if row["type"] == "harvestall":
         # For harvests, we pretend the seed is a location. I will probably regret this.
         # Check that this is a harvest of just one kind of seed, otherwise too hard to track.
-        seeds = {crop["seed"] for crop in row["results"]["crops"]}
+        seeds: set[Optional[str]] = {crop["seed"] for crop in row["results"]["crops"]}
+        if len(seeds) != 1 or None in seeds:
+            # Sometimes the data recording for seeds breaks, so just assume default seeds.
+            seeds = {
+                HARVEST_DROPS[it["item"]]
+                for it in row["results"]["items"]
+                if it["item"] in HARVEST_DROPS
+            }
         if len(seeds) != 1 or None in seeds:
             return None
         else:
@@ -139,6 +176,7 @@ def count_sources(
     row: dict[str, Any],
     lemonade_fake_explores_location: Optional[str] = None,
     nets_fake_fishes: bool = False,
+    cider_location: Optional[str] = None,
 ) -> None:
     if row["type"] == "explore":
         drops.explores += row["results"]["stamina"]
@@ -151,15 +189,33 @@ def count_sources(
             )
     elif row["type"] == "cider":
         drops.ciders += 1
+        cider_explores = row["results"]["explores"]
+        if row["ts"] >= CIDER_CHANGE:
+            # Work out how many normal explores this would have been.
+            total_drops = cider_explores * NEW_CIDER_BASE_DROP_RATE
+            base_drop_rate = (
+                BASE_DROP_RATES[cider_location] if cider_location else (1 / 3)
+            )
+            cider_explores = total_drops / base_drop_rate
         # This is kind of wrong for global and location stats since not all explores count
         # for all items but it's more correct than not.
-        drops.explores += row["results"].get("explores", row["results"]["stamina"])
+        drops.explores += cider_explores
+    elif row["type"] == "palmer":
+        drops.palmers += 1
+        if lemonade_fake_explores_location is not None:
+            drops.explores += round(
+                (1 / BASE_DROP_RATES[lemonade_fake_explores_location]) * 500
+            )
     elif row["type"] == "fish":
         drops.fishes += 1
     elif row["type"] == "net":
         drops.nets += 1
         if nets_fake_fishes:
             drops.fishes += sum(it.get("quantity", 1) for it in row["results"]["items"])
+    elif row["type"] == "large_net":
+        drops.large_nets += 1
+        if nets_fake_fishes:
+            drops.fishes += 400
     elif row["type"] == "harvestall":
         # We already checked that only mono-seed logs are considered.
         drops.harvests += len(row["results"]["crops"])
@@ -169,11 +225,14 @@ def compile_drops(
     explore: bool = False,
     lemonade: bool = False,
     cider: bool = False,
+    palmer: bool = False,
     fish: bool = False,
     net: bool = False,
+    large_net: bool = False,
     harvest: bool = False,
     since: int = 0,
     iron_depot: bool = False,
+    runecube: bool = False,
     lemonade_fake_explores: bool = False,
     nets_fake_fishes: bool = False,
     harvest_true_drops: bool = False,
@@ -183,11 +242,14 @@ def compile_drops(
         e=explore,
         l=lemonade,
         c=cider,
+        p=palmer,
         f=fish,
         n=net,
+        m=large_net,
         h=harvest,
         s=since,
         i=iron_depot,
+        r=runecube,
         x=lemonade_fake_explores,
         y=nets_fake_fishes,
         t=harvest_true_drops,
@@ -202,9 +264,13 @@ def compile_drops(
         with open(cache_path) as cachef:
             return cattrs.structure(json.load(cachef), Drops)
 
-    when_items_dropped = {
-        item.name: when_dropped(item) for item in fixtures.load_items()
-    }
+    items = list(fixtures.load_items())
+    when_items_dropped: dict[tuple[str, str], Union[range, InfRange]] = defaultdict(
+        InfRange
+    )
+    for loc in fixtures.load_locations():
+        for item in items:
+            when_items_dropped[(item.name, loc.name)] = when_dropped(item, loc)
     affected_by_iron_depot = {
         loc.name: ("Iron" in loc.items or "Nails" in loc.items)
         for loc in fixtures.load_locations()
@@ -217,16 +283,22 @@ def compile_drops(
         types.add("lemonade")
     if cider:
         types.add("cider")
+    if palmer:
+        types.add("palmer")
     if fish:
         types.add("fish")
     if net:
         types.add("net")
+    if large_net:
+        types.add("large_net")
     if harvest:
         types.add("harvestall")
     explores = Drops()
     logs = [row for row in parse_logs.parse_logs(since=since) if row["type"] in types]
     # First run through to count drops and work out which items are in each locations.
     for row in logs:
+        if row["results"].get("runecube", False) != runecube:
+            continue
         location_name = location_for_row(row)
         if not location_name:
             continue
@@ -240,11 +312,11 @@ def compile_drops(
             item["item"] for item in row["results"]["items"] if item.get("overflow")
         }
         for item in row["results"]["items"]:
-            if row["ts"] not in when_items_dropped[item["item"]]:
+            if row["ts"] not in when_items_dropped[(item["item"], location_name)]:
                 # Ignore out-of-bounds drops. This allows accounting for stuff like drop
                 # rates changing substantially by manually resetting firstDropped.
                 continue
-            if row["type"] == "cider" and item["item"] in overflow_items:
+            if row["type"] in BROKEN_OVERFLOW_TYPES and item["item"] in overflow_items:
                 # Cider overflow always reports 0 drops so any item that overflows during
                 # a cider has to be ignored.
                 continue
@@ -264,6 +336,8 @@ def compile_drops(
             explores.drops += quantity
     # Second pass to get the explore counts.
     for row in logs:
+        if row["results"].get("runecube", False) != runecube:
+            continue
         location_name = location_for_row(row)
         if not location_name:
             continue
@@ -283,12 +357,13 @@ def compile_drops(
             if lemonade_fake_explores
             else None,
             nets_fake_fishes=nets_fake_fishes,
+            cider_location=location_name,
         )
         for item, item_explores in explores.locations[location_name].items.items():
-            if row["ts"] not in when_items_dropped[item]:
+            if row["ts"] not in when_items_dropped[(item, location_name)]:
                 # Item couldn't drop, this doesn't count.
                 continue
-            if row["type"] == "cider" and item in overflow_items:
+            if row["type"] in BROKEN_OVERFLOW_TYPES and item in overflow_items:
                 # Cider overflow always reports 0 drops so any item that overflows during
                 # a cider has to be ignored.
                 continue
@@ -297,6 +372,7 @@ def compile_drops(
         count_sources_for_loc(explores)
 
     # Write the cache.
+    os.makedirs(os.path.dirname(cache_path), exist_ok=True)
     with open(cache_path, "w") as cachef:
         json.dump(cattrs.unstructure(explores), cachef)
 
@@ -317,18 +393,6 @@ def total_drops() -> dict[str, dict[str, int]]:
     return totals
 
 
-def rates_per_stam() -> dict[str, dict[str, float]]:
-    rates = {}
-    for loc, loc_data in total_drops().items():
-        loc_rates = {}
-        for item, drops in loc_data["drops"].items():
-            if item == "ALL":
-                continue
-            loc_rates[item] = drops / loc_data["stamina"]
-        rates[loc] = loc_rates
-    return rates
-
-
 def mode_for_drops(item: AnyDrops) -> tuple[str, int]:
     if item.fishes:
         return "fishes", item.fishes
@@ -336,21 +400,6 @@ def mode_for_drops(item: AnyDrops) -> tuple[str, int]:
         return "harvests", item.harvests
     else:
         return "explores", item.explores
-
-
-def drop_rates() -> dict[str, dict[str, float]]:
-    rates = {}
-    for loc, loc_data in total_drops().items():
-        zone_total = sum(
-            drops for item, drops in loc_data["drops"].items() if item != "ALL"
-        )
-        loc_rates = {}
-        for item, drops in loc_data["drops"].items():
-            if item == "ALL":
-                continue
-            loc_rates[item] = drops / zone_total
-        rates[loc] = loc_rates
-    return rates
 
 
 class NormalOutput:
@@ -403,7 +452,7 @@ class CSVOutput:
 def droprates_cmd(
     filter: Optional[str] = typer.Argument(None),
     lemonade: bool = True,
-    cider: bool = False,
+    cider: bool = True,
     harvest: bool = True,
     since: int = 0,
     output: list[str] = [],
@@ -413,7 +462,8 @@ def droprates_cmd(
     cache: bool = True,
     csv: bool = False,
     fishing: bool = False,
-    iron_depot: bool = False,
+    iron_depot: bool = True,
+    runecube: bool = False,
 ) -> None:
     # If any output types are a comma-separated string, expand them.
     # ["foo,bar", "baz"] -> ["foo", "bar", "baz"]
@@ -430,6 +480,7 @@ def droprates_cmd(
         since=since,
         cache=cache,
         iron_depot=iron_depot,
+        runecube=runecube,
     )
     filter_is_location = filter is not None and filter in drops.locations
     filter_is_item = filter is not None and any(

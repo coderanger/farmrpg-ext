@@ -9,6 +9,7 @@
       "Sandstone",
       "Runestone 13",
       "Giant Centipede",
+      "Salt Rock",
       "Medium Chest 02",
       "Large Chest 02",
       "Ruby Scorpion",
@@ -16,7 +17,8 @@
     ],
     "id": "6",
     "type": "explore",
-    "name": "Black Rock Canyon"
+    "name": "Black Rock Canyon",
+    "image": "/img/items/canyon.png"
   },
   {
     "items": [
@@ -29,11 +31,12 @@
       "Pocket Watch",
       "Lima Bean",
       "Horned Beetle",
-      "Heart Necklace Right Piece"
+      "Tea Leaves"
     ],
     "id": "4",
     "type": "explore",
-    "name": "Cane Pole Ridge"
+    "name": "Cane Pole Ridge",
+    "image": "/img/items/ridge.png"
   },
   {
     "items": [
@@ -50,7 +53,8 @@
     ],
     "id": "9",
     "type": "explore",
-    "name": "Ember Lagoon"
+    "name": "Ember Lagoon",
+    "image": "/img/items/lagoon.png"
   },
   {
     "items": [
@@ -68,7 +72,8 @@
     ],
     "id": "7",
     "type": "explore",
-    "name": "Forest"
+    "name": "Forest",
+    "image": "/img/items/trees.png"
   },
   {
     "items": [
@@ -85,7 +90,8 @@
     ],
     "id": "3",
     "type": "explore",
-    "name": "Highland Hills"
+    "name": "Highland Hills",
+    "image": "/img/items/hills.png"
   },
   {
     "items": [
@@ -109,7 +115,8 @@
     ],
     "id": "5",
     "type": "explore",
-    "name": "Misty Forest"
+    "name": "Misty Forest",
+    "image": "/img/items/mistforest.png"
   },
   {
     "items": [
@@ -128,7 +135,8 @@
     ],
     "id": "8",
     "type": "explore",
-    "name": "Mount Banon"
+    "name": "Mount Banon",
+    "image": "/img/items/mountain.png"
   },
   {
     "items": [
@@ -139,11 +147,14 @@
       "Bone",
       "Runestone 04",
       "Wooden Mask",
-      "Grab Bag 02"
+      "Model Ship",
+      "Grab Bag 02",
+      "Skeleton Key"
     ],
     "id": "1",
     "type": "explore",
-    "name": "Small Cave"
+    "name": "Small Cave",
+    "image": "/img/items/cave.png"
   },
   {
     "items": [
@@ -161,7 +172,8 @@
     ],
     "id": "2",
     "type": "explore",
-    "name": "Small Spring"
+    "name": "Small Spring",
+    "image": "/img/items/spring.png"
   },
   {
     "items": [
@@ -183,7 +195,8 @@
     ],
     "id": "10",
     "type": "explore",
-    "name": "Whispering Creek"
+    "name": "Whispering Creek",
+    "image": "/img/items/creek.png"
   },
   {
     "items": [
@@ -199,7 +212,8 @@
     ],
     "id": "6",
     "type": "fishing",
-    "name": "Crystal River"
+    "name": "Crystal River",
+    "image": "/img/items/river.png"
   },
   {
     "items": [
@@ -223,7 +237,8 @@
     ],
     "id": "7",
     "type": "fishing",
-    "name": "Emerald Beach"
+    "name": "Emerald Beach",
+    "image": "/img/items/beach.png"
   },
   {
     "items": [
@@ -240,7 +255,8 @@
     ],
     "id": "2",
     "type": "fishing",
-    "name": "Farm Pond"
+    "name": "Farm Pond",
+    "image": "/img/items/pond.png"
   },
   {
     "items": [
@@ -257,7 +273,8 @@
     ],
     "id": "3",
     "type": "fishing",
-    "name": "Forest Pond"
+    "name": "Forest Pond",
+    "image": "/img/items/fpond.png"
   },
   {
     "items": [
@@ -266,11 +283,13 @@
       "Redgill",
       "Flarefin",
       "Strange Ring",
-      "Treasure Key"
+      "Treasure Key",
+      "Goldfin"
     ],
     "id": "9",
     "type": "fishing",
-    "name": "Lake Minerva"
+    "name": "Lake Minerva",
+    "image": "/img/items/lava.png"
   },
   {
     "items": [
@@ -287,7 +306,8 @@
     ],
     "id": "4",
     "type": "fishing",
-    "name": "Lake Tempest"
+    "name": "Lake Tempest",
+    "image": "/img/items/lake.png"
   },
   {
     "items": [
@@ -299,11 +319,32 @@
       "Serpent Eel",
       "Ruby Coral",
       "Tribal Staff",
-      "Gold Coral"
+      "Gold Coral",
+      "Gold Boot"
     ],
     "id": "10",
     "type": "fishing",
-    "name": "Large Island"
+    "name": "Large Island",
+    "image": "/img/items/largeisland.png"
+  },
+  {
+    "items": [
+      "Purple Butterfly Fish",
+      "Pirate Hook",
+      "Mystical Chest 02",
+      "Large Chest 03",
+      "Crab",
+      "Green Barracuda",
+      "Mulberry Snapper",
+      "Jumbo Fish",
+      "Speckled Grouper",
+      "Orcafish",
+      "Gold Jelly"
+    ],
+    "id": "11",
+    "type": "fishing",
+    "name": "Pirate's Cove",
+    "image": "/img/items/cove.png"
   },
   {
     "items": [
@@ -317,12 +358,12 @@
       "Mussel",
       "Mackerel",
       "Seaweed",
-      "Gold Sea Bass",
-      "Heart Necklace Left Piece"
+      "Gold Sea Bass"
     ],
     "id": "5",
     "type": "fishing",
-    "name": "Small Island"
+    "name": "Small Island",
+    "image": "/img/items/island.png"
   },
   {
     "items": [
@@ -336,7 +377,8 @@
     ],
     "id": "1",
     "type": "fishing",
-    "name": "Small Pond"
+    "name": "Small Pond",
+    "image": "/img/items/pond.png"
   },
   {
     "items": [
@@ -355,10 +397,12 @@
       "Octopus",
       "Runestone 18",
       "Diving Helmet",
+      "Goldjack",
       "Sea Dragon"
     ],
     "id": "8",
     "type": "fishing",
-    "name": "Vast Ocean"
+    "name": "Vast Ocean",
+    "image": "/img/items/ocean.png"
   }
 ]

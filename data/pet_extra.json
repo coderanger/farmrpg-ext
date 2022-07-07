@@ -1,0 +1,138 @@
+[
+    {
+        "name": "Magpie Cat",
+        "cost": 10000,
+        "farmingLevel": 10
+    },
+    {
+        "name": "Siberian Husky",
+        "cost": 100000,
+        "farmingLevel": 20,
+        "exploringLevel": 20
+    },
+    {
+        "name": "Red Squirrel",
+        "cost": 500000,
+        "craftingLevel": 30,
+        "exploringLevel": 30
+    },
+    {
+        "name": "Tawny Owl",
+        "cost": 1000000,
+        "craftingLevel": 40,
+        "fishingLevel": 40
+    },
+    {
+        "name": "Wild Boar",
+        "cost": 5000000,
+        "farmingLevel": 30,
+        "exploringLevel": 40
+    },
+    {
+        "name": "Green Python",
+        "cost": 10000000,
+        "craftingLevel": 40,
+        "exploringLevel": 50
+    },
+    {
+        "name": "Ring-tailed Lemur",
+        "cost": 35000000,
+        "farmingLevel": 50,
+        "exploringLevel": 40
+    },
+    {
+        "name": "Mandrill Baboon",
+        "cost": 50000000,
+        "farmingLevel": 40,
+        "exploringLevel": 65
+    },
+    {
+        "name": "Tree Frog",
+        "cost": 75000000,
+        "fishingLevel": 65,
+        "craftingLevel": 65
+    },
+    {
+        "name": "Gray Hedgehog",
+        "cost": 100000000,
+        "fishingLevel": 75,
+        "craftingLevel": 75
+    },
+    {
+        "name": "Cobalt Tarantula",
+        "cost": 125000000,
+        "farmingLevel": 75,
+        "exploringLevel": 75
+    },
+    {
+        "name": "Pet Rock",
+        "cost": 250000000,
+        "farmingLevel": 75,
+        "fishingLevel": 75,
+        "craftingLevel": 75,
+        "exploringLevel": 75
+    },
+    {
+        "name": "Emperor Penguin",
+        "cost": 250000000,
+        "fishingLevel": 85,
+        "craftingLevel": 85
+    },
+    {
+        "name": "Green Dragon",
+        "cost": 1000000000,
+        "farmingLevel": 85,
+        "exploringLevel": 85
+    },
+    {
+        "name": "Red Dragon",
+        "cost": 1000000000,
+        "fishingLevel": 85,
+        "craftingLevel": 85,
+        "farmingLevel": 85,
+        "exploringLevel": 85
+    },
+    {
+        "name": "Blue Dragon",
+        "cost": 3000000000,
+        "farmingLevel": 99,
+        "fishingLevel": 99,
+        "craftingLevel": 99,
+        "exploringLevel": 99
+    },
+    {
+        "name": "Brown Bear",
+        "cost": 2000000000,
+        "farmingLevel": 99,
+        "fishingLevel": 99,
+        "craftingLevel": 99,
+        "exploringLevel": 99
+    },
+    {
+        "name": "Greater Capybara",
+        "cost": 5000000000,
+        "farmingLevel": 99,
+        "fishingLevel": 99,
+        "craftingLevel": 99,
+        "exploringLevel": 99
+    },
+    {
+        "name": "Strange Onion",
+        "cost": 10000000000,
+        "farmingLevel": 99,
+        "fishingLevel": 99,
+        "craftingLevel": 99,
+        "exploringLevel": 99
+    },
+    {
+        "name": "Banded Armadillo",
+        "cost": 125000000,
+        "craftingLevel": 75
+    },
+    {
+        "name": "Frigate Macaw",
+        "cost": 400000000,
+        "fishingLevel": 80,
+        "craftingLevel": 70
+    }
+]
