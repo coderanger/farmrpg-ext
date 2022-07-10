@@ -2824,5 +2824,183 @@
     "fromImage": "/img/items/a_027.png",
     "text": "Cecil found a bunch of junk they don't need and would trade you for the following items.",
     "silverReward": 54380000
+  },
+  {
+    "firstSeen": 1656740505502,
+    "itemRequests": [
+      {
+        "id": "427",
+        "quantity": 35
+      },
+      {
+        "id": "328",
+        "quantity": 250
+      },
+      {
+        "id": "29",
+        "quantity": 250
+      },
+      {
+        "id": "409",
+        "quantity": 250
+      },
+      {
+        "id": "43",
+        "quantity": 250
+      },
+      {
+        "id": "107",
+        "quantity": 250
+      },
+      {
+        "id": "129",
+        "quantity": 250
+      },
+      {
+        "id": "248",
+        "quantity": 250
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "85",
+        "quantity": 90
+      },
+      {
+        "id": "93",
+        "quantity": 90
+      },
+      {
+        "id": "142",
+        "quantity": 90
+      },
+      {
+        "id": "83",
+        "quantity": 90
+      },
+      {
+        "id": "586",
+        "quantity": 1
+      }
+    ],
+    "id": "54793",
+    "name": "Items Wanted",
+    "isPersonal": true,
+    "from": "Borgen",
+    "fromImage": "/img/items/borgen.png",
+    "text": "If you can find the following items and give them to Borgen, you'll be rewarded for your effort.",
+    "silverReward": 57490000
+  },
+  {
+    "firstSeen": 1656740148316,
+    "itemRequests": [
+      {
+        "id": "283",
+        "quantity": 250
+      },
+      {
+        "id": "33",
+        "quantity": 250
+      },
+      {
+        "id": "414",
+        "quantity": 250
+      },
+      {
+        "id": "277",
+        "quantity": 250
+      },
+      {
+        "id": "97",
+        "quantity": 250
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "396",
+        "quantity": 60
+      },
+      {
+        "id": "134",
+        "quantity": 90
+      },
+      {
+        "id": "120",
+        "quantity": 90
+      },
+      {
+        "id": "104",
+        "quantity": 85
+      },
+      {
+        "id": "133",
+        "quantity": 90
+      },
+      {
+        "id": "586",
+        "quantity": 1
+      }
+    ],
+    "id": "54794",
+    "name": "House Cleaning",
+    "isPersonal": true,
+    "from": "Thomas",
+    "fromImage": "/img/items/a_048.png",
+    "text": "Thomas is doing some house cleaning and will give you some nice items if you can bring the following.",
+    "silverReward": 51905000
+  },
+  {
+    "firstSeen": 1656740156341,
+    "itemRequests": [
+      {
+        "id": "191",
+        "quantity": 250
+      },
+      {
+        "id": "21",
+        "quantity": 35
+      },
+      {
+        "id": "414",
+        "quantity": 250
+      },
+      {
+        "id": "307",
+        "quantity": 250
+      },
+      {
+        "id": "579",
+        "quantity": 35
+      },
+      {
+        "id": "314",
+        "quantity": 250
+      },
+      {
+        "id": "303",
+        "quantity": 250
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "80",
+        "quantity": 90
+      },
+      {
+        "id": "173",
+        "quantity": 90
+      },
+      {
+        "id": "586",
+        "quantity": 1
+      }
+    ],
+    "id": "54795",
+    "name": "Items Wanted",
+    "isPersonal": true,
+    "from": "Jill",
+    "fromImage": "/img/items/a_024.png",
+    "text": "If you can find the following items and give them to Jill, you'll be rewarded for your effort.",
+    "silverReward": 55095000
   }
 ]

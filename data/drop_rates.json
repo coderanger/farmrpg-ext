@@ -86,9 +86,9 @@
   },
   {
     "drop_rates": {
-      "Egg 03": 4006.5,
-      "Gold Carrot": 240.99248120300751,
-      "Runestone 01": 141.19823788546256
+      "Egg 03": 4196.5,
+      "Gold Carrot": 239.8,
+      "Runestone 01": 138.15637860082305
     },
     "iron_depot_rates": {},
     "location": "Carrot Seeds",
@@ -97,7 +97,7 @@
   },
   {
     "drop_rates": {
-      "Runestone 11": 1073.4615384615386
+      "Runestone 11": 1106.5
     },
     "iron_depot_rates": {},
     "location": "Corn Seeds",
@@ -139,8 +139,8 @@
   },
   {
     "drop_rates": {
-      "Gold Cucumber": 522.0,
-      "Runestone 06": 522.0
+      "Gold Cucumber": 700.6666666666666,
+      "Runestone 06": 700.6666666666666
     },
     "iron_depot_rates": {},
     "location": "Cucumber Seeds",
@@ -149,8 +149,8 @@
   },
   {
     "drop_rates": {
-      "Gold Eggplant": 468.2,
-      "Runestone 20": 2341.0
+      "Gold Eggplant": 426.1,
+      "Runestone 20": 2130.5
     },
     "iron_depot_rates": {},
     "location": "Eggplant Seeds",
@@ -434,7 +434,7 @@
   },
   {
     "drop_rates": {
-      "Runestone 10": 756.0
+      "Runestone 10": 836.0
     },
     "iron_depot_rates": {},
     "location": "Leek Seeds",
@@ -532,7 +532,7 @@
   },
   {
     "drop_rates": {
-      "Gold Peas": 625.4
+      "Gold Peas": 515.2857142857143
     },
     "iron_depot_rates": {},
     "location": "Pea Seeds",
@@ -541,7 +541,7 @@
   },
   {
     "drop_rates": {
-      "Gold Peppers": 181.47619047619048
+      "Gold Peppers": 161.18032786885246
     },
     "iron_depot_rates": {},
     "location": "Pepper Seeds",
@@ -598,7 +598,7 @@
   },
   {
     "drop_rates": {
-      "Runestone 07": 936.0
+      "Runestone 07": 1156.5
     },
     "iron_depot_rates": {},
     "location": "Radish Seeds",
@@ -725,7 +725,7 @@
   },
   {
     "drop_rates": {
-      "Winged Amulet": 2259.0
+      "Winged Amulet": 3139.0
     },
     "iron_depot_rates": {},
     "location": "Tomato Seeds",
@@ -776,7 +776,7 @@
   },
   {
     "drop_rates": {
-      "Piece of Heart": 1268.0
+      "Piece of Heart": 2363.0
     },
     "iron_depot_rates": {},
     "location": "Watermelon Seeds",

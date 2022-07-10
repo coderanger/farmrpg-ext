@@ -22640,14 +22640,15 @@
     ],
     "id": "74",
     "name": "Watermelon Eating Contest",
+    "isPersonal": false,
     "from": "Rosalie",
     "fromImage": "/img/items/a_098.png",
     "text": "Rosalie has asked you to help get the needed melons together for the annual Watermelon eating contest. She bought seeds to grow the melons herself, but didn't get them planted in time.",
-    "silverReward": 100000,
-    "goldReward": 15,
+    "requiresFarming": 23,
     "availableFrom": "Jul 2",
     "availableTo": "Jul 5",
-    "requiresFarming": 23
+    "silverReward": 100000,
+    "goldReward": 15
   },
   {
     "firstSeen": 1646726588185,
@@ -22981,17 +22982,17 @@
     ],
     "id": "75",
     "name": "Fire Brigade",
+    "isPersonal": false,
     "from": "George",
     "fromImage": "/img/items/a_034.png",
     "text": "George is in charge of making sure that the fire brigade is ready to put out any fires that this year's firework show might cause by accident. He needs a few more buckets to be ready to go. Can you help him out?",
-    "silverReward": 5000,
-    "goldReward": 5,
-    "availableFrom": "Jul 2",
-    "availableTo": "Jul 5",
     "requiresFarming": 1,
     "requiresCrafting": 1,
     "requiresFishing": 1,
-    "requiresExploring": 1
+    "requiresExploring": 1,
+    "availableFrom": "Jul 2",
+    "availableTo": "Jul 5",
+    "silverReward": 5000
   },
   {
     "firstSeen": 1646726568181,

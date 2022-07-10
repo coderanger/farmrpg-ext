@@ -1557,6 +1557,15 @@
     "goalQuantity": 10000,
     "rewardItem": "Fishing Net",
     "rewardQuantity": 125,
-    "progress": 5135590
+    "progress": 5138524
+  },
+  {
+    "firstSeen": 1656740104059,
+    "date": "2022-07-02",
+    "goalItem": "Bluegill",
+    "goalQuantity": 650000,
+    "rewardItem": "Magna Quartz",
+    "rewardQuantity": 10,
+    "progress": 1390471
   }
 ]
