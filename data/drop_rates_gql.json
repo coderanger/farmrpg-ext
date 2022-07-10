@@ -4761,7 +4761,7 @@
   },
   {
     "drops": 5332,
-    "hits": 1240288.0,
+    "hits": 1240288,
     "item": "Ancient Coin",
     "location": "Black Rock Canyon",
     "mode": "explores",
@@ -4771,7 +4771,7 @@
   },
   {
     "drops": 147989,
-    "hits": 1234288.0,
+    "hits": 1234288,
     "item": "Coal",
     "location": "Black Rock Canyon",
     "mode": "explores",
@@ -4781,7 +4781,7 @@
   },
   {
     "drops": 106,
-    "hits": 38788.0,
+    "hits": 38788,
     "item": "Giant Centipede",
     "location": "Black Rock Canyon",
     "mode": "explores",
@@ -4791,7 +4791,7 @@
   },
   {
     "drops": 1903,
-    "hits": 82288.0,
+    "hits": 82288,
     "item": "Horn",
     "location": "Black Rock Canyon",
     "mode": "explores",
@@ -4801,7 +4801,7 @@
   },
   {
     "drops": 82,
-    "hits": 1240288.0,
+    "hits": 1240288,
     "item": "Large Chest 02",
     "location": "Black Rock Canyon",
     "mode": "explores",
@@ -4811,7 +4811,7 @@
   },
   {
     "drops": 63,
-    "hits": 1240288.0,
+    "hits": 1240288,
     "item": "Medium Chest 02",
     "location": "Black Rock Canyon",
     "mode": "explores",
@@ -4821,7 +4821,7 @@
   },
   {
     "drops": 146,
-    "hits": 1240288.0,
+    "hits": 1240288,
     "item": "Orange Gecko",
     "location": "Black Rock Canyon",
     "mode": "explores",
@@ -4831,7 +4831,7 @@
   },
   {
     "drops": 147,
-    "hits": 244288.0,
+    "hits": 244288,
     "item": "Ruby Scorpion",
     "location": "Black Rock Canyon",
     "mode": "explores",
@@ -4841,7 +4841,7 @@
   },
   {
     "drops": 231,
-    "hits": 1240288.0,
+    "hits": 1240288,
     "item": "Runestone 09",
     "location": "Black Rock Canyon",
     "mode": "explores",
@@ -4851,7 +4851,7 @@
   },
   {
     "drops": 169,
-    "hits": 1240288.0,
+    "hits": 1240288,
     "item": "Runestone 13",
     "location": "Black Rock Canyon",
     "mode": "explores",
@@ -4861,7 +4861,7 @@
   },
   {
     "drops": 61088,
-    "hits": 1240288.0,
+    "hits": 1240288,
     "item": "Salt Rock",
     "location": "Black Rock Canyon",
     "mode": "explores",
@@ -4871,7 +4871,7 @@
   },
   {
     "drops": 9670,
-    "hits": 82288.0,
+    "hits": 82288,
     "item": "Sandstone",
     "location": "Black Rock Canyon",
     "mode": "explores",
@@ -4881,7 +4881,7 @@
   },
   {
     "drops": 18547,
-    "hits": 1240288.0,
+    "hits": 1240288,
     "item": "Shimmer Quartz",
     "location": "Black Rock Canyon",
     "mode": "explores",
@@ -4971,7 +4971,7 @@
   },
   {
     "drops": 1238,
-    "hits": 205148.0,
+    "hits": 205148,
     "item": "Ancient Coin",
     "location": "Ember Lagoon",
     "mode": "explores",
@@ -4981,7 +4981,7 @@
   },
   {
     "drops": 4,
-    "hits": 205148.0,
+    "hits": 205148,
     "item": "Diamond",
     "location": "Ember Lagoon",
     "mode": "explores",
@@ -4991,7 +4991,7 @@
   },
   {
     "drops": 9026,
-    "hits": 205148.0,
+    "hits": 205148,
     "item": "Emberstone",
     "location": "Ember Lagoon",
     "mode": "explores",
@@ -5001,7 +5001,7 @@
   },
   {
     "drops": 14269,
-    "hits": 205148.0,
+    "hits": 205148,
     "item": "Glass Orb",
     "location": "Ember Lagoon",
     "mode": "explores",
@@ -5011,7 +5011,7 @@
   },
   {
     "drops": 17,
-    "hits": 205148.0,
+    "hits": 205148,
     "item": "Large Chest 01",
     "location": "Ember Lagoon",
     "mode": "explores",
@@ -5021,7 +5021,7 @@
   },
   {
     "drops": 118,
-    "hits": 205148.0,
+    "hits": 205148,
     "item": "Magicite",
     "location": "Ember Lagoon",
     "mode": "explores",
@@ -5031,7 +5031,7 @@
   },
   {
     "drops": 308,
-    "hits": 205148.0,
+    "hits": 205148,
     "item": "Moonstone",
     "location": "Ember Lagoon",
     "mode": "explores",
@@ -5041,7 +5041,7 @@
   },
   {
     "drops": 4002,
-    "hits": 196148.0,
+    "hits": 196148,
     "item": "Prism Shard",
     "location": "Ember Lagoon",
     "mode": "explores",
@@ -5051,7 +5051,7 @@
   },
   {
     "drops": 26,
-    "hits": 205148.0,
+    "hits": 205148,
     "item": "Runestone 17",
     "location": "Ember Lagoon",
     "mode": "explores",
@@ -5061,7 +5061,7 @@
   },
   {
     "drops": 37497,
-    "hits": 193148.0,
+    "hits": 193148,
     "item": "Stone",
     "location": "Ember Lagoon",
     "mode": "explores",
@@ -5071,7 +5071,7 @@
   },
   {
     "drops": 24563,
-    "hits": 997796.0,
+    "hits": 997796,
     "item": "Antler",
     "location": "Forest",
     "mode": "explores",
@@ -5081,7 +5081,7 @@
   },
   {
     "drops": 3070,
-    "hits": 153296.0,
+    "hits": 153296,
     "item": "Arrowhead",
     "location": "Forest",
     "mode": "explores",
@@ -5091,7 +5091,7 @@
   },
   {
     "drops": 3048,
-    "hits": 184796.0,
+    "hits": 184796,
     "item": "Bird Egg",
     "location": "Forest",
     "mode": "explores",
@@ -5101,7 +5101,7 @@
   },
   {
     "drops": 121,
-    "hits": 39296.0,
+    "hits": 39296,
     "item": "Fire Ant",
     "location": "Forest",
     "mode": "explores",
@@ -5111,7 +5111,7 @@
   },
   {
     "drops": 141,
-    "hits": 997796.0,
+    "hits": 997796,
     "item": "Frog",
     "location": "Forest",
     "mode": "explores",
@@ -5121,7 +5121,7 @@
   },
   {
     "drops": 174,
-    "hits": 997796.0,
+    "hits": 997796,
     "item": "Gold Feather",
     "location": "Forest",
     "mode": "explores",
@@ -5131,7 +5131,7 @@
   },
   {
     "drops": 175,
-    "hits": 997796.0,
+    "hits": 997796,
     "item": "Gold Leaf",
     "location": "Forest",
     "mode": "explores",
@@ -5141,7 +5141,7 @@
   },
   {
     "drops": 33181,
-    "hits": 997796.0,
+    "hits": 997796,
     "item": "Hide",
     "location": "Forest",
     "mode": "explores",
@@ -5151,7 +5151,7 @@
   },
   {
     "drops": 52451,
-    "hits": 996296.0,
+    "hits": 996296,
     "item": "Mushroom",
     "location": "Forest",
     "mode": "explores",
@@ -5161,7 +5161,7 @@
   },
   {
     "drops": 49907,
-    "hits": 954296.0,
+    "hits": 954296,
     "item": "Straw",
     "location": "Forest",
     "mode": "explores",
@@ -5171,7 +5171,7 @@
   },
   {
     "drops": 126429,
-    "hits": 946796.0,
+    "hits": 946796,
     "item": "Wood",
     "location": "Forest",
     "mode": "explores",
@@ -5181,7 +5181,7 @@
   },
   {
     "drops": 5984,
-    "hits": 434000.0,
+    "hits": 434000,
     "item": "Amethyst",
     "location": "Highland Hills",
     "mode": "explores",
@@ -5191,7 +5191,7 @@
   },
   {
     "drops": 606,
-    "hits": 434000.0,
+    "hits": 434000,
     "item": "Caterpillar",
     "location": "Highland Hills",
     "mode": "explores",
@@ -5201,7 +5201,7 @@
   },
   {
     "drops": 20595,
-    "hits": 434000.0,
+    "hits": 434000,
     "item": "Feathers",
     "location": "Highland Hills",
     "mode": "explores",
@@ -5211,7 +5211,7 @@
   },
   {
     "drops": 20571,
-    "hits": 434000.0,
+    "hits": 434000,
     "item": "Fern Leaf",
     "location": "Highland Hills",
     "mode": "explores",
@@ -5221,7 +5221,7 @@
   },
   {
     "drops": 12,
-    "hits": 434000.0,
+    "hits": 434000,
     "item": "Medium Chest 01",
     "location": "Highland Hills",
     "mode": "explores",
@@ -5231,7 +5231,7 @@
   },
   {
     "drops": 20472,
-    "hits": 434000.0,
+    "hits": 434000,
     "item": "Purple Flower",
     "location": "Highland Hills",
     "mode": "explores",
@@ -5241,7 +5241,7 @@
   },
   {
     "drops": 36,
-    "hits": 434000.0,
+    "hits": 434000,
     "item": "Runestone 14",
     "location": "Highland Hills",
     "mode": "explores",
@@ -5251,7 +5251,7 @@
   },
   {
     "drops": 18048,
-    "hits": 384000.0,
+    "hits": 384000,
     "item": "Stone",
     "location": "Highland Hills",
     "mode": "explores",
@@ -5261,7 +5261,7 @@
   },
   {
     "drops": 283,
-    "hits": 434000.0,
+    "hits": 434000,
     "item": "Strange Letter",
     "location": "Highland Hills",
     "mode": "explores",
@@ -5271,7 +5271,7 @@
   },
   {
     "drops": 20275,
-    "hits": 430000.0,
+    "hits": 430000,
     "item": "Wood",
     "location": "Highland Hills",
     "mode": "explores",
@@ -5411,7 +5411,7 @@
   },
   {
     "drops": 281,
-    "hits": 11505.0,
+    "hits": 11505,
     "item": "3-leaf Clover",
     "location": "Misty Forest",
     "mode": "explores",
@@ -5421,7 +5421,7 @@
   },
   {
     "drops": 685,
-    "hits": 112005.0,
+    "hits": 112005,
     "item": "4-leaf Clover",
     "location": "Misty Forest",
     "mode": "explores",
@@ -5431,7 +5431,7 @@
   },
   {
     "drops": 1792,
-    "hits": 34005.0,
+    "hits": 34005,
     "item": "Acorn",
     "location": "Misty Forest",
     "mode": "explores",
@@ -5441,7 +5441,7 @@
   },
   {
     "drops": 15,
-    "hits": 743505.0,
+    "hits": 743505,
     "item": "Amber",
     "location": "Misty Forest",
     "mode": "explores",
@@ -5451,7 +5451,7 @@
   },
   {
     "drops": 38207,
-    "hits": 736005.0,
+    "hits": 736005,
     "item": "Blue Feathers",
     "location": "Misty Forest",
     "mode": "explores",
@@ -5461,7 +5461,7 @@
   },
   {
     "drops": 38609,
-    "hits": 743505.0,
+    "hits": 743505,
     "item": "Fern Leaf",
     "location": "Misty Forest",
     "mode": "explores",
@@ -5471,7 +5471,7 @@
   },
   {
     "drops": 52,
-    "hits": 743505.0,
+    "hits": 743505,
     "item": "Frog",
     "location": "Misty Forest",
     "mode": "explores",
@@ -5481,7 +5481,7 @@
   },
   {
     "drops": 53,
-    "hits": 743505.0,
+    "hits": 743505,
     "item": "Gold Feather",
     "location": "Misty Forest",
     "mode": "explores",
@@ -5491,7 +5491,7 @@
   },
   {
     "drops": 18147,
-    "hits": 743505.0,
+    "hits": 743505,
     "item": "Mushroom",
     "location": "Misty Forest",
     "mode": "explores",
@@ -5501,7 +5501,7 @@
   },
   {
     "drops": 704,
-    "hits": 92505.0,
+    "hits": 92505,
     "item": "Pine Cone",
     "location": "Misty Forest",
     "mode": "explores",
@@ -5511,7 +5511,7 @@
   },
   {
     "drops": 130,
-    "hits": 743505.0,
+    "hits": 743505,
     "item": "Runestone 05",
     "location": "Misty Forest",
     "mode": "explores",
@@ -5521,7 +5521,7 @@
   },
   {
     "drops": 1061,
-    "hits": 643005.0,
+    "hits": 643005,
     "item": "Shiny Beetle",
     "location": "Misty Forest",
     "mode": "explores",
@@ -5531,7 +5531,7 @@
   },
   {
     "drops": 1144,
-    "hits": 743505.0,
+    "hits": 743505,
     "item": "Spider",
     "location": "Misty Forest",
     "mode": "explores",
@@ -5541,7 +5541,7 @@
   },
   {
     "drops": 17742,
-    "hits": 743505.0,
+    "hits": 743505,
     "item": "Straw",
     "location": "Misty Forest",
     "mode": "explores",
@@ -5551,7 +5551,7 @@
   },
   {
     "drops": 311,
-    "hits": 13005.0,
+    "hits": 13005,
     "item": "Sweet Root",
     "location": "Misty Forest",
     "mode": "explores",
@@ -5561,7 +5561,7 @@
   },
   {
     "drops": 11725,
-    "hits": 740505.0,
+    "hits": 740505,
     "item": "Unpolished Ruby",
     "location": "Misty Forest",
     "mode": "explores",
@@ -5571,7 +5571,7 @@
   },
   {
     "drops": 38263,
-    "hits": 743505.0,
+    "hits": 743505,
     "item": "Wood",
     "location": "Misty Forest",
     "mode": "explores",
@@ -5711,7 +5711,7 @@
   },
   {
     "drops": 3369,
-    "hits": 238396.0,
+    "hits": 238396,
     "item": "Apple",
     "location": "Small Spring",
     "mode": "explores",
@@ -5721,7 +5721,7 @@
   },
   {
     "drops": 5816,
-    "hits": 238396.0,
+    "hits": 238396,
     "item": "Aquamarine",
     "location": "Small Spring",
     "mode": "explores",
@@ -5731,7 +5731,7 @@
   },
   {
     "drops": 252,
-    "hits": 238396.0,
+    "hits": 238396,
     "item": "Dice",
     "location": "Small Spring",
     "mode": "explores",
@@ -5741,7 +5741,7 @@
   },
   {
     "drops": 19894,
-    "hits": 236896.0,
+    "hits": 236896,
     "item": "Feathers",
     "location": "Small Spring",
     "mode": "explores",
@@ -5751,7 +5751,7 @@
   },
   {
     "drops": 9076,
-    "hits": 238396.0,
+    "hits": 238396,
     "item": "Mushroom",
     "location": "Small Spring",
     "mode": "explores",
@@ -5761,7 +5761,7 @@
   },
   {
     "drops": 4,
-    "hits": 238396.0,
+    "hits": 238396,
     "item": "Skull Coin",
     "location": "Small Spring",
     "mode": "explores",
@@ -5771,7 +5771,7 @@
   },
   {
     "drops": 42,
-    "hits": 238396.0,
+    "hits": 238396,
     "item": "Small Chest 01",
     "location": "Small Spring",
     "mode": "explores",
@@ -5781,7 +5781,7 @@
   },
   {
     "drops": 606,
-    "hits": 238396.0,
+    "hits": 238396,
     "item": "Snail",
     "location": "Small Spring",
     "mode": "explores",
@@ -5791,7 +5791,7 @@
   },
   {
     "drops": 301,
-    "hits": 238396.0,
+    "hits": 238396,
     "item": "Spectacles",
     "location": "Small Spring",
     "mode": "explores",
@@ -5801,7 +5801,7 @@
   },
   {
     "drops": 18169,
-    "hits": 209896.0,
+    "hits": 209896,
     "item": "Stone",
     "location": "Small Spring",
     "mode": "explores",
@@ -5811,7 +5811,7 @@
   },
   {
     "drops": 20436,
-    "hits": 238396.0,
+    "hits": 238396,
     "item": "Wood",
     "location": "Small Spring",
     "mode": "explores",
@@ -6001,7 +6001,7 @@
   },
   {
     "drops": 582,
-    "hits": 39096.0,
+    "hits": 39096,
     "item": "Apple",
     "location": "Whispering Creek",
     "mode": "explores",
@@ -6011,7 +6011,7 @@
   },
   {
     "drops": 418,
-    "hits": 22221.0,
+    "hits": 22221,
     "item": "Blue Gel",
     "location": "Whispering Creek",
     "mode": "explores",
@@ -6021,7 +6021,7 @@
   },
   {
     "drops": 6,
-    "hits": 42846.0,
+    "hits": 42846,
     "item": "Herbs",
     "location": "Whispering Creek",
     "mode": "explores",
@@ -6031,7 +6031,7 @@
   },
   {
     "drops": 126,
-    "hits": 42846.0,
+    "hits": 42846,
     "item": "Lemon",
     "location": "Whispering Creek",
     "mode": "explores",
@@ -6041,7 +6041,7 @@
   },
   {
     "drops": 4064,
-    "hits": 42846.0,
+    "hits": 42846,
     "item": "Oak",
     "location": "Whispering Creek",
     "mode": "explores",
@@ -6051,7 +6051,7 @@
   },
   {
     "drops": 140,
-    "hits": 42846.0,
+    "hits": 42846,
     "item": "Orange",
     "location": "Whispering Creek",
     "mode": "explores",
@@ -6061,7 +6061,7 @@
   },
   {
     "drops": 134,
-    "hits": 14721.0,
+    "hits": 14721,
     "item": "Red Berries",
     "location": "Whispering Creek",
     "mode": "explores",
@@ -6071,7 +6071,7 @@
   },
   {
     "drops": 1650,
-    "hits": 42846.0,
+    "hits": 42846,
     "item": "Salt Rock",
     "location": "Whispering Creek",
     "mode": "explores",
@@ -6081,7 +6081,7 @@
   },
   {
     "drops": 1034,
-    "hits": 27846.0,
+    "hits": 27846,
     "item": "Slimestone",
     "location": "Whispering Creek",
     "mode": "explores",
@@ -6091,7 +6091,7 @@
   },
   {
     "drops": 146,
-    "hits": 14721.0,
+    "hits": 14721,
     "item": "Sour Root",
     "location": "Whispering Creek",
     "mode": "explores",
@@ -6101,7 +6101,7 @@
   },
   {
     "drops": 343,
-    "hits": 42846.0,
+    "hits": 42846,
     "item": "Striped Feather",
     "location": "Whispering Creek",
     "mode": "explores",
@@ -6111,7 +6111,7 @@
   },
   {
     "drops": 114,
-    "hits": 12846.0,
+    "hits": 12846,
     "item": "Thorns",
     "location": "Whispering Creek",
     "mode": "explores",
@@ -6121,7 +6121,7 @@
   },
   {
     "drops": 1046,
-    "hits": 42846.0,
+    "hits": 42846,
     "item": "Unpolished Garnet",
     "location": "Whispering Creek",
     "mode": "explores",
@@ -6131,7 +6131,7 @@
   },
   {
     "drops": 5332,
-    "hits": 1240288.0,
+    "hits": 1240288,
     "item": "Ancient Coin",
     "location": "Black Rock Canyon",
     "mode": "explores",
@@ -6141,7 +6141,7 @@
   },
   {
     "drops": 147989,
-    "hits": 1234288.0,
+    "hits": 1234288,
     "item": "Coal",
     "location": "Black Rock Canyon",
     "mode": "explores",
@@ -6151,7 +6151,7 @@
   },
   {
     "drops": 106,
-    "hits": 38788.0,
+    "hits": 38788,
     "item": "Giant Centipede",
     "location": "Black Rock Canyon",
     "mode": "explores",
@@ -6161,7 +6161,7 @@
   },
   {
     "drops": 1903,
-    "hits": 82288.0,
+    "hits": 82288,
     "item": "Horn",
     "location": "Black Rock Canyon",
     "mode": "explores",
@@ -6171,7 +6171,7 @@
   },
   {
     "drops": 82,
-    "hits": 1240288.0,
+    "hits": 1240288,
     "item": "Large Chest 02",
     "location": "Black Rock Canyon",
     "mode": "explores",
@@ -6181,7 +6181,7 @@
   },
   {
     "drops": 63,
-    "hits": 1240288.0,
+    "hits": 1240288,
     "item": "Medium Chest 02",
     "location": "Black Rock Canyon",
     "mode": "explores",
@@ -6191,7 +6191,7 @@
   },
   {
     "drops": 146,
-    "hits": 1240288.0,
+    "hits": 1240288,
     "item": "Orange Gecko",
     "location": "Black Rock Canyon",
     "mode": "explores",
@@ -6201,7 +6201,7 @@
   },
   {
     "drops": 147,
-    "hits": 244288.0,
+    "hits": 244288,
     "item": "Ruby Scorpion",
     "location": "Black Rock Canyon",
     "mode": "explores",
@@ -6211,7 +6211,7 @@
   },
   {
     "drops": 231,
-    "hits": 1240288.0,
+    "hits": 1240288,
     "item": "Runestone 09",
     "location": "Black Rock Canyon",
     "mode": "explores",
@@ -6221,7 +6221,7 @@
   },
   {
     "drops": 169,
-    "hits": 1240288.0,
+    "hits": 1240288,
     "item": "Runestone 13",
     "location": "Black Rock Canyon",
     "mode": "explores",
@@ -6231,7 +6231,7 @@
   },
   {
     "drops": 61088,
-    "hits": 1240288.0,
+    "hits": 1240288,
     "item": "Salt Rock",
     "location": "Black Rock Canyon",
     "mode": "explores",
@@ -6241,7 +6241,7 @@
   },
   {
     "drops": 9670,
-    "hits": 82288.0,
+    "hits": 82288,
     "item": "Sandstone",
     "location": "Black Rock Canyon",
     "mode": "explores",
@@ -6251,7 +6251,7 @@
   },
   {
     "drops": 18547,
-    "hits": 1240288.0,
+    "hits": 1240288,
     "item": "Shimmer Quartz",
     "location": "Black Rock Canyon",
     "mode": "explores",
@@ -6261,7 +6261,7 @@
   },
   {
     "drops": 136,
-    "hits": 73500.0,
+    "hits": 73500,
     "item": "Horned Beetle",
     "location": "Cane Pole Ridge",
     "mode": "explores",
@@ -6271,7 +6271,7 @@
   },
   {
     "drops": 1576,
-    "hits": 73500.0,
+    "hits": 73500,
     "item": "Lemon Quartz",
     "location": "Cane Pole Ridge",
     "mode": "explores",
@@ -6281,7 +6281,7 @@
   },
   {
     "drops": 3,
-    "hits": 73500.0,
+    "hits": 73500,
     "item": "Lima Bean",
     "location": "Cane Pole Ridge",
     "mode": "explores",
@@ -6291,7 +6291,7 @@
   },
   {
     "drops": 2401,
-    "hits": 73500.0,
+    "hits": 73500,
     "item": "Mushroom",
     "location": "Cane Pole Ridge",
     "mode": "explores",
@@ -6301,7 +6301,7 @@
   },
   {
     "drops": 68,
-    "hits": 73500.0,
+    "hits": 73500,
     "item": "Pocket Watch",
     "location": "Cane Pole Ridge",
     "mode": "explores",
@@ -6311,7 +6311,7 @@
   },
   {
     "drops": 3722,
-    "hits": 50750.0,
+    "hits": 50750,
     "item": "Stone",
     "location": "Cane Pole Ridge",
     "mode": "explores",
@@ -6321,7 +6321,7 @@
   },
   {
     "drops": 893,
-    "hits": 73500.0,
+    "hits": 73500,
     "item": "Tea Leaves",
     "location": "Cane Pole Ridge",
     "mode": "explores",
@@ -6331,7 +6331,7 @@
   },
   {
     "drops": 5384,
-    "hits": 73500.0,
+    "hits": 73500,
     "item": "Unpolished Shimmer Stone",
     "location": "Cane Pole Ridge",
     "mode": "explores",
@@ -6341,7 +6341,7 @@
   },
   {
     "drops": 5387,
-    "hits": 73500.0,
+    "hits": 73500,
     "item": "Wood",
     "location": "Cane Pole Ridge",
     "mode": "explores",
@@ -6351,7 +6351,7 @@
   },
   {
     "drops": 1238,
-    "hits": 205148.0,
+    "hits": 205148,
     "item": "Ancient Coin",
     "location": "Ember Lagoon",
     "mode": "explores",
@@ -6361,7 +6361,7 @@
   },
   {
     "drops": 4,
-    "hits": 205148.0,
+    "hits": 205148,
     "item": "Diamond",
     "location": "Ember Lagoon",
     "mode": "explores",
@@ -6371,7 +6371,7 @@
   },
   {
     "drops": 9026,
-    "hits": 205148.0,
+    "hits": 205148,
     "item": "Emberstone",
     "location": "Ember Lagoon",
     "mode": "explores",
@@ -6381,7 +6381,7 @@
   },
   {
     "drops": 14269,
-    "hits": 205148.0,
+    "hits": 205148,
     "item": "Glass Orb",
     "location": "Ember Lagoon",
     "mode": "explores",
@@ -6391,7 +6391,7 @@
   },
   {
     "drops": 17,
-    "hits": 205148.0,
+    "hits": 205148,
     "item": "Large Chest 01",
     "location": "Ember Lagoon",
     "mode": "explores",
@@ -6401,7 +6401,7 @@
   },
   {
     "drops": 118,
-    "hits": 205148.0,
+    "hits": 205148,
     "item": "Magicite",
     "location": "Ember Lagoon",
     "mode": "explores",
@@ -6411,7 +6411,7 @@
   },
   {
     "drops": 308,
-    "hits": 205148.0,
+    "hits": 205148,
     "item": "Moonstone",
     "location": "Ember Lagoon",
     "mode": "explores",
@@ -6421,7 +6421,7 @@
   },
   {
     "drops": 4002,
-    "hits": 196148.0,
+    "hits": 196148,
     "item": "Prism Shard",
     "location": "Ember Lagoon",
     "mode": "explores",
@@ -6431,7 +6431,7 @@
   },
   {
     "drops": 26,
-    "hits": 205148.0,
+    "hits": 205148,
     "item": "Runestone 17",
     "location": "Ember Lagoon",
     "mode": "explores",
@@ -6441,7 +6441,7 @@
   },
   {
     "drops": 37497,
-    "hits": 193148.0,
+    "hits": 193148,
     "item": "Stone",
     "location": "Ember Lagoon",
     "mode": "explores",
@@ -6451,7 +6451,7 @@
   },
   {
     "drops": 24563,
-    "hits": 997796.0,
+    "hits": 997796,
     "item": "Antler",
     "location": "Forest",
     "mode": "explores",
@@ -6461,7 +6461,7 @@
   },
   {
     "drops": 3070,
-    "hits": 153296.0,
+    "hits": 153296,
     "item": "Arrowhead",
     "location": "Forest",
     "mode": "explores",
@@ -6471,7 +6471,7 @@
   },
   {
     "drops": 3048,
-    "hits": 184796.0,
+    "hits": 184796,
     "item": "Bird Egg",
     "location": "Forest",
     "mode": "explores",
@@ -6481,7 +6481,7 @@
   },
   {
     "drops": 121,
-    "hits": 39296.0,
+    "hits": 39296,
     "item": "Fire Ant",
     "location": "Forest",
     "mode": "explores",
@@ -6491,7 +6491,7 @@
   },
   {
     "drops": 141,
-    "hits": 997796.0,
+    "hits": 997796,
     "item": "Frog",
     "location": "Forest",
     "mode": "explores",
@@ -6501,7 +6501,7 @@
   },
   {
     "drops": 174,
-    "hits": 997796.0,
+    "hits": 997796,
     "item": "Gold Feather",
     "location": "Forest",
     "mode": "explores",
@@ -6511,7 +6511,7 @@
   },
   {
     "drops": 175,
-    "hits": 997796.0,
+    "hits": 997796,
     "item": "Gold Leaf",
     "location": "Forest",
     "mode": "explores",
@@ -6521,7 +6521,7 @@
   },
   {
     "drops": 33181,
-    "hits": 997796.0,
+    "hits": 997796,
     "item": "Hide",
     "location": "Forest",
     "mode": "explores",
@@ -6531,7 +6531,7 @@
   },
   {
     "drops": 52451,
-    "hits": 996296.0,
+    "hits": 996296,
     "item": "Mushroom",
     "location": "Forest",
     "mode": "explores",
@@ -6541,7 +6541,7 @@
   },
   {
     "drops": 49907,
-    "hits": 954296.0,
+    "hits": 954296,
     "item": "Straw",
     "location": "Forest",
     "mode": "explores",
@@ -6551,7 +6551,7 @@
   },
   {
     "drops": 126429,
-    "hits": 946796.0,
+    "hits": 946796,
     "item": "Wood",
     "location": "Forest",
     "mode": "explores",
@@ -6561,7 +6561,7 @@
   },
   {
     "drops": 5984,
-    "hits": 434000.0,
+    "hits": 434000,
     "item": "Amethyst",
     "location": "Highland Hills",
     "mode": "explores",
@@ -6571,7 +6571,7 @@
   },
   {
     "drops": 606,
-    "hits": 434000.0,
+    "hits": 434000,
     "item": "Caterpillar",
     "location": "Highland Hills",
     "mode": "explores",
@@ -6581,7 +6581,7 @@
   },
   {
     "drops": 20595,
-    "hits": 434000.0,
+    "hits": 434000,
     "item": "Feathers",
     "location": "Highland Hills",
     "mode": "explores",
@@ -6591,7 +6591,7 @@
   },
   {
     "drops": 20571,
-    "hits": 434000.0,
+    "hits": 434000,
     "item": "Fern Leaf",
     "location": "Highland Hills",
     "mode": "explores",
@@ -6601,7 +6601,7 @@
   },
   {
     "drops": 12,
-    "hits": 434000.0,
+    "hits": 434000,
     "item": "Medium Chest 01",
     "location": "Highland Hills",
     "mode": "explores",
@@ -6611,7 +6611,7 @@
   },
   {
     "drops": 20472,
-    "hits": 434000.0,
+    "hits": 434000,
     "item": "Purple Flower",
     "location": "Highland Hills",
     "mode": "explores",
@@ -6621,7 +6621,7 @@
   },
   {
     "drops": 36,
-    "hits": 434000.0,
+    "hits": 434000,
     "item": "Runestone 14",
     "location": "Highland Hills",
     "mode": "explores",
@@ -6631,7 +6631,7 @@
   },
   {
     "drops": 18048,
-    "hits": 384000.0,
+    "hits": 384000,
     "item": "Stone",
     "location": "Highland Hills",
     "mode": "explores",
@@ -6641,7 +6641,7 @@
   },
   {
     "drops": 283,
-    "hits": 434000.0,
+    "hits": 434000,
     "item": "Strange Letter",
     "location": "Highland Hills",
     "mode": "explores",
@@ -6651,7 +6651,7 @@
   },
   {
     "drops": 20275,
-    "hits": 430000.0,
+    "hits": 430000,
     "item": "Wood",
     "location": "Highland Hills",
     "mode": "explores",
@@ -6661,7 +6661,7 @@
   },
   {
     "drops": 281,
-    "hits": 11505.0,
+    "hits": 11505,
     "item": "3-leaf Clover",
     "location": "Misty Forest",
     "mode": "explores",
@@ -6671,7 +6671,7 @@
   },
   {
     "drops": 685,
-    "hits": 112005.0,
+    "hits": 112005,
     "item": "4-leaf Clover",
     "location": "Misty Forest",
     "mode": "explores",
@@ -6681,7 +6681,7 @@
   },
   {
     "drops": 1792,
-    "hits": 34005.0,
+    "hits": 34005,
     "item": "Acorn",
     "location": "Misty Forest",
     "mode": "explores",
@@ -6691,7 +6691,7 @@
   },
   {
     "drops": 15,
-    "hits": 743505.0,
+    "hits": 743505,
     "item": "Amber",
     "location": "Misty Forest",
     "mode": "explores",
@@ -6701,7 +6701,7 @@
   },
   {
     "drops": 38207,
-    "hits": 736005.0,
+    "hits": 736005,
     "item": "Blue Feathers",
     "location": "Misty Forest",
     "mode": "explores",
@@ -6711,7 +6711,7 @@
   },
   {
     "drops": 38609,
-    "hits": 743505.0,
+    "hits": 743505,
     "item": "Fern Leaf",
     "location": "Misty Forest",
     "mode": "explores",
@@ -6721,7 +6721,7 @@
   },
   {
     "drops": 52,
-    "hits": 743505.0,
+    "hits": 743505,
     "item": "Frog",
     "location": "Misty Forest",
     "mode": "explores",
@@ -6731,7 +6731,7 @@
   },
   {
     "drops": 53,
-    "hits": 743505.0,
+    "hits": 743505,
     "item": "Gold Feather",
     "location": "Misty Forest",
     "mode": "explores",
@@ -6741,7 +6741,7 @@
   },
   {
     "drops": 18147,
-    "hits": 743505.0,
+    "hits": 743505,
     "item": "Mushroom",
     "location": "Misty Forest",
     "mode": "explores",
@@ -6751,7 +6751,7 @@
   },
   {
     "drops": 704,
-    "hits": 92505.0,
+    "hits": 92505,
     "item": "Pine Cone",
     "location": "Misty Forest",
     "mode": "explores",
@@ -6761,7 +6761,7 @@
   },
   {
     "drops": 130,
-    "hits": 743505.0,
+    "hits": 743505,
     "item": "Runestone 05",
     "location": "Misty Forest",
     "mode": "explores",
@@ -6771,7 +6771,7 @@
   },
   {
     "drops": 1061,
-    "hits": 643005.0,
+    "hits": 643005,
     "item": "Shiny Beetle",
     "location": "Misty Forest",
     "mode": "explores",
@@ -6781,7 +6781,7 @@
   },
   {
     "drops": 1144,
-    "hits": 743505.0,
+    "hits": 743505,
     "item": "Spider",
     "location": "Misty Forest",
     "mode": "explores",
@@ -6791,7 +6791,7 @@
   },
   {
     "drops": 17742,
-    "hits": 743505.0,
+    "hits": 743505,
     "item": "Straw",
     "location": "Misty Forest",
     "mode": "explores",
@@ -6801,7 +6801,7 @@
   },
   {
     "drops": 311,
-    "hits": 13005.0,
+    "hits": 13005,
     "item": "Sweet Root",
     "location": "Misty Forest",
     "mode": "explores",
@@ -6811,7 +6811,7 @@
   },
   {
     "drops": 11725,
-    "hits": 740505.0,
+    "hits": 740505,
     "item": "Unpolished Ruby",
     "location": "Misty Forest",
     "mode": "explores",
@@ -6821,7 +6821,7 @@
   },
   {
     "drops": 38263,
-    "hits": 743505.0,
+    "hits": 743505,
     "item": "Wood",
     "location": "Misty Forest",
     "mode": "explores",
@@ -6901,7 +6901,7 @@
   },
   {
     "drops": 1634,
-    "hits": 72500.0,
+    "hits": 72500,
     "item": "Bone",
     "location": "Small Cave",
     "mode": "explores",
@@ -6911,7 +6911,7 @@
   },
   {
     "drops": 283,
-    "hits": 141250.0,
+    "hits": 141250,
     "item": "Grab Bag 02",
     "location": "Small Cave",
     "mode": "explores",
@@ -6921,7 +6921,7 @@
   },
   {
     "drops": 5,
-    "hits": 141250.0,
+    "hits": 141250,
     "item": "Model Ship",
     "location": "Small Cave",
     "mode": "explores",
@@ -6931,7 +6931,7 @@
   },
   {
     "drops": 9007,
-    "hits": 141250.0,
+    "hits": 141250,
     "item": "Mushroom",
     "location": "Small Cave",
     "mode": "explores",
@@ -6941,7 +6941,7 @@
   },
   {
     "drops": 77,
-    "hits": 141250.0,
+    "hits": 141250,
     "item": "Runestone 04",
     "location": "Small Cave",
     "mode": "explores",
@@ -6951,7 +6951,7 @@
   },
   {
     "drops": 19,
-    "hits": 141250.0,
+    "hits": 141250,
     "item": "Skeleton Key",
     "location": "Small Cave",
     "mode": "explores",
@@ -6961,7 +6961,7 @@
   },
   {
     "drops": 11022,
-    "hits": 71250.0,
+    "hits": 71250,
     "item": "Stone",
     "location": "Small Cave",
     "mode": "explores",
@@ -6971,7 +6971,7 @@
   },
   {
     "drops": 21913,
-    "hits": 141250.0,
+    "hits": 141250,
     "item": "Wood",
     "location": "Small Cave",
     "mode": "explores",
@@ -6981,7 +6981,7 @@
   },
   {
     "drops": 277,
-    "hits": 141250.0,
+    "hits": 141250,
     "item": "Wooden Mask",
     "location": "Small Cave",
     "mode": "explores",
@@ -6991,7 +6991,7 @@
   },
   {
     "drops": 3369,
-    "hits": 238396.0,
+    "hits": 238396,
     "item": "Apple",
     "location": "Small Spring",
     "mode": "explores",
@@ -7001,7 +7001,7 @@
   },
   {
     "drops": 5816,
-    "hits": 238396.0,
+    "hits": 238396,
     "item": "Aquamarine",
     "location": "Small Spring",
     "mode": "explores",
@@ -7011,7 +7011,7 @@
   },
   {
     "drops": 252,
-    "hits": 238396.0,
+    "hits": 238396,
     "item": "Dice",
     "location": "Small Spring",
     "mode": "explores",
@@ -7021,7 +7021,7 @@
   },
   {
     "drops": 19894,
-    "hits": 236896.0,
+    "hits": 236896,
     "item": "Feathers",
     "location": "Small Spring",
     "mode": "explores",
@@ -7031,7 +7031,7 @@
   },
   {
     "drops": 9076,
-    "hits": 238396.0,
+    "hits": 238396,
     "item": "Mushroom",
     "location": "Small Spring",
     "mode": "explores",
@@ -7041,7 +7041,7 @@
   },
   {
     "drops": 4,
-    "hits": 238396.0,
+    "hits": 238396,
     "item": "Skull Coin",
     "location": "Small Spring",
     "mode": "explores",
@@ -7051,7 +7051,7 @@
   },
   {
     "drops": 42,
-    "hits": 238396.0,
+    "hits": 238396,
     "item": "Small Chest 01",
     "location": "Small Spring",
     "mode": "explores",
@@ -7061,7 +7061,7 @@
   },
   {
     "drops": 606,
-    "hits": 238396.0,
+    "hits": 238396,
     "item": "Snail",
     "location": "Small Spring",
     "mode": "explores",
@@ -7071,7 +7071,7 @@
   },
   {
     "drops": 301,
-    "hits": 238396.0,
+    "hits": 238396,
     "item": "Spectacles",
     "location": "Small Spring",
     "mode": "explores",
@@ -7081,7 +7081,7 @@
   },
   {
     "drops": 18169,
-    "hits": 209896.0,
+    "hits": 209896,
     "item": "Stone",
     "location": "Small Spring",
     "mode": "explores",
@@ -7091,7 +7091,7 @@
   },
   {
     "drops": 20436,
-    "hits": 238396.0,
+    "hits": 238396,
     "item": "Wood",
     "location": "Small Spring",
     "mode": "explores",
@@ -7101,7 +7101,7 @@
   },
   {
     "drops": 582,
-    "hits": 39096.0,
+    "hits": 39096,
     "item": "Apple",
     "location": "Whispering Creek",
     "mode": "explores",
@@ -7111,7 +7111,7 @@
   },
   {
     "drops": 418,
-    "hits": 22221.0,
+    "hits": 22221,
     "item": "Blue Gel",
     "location": "Whispering Creek",
     "mode": "explores",
@@ -7121,7 +7121,7 @@
   },
   {
     "drops": 6,
-    "hits": 42846.0,
+    "hits": 42846,
     "item": "Herbs",
     "location": "Whispering Creek",
     "mode": "explores",
@@ -7131,7 +7131,7 @@
   },
   {
     "drops": 126,
-    "hits": 42846.0,
+    "hits": 42846,
     "item": "Lemon",
     "location": "Whispering Creek",
     "mode": "explores",
@@ -7141,7 +7141,7 @@
   },
   {
     "drops": 4064,
-    "hits": 42846.0,
+    "hits": 42846,
     "item": "Oak",
     "location": "Whispering Creek",
     "mode": "explores",
@@ -7151,7 +7151,7 @@
   },
   {
     "drops": 140,
-    "hits": 42846.0,
+    "hits": 42846,
     "item": "Orange",
     "location": "Whispering Creek",
     "mode": "explores",
@@ -7161,7 +7161,7 @@
   },
   {
     "drops": 134,
-    "hits": 14721.0,
+    "hits": 14721,
     "item": "Red Berries",
     "location": "Whispering Creek",
     "mode": "explores",
@@ -7171,7 +7171,7 @@
   },
   {
     "drops": 1650,
-    "hits": 42846.0,
+    "hits": 42846,
     "item": "Salt Rock",
     "location": "Whispering Creek",
     "mode": "explores",
@@ -7181,7 +7181,7 @@
   },
   {
     "drops": 1034,
-    "hits": 27846.0,
+    "hits": 27846,
     "item": "Slimestone",
     "location": "Whispering Creek",
     "mode": "explores",
@@ -7191,7 +7191,7 @@
   },
   {
     "drops": 146,
-    "hits": 14721.0,
+    "hits": 14721,
     "item": "Sour Root",
     "location": "Whispering Creek",
     "mode": "explores",
@@ -7201,7 +7201,7 @@
   },
   {
     "drops": 343,
-    "hits": 42846.0,
+    "hits": 42846,
     "item": "Striped Feather",
     "location": "Whispering Creek",
     "mode": "explores",
@@ -7211,7 +7211,7 @@
   },
   {
     "drops": 114,
-    "hits": 12846.0,
+    "hits": 12846,
     "item": "Thorns",
     "location": "Whispering Creek",
     "mode": "explores",
@@ -7221,7 +7221,7 @@
   },
   {
     "drops": 1046,
-    "hits": 42846.0,
+    "hits": 42846,
     "item": "Unpolished Garnet",
     "location": "Whispering Creek",
     "mode": "explores",
