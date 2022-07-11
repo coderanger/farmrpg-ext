@@ -5,14 +5,16 @@
     "name": "10 Gold",
     "image": "/img/items/10gold.png",
     "givable": true,
-    "rarity": "Very Rare"
+    "rarity": "Very Rare",
+    "fleaMarket": 10
   },
   {
     "id": "454",
     "name": "100 Gold",
     "image": "/img/items/goldpouch2.png",
     "givable": true,
-    "rarity": "Very Rare"
+    "rarity": "Very Rare",
+    "fleaMarket": 100
   },
   {
     "firstSeen": 1648147442419,
@@ -20,7 +22,8 @@
     "name": "25 Gold",
     "image": "/img/items/25gold.png",
     "givable": true,
-    "rarity": "Very Rare"
+    "rarity": "Very Rare",
+    "fleaMarket": 25
   },
   {
     "name": "3-leaf Clover",
@@ -46,7 +49,8 @@
     "name": "5 Gold",
     "image": "/img/items/5gold.png",
     "givable": true,
-    "rarity": "Very Rare"
+    "rarity": "Very Rare",
+    "fleaMarket": 5
   },
   {
     "firstSeen": 1648147434300,
@@ -54,7 +58,8 @@
     "name": "50 Gold",
     "image": "/img/items/goldpouch1.png",
     "givable": true,
-    "rarity": "Very Rare"
+    "rarity": "Very Rare",
+    "fleaMarket": 50
   },
   {
     "name": "Acorn",
@@ -358,7 +363,8 @@
     "name": "Birthday Present",
     "id": "547",
     "image": "/img/items/present03.png",
-    "rarity": ""
+    "rarity": "Uncommon",
+    "xp": 1
   },
   {
     "name": "Black Powder",
@@ -1103,7 +1109,8 @@
     "event": true,
     "sellPrice": 100000,
     "xp": 25000,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "mastery": true
   },
   {
     "id": "481",
@@ -1379,7 +1386,8 @@
     "image": "/img/items/7735.PNG",
     "sellPrice": 15,
     "xp": 250,
-    "givable": true
+    "givable": true,
+    "mastery": true
   },
   {
     "firstSeen": 1654114892090,
@@ -1973,7 +1981,9 @@
   {
     "name": "Feed",
     "id": "275",
-    "image": "/img/items/8299.png"
+    "image": "/img/items/8299.png",
+    "sellPrice": 1000,
+    "mastery": true
   },
   {
     "name": "Fern Leaf",
@@ -2312,7 +2322,8 @@
     "xp": 40,
     "givable": true,
     "rarity": "Uncommon",
-    "growthTime": 120
+    "growthTime": 120,
+    "mastery": true
   },
   {
     "name": "Gold Carrot Seeds",
@@ -2358,7 +2369,8 @@
     "xp": 80,
     "givable": true,
     "rarity": "Uncommon",
-    "growthTime": 240
+    "growthTime": 240,
+    "mastery": true
   },
   {
     "name": "Gold Cucumber Seeds",
@@ -2394,7 +2406,8 @@
     "xp": 100,
     "givable": true,
     "rarity": "Rare",
-    "growthTime": 300
+    "growthTime": 300,
+    "mastery": true
   },
   {
     "name": "Gold Eggplant Seeds",
@@ -2420,7 +2433,8 @@
     "xp": 500,
     "rarity": "Common",
     "mastery": true,
-    "manualFishingOnly": true
+    "manualFishingOnly": true,
+    "fleaMarket": 25
   },
   {
     "firstSeen": 1647482867996,
@@ -2436,7 +2450,7 @@
     "id": "580",
     "name": "Gold Jelly",
     "image": "/img/items/goldjelly.png",
-    "sellPrice": 12000,
+    "sellPrice": 120000,
     "xp": 9500,
     "rarity": "Uncommon",
     "mastery": true,
@@ -2467,7 +2481,8 @@
     "givable": true,
     "rarity": "Uncommon",
     "growthTime": 180,
-    "fleaMarket": 4
+    "fleaMarket": 4,
+    "mastery": true
   },
   {
     "name": "Gold Pepper Seeds",
@@ -2485,7 +2500,8 @@
     "givable": true,
     "fleaMarket": 2,
     "rarity": "Uncommon",
-    "growthTime": 60
+    "growthTime": 60,
+    "mastery": true
   },
   {
     "id": "465",
@@ -2564,7 +2580,8 @@
     "xp": 400,
     "rarity": "Common",
     "mastery": true,
-    "manualFishingOnly": true
+    "manualFishingOnly": true,
+    "fleaMarket": 10
   },
   {
     "name": "Gouda",
@@ -2937,7 +2954,7 @@
     "image": "/img/items/l_02_t_b.PNG",
     "event": true,
     "xp": 1750,
-    "rarity": "Rare",
+    "rarity": "Uncommon",
     "firstDropped": 1644634232000
   },
   {
@@ -3926,7 +3943,7 @@
     "name": "Mapping Compass",
     "image": "/img/items/mappingcompass.png",
     "sellPrice": 2500,
-    "xp": 2500,
+    "xp": 5000,
     "rarity": "Rare"
   },
   {
@@ -3942,7 +3959,8 @@
     "firstSeen": 1646245795731,
     "name": "Mealworms",
     "id": "498",
-    "image": "/img/items/mw.png"
+    "image": "/img/items/mw.png",
+    "givable": true
   },
   {
     "name": "Medium Chest 01",
@@ -3962,13 +3980,17 @@
     "firstSeen": 1655441581230,
     "name": "Mega Beet Seeds",
     "id": "588",
-    "image": "/img/items/mbeet.png"
+    "image": "/img/items/mbeet.png",
+    "xp": 90720,
+    "growthTime": 777600
   },
   {
     "firstSeen": 1656366690897,
     "name": "Mega Sunflower Seeds",
     "id": "589",
-    "image": "/img/items/msun.png?2"
+    "image": "/img/items/msun.png?2",
+    "xp": 60480,
+    "growthTime": 518400
   },
   {
     "name": "Milk",
@@ -5061,7 +5083,8 @@
     "image": "/img/items/rs2.png",
     "sellPrice": 2000,
     "xp": 2000,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "mastery": true
   },
   {
     "name": "Runestone 03",
@@ -5069,7 +5092,8 @@
     "image": "/img/items/rs3.png",
     "sellPrice": 3000,
     "xp": 3000,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "mastery": true
   },
   {
     "name": "Runestone 04",
@@ -5104,7 +5128,8 @@
     "image": "/img/items/rs7.png",
     "sellPrice": 7000,
     "xp": 7000,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "mastery": true
   },
   {
     "name": "Runestone 08",
@@ -5112,7 +5137,8 @@
     "image": "/img/items/rs8.png",
     "sellPrice": 8000,
     "xp": 8000,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "mastery": true
   },
   {
     "name": "Runestone 09",
@@ -5138,7 +5164,8 @@
     "image": "/img/items/rs11.png?1",
     "sellPrice": 11000,
     "xp": 11000,
-    "rarity": "Rare"
+    "rarity": "Rare",
+    "mastery": true
   },
   {
     "name": "Runestone 12",
@@ -5155,7 +5182,8 @@
     "image": "/img/items/rs13.png",
     "sellPrice": 13000,
     "xp": 13000,
-    "rarity": "Rare"
+    "rarity": "Rare",
+    "mastery": true
   },
   {
     "name": "Runestone 14",
@@ -5172,7 +5200,8 @@
     "image": "/img/items/rs15.png",
     "sellPrice": 15000,
     "xp": 15000,
-    "rarity": "Rare"
+    "rarity": "Rare",
+    "mastery": true
   },
   {
     "name": "Runestone 16",
@@ -5180,7 +5209,8 @@
     "image": "/img/items/rs16.png?1",
     "sellPrice": 16000,
     "xp": 16000,
-    "rarity": "Rare"
+    "rarity": "Rare",
+    "mastery": true
   },
   {
     "name": "Runestone 17",
@@ -5197,7 +5227,8 @@
     "image": "/img/items/rs18.png?1",
     "sellPrice": 18000,
     "xp": 18000,
-    "rarity": "Very Rare"
+    "rarity": "Very Rare",
+    "mastery": true
   },
   {
     "name": "Runestone 19",
@@ -5205,7 +5236,8 @@
     "image": "/img/items/rs19.png?1",
     "sellPrice": 19000,
     "xp": 19000,
-    "rarity": "Very Rare"
+    "rarity": "Very Rare",
+    "mastery": true
   },
   {
     "name": "Runestone 20",
@@ -5505,7 +5537,8 @@
     "image": "/img/items/fishing_112_t.png",
     "sellPrice": 250000,
     "xp": 2500,
-    "rarity": "Common"
+    "rarity": "Common",
+    "fleaMarket": 25
   },
   {
     "name": "Shiny Beetle",
@@ -5703,7 +5736,8 @@
     "event": true,
     "sellPrice": 50000,
     "xp": 2500,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "mastery": true
   },
   {
     "firstSeen": 1651727922931,

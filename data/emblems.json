@@ -1726,8 +1726,62 @@
     "beta": false
   },
   {
+    "firstSeen": 1657242615008,
+    "id": "442",
+    "image": "img/emblems/UniCORN96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1657242614938,
+    "id": "443",
+    "image": "img/emblems/DealStrawberry96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1657253414671,
+    "id": "444",
+    "image": "img/emblems/FarmRPGDP96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1657293013708,
+    "id": "445",
+    "image": "img/emblems/FileX96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1657296613724,
+    "id": "446",
+    "image": "img/emblems/Holger96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1657303813457,
+    "id": "447",
+    "image": "img/emblems/MapleLeafyFuschia96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1657303813458,
+    "id": "448",
+    "image": "img/emblems/MapleLeafyYellow96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1657314569471,
+    "id": "449",
+    "image": "img/emblems/MapleLeafyRbow96.png",
+    "beta": true
+  },
+  {
     "id": "45",
     "image": "img/emblems/IrohTeahPot96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1657426337063,
+    "id": "450",
+    "image": "img/emblems/Meteor96.png",
     "beta": false
   },
   {

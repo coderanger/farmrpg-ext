@@ -32,7 +32,7 @@
     "name": "Large Island",
     "silverPerHit": null,
     "silverPerHitIronDepot": null,
-    "xpPerHit": 8438.68027341399,
+    "xpPerHit": 8438.678299696525,
     "xpPerHitIronDepot": null
   },
   {
@@ -41,7 +41,7 @@
     "name": "Pirate's Cove",
     "silverPerHit": null,
     "silverPerHitIronDepot": null,
-    "xpPerHit": 8061.756368913469,
+    "xpPerHit": 8061.736875883173,
     "xpPerHitIronDepot": null
   },
   {
@@ -102,10 +102,10 @@
     "baseDropRate": 0.3333333333333333,
     "id": "5",
     "name": "Misty Forest",
-    "silverPerHit": 30.79418969784533,
-    "silverPerHitIronDepot": 30.79418969784533,
-    "xpPerHit": 37.019122699729074,
-    "xpPerHitIronDepot": 37.019122699729074
+    "silverPerHit": 30.990850317277367,
+    "silverPerHitIronDepot": 30.990850317277367,
+    "xpPerHit": 37.14537778831734,
+    "xpPerHitIronDepot": 37.14537778831734
   },
   {
     "baseDropRate": null,
@@ -120,10 +120,10 @@
     "baseDropRate": 0.3333333333333333,
     "id": "6",
     "name": "Black Rock Canyon",
-    "silverPerHit": 53.47189226702967,
-    "silverPerHitIronDepot": 53.47189226702967,
-    "xpPerHit": 50.82139014346648,
-    "xpPerHitIronDepot": 50.82139014346648
+    "silverPerHit": 53.48851307698547,
+    "silverPerHitIronDepot": 53.48851307698547,
+    "xpPerHit": 50.83987340619093,
+    "xpPerHitIronDepot": 50.83987340619093
   },
   {
     "baseDropRate": null,
@@ -138,10 +138,10 @@
     "baseDropRate": 0.3333333333333333,
     "id": "7",
     "name": "Forest",
-    "silverPerHit": 25.945785214691057,
-    "silverPerHitIronDepot": 25.945785214691057,
-    "xpPerHit": 30.830570738045047,
-    "xpPerHitIronDepot": 30.830570738045047
+    "silverPerHit": 25.972597790867297,
+    "silverPerHitIronDepot": 25.972597790867297,
+    "xpPerHit": 30.859825717279694,
+    "xpPerHitIronDepot": 30.859825717279694
   },
   {
     "baseDropRate": null,
@@ -174,10 +174,10 @@
     "baseDropRate": 0.3333333333333333,
     "id": "9",
     "name": "Ember Lagoon",
-    "silverPerHit": 97.76475624461084,
-    "silverPerHitIronDepot": 97.76475624461084,
-    "xpPerHit": 52.98922961206419,
-    "xpPerHitIronDepot": 52.98922961206419
+    "silverPerHit": 97.82648816061645,
+    "silverPerHitIronDepot": 97.82648816061645,
+    "xpPerHit": 53.02993050380658,
+    "xpPerHitIronDepot": 53.02993050380658
   },
   {
     "baseDropRate": null,
