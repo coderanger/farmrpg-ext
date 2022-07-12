@@ -1638,6 +1638,24 @@
     "goalQuantity": 33500,
     "rewardItem": "Gold Peppers",
     "rewardQuantity": 50,
-    "progress": 17808
+    "progress": 18933
+  },
+  {
+    "firstSeen": 1657517696538,
+    "date": "2022-07-11",
+    "goalItem": "Old Boot",
+    "goalQuantity": 445400,
+    "rewardItem": "Fancy Guitar",
+    "rewardQuantity": 15,
+    "progress": 562093
+  },
+  {
+    "firstSeen": 1657604094462,
+    "date": "2022-07-12",
+    "goalItem": "Shiny Beetle",
+    "goalQuantity": 1725100,
+    "rewardItem": "Ancient Coin",
+    "rewardQuantity": 150,
+    "progress": 1554684
   }
 ]
