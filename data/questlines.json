@@ -719,7 +719,9 @@
     "image": "/img/items/a_024.png",
     "name": "Fellow Farmer",
     "quests": [
-      "55"
+      "55",
+      "129367",
+      "129536"
     ],
     "secondary": false
   },
@@ -849,6 +851,19 @@
       "813",
       "814",
       "815"
+    ],
+    "secondary": false
+  },
+  {
+    "image": "/img/items/a_024.png",
+    "name": "Hard At Work",
+    "quests": [
+      "145968",
+      "146005",
+      "158423",
+      "158460",
+      "158692",
+      "158807"
     ],
     "secondary": false
   },
@@ -1482,7 +1497,8 @@
       "43305",
       "43973",
       "43966",
-      "43974"
+      "43974",
+      "51372"
     ],
     "secondary": false
   },
@@ -1521,6 +1537,14 @@
     "name": "Unique Fish",
     "quests": [
       "15"
+    ],
+    "secondary": false
+  },
+  {
+    "image": "/img/items/a_024.png",
+    "name": "Unlikely Pair",
+    "quests": [
+      "159325"
     ],
     "secondary": false
   },

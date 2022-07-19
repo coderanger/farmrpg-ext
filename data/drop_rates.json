@@ -86,9 +86,9 @@
   },
   {
     "drop_rates": {
-      "Egg 03": 4196.5,
-      "Gold Carrot": 239.8,
-      "Runestone 01": 138.15637860082305
+      "Egg 03": 4681.5,
+      "Gold Carrot": 241.6258064516129,
+      "Runestone 01": 132.80851063829786
     },
     "iron_depot_rates": {},
     "location": "Carrot Seeds",
@@ -97,7 +97,7 @@
   },
   {
     "drop_rates": {
-      "Runestone 11": 1106.5
+      "Runestone 11": 1129.0
     },
     "iron_depot_rates": {},
     "location": "Corn Seeds",
@@ -139,8 +139,8 @@
   },
   {
     "drop_rates": {
-      "Gold Cucumber": 740.6666666666666,
-      "Runestone 06": 555.5
+      "Gold Cucumber": 780.6666666666666,
+      "Runestone 06": 585.5
     },
     "iron_depot_rates": {},
     "location": "Cucumber Seeds",
@@ -149,8 +149,8 @@
   },
   {
     "drop_rates": {
-      "Gold Eggplant": 426.1,
-      "Runestone 20": 2130.5
+      "Gold Eggplant": 478.1,
+      "Runestone 20": 2390.5
     },
     "iron_depot_rates": {},
     "location": "Eggplant Seeds",

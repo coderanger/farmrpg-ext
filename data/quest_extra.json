@@ -255,6 +255,8 @@
   },
   {
     "id": "55",
+    "next": "129367",
+    "prev": null,
     "questlines": [
       "Fellow Farmer"
     ]
@@ -7389,7 +7391,7 @@
     "availableFrom": 1656651600000,
     "availableTo": 1659329999000,
     "id": "43974",
-    "next": null,
+    "next": "51372",
     "prev": "43966",
     "questlines": [
       "The Rocket\u2019s Red Glare"
@@ -7439,6 +7441,86 @@
     "prev": "46194",
     "questlines": [
       "Beach Bum"
+    ]
+  },
+  {
+    "availableFrom": 1656738000000,
+    "availableTo": 1659329999000,
+    "id": "51372",
+    "next": null,
+    "prev": "43974",
+    "questlines": [
+      "The Rocket\u2019s Red Glare"
+    ]
+  },
+  {
+    "id": "129367",
+    "next": "129536",
+    "prev": "55",
+    "questlines": [
+      "Fellow Farmer"
+    ]
+  },
+  {
+    "id": "129536",
+    "next": null,
+    "prev": "129367",
+    "questlines": [
+      "Fellow Farmer"
+    ]
+  },
+  {
+    "id": "145968",
+    "next": "146005",
+    "prev": null,
+    "questlines": [
+      "Hard At Work"
+    ]
+  },
+  {
+    "id": "146005",
+    "next": "158423",
+    "prev": "145968",
+    "questlines": [
+      "Hard At Work"
+    ]
+  },
+  {
+    "id": "158423",
+    "next": "158460",
+    "prev": "146005",
+    "questlines": [
+      "Hard At Work"
+    ]
+  },
+  {
+    "id": "158460",
+    "next": "158692",
+    "prev": "158423",
+    "questlines": [
+      "Hard At Work"
+    ]
+  },
+  {
+    "id": "158692",
+    "next": "158807",
+    "prev": "158460",
+    "questlines": [
+      "Hard At Work"
+    ]
+  },
+  {
+    "id": "158807",
+    "next": null,
+    "prev": "158692",
+    "questlines": [
+      "Hard At Work"
+    ]
+  },
+  {
+    "id": "159325",
+    "questlines": [
+      "Unlikely Pair"
     ]
   }
 ]

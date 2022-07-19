@@ -1656,6 +1656,69 @@
     "goalQuantity": 1725100,
     "rewardItem": "Ancient Coin",
     "rewardQuantity": 150,
-    "progress": 1554684
+    "progress": 1756568
+  },
+  {
+    "firstSeen": 1657690492442,
+    "date": "2022-07-13",
+    "goalItem": "Acorn",
+    "goalQuantity": 2864600,
+    "rewardItem": "Treasure Key",
+    "rewardQuantity": 5,
+    "progress": 4377850
+  },
+  {
+    "firstSeen": 1657775755322,
+    "date": "2022-07-14",
+    "goalItem": "Bacon",
+    "goalQuantity": 285000,
+    "rewardItem": "Essence of Slime",
+    "rewardQuantity": 10,
+    "progress": 458899
+  },
+  {
+    "firstSeen": 1657862697163,
+    "date": "2022-07-15",
+    "goalItem": "Coal",
+    "goalQuantity": 3263300,
+    "rewardItem": "Lemonade",
+    "rewardQuantity": 75,
+    "progress": 4516459
+  },
+  {
+    "firstSeen": 1657947670118,
+    "date": "2022-07-16",
+    "goalItem": "MIAB",
+    "goalQuantity": 1520500,
+    "rewardItem": "Corn",
+    "rewardQuantity": 100,
+    "progress": 1968995
+  },
+  {
+    "firstSeen": 1658043886368,
+    "date": "2022-07-17",
+    "goalItem": "Horseshoe",
+    "goalQuantity": 3317500,
+    "rewardItem": "Gold Coral",
+    "rewardQuantity": 10,
+    "progress": 7515060
+  },
+  {
+    "firstSeen": 1658120516050,
+    "date": "2022-07-18",
+    "goalItem": "Stone",
+    "goalQuantity": 16859500,
+    "rewardItem": "Lemonade",
+    "rewardQuantity": 75,
+    "progress": 20100590
+  },
+  {
+    "firstSeen": 1658207196034,
+    "date": "2022-07-19",
+    "goalItem": "Board",
+    "goalQuantity": 2220000,
+    "rewardItem": "Gold Leaf",
+    "rewardQuantity": 10,
+    "progress": 3787851
   }
 ]

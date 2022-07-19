@@ -1095,6 +1095,89 @@
     "requiresExploring": 50
   },
   {
+    "firstSeen": 1657909386928,
+    "itemRequests": [
+      {
+        "id": "69",
+        "quantity": 200
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "163",
+        "quantity": 100
+      },
+      {
+        "id": "110",
+        "quantity": 100
+      },
+      {
+        "id": "75",
+        "quantity": 100
+      }
+    ],
+    "id": "129367",
+    "name": "Fellow Farmer II",
+    "isPersonal": false,
+    "from": "Jill",
+    "fromImage": "/img/items/a_024.png",
+    "text": "Jill can’t seem to get her pumpkins to sprout properly, can you help her? She offers a box of materials she’s no longer in need of.",
+    "requiresFarming": 40,
+    "requiresExploring": 40,
+    "silverReward": 6000000
+  },
+  {
+    "firstSeen": 1657909393905,
+    "itemRequests": [
+      {
+        "id": "189",
+        "quantity": 10
+      },
+      {
+        "id": "157",
+        "quantity": 10
+      },
+      {
+        "id": "262",
+        "quantity": 10
+      },
+      {
+        "id": "161",
+        "quantity": 10
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "70",
+        "quantity": 50
+      },
+      {
+        "id": "123",
+        "quantity": 50
+      },
+      {
+        "id": "194",
+        "quantity": 10
+      },
+      {
+        "id": "84",
+        "quantity": 10
+      },
+      {
+        "id": "86",
+        "quantity": 10
+      }
+    ],
+    "id": "129536",
+    "name": "Fellow Farmer III",
+    "isPersonal": false,
+    "from": "Jill",
+    "fromImage": "/img/items/a_024.png",
+    "text": "Jill needs some help getting some gold crops, as they’re used in an old family recipe. She seems frustrated.",
+    "requiresFarming": 48,
+    "requiresExploring": 48
+  },
+  {
     "firstSeen": 1646724097905,
     "itemRequests": [
       {
@@ -1718,6 +1801,30 @@
     "requiresExploring": 60
   },
   {
+    "firstSeen": 1657909400739,
+    "itemRequests": [
+      {
+        "id": "256",
+        "quantity": 100
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "79",
+        "quantity": 1
+      }
+    ],
+    "id": "145968",
+    "name": "Hard At Work I",
+    "isPersonal": false,
+    "from": "Jill",
+    "fromImage": "/img/items/a_024.png",
+    "text": "Jill asks you for some broccoli. This isn’t the first time she’s asked for things a well off farmer like herself shouldn’t need help with. You decide to deliver the broccoli to her doorstep, instead of meeting up like you usually do. Her farm looks magnificent from a distance, but up close you notice some things. Her crops are wilted, soil doesn’t look properly taken care of, and there are weeds everywhere. Jill hears you calling for her and rushes out of her barn. Her face is covered in soot. She thanks you and hurries you on your way. Strange, right?",
+    "requiresFarming": 62,
+    "requiresExploring": 62,
+    "silverReward": 12000000
+  },
+  {
     "firstSeen": 1646727779888,
     "itemRequests": [
       {
@@ -1769,6 +1876,42 @@
     "requiresCrafting": 10,
     "requiresFishing": 10,
     "requiresExploring": 60
+  },
+  {
+    "firstSeen": 1657909413949,
+    "itemRequests": [
+      {
+        "id": "11",
+        "quantity": 300
+      },
+      {
+        "id": "276",
+        "quantity": 150
+      },
+      {
+        "id": "36",
+        "quantity": 200
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "84",
+        "quantity": 50
+      },
+      {
+        "id": "145",
+        "quantity": 50
+      }
+    ],
+    "id": "146005",
+    "name": "Hard At Work II",
+    "isPersonal": false,
+    "from": "Jill",
+    "fromImage": "/img/items/a_024.png",
+    "text": "Jill has again asked you for some basic farming goods, and a list of other materials that seem a bit unusual. You focus on the crops for now, and bring them to her house. You feel compelled to check on Jill’s wellbeing after your last interaction.",
+    "requiresFarming": 63,
+    "requiresExploring": 63,
+    "silverReward": 1000000
   },
   {
     "firstSeen": 1646727777898,
@@ -2203,6 +2346,162 @@
     "requiresFishing": 30
   },
   {
+    "firstSeen": 1657909426589,
+    "itemRequests": [
+      {
+        "id": "236",
+        "quantity": 100
+      },
+      {
+        "id": "237",
+        "quantity": 100
+      },
+      {
+        "id": "238",
+        "quantity": 100
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "379",
+        "quantity": 25
+      }
+    ],
+    "id": "158423",
+    "name": "Hard At Work III",
+    "isPersonal": false,
+    "from": "Jill",
+    "fromImage": "/img/items/a_024.png",
+    "text": "Jill’s door has been left ajar, and curiosity gets the better of you. You enter her home, and there are…strange tools everywhere. You have no idea what any of them are for, or where Jill is. You hear some clanging metal and a strange whirring noise, coming from somewhere below. You leave the tools on her list at the door, and continue on with the rest of the items she’s asked for.",
+    "requiresFarming": 64,
+    "requiresExploring": 64
+  },
+  {
+    "firstSeen": 1657909433944,
+    "itemRequests": [
+      {
+        "id": "145",
+        "quantity": 100
+      },
+      {
+        "id": "178",
+        "quantity": 200
+      },
+      {
+        "id": "177",
+        "quantity": 10
+      },
+      {
+        "id": "338",
+        "quantity": 10
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "44",
+        "quantity": 200
+      },
+      {
+        "id": "84",
+        "quantity": 25
+      },
+      {
+        "id": "491",
+        "quantity": 5
+      },
+      {
+        "id": "337",
+        "quantity": 2
+      },
+      {
+        "id": "336",
+        "quantity": 2
+      },
+      {
+        "id": "335",
+        "quantity": 6
+      },
+      {
+        "id": "347",
+        "quantity": 2
+      }
+    ],
+    "id": "158460",
+    "name": "Hard At Work IV",
+    "isPersonal": false,
+    "from": "Jill",
+    "fromImage": "/img/items/a_024.png",
+    "text": "You search for the source of the mysterious sounds, and find a door leading to a basement. The walls of this stairwell are adorned with costumes, including the one you helped Jill make. There’s a basket at the top of the stairs with space for some of the other things she’s asked for, so you leave them and descend. The steps are a sleek material you don't recognize, and as you get closer to Jill’s basement, you smell…Burning? It’s not any kind of fire you recognize. How strange.",
+    "requiresFarming": 65,
+    "requiresExploring": 65
+  },
+  {
+    "firstSeen": 1657909506369,
+    "itemRequests": [
+      {
+        "id": "38",
+        "quantity": 400
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "144",
+        "quantity": 100
+      },
+      {
+        "id": "78",
+        "quantity": 100
+      }
+    ],
+    "id": "158692",
+    "name": "Hard At Work V",
+    "isPersonal": false,
+    "from": "Jill",
+    "fromImage": "/img/items/a_024.png",
+    "text": "You’re met with another door, once you reach the bottom of the stairs. It’s very shiny, and much sturdier than your doors at home. You open the door, and are met with a plume of smoke. You cough, and wave away the fumes, and search for Jill. Her basement is filled with half built gizmos, tools, and… Corn. Her corn silo feeds directly into a huge barrel in her basement.\n\nYou maneuver through piles of gadgets and gizmos, and find Jill, mumbling to herself. Her back is to you, and she’s hammering away at some device. “Why won’t you WORK?” You accidentally kick a bucket of nails, and they scatter. She hears you, and whips a handful of nails in your direction. Luckily, she’s not very good at aiming. “WHAT ARE YOU DOING HERE?!?!?!” Jill grabs you by the arm and drags you upstairs.",
+    "requiresFarming": 65,
+    "requiresExploring": 65
+  },
+  {
+    "firstSeen": 1657909517743,
+    "itemRequests": [
+      {
+        "id": "177",
+        "quantity": 10
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "379",
+        "quantity": 5
+      },
+      {
+        "id": "508",
+        "quantity": 5
+      },
+      {
+        "id": "375",
+        "quantity": 1
+      },
+      {
+        "id": "363",
+        "quantity": 1
+      },
+      {
+        "id": "347",
+        "quantity": 2
+      }
+    ],
+    "id": "158807",
+    "name": "Hard At Work VI",
+    "isPersonal": false,
+    "from": "Jill",
+    "fromImage": "/img/items/a_024.png",
+    "text": "“You can’t tell anyone about this.” Jill hangs her head in shame. “I come from a long bloodline of farmers, and I came here to continue their legacy. I just… I really hate farming, and farming really hates me.” She gestures vaguely to a window planter with very sad, wilted crops. “I tried, for years even. But eventually, I realized I’m better at making things. Once you moved to town, I admired your flourishing farmland. I was hoping if I had help with my crops from you, nobody would notice how lackluster my land was.” She laughs uncomfortably, and offers you some extra supplies, hoping you will keep her secret safe.",
+    "requiresFarming": 67,
+    "requiresExploring": 67
+  },
+  {
     "firstSeen": 1646727753830,
     "itemRequests": [
       {
@@ -2239,6 +2538,30 @@
     "text": "Beatrix is always freezing since Lorn brought her back. She’s using every blanket she has, but she’s still so cold. She doesn’t have a fever, but she’s clearly not well. Will you help her build a more significant heater?",
     "requiresFarming": 75,
     "requiresExploring": 60
+  },
+  {
+    "firstSeen": 1657909545505,
+    "itemRequests": [
+      {
+        "id": "65",
+        "quantity": 100
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "170",
+        "quantity": 50
+      }
+    ],
+    "id": "159325",
+    "name": "Unlikely Pair I",
+    "isPersonal": false,
+    "from": "Jill",
+    "fromImage": "/img/items/a_024.png",
+    "text": "A letter from Jill has been delivered. After your last encounter with Jill, you’re wary of what she may say. You open the letter, and…She’s requesting corn. The word “URGENT” is written at least 4 times, so you’d better bring some fast.",
+    "requiresFarming": 71,
+    "requiresExploring": 71,
+    "silverReward": 500000
   },
   {
     "firstSeen": 1646724082905,
@@ -14165,6 +14488,35 @@
     "silverReward": 8400,
     "requiresFarming": 28,
     "requiresCrafting": 28
+  },
+  {
+    "firstSeen": 1658261223237,
+    "itemRequests": [
+      {
+        "id": "65",
+        "quantity": 5000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "602",
+        "quantity": 5
+      }
+    ],
+    "id": "51372",
+    "name": "The Rocket’s Red Glare XII",
+    "isPersonal": false,
+    "from": "Jill",
+    "fromImage": "/img/items/a_024.png",
+    "text": "Rosalie asked Jill to help supply more corn for the fireworks show. Jill could use a hand getting enough corn for everyone. Will you help Jill fulfill this tall order?",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "requiresTower": 100,
+    "availableFrom": "Jul 2",
+    "availableTo": "Jul 31",
+    "silverReward": 1000000000
   },
   {
     "firstSeen": 1646727041678,

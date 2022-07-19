@@ -1320,6 +1320,18 @@
     "beta": false
   },
   {
+    "firstSeen": 1657923896377,
+    "id": "374",
+    "image": "img/emblems/TowerLevel90HoL96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1658262209381,
+    "id": "375",
+    "image": "img/emblems/TowerLevel100SG96.png",
+    "beta": false
+  },
+  {
     "firstSeen": 1651714134582,
     "id": "376",
     "image": "img/emblems/PizzaPepperoni96.png",
@@ -1785,9 +1797,93 @@
     "beta": false
   },
   {
+    "firstSeen": 1657913096220,
+    "id": "451",
+    "image": "img/emblems/DealOtter96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1657913096299,
+    "id": "452",
+    "image": "img/emblems/DealHolger96.png",
+    "beta": true
+  },
+  {
+    "firstSeen": 1657913096228,
+    "id": "453",
+    "image": "img/emblems/FrigateMac96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1657913096238,
+    "id": "454",
+    "image": "img/emblems/BlackFlag96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1657913096275,
+    "id": "455",
+    "image": "img/emblems/Vincent96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1657913096272,
+    "id": "456",
+    "image": "img/emblems/ChuckIII96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1657913096271,
+    "id": "457",
+    "image": "img/emblems/Beatrix96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1657913096273,
+    "id": "458",
+    "image": "img/emblems/Jill96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1657913096274,
+    "id": "459",
+    "image": "img/emblems/Ric96.png",
+    "beta": false
+  },
+  {
     "id": "46",
     "image": "img/emblems/BatBat96.png",
     "beta": false
+  },
+  {
+    "firstSeen": 1657913096298,
+    "id": "460",
+    "image": "img/emblems/CoolChuckIII96.png",
+    "beta": true
+  },
+  {
+    "firstSeen": 1657913096272,
+    "id": "461",
+    "image": "img/emblems/CoolJill96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1657913096298,
+    "id": "462",
+    "image": "img/emblems/CoolBea96.png",
+    "beta": true
+  },
+  {
+    "firstSeen": 1657913096299,
+    "id": "463",
+    "image": "img/emblems/CoolVince96.png",
+    "beta": true
+  },
+  {
+    "firstSeen": 1657913096299,
+    "id": "464",
+    "image": "img/emblems/CoolRic96.png",
+    "beta": true
   },
   {
     "id": "47",
