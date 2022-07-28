@@ -1719,6 +1719,69 @@
     "goalQuantity": 2220000,
     "rewardItem": "Gold Leaf",
     "rewardQuantity": 10,
-    "progress": 3787851
+    "progress": 4902937
+  },
+  {
+    "firstSeen": 1658294688479,
+    "date": "2022-07-20",
+    "goalItem": "3-leaf Clover",
+    "goalQuantity": 2505500,
+    "rewardItem": "Grab Bag 04",
+    "rewardQuantity": 2,
+    "progress": 3393463
+  },
+  {
+    "firstSeen": 1658380001918,
+    "date": "2022-07-21",
+    "goalItem": "Twine",
+    "goalQuantity": 1297300,
+    "rewardItem": "Magna Quartz",
+    "rewardQuantity": 10,
+    "progress": 2559588
+  },
+  {
+    "firstSeen": 1658468926701,
+    "date": "2022-07-22",
+    "goalItem": "Drum",
+    "goalQuantity": 1899100,
+    "rewardItem": "Carbon Sphere",
+    "rewardQuantity": 100,
+    "progress": 7256949
+  },
+  {
+    "firstSeen": 1658553742311,
+    "date": "2022-07-23",
+    "goalItem": "Shovel",
+    "goalQuantity": 1362900,
+    "rewardItem": "Grab Bag 06",
+    "rewardQuantity": 5,
+    "progress": 1471589
+  },
+  {
+    "firstSeen": 1658640140266,
+    "date": "2022-07-24",
+    "goalItem": "Spider",
+    "goalQuantity": 1385800,
+    "rewardItem": "Fishing Net",
+    "rewardQuantity": 125,
+    "progress": 764398
+  },
+  {
+    "firstSeen": 1658726025771,
+    "date": "2022-07-25",
+    "goalItem": "Pine Cone",
+    "goalQuantity": 1456200,
+    "rewardItem": "Goldray",
+    "rewardQuantity": 5,
+    "progress": 2144156
+  },
+  {
+    "firstSeen": 1658812940196,
+    "date": "2022-07-26",
+    "goalItem": "Seahorse",
+    "goalQuantity": 1128600,
+    "rewardItem": "Ancient Coin",
+    "rewardQuantity": 100,
+    "progress": 1292204
   }
 ]

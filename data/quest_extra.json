@@ -7518,7 +7518,153 @@
     ]
   },
   {
+    "id": "159324",
+    "next": "159364",
+    "prev": "159325",
+    "questlines": [
+      "Unlikely Pair"
+    ]
+  },
+  {
     "id": "159325",
+    "next": "159324",
+    "prev": null,
+    "questlines": [
+      "Unlikely Pair"
+    ]
+  },
+  {
+    "id": "159362",
+    "next": "159485",
+    "prev": "159363",
+    "questlines": [
+      "Unlikely Pair"
+    ]
+  },
+  {
+    "id": "159363",
+    "next": "159362",
+    "prev": "159364",
+    "questlines": [
+      "Unlikely Pair"
+    ]
+  },
+  {
+    "id": "159364",
+    "next": "159363",
+    "prev": "159324",
+    "questlines": [
+      "Unlikely Pair"
+    ]
+  },
+  {
+    "id": "159476",
+    "next": "159615",
+    "prev": "159483",
+    "questlines": [
+      "Unlikely Pair"
+    ]
+  },
+  {
+    "id": "159483",
+    "next": "159476",
+    "prev": "159484",
+    "questlines": [
+      "Unlikely Pair"
+    ]
+  },
+  {
+    "id": "159484",
+    "next": "159483",
+    "prev": "159485",
+    "questlines": [
+      "Unlikely Pair"
+    ]
+  },
+  {
+    "id": "159485",
+    "next": "159484",
+    "prev": "159362",
+    "questlines": [
+      "Unlikely Pair"
+    ]
+  },
+  {
+    "id": "159612",
+    "next": "159613",
+    "prev": "159614",
+    "questlines": [
+      "Unlikely Pair"
+    ]
+  },
+  {
+    "id": "159613",
+    "next": "160510",
+    "prev": "159612",
+    "questlines": [
+      "Unlikely Pair"
+    ]
+  },
+  {
+    "id": "159614",
+    "next": "159612",
+    "prev": "159615",
+    "questlines": [
+      "Unlikely Pair"
+    ]
+  },
+  {
+    "id": "159615",
+    "next": "159614",
+    "prev": "159476",
+    "questlines": [
+      "Unlikely Pair"
+    ]
+  },
+  {
+    "id": "160510",
+    "next": "160553",
+    "prev": "159613",
+    "questlines": [
+      "Unlikely Pair"
+    ]
+  },
+  {
+    "id": "160553",
+    "next": "160566",
+    "prev": "160510",
+    "questlines": [
+      "Unlikely Pair"
+    ]
+  },
+  {
+    "id": "160566",
+    "next": "160585",
+    "prev": "160553",
+    "questlines": [
+      "Unlikely Pair"
+    ]
+  },
+  {
+    "id": "160585",
+    "next": "160679",
+    "prev": "160566",
+    "questlines": [
+      "Unlikely Pair"
+    ]
+  },
+  {
+    "id": "160679",
+    "next": "160692",
+    "prev": "160585",
+    "questlines": [
+      "Unlikely Pair"
+    ]
+  },
+  {
+    "id": "160692",
+    "next": null,
+    "prev": "160679",
     "questlines": [
       "Unlikely Pair"
     ]

@@ -2540,6 +2540,30 @@
     "requiresExploring": 60
   },
   {
+    "firstSeen": 1658425761906,
+    "itemRequests": [
+      {
+        "id": "65",
+        "quantity": 150
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "110",
+        "quantity": 200
+      }
+    ],
+    "id": "159324",
+    "name": "Unlikely Pair II",
+    "isPersonal": false,
+    "from": "Jill",
+    "fromImage": "/img/items/a_024.png",
+    "text": "You arrive at Jill's property with her requested corn. Her barn doors are open, which is unusual. You head that way. Once inside, you’re greeted by Jill. “Oh my, thank you. Where is the rest? Is it outside?” Your lack of response answers her questions. She takes what you’ve brought and sets it down. Looking around, you notice this barn is 1/3 filled with machinery you’ve never seen before, and 2/3 filled with corn. “Bring as much as you can, you can just leave it outside the barn and my associate will collect it. Your payments will be at the drop off spot when you return.” She waves you off.",
+    "requiresFarming": 71,
+    "requiresExploring": 71,
+    "silverReward": 1500000
+  },
+  {
     "firstSeen": 1657909545505,
     "itemRequests": [
       {
@@ -2562,6 +2586,322 @@
     "requiresFarming": 71,
     "requiresExploring": 71,
     "silverReward": 500000
+  },
+  {
+    "firstSeen": 1658435706093,
+    "itemRequests": [
+      {
+        "id": "65",
+        "quantity": 300
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "86",
+        "quantity": 50
+      },
+      {
+        "id": "243",
+        "quantity": 10
+      },
+      {
+        "id": "491",
+        "quantity": 4
+      }
+    ],
+    "id": "159362",
+    "name": "Unlikely Pair V",
+    "isPersonal": false,
+    "from": "Jill",
+    "fromImage": "/img/items/a_024.png",
+    "text": "CORN FACT: Sweet corn is what people purchase fresh, frozen or canned for eating. It’s consumed as a vegetable. Unlike “Field Corn”, which is harvested when the kernels are dry and fully mature, sweet corn is picked when immature.",
+    "requiresFarming": 72,
+    "requiresExploring": 72,
+    "silverReward": 2200000
+  },
+  {
+    "firstSeen": 1658425819031,
+    "itemRequests": [
+      {
+        "id": "65",
+        "quantity": 300
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "379",
+        "quantity": 15
+      },
+      {
+        "id": "84",
+        "quantity": 50
+      }
+    ],
+    "id": "159363",
+    "name": "Unlikely Pair IV",
+    "isPersonal": false,
+    "from": "Jill",
+    "fromImage": "/img/items/a_024.png",
+    "text": "CORN FACT: While a small portion of “Field Corn” is processed for use as corn cereal, corn starch, corn oil and corn syrup for human consumption, it is primarily used for livestock feed, ethanol production and manufactured goods. It’s considered a grain.",
+    "requiresFarming": 72,
+    "requiresExploring": 72,
+    "silverReward": 2200000
+  },
+  {
+    "firstSeen": 1658425799444,
+    "itemRequests": [
+      {
+        "id": "65",
+        "quantity": 200
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "112",
+        "quantity": 5
+      },
+      {
+        "id": "185",
+        "quantity": 25
+      }
+    ],
+    "id": "159364",
+    "name": "Unlikely Pair III",
+    "isPersonal": false,
+    "from": "Jill",
+    "fromImage": "/img/items/a_024.png",
+    "text": "CORN FACT: Only one percent of corn planted in Redbrook is sweet corn. The other 99 percent of corn grown in Redbrook is “Field Corn”. Not the delicious sweet corn you might enjoy on the cob or in a can. Field corn is the classic big ears of yellow dented corn you see dried and harvested in the fall. It’s called “dent corn” because of the distinctive dent that forms on the kernel as the corn dries.",
+    "requiresFarming": 71,
+    "requiresExploring": 71,
+    "silverReward": 1750000
+  },
+  {
+    "firstSeen": 1658522890776,
+    "itemRequests": [
+      {
+        "id": "65",
+        "quantity": 300
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "375",
+        "quantity": 1
+      },
+      {
+        "id": "508",
+        "quantity": 10
+      },
+      {
+        "id": "499",
+        "quantity": 50
+      },
+      {
+        "id": "64",
+        "quantity": 400
+      }
+    ],
+    "id": "159476",
+    "name": "Unlikely Pair IX",
+    "isPersonal": false,
+    "from": "Jill",
+    "fromImage": "/img/items/a_024.png",
+    "text": "CORN FACT: Popcorn is a type of maize (or corn), a member of the grass family, and is scientifically known as Zea mays everta.",
+    "requiresFarming": 73,
+    "requiresExploring": 73,
+    "silverReward": 3000000
+  },
+  {
+    "firstSeen": 1658470002977,
+    "itemRequests": [
+      {
+        "id": "65",
+        "quantity": 300
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "84",
+        "quantity": 100
+      }
+    ],
+    "id": "159483",
+    "name": "Unlikely Pair VIII",
+    "isPersonal": false,
+    "from": "Jill",
+    "fromImage": "/img/items/a_024.png",
+    "text": "CORN FACT: There is one silk for every kernel that grows in an ear of corn.",
+    "requiresFarming": 73,
+    "requiresExploring": 73,
+    "silverReward": 3200000
+  },
+  {
+    "firstSeen": 1658461598588,
+    "itemRequests": [
+      {
+        "id": "65",
+        "quantity": 300
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "602",
+        "quantity": 1
+      }
+    ],
+    "id": "159484",
+    "name": "Unlikely Pair VII",
+    "isPersonal": false,
+    "from": "Jill",
+    "fromImage": "/img/items/a_024.png",
+    "text": "CORN FACT: The number of kernels per ear can vary from 500 to about 1200, but a typical ear would have 800 kernels in 16 rows.",
+    "requiresFarming": 73,
+    "requiresExploring": 73,
+    "silverReward": 3000000
+  },
+  {
+    "firstSeen": 1658452458722,
+    "itemRequests": [
+      {
+        "id": "65",
+        "quantity": 300
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "64",
+        "quantity": 400
+      },
+      {
+        "id": "44",
+        "quantity": 300
+      }
+    ],
+    "id": "159485",
+    "name": "Unlikely Pair VI",
+    "isPersonal": false,
+    "from": "Jill",
+    "fromImage": "/img/items/a_024.png",
+    "text": "CORN FACT: Corn can be produced in various colors including blackish, bluish-gray, purple, green, red and white but the most common color grown is yellow.",
+    "requiresFarming": 72,
+    "requiresExploring": 72,
+    "silverReward": 3000000
+  },
+  {
+    "firstSeen": 1658573702368,
+    "itemRequests": [
+      {
+        "id": "65",
+        "quantity": 400
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "452",
+        "quantity": 1
+      },
+      {
+        "id": "194",
+        "quantity": 50
+      }
+    ],
+    "id": "159612",
+    "name": "Unlikely Pair XII",
+    "isPersonal": false,
+    "from": "Jill",
+    "fromImage": "/img/items/a_024.png",
+    "text": "CORN FACT: Corn is an ingredient in fireworks.",
+    "requiresFarming": 74,
+    "requiresExploring": 74,
+    "silverReward": 4000000
+  },
+  {
+    "firstSeen": 1658635265513,
+    "itemRequests": [
+      {
+        "id": "65",
+        "quantity": 400
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "602",
+        "quantity": 3
+      },
+      {
+        "id": "396",
+        "quantity": 2
+      }
+    ],
+    "id": "159613",
+    "name": "Unlikely Pair XIII",
+    "isPersonal": false,
+    "from": "???",
+    "fromImage": "/img/items/8288.png",
+    "text": "As you unload the last of the corn, you notice one of the giant stacks inside the barn is rumbling. You go to inspect, and a piece of corn is hurled your way. It misses, and this sentient corn pile is rumbling even harder. You should probably come back with some protective gear.",
+    "requiresFarming": 75,
+    "requiresExploring": 75,
+    "silverReward": 4000000
+  },
+  {
+    "firstSeen": 1658551051591,
+    "itemRequests": [
+      {
+        "id": "65",
+        "quantity": 400
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "375",
+        "quantity": 1
+      },
+      {
+        "id": "84",
+        "quantity": 150
+      }
+    ],
+    "id": "159614",
+    "name": "Unlikely Pair XI",
+    "isPersonal": false,
+    "from": "Jill",
+    "fromImage": "/img/items/a_024.png",
+    "text": "CORN FACT: Popcorn pops in two basic shapes, butterfly and mushroom. Butterfly popcorn has a very irregular shape with large bumps. It has a light crispy texture but can break easily. Mushroom-shaped popcorn has a spherical center with a rough surface. This shape makes it sturdy enough to stir when adding flavorings or coatings.",
+    "requiresFarming": 74,
+    "requiresExploring": 74,
+    "silverReward": 4000000
+  },
+  {
+    "firstSeen": 1658533548860,
+    "itemRequests": [
+      {
+        "id": "65",
+        "quantity": 400
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "347",
+        "quantity": 5
+      },
+      {
+        "id": "346",
+        "quantity": 2
+      },
+      {
+        "id": "363",
+        "quantity": 2
+      }
+    ],
+    "id": "159615",
+    "name": "Unlikely Pair X",
+    "isPersonal": false,
+    "from": "Jill",
+    "fromImage": "/img/items/a_024.png",
+    "text": "CORN FACT: Popcorn differs from other types of maize/corn in that it has a thicker pericarp/hull. The hull allows pressure from the heated water to build and eventually bursts open. The inside starch becomes gelatinous while being heated; when the hull bursts, the gelatinized starch spills out and cools, giving it its familiar popcorn shape.",
+    "requiresFarming": 74,
+    "requiresExploring": 74,
+    "silverReward": 4000000
   },
   {
     "firstSeen": 1646724082905,
@@ -2637,6 +2977,265 @@
     "fromImage": "/img/items/a_027.png",
     "text": "Cecil is interested in studying the insect life of the Misty Forest. Will you bring him some bugs?",
     "requiresExploring": 30
+  },
+  {
+    "firstSeen": 1658648335917,
+    "itemRequests": [
+      {
+        "id": "456",
+        "quantity": 50
+      },
+      {
+        "id": "204",
+        "quantity": 100
+      },
+      {
+        "id": "300",
+        "quantity": 50
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "587",
+        "quantity": 1
+      },
+      {
+        "id": "363",
+        "quantity": 1
+      },
+      {
+        "id": "347",
+        "quantity": 3
+      }
+    ],
+    "id": "160510",
+    "name": "Unlikely Pair XIV",
+    "isPersonal": false,
+    "from": "Corn Monster",
+    "fromImage": "/img/items/cornmonster.png",
+    "text": "Now that you’re armed, you approach the corn beast again. Again, a cob is forcefully thrown in your general direction. You block it successfully, and continue on. As you get closer, you hear beeping, and can just make out a glowing light coming from deep within the corn mass. You poke at it with your sword, and the rumbling stops. A few cobs tumble to the ground. You start to dig, and the light disappears. You continue to dig through this corn, determined to find the source.",
+    "requiresFarming": 75,
+    "requiresExploring": 75,
+    "silverReward": 12000000
+  },
+  {
+    "firstSeen": 1658883029352,
+    "itemRequests": [
+      {
+        "id": "215",
+        "quantity": 30
+      },
+      {
+        "id": "178",
+        "quantity": 400
+      },
+      {
+        "id": "368",
+        "quantity": 100
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "65",
+        "quantity": 450
+      },
+      {
+        "id": "379",
+        "quantity": 50
+      }
+    ],
+    "id": "160553",
+    "name": "Unlikely Pair XV",
+    "isPersonal": false,
+    "from": "ROOMBA",
+    "fromImage": "/img/items/robot_02.png",
+    "text": "At last, you see something shiny buried deep within the corn. You manage to pull out ROOMBA, who appears to be powered down. Just as you pull him free, Jill returns. She looks at you, ROOMBA, and the once-organized-but-no-longer-organized corn. Your continued efforts have made quite a mess in Jill’s barn.\n“Do you have ANY idea how long it took to organize each cob by kernel size? ROOMBA was going through to toss imperfections my eyes missed, and now he’s powered himself down? I told him he would be undisturbed.” Jill seems upset. “Just get these imperfections and take them out of my sight. I still need your help, so report back when you’re finished, and bring some buckets with you.”",
+    "requiresFarming": 75,
+    "requiresExploring": 75,
+    "silverReward": 10000000
+  },
+  {
+    "firstSeen": 1658883068325,
+    "itemRequests": [
+      {
+        "id": "392",
+        "quantity": 50
+      },
+      {
+        "id": "23",
+        "quantity": 350
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "84",
+        "quantity": 100
+      }
+    ],
+    "id": "160566",
+    "name": "Unlikely Pair XVI",
+    "isPersonal": false,
+    "from": "ROOMBA",
+    "fromImage": "/img/items/robot_02.png",
+    "text": "You return after disposing of the bad corn, even though it all seemed just fine to you. ROOMBA has re-reorganized the corn, so now it’s the once-organized-but-then-not-organized-but-now-is-re-organized corn. “GREETINGS. I WAS INFORMED YOUR PRESENCE WOULD BE NECESSARY. I REQUIRE…” ROOMBA pauses, and hands you a list. “THESE ITEMS TO CONTINUE.”",
+    "requiresFarming": 75,
+    "requiresExploring": 75
+  },
+  {
+    "firstSeen": 1658883075555,
+    "itemRequests": [
+      {
+        "id": "338",
+        "quantity": 20
+      },
+      {
+        "id": "594",
+        "quantity": 150
+      },
+      {
+        "id": "305",
+        "quantity": 100
+      },
+      {
+        "id": "492",
+        "quantity": 250
+      },
+      {
+        "id": "392",
+        "quantity": 200
+      },
+      {
+        "id": "326",
+        "quantity": 50
+      },
+      {
+        "id": "213",
+        "quantity": 20
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "84",
+        "quantity": 400
+      },
+      {
+        "id": "185",
+        "quantity": 50
+      },
+      {
+        "id": "194",
+        "quantity": 400
+      }
+    ],
+    "id": "160585",
+    "name": "Unlikely Pair XVII",
+    "isPersonal": false,
+    "from": "Jill",
+    "fromImage": "/img/items/a_024.png",
+    "text": "“Finally! I mean, thank you, but I’m not sure if I stressed the urgency of what I’m trying to do here.” Jill has you place the items on a large, metal table in the center of the barn. All sorts of metal shapes surround you.\n“I’m trying to optimize corn oil to be longer lasting and more efficient. ROOMBA has been helping me, and also is my test subject. I almost had it figured out, but i’ve been missing something that I can’t quite figure out. ROOMBA made a list of calculated statistical matches, which we can try out now.”\nJill starts tinkering with some machinery, and has ROOMBA test the oil.\n“PROCESSING… ANALYZING… PROOFREADING… THEORIZING… CONTEMPLATING…” He does this for several minutes. Jill offers you some iced tea while you wait together.",
+    "requiresFarming": 75,
+    "requiresExploring": 75,
+    "silverReward": 5000000
+  },
+  {
+    "firstSeen": 1658883100593,
+    "itemRequests": [
+      {
+        "id": "594",
+        "quantity": 300
+      },
+      {
+        "id": "243",
+        "quantity": 40
+      },
+      {
+        "id": "473",
+        "quantity": 10
+      },
+      {
+        "id": "215",
+        "quantity": 30
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "185",
+        "quantity": 200
+      },
+      {
+        "id": "86",
+        "quantity": 200
+      }
+    ],
+    "id": "160679",
+    "name": "Unlikely Pair XVIII",
+    "isPersonal": false,
+    "from": "ROOMBA",
+    "fromImage": "/img/items/robot_02.png",
+    "text": "“ANALYSIS COMPLETE.” Jill looks at ROOMBA, and he doesn’t continue. “And the results were…?” ROOMBA takes a step back. “INCONCLUSIVE. INSUFFICIENT MATERIALS.” Jill seems just a little too calm when she turns to you, and asks you to bring more of those materials, and a few other things as well.",
+    "requiresFarming": 75,
+    "requiresExploring": 75,
+    "silverReward": 5000000
+  },
+  {
+    "firstSeen": 1658883121773,
+    "itemRequests": [
+      {
+        "id": "65",
+        "quantity": 1
+      },
+      {
+        "id": "594",
+        "quantity": 300
+      },
+      {
+        "id": "243",
+        "quantity": 50
+      },
+      {
+        "id": "342",
+        "quantity": 10
+      },
+      {
+        "id": "473",
+        "quantity": 10
+      },
+      {
+        "id": "314",
+        "quantity": 200
+      },
+      {
+        "id": "72",
+        "quantity": 100
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "508",
+        "quantity": 50
+      },
+      {
+        "id": "602",
+        "quantity": 1
+      },
+      {
+        "id": "491",
+        "quantity": 10
+      },
+      {
+        "id": "500",
+        "quantity": 50
+      }
+    ],
+    "id": "160692",
+    "name": "Unlikely Pair XIX",
+    "isPersonal": false,
+    "from": "ROOMBA",
+    "fromImage": "/img/items/robot_02.png",
+    "text": "ROOMBA is ready to process the corn oil again. “PROCESSING… ANALYZING… PROOFREADING… THEORIZING… CONTEMPLATING… CALCULATING…”. Again, this takes several minutes.\n“CALCULATIONS COMPLETE.”. ROOMBA begins listing off each sample that was run, and corresponding efficiency levels. “SAMPLE 001 EFFICIENCY: 0.32%... SAMPLE 142 EFFICIENCY: 24.25%...”. This again, continues for several minutes. “...CURRENT SAMPLE COMPARISON COMPLETE. SAMPLE 974 EFFICIENCY: 99.98%. THIS COMBINATION HAS BEEN RECORDED. SUCCESSFUL EFFICACY IMPROVEMENT.”\nJill lets out a sigh of relief. “This was only the first step, there’s much more we have to get done. But that’s for another day. Thank you.” She’ll be in touch soon.",
+    "requiresFarming": 75,
+    "requiresExploring": 75,
+    "silverReward": 5000000
   },
   {
     "firstSeen": 1646727749830,

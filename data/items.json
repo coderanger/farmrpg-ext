@@ -1169,6 +1169,13 @@
     "mastery": true
   },
   {
+    "firstSeen": 1658858402719,
+    "id": "605",
+    "name": "Clubs",
+    "image": "/img/items/card_clubs.png",
+    "rarity": "Very Rare"
+  },
+  {
     "name": "Coal",
     "id": "103",
     "image": "/img/items/coal.png",
@@ -1502,6 +1509,13 @@
     "sellPrice": 100000,
     "xp": 5000,
     "rarity": "Super Rare"
+  },
+  {
+    "firstSeen": 1658858410906,
+    "id": "606",
+    "name": "Diamonds",
+    "image": "/img/items/card_diamonds.png",
+    "rarity": "Very Rare"
   },
   {
     "firstSeen": 1648590375294,
@@ -2966,6 +2980,13 @@
     "xp": 1750,
     "rarity": "Uncommon",
     "firstDropped": 1644634232000
+  },
+  {
+    "firstSeen": 1658858414599,
+    "id": "607",
+    "name": "Hearts",
+    "image": "/img/items/card_hearts.png",
+    "rarity": "Very Rare"
   },
   {
     "name": "Herbs",
@@ -5757,6 +5778,13 @@
     "rarity": "Common"
   },
   {
+    "firstSeen": 1658858417532,
+    "id": "608",
+    "name": "Spades",
+    "image": "/img/items/card_spades.png",
+    "rarity": "Very Rare"
+  },
+  {
     "firstSeen": 1652992988105,
     "id": "578",
     "name": "Speckled Grouper",
@@ -6214,6 +6242,13 @@
     "event": true,
     "sellPrice": 1750,
     "xp": 1750
+  },
+  {
+    "firstSeen": 1658858420690,
+    "id": "609",
+    "name": "The Ashes of Pentagorn",
+    "image": "/img/items/5848.png",
+    "rarity": "Super Rare"
   },
   {
     "name": "Thorns",

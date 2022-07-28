@@ -1,4 +1,137 @@
 Level
+119
+You got:
+Bacon (x1100)
+Steak (x1100)
+Steak Kabob (x1100)
+
+Level
+118
+You got:
+Small Spring (x1100)
+Small Screw (x1100)
+Small Gear (x1100)
+
+Level
+117
+You got:
+Treasure Key (x1100)
+Square Key (x1100)
+Small Key (x1100)
+
+Level
+116
+You got:
+Amethyst Necklace (x1100)
+Jade Charm (x1100)
+Mystic Ring (x1100)
+
+Level
+115
+You got:
+Blue Sea Bass (x1100)
+Bone Fish (x1100)
+Fluorifish (x1100)
+
+Level
+114
+You got:
+Tomato (x1100)
+Cabbage (x1100)
+Watermelon (x1100)
+
+Level
+113
+You got:
+Runestone 04 (x1100)
+Runestone 05 (x1100)
+Runestone 06 (x1100)
+
+Level
+112
+You got:
+Honey (x1100)
+Pine Tree (x1100)
+Carbon Sphere (x1100)
+
+Level
+111
+You got:
+Apple (x1100)
+Grapes (x1100)
+Tea Leaves (x1100)
+
+Level
+110
+You got:
+Growth Medallion II (x1)
+Orange Juice (x1000)
+Silver (x100,000,000)
+
+Level
+109
+You got:
+Grasshopper (x1000)
+Orange Gecko (x1000)
+Dragonfly (x1000)
+
+Level
+108
+You got:
+Fancy Guitar (x1000)
+Chum (x1000)
+Salt (x1000)
+
+Level
+107
+You got:
+Beet (x1000)
+Sunflower (x1000)
+Cotton (x1000)
+
+Level
+106
+You got:
+Jade (x1000)
+Garnet (x1000)
+Emerald (x1000)
+
+Level
+105
+You got:
+Blue Tiger Fish (x1000)
+Flarefin (x1000)
+Plumbfish (x1000)
+
+Level
+104
+You got:
+Fishing Net (x1000)
+Cotton (x1000)
+Gold Peppers (x1000)
+
+Level
+103
+You got:
+Runestone 01 (x1000)
+Runestone 02 (x1000)
+Runestone 03 (x1000)
+
+Level
+102
+You got:
+Apple Cider (x1000)
+Ancient Coin (x1000)
+Silver (x10,000,000)
+
+Level
+101
+You got:
+Apple (x1000)
+Orange Juice (x1000)
+Lemonade (x1000)
+
+Level
 100
 You got:
 Strange Gem (x1)
