@@ -1782,6 +1782,33 @@
     "goalQuantity": 1128600,
     "rewardItem": "Ancient Coin",
     "rewardQuantity": 100,
-    "progress": 1292204
+    "progress": 1350683
+  },
+  {
+    "firstSeen": 1658899336675,
+    "date": "2022-07-27",
+    "goalItem": "Blue Catfish",
+    "goalQuantity": 1109500,
+    "rewardItem": "Treasure Key",
+    "rewardQuantity": 5,
+    "progress": 2040917
+  },
+  {
+    "firstSeen": 1658984677365,
+    "date": "2022-07-28",
+    "goalItem": "Potato",
+    "goalQuantity": 1105800,
+    "rewardItem": "Pumpkin",
+    "rewardQuantity": 100,
+    "progress": 1274086
+  },
+  {
+    "firstSeen": 1659072135839,
+    "date": "2022-07-29",
+    "goalItem": "Bluegill",
+    "goalQuantity": 1002500,
+    "rewardItem": "Orange Juice",
+    "rewardQuantity": 125,
+    "progress": 1359401
   }
 ]

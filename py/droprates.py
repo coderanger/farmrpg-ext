@@ -67,6 +67,16 @@ BROKEN_OVERFLOW_TYPES = {"cider", "large_net", "palmer"}
 CIDER_CHANGE = 1654722709000
 NEW_CIDER_BASE_DROP_RATE = 0.4  # Confirmed by FS in chat
 
+# When I got trigon knot perk.
+TRIGON_KNOT = 1655601900000
+
+# Timestamp for the Runecube drop rate fix.
+# RUNECUBE_FIX = 1656381013000
+RUNECUBE_FIX = 1656534341000
+
+# Drop log types which are immune from the runecube perk.
+RUNECUBE_IMMUNE_TYPES = {"harvestall"}
+
 
 def cache_path_for(**kwargs) -> str:
     buf = io.StringIO()
@@ -215,7 +225,7 @@ def count_sources(
     elif row["type"] == "large_net":
         drops.large_nets += 1
         if nets_fake_fishes:
-            drops.fishes += 400
+            drops.fishes += 500 if row["ts"] >= TRIGON_KNOT else 400
     elif row["type"] == "harvestall":
         # We already checked that only mono-seed logs are considered.
         drops.harvests += len(row["results"]["crops"])
@@ -294,11 +304,23 @@ def compile_drops(
     if harvest:
         types.add("harvestall")
     explores = Drops()
-    logs = [row for row in parse_logs.parse_logs(since=since) if row["type"] in types]
+    logs = [
+        row
+        for row in parse_logs.parse_logs(since=since)
+        if row["type"] in types
+        and (
+            row["results"].get("runecube", False) == runecube
+            or row["type"] in RUNECUBE_IMMUNE_TYPES
+        )
+    ]
+    if runecube:
+        logs = [
+            row
+            for row in logs
+            if row["ts"] >= RUNECUBE_FIX or row["type"] in RUNECUBE_IMMUNE_TYPES
+        ]
     # First run through to count drops and work out which items are in each locations.
     for row in logs:
-        if row["results"].get("runecube", False) != runecube:
-            continue
         location_name = location_for_row(row)
         if not location_name:
             continue
@@ -336,8 +358,6 @@ def compile_drops(
             explores.drops += quantity
     # Second pass to get the explore counts.
     for row in logs:
-        if row["results"].get("runecube", False) != runecube:
-            continue
         location_name = location_for_row(row)
         if not location_name:
             continue

@@ -277,6 +277,15 @@
     "craftPrice": 25
   },
   {
+    "firstSeen": 1658990639722,
+    "id": "610",
+    "name": "Backpack",
+    "image": "/img/items/BagsAndBoxes_64_t.png",
+    "xp": 1,
+    "givable": true,
+    "rarity": "Very Rare"
+  },
+  {
     "name": "Backstabbing Dagger",
     "id": "381",
     "image": "/img/items/9078.png",
@@ -2899,6 +2908,13 @@
     "firstSeen": 1649048182660,
     "id": "532",
     "name": "Growth Medallion I",
+    "image": "/img/items/ForestIcons_32_t.png",
+    "rarity": "Super Rare"
+  },
+  {
+    "firstSeen": 1658990877659,
+    "id": "609",
+    "name": "Growth Medallion II",
     "image": "/img/items/ForestIcons_32_t.png",
     "rarity": "Super Rare"
   },
@@ -6242,13 +6258,6 @@
     "event": true,
     "sellPrice": 1750,
     "xp": 1750
-  },
-  {
-    "firstSeen": 1658858420690,
-    "id": "609",
-    "name": "The Ashes of Pentagorn",
-    "image": "/img/items/5848.png",
-    "rarity": "Super Rare"
   },
   {
     "name": "Thorns",
