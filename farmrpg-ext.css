@@ -3,6 +3,18 @@
     margin-bottom: 15px;
 }
 
+.ext-layout-dark {
+    color: #ddd;
+}
+
+.ext-layout-dark .farmrpg-ext-quantity {
+    color: #000;
+}
+
+.ext-layout-dark .farmrpg-ext-seeds .farmrpg-ext-quantity {
+    color: #ddd;
+}
+
 .farmrpg-ext-status {
     font-size: 17px;
     display: flex;
