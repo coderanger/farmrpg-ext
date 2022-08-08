@@ -17,6 +17,12 @@
             const menuElm = document.querySelector(".panel-left .list-block")
             menuElm.insertAdjacentHTML("afterend", "<div id=\"farmrpg-ext-sidebar\" class=\"farmrpg-ext-sidebar\"></div>")
             sidebarElm = document.getElementById("farmrpg-ext-sidebar")
+
+            // change to dark theme
+            if (document.body.classList.contains("layout-dark")) {
+                sidebarElm.classList.add("ext-layout-dark")
+            }
+            
             sidebarElm.addEventListener("click", evt => {
                 let target = evt.target
                 while (target && !target.dataset.farmrpgextsidebarclick) {
