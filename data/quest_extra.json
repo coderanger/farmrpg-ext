@@ -7668,5 +7668,183 @@
     "questlines": [
       "Unlikely Pair"
     ]
+  },
+  {
+    "availableFrom": 1660107600000,
+    "availableTo": 1662008399000,
+    "id": "464588",
+    "next": "464601",
+    "prev": null,
+    "questlines": [
+      "Befriending Buddy"
+    ]
+  },
+  {
+    "availableFrom": 1660107600000,
+    "availableTo": 1662008399000,
+    "id": "464601",
+    "next": "464623",
+    "prev": "464588",
+    "questlines": [
+      "Befriending Buddy"
+    ]
+  },
+  {
+    "availableFrom": 1660107600000,
+    "availableTo": 1662008399000,
+    "id": "464623",
+    "next": null,
+    "prev": "464601",
+    "questlines": [
+      "Befriending Buddy"
+    ]
+  },
+  {
+    "availableFrom": 1660107600000,
+    "availableTo": 1662008399000,
+    "id": "464942",
+    "next": "464984",
+    "prev": "464946",
+    "questlines": [
+      "Artistic Rosalie"
+    ]
+  },
+  {
+    "availableFrom": 1660107600000,
+    "availableTo": 1662008399000,
+    "id": "464946",
+    "next": "464942",
+    "prev": "464947",
+    "questlines": [
+      "Artistic Rosalie"
+    ]
+  },
+  {
+    "availableFrom": 1660107600000,
+    "availableTo": 1662008399000,
+    "id": "464947",
+    "next": "464946",
+    "prev": null,
+    "questlines": [
+      "Artistic Rosalie"
+    ]
+  },
+  {
+    "availableFrom": 1660107600000,
+    "availableTo": 1662008399000,
+    "id": "464984",
+    "next": "465027",
+    "prev": "464942",
+    "questlines": [
+      "Artistic Rosalie"
+    ]
+  },
+  {
+    "availableFrom": 1660107600000,
+    "availableTo": 1662008399000,
+    "id": "465027",
+    "next": "465052",
+    "prev": "464984",
+    "questlines": [
+      "Artistic Rosalie"
+    ]
+  },
+  {
+    "availableFrom": 1660107600000,
+    "availableTo": 1662008399000,
+    "id": "465052",
+    "next": null,
+    "prev": "465027",
+    "questlines": [
+      "Artistic Rosalie"
+    ]
+  },
+  {
+    "id": "476252",
+    "next": "476370",
+    "prev": null,
+    "questlines": [
+      "Schoolhouse Rocks"
+    ]
+  },
+  {
+    "id": "476370",
+    "next": "476578",
+    "prev": "476252",
+    "questlines": [
+      "Schoolhouse Rocks"
+    ]
+  },
+  {
+    "id": "476578",
+    "next": "477194",
+    "prev": "476370",
+    "questlines": [
+      "Schoolhouse Rocks"
+    ]
+  },
+  {
+    "id": "477194",
+    "next": "477546",
+    "prev": "476578",
+    "questlines": [
+      "Schoolhouse Rocks"
+    ]
+  },
+  {
+    "id": "477546",
+    "next": "477613",
+    "prev": "477194",
+    "questlines": [
+      "Schoolhouse Rocks"
+    ]
+  },
+  {
+    "id": "477613",
+    "next": "478919",
+    "prev": "477546",
+    "questlines": [
+      "Schoolhouse Rocks"
+    ]
+  },
+  {
+    "id": "478919",
+    "next": "487098",
+    "prev": "477613",
+    "questlines": [
+      "Schoolhouse Rocks"
+    ]
+  },
+  {
+    "id": "487098",
+    "next": "487495",
+    "prev": "478919",
+    "questlines": [
+      "Schoolhouse Rocks"
+    ]
+  },
+  {
+    "id": "487495",
+    "next": "487568",
+    "prev": "487098",
+    "questlines": [
+      "Schoolhouse Rocks"
+    ]
+  },
+  {
+    "id": "487568",
+    "next": "487644",
+    "prev": "487495",
+    "questlines": [
+      "Schoolhouse Rocks"
+    ]
+  },
+  {
+    "id": "487644",
+    "next": null,
+    "prev": "487568",
+    "questlines": [
+      "Schoolhouse Rocks"
+    ]
   }
 ]

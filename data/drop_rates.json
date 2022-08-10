@@ -97,7 +97,7 @@
   },
   {
     "drop_rates": {
-      "Runestone 11": 1147.2
+      "Runestone 11": 1111.6190476190477
     },
     "iron_depot_rates": {},
     "location": "Corn Seeds",
@@ -149,8 +149,8 @@
   },
   {
     "drop_rates": {
-      "Gold Eggplant": 478.1,
-      "Runestone 20": 2390.5
+      "Gold Eggplant": 531.75,
+      "Runestone 20": 1276.2
     },
     "iron_depot_rates": {},
     "location": "Eggplant Seeds",
@@ -348,7 +348,7 @@
   },
   {
     "drop_rates": {
-      "Runestone 16": 11287.0
+      "Runestone 16": 1784.0
     },
     "iron_depot_rates": {},
     "location": "Hops Seeds",
@@ -541,7 +541,7 @@
   },
   {
     "drop_rates": {
-      "Gold Peppers": 161.18032786885246
+      "Gold Peppers": 159.2258064516129
     },
     "iron_depot_rates": {},
     "location": "Pepper Seeds",

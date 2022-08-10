@@ -363,6 +363,19 @@
     "secondary": false
   },
   {
+    "image": "/img/items/a_098.png",
+    "name": "Artistic Rosalie",
+    "quests": [
+      "464947",
+      "464946",
+      "464942",
+      "464984",
+      "465027",
+      "465052"
+    ],
+    "secondary": false
+  },
+  {
     "image": "/img/items/a_028.png",
     "name": "Be Mine",
     "quests": [
@@ -388,6 +401,16 @@
       "46187",
       "46194",
       "46205"
+    ],
+    "secondary": false
+  },
+  {
+    "image": "/img/items/buddy.png",
+    "name": "Befriending Buddy",
+    "quests": [
+      "464588",
+      "464601",
+      "464623"
     ],
     "secondary": false
   },
@@ -1329,6 +1352,24 @@
       "930",
       "931",
       "932"
+    ],
+    "secondary": false
+  },
+  {
+    "image": "/img/items/a_047.png",
+    "name": "Schoolhouse Rocks",
+    "quests": [
+      "476252",
+      "476370",
+      "476578",
+      "477194",
+      "477546",
+      "477613",
+      "478919",
+      "487098",
+      "487495",
+      "487568",
+      "487644"
     ],
     "secondary": false
   },

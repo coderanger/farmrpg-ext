@@ -13566,6 +13566,198 @@
     "requiresFarming": 55
   },
   {
+    "firstSeen": 1660155498965,
+    "itemRequests": [
+      {
+        "id": "53",
+        "quantity": 20
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "40",
+        "quantity": 5
+      }
+    ],
+    "id": "464588",
+    "name": "Befriending Buddy I",
+    "isPersonal": false,
+    "from": "Buddy",
+    "fromImage": "/img/items/buddy.png",
+    "text": "Your daily ventures have you traveling near the small cave, and you hear an odd sound coming from within. You peer inside to see Buddy, holding his pirate costume. As soon as he hears you calling to him, the sound stops. “Oh! What are you doing here?” Buddy does not face you. You offer him some flowers to see if that cheers him up.\nHe seems unsure of what to do with the flowers, and leaves them on the ground. He stands, and comes over to you. You notice his eyes are red and he looks like he's angry. “I just wanted to play pirates. I saw Ric earlier and asked if he would play with me. He called me some really bad words that weren’t my name, and broke my peg leg. I just wanted to play pirates with him.”",
+    "requiresFarming": 20,
+    "requiresExploring": 20,
+    "availableFrom": "Aug 10",
+    "availableTo": "Aug 31"
+  },
+  {
+    "firstSeen": 1660155550834,
+    "itemRequests": [
+      {
+        "id": "75",
+        "quantity": 20
+      },
+      {
+        "id": "21",
+        "quantity": 20
+      },
+      {
+        "id": "163",
+        "quantity": 10
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "624",
+        "quantity": 1
+      }
+    ],
+    "id": "464601",
+    "name": "Befriending Buddy II",
+    "isPersonal": false,
+    "from": "Buddy",
+    "fromImage": "/img/items/buddy.png",
+    "text": "Buddy looks absolutely defeated, drops the broken toy, and retreats back into his cave. You’re determined to help fix this peg leg. You gather the necessary materials, and get to work.",
+    "requiresFarming": 20,
+    "requiresExploring": 20,
+    "availableFrom": "Aug 10",
+    "availableTo": "Aug 31"
+  },
+  {
+    "firstSeen": 1660155555328,
+    "itemRequests": [
+      {
+        "id": "624",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "619",
+        "quantity": 100
+      },
+      {
+        "id": "616",
+        "quantity": 1
+      }
+    ],
+    "id": "464623",
+    "name": "Befriending Buddy III",
+    "isPersonal": false,
+    "from": "Buddy",
+    "fromImage": "/img/items/buddy.png",
+    "text": "You return a while later, and Buddy is laying face-down on the floor. “I don’t want to play any more.” he mumbles through the dirt. You poke him with the peg leg. Buddy peeks over at you. “You fixed it? I thought you didn't like playing pirates with me.” Buddy hugs his peg leg. \n“Some people don’t want to play with me because I am different from them. You play with me just to make me happy. Is it okay to call you my best friend?”",
+    "requiresFarming": 20,
+    "requiresExploring": 20,
+    "availableFrom": "Aug 10",
+    "availableTo": "Aug 31"
+  },
+  {
+    "firstSeen": 1660155494816,
+    "itemRequests": [
+      {
+        "id": "620",
+        "quantity": 5
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "512",
+        "quantity": 1
+      },
+      {
+        "id": "84",
+        "quantity": 25
+      }
+    ],
+    "id": "464942",
+    "name": "Artistic Rosalie III",
+    "isPersonal": false,
+    "from": "Rosalie",
+    "fromImage": "/img/items/a_098.png",
+    "text": "Rosalie is thrilled, and thanks you for your help. The next day, you walk by her house and see a small, green tapestry sitting in front of her garden. A painting of the wishing well is pinned to it. It waves delicately with the breeze.",
+    "requiresFarming": 20,
+    "requiresExploring": 20,
+    "availableFrom": "Aug 10",
+    "availableTo": "Aug 31"
+  },
+  {
+    "firstSeen": 1660155491129,
+    "itemRequests": [
+      {
+        "id": "55",
+        "quantity": 10
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "620",
+        "quantity": 8
+      }
+    ],
+    "id": "464946",
+    "name": "Artistic Rosalie II",
+    "isPersonal": false,
+    "from": "Lorn",
+    "fromImage": "/img/items/a_088.png",
+    "text": "Lorn is happy to give you some safety pins in exchange for some boxes.",
+    "requiresFarming": 20,
+    "requiresExploring": 20,
+    "availableFrom": "Aug 10",
+    "availableTo": "Aug 31"
+  },
+  {
+    "firstSeen": 1660155486211,
+    "itemRequests": [
+      {
+        "id": "203",
+        "quantity": 5
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "44",
+        "quantity": 25
+      }
+    ],
+    "id": "464947",
+    "name": "Artistic Rosalie I",
+    "isPersonal": false,
+    "from": "Rosalie",
+    "fromImage": "/img/items/a_098.png",
+    "text": "Rosalie is working on some special paintings, and needs some safety pins and green dye to display them properly. She tells you that Lorn may have some pins.",
+    "requiresFarming": 20,
+    "requiresExploring": 20,
+    "availableFrom": "Aug 10",
+    "availableTo": "Aug 31"
+  },
+  {
+    "firstSeen": 1660155506388,
+    "itemRequests": [
+      {
+        "id": "427",
+        "quantity": 300
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "86",
+        "quantity": 100
+      }
+    ],
+    "id": "464984",
+    "name": "Artistic Rosalie IV",
+    "isPersonal": false,
+    "from": "Rosalie",
+    "fromImage": "/img/items/a_098.png",
+    "text": "Rosalie wants to add to her collection, and asks you to bring some yarn. She will need more safety pins and a variety of dyes as well.",
+    "requiresFarming": 75,
+    "requiresCrafting": 75,
+    "requiresExploring": 75,
+    "availableFrom": "Aug 10",
+    "availableTo": "Aug 31"
+  },
+  {
     "firstSeen": 1646727139835,
     "itemRequests": [
       {
@@ -13581,6 +13773,79 @@
     "text": "Around the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\nAround the corn, around the corn\n\n92%",
     "silverReward": 3500000,
     "requiresFarming": 55
+  },
+  {
+    "firstSeen": 1660155512563,
+    "itemRequests": [
+      {
+        "id": "389",
+        "quantity": 10
+      },
+      {
+        "id": "492",
+        "quantity": 200
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "620",
+        "quantity": 25
+      }
+    ],
+    "id": "465027",
+    "name": "Artistic Rosalie V",
+    "isPersonal": false,
+    "from": "Lorn",
+    "fromImage": "/img/items/a_088.png",
+    "text": "Lorn is willing to part with the rest of his pins for some orange geckos and essence of slime. He explains that they’re great for keeping pests away.",
+    "requiresFarming": 75,
+    "requiresCrafting": 75,
+    "requiresExploring": 75,
+    "availableFrom": "Aug 10",
+    "availableTo": "Aug 31"
+  },
+  {
+    "firstSeen": 1660155540357,
+    "itemRequests": [
+      {
+        "id": "620",
+        "quantity": 15
+      },
+      {
+        "id": "535",
+        "quantity": 5
+      },
+      {
+        "id": "536",
+        "quantity": 5
+      },
+      {
+        "id": "537",
+        "quantity": 5
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "621",
+        "quantity": 1
+      },
+      {
+        "id": "587",
+        "quantity": 1
+      }
+    ],
+    "id": "465052",
+    "name": "Artistic Rosalie VI",
+    "isPersonal": false,
+    "from": "Rosalie",
+    "fromImage": "/img/items/a_098.png",
+    "text": "Rosalie gives you a big hug, and pays you for your time. The next day, again, you walk by and her garden is adorned with colorful tapestries. Each one displays a painting. There’s even a painting of the two of you.",
+    "requiresFarming": 75,
+    "requiresCrafting": 75,
+    "requiresExploring": 75,
+    "availableFrom": "Aug 10",
+    "availableTo": "Aug 31",
+    "silverReward": 2000000
   },
   {
     "firstSeen": 1646727137835,
@@ -13712,6 +13977,125 @@
     "requiresExploring": 40
   },
   {
+    "firstSeen": 1660155414653,
+    "itemRequests": [
+      {
+        "id": "42",
+        "quantity": 1
+      },
+      {
+        "id": "81",
+        "quantity": 33
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "84",
+        "quantity": 5
+      },
+      {
+        "id": "194",
+        "quantity": 5
+      },
+      {
+        "id": "22",
+        "quantity": 20
+      },
+      {
+        "id": "28",
+        "quantity": 20
+      }
+    ],
+    "id": "476252",
+    "name": "Schoolhouse Rocks I",
+    "isPersonal": false,
+    "from": "Vincent",
+    "fromImage": "/img/items/a_047.png",
+    "text": "In all of his travels, the greatest endeavor that Vincent has seen any town embark upon is educating its citizens. Truly great towns not only educate their children, but they also provide opportunities for learning for everyone. Everyone shares what they know.\n\nTo encourage such an endeavor in Redbrook, Vincent is gathering signatures to petition the mayor to allow Vincent to lead the building of a schoolhouse. The building will be constructed on the grounds adjacent to the library. Everyone will be welcomed to help with the building process. When the schoolhouse is finished, everyone will be welcome to come and learn and share their knowledge.\n\nWill you join Vincent by signing his petition? He could also use some more parchment for signatures, if you have it handy.",
+    "requiresFarming": 5,
+    "requiresCrafting": 5,
+    "requiresFishing": 5,
+    "requiresExploring": 5
+  },
+  {
+    "firstSeen": 1660155422572,
+    "itemRequests": [
+      {
+        "id": "40",
+        "quantity": 100
+      },
+      {
+        "id": "35",
+        "quantity": 100
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "84",
+        "quantity": 15
+      },
+      {
+        "id": "194",
+        "quantity": 15
+      },
+      {
+        "id": "334",
+        "quantity": 5
+      }
+    ],
+    "id": "476370",
+    "name": "Schoolhouse Rocks II",
+    "isPersonal": false,
+    "from": "Vincent",
+    "fromImage": "/img/items/a_047.png",
+    "text": "Vincent’s petition got an incredible number of signatures. When the mayor saw the stacks and stacks of signatures, he immediately agreed to Vincent’s plan. The mayor’s only demand in exchange for granting the permit was that the schoolhouse be named after him.\n\nVincent is ready to start construction on the Tridly Von Dritfeld School! He is inviting everyone to gather and bring building materials. Will you bring some wood and stone to help start the foundation?",
+    "requiresFarming": 10,
+    "requiresCrafting": 10,
+    "requiresFishing": 10,
+    "requiresExploring": 10
+  },
+  {
+    "firstSeen": 1660155426215,
+    "itemRequests": [
+      {
+        "id": "21",
+        "quantity": 100
+      },
+      {
+        "id": "40",
+        "quantity": 100
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "86",
+        "quantity": 25
+      },
+      {
+        "id": "32",
+        "quantity": 24
+      },
+      {
+        "id": "332",
+        "quantity": 2
+      },
+      {
+        "id": "331",
+        "quantity": 3
+      }
+    ],
+    "id": "476578",
+    "name": "Schoolhouse Rocks III",
+    "isPersonal": false,
+    "from": "Vincent",
+    "fromImage": "/img/items/a_047.png",
+    "text": "The foundation for the schoolhouse needs more stone, and Vincent would also like to get started on collecting boards for the building frame. Will you bring more stone and a load of boards?",
+    "requiresFarming": 10,
+    "requiresCrafting": 10,
+    "requiresFishing": 10,
+    "requiresExploring": 10
+  },
+  {
     "firstSeen": 1646727115817,
     "itemRequests": [
       {
@@ -13740,6 +14124,110 @@
     "requiresCrafting": 5,
     "requiresFishing": 5,
     "requiresExploring": 5
+  },
+  {
+    "firstSeen": 1660155430649,
+    "itemRequests": [
+      {
+        "id": "21",
+        "quantity": 200
+      },
+      {
+        "id": "38",
+        "quantity": 200
+      },
+      {
+        "id": "236",
+        "quantity": 50
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "86",
+        "quantity": 30
+      },
+      {
+        "id": "47",
+        "quantity": 96
+      },
+      {
+        "id": "84",
+        "quantity": 30
+      },
+      {
+        "id": "194",
+        "quantity": 30
+      },
+      {
+        "id": "197",
+        "quantity": 5
+      }
+    ],
+    "id": "477194",
+    "name": "Schoolhouse Rocks IV",
+    "isPersonal": false,
+    "from": "Vincent",
+    "fromImage": "/img/items/a_047.png",
+    "text": "Vincent’s crew is ready to work on the upper structures and the roof. They need more boards and a load of nails and hammers. Will you help gather the tools and building materials?",
+    "requiresFarming": 15,
+    "requiresCrafting": 15,
+    "requiresFishing": 15,
+    "requiresExploring": 15
+  },
+  {
+    "firstSeen": 1660155437877,
+    "itemRequests": [
+      {
+        "id": "78",
+        "quantity": 100
+      }
+    ],
+    "itemRewards": [],
+    "id": "477546",
+    "name": "Schoolhouse Rocks V",
+    "isPersonal": false,
+    "from": "Vincent",
+    "fromImage": "/img/items/a_047.png",
+    "text": "The schoolhouse needs windows now. Will you bring some glass for Vincent and the work crew to make and fit some windows?",
+    "requiresFarming": 20,
+    "requiresCrafting": 15,
+    "requiresFishing": 20,
+    "requiresExploring": 20,
+    "silverReward": 20000
+  },
+  {
+    "firstSeen": 1660155443912,
+    "itemRequests": [
+      {
+        "id": "22",
+        "quantity": 200
+      },
+      {
+        "id": "35",
+        "quantity": 200
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "498",
+        "quantity": 100
+      },
+      {
+        "id": "586",
+        "quantity": 5
+      }
+    ],
+    "id": "477613",
+    "name": "Schoolhouse Rocks VI",
+    "isPersonal": false,
+    "from": "Vincent",
+    "fromImage": "/img/items/a_047.png",
+    "text": "The schoolhouse is now ready for some hardware, desks, chairs, and tables. Will you bring some materials for Vincent and his crew to build these schoolhouse necessities?",
+    "requiresFarming": 20,
+    "requiresCrafting": 15,
+    "requiresFishing": 20,
+    "requiresExploring": 20,
+    "silverReward": 20000
   },
   {
     "firstSeen": 1646727113817,
@@ -13795,6 +14283,44 @@
     "availableFrom": "Nov 24",
     "availableTo": "Nov 28",
     "requiresFarming": 75
+  },
+  {
+    "firstSeen": 1660155452660,
+    "itemRequests": [
+      {
+        "id": "42",
+        "quantity": 200
+      },
+      {
+        "id": "81",
+        "quantity": 200
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "250",
+        "quantity": 2
+      },
+      {
+        "id": "241",
+        "quantity": 2
+      },
+      {
+        "id": "107",
+        "quantity": 2
+      }
+    ],
+    "id": "478919",
+    "name": "Schoolhouse Rocks VII",
+    "isPersonal": false,
+    "from": "Vincent",
+    "fromImage": "/img/items/a_047.png",
+    "text": "Vincent would like to stock the schoolhouse with supplies. Will you help gather some of the items?",
+    "requiresFarming": 20,
+    "requiresCrafting": 15,
+    "requiresFishing": 20,
+    "requiresExploring": 20,
+    "silverReward": 20000
   },
   {
     "firstSeen": 1646727111791,
@@ -14157,6 +14683,122 @@
     "silverReward": 600,
     "requiresFarming": 4,
     "requiresCrafting": 2
+  },
+  {
+    "firstSeen": 1660155458582,
+    "itemRequests": [
+      {
+        "id": "74",
+        "quantity": 100
+      },
+      {
+        "id": "73",
+        "quantity": 100
+      }
+    ],
+    "itemRewards": [],
+    "id": "487098",
+    "name": "Schoolhouse Rocks VIII",
+    "isPersonal": false,
+    "from": "Vincent",
+    "fromImage": "/img/items/a_047.png",
+    "text": "Vincent would like to add some color to the supplies. Will you find some colorful parchment?",
+    "requiresFarming": 20,
+    "requiresCrafting": 15,
+    "requiresFishing": 20,
+    "requiresExploring": 20,
+    "silverReward": 50000
+  },
+  {
+    "firstSeen": 1660155464862,
+    "itemRequests": [
+      {
+        "id": "82",
+        "quantity": 100
+      },
+      {
+        "id": "83",
+        "quantity": 100
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "84",
+        "quantity": 30
+      },
+      {
+        "id": "86",
+        "quantity": 30
+      }
+    ],
+    "id": "487495",
+    "name": "Schoolhouse Rocks IX",
+    "isPersonal": false,
+    "from": "Vincent",
+    "fromImage": "/img/items/a_047.png",
+    "text": "Vincent thinks the school is almost ready. Will you help him gather a few more supplies?",
+    "requiresFarming": 20,
+    "requiresCrafting": 15,
+    "requiresFishing": 20,
+    "requiresExploring": 20,
+    "silverReward": 200000
+  },
+  {
+    "firstSeen": 1660155470187,
+    "itemRequests": [
+      {
+        "id": "44",
+        "quantity": 100
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "123",
+        "quantity": 100
+      },
+      {
+        "id": "330",
+        "quantity": 5
+      },
+      {
+        "id": "619",
+        "quantity": 5
+      },
+      {
+        "id": "618",
+        "quantity": 2
+      }
+    ],
+    "id": "487568",
+    "name": "Schoolhouse Rocks X",
+    "isPersonal": false,
+    "from": "Vincent",
+    "fromImage": "/img/items/a_047.png",
+    "text": "There is one last thing that Vincent would love to have for the school. A hungry stomach makes a tired brain. Will you bring some apples for these learners and instructors to snack on?",
+    "requiresFarming": 25,
+    "requiresCrafting": 15,
+    "requiresFishing": 25,
+    "requiresExploring": 25
+  },
+  {
+    "firstSeen": 1660155479111,
+    "itemRequests": [],
+    "itemRewards": [
+      {
+        "id": "617",
+        "quantity": 1
+      }
+    ],
+    "id": "487644",
+    "name": "Schoolhouse Rocks XI",
+    "isPersonal": false,
+    "from": "Vincent",
+    "fromImage": "/img/items/a_047.png",
+    "text": "Vincent appreciates all of your contributions to making the school a reality. He would also like to invite you to use the schoolhouse to learn something new. To help with your learning, Vincent would like you to have a copy of the schoolbook that he worked with Lorn to create, for the school.",
+    "requiresFarming": 25,
+    "requiresCrafting": 15,
+    "requiresFishing": 25,
+    "requiresExploring": 25
   },
   {
     "firstSeen": 1646727093790,

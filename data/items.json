@@ -240,6 +240,13 @@
     "givable": true
   },
   {
+    "firstSeen": 1660155612215,
+    "id": "625",
+    "name": "Ashes of Pentagorn",
+    "image": "/img/items/5848.png",
+    "rarity": "Super Rare"
+  },
+  {
     "name": "Axe",
     "id": "237",
     "image": "/img/items/5875.png?1",
@@ -542,6 +549,14 @@
     "mastery": true
   },
   {
+    "firstSeen": 1659404898951,
+    "id": "612",
+    "name": "Blueprint Y73841",
+    "image": "/img/items/7793.png",
+    "xp": 2500,
+    "rarity": "Uncommon"
+  },
+  {
     "name": "Board",
     "id": "21",
     "image": "/img/items/5885.png",
@@ -823,6 +838,48 @@
     "sellPrice": 1000,
     "xp": 1750,
     "rarity": "Common"
+  },
+  {
+    "firstSeen": 1659459005608,
+    "id": "615",
+    "name": "Canoe",
+    "image": "/img/items/554.png",
+    "sellPrice": 200000,
+    "craftPrice": 45000,
+    "xp": 5000,
+    "mastery": true,
+    "recipe": [
+      {
+        "id": "314",
+        "name": "Blue Gel",
+        "quantity": 10
+      },
+      {
+        "id": "21",
+        "name": "Board",
+        "quantity": 4
+      },
+      {
+        "id": "75",
+        "name": "Mushroom Paste",
+        "quantity": 5
+      },
+      {
+        "id": "38",
+        "name": "Nails",
+        "quantity": 10
+      },
+      {
+        "id": "303",
+        "name": "Oak",
+        "quantity": 100
+      },
+      {
+        "id": "193",
+        "name": "Rope",
+        "quantity": 2
+      }
+    ]
   },
   {
     "name": "Captains Log",
@@ -4038,6 +4095,35 @@
     "givable": true
   },
   {
+    "firstSeen": 1660155516395,
+    "name": "Milk Carton",
+    "id": "623",
+    "image": "/img/items/packaging_t_01.PNG",
+    "event": true,
+    "sellPrice": 5000,
+    "craftPrice": 500,
+    "xp": 2500,
+    "rarity": "Uncommon",
+    "mastery": true,
+    "recipe": [
+      {
+        "id": "535",
+        "name": "Blue Dye",
+        "quantity": 1
+      },
+      {
+        "id": "85",
+        "name": "Milk",
+        "quantity": 1
+      },
+      {
+        "id": "81",
+        "name": "White Parchment",
+        "quantity": 4
+      }
+    ]
+  },
+  {
     "name": "Milk and Cookies",
     "id": "418",
     "image": "/img/items/25_sm.png",
@@ -4075,6 +4161,15 @@
     "sellPrice": 100000,
     "xp": 5000,
     "rarity": "Super Rare"
+  },
+  {
+    "firstSeen": 1659404895482,
+    "id": "611",
+    "name": "Monster Skull",
+    "image": "/img/items/8617.png",
+    "sellPrice": 8000,
+    "xp": 6500,
+    "rarity": "Uncommon"
   },
   {
     "name": "Moonstone",
@@ -4218,6 +4313,15 @@
     "image": "/img/items/5860.png",
     "xp": 1,
     "buyPrice": 1
+  },
+  {
+    "firstSeen": 1660155502831,
+    "name": "Notebook",
+    "id": "618",
+    "image": "/img/items/pad_t_01.PNG",
+    "event": true,
+    "xp": 2500,
+    "rarity": "Uncommon"
   },
   {
     "name": "Oak",
@@ -4468,6 +4572,23 @@
     "image": "/img/items/4255.png",
     "xp": 5000,
     "rarity": "Super Rare"
+  },
+  {
+    "firstSeen": 1660155607970,
+    "id": "624",
+    "name": "Peg Leg",
+    "image": "/img/items/pegleg.png",
+    "xp": 2500,
+    "rarity": "Uncommon"
+  },
+  {
+    "firstSeen": 1660155502838,
+    "name": "Pencil",
+    "id": "619",
+    "image": "/img/items/pencil_t_01.png",
+    "event": true,
+    "xp": 2500,
+    "rarity": "Uncommon"
   },
   {
     "name": "Pepper Seeds",
@@ -5302,6 +5423,15 @@
     "rarity": "Rare"
   },
   {
+    "firstSeen": 1660155502836,
+    "name": "Safety Pin",
+    "id": "620",
+    "image": "/img/items/pin_t_01.png",
+    "event": true,
+    "xp": 2500,
+    "rarity": "Uncommon"
+  },
+  {
     "name": "Salt",
     "id": "305",
     "image": "/img/items/salt.png",
@@ -5373,6 +5503,15 @@
     "event": true,
     "sellPrice": 1750,
     "xp": 1750
+  },
+  {
+    "firstSeen": 1660155502952,
+    "name": "Schoolbook",
+    "id": "617",
+    "image": "/img/items/book_t_01.PNG",
+    "event": true,
+    "xp": 2500,
+    "rarity": "Super Rare"
   },
   {
     "name": "Scissors",
@@ -5777,6 +5916,15 @@
     "mastery": true
   },
   {
+    "firstSeen": 1659404906578,
+    "id": "614",
+    "name": "Soap",
+    "image": "/img/items/soap_r.png",
+    "sellPrice": 5000,
+    "xp": 2500,
+    "rarity": "Very Rare"
+  },
+  {
     "firstSeen": 1651727922931,
     "id": "551",
     "name": "Sombrero",
@@ -5929,7 +6077,25 @@
     "image": "/img/items/9313.png",
     "sellPrice": 7000,
     "xp": 5000,
-    "mastery": true
+    "mastery": true,
+    "craftPrice": 1000,
+    "recipe": [
+      {
+        "id": "178",
+        "name": "Emberstone",
+        "quantity": 2
+      },
+      {
+        "id": "595",
+        "name": "Small Bolt",
+        "quantity": 4
+      },
+      {
+        "id": "145",
+        "name": "Steel",
+        "quantity": 2
+      }
+    ]
   },
   {
     "name": "Steel Wire",
@@ -6268,6 +6434,25 @@
     "rarity": "Common"
   },
   {
+    "firstSeen": 1660155516412,
+    "name": "Toilet Paper",
+    "id": "616",
+    "image": "/img/items/bandages_t_01.png",
+    "event": true,
+    "sellPrice": 3000,
+    "craftPrice": 100,
+    "xp": 2500,
+    "rarity": "Uncommon",
+    "mastery": true,
+    "recipe": [
+      {
+        "id": "81",
+        "name": "White Parchment",
+        "quantity": 50
+      }
+    ]
+  },
+  {
     "name": "Tomato",
     "id": "15",
     "image": "/img/items/8290.png",
@@ -6545,6 +6730,15 @@
     "craftPrice": 250
   },
   {
+    "firstSeen": 1660155562502,
+    "name": "Water Bottle",
+    "id": "621",
+    "image": "/img/items/water_t_01.png",
+    "event": true,
+    "xp": 2500,
+    "rarity": "Uncommon"
+  },
+  {
     "name": "Water Lily",
     "id": "378",
     "image": "/img/items/3258.png",
@@ -6603,6 +6797,15 @@
     "possibleDrops": [
       "Wheat"
     ]
+  },
+  {
+    "firstSeen": 1660153701479,
+    "name": "Whistle",
+    "id": "622",
+    "image": "/img/items/whistle_t_01.PNG",
+    "event": true,
+    "xp": 2500,
+    "rarity": "Uncommon"
   },
   {
     "name": "White Parchment",
@@ -6899,6 +7102,14 @@
         "quantity": 1
       }
     ]
+  },
+  {
+    "firstSeen": 1659404902269,
+    "id": "613",
+    "name": "Y73841 Detector",
+    "image": "/img/items/9304.png",
+    "xp": 50000,
+    "rarity": "Super Rare"
   },
   {
     "name": "Yarn",
