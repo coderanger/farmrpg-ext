@@ -1617,6 +1617,13 @@
     "rarity": "Very Rare"
   },
   {
+    "firstSeen": 1660268562292,
+    "id": "626",
+    "name": "Dragon Heart",
+    "image": "/img/items/3900.png",
+    "rarity": "Super Rare"
+  },
+  {
     "name": "Dragon Skull",
     "id": "261",
     "image": "/img/items/7212.png",
@@ -3927,6 +3934,13 @@
     "image": "/img/items/mcs.png",
     "sellPrice": 100000,
     "xp": 5000,
+    "rarity": "Super Rare"
+  },
+  {
+    "firstSeen": 1660268570739,
+    "id": "627",
+    "name": "Magic Mirror",
+    "image": "/img/items/2687.png",
     "rarity": "Super Rare"
   },
   {

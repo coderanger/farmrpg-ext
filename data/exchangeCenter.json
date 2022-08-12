@@ -7306,7 +7306,7 @@
     "giveQuantity": 250,
     "receiveItem": "Gouda",
     "receiveQuantity": 5,
-    "completed": false,
+    "completed": true,
     "oneShot": false
   },
   {
@@ -7325,6 +7325,106 @@
     "giveItem": "Pocket Watch",
     "giveQuantity": 100,
     "receiveItem": "Rubber Duckie",
+    "receiveQuantity": 1,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1660194341270,
+    "date": "2022-08-11-0",
+    "giveItem": "Blue Gel",
+    "giveQuantity": 500,
+    "receiveItem": "Grab Bag 07",
+    "receiveQuantity": 25,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1660194341267,
+    "date": "2022-08-11-0",
+    "giveItem": "Bone",
+    "giveQuantity": 1000,
+    "receiveItem": "Shinefish",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1660194341269,
+    "date": "2022-08-11-0",
+    "giveItem": "Hammer",
+    "giveQuantity": 250,
+    "receiveItem": "Bell",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1660194341268,
+    "date": "2022-08-11-0",
+    "giveItem": "Jade",
+    "giveQuantity": 100,
+    "receiveItem": "Shark Tooth",
+    "receiveQuantity": 25,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1660194341266,
+    "date": "2022-08-11-0",
+    "giveItem": "Snail",
+    "giveQuantity": 250,
+    "receiveItem": "Salt",
+    "receiveQuantity": 15,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1660237540683,
+    "date": "2022-08-11-12",
+    "giveItem": "Axe",
+    "giveQuantity": 400,
+    "receiveItem": "Mug of Beer",
+    "receiveQuantity": 3,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1660237540687,
+    "date": "2022-08-11-12",
+    "giveItem": "Beet Seeds",
+    "giveQuantity": 500,
+    "receiveItem": "Mega Beet Seeds",
+    "receiveQuantity": 50,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1660237540681,
+    "date": "2022-08-11-12",
+    "giveItem": "Gold Leaf",
+    "giveQuantity": 50,
+    "receiveItem": "Gold Feather",
+    "receiveQuantity": 40,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1660237540683,
+    "date": "2022-08-11-12",
+    "giveItem": "Milk",
+    "giveQuantity": 250,
+    "receiveItem": "Gouda",
+    "receiveQuantity": 5,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1660237540686,
+    "date": "2022-08-11-12",
+    "giveItem": "Runestone 11",
+    "giveQuantity": 500,
+    "receiveItem": "Buddystone",
     "receiveQuantity": 1,
     "completed": false,
     "oneShot": false

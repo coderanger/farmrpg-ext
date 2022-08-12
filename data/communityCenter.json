@@ -1917,6 +1917,15 @@
     "goalQuantity": 1250500,
     "rewardItem": "Whistle",
     "rewardQuantity": 1,
-    "progress": 1336931
+    "progress": 1379720
+  },
+  {
+    "firstSeen": 1660194341145,
+    "date": "2022-08-11",
+    "goalItem": "Gummy Worms",
+    "goalQuantity": 2823200,
+    "rewardItem": "Water Bottle",
+    "rewardQuantity": 1,
+    "progress": 6669520
   }
 ]

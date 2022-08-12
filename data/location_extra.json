@@ -21,10 +21,10 @@
     "baseDropRate": 0.26666666666666666,
     "id": "10",
     "name": "Whispering Creek",
-    "silverPerHit": 166.4034523264137,
-    "silverPerHitIronDepot": 166.4034523264137,
-    "xpPerHit": 181.5806673265064,
-    "xpPerHitIronDepot": 181.5806673265064
+    "silverPerHit": 166.5335160606785,
+    "silverPerHitIronDepot": 166.5335160606785,
+    "xpPerHit": 181.7152983224423,
+    "xpPerHitIronDepot": 181.7152983224423
   },
   {
     "baseDropRate": null,

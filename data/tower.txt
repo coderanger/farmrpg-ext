@@ -1,4 +1,214 @@
 Level
+149
+You got:
+Goldfish (x1400)
+Spiked Shell (x1400)
+Skull Coin (x1400)
+
+Level
+148
+You got:
+Lava Sphere (x1400)
+Inferno Sphere (x1400)
+Large Clam Shell (x1400)
+
+Level
+147
+You got:
+Goldray (x1400)
+Goldgill (x1400)
+Gold Crab (x1400)
+
+Level
+146
+You got:
+Diamond (x1400)
+Green Cloak (x1400)
+Broccoli (x1400)
+
+Level
+145
+You got:
+Small Chest 02 (x1400)
+Medium Chest 02 (x1400)
+Large Chest 02 (x1400)
+
+Level
+144
+You got:
+Grab Bag 04 (x1400)
+Grab Bag 05 (x1400)
+Grab Bag 06 (x1400)
+
+Level
+143
+You got:
+Runestone 13 (x1400)
+Runestone 14 (x1400)
+Runestone 15 (x1400)
+
+Level
+142
+You got:
+Slimestone (x1400)
+Sea Dragon (x1400)
+Ruby Scorpion (x1400)
+
+Level
+141
+You got:
+Apple (x1400)
+Orange (x1400)
+Lemon (x1400)
+
+Level
+140
+You got:
+Magic Mirror (x1)
+Iced Tea (x1000)
+Silver (x400,000,000)
+
+Level
+139
+You got:
+Cheese (x1300)
+Gouda (x1300)
+Grapes (x1300)
+
+Level
+138
+You got:
+Steel (x1300)
+Steel Wire (x1300)
+Glass Bottle (x1300)
+
+Level
+137
+You got:
+Corn (x1300)
+Potato (x1300)
+Wheat (x1300)
+
+Level
+136
+You got:
+Pearl Necklace (x1300)
+Shimmer Ring (x1300)
+Lemon Quartz Ring (x1300)
+
+Level
+135
+You got:
+Flarefin (x1300)
+Redgill (x1300)
+Flamejack (x1300)
+
+Level
+134
+You got:
+Gold Carrot (x1300)
+Gold Cucumber (x1300)
+Gold Eggplant (x1300)
+
+Level
+133
+You got:
+Runestone 10 (x1300)
+Runestone 11 (x1300)
+Runestone 12 (x1300)
+
+Level
+132
+You got:
+Yarn (x1300)
+Crab Claw (x1300)
+Glass Orb (x1300)
+
+Level
+131
+You got:
+Wine (x1300)
+Apple Cider (x1300)
+Arnold Palmer (x1300)
+
+Level
+130
+You got:
+Dragon Heart (x1)
+Fishing Net (x1000)
+Silver (x300,000,000)
+
+Level
+129
+You got:
+Cyclops Spider (x1200)
+Frog (x1200)
+Water Lily (x1200)
+
+Level
+128
+You got:
+Lantern (x1200)
+Garnet Ring (x1200)
+Hourglass (x1200)
+
+Level
+127
+You got:
+Small Chest 01 (x1200)
+Medium Chest 01 (x1200)
+Large Chest 01 (x1200)
+
+Level
+126
+You got:
+Lava Sphere (x1200)
+Inferno Sphere (x1200)
+Sturdy Bow (x1200)
+
+Level
+125
+You got:
+Large Clam Shell (x1200)
+Ruby Coral (x1200)
+Serpent Eel (x1200)
+
+Level
+124
+You got:
+Cotton (x1200)
+Beet (x1200)
+Sunflower (x1200)
+
+Level
+123
+You got:
+Runestone 07 (x1200)
+Runestone 08 (x1200)
+Runestone 09 (x1200)
+
+Level
+122
+You got:
+Grab Bag 01 (x1200)
+Grab Bag 02 (x1200)
+Grab Bag 03 (x1200)
+
+Level
+121
+You got:
+Orange Juice (x1200)
+Fishing Net (x1200)
+Ancient Coin (x1200)
+
+Level
+120
+You got:
+Ashes of Pentagorn (x1)
+Lemonade (x1000)
+Silver (x200,000,000)
+
+Level
 119
 You got:
 Bacon (x1100)

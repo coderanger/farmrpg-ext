@@ -86,9 +86,9 @@
   },
   {
     "drop_rates": {
-      "Egg 03": 4681.5,
-      "Gold Carrot": 241.6258064516129,
-      "Runestone 01": 132.80851063829786
+      "Egg 03": 4731.5,
+      "Gold Carrot": 244.20645161290324,
+      "Runestone 01": 133.75265017667846
     },
     "iron_depot_rates": {},
     "location": "Carrot Seeds",
@@ -97,7 +97,7 @@
   },
   {
     "drop_rates": {
-      "Runestone 11": 1111.6190476190477
+      "Runestone 11": 1123.047619047619
     },
     "iron_depot_rates": {},
     "location": "Corn Seeds",
@@ -149,8 +149,8 @@
   },
   {
     "drop_rates": {
-      "Gold Eggplant": 531.75,
-      "Runestone 20": 1276.2
+      "Gold Eggplant": 545.0833333333334,
+      "Runestone 20": 1308.2
     },
     "iron_depot_rates": {},
     "location": "Eggplant Seeds",
@@ -348,7 +348,7 @@
   },
   {
     "drop_rates": {
-      "Runestone 16": 1784.0
+      "Runestone 16": 1701.8181818181818
     },
     "iron_depot_rates": {},
     "location": "Hops Seeds",
@@ -792,38 +792,38 @@
   },
   {
     "drop_rates": {
-      "Apple": 77.4879563047664,
-      "Blue Gel": 63.29664149408415,
-      "Herbs": 3450.8146853146854,
-      "Lemon": 376.44054543720796,
-      "Oak": 8.925331553882105,
-      "Orange": 399.85131165805734,
-      "Raptor Claw": 179442.36363636365,
-      "Raptor Egg": 157909.28,
+      "Apple": 77.44248583154192,
+      "Blue Gel": 63.30023224716729,
+      "Herbs": 3443.1267361111113,
+      "Lemon": 376.00549815148355,
+      "Oak": 8.932946359108039,
+      "Orange": 399.5650246801652,
+      "Raptor Claw": 180294.63636363635,
+      "Raptor Egg": 158659.28,
       "Red Berries": 128.21549340147723,
-      "Salt Rock": 36.52162489707937,
+      "Salt Rock": 36.44725622082552,
       "Slimestone": 24.03752028791193,
       "Sour Root": 129.94754872107185,
-      "Striped Feather": 128.03536398211784,
+      "Striped Feather": 127.96502637953347,
       "Thorns": 130.59225125591817,
-      "Unpolished Garnet": 49.882370859246095
+      "Unpolished Garnet": 49.828797112970186
     },
     "iron_depot_rates": {
-      "Apple": 77.4879563047664,
-      "Blue Gel": 63.29664149408415,
-      "Herbs": 3450.8146853146854,
-      "Lemon": 376.44054543720796,
-      "Oak": 8.925331553882105,
-      "Orange": 399.85131165805734,
-      "Raptor Claw": 179442.36363636365,
-      "Raptor Egg": 157909.28,
+      "Apple": 77.44248583154192,
+      "Blue Gel": 63.30023224716729,
+      "Herbs": 3443.1267361111113,
+      "Lemon": 376.00549815148355,
+      "Oak": 8.932946359108039,
+      "Orange": 399.5650246801652,
+      "Raptor Claw": 180294.63636363635,
+      "Raptor Egg": 158659.28,
       "Red Berries": 128.21549340147723,
-      "Salt Rock": 36.52162489707937,
+      "Salt Rock": 36.44725622082552,
       "Slimestone": 24.03752028791193,
       "Sour Root": 129.94754872107185,
-      "Striped Feather": 128.03536398211784,
+      "Striped Feather": 127.96502637953347,
       "Thorns": 130.59225125591817,
-      "Unpolished Garnet": 49.882370859246095
+      "Unpolished Garnet": 49.828797112970186
     },
     "location": "Whispering Creek",
     "manual_fish_rates": {},

@@ -14921,6 +14921,46 @@
     "requiresCrafting": 5
   },
   {
+    "firstSeen": 1660267128551,
+    "itemRequests": [
+      {
+        "id": "623",
+        "quantity": 200
+      }
+    ],
+    "itemRewards": [],
+    "id": "490316",
+    "name": "Donation For Education I",
+    "isPersonal": false,
+    "from": "Cecil",
+    "fromImage": "/img/items/a_027.png",
+    "text": "Cecil believes very strongly in the power of knowledge. Accordingly, Cecil would like to help the new school by contributing some of the necessities it uses daily. He will gladly pay you to produce and deliver individually packaged servings of milk for use during the school’s lunch breaks.",
+    "requiresCrafting": 74,
+    "availableFrom": "Aug 10",
+    "availableTo": "Aug 31",
+    "silverReward": 3000000
+  },
+  {
+    "firstSeen": 1660267132489,
+    "itemRequests": [
+      {
+        "id": "616",
+        "quantity": 200
+      }
+    ],
+    "itemRewards": [],
+    "id": "490335",
+    "name": "Donation For Education II",
+    "isPersonal": false,
+    "from": "Cecil",
+    "fromImage": "/img/items/a_027.png",
+    "text": "Cecil thought of another daily necessity for the school that he would like you to produce and deliver to the school. He will pay you handsomely for your continued efforts.",
+    "requiresCrafting": 74,
+    "availableFrom": "Aug 10",
+    "availableTo": "Aug 31",
+    "silverReward": 2000000
+  },
+  {
     "firstSeen": 1646727087753,
     "itemRequests": [
       {
@@ -15306,6 +15346,109 @@
     "silverReward": 4500,
     "requiresFarming": 15,
     "requiresCrafting": 15
+  },
+  {
+    "firstSeen": 1660267137798,
+    "itemRequests": [
+      {
+        "id": "623",
+        "quantity": 200
+      },
+      {
+        "id": "616",
+        "quantity": 200
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "491",
+        "quantity": 5
+      }
+    ],
+    "id": "500269",
+    "name": "Donation For Education III",
+    "isPersonal": false,
+    "from": "Cecil",
+    "fromImage": "/img/items/a_027.png",
+    "text": "Cecil would like you to keep the deliveries coming for the school. He will continue to compensate you at a generous rate.",
+    "requiresCrafting": 74,
+    "availableFrom": "Aug 10",
+    "availableTo": "Aug 31",
+    "silverReward": 5000000
+  },
+  {
+    "firstSeen": 1660267141840,
+    "itemRequests": [
+      {
+        "id": "623",
+        "quantity": 300
+      },
+      {
+        "id": "616",
+        "quantity": 300
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "586",
+        "quantity": 10
+      }
+    ],
+    "id": "500297",
+    "name": "Donation For Education IV",
+    "isPersonal": false,
+    "from": "Cecil",
+    "fromImage": "/img/items/a_027.png",
+    "text": "Cecil appreciates your efforts thus far and he would like for you to continue the deliveries.",
+    "requiresCrafting": 74,
+    "availableFrom": "Aug 10",
+    "availableTo": "Aug 31",
+    "silverReward": 8000000
+  },
+  {
+    "firstSeen": 1660267145020,
+    "itemRequests": [
+      {
+        "id": "623",
+        "quantity": 400
+      },
+      {
+        "id": "616",
+        "quantity": 400
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "347",
+        "quantity": 100
+      },
+      {
+        "id": "580",
+        "quantity": 5
+      },
+      {
+        "id": "86",
+        "quantity": 100
+      },
+      {
+        "id": "608",
+        "quantity": 1
+      },
+      {
+        "id": "605",
+        "quantity": 1
+      }
+    ],
+    "id": "500343",
+    "name": "Donation For Education V",
+    "isPersonal": false,
+    "from": "Cecil",
+    "fromImage": "/img/items/a_027.png",
+    "text": "Cecil thinks the school could use another large delivery. Please fulfill this larger order.",
+    "requiresCrafting": 74,
+    "availableFrom": "Aug 10",
+    "availableTo": "Aug 31",
+    "silverReward": 10000000
   },
   {
     "firstSeen": 1646727067748,

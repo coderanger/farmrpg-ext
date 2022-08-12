@@ -675,6 +675,18 @@
     "secondary": false
   },
   {
+    "image": "/img/items/a_027.png",
+    "name": "Donation For Education",
+    "quests": [
+      "490316",
+      "490335",
+      "500269",
+      "500297",
+      "500343"
+    ],
+    "secondary": false
+  },
+  {
     "image": "/img/items/npc_bunny1.png",
     "name": "Eggstra Lucky",
     "quests": [
