@@ -4981,6 +4981,28 @@
     "mastery": true
   },
   {
+    "name": "Rice",
+    "id": "630",
+    "image": "/img/items/rice.png",
+    "sellPrice": 250000,
+    "xp": 100000,
+    "rarity": "Common",
+    "growthTime": 864000,
+    "mastery": true
+  },
+  {
+    "id": "631",
+    "name": "Rice Seeds",
+    "image": "/img/items/riceplant.png",
+    "xp": 100000,
+    "buyPrice": 200000,
+    "growthTime": 864000,
+    "type": "seed",
+    "possibleDrops": [
+      "Rice"
+    ]
+  },
+  {
     "name": "Ring of Renthisj",
     "id": "365",
     "image": "/img/items/5466.png",
