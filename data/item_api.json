@@ -6876,6 +6876,24 @@
     "xp": 90720
   },
   {
+    "base_yield_minutes": 14400,
+    "buy_price": 200000,
+    "can_buy": 1,
+    "can_sell": 0,
+    "craftable": 0,
+    "crafting_level": 1,
+    "description": "Harvest every 240 hours",
+    "id": "631",
+    "img": "/img/items/riceplant.png",
+    "mailable": 0,
+    "masterable": 1,
+    "min_mailable_level": 0,
+    "name": "Rice Seeds",
+    "sell_price": 0,
+    "type": "seeds",
+    "xp": 100000
+  },
+  {
     "base_yield_minutes": 0,
     "buy_price": 0,
     "can_buy": 0,
@@ -6910,6 +6928,24 @@
     "sell_price": 230000,
     "type": "crop",
     "xp": 90720
+  },
+  {
+    "base_yield_minutes": 14400,
+    "buy_price": 0,
+    "can_buy": 0,
+    "can_sell": 1,
+    "craftable": 0,
+    "crafting_level": 1,
+    "description": "Sell for 250,000 silver each",
+    "id": "630",
+    "img": "/img/items/rice.png",
+    "mailable": 0,
+    "masterable": 1,
+    "min_mailable_level": 0,
+    "name": "Rice",
+    "sell_price": 250000,
+    "type": "crop",
+    "xp": 100000
   },
   {
     "base_yield_minutes": 0,

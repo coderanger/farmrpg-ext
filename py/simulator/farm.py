@@ -36,6 +36,7 @@ SEEDS_TO_CROPS = {
     Item["Cotton Seeds"]: Item["Cotton"],
     Item["Sunflower Seeds"]: Item["Sunflower"],
     Item["Beet Seeds"]: Item["Beet"],
+    Item["Rice Seeds"]: Item["Rice"],
 }
 
 
