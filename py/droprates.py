@@ -30,6 +30,7 @@ BASE_DROP_RATES = {
     "Small Cave": 2 / 5,
     "Small Spring": 1 / 3,
     "Whispering Creek": 4 / 15,
+    "Jundland Desert": 4 / 15,
 }
 
 CACHE_PATH_BASE = f"{os.path.dirname(__file__)}/.dropscache/{'{}'}.json"

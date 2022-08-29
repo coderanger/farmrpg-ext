@@ -45,6 +45,15 @@
     "xpPerHitIronDepot": null
   },
   {
+    "baseDropRate": 0.26666666666666666,
+    "id": "13",
+    "name": "Jundland Desert",
+    "silverPerHit": 236.0689762389162,
+    "silverPerHitIronDepot": 236.0689762389162,
+    "xpPerHit": 186.73690647834482,
+    "xpPerHitIronDepot": 186.73690647834482
+  },
+  {
     "baseDropRate": 0.3333333333333333,
     "id": "2",
     "name": "Small Spring",

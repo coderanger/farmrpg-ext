@@ -1,0 +1,146 @@
+[
+  {
+    "amount": 10,
+    "quiz_id": 4,
+    "reward": "Apple",
+    "score": 80
+  },
+  {
+    "amount": 2,
+    "quiz_id": 4,
+    "reward": "Orange Juice",
+    "score": 90
+  },
+  {
+    "amount": 50,
+    "quiz_id": 4,
+    "reward": "Mushroom",
+    "score": 100
+  },
+  {
+    "amount": 1,
+    "quiz_id": 5,
+    "reward": "Hearts",
+    "score": 80
+  },
+  {
+    "amount": 1,
+    "quiz_id": 5,
+    "reward": "Spades",
+    "score": 90
+  },
+  {
+    "amount": 1,
+    "quiz_id": 5,
+    "reward": "Clubs",
+    "score": 100
+  },
+  {
+    "amount": 2,
+    "quiz_id": 6,
+    "reward": "Pocket Watch",
+    "score": 80
+  },
+  {
+    "amount": 5,
+    "quiz_id": 6,
+    "reward": "Magna Quartz",
+    "score": 90
+  },
+  {
+    "amount": 120,
+    "quiz_id": 6,
+    "reward": "Lemon",
+    "score": 100
+  },
+  {
+    "amount": 5,
+    "quiz_id": 8,
+    "reward": "Arnold Palmer",
+    "score": 80
+  },
+  {
+    "amount": 10,
+    "quiz_id": 8,
+    "reward": "Apple Cider",
+    "score": 90
+  },
+  {
+    "amount": 15,
+    "quiz_id": 8,
+    "reward": "Large Net",
+    "score": 100
+  },
+  {
+    "amount": 10,
+    "quiz_id": 9,
+    "reward": "Peppers",
+    "score": 80
+  },
+  {
+    "amount": 20,
+    "quiz_id": 9,
+    "reward": "Iron Cup",
+    "score": 90
+  },
+  {
+    "amount": 30,
+    "quiz_id": 9,
+    "reward": "Apple",
+    "score": 100
+  },
+  {
+    "amount": 5000,
+    "quiz_id": 10,
+    "reward": "Corn Seeds",
+    "score": 80
+  },
+  {
+    "amount": 100,
+    "quiz_id": 10,
+    "reward": "Runestone 11",
+    "score": 90
+  },
+  {
+    "amount": 5,
+    "quiz_id": 10,
+    "reward": "Corn Prize Bag",
+    "score": 100
+  },
+  {
+    "amount": 3,
+    "quiz_id": 11,
+    "reward": "Grab Bag 01",
+    "score": 80
+  },
+  {
+    "amount": 25,
+    "quiz_id": 11,
+    "reward": "Wood Plank",
+    "score": 90
+  },
+  {
+    "amount": 25,
+    "quiz_id": 11,
+    "reward": "Orange Juice",
+    "score": 100
+  },
+  {
+    "amount": 50,
+    "quiz_id": 12,
+    "reward": "Apple Cider",
+    "score": 80
+  },
+  {
+    "amount": 100,
+    "quiz_id": 12,
+    "reward": "Lemonade",
+    "score": 90
+  },
+  {
+    "amount": 10,
+    "quiz_id": 12,
+    "reward": "Skeleton Key",
+    "score": 100
+  }
+]

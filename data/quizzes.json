@@ -1,0 +1,90 @@
+[
+  {
+    "description": "Test your knowledge about some<br/>of your friends from town",
+    "id": 4,
+    "name": "Townsfolk 101",
+    "score100amt": 50,
+    "score100reward": "Mushroom",
+    "score80amt": 10,
+    "score80reward": "Apple",
+    "score90amt": 2,
+    "score90reward": "Orange Juice"
+  },
+  {
+    "description": "Are you a playing card connoisseur?",
+    "id": 5,
+    "name": "Playing Cards",
+    "score100amt": 1,
+    "score100reward": "Clubs",
+    "score80amt": 1,
+    "score80reward": "Hearts",
+    "score90amt": 1,
+    "score90reward": "Spades"
+  },
+  {
+    "description": "Each exploring zone has a townsfolk that<br/>can help you better explore the area.<br/>Do you remember which townsfolk knows which zone?",
+    "id": 6,
+    "name": "Friendly Geography ",
+    "score100amt": 120,
+    "score100reward": "Lemon",
+    "score80amt": 2,
+    "score80reward": "Pocket Watch",
+    "score90amt": 5,
+    "score90reward": "Magna Quartz"
+  },
+  {
+    "description": "How well do you know the<br/>history of Farm RPG?",
+    "id": 8,
+    "name": "Farm RPG History",
+    "score100amt": 15,
+    "score100reward": "Large Net",
+    "score80amt": 5,
+    "score80reward": "Arnold Palmer",
+    "score90amt": 10,
+    "score90reward": "Apple Cider"
+  },
+  {
+    "description": "Let\u2019s see if you remember what<br/>it was like when you first<br/>started playing FarmRPG.",
+    "id": 9,
+    "name": "Getting Started",
+    "score100amt": 30,
+    "score100reward": "Apple",
+    "score80amt": 10,
+    "score80reward": "Peppers",
+    "score90amt": 20,
+    "score90reward": "Iron Cup"
+  },
+  {
+    "description": "Do you know all there is to know about corn?",
+    "id": 10,
+    "name": "CORN FACTS",
+    "score100amt": 5,
+    "score100reward": "Corn Prize Bag",
+    "score80amt": 5000,
+    "score80reward": "Corn Seeds",
+    "score90amt": 100,
+    "score90reward": "Runestone 11"
+  },
+  {
+    "description": "Do you know your way around Redbrook?",
+    "id": 11,
+    "name": "Locations 101",
+    "score100amt": 25,
+    "score100reward": "Orange Juice",
+    "score80amt": 3,
+    "score80reward": "Grab Bag 01",
+    "score90amt": 25,
+    "score90reward": "Wood Plank"
+  },
+  {
+    "description": "Do you know all about merit badges?",
+    "id": 12,
+    "name": "Shiny Badges",
+    "score100amt": 10,
+    "score100reward": "Skeleton Key",
+    "score80amt": 50,
+    "score80reward": "Apple Cider",
+    "score90amt": 100,
+    "score90reward": "Lemonade"
+  }
+]

@@ -95,6 +95,27 @@
   },
   {
     "items": [
+      "Sand",
+      "Pulley",
+      "Copper Wire",
+      "Broken Pipe",
+      "Small Bolt",
+      "Prickly Pear",
+      "Transistor",
+      "Machine Part",
+      "Onyx Scorpion",
+      "Scrap Wire",
+      "Scrap Metal",
+      "Monster Skull",
+      "Langstaff Crest"
+    ],
+    "id": "13",
+    "type": "explore",
+    "name": "Jundland Desert",
+    "image": "/img/items/desert.png"
+  },
+  {
+    "items": [
       "Wood",
       "Mushroom",
       "Fern Leaf",

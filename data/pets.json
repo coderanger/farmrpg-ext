@@ -323,6 +323,29 @@
   },
   {
     "level1Items": [
+      "Lemon Quartz",
+      "Leather",
+      "Cotton",
+      "Green Cloak"
+    ],
+    "level3Items": [
+      "Runestone 12",
+      "Pine Tree",
+      "Peach",
+      "Canoe"
+    ],
+    "level6Items": [
+      "Diamond",
+      "Runestone 17",
+      "Treasure Key",
+      "Skeleton Key"
+    ],
+    "id": "22",
+    "image": "/img/pets/pet_fox.png",
+    "name": "Red Fox"
+  },
+  {
+    "level1Items": [
       "Mushroom",
       "Fern Leaf",
       "Purple Flower",

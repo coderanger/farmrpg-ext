@@ -5025,6 +5025,104 @@
     "requiresFishing": 68
   },
   {
+    "firstSeen": 1660933172457,
+    "itemRequests": [
+      {
+        "id": "130",
+        "quantity": 400
+      },
+      {
+        "id": "120",
+        "quantity": 400
+      },
+      {
+        "id": "59",
+        "quantity": 400
+      },
+      {
+        "id": "44",
+        "quantity": 100
+      },
+      {
+        "id": "586",
+        "quantity": 3
+      }
+    ],
+    "itemRewards": [],
+    "id": "213799",
+    "name": "Unexpected Visitor I",
+    "isPersonal": false,
+    "from": "Jill",
+    "fromImage": "/img/items/a_024.png",
+    "text": "Another letter from Jill arrives, inviting you over for dinner. She asks that you bring a few things if it’s not too much trouble.",
+    "requiresFarming": 78,
+    "requiresExploring": 78,
+    "silverReward": 10000000
+  },
+  {
+    "firstSeen": 1660933177372,
+    "itemRequests": [
+      {
+        "id": "65",
+        "quantity": 100
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "587",
+        "quantity": 2
+      },
+      {
+        "id": "84",
+        "quantity": 100
+      }
+    ],
+    "id": "213827",
+    "name": "Unexpected Visitor II",
+    "isPersonal": false,
+    "from": "Jill",
+    "fromImage": "/img/items/a_024.png",
+    "text": "Jill and ROOMBA greet you at the door. She’s prepared a platter of savory meats and cheeses and makes a fruit salad with what you’ve brought. She offers you a selection of drinks, and asks you to prepare some corn so she can have corn oil for ROOMBA to enjoy.\n\nAs you’re about to take a bite of some crispy bacon, a loud thud can be heard at the front door. ROOMBA goes to investigate. About 2 minutes go by, when ROOMBA returns with a pile of metal pieces, and drops them on the table. Your heart sinks as you watch your dinner covered by dirty, metal pieces.\n“ROOMBA! Take this to the barn!”Jill looks like she’s 50% furious and 50% excited, and the three of you head to the barn.",
+    "requiresFarming": 78,
+    "requiresExploring": 78
+  },
+  {
+    "firstSeen": 1660933188304,
+    "itemRequests": [
+      {
+        "id": "392",
+        "quantity": 400
+      },
+      {
+        "id": "236",
+        "quantity": 400
+      },
+      {
+        "id": "339",
+        "quantity": 50
+      },
+      {
+        "id": "338",
+        "quantity": 50
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "305",
+        "quantity": 25
+      }
+    ],
+    "id": "213999",
+    "name": "Unexpected Visitor III",
+    "isPersonal": false,
+    "from": "ROOMBA",
+    "fromImage": "/img/items/robot_02.png",
+    "text": "ROOMBA arranges the pile of pieces, stops, and rearranges them again. “REPAIR NECESSARY FOR THIS UNIT. MATERIALS REQUIRED.” A few tools and supplies are scattered around the barn, but ROOMBA asks that you retrieve anything else that you think may be useful.",
+    "requiresFarming": 78,
+    "requiresExploring": 78,
+    "silverReward": 5000000
+  },
+  {
     "firstSeen": 1646727643422,
     "itemRequests": [
       {
@@ -5064,6 +5162,46 @@
     "text": "Thomas needs your help again. During his ride with the charter to search for the hidden island, Thomas had a small accident. Although he could see the hidden island through the mask he found, he couldn’t step onto it. The boat passed right through the island too, as if it wasn’t really there.\n\nIn his frustration, Thomas quickly built a tower out of the barrels on the boat and climbed on top of it. He was trying to get a better view of the hidden island through his mask. Unfortunately, he stepped a little too close to the edge of his tower while he was trying to touch a palm tree. The tower leaned with the shift in weight and then tipped over, and Thomas and the barrels fell into the water. A few of the barrels smashed open and the bait went everywhere.\n\nThomas needs to replace a few barrels of bait. Will you help him gather the bait? He can’t pay much, but he promises that he will figure out how to get to that island, and he will also share everything fantastic he finds with you.",
     "silverReward": 1000000,
     "requiresFishing": 68
+  },
+  {
+    "firstSeen": 1660933198993,
+    "itemRequests": [
+      {
+        "id": "178",
+        "quantity": 400
+      },
+      {
+        "id": "177",
+        "quantity": 75
+      },
+      {
+        "id": "55",
+        "quantity": 200
+      },
+      {
+        "id": "193",
+        "quantity": 400
+      },
+      {
+        "id": "326",
+        "quantity": 50
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "453",
+        "quantity": 3
+      }
+    ],
+    "id": "214390",
+    "name": "Unexpected Visitor IV",
+    "isPersonal": false,
+    "from": "Jill",
+    "fromImage": "/img/items/a_024.png",
+    "text": "You return with the requested items. ROOMBA gets to work, and you go back inside with Jill. \nAs the two of you are cleaning up the dinner mess, she thanks you again. “It’s a strange feeling, having another person here with all of this going on. I apologize if I’ve been short with you. Having ROOMBA as my only company for a while has been, well, challenging. Don’t get me wrong, his usefulness is unparalleled. As far as conversations though, you have to be very direct with robots.”\nA few hours pass, and the two of you go to check on ROOMBA. It looks like your robot friend has been assembling another automaton, though several parts are still missing or disconnected.",
+    "requiresFarming": 79,
+    "requiresExploring": 79,
+    "silverReward": 2000000
   },
   {
     "firstSeen": 1646727641418,
@@ -5715,6 +5853,178 @@
     "requiresFarming": 75
   },
   {
+    "firstSeen": 1660933269057,
+    "itemRequests": [
+      {
+        "id": "338",
+        "quantity": 50
+      },
+      {
+        "id": "145",
+        "quantity": 400
+      },
+      {
+        "id": "215",
+        "quantity": 30
+      },
+      {
+        "id": "216",
+        "quantity": 50
+      }
+    ],
+    "itemRewards": [],
+    "id": "228470",
+    "name": "Unexpected Visitor V",
+    "isPersonal": false,
+    "from": "ROOMBA",
+    "fromImage": "/img/items/robot_02.png",
+    "text": "“RESTORATIONS 23.11% COMPLETE. ADDITIONAL MATERIAL REQUIRED TO CONTINUE.” ROOMBA has pieced together a very makeshift torso, with one arm and two legs. The head has been placed on a separate, smaller worktable, as it looks more damaged than the rest of the parts.\n“DATABANK SCANS SHOW MINIMAL NON-CORRUPTED INFORMATION.\" \n“LOCATION ORIGIN: 46% DATA CORRUPTION. JUNzqaD hwSEbT”\n“PRIMARY FUNCTION: 100% DATA CORRUPTION. dQw4w9WgXcQ”\n“TIME SINCE LAST ACTIVITY: 10 HOURS.”\nROOMBA can’t make further progress without some more materials. He hands you a list of items to retrieve while he tries to process through the data corruption.",
+    "requiresFarming": 80,
+    "requiresExploring": 80,
+    "silverReward": 2000000
+  },
+  {
+    "firstSeen": 1660936098257,
+    "itemRequests": [
+      {
+        "id": "239",
+        "quantity": 500
+      },
+      {
+        "id": "350",
+        "quantity": 100
+      },
+      {
+        "id": "581",
+        "quantity": 10
+      },
+      {
+        "id": "213",
+        "quantity": 25
+      },
+      {
+        "id": "314",
+        "quantity": 500
+      },
+      {
+        "id": "243",
+        "quantity": 25
+      }
+    ],
+    "itemRewards": [],
+    "id": "228486",
+    "name": "Unexpected Visitor VI",
+    "isPersonal": false,
+    "from": "ROOMBA",
+    "fromImage": "/img/items/robot_02.png",
+    "text": "You return with the list of items, and ROOMBA returns to the semi-formed robot. “LOCATION ORIGIN DECORRUPTION COMPLETE. LOCATION ORIGIN: JUNDLAND DESERT.” Jill gasps. “From everything I’ve read about it, that’s a very dangerous place. Not to mention the heat.”\nROOMBA interjects. “JUNDLAND DESERT. DATA COLLECTION COMPLETE.\nSAFETY CONCERNS: SANDSTORMS - CHANCE TO AVOID: 13.46%.\nHUMAN CONSUMABLE RESOURCES - MINIMAL.\nNAVIGATION - BARREN WASTELAND WITH FEW LANDMARKS. VERY FEW OPTIONS FOR SHELTER AGAINST ELEMENTS.\nRESOURCE MATERIALS - ABUNDANT. NECESSARY MATERIALS FOR REPAIR LOCATED IN JUNDLAND DESERT.\nNAVIGATION DEVICE REQUIRED FOR HUMANS.\nEND OF REPORT.”\n“RECOMMENDED ACTION: PREPARE FOR A DANGEROUS JOURNEY. ADDITIONAL HUMAN REQUIRED FOR OPTIMAL CHANCE OF SURVIVAL.”\nJill writes letters to Vincent and Borgen, hoping at least one of them is willing to join your group.",
+    "requiresFarming": 80,
+    "requiresExploring": 80,
+    "silverReward": 40000000
+  },
+  {
+    "firstSeen": 1660936115317,
+    "itemRequests": [
+      {
+        "id": "67",
+        "quantity": 500
+      },
+      {
+        "id": "59",
+        "quantity": 500
+      },
+      {
+        "id": "65",
+        "quantity": 500
+      },
+      {
+        "id": "250",
+        "quantity": 50
+      },
+      {
+        "id": "186",
+        "quantity": 50
+      },
+      {
+        "id": "92",
+        "quantity": 500
+      },
+      {
+        "id": "322",
+        "quantity": 500
+      },
+      {
+        "id": "189",
+        "quantity": 175
+      },
+      {
+        "id": "505",
+        "quantity": 5
+      },
+      {
+        "id": "256",
+        "quantity": 500
+      }
+    ],
+    "itemRewards": [],
+    "id": "228487",
+    "name": "Unexpected Visitor VII",
+    "isPersonal": false,
+    "from": "ROOMBA",
+    "fromImage": "/img/items/robot_02.png",
+    "text": "Jill’s letters reach both Vincent and Borgen, explaining the journey ahead. Vincent politely declined, saying he had some other obligations. Borgen, however, has agreed. He arrives at Jill’s farm and thanks you all for the invitation. “I’ve always wanted to go out that way, never had a reason to before that seemed worth the risk.”\n“RISK ASSESSMENT COMPLETE: SURVIVABILITY PERCENTA-”\nBorgen interrupts ROOMBA. “Maybe for the best you keep that number to yourself.” \n“CURRENT GROUP IS OPTIMAL WITH ALL GIVEN PARAMETERS.”\nAnd with that, you finish packing for the trip, and head south.",
+    "requiresFarming": 80,
+    "requiresExploring": 80,
+    "silverReward": 75000000
+  },
+  {
+    "firstSeen": 1661299814608,
+    "itemRequests": [
+      {
+        "id": "389",
+        "quantity": 15
+      },
+      {
+        "id": "165",
+        "quantity": 400
+      },
+      {
+        "id": "304",
+        "quantity": 450
+      },
+      {
+        "id": "155",
+        "quantity": 4
+      },
+      {
+        "id": "223",
+        "quantity": 4
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "123",
+        "quantity": 400
+      },
+      {
+        "id": "347",
+        "quantity": 2
+      },
+      {
+        "id": "44",
+        "quantity": 500
+      }
+    ],
+    "id": "228509",
+    "name": "Unexpected Visitor VIII",
+    "isPersonal": false,
+    "from": "ROOMBA",
+    "fromImage": "/img/items/robot_02.png",
+    "text": "Your party easily traverses Black Rock Canyon, as you’ve done many times before. Borgen happily pockets some hidden stashes of Ancient Coins. “You should pick up some supplies and interesting items you find here. Could come in handy.”\nContinuing on, you cross the bridge that allows passage over Crystal River. The sun will set soon. You look across the bridge, and discuss where to set up camp.\n“Misty forest is eerie.” Jill states. “No raptors there, though.” Borgen chimes in. You ask ROOMBA to decide, as it’s been a long day and you just want to rest somewhere.\n“CALCULATING. MISTY FOREST WILL ADD 7.2 HOURS OF TRAVEL DUE TO LIMITED VISIBILITY AND DISTANCE FROM DESTINATION.” The group decides to rest for the evening at Whispering Creek.",
+    "requiresFarming": 80,
+    "requiresExploring": 80
+  },
+  {
     "firstSeen": 1646727613356,
     "itemRequests": [
       {
@@ -6217,6 +6527,527 @@
     "silverReward": 50000,
     "requiresCrafting": 32,
     "requiresExploring": 30
+  },
+  {
+    "firstSeen": 1661299839850,
+    "itemRequests": [
+      {
+        "id": "323",
+        "quantity": 1
+      },
+      {
+        "id": "349",
+        "quantity": 50
+      },
+      {
+        "id": "314",
+        "quantity": 300
+      },
+      {
+        "id": "321",
+        "quantity": 400
+      },
+      {
+        "id": "319",
+        "quantity": 400
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "84",
+        "quantity": 200
+      },
+      {
+        "id": "394",
+        "quantity": 1
+      }
+    ],
+    "id": "240264",
+    "name": "Unexpected Visitor IX",
+    "isPersonal": false,
+    "from": "ROOMBA",
+    "fromImage": "/img/items/robot_02.png",
+    "text": "You think back fondly about your first venture to Whispering Creek. You never would be able to navigate this place without a compass. The group continues on, again, picking up anything useful along the way. \n“RAPTOR DETECTED. COURSE OF ACTION: LOCATE SHELTER IMMEDIATELY.” \nYou’ve been here often enough to know all the safe spots from raptors. You lead your friends to safety. There’s a cliff that reaches out above you, and trees and bushes provide plenty of cover should the raptor pass by. Jill seems rather worried, as you hear a screech approaching from your right. You let her hold your compass, which seems to help her relax. You and Borgen watch the raptor spring after something. Whatever it was must have run off, and the raptor quickly pursues. You see something fall from the raptor’s foot as it disappears further into the forest. “Whatever that thing dropped, I want it.”, Borgen says confidently. “Once we get that, we can keep moving.”",
+    "requiresFarming": 80,
+    "requiresExploring": 80
+  },
+  {
+    "firstSeen": 1661299868000,
+    "itemRequests": [
+      {
+        "id": "387",
+        "quantity": 500
+      },
+      {
+        "id": "243",
+        "quantity": 35
+      },
+      {
+        "id": "601",
+        "quantity": 150
+      },
+      {
+        "id": "600",
+        "quantity": 150
+      }
+    ],
+    "itemRewards": [],
+    "id": "240271",
+    "name": "Unexpected Visitor X",
+    "isPersonal": false,
+    "from": "ROOMBA",
+    "fromImage": "/img/items/robot_02.png",
+    "text": "The party continues south, and soon you arrive at the entrance to the Jundland Desert. There are a few signs placed along the edges of the desert.\n“DANGER!” \n“DO NOT ENTER!” \n“NO TRESPASSING” \n“Ahead: Sand”\nBorgen fashions some interesting layering, in an attempt to keep sand from his boots. Jill covers her head in a scarf, and double checks her water supply. You’ve done all the preparations you can, it’s time to move on. \nThe Jundland Desert is beautiful, if not blindingly bright. The sand looks almost golden, and a gentle wisp of wind carries a few golden specks to new dunes. Aside from that though, there’s nothing else to see. It’s not quite as hot here as Ember Lagoon, but it’s a close second while the sun is out. The group walks until the greenery is no longer visible. There are small bits and pieces of things hidden within the sand, but otherwise, there are no landmarks you can find. Each dune looks the same. You hold your compass, thinking maybe it will be useful here. The arrow just spins around and around.\n“I WILL GUIDE. FOLLOW.” ROOMBA marches towards, well, more sand.",
+    "requiresFarming": 80,
+    "requiresExploring": 80,
+    "silverReward": 5000000
+  },
+  {
+    "firstSeen": 1661299887761,
+    "itemRequests": [
+      {
+        "id": "387",
+        "quantity": 500
+      },
+      {
+        "id": "591",
+        "quantity": 25
+      },
+      {
+        "id": "601",
+        "quantity": 200
+      },
+      {
+        "id": "600",
+        "quantity": 200
+      },
+      {
+        "id": "611",
+        "quantity": 5
+      },
+      {
+        "id": "593",
+        "quantity": 25
+      },
+      {
+        "id": "590",
+        "quantity": 10
+      },
+      {
+        "id": "629",
+        "quantity": 20
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "86",
+        "quantity": 100
+      }
+    ],
+    "id": "240278",
+    "name": "Unexpected Visitor XI",
+    "isPersonal": false,
+    "from": "ROOMBA",
+    "fromImage": "/img/items/robot_02.png",
+    "text": "The sun hangs low in the sky, and you, Jill, and Borgen are moving significantly slower than you were a few hours ago. ROOMBA doesn’t seem to be affected. “WALKING THROUGH SAND TAKES MORE STAMINA FOR HUMANS. AT THE CURRENT PACE, WE ARE APPROXIMATELY 3.1 HOURS FROM DESTINATION. IF WE REFUEL AND REST FOR A SHORT WHILE, IT WILL TAKE 1.2 HOURS TO ARRIVE WHEN WE DEPART.”",
+    "requiresFarming": 80,
+    "requiresCrafting": 81,
+    "requiresExploring": 80,
+    "silverReward": 7500000
+  },
+  {
+    "firstSeen": 1661299904442,
+    "itemRequests": [
+      {
+        "id": "387",
+        "quantity": 500
+      },
+      {
+        "id": "601",
+        "quantity": 300
+      },
+      {
+        "id": "600",
+        "quantity": 300
+      },
+      {
+        "id": "599",
+        "quantity": 10
+      },
+      {
+        "id": "596",
+        "quantity": 30
+      },
+      {
+        "id": "595",
+        "quantity": 20
+      },
+      {
+        "id": "591",
+        "quantity": 30
+      }
+    ],
+    "itemRewards": [],
+    "id": "240282",
+    "name": "Unexpected Visitor XII",
+    "isPersonal": false,
+    "from": "ROOMBA",
+    "fromImage": "/img/items/robot_02.png",
+    "text": "ROOMBA continues to guide you, Jill, and Borgen. The sun has set, and you notice the temperature drop. The desert is even more beautiful at night. The stars shine bright. Borgen points out a few constellations, and Jill asks Borgen how he knows about them. “Well, that’s how I do most of my traveling when I don’t know the way. The stars point me where I need to go, especially on the open sea. While the three of you are walking and looking up, ROOMBA stops. First Jill, then you, then Borgen, all bump, and end up falling down. The three of you start laughing. ROOMBA turns to face you. “QUIET. DO NOT MOVE.” ROOMBA dims his eye-light and crouches down to join you. A few minutes pass, and nothing happens. Borgen starts to get restless, and ROOMBA places his cold, metal hand on Borgen’s shoulder. Another minute goes by, and a very soft rumbling deep in the sand passes by. Sand shifts, and your eyes follow the direction of the rumbling. Dunes rise and fall. You stay there, waiting. ROOMBA fixes his light, and stands up. “WE WILL CONTINUE NOW.”",
+    "requiresFarming": 80,
+    "requiresExploring": 80,
+    "silverReward": 10000000
+  },
+  {
+    "firstSeen": 1661299919617,
+    "itemRequests": [
+      {
+        "id": "387",
+        "quantity": 500
+      },
+      {
+        "id": "601",
+        "quantity": 500
+      },
+      {
+        "id": "600",
+        "quantity": 500
+      },
+      {
+        "id": "595",
+        "quantity": 50
+      },
+      {
+        "id": "590",
+        "quantity": 70
+      },
+      {
+        "id": "593",
+        "quantity": 70
+      },
+      {
+        "id": "599",
+        "quantity": 25
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "84",
+        "quantity": 100
+      }
+    ],
+    "id": "240286",
+    "name": "Unexpected Visitor XIII",
+    "isPersonal": false,
+    "from": "ROOMBA",
+    "fromImage": "/img/items/robot_02.png",
+    "text": "“What WAS that?” Jill asks. “And how did you know where it was?” \n“DATA DESCRAMBLE COMPLETE. DEFENSE MECHANISM. DETECTS UNNATURAL MOVEMENT FROM ABOVE AND BELOW. I HAVE UPGRADED MY RADAR USING INFORMATION FROM DAMAGED AUTOMATON. PROBABILITY OF SUCCESS WAS LOW. WE HAVE ARRIVED AT THE LOCATION.” \nYou look at a small, crumbling building. During the day, this would have easily been missed. The outside walls are caked in sand, and the blinding light of the sun would hide this place from anyone who came looking. The closer you look, the more you think there’s more of the building below the sand than above. You all walk the perimeter, looking for a way in. “Got something!” You hear Jill around the corner. You all gather in front of a door. There’s no knob, knocker, or anything on it. A small, shiny orb is near the top. You, Jill, and even Borgen all press the glass orb. Nothing happens. Pushing on the door does nothing. ROOMBA looks at the door, and it swings open. “WE ARE HERE.”",
+    "requiresFarming": 80,
+    "requiresExploring": 80,
+    "silverReward": 20000000
+  },
+  {
+    "firstSeen": 1661299940012,
+    "itemRequests": [
+      {
+        "id": "213",
+        "quantity": 25
+      },
+      {
+        "id": "380",
+        "quantity": 3
+      },
+      {
+        "id": "280",
+        "quantity": 2
+      },
+      {
+        "id": "235",
+        "quantity": 3
+      },
+      {
+        "id": "263",
+        "quantity": 200
+      },
+      {
+        "id": "373",
+        "quantity": 100
+      },
+      {
+        "id": "135",
+        "quantity": 100
+      },
+      {
+        "id": "383",
+        "quantity": 10
+      },
+      {
+        "id": "219",
+        "quantity": 1
+      },
+      {
+        "id": "293",
+        "quantity": 1
+      },
+      {
+        "id": "499",
+        "quantity": 400
+      },
+      {
+        "id": "393",
+        "quantity": 25
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "327",
+        "quantity": 2
+      }
+    ],
+    "id": "240299",
+    "name": "Unexpected Visitor XIV",
+    "isPersonal": false,
+    "from": "ROOMBA",
+    "fromImage": "/img/items/robot_02.png",
+    "text": "The interior of this building is nothing like you would expect. It’s nearly spotless inside, and dimly lit by tiny orbs strung across the walls. You, Jill, and Borgen begin to explore this room. “ONLY PERMITTED TO RETRIEVE ITEMS FOR REPAIRING UNIT.” ROOMBA points to a screen on the wall filled with 0’s and 1’s. “DO NOT REMOVE UNNECESSARY ITEMS FROM PREMESIS.” “Well, how do we know what we’re looking for?” Jill asks. The screen on the wall changes to a different arrangement of 0’s and 1’s. “I WILL RETRIEVE THE ITEMS. YOU CHOOSE ITEMS OF CULTURAL SIGNIFICANCE AND VALUE TO LEAVE AS EXCHANGE.” ROOMBA ventures further into the building, and is soon out of sight.\nThe three of you look at each other, then start digging through your bags. You leave a pile of non-essential items in the center of the room. ROOMBA returns. “EXCHANGE COMPLETE. WE WILL DEPART AT SUNRISE.”",
+    "requiresFarming": 80,
+    "requiresExploring": 80
+  },
+  {
+    "firstSeen": 1661721338456,
+    "itemRequests": [
+      {
+        "id": "387",
+        "quantity": 500
+      },
+      {
+        "id": "591",
+        "quantity": 150
+      },
+      {
+        "id": "590",
+        "quantity": 150
+      },
+      {
+        "id": "595",
+        "quantity": 100
+      },
+      {
+        "id": "611",
+        "quantity": 50
+      },
+      {
+        "id": "593",
+        "quantity": 50
+      },
+      {
+        "id": "596",
+        "quantity": 100
+      },
+      {
+        "id": "597",
+        "quantity": 100
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "508",
+        "quantity": 100
+      },
+      {
+        "id": "500",
+        "quantity": 100
+      }
+    ],
+    "id": "240309",
+    "name": "Unexpected Visitor XV",
+    "isPersonal": false,
+    "from": "ROOMBA",
+    "fromImage": "/img/items/robot_02.png",
+    "text": "You depart this building after resting for a while. Your eyes have a hard time adjusting to the blinding sun, but your group is soon on track to head home. You pick up some things along the way, and the journey home is fairly uneventful.",
+    "requiresFarming": 80,
+    "requiresExploring": 80,
+    "silverReward": 25000000
+  },
+  {
+    "firstSeen": 1661721360387,
+    "itemRequests": [
+      {
+        "id": "123",
+        "quantity": 500
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "605",
+        "quantity": 1
+      },
+      {
+        "id": "607",
+        "quantity": 1
+      },
+      {
+        "id": "606",
+        "quantity": 1
+      },
+      {
+        "id": "608",
+        "quantity": 1
+      },
+      {
+        "id": "500",
+        "quantity": 100
+      }
+    ],
+    "id": "240319",
+    "name": "Unexpected Visitor XVI",
+    "isPersonal": false,
+    "from": "Borgen",
+    "fromImage": "/img/items/borgen.png",
+    "text": "You’re finally back at Jill’s farm. Jill and ROOMBA head to the barn. You thank Borgen again for joining on the trip, and offer him some Ancient Coins as payment. “It was my pleasure! Always on the hunt for more unique items to sell at the shop.” You chat for a few minutes, and wave him off.",
+    "requiresFarming": 80,
+    "requiresExploring": 80
+  },
+  {
+    "firstSeen": 1661721383686,
+    "itemRequests": [
+      {
+        "id": "594",
+        "quantity": 500
+      },
+      {
+        "id": "597",
+        "quantity": 50
+      },
+      {
+        "id": "598",
+        "quantity": 100
+      },
+      {
+        "id": "592",
+        "quantity": 30
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "84",
+        "quantity": 500
+      }
+    ],
+    "id": "240335",
+    "name": "Unexpected Visitor XVII",
+    "isPersonal": false,
+    "from": "Jill",
+    "fromImage": "/img/items/a_024.png",
+    "text": "Back at the barn, Jill and ROOMBA are arguing about which parts go where, what order to replace them in, and the best tools to use. Jill asks you to craft her some upgraded tools and gather materials she overlooked.",
+    "requiresFarming": 80,
+    "requiresExploring": 80,
+    "silverReward": 25000000
+  },
+  {
+    "firstSeen": 1661721437589,
+    "itemRequests": [
+      {
+        "id": "342",
+        "quantity": 25
+      },
+      {
+        "id": "236",
+        "quantity": 500
+      },
+      {
+        "id": "592",
+        "quantity": 25
+      },
+      {
+        "id": "629",
+        "quantity": 30
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "84",
+        "quantity": 500
+      },
+      {
+        "id": "587",
+        "quantity": 25
+      }
+    ],
+    "id": "240339",
+    "name": "Unexpected Visitor XVIII",
+    "isPersonal": false,
+    "from": "ROOMBA",
+    "fromImage": "/img/items/robot_02.png",
+    "text": "Minutes turn to hours, and Jill and ROOMBA work together in perfect harmony. Your main role is to run items back and forth across the barn, and refill ROOMBA’s corn oil supply occasionally.",
+    "requiresFarming": 80,
+    "requiresCrafting": 81,
+    "requiresExploring": 80,
+    "silverReward": 20000000
+  },
+  {
+    "firstSeen": 1661723420955,
+    "itemRequests": [
+      {
+        "id": "341",
+        "quantity": 50
+      },
+      {
+        "id": "592",
+        "quantity": 10
+      },
+      {
+        "id": "340",
+        "quantity": 1
+      },
+      {
+        "id": "628",
+        "quantity": 2
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "84",
+        "quantity": 500
+      },
+      {
+        "id": "379",
+        "quantity": 500
+      }
+    ],
+    "id": "240346",
+    "name": "Unexpected Visitor XIX",
+    "isPersonal": false,
+    "from": "FR4NK",
+    "fromImage": "/img/items/robot_05.png",
+    "text": "The final part is ready to be placed in the heart of this robot. Jill and ROOMBA allow you to do the honors. It clicks right into place, and almost immediately you can hear a quiet hum emanate from this new robot. It sits up and looks around. “Greetings. I am Friendly Robot 4: Now Kinder. It is recommended to refer to me as FR4NK for optimized communication. As the beings who repaired me, you are deserving of a reward. What is it that you seek?”",
+    "requiresFarming": 80,
+    "requiresCrafting": 81,
+    "requiresExploring": 80,
+    "silverReward": 10000000
+  },
+  {
+    "firstSeen": 1661723937156,
+    "itemRequests": [
+      {
+        "id": "632",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "612",
+        "quantity": 1
+      }
+    ],
+    "id": "240353",
+    "name": "Unexpected Visitor XX",
+    "isPersonal": false,
+    "from": "FR4NK",
+    "fromImage": "/img/items/robot_05.png",
+    "text": "ROOMBA continues to run diagnostic testing on FR4NK while Jill hurls questions at your new acquaintance. “Why did you show up at my house? How did you break? What was that building in the desert? What do you know about the monster in the desert? Can you help us continue to research the desert?” \nFR4NK's manner of speaking is eerily human like. If you closed your eyes you wouldn't think this was an automaton. “My memory core is not fully restored. I will share the information I have available. The guardian of the sands protects the remaining inhabitants of Jundland in tandem with the legacy of Castrum Romuska. Avoiding certain death is impressive for humans.\" Suddenly, FR4NK's tone shifts from friendly to monotone. \"Per your request, I will provide a device blueprint to aid safe navigation through Jundland if you release the Langstaff Crest into my possession.\"\"If you choose to return to Jundland after building the device, please do not disturb the inhabitants. It would not be wise of you.”",
+    "requiresFarming": 80,
+    "requiresExploring": 80
   },
   {
     "firstSeen": 1646727590047,
@@ -14863,6 +15694,107 @@
     "requiresCrafting": 4
   },
   {
+    "firstSeen": 1660328543826,
+    "itemRequests": [
+      {
+        "id": "175",
+        "quantity": 2000
+      },
+      {
+        "id": "390",
+        "quantity": 4000
+      },
+      {
+        "id": "59",
+        "quantity": 4000
+      },
+      {
+        "id": "107",
+        "quantity": 5000
+      },
+      {
+        "id": "571",
+        "quantity": 300
+      },
+      {
+        "id": "616",
+        "quantity": 500
+      },
+      {
+        "id": "623",
+        "quantity": 500
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "396",
+        "quantity": 50
+      },
+      {
+        "id": "508",
+        "quantity": 2000
+      },
+      {
+        "id": "608",
+        "quantity": 2
+      },
+      {
+        "id": "607",
+        "quantity": 2
+      },
+      {
+        "id": "606",
+        "quantity": 2
+      },
+      {
+        "id": "605",
+        "quantity": 2
+      },
+      {
+        "id": "500",
+        "quantity": 2000
+      },
+      {
+        "id": "610",
+        "quantity": 1
+      },
+      {
+        "id": "84",
+        "quantity": 5000
+      },
+      {
+        "id": "397",
+        "quantity": 1000
+      },
+      {
+        "id": "398",
+        "quantity": 1000
+      },
+      {
+        "id": "483",
+        "quantity": 1
+      },
+      {
+        "id": "491",
+        "quantity": 1000
+      }
+    ],
+    "id": "489778",
+    "name": "Befriending Buddy IV",
+    "isPersonal": false,
+    "from": "Buddy",
+    "fromImage": "/img/items/buddy.png",
+    "text": "Buddy has been so happy since you repaired his peg leg. A few days have passed, and he knocks on your door. \"Hi best friend! Best friends give each other things, right? I have some things I want to give you! Do you have any things for me?\"\n:D BEST FRIENDS FOREVER :D",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "requiresTower": 100,
+    "availableFrom": "Aug 12",
+    "availableTo": "Aug 31",
+    "silverReward": 2147483647
+  },
+  {
     "firstSeen": 1646727974497,
     "itemRequests": [
       {
@@ -15841,6 +16773,142 @@
     "silverReward": 8100,
     "requiresFarming": 27,
     "requiresCrafting": 27
+  },
+  {
+    "firstSeen": 1660322540878,
+    "itemRequests": [
+      {
+        "id": "623",
+        "quantity": 500
+      },
+      {
+        "id": "616",
+        "quantity": 500
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "508",
+        "quantity": 300
+      },
+      {
+        "id": "500",
+        "quantity": 300
+      },
+      {
+        "id": "606",
+        "quantity": 1
+      },
+      {
+        "id": "607",
+        "quantity": 1
+      },
+      {
+        "id": "84",
+        "quantity": 1000
+      },
+      {
+        "id": "298",
+        "quantity": 1
+      },
+      {
+        "id": "375",
+        "quantity": 5
+      },
+      {
+        "id": "511",
+        "quantity": 1
+      },
+      {
+        "id": "123",
+        "quantity": 1000
+      },
+      {
+        "id": "453",
+        "quantity": 10
+      },
+      {
+        "id": "394",
+        "quantity": 1
+      },
+      {
+        "id": "618",
+        "quantity": 2
+      }
+    ],
+    "id": "512476",
+    "name": "Donation For Education VI",
+    "isPersonal": false,
+    "from": "Cecil",
+    "fromImage": "/img/items/a_027.png",
+    "text": "Cecil is almost satisfied with the inventory that you have built up at the new school. Will you make an additional delivery to ensure a lasting supply for the school?",
+    "requiresFarming": 85,
+    "requiresCrafting": 74,
+    "availableFrom": "Aug 12",
+    "availableTo": "Aug 31",
+    "silverReward": 20000000
+  },
+  {
+    "firstSeen": 1660328536415,
+    "itemRequests": [
+      {
+        "id": "623",
+        "quantity": 1000
+      },
+      {
+        "id": "616",
+        "quantity": 1000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "44",
+        "quantity": 1000
+      },
+      {
+        "id": "508",
+        "quantity": 1000
+      },
+      {
+        "id": "500",
+        "quantity": 1000
+      },
+      {
+        "id": "84",
+        "quantity": 1000
+      },
+      {
+        "id": "619",
+        "quantity": 100
+      },
+      {
+        "id": "587",
+        "quantity": 100
+      },
+      {
+        "id": "610",
+        "quantity": 1
+      },
+      {
+        "id": "588",
+        "quantity": 100
+      },
+      {
+        "id": "589",
+        "quantity": 100
+      }
+    ],
+    "id": "512558",
+    "name": "Donation For Education VII",
+    "isPersonal": false,
+    "from": "Cecil",
+    "fromImage": "/img/items/a_027.png",
+    "text": "Cecil appreciates all of your efforts. He expects this will be the last delivery... for now...",
+    "requiresFarming": 99,
+    "requiresCrafting": 74,
+    "availableFrom": "Aug 12",
+    "availableTo": "Aug 31",
+    "silverReward": 100000000
   },
   {
     "firstSeen": 1646727043680,

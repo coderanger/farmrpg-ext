@@ -97,7 +97,7 @@
   },
   {
     "drop_rates": {
-      "Runestone 11": 1123.047619047619
+      "Runestone 11": 929.7407407407408
     },
     "iron_depot_rates": {},
     "location": "Corn Seeds",
@@ -357,6 +357,41 @@
   },
   {
     "drop_rates": {
+      "Broken Pipe": 179.9314359637775,
+      "Copper Wire": 300.53370786516854,
+      "Langstaff Crest": 231811.66666666666,
+      "Machine Part": 57.44414915704676,
+      "Monster Skull": 798.4328358208955,
+      "Onyx Scorpion": 891.5833333333334,
+      "Prickly Pear": 116.02185518852185,
+      "Pulley": 292.1995798319328,
+      "Sand": 7.744007037607213,
+      "Scrap Metal": 20.681494965583937,
+      "Scrap Wire": 32.531504181464086,
+      "Small Bolt": 201.80934416715033,
+      "Transistor": 82.00309082263433
+    },
+    "iron_depot_rates": {
+      "Broken Pipe": 179.9314359637775,
+      "Copper Wire": 300.53370786516854,
+      "Langstaff Crest": 231811.66666666666,
+      "Machine Part": 57.44414915704676,
+      "Monster Skull": 798.4328358208955,
+      "Onyx Scorpion": 891.5833333333334,
+      "Prickly Pear": 116.02185518852185,
+      "Pulley": 292.1995798319328,
+      "Sand": 7.744007037607213,
+      "Scrap Metal": 20.681494965583937,
+      "Scrap Wire": 32.531504181464086,
+      "Small Bolt": 201.80934416715033,
+      "Transistor": 82.00309082263433
+    },
+    "location": "Jundland Desert",
+    "manual_fish_rates": {},
+    "mode": "explores"
+  },
+  {
+    "drop_rates": {
       "Flamejack": 4.370914755986047,
       "Flarefin": 25.699008868022954,
       "Redgill": 12.283451007404857,
@@ -434,7 +469,7 @@
   },
   {
     "drop_rates": {
-      "Runestone 10": 844.0
+      "Runestone 10": 852.0
     },
     "iron_depot_rates": {},
     "location": "Leek Seeds",
@@ -541,7 +576,7 @@
   },
   {
     "drop_rates": {
-      "Gold Peppers": 159.2258064516129
+      "Gold Peppers": 150.8732394366197
     },
     "iron_depot_rates": {},
     "location": "Pepper Seeds",
@@ -602,6 +637,13 @@
     },
     "iron_depot_rates": {},
     "location": "Radish Seeds",
+    "manual_fish_rates": {},
+    "mode": "harvests"
+  },
+  {
+    "drop_rates": {},
+    "iron_depot_rates": {},
+    "location": "Rice Seeds",
     "manual_fish_rates": {},
     "mode": "harvests"
   },
@@ -776,7 +818,7 @@
   },
   {
     "drop_rates": {
-      "Piece of Heart": 2363.0
+      "Piece of Heart": 3161.5
     },
     "iron_depot_rates": {},
     "location": "Watermelon Seeds",

@@ -1,0 +1,752 @@
+[
+  {
+    "answer1": "Diving Instructor",
+    "answer2": "Farmer",
+    "answer3": "Mercenary ",
+    "answer4": "Barber",
+    "correct": 3,
+    "display_order": 1,
+    "question": "What does Vincent do for a living?",
+    "quiz_id": 4
+  },
+  {
+    "answer1": "2",
+    "answer2": "11",
+    "answer3": "13",
+    "answer4": "17",
+    "correct": 4,
+    "display_order": 2,
+    "question": "What is Jill\u2019s least favorite number?",
+    "quiz_id": 4
+  },
+  {
+    "answer1": "Charles ",
+    "answer2": "Borgen",
+    "answer3": "Vlad ",
+    "answer4": "Lorn",
+    "correct": 2,
+    "display_order": 3,
+    "question": "What is the name of Holger\u2019s brother?",
+    "quiz_id": 4
+  },
+  {
+    "answer1": "Money",
+    "answer2": "Hair ",
+    "answer3": "Ancient Coins ",
+    "answer4": "Minnows ",
+    "correct": 1,
+    "display_order": 4,
+    "question": "What does Cecil have in large quantities?",
+    "quiz_id": 4
+  },
+  {
+    "answer1": "Farming ",
+    "answer2": "Fishing ",
+    "answer3": "Crafting ",
+    "answer4": "Exploring ",
+    "correct": 2,
+    "display_order": 5,
+    "question": "Thomas thinks he is amazing at this skill. What is it?",
+    "quiz_id": 4
+  },
+  {
+    "answer1": "Farmer",
+    "answer2": "Librarian",
+    "answer3": "Zookeeper ",
+    "answer4": "Soldier ",
+    "correct": 4,
+    "display_order": 6,
+    "question": "What was George\u2019s profession before moving to Redbrook?",
+    "quiz_id": 4
+  },
+  {
+    "answer1": "Jr",
+    "answer2": "Sr",
+    "answer3": "IV",
+    "answer4": "III",
+    "correct": 4,
+    "display_order": 7,
+    "question": "What is the suffix to Charles Horsington\u2019s name?",
+    "quiz_id": 4
+  },
+  {
+    "answer1": "Petulant ",
+    "answer2": "Unhelpful ",
+    "answer3": "Wise",
+    "answer4": "Vapid",
+    "correct": 3,
+    "display_order": 8,
+    "question": "How would you describe Lorn in one word?",
+    "quiz_id": 4
+  },
+  {
+    "answer1": "Odd",
+    "answer2": "Fun",
+    "answer3": "Fantastic ",
+    "answer4": "Challenging ",
+    "correct": 1,
+    "display_order": 9,
+    "question": "What word would the townsfolk use to describe the things that Beatrix works on?",
+    "quiz_id": 4
+  },
+  {
+    "answer1": "Vacations",
+    "answer2": "Meals",
+    "answer3": "Gardens",
+    "answer4": "Cities",
+    "correct": 2,
+    "display_order": 10,
+    "question": "Rosalie enjoys planning large-scale events and what else?",
+    "quiz_id": 4
+  },
+  {
+    "answer1": "48",
+    "answer2": "50",
+    "answer3": "52",
+    "answer4": "54",
+    "correct": 3,
+    "display_order": 1,
+    "question": "How many cards are in a deck?",
+    "quiz_id": 5
+  },
+  {
+    "answer1": "4",
+    "answer2": "6",
+    "answer3": "8",
+    "answer4": "10",
+    "correct": 1,
+    "display_order": 2,
+    "question": "How many different suits are there?",
+    "quiz_id": 5
+  },
+  {
+    "answer1": "11",
+    "answer2": "12",
+    "answer3": "13",
+    "answer4": "14",
+    "correct": 3,
+    "display_order": 3,
+    "question": "How many of each suit are in a deck?",
+    "quiz_id": 5
+  },
+  {
+    "answer1": "10",
+    "answer2": "8",
+    "answer3": "20",
+    "answer4": "12",
+    "correct": 4,
+    "display_order": 4,
+    "question": "How many face cards are in a deck?",
+    "quiz_id": 5
+  },
+  {
+    "answer1": "Clubs",
+    "answer2": "Spades",
+    "answer3": "Hearts",
+    "answer4": "Diamonds",
+    "correct": 3,
+    "display_order": 5,
+    "question": "Which King is the Suicide King?",
+    "quiz_id": 5
+  },
+  {
+    "answer1": "Spades",
+    "answer2": "Clubs",
+    "answer3": "Diamonds",
+    "answer4": "Hearts",
+    "correct": 1,
+    "display_order": 6,
+    "question": "Which is the only Queen in a deck that faces to the right?",
+    "quiz_id": 5
+  },
+  {
+    "answer1": "India",
+    "answer2": "France",
+    "answer3": "China",
+    "answer4": "Greece",
+    "correct": 3,
+    "display_order": 7,
+    "question": "Where did Playing Cards originate from?",
+    "quiz_id": 5
+  },
+  {
+    "answer1": "Bicycle",
+    "answer2": "Hoyle",
+    "answer3": "Aristocrat",
+    "answer4": "Broomstick",
+    "correct": 4,
+    "display_order": 8,
+    "question": "Which of these is NOT a brand of Playing Cards?",
+    "quiz_id": 5
+  },
+  {
+    "answer1": "Lorn",
+    "answer2": "Buddy",
+    "answer3": "Rosalie",
+    "answer4": "George ",
+    "correct": 4,
+    "display_order": 1,
+    "question": "Which of the townsfolk is knowledgeable about the Forest?",
+    "quiz_id": 6
+  },
+  {
+    "answer1": "Beatrix",
+    "answer2": "Buddy ",
+    "answer3": "Borgen",
+    "answer4": "Cecil ",
+    "correct": 2,
+    "display_order": 2,
+    "question": "Which of the townsfolk is knowledgeable about the Small Cave",
+    "quiz_id": 6
+  },
+  {
+    "answer1": "Rosalie",
+    "answer2": "Lorn",
+    "answer3": "Vincent ",
+    "answer4": "Holger",
+    "correct": 1,
+    "display_order": 3,
+    "question": "Which of the townsfolk is knowledgeable about the Small Spring?",
+    "quiz_id": 6
+  },
+  {
+    "answer1": "Rosalie ",
+    "answer2": "Jill",
+    "answer3": "Thomas ",
+    "answer4": "Lorn",
+    "correct": 3,
+    "display_order": 4,
+    "question": "Which of the townsfolk is knowledgeable about the Highland Hills?",
+    "quiz_id": 6
+  },
+  {
+    "answer1": "Thomas ",
+    "answer2": "Jill ",
+    "answer3": "Buddy",
+    "answer4": "Vincent ",
+    "correct": 2,
+    "display_order": 5,
+    "question": "Which of the townsfolk is knowledgeable about Cane Pole Ridge?",
+    "quiz_id": 6
+  },
+  {
+    "answer1": "Cecil ",
+    "answer2": "Buddy ",
+    "answer3": "Lorn ",
+    "answer4": "Thomas ",
+    "correct": 1,
+    "display_order": 6,
+    "question": "Which of the townsfolk is knowledgeable about the Misty Forest?",
+    "quiz_id": 6
+  },
+  {
+    "answer1": "Beatrix ",
+    "answer2": "Jill ",
+    "answer3": "George ",
+    "answer4": "Holger ",
+    "correct": 4,
+    "display_order": 7,
+    "question": "Which of the townsfolk is knowledgeable about the Black Rock Canyon?",
+    "quiz_id": 6
+  },
+  {
+    "answer1": "Beatrix ",
+    "answer2": "Cecil ",
+    "answer3": "Thomas ",
+    "answer4": "Buddy ",
+    "correct": 1,
+    "display_order": 8,
+    "question": "Which of the townsfolk is knowledgeable about Mount Banon?",
+    "quiz_id": 6
+  },
+  {
+    "answer1": "Rosalie ",
+    "answer2": "Lorn ",
+    "answer3": "Charles Horsington III",
+    "answer4": "Borgen ",
+    "correct": 2,
+    "display_order": 9,
+    "question": "Which of the townsfolk is knowledgeable about the Ember Lagoon?",
+    "quiz_id": 6
+  },
+  {
+    "answer1": "Buddy ",
+    "answer2": "Cecil ",
+    "answer3": "Vincent ",
+    "answer4": "Borgen ",
+    "correct": 3,
+    "display_order": 10,
+    "question": "Which of the townsfolk is knowledgeable about the Whispering Creek?",
+    "quiz_id": 6
+  },
+  {
+    "answer1": "April 2021",
+    "answer2": "May 2021",
+    "answer3": "June 2021",
+    "answer4": "July 2021",
+    "correct": 2,
+    "display_order": 1,
+    "question": "When was Farm RPG officially launched?",
+    "quiz_id": 8
+  },
+  {
+    "answer1": "Ten at a time",
+    "answer2": "All or nothing",
+    "answer3": "One by one",
+    "answer4": "",
+    "correct": 3,
+    "display_order": 2,
+    "question": "How did the Crafting Skill originally work?",
+    "quiz_id": 8
+  },
+  {
+    "answer1": "iOS",
+    "answer2": "Android",
+    "answer3": "",
+    "answer4": "",
+    "correct": 1,
+    "display_order": 3,
+    "question": "Did the game launch on iOS or Android first?",
+    "quiz_id": 8
+  },
+  {
+    "answer1": "July 2022",
+    "answer2": "June 2022",
+    "answer3": "May 2022",
+    "answer4": "April 2022",
+    "correct": 3,
+    "display_order": 4,
+    "question": "When did the game reach 150k registered players?",
+    "quiz_id": 8
+  },
+  {
+    "answer1": "Whispering Creek",
+    "answer2": "Ember Lagoon",
+    "answer3": "Farm Forest",
+    "answer4": "Lake Minerva",
+    "correct": 2,
+    "display_order": 5,
+    "question": "What was the first area that required an item to enter?",
+    "quiz_id": 8
+  },
+  {
+    "answer1": "Haunted House",
+    "answer2": "Spooky's Lair",
+    "answer3": "Santa's Workshop",
+    "answer4": "Lucky Lake",
+    "correct": 1,
+    "display_order": 6,
+    "question": "What was the first Event area?",
+    "quiz_id": 8
+  },
+  {
+    "answer1": "Inferno Sphere",
+    "answer2": "Dragon Skull",
+    "answer3": "Ruby",
+    "answer4": "Diamond",
+    "correct": 4,
+    "display_order": 7,
+    "question": "What was the first non-craftable Super-Rare?",
+    "quiz_id": 8
+  },
+  {
+    "answer1": "Instacrafter",
+    "answer2": "Auto-Crafting",
+    "answer3": "IdleCraft",
+    "answer4": "Minecraft",
+    "correct": 2,
+    "display_order": 8,
+    "question": "What was the predecessor to Craftworks called?",
+    "quiz_id": 8
+  },
+  {
+    "answer1": "Carrots ",
+    "answer2": "Cucumbers ",
+    "answer3": "Peppers",
+    "answer4": "Peas",
+    "correct": 3,
+    "display_order": 1,
+    "question": "What is the first crop you can plant as a level 1 farmer?",
+    "quiz_id": 9
+  },
+  {
+    "answer1": "Drum",
+    "answer2": "Flier",
+    "answer3": "Globber",
+    "answer4": "Crappie",
+    "correct": 1,
+    "display_order": 2,
+    "question": "Which of these fish is among the first fish you can catch as a level 1 farmer?",
+    "quiz_id": 9
+  },
+  {
+    "answer1": "Lorn",
+    "answer2": "R.O.U.S.",
+    "answer3": "Thomas ",
+    "answer4": "Buddy",
+    "correct": 4,
+    "display_order": 3,
+    "question": "Who might you unexpectedly find in the Small Cave as a level 1 farmer?",
+    "quiz_id": 9
+  },
+  {
+    "answer1": "Beatrix ",
+    "answer2": "Lorn",
+    "answer3": "Rosalie ",
+    "answer4": "Thomas ",
+    "correct": 2,
+    "display_order": 4,
+    "question": "Which of the townsfolk gives you your first help request as a level 1 farmer?",
+    "quiz_id": 9
+  },
+  {
+    "answer1": "Minnows ",
+    "answer2": "Mealworms ",
+    "answer3": "Grubs",
+    "answer4": "Worms",
+    "correct": 4,
+    "display_order": 5,
+    "question": "What is the first fishing bait for a level 1 farmer?",
+    "quiz_id": 9
+  },
+  {
+    "answer1": "4",
+    "answer2": "3",
+    "answer3": "2",
+    "answer4": "1",
+    "correct": 3,
+    "display_order": 6,
+    "question": "How many crop rows does a level 1 farmer start with?",
+    "quiz_id": 9
+  },
+  {
+    "answer1": "True",
+    "answer2": "False",
+    "answer3": "",
+    "answer4": "",
+    "correct": 1,
+    "display_order": 7,
+    "question": "A level 1 farmer starts without a workshop.",
+    "quiz_id": 9
+  },
+  {
+    "answer1": "True",
+    "answer2": "False ",
+    "answer3": "",
+    "answer4": "",
+    "correct": 2,
+    "display_order": 8,
+    "question": "A level 1 farmer can do mailbox passwords.",
+    "quiz_id": 9
+  },
+  {
+    "answer1": "10",
+    "answer2": "100",
+    "answer3": "150",
+    "answer4": "200",
+    "correct": 4,
+    "display_order": 9,
+    "question": "How much inventory space does a level 1 farmer have?",
+    "quiz_id": 9
+  },
+  {
+    "answer1": "True ",
+    "answer2": "False ",
+    "answer3": "",
+    "answer4": "",
+    "correct": 1,
+    "display_order": 10,
+    "question": "A level 1 farmer can name their farm. ",
+    "quiz_id": 9
+  },
+  {
+    "answer1": "Flint Corn",
+    "answer2": "Sweet Corn",
+    "answer3": "Field Corn",
+    "answer4": "Dent Corn",
+    "correct": 3,
+    "display_order": 1,
+    "question": "What kind of corn is primarily grown in Redbrook?",
+    "quiz_id": 10
+  },
+  {
+    "answer1": "Candy Corn",
+    "answer2": "Corn Hole",
+    "answer3": "A and B",
+    "answer4": "None of these",
+    "correct": 4,
+    "display_order": 2,
+    "question": "What is field corn used for?",
+    "quiz_id": 10
+  },
+  {
+    "answer1": "Blue",
+    "answer2": "Green",
+    "answer3": "Red",
+    "answer4": "Black",
+    "correct": 2,
+    "display_order": 3,
+    "question": "What color can flour corn NOT be?",
+    "quiz_id": 10
+  },
+  {
+    "answer1": "Tiyosinite",
+    "answer2": "Tesonite",
+    "answer3": "Teosinte",
+    "answer4": "Tiyosinte",
+    "correct": 3,
+    "display_order": 4,
+    "question": "Corn originally came from which plant?",
+    "quiz_id": 10
+  },
+  {
+    "answer1": "Electricity",
+    "answer2": "Plastic",
+    "answer3": "Cement",
+    "answer4": "Baseball",
+    "correct": 4,
+    "display_order": 5,
+    "question": "Which of the following can not be made using corn?",
+    "quiz_id": 10
+  },
+  {
+    "answer1": "1",
+    "answer2": "2",
+    "answer3": "4",
+    "answer4": "6",
+    "correct": 2,
+    "display_order": 6,
+    "question": "How many types of popcorn kernels are there?",
+    "quiz_id": 10
+  },
+  {
+    "answer1": "Pod Corn",
+    "answer2": "Popcorn",
+    "answer3": "Dent Corn",
+    "answer4": "Speck Corn",
+    "correct": 4,
+    "display_order": 7,
+    "question": "Which of these is not a real type of corn?",
+    "quiz_id": 10
+  },
+  {
+    "answer1": "Protein",
+    "answer2": "Fruit",
+    "answer3": "Vegetable",
+    "answer4": "Grain",
+    "correct": 1,
+    "display_order": 8,
+    "question": "Which of the following food categories does corn NOT fall into?",
+    "quiz_id": 10
+  },
+  {
+    "answer1": "3 months",
+    "answer2": "6 months",
+    "answer3": "2 months",
+    "answer4": "4 months",
+    "correct": 4,
+    "display_order": 9,
+    "question": "Roughly how long is the life cycle of a corn plant?",
+    "quiz_id": 10
+  },
+  {
+    "answer1": "95%",
+    "answer2": "63%",
+    "answer3": "77%",
+    "answer4": "89%",
+    "correct": 1,
+    "display_order": 10,
+    "question": "Approximately what percentage of livestock feed is made from corn?",
+    "quiz_id": 10
+  },
+  {
+    "answer1": "Service",
+    "answer2": "Items & Commodities",
+    "answer3": "Information",
+    "answer4": "Market",
+    "correct": 1,
+    "display_order": 1,
+    "question": "What district is the Locksmith located in?",
+    "quiz_id": 11
+  },
+  {
+    "answer1": "Go to Town (Information District) / My Farm",
+    "answer2": "Help Needed / Go to Town (Market District)",
+    "answer3": "Go to Town (Service District) / Help Needed",
+    "answer4": "Explore The Area / Help Needed",
+    "correct": 3,
+    "display_order": 2,
+    "question": "What two ways can you get to the Community Center?",
+    "quiz_id": 11
+  },
+  {
+    "answer1": "Flea Market",
+    "answer2": "Farmer's Market",
+    "answer3": "Steak Market",
+    "answer4": "Country Store",
+    "correct": 4,
+    "display_order": 3,
+    "question": "Where in town do you go to buy more seeds?",
+    "quiz_id": 11
+  },
+  {
+    "answer1": "1",
+    "answer2": "2",
+    "answer3": "3",
+    "answer4": "4",
+    "correct": 3,
+    "display_order": 4,
+    "question": "How many monthly rewards are there for daily chores?",
+    "quiz_id": 11
+  },
+  {
+    "answer1": "Feed them",
+    "answer2": "Pet them",
+    "answer3": "Slaughter them",
+    "answer4": "Serenade them",
+    "correct": 2,
+    "display_order": 5,
+    "question": "How do you level up your cows?",
+    "quiz_id": 11
+  },
+  {
+    "answer1": "Small Pond",
+    "answer2": "Small Spring",
+    "answer3": "Farm Pond",
+    "answer4": "Forest Pond",
+    "correct": 3,
+    "display_order": 6,
+    "question": "Where can you use fish bait to replenish stamina?",
+    "quiz_id": 11
+  },
+  {
+    "answer1": "Bank",
+    "answer2": "Museum",
+    "answer3": "Town Hall",
+    "answer4": "Library",
+    "correct": 4,
+    "display_order": 7,
+    "question": "Where can you find extra information, tips, and guides to a variety of topics?",
+    "quiz_id": 11
+  },
+  {
+    "answer1": "Borgen",
+    "answer2": "Holger",
+    "answer3": "Buddy",
+    "answer4": "Cecil",
+    "correct": 1,
+    "display_order": 8,
+    "question": "Who opens a special shop each Wednesday?",
+    "quiz_id": 11
+  },
+  {
+    "answer1": "Farmhouse",
+    "answer2": "Storehouse",
+    "answer3": "Workshop",
+    "answer4": "Sawmill",
+    "correct": 2,
+    "display_order": 9,
+    "question": "What building upgrade increases your inventory limit?",
+    "quiz_id": 11
+  },
+  {
+    "answer1": "Worm Habitat",
+    "answer2": "Orchard",
+    "answer3": "Cow Pasture",
+    "answer4": "Trout / Bait Farm",
+    "correct": 4,
+    "display_order": 10,
+    "question": "What building upgrade allows you to produce Minnows hourly?",
+    "quiz_id": 11
+  },
+  {
+    "answer1": "The Vault",
+    "answer2": "Museum",
+    "answer3": "Community Center",
+    "answer4": "Town Hall",
+    "correct": 2,
+    "display_order": 1,
+    "question": "Where can you view achievements?",
+    "quiz_id": 12
+  },
+  {
+    "answer1": "10,000,000,000",
+    "answer2": "100,000,000",
+    "answer3": "1,000,000,000",
+    "answer4": "100,000,000,000",
+    "correct": 4,
+    "display_order": 2,
+    "question": "How expensive is the last crop row for Mega Farm?",
+    "quiz_id": 12
+  },
+  {
+    "answer1": "2,147,438,647",
+    "answer2": "2,147,483,647",
+    "answer3": "2,147,488,647",
+    "answer4": "2,147,483,467",
+    "correct": 2,
+    "display_order": 3,
+    "question": "What is the silver reward for Fishing Addict III",
+    "quiz_id": 12
+  },
+  {
+    "answer1": "Crown",
+    "answer2": "Tiara",
+    "answer3": "Tools",
+    "answer4": "Medal",
+    "correct": 1,
+    "display_order": 4,
+    "question": "What is the icon for the Grand Master badge?",
+    "quiz_id": 12
+  },
+  {
+    "answer1": "30 Million",
+    "answer2": "10 Million",
+    "answer3": "20 Million",
+    "answer4": "15 Million",
+    "correct": 1,
+    "display_order": 5,
+    "question": "How much stamina must you use to earn I Am The Great Explorer?",
+    "quiz_id": 12
+  },
+  {
+    "answer1": "30 Million",
+    "answer2": "10 Million",
+    "answer3": "20 Million",
+    "answer4": "15 Million",
+    "correct": 3,
+    "display_order": 6,
+    "question": "How many items crafted earns Expert Artisan?",
+    "quiz_id": 12
+  },
+  {
+    "answer1": "Obtain 100 Raptor eggs",
+    "answer2": "Obtain 150 Raptor eggs",
+    "answer3": "Hatch 100 Raptor eggs",
+    "answer4": "Hatch 150 Raptor eggs",
+    "correct": 4,
+    "display_order": 7,
+    "question": "How do you earn Raptor Trainer?",
+    "quiz_id": 12
+  },
+  {
+    "answer1": "Spin the wheel 100 times every day",
+    "answer2": "Spin the wheel 5,000 times",
+    "answer3": "Spin the wheel every day for 30 days",
+    "answer4": "Spin the wheel 10,000 times",
+    "correct": 2,
+    "display_order": 8,
+    "question": "What does it mean to be a Responsible Wheel Spinner?",
+    "quiz_id": 12
+  },
+  {
+    "answer1": "6,100AC",
+    "answer2": "6,250AC",
+    "answer3": "6,125AC",
+    "answer4": "6,375AC",
+    "correct": 3,
+    "display_order": 9,
+    "question": "How many ancient coins does it cost to spin the wheel 50 times in one day (with wheel credit perk)",
+    "quiz_id": 12
+  }
+]

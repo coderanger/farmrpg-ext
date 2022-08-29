@@ -842,6 +842,35 @@ def gen_trades():
     ]
 
 
+def gen_quizzes():
+    with httpx.Client() as c:
+        quizzes = c.get("https://farmrpg.com/api/quizzes.php").json()
+    return sorted(quizzes, key=lambda q: q["id"])
+
+
+def gen_quiz_rewards():
+    quizzes_data = Path(__file__) / ".." / ".." / "data" / "quizzes.json"
+    quizzes = json.load(quizzes_data.resolve().open())
+    rewards = []
+    for quiz in quizzes:
+        for score in [80, 90, 100]:
+            rewards.append(
+                {
+                    "quiz_id": quiz["id"],
+                    "score": score,
+                    "amount": quiz[f"score{score}amt"],
+                    "reward": quiz[f"score{score}reward"],
+                }
+            )
+    return rewards
+
+
+def gen_quiz_answers():
+    with httpx.Client() as c:
+        answers = c.get("https://farmrpg.com/api/answers.php").json()
+    return sorted(answers, key=lambda a: (a["quiz_id"], a["display_order"]))
+
+
 GEN_FIXTURES = {
     "drop_rates": gen_drop_rates,
     "drop_rates_gql": gen_drop_rates_gql,
@@ -859,6 +888,9 @@ GEN_FIXTURES = {
     "password_items": gen_password_items,
     "recipes": gen_recipes,
     "trades": gen_trades,
+    "quizzes": gen_quizzes,
+    "quiz_rewards": gen_quiz_rewards,
+    "quiz_answers": gen_quiz_answers,
 }
 
 
