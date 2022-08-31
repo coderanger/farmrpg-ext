@@ -2079,6 +2079,33 @@
     "goalQuantity": 2038500,
     "rewardItem": "Sea Dragon",
     "rewardQuantity": 5,
-    "progress": 1177726
+    "progress": 1311912
+  },
+  {
+    "firstSeen": 1661751715830,
+    "date": "2022-08-29",
+    "goalItem": "Bluegill",
+    "goalQuantity": 1620100,
+    "rewardItem": "Gold Cucumber Seeds",
+    "rewardQuantity": 15,
+    "progress": 2245034
+  },
+  {
+    "firstSeen": 1661838113750,
+    "date": "2022-08-30",
+    "goalItem": "Trout",
+    "goalQuantity": 3178300,
+    "rewardItem": "Cheese",
+    "rewardQuantity": 25,
+    "progress": 5583662
+  },
+  {
+    "firstSeen": 1661922680356,
+    "date": "2022-08-31",
+    "goalItem": "Acorn",
+    "goalQuantity": 3061200,
+    "rewardItem": "Magicite",
+    "rewardQuantity": 25,
+    "progress": 3943958
   }
 ]

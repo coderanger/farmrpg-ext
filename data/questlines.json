@@ -137,6 +137,15 @@
     "secondary": false
   },
   {
+    "image": "/img/items/a_024.png",
+    "name": "A Better Understanding",
+    "quests": [
+      "696576",
+      "696610"
+    ],
+    "secondary": false
+  },
+  {
     "image": "/img/items/MustacheTom96.png",
     "name": "A Captain\u2019s Voyage",
     "quests": [

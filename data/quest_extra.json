@@ -8086,5 +8086,21 @@
     "questlines": [
       "Donation For Education"
     ]
+  },
+  {
+    "id": "696576",
+    "next": "696610",
+    "prev": null,
+    "questlines": [
+      "A Better Understanding"
+    ]
+  },
+  {
+    "id": "696610",
+    "next": null,
+    "prev": "696576",
+    "questlines": [
+      "A Better Understanding"
+    ]
   }
 ]

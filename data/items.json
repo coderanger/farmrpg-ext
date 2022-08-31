@@ -380,7 +380,8 @@
     "id": "547",
     "image": "/img/items/present03.png",
     "rarity": "Uncommon",
-    "xp": 1
+    "xp": 1,
+    "event": true
   },
   {
     "name": "Black Powder",
@@ -447,7 +448,8 @@
         "name": "Glass Bottle",
         "quantity": 1
       }
-    ]
+    ],
+    "givable": true
   },
   {
     "name": "Blue Feathers",
@@ -1568,7 +1570,8 @@
     "name": "Cutlass",
     "image": "/img/items/pirates_47_t.png",
     "xp": 2500,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "fleaMarket": 50
   },
   {
     "id": "383",
@@ -1976,7 +1979,8 @@
         "quantity": 6
       }
     ],
-    "craftPrice": 100
+    "craftPrice": 100,
+    "givable": true
   },
   {
     "name": "Eye Patch",
@@ -1986,6 +1990,15 @@
     "xp": 1750,
     "fleaMarket": 5,
     "rarity": "Uncommon"
+  },
+  {
+    "firstSeen": 1661806251809,
+    "id": "636",
+    "name": "Fall Basket",
+    "image": "/img/items/fallbasket.png",
+    "xp": 1,
+    "givable": true,
+    "rarity": "Very Rare"
   },
   {
     "name": "Fancy Box",
@@ -2125,7 +2138,8 @@
     "image": "/img/items/petard.png",
     "sellPrice": 1750,
     "xp": 1750,
-    "rarity": "Common"
+    "rarity": "Common",
+    "givable": true
   },
   {
     "name": "Fish Bones",
@@ -2342,14 +2356,16 @@
     "name": "Gift Basket 01",
     "id": "329",
     "image": "/img/items/giftbasket.png",
-    "xp": 1
+    "xp": 1,
+    "rarity": "Very Rare"
   },
   {
     "firstSeen": 1644472554251,
     "id": "490",
     "name": "Gift Basket 02",
     "image": "/img/items/giftbasket.png",
-    "xp": 1
+    "xp": 1,
+    "rarity": "Very Rare"
   },
   {
     "name": "Gingerbread House",
@@ -2539,7 +2555,8 @@
     "sellPrice": 5000,
     "xp": 1500,
     "fleaMarket": 25,
-    "rarity": "Rare"
+    "rarity": "Rare",
+    "givable": true
   },
   {
     "name": "Gold Flier",
@@ -3095,7 +3112,8 @@
     "id": "607",
     "name": "Hearts",
     "image": "/img/items/card_hearts.png",
-    "rarity": "Very Rare"
+    "rarity": "Very Rare",
+    "givable": true
   },
   {
     "name": "Herbs",
@@ -4283,7 +4301,8 @@
     "image": "/img/items/7264.png?1",
     "sellPrice": 15000,
     "xp": 2500,
-    "rarity": "Very Rare"
+    "rarity": "Very Rare",
+    "givable": true
   },
   {
     "firstSeen": 1652992981876,
@@ -4333,6 +4352,15 @@
     "possibleDrops": [
       "Mushroom"
     ]
+  },
+  {
+    "firstSeen": 1661785525274,
+    "name": "Mushroom Stew",
+    "id": "634",
+    "image": "/img/items/mushroomstew.png",
+    "xp": 500,
+    "givable": true,
+    "rarity": "Very Rare"
   },
   {
     "name": "Mussel",
@@ -4492,6 +4520,13 @@
     ]
   },
   {
+    "firstSeen": 1661875062181,
+    "id": "635",
+    "name": "Onion Soup",
+    "image": "/img/items/onionsoup.png",
+    "givable": true
+  },
+  {
     "firstSeen": 1656540003502,
     "id": "599",
     "name": "Onyx Scorpion",
@@ -4614,7 +4649,8 @@
         "name": "Peach",
         "quantity": 10
       }
-    ]
+    ],
+    "fleaMarket": 3
   },
   {
     "name": "Pearl",
@@ -4772,7 +4808,8 @@
     "sellPrice": 1750,
     "xp": 1750,
     "fleaMarket": 5,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "givable": true
   },
   {
     "name": "Pirate Flag",
@@ -4781,7 +4818,8 @@
     "sellPrice": 1750,
     "xp": 1750,
     "fleaMarket": 5,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "givable": true
   },
   {
     "firstSeen": 1652992615937,
@@ -5033,7 +5071,8 @@
         "name": "Purple Flower",
         "quantity": 10
       }
-    ]
+    ],
+    "givable": true
   },
   {
     "name": "Purple Flower",
@@ -5143,7 +5182,8 @@
         "name": "Striped Feather",
         "quantity": 2
       }
-    ]
+    ],
+    "givable": true
   },
   {
     "id": "404",
@@ -5431,7 +5471,7 @@
     "image": "/img/items/rs11.png?1",
     "sellPrice": 11000,
     "xp": 11000,
-    "rarity": "Rare",
+    "rarity": "Uncommon",
     "mastery": true
   },
   {
@@ -5512,7 +5552,7 @@
     "image": "/img/items/rs20.png",
     "sellPrice": 20000,
     "xp": 20000,
-    "rarity": "Very Rare",
+    "rarity": "Rare",
     "mastery": true
   },
   {
@@ -5666,7 +5706,8 @@
     "image": "/img/items/9383.PNG",
     "sellPrice": 500,
     "xp": 500,
-    "rarity": "Common"
+    "rarity": "Common",
+    "givable": true
   },
   {
     "firstSeen": 1656540017304,
@@ -5675,7 +5716,8 @@
     "image": "/img/items/9398.PNG",
     "sellPrice": 750,
     "xp": 750,
-    "rarity": "Common"
+    "rarity": "Common",
+    "givable": true
   },
   {
     "name": "Sea Catfish",
@@ -6055,7 +6097,8 @@
     "id": "608",
     "name": "Spades",
     "image": "/img/items/card_spades.png",
-    "rarity": "Very Rare"
+    "rarity": "Very Rare",
+    "givable": true
   },
   {
     "firstSeen": 1652992988105,
@@ -6489,7 +6532,7 @@
     "name": "Tackle Box",
     "image": "/img/items/7847.png",
     "xp": 1,
-    "rarity": "Uncommon",
+    "rarity": "Very Rare",
     "givable": true
   },
   {

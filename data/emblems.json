@@ -1951,8 +1951,38 @@
     "beta": false
   },
   {
+    "firstSeen": 1661874113345,
+    "id": "476",
+    "image": "img/emblems/Langstaff96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1661874113347,
+    "id": "477",
+    "image": "img/emblems/Meerif96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1661874113483,
+    "id": "478",
+    "image": "img/emblems/Wolf96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1661874113563,
+    "id": "479",
+    "image": "img/emblems/WolfFrost96.png",
+    "beta": true
+  },
+  {
     "id": "48",
     "image": "img/emblems/FishJelly96.png",
+    "beta": true
+  },
+  {
+    "firstSeen": 1661874113563,
+    "id": "480",
+    "image": "img/emblems/WolfMagma96.png",
     "beta": true
   },
   {

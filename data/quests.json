@@ -23760,6 +23760,101 @@
     "requiresExploring": 16
   },
   {
+    "firstSeen": 1661794688141,
+    "itemRequests": [
+      {
+        "id": "315",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "379",
+        "quantity": 100
+      },
+      {
+        "id": "508",
+        "quantity": 100
+      },
+      {
+        "id": "347",
+        "quantity": 6
+      },
+      {
+        "id": "346",
+        "quantity": 5
+      }
+    ],
+    "id": "696576",
+    "name": "A Better Understanding I",
+    "isPersonal": false,
+    "from": "Jill",
+    "fromImage": "/img/items/a_024.png",
+    "text": "“Many of the parts we found in the desert are fascinating. I can’t wait to put them to use. Now I wish I had more fully functioning pieces of Romuskan technology to study. To that end, if you’ll let me borrow your compass to analyze and study, I would be glad to compensate you for loaning it to me.”",
+    "requiresFarming": 80,
+    "requiresCrafting": 81,
+    "requiresExploring": 80
+  },
+  {
+    "firstSeen": 1661906663094,
+    "itemRequests": [],
+    "itemRewards": [
+      {
+        "id": "339",
+        "quantity": 4
+      },
+      {
+        "id": "35",
+        "quantity": 2
+      },
+      {
+        "id": "41",
+        "quantity": 1
+      },
+      {
+        "id": "78",
+        "quantity": 1
+      },
+      {
+        "id": "94",
+        "quantity": 1
+      },
+      {
+        "id": "95",
+        "quantity": 1
+      },
+      {
+        "id": "163",
+        "quantity": 1
+      },
+      {
+        "id": "340",
+        "quantity": 1
+      },
+      {
+        "id": "347",
+        "quantity": 6
+      },
+      {
+        "id": "363",
+        "quantity": 5
+      },
+      {
+        "id": "84",
+        "quantity": 100
+      }
+    ],
+    "id": "696610",
+    "name": "A Better Understanding II",
+    "isPersonal": false,
+    "from": "Jill",
+    "fromImage": "/img/items/a_024.png",
+    "text": "“I have some bad news. I ran out of time to put your compass back together, and now I’m behind on a million other things. To reduce your time waiting on me, I’m giving you the compass parts back, if that’s ok with you. Also, please accept this gift as token of my thanks and my sincerest apology.”",
+    "requiresFarming": 80,
+    "requiresCrafting": 81,
+    "requiresExploring": 80
+  },
+  {
     "firstSeen": 1646726674616,
     "itemRequests": [
       {
