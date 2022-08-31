@@ -24,6 +24,7 @@ import { fetchEmblems, setupEmblems } from './lib/emblems.js'
 import { fetchCommunityCenter, setupCommunityCenter } from './lib/communityCenter.js'
 import { setupBorgens } from './lib/borgen.js'
 import { fetchExchangeCenter, setupExchangeCenter } from './lib/exchange.js'
+import { setupNpcFriendship } from './lib/npcFriendship.js'
 
 /**
  * @typedef {{
@@ -108,7 +109,9 @@ class GlobalState {
      */
     async logLatency(ts, url, latency) {
         if (this.db !== undefined) {
-            await this.db.put("latency", {ts, url, latency})
+            if (false) {
+                await this.db.put("latency", {ts, url, latency})
+            }
         }
     }
 
@@ -116,10 +119,14 @@ class GlobalState {
      * Helper for other fetch* methods.
      * @param {string} url
      * @param {(state: GlobalState, page: string | Document, url: string | URL) => Promise<void>} handler
-     * @param {{parse: boolean}} options
+     * @param {{parse: boolean, method?: string, beforeHandler: (state: GlobalState, url: URL) => Promise<void>}} options
      */
     async fetchPage(url, handler, options = {}) {
-        const resp = await fetch(url)
+        const parsedUrl = new URL(url)
+        if (options.beforeHandler !== undefined) {
+            await options.beforeHandler(this, parsedUrl)
+        }
+        const resp = await fetch(url, {method: options.method || "GET"})
         if (!resp.ok) {
             throw `Error getting ${url}`
         }
@@ -127,9 +134,9 @@ class GlobalState {
         if (options.parse) {
             const parser = new DOMParser()
             const dom = parser.parseFromString(page, "text/html")
-            await handler(this, dom, new URL(url))
+            return await handler(this, dom, parsedUrl, parsedUrl)
         } else {
-            await handler(this, page, url)
+            return await handler(this, page, url, parsedUrl)
         }
     }
 }
@@ -150,6 +157,7 @@ const handleSidebarClick = async msg => {
     default:
         if (globalState.clickHandlers[targetType]) {
             await globalState.clickHandlers[targetType](globalState, targetType, targetArg, msg)
+            await renderSidebar(globalState)
         }
         break
     }
@@ -299,6 +307,7 @@ const main = async () => {
     setupCommunityCenter(globalState)
     setupBorgens(globalState)
     setupExchangeCenter(globalState)
+    setupNpcFriendship(globalState)
 
     // Kick off some initial data population.
     renderSidebarFromGlobalState()
@@ -309,9 +318,9 @@ const main = async () => {
     })
 
     // Set up a periodic refresh of the inventory.
-    browser.alarms.create("inventory-refresh", {periodInMinutes: 5})
+    browser.alarms.create("inventory-refresh", {periodInMinutes: 1})
     browser.alarms.create("perk-refresh", {periodInMinutes: 15})
-    browser.alarms.create("render-sidebar", {periodInMinutes: 1})
+    // browser.alarms.create("render-sidebar", {periodInMinutes: 1})
     browser.alarms.create("clear-latency", {periodInMinutes: 60})
     browser.alarms.create("community-center-refresh", {
         periodInMinutes: 60*24,

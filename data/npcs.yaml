@@ -1,0 +1,55 @@
+- name: Rosalie
+  image: /img/items/a_098.png
+
+- name: Holger
+  image: /img/items/a_028.png
+
+- name: Beatrix
+  image: /img/items/a_011.png
+
+- name: Thomas
+  image: /img/items/a_048.png
+
+- name: Cecil
+  image: /img/items/a_027.png
+
+- name: George
+  image: /img/items/a_034.png
+
+- name: Jill
+  image: /img/items/a_024.png
+
+- name: Vincent
+  image: /img/items/a_047.png
+
+- name: Lorn
+  image: /img/items/a_088.png
+
+- name: Buddy
+  image: /img/items/buddy.png
+
+- name: Borgen
+  image: /img/items/borgen.png
+
+- name: Ric Ryph
+  image: /img/items/npc_figure2.png
+
+- name: Mummy
+  image: /img/items/mummy_t_01.png
+
+- name: Star Meerif
+  image: /img/items/npc_figure.png
+
+- name: Charles Horsington III
+  short_name: Charles
+  image: /img/items/npc_horse.png
+
+- name: ROOMBA
+  image: /img/items/robot_02.png
+
+- name: Captain Thomas
+  short_name: Cpt Thomas
+  image: /img/items/MustacheTom96.png
+
+- name: frank
+  image: /img/items/npc_bunny1.png

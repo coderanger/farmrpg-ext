@@ -871,6 +871,26 @@ def gen_quiz_answers():
     return sorted(answers, key=lambda a: (a["quiz_id"], a["display_order"]))
 
 
+def gen_npcs():
+    npcs_data = Path(__file__) / ".." / ".." / "data" / "npcs.yaml"
+    npcs: list[dict] = yaml.safe_load(npcs_data.resolve().open())
+    return npcs
+
+
+def gen_npc_items():
+    npcs = gen_npcs()
+    short_name_map = {n.get("short_name", n["name"]): n["name"] for n in npcs}
+    npc_items_data = Path(__file__) / ".." / ".." / "data" / "npc_items.yaml"
+    npc_items: list[dict] = yaml.safe_load(npc_items_data.resolve().open())
+    data = []
+    for ni in npc_items:
+        name = short_name_map[ni["name"]]
+        for adj in ["loves", "likes", "hates"]:
+            for item in ni[adj]:
+                data.append({"npc_name": name, "adjective": adj, "item_name": item})
+    return data
+
+
 GEN_FIXTURES = {
     "drop_rates": gen_drop_rates,
     "drop_rates_gql": gen_drop_rates_gql,
@@ -891,6 +911,8 @@ GEN_FIXTURES = {
     "quizzes": gen_quizzes,
     "quiz_rewards": gen_quiz_rewards,
     "quiz_answers": gen_quiz_answers,
+    "npcs": gen_npcs,
+    "npc_items": gen_npc_items,
 }
 
 
