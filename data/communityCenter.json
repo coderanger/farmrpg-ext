@@ -2106,6 +2106,42 @@
     "goalQuantity": 3061200,
     "rewardItem": "Magicite",
     "rewardQuantity": 25,
-    "progress": 3943958
+    "progress": 4482220
+  },
+  {
+    "firstSeen": 1662008587743,
+    "date": "2022-09-01",
+    "goalItem": "Horseshoe",
+    "goalQuantity": 8266600,
+    "rewardItem": "Gold Coral",
+    "rewardQuantity": 10,
+    "progress": 10095942
+  },
+  {
+    "firstSeen": 1662097501891,
+    "date": "2022-09-02",
+    "goalItem": "Slimestone",
+    "goalQuantity": 3030200,
+    "rewardItem": "Magicite",
+    "rewardQuantity": 25,
+    "progress": 6103535
+  },
+  {
+    "firstSeen": 1662183899905,
+    "date": "2022-09-03",
+    "goalItem": "Peppers",
+    "goalQuantity": 2407300,
+    "rewardItem": "Pumpkin",
+    "rewardQuantity": 100,
+    "progress": 3142144
+  },
+  {
+    "firstSeen": 1662270297924,
+    "date": "2022-09-04",
+    "goalItem": "Eggplant",
+    "goalQuantity": 1333000,
+    "rewardItem": "Orange Juice",
+    "rewardQuantity": 125,
+    "progress": 464881
   }
 ]

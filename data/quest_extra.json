@@ -8102,5 +8102,77 @@
     "questlines": [
       "A Better Understanding"
     ]
+  },
+  {
+    "id": "707972",
+    "next": "707994",
+    "prev": null,
+    "questlines": [
+      "Far Away"
+    ]
+  },
+  {
+    "id": "707994",
+    "next": "726577",
+    "prev": "707972",
+    "questlines": [
+      "Far Away"
+    ]
+  },
+  {
+    "id": "726577",
+    "next": "726821",
+    "prev": "707994",
+    "questlines": [
+      "Far Away"
+    ]
+  },
+  {
+    "id": "726821",
+    "next": "726843",
+    "prev": "726577",
+    "questlines": [
+      "Far Away"
+    ]
+  },
+  {
+    "id": "726843",
+    "next": "726988",
+    "prev": "726821",
+    "questlines": [
+      "Far Away"
+    ]
+  },
+  {
+    "id": "726988",
+    "next": "727085",
+    "prev": "726843",
+    "questlines": [
+      "Far Away"
+    ]
+  },
+  {
+    "id": "727085",
+    "next": "727113",
+    "prev": "726988",
+    "questlines": [
+      "Far Away"
+    ]
+  },
+  {
+    "id": "727113",
+    "next": "727168",
+    "prev": "727085",
+    "questlines": [
+      "Far Away"
+    ]
+  },
+  {
+    "id": "727168",
+    "next": null,
+    "prev": "727113",
+    "questlines": [
+      "Far Away"
+    ]
   }
 ]

@@ -24290,6 +24290,68 @@
     "requiresExploring": 25
   },
   {
+    "firstSeen": 1662055121912,
+    "itemRequests": [
+      {
+        "id": "254",
+        "quantity": 2000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "266",
+        "quantity": 50
+      }
+    ],
+    "id": "707972",
+    "name": "Far Away I",
+    "isPersonal": false,
+    "from": "Ragvin",
+    "fromImage": "/img/items/ragvin.png?1",
+    "text": "Ragvin arrived in town yesterday with an empty ship and a hungry crew. He’s ready to fill his cargo holds with all manner of goods to trade throughout the isles of the Vast Ocean.\n\nIt’s been many years since Ragvin has returned to these parts. He barely recognizes Redbrook now. Ragvin could use an experienced guide to navigate these unfamiliar waters. Would you be willing to help him get reacquainted with Redbrook and fill his ship to the brim with goods to trade?\n\nRagvin would like to start with a sizable load of cotton.",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "requiresTower": 30,
+    "silverReward": 600000000
+  },
+  {
+    "firstSeen": 1662057920948,
+    "itemRequests": [
+      {
+        "id": "72",
+        "quantity": 2000
+      },
+      {
+        "id": "193",
+        "quantity": 2000
+      },
+      {
+        "id": "252",
+        "quantity": 2000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "266",
+        "quantity": 100
+      }
+    ],
+    "id": "707994",
+    "name": "Far Away II",
+    "isPersonal": false,
+    "from": "Ragvin",
+    "fromImage": "/img/items/ragvin.png?1",
+    "text": "Before moving onto the less robust goods Ragvin wants to fill his ship with, will you bring him tools and supplies for carrying cargo safely across the seas?",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "requiresTower": 30,
+    "silverReward": 1000000000
+  },
+  {
     "firstSeen": 1646729525917,
     "itemRequests": [
       {
@@ -24941,6 +25003,158 @@
     "requiresExploring": 75
   },
   {
+    "firstSeen": 1662057923267,
+    "itemRequests": [
+      {
+        "id": "339",
+        "quantity": 2000
+      },
+      {
+        "id": "598",
+        "quantity": 2000
+      },
+      {
+        "id": "590",
+        "quantity": 2000
+      },
+      {
+        "id": "595",
+        "quantity": 2000
+      },
+      {
+        "id": "592",
+        "quantity": 2000
+      },
+      {
+        "id": "594",
+        "quantity": 2000
+      },
+      {
+        "id": "303",
+        "quantity": 2000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "266",
+        "quantity": 50
+      }
+    ],
+    "id": "726577",
+    "name": "Far Away III",
+    "isPersonal": false,
+    "from": "Ragvin",
+    "fromImage": "/img/items/ragvin.png?1",
+    "text": "Ragvin could also use some supplies to do maintenance and repairs on his ship before filling it to the gills with goods. Will you bring him this list of items?",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "requiresTower": 30,
+    "silverReward": 2000000000
+  },
+  {
+    "firstSeen": 1662059293449,
+    "itemRequests": [
+      {
+        "id": "276",
+        "quantity": 2000
+      },
+      {
+        "id": "305",
+        "quantity": 2000
+      },
+      {
+        "id": "92",
+        "quantity": 2000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "266",
+        "quantity": 50
+      }
+    ],
+    "id": "726821",
+    "name": "Far Away IV",
+    "isPersonal": false,
+    "from": "Ragvin",
+    "fromImage": "/img/items/ragvin.png?1",
+    "text": "Now, Ragvin would like a few large loads each of salt, flour, and sweet root.",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "requiresTower": 30,
+    "silverReward": 900000000
+  },
+  {
+    "firstSeen": 1662059298908,
+    "itemRequests": [
+      {
+        "id": "276",
+        "quantity": 2000
+      },
+      {
+        "id": "305",
+        "quantity": 2000
+      },
+      {
+        "id": "92",
+        "quantity": 2000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "266",
+        "quantity": 50
+      }
+    ],
+    "id": "726843",
+    "name": "Far Away V",
+    "isPersonal": false,
+    "from": "Ragvin",
+    "fromImage": "/img/items/ragvin.png?1",
+    "text": "Ragvin is ready for the next load of flour, salt, and sweet root.",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "requiresTower": 30,
+    "silverReward": 900000000
+  },
+  {
+    "firstSeen": 1662059303751,
+    "itemRequests": [
+      {
+        "id": "48",
+        "quantity": 2000
+      },
+      {
+        "id": "630",
+        "quantity": 2000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "266",
+        "quantity": 100
+      }
+    ],
+    "id": "726988",
+    "name": "Far Away VI",
+    "isPersonal": false,
+    "from": "Ragvin",
+    "fromImage": "/img/items/ragvin.png?1",
+    "text": "Ragvin is well pleased with the goods you’ve found for him so far. He’d like to keep working with you to fill his boat. Will you bring him a large load of rice and a large load of potatoes?",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "requiresTower": 30,
+    "silverReward": 1500000000
+  },
+  {
     "firstSeen": 1646726614250,
     "itemRequests": [
       {
@@ -24979,6 +25193,159 @@
     "requiresCrafting": 75,
     "requiresFishing": 75,
     "requiresExploring": 75
+  },
+  {
+    "firstSeen": 1662059309381,
+    "itemRequests": [
+      {
+        "id": "48",
+        "quantity": 2000
+      },
+      {
+        "id": "630",
+        "quantity": 2000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "266",
+        "quantity": 100
+      }
+    ],
+    "id": "727085",
+    "name": "Far Away VII",
+    "isPersonal": false,
+    "from": "Ragvin",
+    "fromImage": "/img/items/ragvin.png?1",
+    "text": "There’s still plenty of room! Ragvin would like another load of rice and potatoes, if you please.",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "requiresTower": 30,
+    "silverReward": 1500000000
+  },
+  {
+    "firstSeen": 1662059314143,
+    "itemRequests": [
+      {
+        "id": "59",
+        "quantity": 2000
+      },
+      {
+        "id": "44",
+        "quantity": 2000
+      },
+      {
+        "id": "19",
+        "quantity": 2000
+      },
+      {
+        "id": "33",
+        "quantity": 2000
+      },
+      {
+        "id": "65",
+        "quantity": 2000
+      },
+      {
+        "id": "69",
+        "quantity": 2000
+      },
+      {
+        "id": "450",
+        "quantity": 2000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "266",
+        "quantity": 100
+      }
+    ],
+    "id": "727113",
+    "name": "Far Away VIII",
+    "isPersonal": false,
+    "from": "Ragvin",
+    "fromImage": "/img/items/ragvin.png?1",
+    "text": "Now for some variety! Ragvin would like you to bring a large load of each of these items.",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "requiresTower": 30,
+    "silverReward": 2000000000
+  },
+  {
+    "firstSeen": 1662062332370,
+    "itemRequests": [
+      {
+        "id": "59",
+        "quantity": 2000
+      },
+      {
+        "id": "256",
+        "quantity": 2000
+      },
+      {
+        "id": "373",
+        "quantity": 2000
+      },
+      {
+        "id": "44",
+        "quantity": 2000
+      },
+      {
+        "id": "242",
+        "quantity": 2000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "266",
+        "quantity": 100
+      },
+      {
+        "id": "470",
+        "quantity": 1
+      },
+      {
+        "id": "123",
+        "quantity": 1000
+      },
+      {
+        "id": "175",
+        "quantity": 50
+      },
+      {
+        "id": "606",
+        "quantity": 1
+      },
+      {
+        "id": "605",
+        "quantity": 1
+      },
+      {
+        "id": "607",
+        "quantity": 1
+      },
+      {
+        "id": "608",
+        "quantity": 1
+      }
+    ],
+    "id": "727168",
+    "name": "Far Away IX",
+    "isPersonal": false,
+    "from": "Ragvin",
+    "fromImage": "/img/items/ragvin.png?1",
+    "text": "Ragvin has decided that he has found in you a competent guide to help with his business here in Redbrook. If you’ll help him fill the last of his hold, he and his crew will be on their way. If their trades are successful across the isles, Ragvin will return and call on you again for assistance.",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "requiresTower": 30,
+    "silverReward": 2147483647
   },
   {
     "firstSeen": 1646729523371,

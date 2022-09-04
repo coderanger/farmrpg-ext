@@ -747,6 +747,22 @@
     "secondary": false
   },
   {
+    "image": "/img/items/ragvin.png?1",
+    "name": "Far Away",
+    "quests": [
+      "707972",
+      "707994",
+      "726577",
+      "726821",
+      "726843",
+      "726988",
+      "727085",
+      "727113",
+      "727168"
+    ],
+    "secondary": false
+  },
+  {
     "image": "/img/items/6174.PNG",
     "name": "Feathers",
     "quests": [
