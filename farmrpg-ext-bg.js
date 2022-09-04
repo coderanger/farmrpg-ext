@@ -216,7 +216,7 @@ const main = async () => {
     }
 
     // Initialize the database.
-    globalState.db = await idb.openDB("farmrpg-ext", 7, {
+    globalState.db = await idb.openDB("farmrpg-ext", 8, {
         upgrade(db, oldVer) {
             switch(oldVer) {
             case 0:
@@ -248,6 +248,13 @@ const main = async () => {
             case 6:
                 console.log("Running DB migrations for version 7")
                 db.createObjectStore("exchangeCenter", { keyPath: ["date", "giveItem", "receiveItem"] })
+            case 7:
+                console.log("Running DB migrations for version 8")
+                // Fix the bad index structure we had before.
+                db.deleteObjectStore("items")
+                const items2 = db.createObjectStore("items", { keyPath: "id" })
+                items2.createIndex("byImage", "image", {unique: false})
+                items2.createIndex("byName", "name", {unique: false})
             }
         },
     })
