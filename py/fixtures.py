@@ -3,6 +3,7 @@ import itertools
 import json
 import os
 import re
+import types
 from datetime import date, datetime
 from pathlib import Path
 from typing import Any, Iterable, Optional, Union
@@ -891,6 +892,34 @@ def gen_npc_items():
     return data
 
 
+def gen_level_rewards():
+    level_rewards_data = Path(__file__) / ".." / ".." / "data" / "level_rewards.yaml"
+    level_rewards: list[dict] = yaml.safe_load(level_rewards_data.resolve().open())
+    for skill in level_rewards:
+        for reward in skill["rewards"]:
+            yield {
+                "id": f"{skill['skill']}-{reward['level']}",
+                "skill": skill["skill"],
+                "level": reward["level"],
+                "silver": reward["silver"],
+                "ak": reward.get("ak", 0),
+            }
+
+
+def gen_level_reward_items():
+    level_rewards_data = Path(__file__) / ".." / ".." / "data" / "level_rewards.yaml"
+    level_rewards: list[dict] = yaml.safe_load(level_rewards_data.resolve().open())
+    for skill in level_rewards:
+        for reward in skill["rewards"]:
+            for i, (item_name, quantity) in enumerate(reward["items"].items()):
+                yield {
+                    "level_reward_id": f"{skill['skill']}-{reward['level']}",
+                    "item_name": item_name,
+                    "quantity": quantity,
+                    "order": i,
+                }
+
+
 GEN_FIXTURES = {
     "drop_rates": gen_drop_rates,
     "drop_rates_gql": gen_drop_rates_gql,
@@ -913,6 +942,8 @@ GEN_FIXTURES = {
     "quiz_answers": gen_quiz_answers,
     "npcs": gen_npcs,
     "npc_items": gen_npc_items,
+    "level_rewards": gen_level_rewards,
+    "level_reward_items": gen_level_reward_items,
 }
 
 
@@ -924,6 +955,8 @@ def cmd_fixutres(gen: list[str] = []):
     for name in gen:
         fixture_path = data_root / f"{name}.json"
         fixture_data = GEN_FIXTURES[name]()
+        if isinstance(fixture_data, types.GeneratorType):
+            fixture_data = list(fixture_data)
         json.dump(
             fixture_data,
             fixture_path.resolve().open("w"),

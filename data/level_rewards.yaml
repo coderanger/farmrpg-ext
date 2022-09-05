@@ -1,0 +1,215 @@
+- skill: Farming
+  rewards:
+  - level: 10
+    items:
+      Radish: 12
+      Shovel: 10
+    silver: 1_500
+  - level: 20
+    items:
+      Leek: 16
+      Tomato: 16
+    silver: 7_500
+  - level: 30
+    items:
+      Cabbage: 20
+      Grape Juice: 3
+    silver: 12_500
+  - level: 40
+    items:
+      Pumpkin: 20
+      Eggs: 25
+    silver: 50_000
+  - level: 50
+    items:
+      Wheat: 20
+      Pine Tree: 20
+    silver: 150_000
+  - level: 60
+    items:
+      Gold Peas: 24
+      Gold Carrot: 24
+    silver: 300_000
+  - level: 70
+    items:
+      Cotton: 32
+      Cheese: 25
+    silver: 7_500_000
+  - level: 80
+    items:
+      Sunflower: 36
+      Grape Juice: 3
+    silver: 20_000_000
+  - level: 90
+    items:
+      Beet: 40
+      Gold Eggplant Seeds: 40
+    silver: 50_000_000
+  - level: 99
+    items:
+      Mega Sunflower Seeds: 99
+      Mega Beet Seeds: 99
+    silver: 99_999_999
+    ak: 100
+
+- skill: Fishing
+  rewards:
+  - level: 10
+    items:
+      Worms: 50
+      Iced Tea: 3
+    silver: 1_500
+  - level: 20
+    items:
+      Grubs: 50
+      Fishing Net: 10
+    silver: 7_500
+  - level: 30
+    items:
+      Gummy Worms: 50
+      Fishing Net: 20
+    silver: 12_500
+  - level: 40
+    items:
+      Mealworms: 50
+      Fishing Net: 50
+    silver: 50_000
+  - level: 50
+    items:
+      Fishing Net: 50
+      Mealworms: 100
+    silver: 150_000
+  - level: 60
+    items:
+      Fishing Net: 100
+      Seaweed: 25
+    silver: 300_000
+  - level: 70
+    items:
+      Large Net: 10
+      Swordfish: 25
+    silver: 7_500_000
+  - level: 80
+    items:
+      Spiked Shell: 5
+      Large Net: 10
+    silver: 20_000_000
+  - level: 90
+    items:
+      Large Net: 25
+      Jumbo Fish: 25
+    silver: 50_000_000
+  - level: 99
+    items:
+      Large Net: 99
+      Skeleton Key: 25
+    silver: 99_999_999
+    ak: 100
+
+- skill: Crafting
+  rewards:
+  - level: 10
+    items:
+      Board: 50
+      Iron: 50
+    silver: 1_500
+  - level: 20
+    items:
+      Wood Plank: 25
+      Iron: 100
+    silver: 7_500
+  - level: 30
+    items:
+      Green Dye: 25
+      Wood Plank: 75
+    silver: 12_500
+  - level: 40
+    items:
+      Glass Orb: 50
+      Iron Ring: 50
+    silver: 50_000
+  - level: 50
+    items:
+      Mushroom Paste: 100
+      Rope: 100
+    silver: 150_000
+  - level: 60
+    items:
+      Leather: 75
+      Glass Bottle: 75
+    silver: 300_000
+  - level: 70
+    items:
+      Carbon Sphere: 80
+      Twine: 125
+    silver: 7_500_000
+  - level: 80
+    items:
+      Oak: 50
+      Steel Wire: 35
+    silver: 20_000_000
+  - level: 90
+    items:
+      Yarn: 60
+      Steel: 150
+    silver: 50_000_000
+  - level: 99
+    items:
+      Mushroom Paste: 999
+      Oak: 999
+    silver: 99_999_999
+    ak: 100
+
+- skill: Exploring
+  rewards:
+  - level: 10
+    items:
+      Apple: 5
+      Lemonade: 3
+    silver: 1_500
+  - level: 20
+    items:
+      Orange Juice: 10
+      Tea Leaves: 5
+    silver: 7_500
+  - level: 30
+    items:
+      Lemonade: 25
+      Antler: 50
+    silver: 12_500
+  - level: 40
+    items:
+      Salt: 10
+      Ancient Coin: 150
+    silver: 50_000
+  - level: 50
+    items:
+      Gold Leaf: 10
+      Orange Juice: 50
+    silver: 150_000
+  - level: 60
+    items:
+      Grab Bag 07: 10
+      Apple: 100
+    silver: 300_000
+  - level: 70
+    items:
+      Apple Cider: 10
+      Herbs: 10
+    silver: 7_500_000
+  - level: 80
+    items:
+      Arnold Palmer: 10
+      Magna Quartz: 10
+    silver: 20_000_000
+  - level: 90
+    items:
+      Peach Juice: 10
+      Treasure Key: 5
+    silver: 50_000_000
+  - level: 99
+    items:
+      Arnold Palmer: 99
+      Apple Cider: 99
+    silver: 99_999_999
+    ak: 100

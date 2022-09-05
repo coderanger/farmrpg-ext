@@ -1,0 +1,482 @@
+[
+  {
+    "item_name": "Radish",
+    "level_reward_id": "Farming-10",
+    "order": 0,
+    "quantity": 12
+  },
+  {
+    "item_name": "Shovel",
+    "level_reward_id": "Farming-10",
+    "order": 1,
+    "quantity": 10
+  },
+  {
+    "item_name": "Leek",
+    "level_reward_id": "Farming-20",
+    "order": 0,
+    "quantity": 16
+  },
+  {
+    "item_name": "Tomato",
+    "level_reward_id": "Farming-20",
+    "order": 1,
+    "quantity": 16
+  },
+  {
+    "item_name": "Cabbage",
+    "level_reward_id": "Farming-30",
+    "order": 0,
+    "quantity": 20
+  },
+  {
+    "item_name": "Grape Juice",
+    "level_reward_id": "Farming-30",
+    "order": 1,
+    "quantity": 3
+  },
+  {
+    "item_name": "Pumpkin",
+    "level_reward_id": "Farming-40",
+    "order": 0,
+    "quantity": 20
+  },
+  {
+    "item_name": "Eggs",
+    "level_reward_id": "Farming-40",
+    "order": 1,
+    "quantity": 25
+  },
+  {
+    "item_name": "Wheat",
+    "level_reward_id": "Farming-50",
+    "order": 0,
+    "quantity": 20
+  },
+  {
+    "item_name": "Pine Tree",
+    "level_reward_id": "Farming-50",
+    "order": 1,
+    "quantity": 20
+  },
+  {
+    "item_name": "Gold Peas",
+    "level_reward_id": "Farming-60",
+    "order": 0,
+    "quantity": 24
+  },
+  {
+    "item_name": "Gold Carrot",
+    "level_reward_id": "Farming-60",
+    "order": 1,
+    "quantity": 24
+  },
+  {
+    "item_name": "Cotton",
+    "level_reward_id": "Farming-70",
+    "order": 0,
+    "quantity": 32
+  },
+  {
+    "item_name": "Cheese",
+    "level_reward_id": "Farming-70",
+    "order": 1,
+    "quantity": 25
+  },
+  {
+    "item_name": "Sunflower",
+    "level_reward_id": "Farming-80",
+    "order": 0,
+    "quantity": 36
+  },
+  {
+    "item_name": "Grape Juice",
+    "level_reward_id": "Farming-80",
+    "order": 1,
+    "quantity": 3
+  },
+  {
+    "item_name": "Beet",
+    "level_reward_id": "Farming-90",
+    "order": 0,
+    "quantity": 40
+  },
+  {
+    "item_name": "Gold Eggplant Seeds",
+    "level_reward_id": "Farming-90",
+    "order": 1,
+    "quantity": 40
+  },
+  {
+    "item_name": "Mega Sunflower Seeds",
+    "level_reward_id": "Farming-99",
+    "order": 0,
+    "quantity": 99
+  },
+  {
+    "item_name": "Mega Beet Seeds",
+    "level_reward_id": "Farming-99",
+    "order": 1,
+    "quantity": 99
+  },
+  {
+    "item_name": "Worms",
+    "level_reward_id": "Fishing-10",
+    "order": 0,
+    "quantity": 50
+  },
+  {
+    "item_name": "Iced Tea",
+    "level_reward_id": "Fishing-10",
+    "order": 1,
+    "quantity": 3
+  },
+  {
+    "item_name": "Grubs",
+    "level_reward_id": "Fishing-20",
+    "order": 0,
+    "quantity": 50
+  },
+  {
+    "item_name": "Fishing Net",
+    "level_reward_id": "Fishing-20",
+    "order": 1,
+    "quantity": 10
+  },
+  {
+    "item_name": "Gummy Worms",
+    "level_reward_id": "Fishing-30",
+    "order": 0,
+    "quantity": 50
+  },
+  {
+    "item_name": "Fishing Net",
+    "level_reward_id": "Fishing-30",
+    "order": 1,
+    "quantity": 20
+  },
+  {
+    "item_name": "Mealworms",
+    "level_reward_id": "Fishing-40",
+    "order": 0,
+    "quantity": 50
+  },
+  {
+    "item_name": "Fishing Net",
+    "level_reward_id": "Fishing-40",
+    "order": 1,
+    "quantity": 50
+  },
+  {
+    "item_name": "Fishing Net",
+    "level_reward_id": "Fishing-50",
+    "order": 0,
+    "quantity": 50
+  },
+  {
+    "item_name": "Mealworms",
+    "level_reward_id": "Fishing-50",
+    "order": 1,
+    "quantity": 100
+  },
+  {
+    "item_name": "Fishing Net",
+    "level_reward_id": "Fishing-60",
+    "order": 0,
+    "quantity": 100
+  },
+  {
+    "item_name": "Seaweed",
+    "level_reward_id": "Fishing-60",
+    "order": 1,
+    "quantity": 25
+  },
+  {
+    "item_name": "Large Net",
+    "level_reward_id": "Fishing-70",
+    "order": 0,
+    "quantity": 10
+  },
+  {
+    "item_name": "Swordfish",
+    "level_reward_id": "Fishing-70",
+    "order": 1,
+    "quantity": 25
+  },
+  {
+    "item_name": "Spiked Shell",
+    "level_reward_id": "Fishing-80",
+    "order": 0,
+    "quantity": 5
+  },
+  {
+    "item_name": "Large Net",
+    "level_reward_id": "Fishing-80",
+    "order": 1,
+    "quantity": 10
+  },
+  {
+    "item_name": "Large Net",
+    "level_reward_id": "Fishing-90",
+    "order": 0,
+    "quantity": 25
+  },
+  {
+    "item_name": "Jumbo Fish",
+    "level_reward_id": "Fishing-90",
+    "order": 1,
+    "quantity": 25
+  },
+  {
+    "item_name": "Large Net",
+    "level_reward_id": "Fishing-99",
+    "order": 0,
+    "quantity": 99
+  },
+  {
+    "item_name": "Skeleton Key",
+    "level_reward_id": "Fishing-99",
+    "order": 1,
+    "quantity": 25
+  },
+  {
+    "item_name": "Board",
+    "level_reward_id": "Crafting-10",
+    "order": 0,
+    "quantity": 50
+  },
+  {
+    "item_name": "Iron",
+    "level_reward_id": "Crafting-10",
+    "order": 1,
+    "quantity": 50
+  },
+  {
+    "item_name": "Wood Plank",
+    "level_reward_id": "Crafting-20",
+    "order": 0,
+    "quantity": 25
+  },
+  {
+    "item_name": "Iron",
+    "level_reward_id": "Crafting-20",
+    "order": 1,
+    "quantity": 100
+  },
+  {
+    "item_name": "Green Dye",
+    "level_reward_id": "Crafting-30",
+    "order": 0,
+    "quantity": 25
+  },
+  {
+    "item_name": "Wood Plank",
+    "level_reward_id": "Crafting-30",
+    "order": 1,
+    "quantity": 75
+  },
+  {
+    "item_name": "Glass Orb",
+    "level_reward_id": "Crafting-40",
+    "order": 0,
+    "quantity": 50
+  },
+  {
+    "item_name": "Iron Ring",
+    "level_reward_id": "Crafting-40",
+    "order": 1,
+    "quantity": 50
+  },
+  {
+    "item_name": "Mushroom Paste",
+    "level_reward_id": "Crafting-50",
+    "order": 0,
+    "quantity": 100
+  },
+  {
+    "item_name": "Rope",
+    "level_reward_id": "Crafting-50",
+    "order": 1,
+    "quantity": 100
+  },
+  {
+    "item_name": "Leather",
+    "level_reward_id": "Crafting-60",
+    "order": 0,
+    "quantity": 75
+  },
+  {
+    "item_name": "Glass Bottle",
+    "level_reward_id": "Crafting-60",
+    "order": 1,
+    "quantity": 75
+  },
+  {
+    "item_name": "Carbon Sphere",
+    "level_reward_id": "Crafting-70",
+    "order": 0,
+    "quantity": 80
+  },
+  {
+    "item_name": "Twine",
+    "level_reward_id": "Crafting-70",
+    "order": 1,
+    "quantity": 125
+  },
+  {
+    "item_name": "Oak",
+    "level_reward_id": "Crafting-80",
+    "order": 0,
+    "quantity": 50
+  },
+  {
+    "item_name": "Steel Wire",
+    "level_reward_id": "Crafting-80",
+    "order": 1,
+    "quantity": 35
+  },
+  {
+    "item_name": "Yarn",
+    "level_reward_id": "Crafting-90",
+    "order": 0,
+    "quantity": 60
+  },
+  {
+    "item_name": "Steel",
+    "level_reward_id": "Crafting-90",
+    "order": 1,
+    "quantity": 150
+  },
+  {
+    "item_name": "Mushroom Paste",
+    "level_reward_id": "Crafting-99",
+    "order": 0,
+    "quantity": 999
+  },
+  {
+    "item_name": "Oak",
+    "level_reward_id": "Crafting-99",
+    "order": 1,
+    "quantity": 999
+  },
+  {
+    "item_name": "Apple",
+    "level_reward_id": "Exploring-10",
+    "order": 0,
+    "quantity": 5
+  },
+  {
+    "item_name": "Lemonade",
+    "level_reward_id": "Exploring-10",
+    "order": 1,
+    "quantity": 3
+  },
+  {
+    "item_name": "Orange Juice",
+    "level_reward_id": "Exploring-20",
+    "order": 0,
+    "quantity": 10
+  },
+  {
+    "item_name": "Tea Leaves",
+    "level_reward_id": "Exploring-20",
+    "order": 1,
+    "quantity": 5
+  },
+  {
+    "item_name": "Lemonade",
+    "level_reward_id": "Exploring-30",
+    "order": 0,
+    "quantity": 25
+  },
+  {
+    "item_name": "Antler",
+    "level_reward_id": "Exploring-30",
+    "order": 1,
+    "quantity": 50
+  },
+  {
+    "item_name": "Salt",
+    "level_reward_id": "Exploring-40",
+    "order": 0,
+    "quantity": 10
+  },
+  {
+    "item_name": "Ancient Coin",
+    "level_reward_id": "Exploring-40",
+    "order": 1,
+    "quantity": 150
+  },
+  {
+    "item_name": "Gold Leaf",
+    "level_reward_id": "Exploring-50",
+    "order": 0,
+    "quantity": 10
+  },
+  {
+    "item_name": "Orange Juice",
+    "level_reward_id": "Exploring-50",
+    "order": 1,
+    "quantity": 50
+  },
+  {
+    "item_name": "Grab Bag 07",
+    "level_reward_id": "Exploring-60",
+    "order": 0,
+    "quantity": 10
+  },
+  {
+    "item_name": "Apple",
+    "level_reward_id": "Exploring-60",
+    "order": 1,
+    "quantity": 100
+  },
+  {
+    "item_name": "Apple Cider",
+    "level_reward_id": "Exploring-70",
+    "order": 0,
+    "quantity": 10
+  },
+  {
+    "item_name": "Herbs",
+    "level_reward_id": "Exploring-70",
+    "order": 1,
+    "quantity": 10
+  },
+  {
+    "item_name": "Arnold Palmer",
+    "level_reward_id": "Exploring-80",
+    "order": 0,
+    "quantity": 10
+  },
+  {
+    "item_name": "Magna Quartz",
+    "level_reward_id": "Exploring-80",
+    "order": 1,
+    "quantity": 10
+  },
+  {
+    "item_name": "Peach Juice",
+    "level_reward_id": "Exploring-90",
+    "order": 0,
+    "quantity": 10
+  },
+  {
+    "item_name": "Treasure Key",
+    "level_reward_id": "Exploring-90",
+    "order": 1,
+    "quantity": 5
+  },
+  {
+    "item_name": "Arnold Palmer",
+    "level_reward_id": "Exploring-99",
+    "order": 0,
+    "quantity": 99
+  },
+  {
+    "item_name": "Apple Cider",
+    "level_reward_id": "Exploring-99",
+    "order": 1,
+    "quantity": 99
+  }
+]

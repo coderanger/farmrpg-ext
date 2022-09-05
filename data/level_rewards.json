@@ -1,0 +1,282 @@
+[
+  {
+    "ak": 0,
+    "id": "Farming-10",
+    "level": 10,
+    "silver": 1500,
+    "skill": "Farming"
+  },
+  {
+    "ak": 0,
+    "id": "Farming-20",
+    "level": 20,
+    "silver": 7500,
+    "skill": "Farming"
+  },
+  {
+    "ak": 0,
+    "id": "Farming-30",
+    "level": 30,
+    "silver": 12500,
+    "skill": "Farming"
+  },
+  {
+    "ak": 0,
+    "id": "Farming-40",
+    "level": 40,
+    "silver": 50000,
+    "skill": "Farming"
+  },
+  {
+    "ak": 0,
+    "id": "Farming-50",
+    "level": 50,
+    "silver": 150000,
+    "skill": "Farming"
+  },
+  {
+    "ak": 0,
+    "id": "Farming-60",
+    "level": 60,
+    "silver": 300000,
+    "skill": "Farming"
+  },
+  {
+    "ak": 0,
+    "id": "Farming-70",
+    "level": 70,
+    "silver": 7500000,
+    "skill": "Farming"
+  },
+  {
+    "ak": 0,
+    "id": "Farming-80",
+    "level": 80,
+    "silver": 20000000,
+    "skill": "Farming"
+  },
+  {
+    "ak": 0,
+    "id": "Farming-90",
+    "level": 90,
+    "silver": 50000000,
+    "skill": "Farming"
+  },
+  {
+    "ak": 100,
+    "id": "Farming-99",
+    "level": 99,
+    "silver": 99999999,
+    "skill": "Farming"
+  },
+  {
+    "ak": 0,
+    "id": "Fishing-10",
+    "level": 10,
+    "silver": 1500,
+    "skill": "Fishing"
+  },
+  {
+    "ak": 0,
+    "id": "Fishing-20",
+    "level": 20,
+    "silver": 7500,
+    "skill": "Fishing"
+  },
+  {
+    "ak": 0,
+    "id": "Fishing-30",
+    "level": 30,
+    "silver": 12500,
+    "skill": "Fishing"
+  },
+  {
+    "ak": 0,
+    "id": "Fishing-40",
+    "level": 40,
+    "silver": 50000,
+    "skill": "Fishing"
+  },
+  {
+    "ak": 0,
+    "id": "Fishing-50",
+    "level": 50,
+    "silver": 150000,
+    "skill": "Fishing"
+  },
+  {
+    "ak": 0,
+    "id": "Fishing-60",
+    "level": 60,
+    "silver": 300000,
+    "skill": "Fishing"
+  },
+  {
+    "ak": 0,
+    "id": "Fishing-70",
+    "level": 70,
+    "silver": 7500000,
+    "skill": "Fishing"
+  },
+  {
+    "ak": 0,
+    "id": "Fishing-80",
+    "level": 80,
+    "silver": 20000000,
+    "skill": "Fishing"
+  },
+  {
+    "ak": 0,
+    "id": "Fishing-90",
+    "level": 90,
+    "silver": 50000000,
+    "skill": "Fishing"
+  },
+  {
+    "ak": 100,
+    "id": "Fishing-99",
+    "level": 99,
+    "silver": 99999999,
+    "skill": "Fishing"
+  },
+  {
+    "ak": 0,
+    "id": "Crafting-10",
+    "level": 10,
+    "silver": 1500,
+    "skill": "Crafting"
+  },
+  {
+    "ak": 0,
+    "id": "Crafting-20",
+    "level": 20,
+    "silver": 7500,
+    "skill": "Crafting"
+  },
+  {
+    "ak": 0,
+    "id": "Crafting-30",
+    "level": 30,
+    "silver": 12500,
+    "skill": "Crafting"
+  },
+  {
+    "ak": 0,
+    "id": "Crafting-40",
+    "level": 40,
+    "silver": 50000,
+    "skill": "Crafting"
+  },
+  {
+    "ak": 0,
+    "id": "Crafting-50",
+    "level": 50,
+    "silver": 150000,
+    "skill": "Crafting"
+  },
+  {
+    "ak": 0,
+    "id": "Crafting-60",
+    "level": 60,
+    "silver": 300000,
+    "skill": "Crafting"
+  },
+  {
+    "ak": 0,
+    "id": "Crafting-70",
+    "level": 70,
+    "silver": 7500000,
+    "skill": "Crafting"
+  },
+  {
+    "ak": 0,
+    "id": "Crafting-80",
+    "level": 80,
+    "silver": 20000000,
+    "skill": "Crafting"
+  },
+  {
+    "ak": 0,
+    "id": "Crafting-90",
+    "level": 90,
+    "silver": 50000000,
+    "skill": "Crafting"
+  },
+  {
+    "ak": 100,
+    "id": "Crafting-99",
+    "level": 99,
+    "silver": 99999999,
+    "skill": "Crafting"
+  },
+  {
+    "ak": 0,
+    "id": "Exploring-10",
+    "level": 10,
+    "silver": 1500,
+    "skill": "Exploring"
+  },
+  {
+    "ak": 0,
+    "id": "Exploring-20",
+    "level": 20,
+    "silver": 7500,
+    "skill": "Exploring"
+  },
+  {
+    "ak": 0,
+    "id": "Exploring-30",
+    "level": 30,
+    "silver": 12500,
+    "skill": "Exploring"
+  },
+  {
+    "ak": 0,
+    "id": "Exploring-40",
+    "level": 40,
+    "silver": 50000,
+    "skill": "Exploring"
+  },
+  {
+    "ak": 0,
+    "id": "Exploring-50",
+    "level": 50,
+    "silver": 150000,
+    "skill": "Exploring"
+  },
+  {
+    "ak": 0,
+    "id": "Exploring-60",
+    "level": 60,
+    "silver": 300000,
+    "skill": "Exploring"
+  },
+  {
+    "ak": 0,
+    "id": "Exploring-70",
+    "level": 70,
+    "silver": 7500000,
+    "skill": "Exploring"
+  },
+  {
+    "ak": 0,
+    "id": "Exploring-80",
+    "level": 80,
+    "silver": 20000000,
+    "skill": "Exploring"
+  },
+  {
+    "ak": 0,
+    "id": "Exploring-90",
+    "level": 90,
+    "silver": 50000000,
+    "skill": "Exploring"
+  },
+  {
+    "ak": 100,
+    "id": "Exploring-99",
+    "level": 99,
+    "silver": 99999999,
+    "skill": "Exploring"
+  }
+]
