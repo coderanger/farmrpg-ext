@@ -29353,6 +29353,68 @@
     "silverReward": 100000000
   },
   {
+    "firstSeen": 1662751076611,
+    "itemRequests": [
+      {
+        "id": "114",
+        "quantity": 2000
+      },
+      {
+        "id": "141",
+        "quantity": 2000
+      },
+      {
+        "id": "134",
+        "quantity": 2000
+      },
+      {
+        "id": "140",
+        "quantity": 2000
+      },
+      {
+        "id": "207",
+        "quantity": 2000
+      },
+      {
+        "id": "478",
+        "quantity": 1000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "587",
+        "quantity": 100
+      },
+      {
+        "id": "508",
+        "quantity": 1000
+      },
+      {
+        "id": "629",
+        "quantity": 100
+      },
+      {
+        "id": "380",
+        "quantity": 100
+      },
+      {
+        "id": "84",
+        "quantity": 2000
+      }
+    ],
+    "id": "813578",
+    "name": "Far Away X",
+    "isPersonal": false,
+    "from": "Lorn",
+    "fromImage": "/img/items/a_088.png",
+    "text": "Lorn thinks you were right to come to him with your suspicions. It is very strange that Ragvin had the treasures you sent with Thomas and Captain Thomas on their voyage. Nevertheless, Lorn would like to proceed diplomatically and discuss the matter directly with Ragvin, should he return to Redbrook.\n\nFor now, Lorn has asked Captain Logan to search for any sign of the Sarafina or its crew. Lorn also sent out a request to all the ships working the coast to keep an eye out for Ragvin’s ship and anything out of the ordinary.\n\nTo help Captain Logan and his crew with the search, will you help fill their orders for fish?",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "requiresTower": 30
+  },
+  {
     "firstSeen": 1647483229678,
     "itemRequests": [
       {
@@ -29443,6 +29505,334 @@
     "requiresExploring": 99,
     "availableFrom": "Mar 16",
     "availableTo": "Mar 31"
+  },
+  {
+    "firstSeen": 1662758850262,
+    "itemRequests": [
+      {
+        "id": "114",
+        "quantity": 2000
+      },
+      {
+        "id": "115",
+        "quantity": 2000
+      },
+      {
+        "id": "174",
+        "quantity": 2000
+      },
+      {
+        "id": "206",
+        "quantity": 2000
+      },
+      {
+        "id": "205",
+        "quantity": 2000
+      },
+      {
+        "id": "473",
+        "quantity": 1000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "110",
+        "quantity": 2000
+      },
+      {
+        "id": "615",
+        "quantity": 2000
+      },
+      {
+        "id": "375",
+        "quantity": 500
+      },
+      {
+        "id": "298",
+        "quantity": 10
+      },
+      {
+        "id": "347",
+        "quantity": 100
+      },
+      {
+        "id": "508",
+        "quantity": 1000
+      }
+    ],
+    "id": "815142",
+    "name": "Far Away XI",
+    "isPersonal": false,
+    "from": "Lorn",
+    "fromImage": "/img/items/a_088.png",
+    "text": "Captain Logan’s crew hasn’t found anything, but they are continuing their efforts. Lorn would like your help to continue to fill their orders.",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "requiresTower": 30
+  },
+  {
+    "firstSeen": 1662761408709,
+    "itemRequests": [
+      {
+        "id": "58",
+        "quantity": 2000
+      },
+      {
+        "id": "136",
+        "quantity": 2000
+      },
+      {
+        "id": "133",
+        "quantity": 2000
+      },
+      {
+        "id": "198",
+        "quantity": 2000
+      },
+      {
+        "id": "57",
+        "quantity": 2000
+      },
+      {
+        "id": "390",
+        "quantity": 2000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "75",
+        "quantity": 2000
+      },
+      {
+        "id": "581",
+        "quantity": 100
+      },
+      {
+        "id": "453",
+        "quantity": 100
+      },
+      {
+        "id": "397",
+        "quantity": 500
+      },
+      {
+        "id": "398",
+        "quantity": 500
+      },
+      {
+        "id": "508",
+        "quantity": 1000
+      },
+      {
+        "id": "366",
+        "quantity": 100
+      }
+    ],
+    "id": "815158",
+    "name": "Far Away XII",
+    "isPersonal": false,
+    "from": "Lorn",
+    "fromImage": "/img/items/a_088.png",
+    "text": "Lorn doesn’t have any more information for you, but he could use your help getting more fish to keep Captain Logan’s orders filled.",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "requiresTower": 30
+  },
+  {
+    "firstSeen": 1662766970752,
+    "itemRequests": [
+      {
+        "id": "192",
+        "quantity": 2000
+      },
+      {
+        "id": "199",
+        "quantity": 2000
+      },
+      {
+        "id": "87",
+        "quantity": 2000
+      },
+      {
+        "id": "88",
+        "quantity": 2000
+      },
+      {
+        "id": "173",
+        "quantity": 2000
+      },
+      {
+        "id": "39",
+        "quantity": 2000
+      },
+      {
+        "id": "201",
+        "quantity": 2000
+      },
+      {
+        "id": "107",
+        "quantity": 2000
+      },
+      {
+        "id": "569",
+        "quantity": 200
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "585",
+        "quantity": 2000
+      },
+      {
+        "id": "123",
+        "quantity": 2000
+      },
+      {
+        "id": "242",
+        "quantity": 2000
+      },
+      {
+        "id": "263",
+        "quantity": 2000
+      },
+      {
+        "id": "505",
+        "quantity": 100
+      },
+      {
+        "id": "122",
+        "quantity": 2000
+      },
+      {
+        "id": "628",
+        "quantity": 500
+      },
+      {
+        "id": "65",
+        "quantity": 2000
+      },
+      {
+        "id": "508",
+        "quantity": 1000
+      }
+    ],
+    "id": "815183",
+    "name": "Far Away XIII",
+    "isPersonal": false,
+    "from": "Lorn",
+    "fromImage": "/img/items/a_088.png",
+    "text": "Lorn would like to get ahead of some of Captain Logan’s regular orders. Will you give Lorn a hand?",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "requiresTower": 30
+  },
+  {
+    "firstSeen": 1662769546556,
+    "itemRequests": [
+      {
+        "id": "458",
+        "quantity": 500
+      },
+      {
+        "id": "465",
+        "quantity": 500
+      },
+      {
+        "id": "457",
+        "quantity": 500
+      },
+      {
+        "id": "270",
+        "quantity": 500
+      },
+      {
+        "id": "466",
+        "quantity": 500
+      },
+      {
+        "id": "464",
+        "quantity": 500
+      },
+      {
+        "id": "460",
+        "quantity": 500
+      },
+      {
+        "id": "461",
+        "quantity": 500
+      },
+      {
+        "id": "462",
+        "quantity": 500
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "508",
+        "quantity": 2000
+      },
+      {
+        "id": "588",
+        "quantity": 2000
+      },
+      {
+        "id": "323",
+        "quantity": 100
+      },
+      {
+        "id": "213",
+        "quantity": 100
+      },
+      {
+        "id": "536",
+        "quantity": 2000
+      },
+      {
+        "id": "535",
+        "quantity": 2000
+      },
+      {
+        "id": "537",
+        "quantity": 2000
+      },
+      {
+        "id": "335",
+        "quantity": 100
+      },
+      {
+        "id": "331",
+        "quantity": 100
+      },
+      {
+        "id": "84",
+        "quantity": 2000
+      },
+      {
+        "id": "510",
+        "quantity": 1
+      },
+      {
+        "id": "172",
+        "quantity": 1000
+      }
+    ],
+    "id": "815217",
+    "name": "Far Away XIV",
+    "isPersonal": false,
+    "from": "Lorn",
+    "fromImage": "/img/items/a_088.png",
+    "text": "Captain Logan took his ship to some of the more distant, populated islands to search for Thomas and Captain Thomas. Unfortunately, no one has seen the Sarafina or the Thomases. However, everyone that Captain Logan’s crew talked to knew Ragvin. They said he and his crew were fair traders and often gave goods away to the less fortunate. Some folks also wondered how Ragvin could stay in business at his prices. The people of the islands that Captain Logan visited expected Ragvin to return within the next few months.\n\nLorn suspects Ragvin and crew may return to Redbrook after they return to the distant islands Captain Logan visited. He thinks it may be time to wait to talk to Ragvin. Sometimes when we’re lost it’s best to stand still and wait for opportunity to come to us.\n\nLorn appreciates all of your help supporting Captain Logan and his crew. He couldn’t have done it without you. Now, to show thanks to Captain Logan and his crew for their efforts, will you help Lorn gather another load of fish?",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "requiresTower": 30
   },
   {
     "firstSeen": 1647483129722,
@@ -29973,6 +30363,122 @@
     "requiresExploring": 20,
     "availableFrom": "Apr 1",
     "availableTo": "Apr 30"
+  },
+  {
+    "firstSeen": 1662806285647,
+    "itemRequests": [
+      {
+        "id": "42",
+        "quantity": 100
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "508",
+        "quantity": 5
+      }
+    ],
+    "id": "824374",
+    "name": "Our Patron of Refreshment I",
+    "isPersonal": false,
+    "from": "Star Meerif",
+    "fromImage": "/img/items/npc_figure.png",
+    "text": "Do you realize the time?! We have an approaching merger of two streams. Like two refreshing beverages coming together to form one refreshing beverage, the time stream of our universe is merged with another for a single refreshing second. Can you imagine the possibilities that could emerge from such a union?\n\nI’ll need feathers!\n\nYou have my gratitude, as always.",
+    "requiresFarming": 5,
+    "requiresCrafting": 5,
+    "requiresFishing": 5,
+    "requiresExploring": 5,
+    "availableFrom": "Sep 10",
+    "availableTo": "Sep 30"
+  },
+  {
+    "firstSeen": 1662844127995,
+    "itemRequests": [
+      {
+        "id": "54",
+        "quantity": 10
+      },
+      {
+        "id": "42",
+        "quantity": 100
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "508",
+        "quantity": 5
+      }
+    ],
+    "id": "824426",
+    "name": "Our Patron of Refreshment II",
+    "isPersonal": false,
+    "from": "Star Meerif",
+    "fromImage": "/img/items/npc_figure.png",
+    "text": "Ugh!! I didn’t realize that the alternate time stream would be so…so lemony…\n\nWe’re going to need some amethyst, and more feathers of course.",
+    "requiresFarming": 10,
+    "requiresCrafting": 10,
+    "requiresFishing": 10,
+    "requiresExploring": 10,
+    "availableFrom": "Sep 10",
+    "availableTo": "Sep 30"
+  },
+  {
+    "firstSeen": 1662844138518,
+    "itemRequests": [
+      {
+        "id": "42",
+        "quantity": 100
+      },
+      {
+        "id": "80",
+        "quantity": 10
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "508",
+        "quantity": 10
+      }
+    ],
+    "id": "824439",
+    "name": "Our Patron of Refreshment III",
+    "isPersonal": false,
+    "from": "Star Meerif",
+    "fromImage": "/img/items/npc_figure.png",
+    "text": "There’s only one way to make this work, and I absolutely hate it…\n\nI can’t even say it. Please bring me more feathers…and some quartz that is yellow like a citrus fruit that I loathe to the next epoch and beyond. Ugh….",
+    "requiresFarming": 25,
+    "requiresCrafting": 25,
+    "requiresFishing": 25,
+    "requiresExploring": 25,
+    "availableFrom": "Sep 10",
+    "availableTo": "Sep 30"
+  },
+  {
+    "firstSeen": 1662844148842,
+    "itemRequests": [
+      {
+        "id": "42",
+        "quantity": 100
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "508",
+        "quantity": 30
+      }
+    ],
+    "id": "824473",
+    "name": "Our Patron of Refreshment IV",
+    "isPersonal": false,
+    "from": "Star Meerif",
+    "fromImage": "/img/items/npc_figure.png",
+    "text": "It was unbearable, but I did it. I distilled a single vial of magic from the other time stream. Who knows what amazing developments may come from this! Coronal mass ejections may soon be our playthings! You deserve all my thanks.\n\nCould you spare a few more feathers?",
+    "requiresFarming": 30,
+    "requiresCrafting": 30,
+    "requiresFishing": 30,
+    "requiresExploring": 30,
+    "availableFrom": "Sep 10",
+    "availableTo": "Sep 30"
   },
   {
     "firstSeen": 1648789501696,
@@ -31887,6 +32393,173 @@
     "requiresFishing": 99,
     "requiresExploring": 99,
     "silverReward": 100000000
+  },
+  {
+    "firstSeen": 1663179565932,
+    "itemRequests": [
+      {
+        "id": "25",
+        "quantity": 1
+      },
+      {
+        "id": "17",
+        "quantity": 7
+      },
+      {
+        "id": "24",
+        "quantity": 5
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "84",
+        "quantity": 1
+      },
+      {
+        "id": "44",
+        "quantity": 75
+      }
+    ],
+    "id": "868281",
+    "name": "The Otipeg Line I",
+    "isPersonal": false,
+    "from": "Thomas",
+    "fromImage": "/img/items/a_048.png",
+    "text": "Thomas helped a lovely couple move into their farmhouse yesterday afternoon. When the last crate was unloaded from the wagon, Thomas bid his new friends farewell and began to make his way to the edge of town. He was on a mission to update the town population sign along the main road. The mayor said this update was long overdue, and that 175 thousand is a number to celebrate.\n\nBefore Thomas made it more than a few dozen steps along the road, something strange happened. Thomas thought he saw a fairy. So, he followed it. A small, floating glimmer continued to stay just out of his reach for nearly a kilometer, until he arrived at an old stone wall.\n\nAs Thomas got close to the wall, the fairy vanished. Thomas continued to search for the vanished glimmer, but eventually gave up after several fruitless minutes. Instead, he turned his attention, reluctantly, to examining the wall.\n\nThe wall was about knee high and made of intricately locked stones. The stones were worn and smooth and showed no sign of decoration, except at the top of what appeared to be a post. On the top of the stone at the top of the post, Thomas found these words engraved.\n\n“Otipeg Line”\n\nThomas has no idea what Otipeg Line means, but he would love to learn more about it. He’s going to ask Lorn if he knows anything. Thomas is going to catch some fish to bring as a gift to Lorn, in exchange for Lorn helping Thomas figure this mystery out. Will you help Thomas catch a few extra fish to really impress Lorn?",
+    "requiresFarming": 5,
+    "requiresCrafting": 5,
+    "requiresFishing": 5,
+    "requiresExploring": 5,
+    "availableFrom": "Sep 14",
+    "availableTo": "Sep 15"
+  },
+  {
+    "firstSeen": 1663179573377,
+    "itemRequests": [
+      {
+        "id": "40",
+        "quantity": 17
+      },
+      {
+        "id": "43",
+        "quantity": 5
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "500",
+        "quantity": 1
+      },
+      {
+        "id": "194",
+        "quantity": 75
+      }
+    ],
+    "id": "868414",
+    "name": "The Otipeg Line II",
+    "isPersonal": false,
+    "from": "Thomas",
+    "fromImage": "/img/items/a_048.png",
+    "text": "Lorn told Thomas that an Otipeg Line is a wall constructed to keep certain magical creatures away from a farmer’s crops. After Thomas told Lorn about the fairy he saw, Lorn said that there must be a break in the Otipeg Line that Thomas found.\n\nThomas is curious now to find the break in the wall. Will you help him gather some stone and mushrooms to repair the wall, if Thomas finds the break?",
+    "requiresFarming": 10,
+    "requiresCrafting": 10,
+    "requiresFishing": 10,
+    "requiresExploring": 10,
+    "availableFrom": "Sep 14",
+    "availableTo": "Sep 15"
+  },
+  {
+    "firstSeen": 1663213900806,
+    "itemRequests": [
+      {
+        "id": "53",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "123",
+        "quantity": 175
+      },
+      {
+        "id": "471",
+        "quantity": 1
+      },
+      {
+        "id": "379",
+        "quantity": 7
+      },
+      {
+        "id": "508",
+        "quantity": 5
+      },
+      {
+        "id": "330",
+        "quantity": 5
+      },
+      {
+        "id": "491",
+        "quantity": 7
+      },
+      {
+        "id": "398",
+        "quantity": 1
+      }
+    ],
+    "id": "868499",
+    "name": "The Otipeg Line III",
+    "isPersonal": false,
+    "from": "Thomas",
+    "fromImage": "/img/items/a_048.png",
+    "text": "Thomas found the break in the wall.\n\nThe rift was surprisingly small.\n\nHe started to repair the stony breach,\n\nbut then he saw a glimmer just out of reach.\n\nHe wondered how bad it could be\n\nto let such a creature roam free.\n\nThomas decided to go home\n\nand left the broken wall alone.\n\nFor all of your help today,\n\nThomas found gifts on his way.\n\nOne more small request\n\nwould be for his best.\n\nWill you restore his will power?\n\nPlease bring him a purple flower.",
+    "requiresFarming": 20,
+    "requiresCrafting": 20,
+    "requiresFishing": 20,
+    "requiresExploring": 20,
+    "availableFrom": "Sep 14",
+    "availableTo": "Sep 15"
+  },
+  {
+    "firstSeen": 1663213908157,
+    "itemRequests": [],
+    "itemRewards": [
+      {
+        "id": "171",
+        "quantity": 175
+      },
+      {
+        "id": "110",
+        "quantity": 175
+      },
+      {
+        "id": "48",
+        "quantity": 175
+      },
+      {
+        "id": "605",
+        "quantity": 1
+      },
+      {
+        "id": "241",
+        "quantity": 7
+      },
+      {
+        "id": "512",
+        "quantity": 1
+      }
+    ],
+    "id": "868590",
+    "name": "The Otipeg Line IV",
+    "isPersonal": false,
+    "from": "Thomas",
+    "fromImage": "/img/items/a_048.png",
+    "text": "Thomas isn’t sure what happened, but he’s not going back to that wall. He appreciates you breaking whatever curse was upon him. Please accept these tokens of his appreciation.",
+    "requiresFarming": 25,
+    "requiresCrafting": 25,
+    "requiresFishing": 25,
+    "requiresExploring": 25,
+    "availableFrom": "Sep 14",
+    "availableTo": "Sep 15"
   },
   {
     "firstSeen": 1651035568458,

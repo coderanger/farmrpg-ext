@@ -2142,6 +2142,96 @@
     "goalQuantity": 1333000,
     "rewardItem": "Orange Juice",
     "rewardQuantity": 125,
-    "progress": 464881
+    "progress": 1580140
+  },
+  {
+    "firstSeen": 1662354227423,
+    "date": "2022-09-05",
+    "goalItem": "Worms",
+    "goalQuantity": 426479200,
+    "rewardItem": "Lemonade",
+    "rewardQuantity": 60,
+    "progress": 1394878770
+  },
+  {
+    "firstSeen": 1662442294168,
+    "date": "2022-09-06",
+    "goalItem": "Blue Sea Bass",
+    "goalQuantity": 1587700,
+    "rewardItem": "Honey",
+    "rewardQuantity": 10,
+    "progress": 2312977
+  },
+  {
+    "firstSeen": 1662528692044,
+    "date": "2022-09-07",
+    "goalItem": "Carrot",
+    "goalQuantity": 917900,
+    "rewardItem": "Large Chest 02",
+    "rewardQuantity": 3,
+    "progress": 1049924
+  },
+  {
+    "firstSeen": 1662615090025,
+    "date": "2022-09-08",
+    "goalItem": "Stone",
+    "goalQuantity": 7096200,
+    "rewardItem": "Apple Cider",
+    "rewardQuantity": 3,
+    "progress": 9769351
+  },
+  {
+    "firstSeen": 1662700101828,
+    "date": "2022-09-09",
+    "goalItem": "Shovel",
+    "goalQuantity": 1136200,
+    "rewardItem": "Gold Peppers",
+    "rewardQuantity": 50,
+    "progress": 1207270
+  },
+  {
+    "firstSeen": 1662787886519,
+    "date": "2022-09-10",
+    "goalItem": "Aquamarine",
+    "goalQuantity": 2500000,
+    "rewardItem": "Arnold Palmer",
+    "rewardQuantity": 25,
+    "progress": 2773124
+  },
+  {
+    "firstSeen": 1662874284527,
+    "date": "2022-09-11",
+    "goalItem": "Seahorse",
+    "goalQuantity": 1485800,
+    "rewardItem": "Yarn",
+    "rewardQuantity": 150,
+    "progress": 1570050
+  },
+  {
+    "firstSeen": 1662960682525,
+    "date": "2022-09-12",
+    "goalItem": "Peppers",
+    "goalQuantity": 5096400,
+    "rewardItem": "Fishing Net",
+    "rewardQuantity": 100,
+    "progress": 5588415
+  },
+  {
+    "firstSeen": 1663047080562,
+    "date": "2022-09-13",
+    "goalItem": "Axe",
+    "goalQuantity": 1645100,
+    "rewardItem": "Puffer",
+    "rewardQuantity": 100,
+    "progress": 1400076
+  },
+  {
+    "firstSeen": 1663132647025,
+    "date": "2022-09-14",
+    "goalItem": "MIAB",
+    "goalQuantity": 1486800,
+    "rewardItem": "Grab Bag 06",
+    "rewardQuantity": 3,
+    "progress": 2316309
   }
 ]

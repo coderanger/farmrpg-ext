@@ -4,52 +4,104 @@
   - Horned Beetle
   - Worms
   likes:
+  - Bird Egg
+  - Carbon Sphere
   - Coal
+  - Hammer
   - Hops
+  - Oak
   loves:
+  - Black Powder
   - Explosive
+  - Fireworks
   - Iced Tea
   name: Beatrix
 - hates:
   - Green Dye
+  - Grubs
+  - Old Boot
+  - Purple Flower
+  - Valentines Card
   - Worms
   likes:
+  - Glass Orb
   - Gold Carrot
   - Gold Cucumber
-  loves: []
+  - Gold Peas
+  - Milk
+  - Slimestone
+  loves:
+  - Cheese
+  - Gold Catfish
+  - Wooden Box
   name: Borgen
 - hates:
+  - Crappie
+  - Drum
+  - Grubs
+  - Lemon
+  - Lemonade
   - Peppers
+  - Snowball
   - Worms
   likes:
+  - Bone
   - Bucket
+  - Giant Centipede
   - Gold Peppers
-  - Purple Flower
+  - Gummy Worms
+  - Mushroom
+  - Snail
+  - Spider
   loves:
   - Pirate Bandana
   - Pirate Flag
+  - Purple Flower
+  - Valentines Card
   name: Buddy
 - hates:
   - Feathers
+  - Milk
+  - Mushroom
   - Worms
   likes:
   - Aquamarine
+  - Giant Centipede
+  - Grapes
+  - Ladder
+  - Slimestone
   - Snail
   loves:
   - Grasshopper
   - Horned Beetle
+  - Leather
+  - Old Boot
   - Shiny Beetle
+  - Yarn
   name: Cecil
 - hates:
+  - Blue Crab
+  - Bone
+  - Cheese
   - Green Chromis
+  - Grubs
+  - Lemon
+  - Lemonade
+  - Snail
+  - Spider
   - Stone
   - Worms
   likes:
+  - Carrot
   - Grasshopper
   - Twine
   loves:
   - Apple
+  - Apple Cider
+  - Box of Chocolate
   - Gold Carrot
+  - Peach
+  - Valentines Card
   name: Charles
 - hates:
   - Radish
@@ -63,61 +115,118 @@
   - Gold Catfish
   - Gold Drum
   - Gold Trout
+  - Large Net
   name: Cpt Thomas
 - hates:
   - Bone
+  - Cheese
   - Fish Bones
   - Worms
   likes:
+  - Arrowhead
+  - Bird Egg
   - Glass Orb
   - Hops
+  - Mushroom Stew
+  - Orange Juice
   loves:
   - Apple Cider
+  - Carbon Sphere
+  - Hide
+  - Mug of Beer
   - Spider
   name: George
 - hates:
+  - Aquamarine
   - Milk
+  - Valentines Card
   - Worms
   likes:
   - Apple Cider
+  - Arrowhead
   - Bluegill
+  - Carp
+  - Cheese
+  - Horn
+  - Largemouth Bass
+  - Mushroom Stew
+  - Peach
+  - Peas
   - Trout
   loves:
+  - Gold Trout
   - Mug of Beer
+  - Potato
   name: Holger
 - hates:
+  - Grubs
   - Hops
+  - Snowball
+  - Spider
   - Stingray
   - Worms
   likes:
+  - Cheese
   - Grapes
+  - Milk
   - Old Boot
+  - Scrap Metal
+  - Tomato
   loves:
   - Leather
+  - Mushroom Paste
   - Peach
+  - Yellow Perch
   name: Jill
 - hates:
+  - Crappie
+  - Old Boot
   - Snail
+  - Spider
   - Worms
   likes:
+  - 3-leaf Clover
+  - Apple Cider
+  - Bucket
   - Green Parchment
+  - Iced Tea
+  - Iron Cup
+  - Peas
   - Purple Parchment
   loves:
+  - Glass Orb
   - Gold Peas
+  - Milk
   - Shrimp
+  - Small Prawn
   name: Lorn
 - hates:
+  - Box of Chocolate
+  - Cheese
+  - Coal
+  - Drum
+  - Snowball
   - Worms
   likes:
+  - Fish Bones
+  - Hammer
   - Treat Bag 02
+  - Yarn
   loves:
   - Bone
   - Spider
+  - Valentines Card
   name: Mummy
 - hates:
+  - 3-leaf Clover
   - Acorn
+  - Arrowhead
+  - Bird Egg
+  - Milk
+  - Snowball
   - Worms
   likes:
+  - Glass Orb
   - Hammer
   - Scrap Wire
   loves:
@@ -127,24 +236,60 @@
 - hates:
   - Aquamarine
   - Caterpillar
+  - Cheese
   - Ladder
+  - Milk
+  - Valentines Card
   - Worms
   likes:
   - Arrowhead
   - Black Powder
+  - Bucket
+  - Carbon Sphere
+  - Coal
+  - Green Parchment
+  - Old Boot
+  - Unpolished Shimmer Stone
   loves:
+  - 5 Gold
   - Hammer
+  - Mushroom Paste
+  - Shovel
   name: Ric Ryph
 - hates:
+  - Carp
+  - Coal
+  - Fire Ant
+  - Fish Bones
+  - Grubs
+  - Horned Beetle
   - Iron Cup
+  - Old Boot
+  - Spider
   - Worms
   likes:
   - Apple
+  - Apple Cider
+  - Aquamarine
   - Carrot
+  - Caterpillar
+  - Fireworks
+  - Iced Tea
+  - Purple Flower
   loves:
+  - Blue Dye
+  - Box of Chocolate
+  - Gold Carrot
   - Green Dye
+  - Purple Dye
+  - Red Dye
+  - Valentines Card
   name: Rosalie
 - hates:
+  - Bone
+  - Cheese
+  - Grubs
+  - Iron Cup
   - Lemon
   - Lemonade
   - Worms
@@ -157,31 +302,62 @@
   name: Star Meerif
 - hates:
   - Eggs
+  - Green Dye
+  - Leek
   - Worms
   likes:
+  - Carp
+  - Drum
   - Gummy Worms
+  - Iced Tea
+  - Largemouth Bass
+  - Mealworms
   - Minnows
   loves:
+  - Fishing Net
   - Flier
+  - Gold Catfish
+  - Gold Trout
   - Goldgill
   name: Thomas
 - hates:
+  - Aquamarine
+  - Purple Flower
+  - Purple Parchment
   - Shrimp
+  - Valentines Card
   - Worms
   likes:
+  - Acorn
+  - Apple
+  - Cheese
+  - Hops
+  - Horn
   - Leather Diary
+  - Shovel
   - Wooden Box
   loves:
+  - 5 Gold
   - Apple Cider
   - Axe
+  - Lemonade
+  - Mushroom Paste
+  - Onion Soup
+  - Orange Juice
   name: Vincent
 - hates:
   - Eggs
+  - Fire Ant
   - Mushroom
   - Peas
   - Trout
   - Worms
   likes:
+  - Blue Dye
+  - Blue Feathers
+  - Bucket
+  - Caterpillar
+  - Feathers
   - Grasshopper
   loves:
   - Carrot

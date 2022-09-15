@@ -8169,10 +8169,90 @@
   },
   {
     "id": "727168",
-    "next": null,
+    "next": "813578",
     "prev": "727113",
     "questlines": [
       "Far Away"
+    ]
+  },
+  {
+    "id": "813578",
+    "next": "815142",
+    "prev": "727168",
+    "questlines": [
+      "Far Away"
+    ]
+  },
+  {
+    "id": "815142",
+    "next": "815158",
+    "prev": "813578",
+    "questlines": [
+      "Far Away"
+    ]
+  },
+  {
+    "id": "815158",
+    "next": "815183",
+    "prev": "815142",
+    "questlines": [
+      "Far Away"
+    ]
+  },
+  {
+    "id": "815183",
+    "next": "815217",
+    "prev": "815158",
+    "questlines": [
+      "Far Away"
+    ]
+  },
+  {
+    "id": "815217",
+    "next": null,
+    "prev": "815183",
+    "questlines": [
+      "Far Away"
+    ]
+  },
+  {
+    "availableFrom": 1662786000000,
+    "availableTo": 1664600399000,
+    "id": "824374",
+    "next": "824426",
+    "prev": null,
+    "questlines": [
+      "Our Patron of Refreshment"
+    ]
+  },
+  {
+    "availableFrom": 1662786000000,
+    "availableTo": 1664600399000,
+    "id": "824426",
+    "next": "824439",
+    "prev": "824374",
+    "questlines": [
+      "Our Patron of Refreshment"
+    ]
+  },
+  {
+    "availableFrom": 1662786000000,
+    "availableTo": 1664600399000,
+    "id": "824439",
+    "next": "824473",
+    "prev": "824426",
+    "questlines": [
+      "Our Patron of Refreshment"
+    ]
+  },
+  {
+    "availableFrom": 1662786000000,
+    "availableTo": 1664600399000,
+    "id": "824473",
+    "next": null,
+    "prev": "824439",
+    "questlines": [
+      "Our Patron of Refreshment"
     ]
   }
 ]

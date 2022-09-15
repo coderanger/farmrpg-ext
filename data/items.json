@@ -1586,7 +1586,6 @@
     "xp": 1000
   },
   {
-    "firstSeen": 1662286612790,
     "name": "Board",
     "id": "21",
     "image": "/img/items/5885.png",
@@ -6764,7 +6763,10 @@
     "firstSeen": 1660614356227,
     "name": "Rice Seeds",
     "id": "631",
-    "image": "/img/items/riceplant.png"
+    "image": "/img/items/riceplant.png",
+    "buyPrice": 200000,
+    "xp": 100000,
+    "growthTime": 864000
   },
   {
     "firstSeen": 1660593941417,

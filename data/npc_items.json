@@ -1,7 +1,17 @@
 [
   {
     "adjective": "loves",
+    "item_name": "Black Powder",
+    "npc_name": "Beatrix"
+  },
+  {
+    "adjective": "loves",
     "item_name": "Explosive",
+    "npc_name": "Beatrix"
+  },
+  {
+    "adjective": "loves",
+    "item_name": "Fireworks",
     "npc_name": "Beatrix"
   },
   {
@@ -11,12 +21,32 @@
   },
   {
     "adjective": "likes",
+    "item_name": "Bird Egg",
+    "npc_name": "Beatrix"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Carbon Sphere",
+    "npc_name": "Beatrix"
+  },
+  {
+    "adjective": "likes",
     "item_name": "Coal",
     "npc_name": "Beatrix"
   },
   {
     "adjective": "likes",
+    "item_name": "Hammer",
+    "npc_name": "Beatrix"
+  },
+  {
+    "adjective": "likes",
     "item_name": "Hops",
+    "npc_name": "Beatrix"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Oak",
     "npc_name": "Beatrix"
   },
   {
@@ -40,6 +70,26 @@
     "npc_name": "Beatrix"
   },
   {
+    "adjective": "loves",
+    "item_name": "Cheese",
+    "npc_name": "Borgen"
+  },
+  {
+    "adjective": "loves",
+    "item_name": "Gold Catfish",
+    "npc_name": "Borgen"
+  },
+  {
+    "adjective": "loves",
+    "item_name": "Wooden Box",
+    "npc_name": "Borgen"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Glass Orb",
+    "npc_name": "Borgen"
+  },
+  {
     "adjective": "likes",
     "item_name": "Gold Carrot",
     "npc_name": "Borgen"
@@ -50,8 +100,43 @@
     "npc_name": "Borgen"
   },
   {
+    "adjective": "likes",
+    "item_name": "Gold Peas",
+    "npc_name": "Borgen"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Milk",
+    "npc_name": "Borgen"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Slimestone",
+    "npc_name": "Borgen"
+  },
+  {
     "adjective": "hates",
     "item_name": "Green Dye",
+    "npc_name": "Borgen"
+  },
+  {
+    "adjective": "hates",
+    "item_name": "Grubs",
+    "npc_name": "Borgen"
+  },
+  {
+    "adjective": "hates",
+    "item_name": "Old Boot",
+    "npc_name": "Borgen"
+  },
+  {
+    "adjective": "hates",
+    "item_name": "Purple Flower",
+    "npc_name": "Borgen"
+  },
+  {
+    "adjective": "hates",
+    "item_name": "Valentines Card",
     "npc_name": "Borgen"
   },
   {
@@ -70,8 +155,28 @@
     "npc_name": "Buddy"
   },
   {
+    "adjective": "loves",
+    "item_name": "Purple Flower",
+    "npc_name": "Buddy"
+  },
+  {
+    "adjective": "loves",
+    "item_name": "Valentines Card",
+    "npc_name": "Buddy"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Bone",
+    "npc_name": "Buddy"
+  },
+  {
     "adjective": "likes",
     "item_name": "Bucket",
+    "npc_name": "Buddy"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Giant Centipede",
     "npc_name": "Buddy"
   },
   {
@@ -81,12 +186,57 @@
   },
   {
     "adjective": "likes",
-    "item_name": "Purple Flower",
+    "item_name": "Gummy Worms",
+    "npc_name": "Buddy"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Mushroom",
+    "npc_name": "Buddy"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Snail",
+    "npc_name": "Buddy"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Spider",
+    "npc_name": "Buddy"
+  },
+  {
+    "adjective": "hates",
+    "item_name": "Crappie",
+    "npc_name": "Buddy"
+  },
+  {
+    "adjective": "hates",
+    "item_name": "Drum",
+    "npc_name": "Buddy"
+  },
+  {
+    "adjective": "hates",
+    "item_name": "Grubs",
+    "npc_name": "Buddy"
+  },
+  {
+    "adjective": "hates",
+    "item_name": "Lemon",
+    "npc_name": "Buddy"
+  },
+  {
+    "adjective": "hates",
+    "item_name": "Lemonade",
     "npc_name": "Buddy"
   },
   {
     "adjective": "hates",
     "item_name": "Peppers",
+    "npc_name": "Buddy"
+  },
+  {
+    "adjective": "hates",
+    "item_name": "Snowball",
     "npc_name": "Buddy"
   },
   {
@@ -106,12 +256,47 @@
   },
   {
     "adjective": "loves",
+    "item_name": "Leather",
+    "npc_name": "Cecil"
+  },
+  {
+    "adjective": "loves",
+    "item_name": "Old Boot",
+    "npc_name": "Cecil"
+  },
+  {
+    "adjective": "loves",
     "item_name": "Shiny Beetle",
+    "npc_name": "Cecil"
+  },
+  {
+    "adjective": "loves",
+    "item_name": "Yarn",
     "npc_name": "Cecil"
   },
   {
     "adjective": "likes",
     "item_name": "Aquamarine",
+    "npc_name": "Cecil"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Giant Centipede",
+    "npc_name": "Cecil"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Grapes",
+    "npc_name": "Cecil"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Ladder",
+    "npc_name": "Cecil"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Slimestone",
     "npc_name": "Cecil"
   },
   {
@@ -126,6 +311,16 @@
   },
   {
     "adjective": "hates",
+    "item_name": "Milk",
+    "npc_name": "Cecil"
+  },
+  {
+    "adjective": "hates",
+    "item_name": "Mushroom",
+    "npc_name": "Cecil"
+  },
+  {
+    "adjective": "hates",
     "item_name": "Worms",
     "npc_name": "Cecil"
   },
@@ -136,7 +331,32 @@
   },
   {
     "adjective": "loves",
+    "item_name": "Apple Cider",
+    "npc_name": "Charles Horsington III"
+  },
+  {
+    "adjective": "loves",
+    "item_name": "Box of Chocolate",
+    "npc_name": "Charles Horsington III"
+  },
+  {
+    "adjective": "loves",
     "item_name": "Gold Carrot",
+    "npc_name": "Charles Horsington III"
+  },
+  {
+    "adjective": "loves",
+    "item_name": "Peach",
+    "npc_name": "Charles Horsington III"
+  },
+  {
+    "adjective": "loves",
+    "item_name": "Valentines Card",
+    "npc_name": "Charles Horsington III"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Carrot",
     "npc_name": "Charles Horsington III"
   },
   {
@@ -151,7 +371,47 @@
   },
   {
     "adjective": "hates",
+    "item_name": "Blue Crab",
+    "npc_name": "Charles Horsington III"
+  },
+  {
+    "adjective": "hates",
+    "item_name": "Bone",
+    "npc_name": "Charles Horsington III"
+  },
+  {
+    "adjective": "hates",
+    "item_name": "Cheese",
+    "npc_name": "Charles Horsington III"
+  },
+  {
+    "adjective": "hates",
     "item_name": "Green Chromis",
+    "npc_name": "Charles Horsington III"
+  },
+  {
+    "adjective": "hates",
+    "item_name": "Grubs",
+    "npc_name": "Charles Horsington III"
+  },
+  {
+    "adjective": "hates",
+    "item_name": "Lemon",
+    "npc_name": "Charles Horsington III"
+  },
+  {
+    "adjective": "hates",
+    "item_name": "Lemonade",
+    "npc_name": "Charles Horsington III"
+  },
+  {
+    "adjective": "hates",
+    "item_name": "Snail",
+    "npc_name": "Charles Horsington III"
+  },
+  {
+    "adjective": "hates",
+    "item_name": "Spider",
     "npc_name": "Charles Horsington III"
   },
   {
@@ -182,6 +442,11 @@
   {
     "adjective": "loves",
     "item_name": "Gold Trout",
+    "npc_name": "Captain Thomas"
+  },
+  {
+    "adjective": "loves",
+    "item_name": "Large Net",
     "npc_name": "Captain Thomas"
   },
   {
@@ -216,7 +481,32 @@
   },
   {
     "adjective": "loves",
+    "item_name": "Carbon Sphere",
+    "npc_name": "George"
+  },
+  {
+    "adjective": "loves",
+    "item_name": "Hide",
+    "npc_name": "George"
+  },
+  {
+    "adjective": "loves",
+    "item_name": "Mug of Beer",
+    "npc_name": "George"
+  },
+  {
+    "adjective": "loves",
     "item_name": "Spider",
+    "npc_name": "George"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Arrowhead",
+    "npc_name": "George"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Bird Egg",
     "npc_name": "George"
   },
   {
@@ -230,8 +520,23 @@
     "npc_name": "George"
   },
   {
+    "adjective": "likes",
+    "item_name": "Mushroom Stew",
+    "npc_name": "George"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Orange Juice",
+    "npc_name": "George"
+  },
+  {
     "adjective": "hates",
     "item_name": "Bone",
+    "npc_name": "George"
+  },
+  {
+    "adjective": "hates",
+    "item_name": "Cheese",
     "npc_name": "George"
   },
   {
@@ -246,7 +551,17 @@
   },
   {
     "adjective": "loves",
+    "item_name": "Gold Trout",
+    "npc_name": "Holger"
+  },
+  {
+    "adjective": "loves",
     "item_name": "Mug of Beer",
+    "npc_name": "Holger"
+  },
+  {
+    "adjective": "loves",
+    "item_name": "Potato",
     "npc_name": "Holger"
   },
   {
@@ -256,7 +571,47 @@
   },
   {
     "adjective": "likes",
+    "item_name": "Arrowhead",
+    "npc_name": "Holger"
+  },
+  {
+    "adjective": "likes",
     "item_name": "Bluegill",
+    "npc_name": "Holger"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Carp",
+    "npc_name": "Holger"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Cheese",
+    "npc_name": "Holger"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Horn",
+    "npc_name": "Holger"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Largemouth Bass",
+    "npc_name": "Holger"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Mushroom Stew",
+    "npc_name": "Holger"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Peach",
+    "npc_name": "Holger"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Peas",
     "npc_name": "Holger"
   },
   {
@@ -266,7 +621,17 @@
   },
   {
     "adjective": "hates",
+    "item_name": "Aquamarine",
+    "npc_name": "Holger"
+  },
+  {
+    "adjective": "hates",
     "item_name": "Milk",
+    "npc_name": "Holger"
+  },
+  {
+    "adjective": "hates",
+    "item_name": "Valentines Card",
     "npc_name": "Holger"
   },
   {
@@ -281,7 +646,22 @@
   },
   {
     "adjective": "loves",
+    "item_name": "Mushroom Paste",
+    "npc_name": "Jill"
+  },
+  {
+    "adjective": "loves",
     "item_name": "Peach",
+    "npc_name": "Jill"
+  },
+  {
+    "adjective": "loves",
+    "item_name": "Yellow Perch",
+    "npc_name": "Jill"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Cheese",
     "npc_name": "Jill"
   },
   {
@@ -291,12 +671,42 @@
   },
   {
     "adjective": "likes",
+    "item_name": "Milk",
+    "npc_name": "Jill"
+  },
+  {
+    "adjective": "likes",
     "item_name": "Old Boot",
+    "npc_name": "Jill"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Scrap Metal",
+    "npc_name": "Jill"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Tomato",
+    "npc_name": "Jill"
+  },
+  {
+    "adjective": "hates",
+    "item_name": "Grubs",
     "npc_name": "Jill"
   },
   {
     "adjective": "hates",
     "item_name": "Hops",
+    "npc_name": "Jill"
+  },
+  {
+    "adjective": "hates",
+    "item_name": "Snowball",
+    "npc_name": "Jill"
+  },
+  {
+    "adjective": "hates",
+    "item_name": "Spider",
     "npc_name": "Jill"
   },
   {
@@ -311,12 +721,42 @@
   },
   {
     "adjective": "loves",
+    "item_name": "Glass Orb",
+    "npc_name": "Lorn"
+  },
+  {
+    "adjective": "loves",
     "item_name": "Gold Peas",
     "npc_name": "Lorn"
   },
   {
     "adjective": "loves",
+    "item_name": "Milk",
+    "npc_name": "Lorn"
+  },
+  {
+    "adjective": "loves",
     "item_name": "Shrimp",
+    "npc_name": "Lorn"
+  },
+  {
+    "adjective": "loves",
+    "item_name": "Small Prawn",
+    "npc_name": "Lorn"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "3-leaf Clover",
+    "npc_name": "Lorn"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Apple Cider",
+    "npc_name": "Lorn"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Bucket",
     "npc_name": "Lorn"
   },
   {
@@ -326,12 +766,42 @@
   },
   {
     "adjective": "likes",
+    "item_name": "Iced Tea",
+    "npc_name": "Lorn"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Iron Cup",
+    "npc_name": "Lorn"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Peas",
+    "npc_name": "Lorn"
+  },
+  {
+    "adjective": "likes",
     "item_name": "Purple Parchment",
     "npc_name": "Lorn"
   },
   {
     "adjective": "hates",
+    "item_name": "Crappie",
+    "npc_name": "Lorn"
+  },
+  {
+    "adjective": "hates",
+    "item_name": "Old Boot",
+    "npc_name": "Lorn"
+  },
+  {
+    "adjective": "hates",
     "item_name": "Snail",
+    "npc_name": "Lorn"
+  },
+  {
+    "adjective": "hates",
+    "item_name": "Spider",
     "npc_name": "Lorn"
   },
   {
@@ -350,8 +820,53 @@
     "npc_name": "Mummy"
   },
   {
+    "adjective": "loves",
+    "item_name": "Valentines Card",
+    "npc_name": "Mummy"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Fish Bones",
+    "npc_name": "Mummy"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Hammer",
+    "npc_name": "Mummy"
+  },
+  {
     "adjective": "likes",
     "item_name": "Treat Bag 02",
+    "npc_name": "Mummy"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Yarn",
+    "npc_name": "Mummy"
+  },
+  {
+    "adjective": "hates",
+    "item_name": "Box of Chocolate",
+    "npc_name": "Mummy"
+  },
+  {
+    "adjective": "hates",
+    "item_name": "Cheese",
+    "npc_name": "Mummy"
+  },
+  {
+    "adjective": "hates",
+    "item_name": "Coal",
+    "npc_name": "Mummy"
+  },
+  {
+    "adjective": "hates",
+    "item_name": "Drum",
+    "npc_name": "Mummy"
+  },
+  {
+    "adjective": "hates",
+    "item_name": "Snowball",
     "npc_name": "Mummy"
   },
   {
@@ -371,6 +886,11 @@
   },
   {
     "adjective": "likes",
+    "item_name": "Glass Orb",
+    "npc_name": "ROOMBA"
+  },
+  {
+    "adjective": "likes",
     "item_name": "Hammer",
     "npc_name": "ROOMBA"
   },
@@ -381,7 +901,32 @@
   },
   {
     "adjective": "hates",
+    "item_name": "3-leaf Clover",
+    "npc_name": "ROOMBA"
+  },
+  {
+    "adjective": "hates",
     "item_name": "Acorn",
+    "npc_name": "ROOMBA"
+  },
+  {
+    "adjective": "hates",
+    "item_name": "Arrowhead",
+    "npc_name": "ROOMBA"
+  },
+  {
+    "adjective": "hates",
+    "item_name": "Bird Egg",
+    "npc_name": "ROOMBA"
+  },
+  {
+    "adjective": "hates",
+    "item_name": "Milk",
+    "npc_name": "ROOMBA"
+  },
+  {
+    "adjective": "hates",
+    "item_name": "Snowball",
     "npc_name": "ROOMBA"
   },
   {
@@ -391,7 +936,22 @@
   },
   {
     "adjective": "loves",
+    "item_name": "5 Gold",
+    "npc_name": "Ric Ryph"
+  },
+  {
+    "adjective": "loves",
     "item_name": "Hammer",
+    "npc_name": "Ric Ryph"
+  },
+  {
+    "adjective": "loves",
+    "item_name": "Mushroom Paste",
+    "npc_name": "Ric Ryph"
+  },
+  {
+    "adjective": "loves",
+    "item_name": "Shovel",
     "npc_name": "Ric Ryph"
   },
   {
@@ -402,6 +962,36 @@
   {
     "adjective": "likes",
     "item_name": "Black Powder",
+    "npc_name": "Ric Ryph"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Bucket",
+    "npc_name": "Ric Ryph"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Carbon Sphere",
+    "npc_name": "Ric Ryph"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Coal",
+    "npc_name": "Ric Ryph"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Green Parchment",
+    "npc_name": "Ric Ryph"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Old Boot",
+    "npc_name": "Ric Ryph"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Unpolished Shimmer Stone",
     "npc_name": "Ric Ryph"
   },
   {
@@ -416,7 +1006,22 @@
   },
   {
     "adjective": "hates",
+    "item_name": "Cheese",
+    "npc_name": "Ric Ryph"
+  },
+  {
+    "adjective": "hates",
     "item_name": "Ladder",
+    "npc_name": "Ric Ryph"
+  },
+  {
+    "adjective": "hates",
+    "item_name": "Milk",
+    "npc_name": "Ric Ryph"
+  },
+  {
+    "adjective": "hates",
+    "item_name": "Valentines Card",
     "npc_name": "Ric Ryph"
   },
   {
@@ -426,7 +1031,37 @@
   },
   {
     "adjective": "loves",
+    "item_name": "Blue Dye",
+    "npc_name": "Rosalie"
+  },
+  {
+    "adjective": "loves",
+    "item_name": "Box of Chocolate",
+    "npc_name": "Rosalie"
+  },
+  {
+    "adjective": "loves",
+    "item_name": "Gold Carrot",
+    "npc_name": "Rosalie"
+  },
+  {
+    "adjective": "loves",
     "item_name": "Green Dye",
+    "npc_name": "Rosalie"
+  },
+  {
+    "adjective": "loves",
+    "item_name": "Purple Dye",
+    "npc_name": "Rosalie"
+  },
+  {
+    "adjective": "loves",
+    "item_name": "Red Dye",
+    "npc_name": "Rosalie"
+  },
+  {
+    "adjective": "loves",
+    "item_name": "Valentines Card",
     "npc_name": "Rosalie"
   },
   {
@@ -436,12 +1071,82 @@
   },
   {
     "adjective": "likes",
+    "item_name": "Apple Cider",
+    "npc_name": "Rosalie"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Aquamarine",
+    "npc_name": "Rosalie"
+  },
+  {
+    "adjective": "likes",
     "item_name": "Carrot",
+    "npc_name": "Rosalie"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Caterpillar",
+    "npc_name": "Rosalie"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Fireworks",
+    "npc_name": "Rosalie"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Iced Tea",
+    "npc_name": "Rosalie"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Purple Flower",
+    "npc_name": "Rosalie"
+  },
+  {
+    "adjective": "hates",
+    "item_name": "Carp",
+    "npc_name": "Rosalie"
+  },
+  {
+    "adjective": "hates",
+    "item_name": "Coal",
+    "npc_name": "Rosalie"
+  },
+  {
+    "adjective": "hates",
+    "item_name": "Fire Ant",
+    "npc_name": "Rosalie"
+  },
+  {
+    "adjective": "hates",
+    "item_name": "Fish Bones",
+    "npc_name": "Rosalie"
+  },
+  {
+    "adjective": "hates",
+    "item_name": "Grubs",
+    "npc_name": "Rosalie"
+  },
+  {
+    "adjective": "hates",
+    "item_name": "Horned Beetle",
     "npc_name": "Rosalie"
   },
   {
     "adjective": "hates",
     "item_name": "Iron Cup",
+    "npc_name": "Rosalie"
+  },
+  {
+    "adjective": "hates",
+    "item_name": "Old Boot",
+    "npc_name": "Rosalie"
+  },
+  {
+    "adjective": "hates",
+    "item_name": "Spider",
     "npc_name": "Rosalie"
   },
   {
@@ -471,6 +1176,26 @@
   },
   {
     "adjective": "hates",
+    "item_name": "Bone",
+    "npc_name": "Star Meerif"
+  },
+  {
+    "adjective": "hates",
+    "item_name": "Cheese",
+    "npc_name": "Star Meerif"
+  },
+  {
+    "adjective": "hates",
+    "item_name": "Grubs",
+    "npc_name": "Star Meerif"
+  },
+  {
+    "adjective": "hates",
+    "item_name": "Iron Cup",
+    "npc_name": "Star Meerif"
+  },
+  {
+    "adjective": "hates",
     "item_name": "Lemon",
     "npc_name": "Star Meerif"
   },
@@ -486,7 +1211,22 @@
   },
   {
     "adjective": "loves",
+    "item_name": "Fishing Net",
+    "npc_name": "Thomas"
+  },
+  {
+    "adjective": "loves",
     "item_name": "Flier",
+    "npc_name": "Thomas"
+  },
+  {
+    "adjective": "loves",
+    "item_name": "Gold Catfish",
+    "npc_name": "Thomas"
+  },
+  {
+    "adjective": "loves",
+    "item_name": "Gold Trout",
     "npc_name": "Thomas"
   },
   {
@@ -496,7 +1236,32 @@
   },
   {
     "adjective": "likes",
+    "item_name": "Carp",
+    "npc_name": "Thomas"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Drum",
+    "npc_name": "Thomas"
+  },
+  {
+    "adjective": "likes",
     "item_name": "Gummy Worms",
+    "npc_name": "Thomas"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Iced Tea",
+    "npc_name": "Thomas"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Largemouth Bass",
+    "npc_name": "Thomas"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Mealworms",
     "npc_name": "Thomas"
   },
   {
@@ -511,8 +1276,23 @@
   },
   {
     "adjective": "hates",
+    "item_name": "Green Dye",
+    "npc_name": "Thomas"
+  },
+  {
+    "adjective": "hates",
+    "item_name": "Leek",
+    "npc_name": "Thomas"
+  },
+  {
+    "adjective": "hates",
     "item_name": "Worms",
     "npc_name": "Thomas"
+  },
+  {
+    "adjective": "loves",
+    "item_name": "5 Gold",
+    "npc_name": "Vincent"
   },
   {
     "adjective": "loves",
@@ -525,8 +1305,58 @@
     "npc_name": "Vincent"
   },
   {
+    "adjective": "loves",
+    "item_name": "Lemonade",
+    "npc_name": "Vincent"
+  },
+  {
+    "adjective": "loves",
+    "item_name": "Mushroom Paste",
+    "npc_name": "Vincent"
+  },
+  {
+    "adjective": "loves",
+    "item_name": "Onion Soup",
+    "npc_name": "Vincent"
+  },
+  {
+    "adjective": "loves",
+    "item_name": "Orange Juice",
+    "npc_name": "Vincent"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Acorn",
+    "npc_name": "Vincent"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Apple",
+    "npc_name": "Vincent"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Cheese",
+    "npc_name": "Vincent"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Hops",
+    "npc_name": "Vincent"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Horn",
+    "npc_name": "Vincent"
+  },
+  {
     "adjective": "likes",
     "item_name": "Leather Diary",
+    "npc_name": "Vincent"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Shovel",
     "npc_name": "Vincent"
   },
   {
@@ -536,7 +1366,27 @@
   },
   {
     "adjective": "hates",
+    "item_name": "Aquamarine",
+    "npc_name": "Vincent"
+  },
+  {
+    "adjective": "hates",
+    "item_name": "Purple Flower",
+    "npc_name": "Vincent"
+  },
+  {
+    "adjective": "hates",
+    "item_name": "Purple Parchment",
+    "npc_name": "Vincent"
+  },
+  {
+    "adjective": "hates",
     "item_name": "Shrimp",
+    "npc_name": "Vincent"
+  },
+  {
+    "adjective": "hates",
+    "item_name": "Valentines Card",
     "npc_name": "Vincent"
   },
   {
@@ -556,12 +1406,42 @@
   },
   {
     "adjective": "likes",
+    "item_name": "Blue Dye",
+    "npc_name": "frank"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Blue Feathers",
+    "npc_name": "frank"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Bucket",
+    "npc_name": "frank"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Caterpillar",
+    "npc_name": "frank"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Feathers",
+    "npc_name": "frank"
+  },
+  {
+    "adjective": "likes",
     "item_name": "Grasshopper",
     "npc_name": "frank"
   },
   {
     "adjective": "hates",
     "item_name": "Eggs",
+    "npc_name": "frank"
+  },
+  {
+    "adjective": "hates",
+    "item_name": "Fire Ant",
     "npc_name": "frank"
   },
   {
