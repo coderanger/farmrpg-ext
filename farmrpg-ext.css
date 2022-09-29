@@ -96,3 +96,12 @@
     color: red;
     padding-right: 10px;
 }
+
+.farmrpg-ext-quickaction {
+    border-width: 3px;
+    border-color: #717073;
+}
+
+.ext-layout-dark .farmrpg-ext-quickaction {
+    border-color: #EEEDF2;
+}
