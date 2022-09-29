@@ -119,6 +119,7 @@ class Quest:
     requires_exploring: Optional[int] = None
     requires_tower: Optional[int] = None
     is_personal: Optional[bool] = None
+    prereq: Optional[str] = None
 
 
 def load_quests(
@@ -920,6 +921,73 @@ def gen_level_reward_items():
                 }
 
 
+def gen_npc_level_rewards():
+    npcs_path = Path(__file__) / ".." / ".." / "data" / "npcs.yaml"
+    npcs: list[dict] = yaml.safe_load(npcs_path.resolve().open())
+    for npc in npcs:
+        for reward in npc["rewards"]:
+            yield {
+                "id": f"{npc['name']}-{reward['level']}",
+                "npc_name": npc["name"],
+                "level": reward["level"],
+            }
+
+
+def gen_npc_level_reward_items():
+    npcs_path = Path(__file__) / ".." / ".." / "data" / "npcs.yaml"
+    npcs: list[dict] = yaml.safe_load(npcs_path.resolve().open())
+    items = {it.name for it in load_items()}
+    for npc in npcs:
+        for reward in npc["rewards"]:
+            for i, (item_name, quantity) in enumerate(reward["items"].items()):
+                assert item_name in items, item_name
+                yield {
+                    "npc_reward_id": f"{npc['name']}-{reward['level']}",
+                    "item_name": item_name,
+                    "quantity": quantity,
+                    "order": i,
+                }
+
+
+def gen_cooking_recipes():
+    cooking_recipes_path = (
+        Path(__file__) / ".." / ".." / "data" / "cooking_recipes.yaml"
+    )
+    cooking_recipes: list[dict] = yaml.safe_load(cooking_recipes_path.resolve().open())
+    for recipe in cooking_recipes:
+        if recipe["time"].endswith("m"):
+            time = int(recipe["time"][:-1]) * 60
+        elif recipe["time"].endswith("h"):
+            time = int(recipe["time"][:-1]) * 60 * 60
+        else:
+            raise ValueError(f"Unknown time value {recipe['time']}")
+
+        yield {
+            "item_name": recipe["name"],
+            "recipe_item_name": recipe.get("recipe"),
+            "time": time,
+            "level": recipe["level"],
+        }
+
+
+def gen_cooking_recipe_items():
+    cooking_recipes_path = (
+        Path(__file__) / ".." / ".." / "data" / "cooking_recipes.yaml"
+    )
+    cooking_recipes: list[dict] = yaml.safe_load(cooking_recipes_path.resolve().open())
+    items = {it.name for it in load_items()}
+    for recipe in cooking_recipes:
+        assert recipe["name"] in items
+        for i, (item_name, quantity) in enumerate(recipe["items"].items()):
+            assert item_name in items
+            yield {
+                "recipe_name": recipe["name"],
+                "input_name": item_name,
+                "quantity": quantity,
+                "order": i,
+            }
+
+
 GEN_FIXTURES = {
     "drop_rates": gen_drop_rates,
     "drop_rates_gql": gen_drop_rates_gql,
@@ -944,6 +1012,10 @@ GEN_FIXTURES = {
     "npc_items": gen_npc_items,
     "level_rewards": gen_level_rewards,
     "level_reward_items": gen_level_reward_items,
+    "npc_level_rewards": gen_npc_level_rewards,
+    "npc_level_reward_items": gen_npc_level_reward_items,
+    "cooking_recipes": gen_cooking_recipes,
+    "cooking_recipe_items": gen_cooking_recipe_items,
 }
 
 

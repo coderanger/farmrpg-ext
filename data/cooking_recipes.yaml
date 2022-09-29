@@ -1,0 +1,119 @@
+- name: Bone Broth
+  time: 10m
+  level: 1
+  items:
+    Bone: 10
+    Coal: 4
+    Cooking Pot: 1
+
+- name: Onion Soup
+  recipe: George's Onion Soup
+  time: 1h
+  level: 5
+  items:
+    Coal: 60
+    Onion: 50
+    Cooking Pot: 1
+    Bone Broth: 1
+
+- name: Over The Moon
+  recipe: Roomba’s Over The Moon
+  time: 2h
+  level: 10
+  items:
+    Coal: 120
+    Leek: 3
+    Corn: 3
+    Steak: 3
+    Salt: 1
+    Herbs: 1
+
+- name: Cat’s Meow
+  recipe: Thomas’s Cat’s Meow
+  time: 2h
+  level: 15
+  items:
+    Coal: 120
+    Fish Bones: 25
+    Onion: 5
+    Milk: 5
+    Essence of Slime: 3
+    Salt: 1
+    Cooking Pot: 1
+    Bone Broth: 1
+
+- name: Mushroom Stew
+  recipe: Holger's Mushroom Stew
+  time: 3h
+  level: 20
+  items:
+    Coal: 180
+    Mushroom: 100
+    Peppers: 60
+    Carrot: 60
+    Leek: 32
+    Onion: 20
+    Cooking Pot: 1
+    Bone Broth: 1
+
+- name: Quandary Chowder
+  recipe: Jill’s Quandary Chowder
+  time: 4h
+  level: 25
+  items:
+    Coal: 240
+    Corn: 16
+    Milk: 10
+    Potato: 5
+    Carrot: 3
+    Red Berries: 3
+    Bacon: 2
+    Herbs: 2
+    Salt: 1
+    Corn Oil: 1
+    Cooking Pot: 1
+    Bone Broth: 1
+
+- name: Neigh Neigh Neigh
+  recipe: Charles’s Neigh Neigh Neigh
+  time: 3h
+  level: 30
+  items:
+    Coal: 180
+    Carrot: 50
+    Peppers: 45
+    Peas: 40
+    Cucumber: 30
+    Onion: 20
+    Tomato: 10
+    Cooking Pot: 1
+    Bone Broth: 1
+
+- name: Sea Pincher Special
+  recipe: Vincent’s Sea Pincher Special
+  time: 6h
+  level: 30
+  items:
+    Coal: 240
+    Lemon: 11
+    Honey: 10
+    Milk: 7
+    Onion: 5
+    Crab: 3
+    Essence of Slime: 1
+    Cooking Pot: 1
+
+- name: Shrimp-a-Plenty
+  recipe: Cecil’s Shrimp-a-Plenty
+  time: 2h
+  level: 35
+  items:
+    Coal: 240
+    Peas: 100
+    Small Prawn: 30
+    Shrimp: 20
+    Rice: 10
+    Snail: 5
+    Salt: 2
+    Cooking Pot: 1
+    Bone Broth: 1

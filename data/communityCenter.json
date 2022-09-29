@@ -2232,6 +2232,123 @@
     "goalQuantity": 1486800,
     "rewardItem": "Grab Bag 06",
     "rewardQuantity": 3,
-    "progress": 2316309
+    "progress": 2332955
+  },
+  {
+    "firstSeen": 1663220037304,
+    "date": "2022-09-15",
+    "goalItem": "Bluegill",
+    "goalQuantity": 1002500,
+    "rewardItem": "Grasshopper",
+    "rewardQuantity": 40,
+    "progress": 1411087
+  },
+  {
+    "firstSeen": 1663306435312,
+    "date": "2022-09-16",
+    "goalItem": "Amethyst",
+    "goalQuantity": 1076900,
+    "rewardItem": "Magicite",
+    "rewardQuantity": 25,
+    "progress": 1647119
+  },
+  {
+    "firstSeen": 1663392833287,
+    "date": "2022-09-17",
+    "goalItem": "Spider",
+    "goalQuantity": 1385800,
+    "rewardItem": "Steak",
+    "rewardQuantity": 10,
+    "progress": 488361
+  },
+  {
+    "firstSeen": 1663479231270,
+    "date": "2022-09-18",
+    "goalItem": "Drum",
+    "goalQuantity": 7982700,
+    "rewardItem": "Large Chest 02",
+    "rewardQuantity": 3,
+    "progress": 8643730
+  },
+  {
+    "firstSeen": 1663566769434,
+    "date": "2022-09-19",
+    "goalItem": "Trout",
+    "goalQuantity": 3254400,
+    "rewardItem": "Gold Leaf",
+    "rewardQuantity": 10,
+    "progress": 4725123
+  },
+  {
+    "firstSeen": 1663653167425,
+    "date": "2022-09-20",
+    "goalItem": "Twine",
+    "goalQuantity": 2864400,
+    "rewardItem": "Orange Juice",
+    "rewardQuantity": 100,
+    "progress": 4539762
+  },
+  {
+    "firstSeen": 1663739565444,
+    "date": "2022-09-21",
+    "goalItem": "Acorn",
+    "goalQuantity": 1894900,
+    "rewardItem": "Gold Feather",
+    "rewardQuantity": 15,
+    "progress": 3466476
+  },
+  {
+    "firstSeen": 1663825964467,
+    "date": "2022-09-22",
+    "goalItem": "Purple Diary",
+    "goalQuantity": 1003000,
+    "rewardItem": "Fishing Net",
+    "rewardQuantity": 30,
+    "progress": 1193599
+  },
+  {
+    "firstSeen": 1663912362503,
+    "date": "2022-09-23",
+    "goalItem": "Horseshoe",
+    "goalQuantity": 8266600,
+    "rewardItem": "Honey",
+    "rewardQuantity": 10,
+    "progress": 9053844
+  },
+  {
+    "firstSeen": 1663997430825,
+    "date": "2022-09-24",
+    "goalItem": "Peas",
+    "goalQuantity": 2095600,
+    "rewardItem": "Mug of Beer",
+    "rewardQuantity": 1,
+    "progress": 1851510
+  },
+  {
+    "firstSeen": 1664083828831,
+    "date": "2022-09-25",
+    "goalItem": "Fern Leaf",
+    "goalQuantity": 2992700,
+    "rewardItem": "Puffer",
+    "rewardQuantity": 100,
+    "progress": 2219954
+  },
+  {
+    "firstSeen": 1664169569462,
+    "date": "2022-09-26",
+    "goalItem": "Sour Root",
+    "goalQuantity": 3318100,
+    "rewardItem": "Pumpkin",
+    "rewardQuantity": 100,
+    "progress": 4284285
+  },
+  {
+    "firstSeen": 1664255967313,
+    "date": "2022-09-27",
+    "goalItem": "Purple Flower",
+    "goalQuantity": 1541600,
+    "rewardItem": "Lemonade",
+    "rewardQuantity": 60,
+    "progress": 1205228
   }
 ]

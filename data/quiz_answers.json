@@ -748,5 +748,155 @@
     "display_order": 9,
     "question": "How many ancient coins does it cost to spin the wheel 50 times in one day (with wheel credit perk)",
     "quiz_id": 12
+  },
+  {
+    "answer1": "Harvest Peppers",
+    "answer2": "Harvest Carrots",
+    "answer3": "Small Pond",
+    "answer4": "Small Cave",
+    "correct": 2,
+    "display_order": 1,
+    "question": "How do you obtain Runestone 01?",
+    "quiz_id": 13
+  },
+  {
+    "answer1": "Harvest Cucumbers",
+    "answer2": "Forest Pond",
+    "answer3": "Farm Pond",
+    "answer4": "Harvest Peas",
+    "correct": 3,
+    "display_order": 2,
+    "question": "How do you obtain Runestone 02?",
+    "quiz_id": 13
+  },
+  {
+    "answer1": "Forest Pond",
+    "answer2": "Small Springs",
+    "answer3": "Small Pond",
+    "answer4": "Harvest Cucumbers",
+    "correct": 1,
+    "display_order": 3,
+    "question": "How do you obtain Runestone 03?",
+    "quiz_id": 13
+  },
+  {
+    "answer1": "Small Pond",
+    "answer2": "Harvest Leeks",
+    "answer3": "Harvest Radish",
+    "answer4": "Small Cave",
+    "correct": 4,
+    "display_order": 4,
+    "question": "How do you obtain Runestone 04?",
+    "quiz_id": 13
+  },
+  {
+    "answer1": "Crystal River",
+    "answer2": "Harvest Eggplants",
+    "answer3": "Misty Forest",
+    "answer4": "Cane Pole Ridge",
+    "correct": 3,
+    "display_order": 5,
+    "question": "How do you obtain Runestone 05?",
+    "quiz_id": 13
+  },
+  {
+    "answer1": "Harvest Cucumbers",
+    "answer2": "Harvest Radish",
+    "answer3": "Small Island",
+    "answer4": "Forest Pond",
+    "correct": 1,
+    "display_order": 6,
+    "question": "How do you obtain Runestone 06?",
+    "quiz_id": 13
+  },
+  {
+    "answer1": "Black Rock Canyon",
+    "answer2": "Emerald Beach",
+    "answer3": "Harvest Leeks",
+    "answer4": "Harvest Radish",
+    "correct": 4,
+    "display_order": 7,
+    "question": "How do you obtain Runestone 07?",
+    "quiz_id": 13
+  },
+  {
+    "answer1": "Forest",
+    "answer2": "Forest Pond",
+    "answer3": "Small Pond",
+    "answer4": "Small Cave",
+    "correct": 3,
+    "display_order": 8,
+    "question": "How do you obtain Runestone 08?",
+    "quiz_id": 13
+  },
+  {
+    "answer1": "Mount Banon",
+    "answer2": "Black Rock Canyon",
+    "answer3": "Crystal River",
+    "answer4": "Lake Tempest",
+    "correct": 2,
+    "display_order": 9,
+    "question": "How do you obtain Runestone 09?",
+    "quiz_id": 13
+  },
+  {
+    "answer1": "Harvest Leeks",
+    "answer2": "Harvest Hops",
+    "answer3": "Highland Hills",
+    "answer4": "Small Island",
+    "correct": 1,
+    "display_order": 10,
+    "question": "How do you obtain Runestone 10?",
+    "quiz_id": 13
+  },
+  {
+    "answer1": "Drama",
+    "answer2": "Musical",
+    "answer3": "Improv",
+    "answer4": "Satire",
+    "correct": 2,
+    "display_order": 1,
+    "question": "In 1750, the first of which kind of stage show was first performed on Broadway in New York City?",
+    "quiz_id": 16
+  },
+  {
+    "answer1": "5",
+    "answer2": "6",
+    "answer3": "7",
+    "answer4": "8",
+    "correct": 3,
+    "display_order": 2,
+    "question": "The number 175 is present in which row of the Narayana triangle?",
+    "quiz_id": 16
+  },
+  {
+    "answer1": "Florida",
+    "answer2": "Alabama",
+    "answer3": "Oregon",
+    "answer4": "Colorado",
+    "correct": 1,
+    "display_order": 3,
+    "question": "The US highway Interstate 175 is located in which state?",
+    "quiz_id": 16
+  },
+  {
+    "answer1": "Mayan",
+    "answer2": "Persian",
+    "answer3": "Mongolian",
+    "answer4": "Roman",
+    "correct": 4,
+    "display_order": 4,
+    "question": "Empress Faustina the Younger died in the year 175. Over which empire did she rule?",
+    "quiz_id": 16
+  },
+  {
+    "answer1": "Aries",
+    "answer2": "Cetus",
+    "answer3": "Taurus",
+    "answer4": "Fornax",
+    "correct": 2,
+    "display_order": 5,
+    "question": "The spiral galaxy NGC 175 is located in which constellation?",
+    "quiz_id": 16
   }
 ]

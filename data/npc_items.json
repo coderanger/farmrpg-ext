@@ -1463,5 +1463,100 @@
     "adjective": "hates",
     "item_name": "Worms",
     "npc_name": "frank"
+  },
+  {
+    "adjective": "loves",
+    "item_name": "Leather Diary",
+    "npc_name": "Mariya"
+  },
+  {
+    "adjective": "loves",
+    "item_name": "Mushroom Stew",
+    "npc_name": "Mariya"
+  },
+  {
+    "adjective": "loves",
+    "item_name": "Onion Soup",
+    "npc_name": "Mariya"
+  },
+  {
+    "adjective": "loves",
+    "item_name": "Cat\u2019s Meow",
+    "npc_name": "Mariya"
+  },
+  {
+    "adjective": "loves",
+    "item_name": "Quandary Chowder",
+    "npc_name": "Mariya"
+  },
+  {
+    "adjective": "loves",
+    "item_name": "Sea Pincher Special",
+    "npc_name": "Mariya"
+  },
+  {
+    "adjective": "loves",
+    "item_name": "Shrimp-a-Plenty",
+    "npc_name": "Mariya"
+  },
+  {
+    "adjective": "loves",
+    "item_name": "Over The Moon",
+    "npc_name": "Mariya"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Eggplant",
+    "npc_name": "Mariya"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Eggs",
+    "npc_name": "Mariya"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Cucumber",
+    "npc_name": "Mariya"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Radish",
+    "npc_name": "Mariya"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Milk",
+    "npc_name": "Mariya"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Iced Tea",
+    "npc_name": "Mariya"
+  },
+  {
+    "adjective": "likes",
+    "item_name": "Peach",
+    "npc_name": "Mariya"
+  },
+  {
+    "adjective": "hates",
+    "item_name": "Worms",
+    "npc_name": "Mariya"
+  },
+  {
+    "adjective": "hates",
+    "item_name": "Black Powder",
+    "npc_name": "Mariya"
+  },
+  {
+    "adjective": "hates",
+    "item_name": "Explosive",
+    "npc_name": "Mariya"
+  },
+  {
+    "adjective": "hates",
+    "item_name": "Spider",
+    "npc_name": "Mariya"
   }
 ]

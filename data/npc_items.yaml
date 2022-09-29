@@ -363,3 +363,26 @@
   - Carrot
   - Gold Carrot
   name: frank
+- hates:
+  - Worms
+  - Black Powder
+  - Explosive
+  - Spider
+  likes:
+  - Eggplant
+  - Eggs
+  - Cucumber
+  - Radish
+  - Milk
+  - Iced Tea
+  - Peach
+  loves:
+  - Leather Diary
+  - Mushroom Stew
+  - Onion Soup
+  - Cat’s Meow
+  - Quandary Chowder
+  - Sea Pincher Special
+  - Shrimp-a-Plenty
+  - Over The Moon
+  name: Mariya

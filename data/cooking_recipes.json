@@ -1,0 +1,56 @@
+[
+  {
+    "item_name": "Bone Broth",
+    "level": 1,
+    "recipe_item_name": null,
+    "time": 600
+  },
+  {
+    "item_name": "Onion Soup",
+    "level": 5,
+    "recipe_item_name": "George's Onion Soup",
+    "time": 3600
+  },
+  {
+    "item_name": "Over The Moon",
+    "level": 10,
+    "recipe_item_name": "Roomba\u2019s Over The Moon",
+    "time": 7200
+  },
+  {
+    "item_name": "Cat\u2019s Meow",
+    "level": 15,
+    "recipe_item_name": "Thomas\u2019s Cat\u2019s Meow",
+    "time": 7200
+  },
+  {
+    "item_name": "Mushroom Stew",
+    "level": 20,
+    "recipe_item_name": "Holger's Mushroom Stew",
+    "time": 10800
+  },
+  {
+    "item_name": "Quandary Chowder",
+    "level": 25,
+    "recipe_item_name": "Jill\u2019s Quandary Chowder",
+    "time": 14400
+  },
+  {
+    "item_name": "Neigh Neigh Neigh",
+    "level": 30,
+    "recipe_item_name": "Charles\u2019s Neigh Neigh Neigh",
+    "time": 10800
+  },
+  {
+    "item_name": "Sea Pincher Special",
+    "level": 30,
+    "recipe_item_name": "Vincent\u2019s Sea Pincher Special",
+    "time": 21600
+  },
+  {
+    "item_name": "Shrimp-a-Plenty",
+    "level": 35,
+    "recipe_item_name": "Cecil\u2019s Shrimp-a-Plenty",
+    "time": 7200
+  }
+]

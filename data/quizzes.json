@@ -86,5 +86,27 @@
     "score80reward": "Apple Cider",
     "score90amt": 100,
     "score90reward": "Lemonade"
+  },
+  {
+    "description": "Where can you find these?",
+    "id": 13,
+    "name": "Runestones I",
+    "score100amt": 50,
+    "score100reward": "Apple Cider",
+    "score80amt": 50,
+    "score80reward": "Apple",
+    "score90amt": 100,
+    "score90reward": "Orange Juice"
+  },
+  {
+    "description": "To celebrate 175,000 registered players!",
+    "id": 16,
+    "name": "The 175k Players Quiz ",
+    "score100amt": 100,
+    "score100reward": "Ancient Coin",
+    "score80amt": 100,
+    "score80reward": "Fishing Net",
+    "score90amt": 100,
+    "score90reward": "Orange Juice"
   }
 ]

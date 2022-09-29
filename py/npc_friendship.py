@@ -68,6 +68,11 @@ IGNORE_MISSING = {
     "frank's Basket",
 }
 
+NAME_MAP = {
+    "Charles Horsington III": "Charles",
+    "Captain Thomas": "Cpt Thomas",
+}
+
 
 def xp_for(xp_curve: XpCurve, level: int, progress: float):
     prev_xp = xp_curve[level - 1]["xp"]
@@ -104,7 +109,40 @@ def missing_cmd(xp_per_item: dict[str, dict[str, list[float]]]):
     print(", ".join(repr(v[1]) for v in sorted(missing_ids)))
 
 
-def npc_friendship_cmd(missing: bool = False, csv: bool = False, yaml: bool = False):
+def townsfolks_tsv_cmd():
+    items = {it.name: it for it in fixtures.load_items()}
+    data_root = Path(__file__).resolve().parent.parent / "data"
+    in_file = data_root / "townsfolk.tsv"
+    out_file = data_root / "npc_items.yaml"
+    reader = csv_.DictReader(in_file.open(), dialect="excel-tab")
+    data = []
+    for row in reader:
+        loves: set[str] = {i for i in row["Loves"].split(",") if items[i].givable}
+        likes: set[str] = {i for i in row["Likes"].split(",") if items[i].givable}
+        hates: set[str] = {i for i in row["Hates"].split(",") if items[i].givable}
+        if (likes | loves) & hates:
+            raise Exception("Items can't be both liked and hated")
+        data.append(
+            {
+                "name": NAME_MAP.get(row["Name"], row["Name"]),
+                "loves": sorted(loves),
+                "likes": sorted(likes - loves),
+                "hates": sorted(hates),
+            }
+        )
+    yaml_.dump(sorted(data, key=lambda d: d["name"]), out_file.open("w"))
+
+
+def npc_friendship_cmd(
+    missing: bool = False,
+    csv: bool = False,
+    yaml: bool = False,
+    import_tsv: bool = False,
+):
+    if import_tsv:
+        townsfolks_tsv_cmd()
+        return
+
     xp_curve: XpCurve = fixtures.load_fixture("xp")
     items = {it.id: it for it in fixtures.load_items()}
     # xp_per_item[npc_name][item_name] = [xp, xp, xp]

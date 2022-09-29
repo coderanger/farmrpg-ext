@@ -8254,5 +8254,97 @@
     "questlines": [
       "Our Patron of Refreshment"
     ]
+  },
+  {
+    "availableFrom": 1663131600000,
+    "availableTo": 1663304399000,
+    "id": "868281",
+    "next": "868414",
+    "prev": null,
+    "questlines": [
+      "The Otipeg Line"
+    ]
+  },
+  {
+    "availableFrom": 1663131600000,
+    "availableTo": 1663304399000,
+    "id": "868414",
+    "next": "868499",
+    "prev": "868281",
+    "questlines": [
+      "The Otipeg Line"
+    ]
+  },
+  {
+    "availableFrom": 1663131600000,
+    "availableTo": 1663304399000,
+    "id": "868499",
+    "next": "868590",
+    "prev": "868414",
+    "questlines": [
+      "The Otipeg Line"
+    ]
+  },
+  {
+    "availableFrom": 1663131600000,
+    "availableTo": 1663304399000,
+    "id": "868590",
+    "next": null,
+    "prev": "868499",
+    "questlines": [
+      "The Otipeg Line"
+    ]
+  },
+  {
+    "id": "971587",
+    "next": "971589",
+    "prev": null,
+    "questlines": [
+      "New Neighbor"
+    ]
+  },
+  {
+    "id": "971588",
+    "next": "971647",
+    "prev": "971589",
+    "questlines": [
+      "New Neighbor"
+    ]
+  },
+  {
+    "id": "971589",
+    "next": "971588",
+    "prev": "971587",
+    "questlines": [
+      "New Neighbor"
+    ]
+  },
+  {
+    "id": "971647",
+    "next": null,
+    "prev": "971588",
+    "questlines": [
+      "New Neighbor"
+    ]
+  },
+  {
+    "id": "971690",
+    "questlines": []
+  },
+  {
+    "id": "971694",
+    "next": null,
+    "prev": "971695",
+    "questlines": [
+      "Help Kneaded"
+    ]
+  },
+  {
+    "id": "971695",
+    "next": "971694",
+    "prev": null,
+    "questlines": [
+      "Help Kneaded"
+    ]
   }
 ]

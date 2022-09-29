@@ -1,0 +1,722 @@
+[
+  {
+    "item_name": "Cooking Pot",
+    "npc_reward_id": "Rosalie-10",
+    "order": 0,
+    "quantity": 10
+  },
+  {
+    "item_name": "Glass Bottle",
+    "npc_reward_id": "Rosalie-10",
+    "order": 1,
+    "quantity": 50
+  },
+  {
+    "item_name": "Apple",
+    "npc_reward_id": "Rosalie-20",
+    "order": 0,
+    "quantity": 50
+  },
+  {
+    "item_name": "Orange",
+    "npc_reward_id": "Rosalie-20",
+    "order": 1,
+    "quantity": 50
+  },
+  {
+    "item_name": "Orange Juice",
+    "npc_reward_id": "Rosalie-30",
+    "order": 0,
+    "quantity": 50
+  },
+  {
+    "item_name": "Fruit Punch",
+    "npc_reward_id": "Rosalie-30",
+    "order": 1,
+    "quantity": 5
+  },
+  {
+    "item_name": "Peas",
+    "npc_reward_id": "Holger-10",
+    "order": 0,
+    "quantity": 100
+  },
+  {
+    "item_name": "Mushroom",
+    "npc_reward_id": "Holger-10",
+    "order": 1,
+    "quantity": 100
+  },
+  {
+    "item_name": "Steak",
+    "npc_reward_id": "Holger-20",
+    "order": 0,
+    "quantity": 10
+  },
+  {
+    "item_name": "Steak Kabob",
+    "npc_reward_id": "Holger-20",
+    "order": 1,
+    "quantity": 25
+  },
+  {
+    "item_name": "Shiny Beetle",
+    "npc_reward_id": "Holger-30",
+    "order": 0,
+    "quantity": 25
+  },
+  {
+    "item_name": "Orange Gecko",
+    "npc_reward_id": "Holger-30",
+    "order": 1,
+    "quantity": 5
+  },
+  {
+    "item_name": "Holger's Mushroom Stew",
+    "npc_reward_id": "Holger-40",
+    "order": 0,
+    "quantity": 1
+  },
+  {
+    "item_name": "Mushroom",
+    "npc_reward_id": "Holger-40",
+    "order": 1,
+    "quantity": 500
+  },
+  {
+    "item_name": "Emberstone",
+    "npc_reward_id": "Beatrix-10",
+    "order": 0,
+    "quantity": 25
+  },
+  {
+    "item_name": "Moonstone",
+    "npc_reward_id": "Beatrix-10",
+    "order": 1,
+    "quantity": 5
+  },
+  {
+    "item_name": "Sturdy Shield",
+    "npc_reward_id": "Beatrix-20",
+    "order": 0,
+    "quantity": 50
+  },
+  {
+    "item_name": "Sturdy Sword",
+    "npc_reward_id": "Beatrix-20",
+    "order": 1,
+    "quantity": 25
+  },
+  {
+    "item_name": "Bottle Rocket",
+    "npc_reward_id": "Beatrix-30",
+    "order": 0,
+    "quantity": 30
+  },
+  {
+    "item_name": "Fireworks",
+    "npc_reward_id": "Beatrix-30",
+    "order": 1,
+    "quantity": 10
+  },
+  {
+    "item_name": "Gummy Worms",
+    "npc_reward_id": "Thomas-10",
+    "order": 0,
+    "quantity": 25
+  },
+  {
+    "item_name": "Blue Catfish",
+    "npc_reward_id": "Thomas-10",
+    "order": 1,
+    "quantity": 5
+  },
+  {
+    "item_name": "Mealworms",
+    "npc_reward_id": "Thomas-20",
+    "order": 0,
+    "quantity": 50
+  },
+  {
+    "item_name": "Globber",
+    "npc_reward_id": "Thomas-20",
+    "order": 1,
+    "quantity": 10
+  },
+  {
+    "item_name": "Thomas\u2019s Cat\u2019s Meow",
+    "npc_reward_id": "Thomas-30",
+    "order": 0,
+    "quantity": 1
+  },
+  {
+    "item_name": "Essence of Slime",
+    "npc_reward_id": "Thomas-30",
+    "order": 1,
+    "quantity": 10
+  },
+  {
+    "item_name": "Shrimp",
+    "npc_reward_id": "Cecil-10",
+    "order": 0,
+    "quantity": 50
+  },
+  {
+    "item_name": "Small Prawn",
+    "npc_reward_id": "Cecil-10",
+    "order": 1,
+    "quantity": 100
+  },
+  {
+    "item_name": "Grapes",
+    "npc_reward_id": "Cecil-20",
+    "order": 0,
+    "quantity": 50
+  },
+  {
+    "item_name": "Wine",
+    "npc_reward_id": "Cecil-20",
+    "order": 1,
+    "quantity": 1
+  },
+  {
+    "item_name": "Clubs",
+    "npc_reward_id": "Cecil-30",
+    "order": 0,
+    "quantity": 1
+  },
+  {
+    "item_name": "Fancy Pipe",
+    "npc_reward_id": "Cecil-30",
+    "order": 1,
+    "quantity": 10
+  },
+  {
+    "item_name": "Small Bolt",
+    "npc_reward_id": "Cecil-40",
+    "order": 0,
+    "quantity": 10
+  },
+  {
+    "item_name": "Small Chest 02",
+    "npc_reward_id": "Cecil-40",
+    "order": 1,
+    "quantity": 10
+  },
+  {
+    "item_name": "George's Onion Soup",
+    "npc_reward_id": "George-10",
+    "order": 0,
+    "quantity": 1
+  },
+  {
+    "item_name": "Onion",
+    "npc_reward_id": "George-10",
+    "order": 1,
+    "quantity": 100
+  },
+  {
+    "item_name": "Mug of Beer",
+    "npc_reward_id": "George-20",
+    "order": 0,
+    "quantity": 1
+  },
+  {
+    "item_name": "Blue Purse",
+    "npc_reward_id": "George-20",
+    "order": 1,
+    "quantity": 1
+  },
+  {
+    "item_name": "Green Shield",
+    "npc_reward_id": "George-30",
+    "order": 0,
+    "quantity": 10
+  },
+  {
+    "item_name": "Red Shield",
+    "npc_reward_id": "George-30",
+    "order": 1,
+    "quantity": 2
+  },
+  {
+    "item_name": "Popcorn",
+    "npc_reward_id": "Jill-10",
+    "order": 0,
+    "quantity": 1
+  },
+  {
+    "item_name": "Corn Seeds",
+    "npc_reward_id": "Jill-10",
+    "order": 1,
+    "quantity": 10
+  },
+  {
+    "item_name": "Grab Bag 01",
+    "npc_reward_id": "Jill-20",
+    "order": 0,
+    "quantity": 10
+  },
+  {
+    "item_name": "Gouda",
+    "npc_reward_id": "Jill-20",
+    "order": 1,
+    "quantity": 5
+  },
+  {
+    "item_name": "Grab Bag 02",
+    "npc_reward_id": "Jill-30",
+    "order": 0,
+    "quantity": 25
+  },
+  {
+    "item_name": "Square Key",
+    "npc_reward_id": "Jill-30",
+    "order": 1,
+    "quantity": 5
+  },
+  {
+    "item_name": "Corn Oil",
+    "npc_reward_id": "Jill-40",
+    "order": 0,
+    "quantity": 25
+  },
+  {
+    "item_name": "Corn Prize Bag",
+    "npc_reward_id": "Jill-40",
+    "order": 1,
+    "quantity": 1
+  },
+  {
+    "item_name": "Jill\u2019s Quandary Chowder",
+    "npc_reward_id": "Jill-50",
+    "order": 0,
+    "quantity": 1
+  },
+  {
+    "item_name": "Corn",
+    "npc_reward_id": "Jill-50",
+    "order": 1,
+    "quantity": 100
+  },
+  {
+    "item_name": "Wooden Sword",
+    "npc_reward_id": "Vincent-10",
+    "order": 0,
+    "quantity": 10
+  },
+  {
+    "item_name": "Wooden Barrel",
+    "npc_reward_id": "Vincent-10",
+    "order": 1,
+    "quantity": 25
+  },
+  {
+    "item_name": "Bacon",
+    "npc_reward_id": "Vincent-20",
+    "order": 0,
+    "quantity": 10
+  },
+  {
+    "item_name": "Frog",
+    "npc_reward_id": "Vincent-20",
+    "order": 1,
+    "quantity": 10
+  },
+  {
+    "item_name": "Gold Horseshoe",
+    "npc_reward_id": "Vincent-30",
+    "order": 0,
+    "quantity": 1
+  },
+  {
+    "item_name": "Gouda",
+    "npc_reward_id": "Vincent-30",
+    "order": 1,
+    "quantity": 5
+  },
+  {
+    "item_name": "Grab Bag 07",
+    "npc_reward_id": "Vincent-40",
+    "order": 0,
+    "quantity": 5
+  },
+  {
+    "item_name": "Grab Bag 08",
+    "npc_reward_id": "Vincent-40",
+    "order": 1,
+    "quantity": 5
+  },
+  {
+    "item_name": "10 Gold",
+    "npc_reward_id": "Lorn-10",
+    "order": 0,
+    "quantity": 1
+  },
+  {
+    "item_name": "Iron Cup",
+    "npc_reward_id": "Lorn-10",
+    "order": 1,
+    "quantity": 10
+  },
+  {
+    "item_name": "Cutlass",
+    "npc_reward_id": "Lorn-20",
+    "order": 0,
+    "quantity": 3
+  },
+  {
+    "item_name": "Crab Claw",
+    "npc_reward_id": "Lorn-20",
+    "order": 1,
+    "quantity": 3
+  },
+  {
+    "item_name": "Sea Dragon",
+    "npc_reward_id": "Lorn-30",
+    "order": 0,
+    "quantity": 10
+  },
+  {
+    "item_name": "Gold Feather",
+    "npc_reward_id": "Lorn-30",
+    "order": 1,
+    "quantity": 25
+  },
+  {
+    "item_name": "Ancient Coin",
+    "npc_reward_id": "Buddy-10",
+    "order": 0,
+    "quantity": 100
+  },
+  {
+    "item_name": "Pirate Bandana",
+    "npc_reward_id": "Buddy-10",
+    "order": 1,
+    "quantity": 1
+  },
+  {
+    "item_name": "Mushroom",
+    "npc_reward_id": "Buddy-20",
+    "order": 0,
+    "quantity": 100
+  },
+  {
+    "item_name": "Pirate Flag",
+    "npc_reward_id": "Buddy-20",
+    "order": 1,
+    "quantity": 1
+  },
+  {
+    "item_name": "Arnold Palmer",
+    "npc_reward_id": "Buddy-30",
+    "order": 0,
+    "quantity": 5
+  },
+  {
+    "item_name": "Large Net",
+    "npc_reward_id": "Buddy-30",
+    "order": 1,
+    "quantity": 5
+  },
+  {
+    "item_name": "Gold Flier",
+    "npc_reward_id": "Borgen-10",
+    "order": 0,
+    "quantity": 5
+  },
+  {
+    "item_name": "Gold Catfish",
+    "npc_reward_id": "Borgen-10",
+    "order": 1,
+    "quantity": 5
+  },
+  {
+    "item_name": "Gold Carrot",
+    "npc_reward_id": "Borgen-20",
+    "order": 0,
+    "quantity": 5
+  },
+  {
+    "item_name": "Gold Cucumber",
+    "npc_reward_id": "Borgen-20",
+    "order": 1,
+    "quantity": 5
+  },
+  {
+    "item_name": "Gold Coral",
+    "npc_reward_id": "Borgen-30",
+    "order": 0,
+    "quantity": 5
+  },
+  {
+    "item_name": "Gold Sea Bass",
+    "npc_reward_id": "Borgen-30",
+    "order": 1,
+    "quantity": 5
+  },
+  {
+    "item_name": "Black Powder",
+    "npc_reward_id": "Ric Ryph-10",
+    "order": 0,
+    "quantity": 10
+  },
+  {
+    "item_name": "Explosive",
+    "npc_reward_id": "Ric Ryph-10",
+    "order": 1,
+    "quantity": 15
+  },
+  {
+    "item_name": "Unpolished Jade",
+    "npc_reward_id": "Ric Ryph-20",
+    "order": 0,
+    "quantity": 25
+  },
+  {
+    "item_name": "Honey",
+    "npc_reward_id": "Ric Ryph-20",
+    "order": 1,
+    "quantity": 10
+  },
+  {
+    "item_name": "Fancy Drum",
+    "npc_reward_id": "Ric Ryph-30",
+    "order": 0,
+    "quantity": 3
+  },
+  {
+    "item_name": "Fancy Guitar",
+    "npc_reward_id": "Ric Ryph-30",
+    "order": 1,
+    "quantity": 3
+  },
+  {
+    "item_name": "Toilet Paper",
+    "npc_reward_id": "Mummy-10",
+    "order": 0,
+    "quantity": 5
+  },
+  {
+    "item_name": "Treat Bag 01",
+    "npc_reward_id": "Mummy-10",
+    "order": 1,
+    "quantity": 1
+  },
+  {
+    "item_name": "Candy Corn",
+    "npc_reward_id": "Mummy-20",
+    "order": 0,
+    "quantity": 5
+  },
+  {
+    "item_name": "Candy Roll",
+    "npc_reward_id": "Mummy-20",
+    "order": 1,
+    "quantity": 5
+  },
+  {
+    "item_name": "Treat Bag 02",
+    "npc_reward_id": "Mummy-30",
+    "order": 0,
+    "quantity": 1
+  },
+  {
+    "item_name": "Treat Bag 03",
+    "npc_reward_id": "Mummy-30",
+    "order": 1,
+    "quantity": 1
+  },
+  {
+    "item_name": "Feathers",
+    "npc_reward_id": "Star Meerif-10",
+    "order": 0,
+    "quantity": 100
+  },
+  {
+    "item_name": "Gold Feather",
+    "npc_reward_id": "Star Meerif-10",
+    "order": 1,
+    "quantity": 3
+  },
+  {
+    "item_name": "Blue Feathers",
+    "npc_reward_id": "Star Meerif-20",
+    "order": 0,
+    "quantity": 25
+  },
+  {
+    "item_name": "Mushroom Paste",
+    "npc_reward_id": "Star Meerif-20",
+    "order": 1,
+    "quantity": 100
+  },
+  {
+    "item_name": "Steel",
+    "npc_reward_id": "Star Meerif-30",
+    "order": 0,
+    "quantity": 25
+  },
+  {
+    "item_name": "Steel Wire",
+    "npc_reward_id": "Star Meerif-30",
+    "order": 1,
+    "quantity": 25
+  },
+  {
+    "item_name": "Carrot",
+    "npc_reward_id": "Charles Horsington III-10",
+    "order": 0,
+    "quantity": 50
+  },
+  {
+    "item_name": "Apple",
+    "npc_reward_id": "Charles Horsington III-10",
+    "order": 1,
+    "quantity": 25
+  },
+  {
+    "item_name": "Gold Carrot",
+    "npc_reward_id": "Charles Horsington III-20",
+    "order": 0,
+    "quantity": 5
+  },
+  {
+    "item_name": "Blue Catfish",
+    "npc_reward_id": "Charles Horsington III-20",
+    "order": 1,
+    "quantity": 10
+  },
+  {
+    "item_name": "Broccoli",
+    "npc_reward_id": "Charles Horsington III-30",
+    "order": 0,
+    "quantity": 10
+  },
+  {
+    "item_name": "Hot Potato",
+    "npc_reward_id": "Charles Horsington III-30",
+    "order": 1,
+    "quantity": 1
+  },
+  {
+    "item_name": "Charles\u2019s Neigh Neigh Neigh",
+    "npc_reward_id": "Charles Horsington III-40",
+    "order": 0,
+    "quantity": 1
+  },
+  {
+    "item_name": "Apple Cider",
+    "npc_reward_id": "Charles Horsington III-40",
+    "order": 1,
+    "quantity": 50
+  },
+  {
+    "item_name": "Small Gear",
+    "npc_reward_id": "ROOMBA-10",
+    "order": 0,
+    "quantity": 5
+  },
+  {
+    "item_name": "Small Screw",
+    "npc_reward_id": "ROOMBA-10",
+    "order": 1,
+    "quantity": 5
+  },
+  {
+    "item_name": "Roomba\u2019s Over The Moon",
+    "npc_reward_id": "ROOMBA-20",
+    "order": 0,
+    "quantity": 1
+  },
+  {
+    "item_name": "Herbs",
+    "npc_reward_id": "ROOMBA-20",
+    "order": 1,
+    "quantity": 10
+  },
+  {
+    "item_name": "Small Bolt",
+    "npc_reward_id": "ROOMBA-30",
+    "order": 0,
+    "quantity": 10
+  },
+  {
+    "item_name": "Salt",
+    "npc_reward_id": "ROOMBA-30",
+    "order": 1,
+    "quantity": 10
+  },
+  {
+    "item_name": "Trout",
+    "npc_reward_id": "Captain Thomas-10",
+    "order": 0,
+    "quantity": 50
+  },
+  {
+    "item_name": "Gold Trout",
+    "npc_reward_id": "Captain Thomas-10",
+    "order": 1,
+    "quantity": 3
+  },
+  {
+    "item_name": "Fishing Net",
+    "npc_reward_id": "Captain Thomas-20",
+    "order": 0,
+    "quantity": 50
+  },
+  {
+    "item_name": "Gummy Worms",
+    "npc_reward_id": "Captain Thomas-20",
+    "order": 1,
+    "quantity": 50
+  },
+  {
+    "item_name": "Cabbage",
+    "npc_reward_id": "frank-10",
+    "order": 0,
+    "quantity": 5
+  },
+  {
+    "item_name": "Broccoli",
+    "npc_reward_id": "frank-10",
+    "order": 1,
+    "quantity": 5
+  },
+  {
+    "item_name": "Hops",
+    "npc_reward_id": "frank-20",
+    "order": 0,
+    "quantity": 50
+  },
+  {
+    "item_name": "Potato",
+    "npc_reward_id": "frank-20",
+    "order": 1,
+    "quantity": 50
+  },
+  {
+    "item_name": "Potato",
+    "npc_reward_id": "Mariya-10",
+    "order": 0,
+    "quantity": 25
+  },
+  {
+    "item_name": "Arnold Palmer",
+    "npc_reward_id": "Mariya-10",
+    "order": 1,
+    "quantity": 5
+  },
+  {
+    "item_name": "Cooking Pot",
+    "npc_reward_id": "Mariya-20",
+    "order": 0,
+    "quantity": 25
+  },
+  {
+    "item_name": "Peach Juice",
+    "npc_reward_id": "Mariya-20",
+    "order": 1,
+    "quantity": 10
+  }
+]

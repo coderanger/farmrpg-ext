@@ -865,7 +865,8 @@
     "givable": true,
     "rarity": "Uncommon",
     "growthTime": 120,
-    "mastery": true
+    "mastery": true,
+    "fleaMarket": 2
   },
   {
     "name": "Tomato Seeds",
@@ -1295,7 +1296,8 @@
     "givable": true,
     "rarity": "Uncommon",
     "growthTime": 240,
-    "mastery": true
+    "mastery": true,
+    "fleaMarket": 4
   },
   {
     "name": "Carrot",
@@ -6757,7 +6759,12 @@
     "firstSeen": 1660614356986,
     "name": "Rice",
     "id": "630",
-    "image": "/img/items/rice.png"
+    "image": "/img/items/rice.png",
+    "sellPrice": 250000,
+    "xp": 100000,
+    "rarity": "Common",
+    "growthTime": 864000,
+    "mastery": true
   },
   {
     "firstSeen": 1660614356227,
@@ -6798,7 +6805,9 @@
     "id": "635",
     "name": "Onion Soup",
     "image": "/img/items/onionsoup.png",
-    "givable": true
+    "givable": true,
+    "xp": 300,
+    "mastery": true
   },
   {
     "firstSeen": 1661806251809,
@@ -6807,6 +6816,47 @@
     "image": "/img/items/fallbasket.png",
     "xp": 1,
     "givable": true,
+    "rarity": "Very Rare"
+  },
+  {
+    "firstSeen": 1663610578194,
+    "name": "Cooking Pot",
+    "id": "637",
+    "image": "/img/items/2364.png?1",
+    "sellPrice": 40000,
+    "craftPrice": 15000,
+    "xp": 25000,
+    "mastery": true,
+    "recipe": [
+      {
+        "id": "178",
+        "name": "Emberstone",
+        "quantity": 25
+      },
+      {
+        "id": "22",
+        "name": "Iron",
+        "quantity": 25
+      },
+      {
+        "id": "177",
+        "name": "Moonstone",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "firstSeen": 1663611992545,
+    "id": "638",
+    "name": "Holger's Mushroom Stew",
+    "image": "/img/items/recipe.png",
+    "rarity": "Very Rare"
+  },
+  {
+    "firstSeen": 1663611997236,
+    "id": "639",
+    "name": "George's Onion Soup",
+    "image": "/img/items/recipe.png",
     "rarity": "Very Rare"
   },
   {
@@ -6823,6 +6873,80 @@
     ]
   },
   {
+    "firstSeen": 1663612005912,
+    "id": "641",
+    "name": "Bone Broth",
+    "image": "/img/items/bonebroth.png",
+    "xp": 100,
+    "mastery": true
+  },
+  {
+    "firstSeen": 1663612009102,
+    "id": "642",
+    "name": "Rosalie's Bone Broth",
+    "image": "/img/items/recipe.png",
+    "rarity": "Very Rare"
+  },
+  {
+    "firstSeen": 1663704031810,
+    "id": "643",
+    "name": "Cat’s Meow",
+    "image": "/img/items/fishessensestew.png",
+    "xp": 600,
+    "givable": true,
+    "mastery": true
+  },
+  {
+    "firstSeen": 1663704038537,
+    "id": "644",
+    "name": "Quandary Chowder",
+    "image": "/img/items/corngreens.png",
+    "xp": 2000,
+    "givable": true,
+    "mastery": true
+  },
+  {
+    "firstSeen": 1663704072317,
+    "id": "645",
+    "name": "Sea Pincher Special",
+    "image": "/img/items/crabclawsoup.png",
+    "xp": 2000,
+    "givable": true,
+    "mastery": true
+  },
+  {
+    "firstSeen": 1663704076900,
+    "id": "646",
+    "name": "Shrimp-a-Plenty",
+    "image": "/img/items/shrimpgreensmix.png",
+    "xp": 750,
+    "givable": true,
+    "mastery": true
+  },
+  {
+    "firstSeen": 1663704081233,
+    "id": "647",
+    "name": "Over The Moon",
+    "image": "/img/items/leekmeatcorn.png",
+    "xp": 600,
+    "givable": true,
+    "mastery": true
+  },
+  {
+    "firstSeen": 1663704085225,
+    "id": "648",
+    "name": "Thomas’s Cat’s Meow",
+    "image": "/img/items/recipe.png",
+    "rarity": "Very Rare"
+  },
+  {
+    "firstSeen": 1663704088828,
+    "id": "649",
+    "name": "Jill’s Quandary Chowder",
+    "image": "/img/items/recipe.png",
+    "rarity": "Very Rare"
+  },
+  {
     "name": "Corn",
     "id": "65",
     "image": "/img/items/8288.png",
@@ -6831,6 +6955,86 @@
     "growthTime": 14400,
     "mastery": true,
     "rarity": "Everywhere"
+  },
+  {
+    "firstSeen": 1663704092473,
+    "id": "650",
+    "name": "Vincent’s Sea Pincher Special",
+    "image": "/img/items/recipe.png",
+    "rarity": "Very Rare"
+  },
+  {
+    "firstSeen": 1663704095521,
+    "id": "651",
+    "name": "Cecil’s Shrimp-a-Plenty",
+    "image": "/img/items/recipe.png",
+    "rarity": "Very Rare"
+  },
+  {
+    "firstSeen": 1663704098328,
+    "id": "652",
+    "name": "Roomba’s Over The Moon",
+    "image": "/img/items/recipe.png",
+    "rarity": "Very Rare"
+  },
+  {
+    "firstSeen": 1664212092422,
+    "id": "653",
+    "name": "Fruit Punch",
+    "image": "/img/items/fruitpunch.png",
+    "sellPrice": 3500,
+    "craftPrice": 500,
+    "xp": 500,
+    "givable": true,
+    "mastery": true,
+    "recipe": [
+      {
+        "id": "44",
+        "name": "Apple",
+        "quantity": 25
+      },
+      {
+        "id": "117",
+        "name": "Glass Bottle",
+        "quantity": 1
+      },
+      {
+        "id": "120",
+        "name": "Grapes",
+        "quantity": 25
+      },
+      {
+        "id": "62",
+        "name": "Lemon",
+        "quantity": 25
+      },
+      {
+        "id": "61",
+        "name": "Orange",
+        "quantity": 25
+      },
+      {
+        "id": "586",
+        "name": "Peach",
+        "quantity": 5
+      }
+    ]
+  },
+  {
+    "firstSeen": 1664326828865,
+    "id": "654",
+    "name": "Neigh Neigh Neigh",
+    "image": "/img/items/vegsoup4.png",
+    "xp": 1500,
+    "givable": true,
+    "mastery": true
+  },
+  {
+    "firstSeen": 1664326772347,
+    "id": "655",
+    "name": "Charles’s Neigh Neigh Neigh",
+    "image": "/img/items/recipe.png",
+    "rarity": "Very Rare"
   },
   {
     "id": "66",

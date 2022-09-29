@@ -1,76 +1,538 @@
 [
   {
     "image": "/img/items/a_098.png",
-    "name": "Rosalie"
+    "name": "Rosalie",
+    "rewards": [
+      {
+        "items": {
+          "Cooking Pot": 10,
+          "Glass Bottle": 50
+        },
+        "level": 10
+      },
+      {
+        "items": {
+          "Apple": 50,
+          "Orange": 50
+        },
+        "level": 20
+      },
+      {
+        "items": {
+          "Fruit Punch": 5,
+          "Orange Juice": 50
+        },
+        "level": 30
+      }
+    ]
   },
   {
     "image": "/img/items/a_028.png",
-    "name": "Holger"
+    "name": "Holger",
+    "rewards": [
+      {
+        "items": {
+          "Mushroom": 100,
+          "Peas": 100
+        },
+        "level": 10
+      },
+      {
+        "items": {
+          "Steak": 10,
+          "Steak Kabob": 25
+        },
+        "level": 20
+      },
+      {
+        "items": {
+          "Orange Gecko": 5,
+          "Shiny Beetle": 25
+        },
+        "level": 30
+      },
+      {
+        "items": {
+          "Holger's Mushroom Stew": 1,
+          "Mushroom": 500
+        },
+        "level": 40
+      }
+    ]
   },
   {
     "image": "/img/items/a_011.png",
-    "name": "Beatrix"
+    "name": "Beatrix",
+    "rewards": [
+      {
+        "items": {
+          "Emberstone": 25,
+          "Moonstone": 5
+        },
+        "level": 10
+      },
+      {
+        "items": {
+          "Sturdy Shield": 50,
+          "Sturdy Sword": 25
+        },
+        "level": 20
+      },
+      {
+        "items": {
+          "Bottle Rocket": 30,
+          "Fireworks": 10
+        },
+        "level": 30
+      }
+    ]
   },
   {
     "image": "/img/items/a_048.png",
-    "name": "Thomas"
+    "name": "Thomas",
+    "rewards": [
+      {
+        "items": {
+          "Blue Catfish": 5,
+          "Gummy Worms": 25
+        },
+        "level": 10
+      },
+      {
+        "items": {
+          "Globber": 10,
+          "Mealworms": 50
+        },
+        "level": 20
+      },
+      {
+        "items": {
+          "Essence of Slime": 10,
+          "Thomas\u2019s Cat\u2019s Meow": 1
+        },
+        "level": 30
+      }
+    ]
   },
   {
     "image": "/img/items/a_027.png",
-    "name": "Cecil"
+    "name": "Cecil",
+    "rewards": [
+      {
+        "items": {
+          "Shrimp": 50,
+          "Small Prawn": 100
+        },
+        "level": 10
+      },
+      {
+        "items": {
+          "Grapes": 50,
+          "Wine": 1
+        },
+        "level": 20
+      },
+      {
+        "items": {
+          "Clubs": 1,
+          "Fancy Pipe": 10
+        },
+        "level": 30
+      },
+      {
+        "items": {
+          "Small Bolt": 10,
+          "Small Chest 02": 10
+        },
+        "level": 40
+      }
+    ]
   },
   {
     "image": "/img/items/a_034.png",
-    "name": "George"
+    "name": "George",
+    "rewards": [
+      {
+        "items": {
+          "George's Onion Soup": 1,
+          "Onion": 100
+        },
+        "level": 10
+      },
+      {
+        "items": {
+          "Blue Purse": 1,
+          "Mug of Beer": 1
+        },
+        "level": 20
+      },
+      {
+        "items": {
+          "Green Shield": 10,
+          "Red Shield": 2
+        },
+        "level": 30
+      }
+    ]
   },
   {
     "image": "/img/items/a_024.png",
-    "name": "Jill"
+    "name": "Jill",
+    "rewards": [
+      {
+        "items": {
+          "Corn Seeds": 10,
+          "Popcorn": 1
+        },
+        "level": 10
+      },
+      {
+        "items": {
+          "Gouda": 5,
+          "Grab Bag 01": 10
+        },
+        "level": 20
+      },
+      {
+        "items": {
+          "Grab Bag 02": 25,
+          "Square Key": 5
+        },
+        "level": 30
+      },
+      {
+        "items": {
+          "Corn Oil": 25,
+          "Corn Prize Bag": 1
+        },
+        "level": 40
+      },
+      {
+        "items": {
+          "Corn": 100,
+          "Jill\u2019s Quandary Chowder": 1
+        },
+        "level": 50
+      }
+    ]
   },
   {
     "image": "/img/items/a_047.png",
-    "name": "Vincent"
+    "name": "Vincent",
+    "rewards": [
+      {
+        "items": {
+          "Wooden Barrel": 25,
+          "Wooden Sword": 10
+        },
+        "level": 10
+      },
+      {
+        "items": {
+          "Bacon": 10,
+          "Frog": 10
+        },
+        "level": 20
+      },
+      {
+        "items": {
+          "Gold Horseshoe": 1,
+          "Gouda": 5
+        },
+        "level": 30
+      },
+      {
+        "items": {
+          "Grab Bag 07": 5,
+          "Grab Bag 08": 5
+        },
+        "level": 40
+      }
+    ]
   },
   {
     "image": "/img/items/a_088.png",
-    "name": "Lorn"
+    "name": "Lorn",
+    "rewards": [
+      {
+        "items": {
+          "10 Gold": 1,
+          "Iron Cup": 10
+        },
+        "level": 10
+      },
+      {
+        "items": {
+          "Crab Claw": 3,
+          "Cutlass": 3
+        },
+        "level": 20
+      },
+      {
+        "items": {
+          "Gold Feather": 25,
+          "Sea Dragon": 10
+        },
+        "level": 30
+      }
+    ]
   },
   {
     "image": "/img/items/buddy.png",
-    "name": "Buddy"
+    "name": "Buddy",
+    "rewards": [
+      {
+        "items": {
+          "Ancient Coin": 100,
+          "Pirate Bandana": 1
+        },
+        "level": 10
+      },
+      {
+        "items": {
+          "Mushroom": 100,
+          "Pirate Flag": 1
+        },
+        "level": 20
+      },
+      {
+        "items": {
+          "Arnold Palmer": 5,
+          "Large Net": 5
+        },
+        "level": 30
+      }
+    ]
   },
   {
     "image": "/img/items/borgen.png",
-    "name": "Borgen"
+    "name": "Borgen",
+    "rewards": [
+      {
+        "items": {
+          "Gold Catfish": 5,
+          "Gold Flier": 5
+        },
+        "level": 10
+      },
+      {
+        "items": {
+          "Gold Carrot": 5,
+          "Gold Cucumber": 5
+        },
+        "level": 20
+      },
+      {
+        "items": {
+          "Gold Coral": 5,
+          "Gold Sea Bass": 5
+        },
+        "level": 30
+      }
+    ]
   },
   {
     "image": "/img/items/npc_figure2.png",
-    "name": "Ric Ryph"
+    "name": "Ric Ryph",
+    "rewards": [
+      {
+        "items": {
+          "Black Powder": 10,
+          "Explosive": 15
+        },
+        "level": 10
+      },
+      {
+        "items": {
+          "Honey": 10,
+          "Unpolished Jade": 25
+        },
+        "level": 20
+      },
+      {
+        "items": {
+          "Fancy Drum": 3,
+          "Fancy Guitar": 3
+        },
+        "level": 30
+      }
+    ]
   },
   {
     "image": "/img/items/mummy_t_01.png",
-    "name": "Mummy"
+    "name": "Mummy",
+    "rewards": [
+      {
+        "items": {
+          "Toilet Paper": 5,
+          "Treat Bag 01": 1
+        },
+        "level": 10
+      },
+      {
+        "items": {
+          "Candy Corn": 5,
+          "Candy Roll": 5
+        },
+        "level": 20
+      },
+      {
+        "items": {
+          "Treat Bag 02": 1,
+          "Treat Bag 03": 1
+        },
+        "level": 30
+      }
+    ]
   },
   {
     "image": "/img/items/npc_figure.png",
-    "name": "Star Meerif"
+    "name": "Star Meerif",
+    "rewards": [
+      {
+        "items": {
+          "Feathers": 100,
+          "Gold Feather": 3
+        },
+        "level": 10
+      },
+      {
+        "items": {
+          "Blue Feathers": 25,
+          "Mushroom Paste": 100
+        },
+        "level": 20
+      },
+      {
+        "items": {
+          "Steel": 25,
+          "Steel Wire": 25
+        },
+        "level": 30
+      }
+    ]
   },
   {
     "image": "/img/items/npc_horse.png",
     "name": "Charles Horsington III",
+    "rewards": [
+      {
+        "items": {
+          "Apple": 25,
+          "Carrot": 50
+        },
+        "level": 10
+      },
+      {
+        "items": {
+          "Blue Catfish": 10,
+          "Gold Carrot": 5
+        },
+        "level": 20
+      },
+      {
+        "items": {
+          "Broccoli": 10,
+          "Hot Potato": 1
+        },
+        "level": 30
+      },
+      {
+        "items": {
+          "Apple Cider": 50,
+          "Charles\u2019s Neigh Neigh Neigh": 1
+        },
+        "level": 40
+      }
+    ],
     "short_name": "Charles"
   },
   {
     "image": "/img/items/robot_02.png",
-    "name": "ROOMBA"
+    "name": "ROOMBA",
+    "rewards": [
+      {
+        "items": {
+          "Small Gear": 5,
+          "Small Screw": 5
+        },
+        "level": 10
+      },
+      {
+        "items": {
+          "Herbs": 10,
+          "Roomba\u2019s Over The Moon": 1
+        },
+        "level": 20
+      },
+      {
+        "items": {
+          "Salt": 10,
+          "Small Bolt": 10
+        },
+        "level": 30
+      }
+    ]
   },
   {
     "image": "/img/items/MustacheTom96.png",
     "name": "Captain Thomas",
+    "rewards": [
+      {
+        "items": {
+          "Gold Trout": 3,
+          "Trout": 50
+        },
+        "level": 10
+      },
+      {
+        "items": {
+          "Fishing Net": 50,
+          "Gummy Worms": 50
+        },
+        "level": 20
+      }
+    ],
     "short_name": "Cpt Thomas"
   },
   {
     "image": "/img/items/npc_bunny1.png",
-    "name": "frank"
+    "name": "frank",
+    "rewards": [
+      {
+        "items": {
+          "Broccoli": 5,
+          "Cabbage": 5
+        },
+        "level": 10
+      },
+      {
+        "items": {
+          "Hops": 50,
+          "Potato": 50
+        },
+        "level": 20
+      }
+    ]
+  },
+  {
+    "image": "/img/items/chef.png",
+    "name": "Mariya",
+    "rewards": [
+      {
+        "items": {
+          "Arnold Palmer": 5,
+          "Potato": 25
+        },
+        "level": 10
+      },
+      {
+        "items": {
+          "Cooking Pot": 25,
+          "Peach Juice": 10
+        },
+        "level": 20
+      }
+    ]
   }
 ]

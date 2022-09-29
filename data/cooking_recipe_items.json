@@ -1,0 +1,404 @@
+[
+  {
+    "input_name": "Bone",
+    "order": 0,
+    "quantity": 10,
+    "recipe_name": "Bone Broth"
+  },
+  {
+    "input_name": "Coal",
+    "order": 1,
+    "quantity": 4,
+    "recipe_name": "Bone Broth"
+  },
+  {
+    "input_name": "Cooking Pot",
+    "order": 2,
+    "quantity": 1,
+    "recipe_name": "Bone Broth"
+  },
+  {
+    "input_name": "Coal",
+    "order": 0,
+    "quantity": 60,
+    "recipe_name": "Onion Soup"
+  },
+  {
+    "input_name": "Onion",
+    "order": 1,
+    "quantity": 50,
+    "recipe_name": "Onion Soup"
+  },
+  {
+    "input_name": "Cooking Pot",
+    "order": 2,
+    "quantity": 1,
+    "recipe_name": "Onion Soup"
+  },
+  {
+    "input_name": "Bone Broth",
+    "order": 3,
+    "quantity": 1,
+    "recipe_name": "Onion Soup"
+  },
+  {
+    "input_name": "Coal",
+    "order": 0,
+    "quantity": 120,
+    "recipe_name": "Over The Moon"
+  },
+  {
+    "input_name": "Leek",
+    "order": 1,
+    "quantity": 3,
+    "recipe_name": "Over The Moon"
+  },
+  {
+    "input_name": "Corn",
+    "order": 2,
+    "quantity": 3,
+    "recipe_name": "Over The Moon"
+  },
+  {
+    "input_name": "Steak",
+    "order": 3,
+    "quantity": 3,
+    "recipe_name": "Over The Moon"
+  },
+  {
+    "input_name": "Salt",
+    "order": 4,
+    "quantity": 1,
+    "recipe_name": "Over The Moon"
+  },
+  {
+    "input_name": "Herbs",
+    "order": 5,
+    "quantity": 1,
+    "recipe_name": "Over The Moon"
+  },
+  {
+    "input_name": "Coal",
+    "order": 0,
+    "quantity": 120,
+    "recipe_name": "Cat\u2019s Meow"
+  },
+  {
+    "input_name": "Fish Bones",
+    "order": 1,
+    "quantity": 25,
+    "recipe_name": "Cat\u2019s Meow"
+  },
+  {
+    "input_name": "Onion",
+    "order": 2,
+    "quantity": 5,
+    "recipe_name": "Cat\u2019s Meow"
+  },
+  {
+    "input_name": "Milk",
+    "order": 3,
+    "quantity": 5,
+    "recipe_name": "Cat\u2019s Meow"
+  },
+  {
+    "input_name": "Essence of Slime",
+    "order": 4,
+    "quantity": 3,
+    "recipe_name": "Cat\u2019s Meow"
+  },
+  {
+    "input_name": "Salt",
+    "order": 5,
+    "quantity": 1,
+    "recipe_name": "Cat\u2019s Meow"
+  },
+  {
+    "input_name": "Cooking Pot",
+    "order": 6,
+    "quantity": 1,
+    "recipe_name": "Cat\u2019s Meow"
+  },
+  {
+    "input_name": "Bone Broth",
+    "order": 7,
+    "quantity": 1,
+    "recipe_name": "Cat\u2019s Meow"
+  },
+  {
+    "input_name": "Coal",
+    "order": 0,
+    "quantity": 180,
+    "recipe_name": "Mushroom Stew"
+  },
+  {
+    "input_name": "Mushroom",
+    "order": 1,
+    "quantity": 100,
+    "recipe_name": "Mushroom Stew"
+  },
+  {
+    "input_name": "Peppers",
+    "order": 2,
+    "quantity": 60,
+    "recipe_name": "Mushroom Stew"
+  },
+  {
+    "input_name": "Carrot",
+    "order": 3,
+    "quantity": 60,
+    "recipe_name": "Mushroom Stew"
+  },
+  {
+    "input_name": "Leek",
+    "order": 4,
+    "quantity": 32,
+    "recipe_name": "Mushroom Stew"
+  },
+  {
+    "input_name": "Onion",
+    "order": 5,
+    "quantity": 20,
+    "recipe_name": "Mushroom Stew"
+  },
+  {
+    "input_name": "Cooking Pot",
+    "order": 6,
+    "quantity": 1,
+    "recipe_name": "Mushroom Stew"
+  },
+  {
+    "input_name": "Bone Broth",
+    "order": 7,
+    "quantity": 1,
+    "recipe_name": "Mushroom Stew"
+  },
+  {
+    "input_name": "Coal",
+    "order": 0,
+    "quantity": 240,
+    "recipe_name": "Quandary Chowder"
+  },
+  {
+    "input_name": "Corn",
+    "order": 1,
+    "quantity": 16,
+    "recipe_name": "Quandary Chowder"
+  },
+  {
+    "input_name": "Milk",
+    "order": 2,
+    "quantity": 10,
+    "recipe_name": "Quandary Chowder"
+  },
+  {
+    "input_name": "Potato",
+    "order": 3,
+    "quantity": 5,
+    "recipe_name": "Quandary Chowder"
+  },
+  {
+    "input_name": "Carrot",
+    "order": 4,
+    "quantity": 3,
+    "recipe_name": "Quandary Chowder"
+  },
+  {
+    "input_name": "Red Berries",
+    "order": 5,
+    "quantity": 3,
+    "recipe_name": "Quandary Chowder"
+  },
+  {
+    "input_name": "Bacon",
+    "order": 6,
+    "quantity": 2,
+    "recipe_name": "Quandary Chowder"
+  },
+  {
+    "input_name": "Herbs",
+    "order": 7,
+    "quantity": 2,
+    "recipe_name": "Quandary Chowder"
+  },
+  {
+    "input_name": "Salt",
+    "order": 8,
+    "quantity": 1,
+    "recipe_name": "Quandary Chowder"
+  },
+  {
+    "input_name": "Corn Oil",
+    "order": 9,
+    "quantity": 1,
+    "recipe_name": "Quandary Chowder"
+  },
+  {
+    "input_name": "Cooking Pot",
+    "order": 10,
+    "quantity": 1,
+    "recipe_name": "Quandary Chowder"
+  },
+  {
+    "input_name": "Bone Broth",
+    "order": 11,
+    "quantity": 1,
+    "recipe_name": "Quandary Chowder"
+  },
+  {
+    "input_name": "Coal",
+    "order": 0,
+    "quantity": 180,
+    "recipe_name": "Neigh Neigh Neigh"
+  },
+  {
+    "input_name": "Carrot",
+    "order": 1,
+    "quantity": 50,
+    "recipe_name": "Neigh Neigh Neigh"
+  },
+  {
+    "input_name": "Peppers",
+    "order": 2,
+    "quantity": 45,
+    "recipe_name": "Neigh Neigh Neigh"
+  },
+  {
+    "input_name": "Peas",
+    "order": 3,
+    "quantity": 40,
+    "recipe_name": "Neigh Neigh Neigh"
+  },
+  {
+    "input_name": "Cucumber",
+    "order": 4,
+    "quantity": 30,
+    "recipe_name": "Neigh Neigh Neigh"
+  },
+  {
+    "input_name": "Onion",
+    "order": 5,
+    "quantity": 20,
+    "recipe_name": "Neigh Neigh Neigh"
+  },
+  {
+    "input_name": "Tomato",
+    "order": 6,
+    "quantity": 10,
+    "recipe_name": "Neigh Neigh Neigh"
+  },
+  {
+    "input_name": "Cooking Pot",
+    "order": 7,
+    "quantity": 1,
+    "recipe_name": "Neigh Neigh Neigh"
+  },
+  {
+    "input_name": "Bone Broth",
+    "order": 8,
+    "quantity": 1,
+    "recipe_name": "Neigh Neigh Neigh"
+  },
+  {
+    "input_name": "Coal",
+    "order": 0,
+    "quantity": 240,
+    "recipe_name": "Sea Pincher Special"
+  },
+  {
+    "input_name": "Lemon",
+    "order": 1,
+    "quantity": 11,
+    "recipe_name": "Sea Pincher Special"
+  },
+  {
+    "input_name": "Honey",
+    "order": 2,
+    "quantity": 10,
+    "recipe_name": "Sea Pincher Special"
+  },
+  {
+    "input_name": "Milk",
+    "order": 3,
+    "quantity": 7,
+    "recipe_name": "Sea Pincher Special"
+  },
+  {
+    "input_name": "Onion",
+    "order": 4,
+    "quantity": 5,
+    "recipe_name": "Sea Pincher Special"
+  },
+  {
+    "input_name": "Crab",
+    "order": 5,
+    "quantity": 3,
+    "recipe_name": "Sea Pincher Special"
+  },
+  {
+    "input_name": "Essence of Slime",
+    "order": 6,
+    "quantity": 1,
+    "recipe_name": "Sea Pincher Special"
+  },
+  {
+    "input_name": "Cooking Pot",
+    "order": 7,
+    "quantity": 1,
+    "recipe_name": "Sea Pincher Special"
+  },
+  {
+    "input_name": "Coal",
+    "order": 0,
+    "quantity": 240,
+    "recipe_name": "Shrimp-a-Plenty"
+  },
+  {
+    "input_name": "Peas",
+    "order": 1,
+    "quantity": 100,
+    "recipe_name": "Shrimp-a-Plenty"
+  },
+  {
+    "input_name": "Small Prawn",
+    "order": 2,
+    "quantity": 30,
+    "recipe_name": "Shrimp-a-Plenty"
+  },
+  {
+    "input_name": "Shrimp",
+    "order": 3,
+    "quantity": 20,
+    "recipe_name": "Shrimp-a-Plenty"
+  },
+  {
+    "input_name": "Rice",
+    "order": 4,
+    "quantity": 10,
+    "recipe_name": "Shrimp-a-Plenty"
+  },
+  {
+    "input_name": "Snail",
+    "order": 5,
+    "quantity": 5,
+    "recipe_name": "Shrimp-a-Plenty"
+  },
+  {
+    "input_name": "Salt",
+    "order": 6,
+    "quantity": 2,
+    "recipe_name": "Shrimp-a-Plenty"
+  },
+  {
+    "input_name": "Cooking Pot",
+    "order": 7,
+    "quantity": 1,
+    "recipe_name": "Shrimp-a-Plenty"
+  },
+  {
+    "input_name": "Bone Broth",
+    "order": 8,
+    "quantity": 1,
+    "recipe_name": "Shrimp-a-Plenty"
+  }
+]

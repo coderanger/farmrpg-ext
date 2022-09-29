@@ -86,9 +86,9 @@
   },
   {
     "drop_rates": {
-      "Egg 03": 4731.5,
-      "Gold Carrot": 244.20645161290324,
-      "Runestone 01": 133.75265017667846
+      "Egg 03": 3910.5,
+      "Gold Carrot": 240.83544303797467,
+      "Runestone 01": 134.45936395759716
     },
     "iron_depot_rates": {},
     "location": "Carrot Seeds",
@@ -97,7 +97,8 @@
   },
   {
     "drop_rates": {
-      "Runestone 11": 886.3103448275862
+      "Popcorn": 61.1764705882353,
+      "Runestone 11": 826.1515151515151
     },
     "iron_depot_rates": {},
     "location": "Corn Seeds",
@@ -113,14 +114,14 @@
   },
   {
     "drop_rates": {
-      "Blue Catfish": 14.46316120906801,
-      "Bone Fish": 2.815883190883191,
-      "Glass Bottle": 78.95039858281665,
-      "Globber": 18.65580847723705,
-      "Old Boot": 75.55696202531645,
-      "Runestone 12": 2984.5,
-      "Sunfish": 2.8122777066439038,
-      "Trout": 7.117526921648719
+      "Blue Catfish": 14.367264851485148,
+      "Bone Fish": 2.8185722331737537,
+      "Glass Bottle": 68.06248076331178,
+      "Globber": 18.647127329192546,
+      "Old Boot": 75.0846805234796,
+      "Runestone 12": 2407.9891304347825,
+      "Sunfish": 2.821003549307537,
+      "Trout": 7.12046204620462
     },
     "iron_depot_rates": {},
     "location": "Crystal River",
@@ -358,32 +359,32 @@
   {
     "drop_rates": {
       "Broken Pipe": 179.9314359637775,
-      "Copper Wire": 300.53370786516854,
-      "Langstaff Crest": 231811.66666666666,
+      "Copper Wire": 301.3439930855661,
+      "Langstaff Crest": 261712.0,
       "Machine Part": 57.44414915704676,
-      "Monster Skull": 798.4328358208955,
-      "Onyx Scorpion": 891.5833333333334,
+      "Monster Skull": 795.9610705596107,
+      "Onyx Scorpion": 864.3064729194188,
       "Prickly Pear": 116.02185518852185,
-      "Pulley": 292.1995798319328,
+      "Pulley": 294.25503610794374,
       "Sand": 7.744007037607213,
-      "Scrap Metal": 20.681494965583937,
-      "Scrap Wire": 32.531504181464086,
-      "Small Bolt": 201.80934416715033,
+      "Scrap Metal": 20.596363170700474,
+      "Scrap Wire": 32.512800748774985,
+      "Small Bolt": 201.25499846201168,
       "Transistor": 82.00309082263433
     },
     "iron_depot_rates": {
       "Broken Pipe": 179.9314359637775,
-      "Copper Wire": 300.53370786516854,
-      "Langstaff Crest": 231811.66666666666,
+      "Copper Wire": 301.3439930855661,
+      "Langstaff Crest": 261712.0,
       "Machine Part": 57.44414915704676,
-      "Monster Skull": 798.4328358208955,
-      "Onyx Scorpion": 891.5833333333334,
+      "Monster Skull": 795.9610705596107,
+      "Onyx Scorpion": 864.3064729194188,
       "Prickly Pear": 116.02185518852185,
-      "Pulley": 292.1995798319328,
+      "Pulley": 294.25503610794374,
       "Sand": 7.744007037607213,
-      "Scrap Metal": 20.681494965583937,
-      "Scrap Wire": 32.531504181464086,
-      "Small Bolt": 201.80934416715033,
+      "Scrap Metal": 20.596363170700474,
+      "Scrap Wire": 32.512800748774985,
+      "Small Bolt": 201.25499846201168,
       "Transistor": 82.00309082263433
     },
     "location": "Jundland Desert",
@@ -576,7 +577,7 @@
   },
   {
     "drop_rates": {
-      "Gold Peppers": 150.44444444444446
+      "Gold Peppers": 151.0
     },
     "iron_depot_rates": {},
     "location": "Pepper Seeds",
@@ -818,7 +819,7 @@
   },
   {
     "drop_rates": {
-      "Piece of Heart": 3161.5
+      "Piece of Heart": 3321.5
     },
     "iron_depot_rates": {},
     "location": "Watermelon Seeds",

@@ -1,0 +1,302 @@
+[
+  {
+    "id": "Rosalie-10",
+    "level": 10,
+    "npc_name": "Rosalie"
+  },
+  {
+    "id": "Rosalie-20",
+    "level": 20,
+    "npc_name": "Rosalie"
+  },
+  {
+    "id": "Rosalie-30",
+    "level": 30,
+    "npc_name": "Rosalie"
+  },
+  {
+    "id": "Holger-10",
+    "level": 10,
+    "npc_name": "Holger"
+  },
+  {
+    "id": "Holger-20",
+    "level": 20,
+    "npc_name": "Holger"
+  },
+  {
+    "id": "Holger-30",
+    "level": 30,
+    "npc_name": "Holger"
+  },
+  {
+    "id": "Holger-40",
+    "level": 40,
+    "npc_name": "Holger"
+  },
+  {
+    "id": "Beatrix-10",
+    "level": 10,
+    "npc_name": "Beatrix"
+  },
+  {
+    "id": "Beatrix-20",
+    "level": 20,
+    "npc_name": "Beatrix"
+  },
+  {
+    "id": "Beatrix-30",
+    "level": 30,
+    "npc_name": "Beatrix"
+  },
+  {
+    "id": "Thomas-10",
+    "level": 10,
+    "npc_name": "Thomas"
+  },
+  {
+    "id": "Thomas-20",
+    "level": 20,
+    "npc_name": "Thomas"
+  },
+  {
+    "id": "Thomas-30",
+    "level": 30,
+    "npc_name": "Thomas"
+  },
+  {
+    "id": "Cecil-10",
+    "level": 10,
+    "npc_name": "Cecil"
+  },
+  {
+    "id": "Cecil-20",
+    "level": 20,
+    "npc_name": "Cecil"
+  },
+  {
+    "id": "Cecil-30",
+    "level": 30,
+    "npc_name": "Cecil"
+  },
+  {
+    "id": "Cecil-40",
+    "level": 40,
+    "npc_name": "Cecil"
+  },
+  {
+    "id": "George-10",
+    "level": 10,
+    "npc_name": "George"
+  },
+  {
+    "id": "George-20",
+    "level": 20,
+    "npc_name": "George"
+  },
+  {
+    "id": "George-30",
+    "level": 30,
+    "npc_name": "George"
+  },
+  {
+    "id": "Jill-10",
+    "level": 10,
+    "npc_name": "Jill"
+  },
+  {
+    "id": "Jill-20",
+    "level": 20,
+    "npc_name": "Jill"
+  },
+  {
+    "id": "Jill-30",
+    "level": 30,
+    "npc_name": "Jill"
+  },
+  {
+    "id": "Jill-40",
+    "level": 40,
+    "npc_name": "Jill"
+  },
+  {
+    "id": "Jill-50",
+    "level": 50,
+    "npc_name": "Jill"
+  },
+  {
+    "id": "Vincent-10",
+    "level": 10,
+    "npc_name": "Vincent"
+  },
+  {
+    "id": "Vincent-20",
+    "level": 20,
+    "npc_name": "Vincent"
+  },
+  {
+    "id": "Vincent-30",
+    "level": 30,
+    "npc_name": "Vincent"
+  },
+  {
+    "id": "Vincent-40",
+    "level": 40,
+    "npc_name": "Vincent"
+  },
+  {
+    "id": "Lorn-10",
+    "level": 10,
+    "npc_name": "Lorn"
+  },
+  {
+    "id": "Lorn-20",
+    "level": 20,
+    "npc_name": "Lorn"
+  },
+  {
+    "id": "Lorn-30",
+    "level": 30,
+    "npc_name": "Lorn"
+  },
+  {
+    "id": "Buddy-10",
+    "level": 10,
+    "npc_name": "Buddy"
+  },
+  {
+    "id": "Buddy-20",
+    "level": 20,
+    "npc_name": "Buddy"
+  },
+  {
+    "id": "Buddy-30",
+    "level": 30,
+    "npc_name": "Buddy"
+  },
+  {
+    "id": "Borgen-10",
+    "level": 10,
+    "npc_name": "Borgen"
+  },
+  {
+    "id": "Borgen-20",
+    "level": 20,
+    "npc_name": "Borgen"
+  },
+  {
+    "id": "Borgen-30",
+    "level": 30,
+    "npc_name": "Borgen"
+  },
+  {
+    "id": "Ric Ryph-10",
+    "level": 10,
+    "npc_name": "Ric Ryph"
+  },
+  {
+    "id": "Ric Ryph-20",
+    "level": 20,
+    "npc_name": "Ric Ryph"
+  },
+  {
+    "id": "Ric Ryph-30",
+    "level": 30,
+    "npc_name": "Ric Ryph"
+  },
+  {
+    "id": "Mummy-10",
+    "level": 10,
+    "npc_name": "Mummy"
+  },
+  {
+    "id": "Mummy-20",
+    "level": 20,
+    "npc_name": "Mummy"
+  },
+  {
+    "id": "Mummy-30",
+    "level": 30,
+    "npc_name": "Mummy"
+  },
+  {
+    "id": "Star Meerif-10",
+    "level": 10,
+    "npc_name": "Star Meerif"
+  },
+  {
+    "id": "Star Meerif-20",
+    "level": 20,
+    "npc_name": "Star Meerif"
+  },
+  {
+    "id": "Star Meerif-30",
+    "level": 30,
+    "npc_name": "Star Meerif"
+  },
+  {
+    "id": "Charles Horsington III-10",
+    "level": 10,
+    "npc_name": "Charles Horsington III"
+  },
+  {
+    "id": "Charles Horsington III-20",
+    "level": 20,
+    "npc_name": "Charles Horsington III"
+  },
+  {
+    "id": "Charles Horsington III-30",
+    "level": 30,
+    "npc_name": "Charles Horsington III"
+  },
+  {
+    "id": "Charles Horsington III-40",
+    "level": 40,
+    "npc_name": "Charles Horsington III"
+  },
+  {
+    "id": "ROOMBA-10",
+    "level": 10,
+    "npc_name": "ROOMBA"
+  },
+  {
+    "id": "ROOMBA-20",
+    "level": 20,
+    "npc_name": "ROOMBA"
+  },
+  {
+    "id": "ROOMBA-30",
+    "level": 30,
+    "npc_name": "ROOMBA"
+  },
+  {
+    "id": "Captain Thomas-10",
+    "level": 10,
+    "npc_name": "Captain Thomas"
+  },
+  {
+    "id": "Captain Thomas-20",
+    "level": 20,
+    "npc_name": "Captain Thomas"
+  },
+  {
+    "id": "frank-10",
+    "level": 10,
+    "npc_name": "frank"
+  },
+  {
+    "id": "frank-20",
+    "level": 20,
+    "npc_name": "frank"
+  },
+  {
+    "id": "Mariya-10",
+    "level": 10,
+    "npc_name": "Mariya"
+  },
+  {
+    "id": "Mariya-20",
+    "level": 20,
+    "npc_name": "Mariya"
+  }
+]

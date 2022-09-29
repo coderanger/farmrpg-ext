@@ -142,5 +142,41 @@
     "quiz_id": 12,
     "reward": "Skeleton Key",
     "score": 100
+  },
+  {
+    "amount": 50,
+    "quiz_id": 13,
+    "reward": "Apple",
+    "score": 80
+  },
+  {
+    "amount": 100,
+    "quiz_id": 13,
+    "reward": "Orange Juice",
+    "score": 90
+  },
+  {
+    "amount": 50,
+    "quiz_id": 13,
+    "reward": "Apple Cider",
+    "score": 100
+  },
+  {
+    "amount": 100,
+    "quiz_id": 16,
+    "reward": "Fishing Net",
+    "score": 80
+  },
+  {
+    "amount": 100,
+    "quiz_id": 16,
+    "reward": "Orange Juice",
+    "score": 90
+  },
+  {
+    "amount": 100,
+    "quiz_id": 16,
+    "reward": "Ancient Coin",
+    "score": 100
   }
 ]

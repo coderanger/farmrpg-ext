@@ -48,10 +48,10 @@
     "baseDropRate": 0.26666666666666666,
     "id": "13",
     "name": "Jundland Desert",
-    "silverPerHit": 236.0689762389162,
-    "silverPerHitIronDepot": 236.0689762389162,
-    "xpPerHit": 186.73690647834482,
-    "xpPerHitIronDepot": 186.73690647834482
+    "silverPerHit": 236.55336181581342,
+    "silverPerHitIronDepot": 236.55336181581342,
+    "xpPerHit": 187.09037976609434,
+    "xpPerHitIronDepot": 187.09037976609434
   },
   {
     "baseDropRate": 0.3333333333333333,
@@ -140,7 +140,7 @@
     "name": "Crystal River",
     "silverPerHit": null,
     "silverPerHitIronDepot": null,
-    "xpPerHit": 427.050708762024,
+    "xpPerHit": 427.8234333928604,
     "xpPerHitIronDepot": null
   },
   {

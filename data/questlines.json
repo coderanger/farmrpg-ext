@@ -975,6 +975,15 @@
     "secondary": false
   },
   {
+    "image": "/img/items/mariya.png",
+    "name": "Help Kneaded",
+    "quests": [
+      "971695",
+      "971694"
+    ],
+    "secondary": false
+  },
+  {
     "image": "/img/items/npc_horse.png",
     "name": "His Mane Quest",
     "quests": [
@@ -1256,6 +1265,17 @@
     "quests": [
       "8",
       "23"
+    ],
+    "secondary": false
+  },
+  {
+    "image": "/img/items/mariya.png",
+    "name": "New Neighbor",
+    "quests": [
+      "971587",
+      "971589",
+      "971588",
+      "971647"
     ],
     "secondary": false
   },
@@ -1577,6 +1597,17 @@
     "quests": [
       "866",
       "867"
+    ],
+    "secondary": false
+  },
+  {
+    "image": "/img/items/a_048.png",
+    "name": "The Otipeg Line",
+    "quests": [
+      "868281",
+      "868414",
+      "868499",
+      "868590"
     ],
     "secondary": false
   },
