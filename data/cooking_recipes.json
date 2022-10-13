@@ -36,9 +36,9 @@
     "time": 14400
   },
   {
-    "item_name": "Neigh Neigh Neigh",
+    "item_name": "Neigh Neigh",
     "level": 30,
-    "recipe_item_name": "Charles\u2019s Neigh Neigh Neigh",
+    "recipe_item_name": "Charles\u2019s Neigh Neigh",
     "time": 10800
   },
   {
@@ -51,6 +51,12 @@
     "item_name": "Shrimp-a-Plenty",
     "level": 35,
     "recipe_item_name": "Cecil\u2019s Shrimp-a-Plenty",
+    "time": 7200
+  },
+  {
+    "item_name": "Breakfast Boost",
+    "level": 40,
+    "recipe_item_name": "Lorn's Breakfast Boost",
     "time": 7200
   }
 ]

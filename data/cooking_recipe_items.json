@@ -249,55 +249,55 @@
     "input_name": "Coal",
     "order": 0,
     "quantity": 180,
-    "recipe_name": "Neigh Neigh Neigh"
+    "recipe_name": "Neigh Neigh"
   },
   {
     "input_name": "Carrot",
     "order": 1,
     "quantity": 50,
-    "recipe_name": "Neigh Neigh Neigh"
+    "recipe_name": "Neigh Neigh"
   },
   {
     "input_name": "Peppers",
     "order": 2,
     "quantity": 45,
-    "recipe_name": "Neigh Neigh Neigh"
+    "recipe_name": "Neigh Neigh"
   },
   {
     "input_name": "Peas",
     "order": 3,
     "quantity": 40,
-    "recipe_name": "Neigh Neigh Neigh"
+    "recipe_name": "Neigh Neigh"
   },
   {
     "input_name": "Cucumber",
     "order": 4,
     "quantity": 30,
-    "recipe_name": "Neigh Neigh Neigh"
+    "recipe_name": "Neigh Neigh"
   },
   {
     "input_name": "Onion",
     "order": 5,
     "quantity": 20,
-    "recipe_name": "Neigh Neigh Neigh"
+    "recipe_name": "Neigh Neigh"
   },
   {
     "input_name": "Tomato",
     "order": 6,
     "quantity": 10,
-    "recipe_name": "Neigh Neigh Neigh"
+    "recipe_name": "Neigh Neigh"
   },
   {
     "input_name": "Cooking Pot",
     "order": 7,
     "quantity": 1,
-    "recipe_name": "Neigh Neigh Neigh"
+    "recipe_name": "Neigh Neigh"
   },
   {
     "input_name": "Bone Broth",
     "order": 8,
     "quantity": 1,
-    "recipe_name": "Neigh Neigh Neigh"
+    "recipe_name": "Neigh Neigh"
   },
   {
     "input_name": "Coal",
@@ -400,5 +400,47 @@
     "order": 8,
     "quantity": 1,
     "recipe_name": "Shrimp-a-Plenty"
+  },
+  {
+    "input_name": "Coal",
+    "order": 0,
+    "quantity": 120,
+    "recipe_name": "Breakfast Boost"
+  },
+  {
+    "input_name": "Flour",
+    "order": 1,
+    "quantity": 4,
+    "recipe_name": "Breakfast Boost"
+  },
+  {
+    "input_name": "Eggs",
+    "order": 2,
+    "quantity": 3,
+    "recipe_name": "Breakfast Boost"
+  },
+  {
+    "input_name": "Cabbage",
+    "order": 3,
+    "quantity": 2,
+    "recipe_name": "Breakfast Boost"
+  },
+  {
+    "input_name": "Grape Juice",
+    "order": 4,
+    "quantity": 1,
+    "recipe_name": "Breakfast Boost"
+  },
+  {
+    "input_name": "Cheese",
+    "order": 5,
+    "quantity": 1,
+    "recipe_name": "Breakfast Boost"
+  },
+  {
+    "input_name": "Butter",
+    "order": 6,
+    "quantity": 1,
+    "recipe_name": "Breakfast Boost"
   }
 ]

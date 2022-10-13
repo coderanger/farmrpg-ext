@@ -2349,6 +2349,132 @@
     "goalQuantity": 1541600,
     "rewardItem": "Lemonade",
     "rewardQuantity": 60,
-    "progress": 1205228
+    "progress": 1604147
+  },
+  {
+    "firstSeen": 1664341876192,
+    "date": "2022-09-28",
+    "goalItem": "Tomato",
+    "goalQuantity": 714100,
+    "rewardItem": "Arnold Palmer",
+    "rewardQuantity": 10,
+    "progress": 724369
+  },
+  {
+    "firstSeen": 1664428274286,
+    "date": "2022-09-29",
+    "goalItem": "Dice",
+    "goalQuantity": 629300,
+    "rewardItem": "Grapes",
+    "rewardQuantity": 100,
+    "progress": 886372
+  },
+  {
+    "firstSeen": 1664514672159,
+    "date": "2022-09-30",
+    "goalItem": "Starfish",
+    "goalQuantity": 1367100,
+    "rewardItem": "Fancy Guitar",
+    "rewardQuantity": 15,
+    "progress": 2489354
+  },
+  {
+    "firstSeen": 1664601070237,
+    "date": "2022-10-01",
+    "goalItem": "Clam Shell",
+    "goalQuantity": 2050100,
+    "rewardItem": "Treasure Key",
+    "rewardQuantity": 4,
+    "progress": 5470320
+  },
+  {
+    "firstSeen": 1664687468349,
+    "date": "2022-10-02",
+    "goalItem": "Board",
+    "goalQuantity": 2798200,
+    "rewardItem": "Wine",
+    "rewardQuantity": 10,
+    "progress": 3973708
+  },
+  {
+    "firstSeen": 1664776095837,
+    "date": "2022-10-03",
+    "goalItem": "Coal",
+    "goalQuantity": 4221000,
+    "rewardItem": "Gold Peas",
+    "rewardQuantity": 10,
+    "progress": 3661443
+  },
+  {
+    "firstSeen": 1664860873771,
+    "date": "2022-10-04",
+    "goalItem": "Twine",
+    "goalQuantity": 2864400,
+    "rewardItem": "Orange Gecko",
+    "rewardQuantity": 10,
+    "progress": 3815153
+  },
+  {
+    "firstSeen": 1664947080702,
+    "date": "2022-10-05",
+    "goalItem": "Milk",
+    "goalQuantity": 3733300,
+    "rewardItem": "Corn",
+    "rewardQuantity": 100,
+    "progress": 4550123
+  },
+  {
+    "firstSeen": 1665034179517,
+    "date": "2022-10-06",
+    "goalItem": "Bacon",
+    "goalQuantity": 504800,
+    "rewardItem": "Sea Dragon",
+    "rewardQuantity": 5,
+    "progress": 656458
+  },
+  {
+    "firstSeen": 1665120569891,
+    "date": "2022-10-07",
+    "goalItem": "Eggplant",
+    "goalQuantity": 1333000,
+    "rewardItem": "Crab Claw",
+    "rewardQuantity": 10,
+    "progress": 947913
+  },
+  {
+    "firstSeen": 1665208627944,
+    "date": "2022-10-08",
+    "goalItem": "Feed",
+    "goalQuantity": 2315700,
+    "rewardItem": "Ancient Coin",
+    "rewardQuantity": 250,
+    "progress": 2563048
+  },
+  {
+    "firstSeen": 1665293628898,
+    "date": "2022-10-09",
+    "goalItem": "Peppers",
+    "goalQuantity": 5182300,
+    "rewardItem": "Cheese",
+    "rewardQuantity": 25,
+    "progress": 1914150
+  },
+  {
+    "firstSeen": 1665381509761,
+    "date": "2022-10-10",
+    "goalItem": "Milk",
+    "goalQuantity": 3733300,
+    "rewardItem": "Large Chest 02",
+    "rewardQuantity": 3,
+    "progress": 2369631
+  },
+  {
+    "firstSeen": 1665466237975,
+    "date": "2022-10-11",
+    "goalItem": "Wax Candle",
+    "goalQuantity": 33500,
+    "rewardItem": "Grab Bag 04",
+    "rewardQuantity": 2,
+    "progress": 11023
   }
 ]

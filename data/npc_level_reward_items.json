@@ -204,6 +204,30 @@
     "quantity": 10
   },
   {
+    "item_name": "Skeleton Key",
+    "npc_reward_id": "Cecil-50",
+    "order": 0,
+    "quantity": 3
+  },
+  {
+    "item_name": "Treasure Key",
+    "npc_reward_id": "Cecil-50",
+    "order": 1,
+    "quantity": 5
+  },
+  {
+    "item_name": "Cecil\u2019s Shrimp-a-Plenty",
+    "npc_reward_id": "Cecil-60",
+    "order": 0,
+    "quantity": 1
+  },
+  {
+    "item_name": "Shrimp",
+    "npc_reward_id": "Cecil-60",
+    "order": 1,
+    "quantity": 500
+  },
+  {
     "item_name": "George's Onion Soup",
     "npc_reward_id": "George-10",
     "order": 0,
@@ -348,6 +372,18 @@
     "quantity": 5
   },
   {
+    "item_name": "Vincent\u2019s Sea Pincher Special",
+    "npc_reward_id": "Vincent-50",
+    "order": 0,
+    "quantity": 1
+  },
+  {
+    "item_name": "Large Net",
+    "npc_reward_id": "Vincent-50",
+    "order": 1,
+    "quantity": 25
+  },
+  {
     "item_name": "10 Gold",
     "npc_reward_id": "Lorn-10",
     "order": 0,
@@ -382,6 +418,18 @@
     "npc_reward_id": "Lorn-30",
     "order": 1,
     "quantity": 25
+  },
+  {
+    "item_name": "Lorn's Breakfast Boost",
+    "npc_reward_id": "Lorn-40",
+    "order": 0,
+    "quantity": 1
+  },
+  {
+    "item_name": "Butter",
+    "npc_reward_id": "Lorn-40",
+    "order": 1,
+    "quantity": 10
   },
   {
     "item_name": "Ancient Coin",
@@ -600,7 +648,7 @@
     "quantity": 1
   },
   {
-    "item_name": "Charles\u2019s Neigh Neigh Neigh",
+    "item_name": "Charles\u2019s Neigh Neigh",
     "npc_reward_id": "Charles Horsington III-40",
     "order": 0,
     "quantity": 1
@@ -670,6 +718,18 @@
     "npc_reward_id": "Captain Thomas-20",
     "order": 1,
     "quantity": 50
+  },
+  {
+    "item_name": "Iced Tea",
+    "npc_reward_id": "Captain Thomas-30",
+    "order": 0,
+    "quantity": 50
+  },
+  {
+    "item_name": "Large Net",
+    "npc_reward_id": "Captain Thomas-30",
+    "order": 1,
+    "quantity": 10
   },
   {
     "item_name": "Cabbage",

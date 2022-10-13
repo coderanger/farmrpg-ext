@@ -85,6 +85,14 @@
     items:
       Small Bolt: 10
       Small Chest 02: 10
+  - level: 50
+    items:
+      Skeleton Key: 3
+      Treasure Key: 5
+  - level: 60
+    items:
+      Cecil’s Shrimp-a-Plenty: 1
+      Shrimp: 500
 
 - name: George
   image: /img/items/a_034.png
@@ -145,6 +153,10 @@
     items:
       Grab Bag 07: 5
       Grab Bag 08: 5
+  - level: 50
+    items:
+      Vincent’s Sea Pincher Special: 1
+      Large Net: 25
 
 - name: Lorn
   image: /img/items/a_088.png
@@ -161,6 +173,10 @@
     items:
       Sea Dragon: 10
       Gold Feather: 25
+  - level: 40
+    items:
+      Lorn's Breakfast Boost: 1
+      Butter: 10
 
 - name: Buddy
   image: /img/items/buddy.png
@@ -260,7 +276,7 @@
       Hot Potato: 1
   - level: 40
     items:
-      Charles’s Neigh Neigh Neigh: 1
+      Charles’s Neigh Neigh: 1
       Apple Cider: 50
 
 - name: ROOMBA
@@ -291,6 +307,10 @@
     items:
       Fishing Net: 50
       Gummy Worms: 50
+  - level: 30
+    items:
+      Iced Tea: 50
+      Large Net: 10
 
 - name: frank
   image: /img/items/npc_bunny1.png

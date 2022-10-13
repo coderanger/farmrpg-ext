@@ -213,3 +213,26 @@
       Apple Cider: 99
     silver: 99_999_999
     ak: 100
+
+- skill: Cooking
+  rewards:
+  - level: 10
+    items:
+      Cooking Pot: 3
+      Coal: 25
+    silver: 1_500_000
+  - level: 20
+    items:
+      Onion: 150
+      Bone: 25
+    silver: 7_500_000
+  - level: 30
+    items:
+      Mushroom: 500
+      Mushroom Stew: 10
+    silver: 12_500_000
+  - level: 50
+    items:
+      Butter: 100
+      Fruit Punch: 25
+    silver: 50_000_000

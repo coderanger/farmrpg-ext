@@ -145,6 +145,20 @@
           "Small Chest 02": 10
         },
         "level": 40
+      },
+      {
+        "items": {
+          "Skeleton Key": 3,
+          "Treasure Key": 5
+        },
+        "level": 50
+      },
+      {
+        "items": {
+          "Cecil\u2019s Shrimp-a-Plenty": 1,
+          "Shrimp": 500
+        },
+        "level": 60
       }
     ]
   },
@@ -247,6 +261,13 @@
           "Grab Bag 08": 5
         },
         "level": 40
+      },
+      {
+        "items": {
+          "Large Net": 25,
+          "Vincent\u2019s Sea Pincher Special": 1
+        },
+        "level": 50
       }
     ]
   },
@@ -274,6 +295,13 @@
           "Sea Dragon": 10
         },
         "level": 30
+      },
+      {
+        "items": {
+          "Butter": 10,
+          "Lorn's Breakfast Boost": 1
+        },
+        "level": 40
       }
     ]
   },
@@ -440,7 +468,7 @@
       {
         "items": {
           "Apple Cider": 50,
-          "Charles\u2019s Neigh Neigh Neigh": 1
+          "Charles\u2019s Neigh Neigh": 1
         },
         "level": 40
       }
@@ -491,6 +519,13 @@
           "Gummy Worms": 50
         },
         "level": 20
+      },
+      {
+        "items": {
+          "Iced Tea": 50,
+          "Large Net": 10
+        },
+        "level": 30
       }
     ],
     "short_name": "Cpt Thomas"

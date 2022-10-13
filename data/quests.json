@@ -452,6 +452,202 @@
     "silverReward": 100000
   },
   {
+    "firstSeen": 1665160175306,
+    "itemRequests": [
+      {
+        "id": "48",
+        "quantity": 400
+      },
+      {
+        "id": "250",
+        "quantity": 220
+      },
+      {
+        "id": "114",
+        "quantity": 400
+      },
+      {
+        "id": "457",
+        "quantity": 30
+      },
+      {
+        "id": "379",
+        "quantity": 25
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "508",
+        "quantity": 100
+      },
+      {
+        "id": "500",
+        "quantity": 100
+      },
+      {
+        "id": "366",
+        "quantity": 10
+      }
+    ],
+    "id": "1090502",
+    "name": "Strange Companions XV",
+    "prereq": "865",
+    "isPersonal": false,
+    "from": "Holger",
+    "fromImage": "/img/items/a_028.png",
+    "text": "Your vision fades. Stars streak by. Time changes. An eternity passes before the blink of an eye.The shadow.A picture.Lives lived. Lives lost. Love. Hate. Regret.\n“Are…you okay?” Focus again brings you back to reality where Thomas is peering at you in a peculiar fashion. \nShaking your head as if from a long dream, you put on a brave smile, and give Thomas a pat on the shoulder. You request a trout dinner to celebrate his catch at a later time and bid a distracted farewell. As you look to your left, you glimpse a shadow disappearing down a side street. The glimmer from an object catches your eye, but you’ve no idea what it is. How peculiar, the thought enters your head, and exits just as briefly. The urge to give chase is quickly overwhelmed by the memory of the experience before Thomas arrived. Maybe the sideroads are even less safe…\nAs Thomas steps away, you brace yourself for the feeling of being watched to return, but after a few moments, the sky is still clear and shining. It takes you a few moments of deliberate steps forward to remember your goals, but bolstered by the shining sky your pace quickens, hoping to run into Holger.\nAs luck would have it, you run into Holger not 10 minutes later on the east side of town. He looks deep in thought as he stares towards the horizon, a whittling project seems to have been forgotten to his left, a half finished drink on his right.\nHolger motions to you to sit down on the blanket he has spread out, and you join him. Before you forget, you remember your purpose from Rosalie, and hand him a gift basket.",
+    "requiresFarming": 75,
+    "requiresExploring": 70
+  },
+  {
+    "firstSeen": 1665259599328,
+    "itemRequests": [
+      {
+        "id": "658",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "462",
+        "quantity": 25
+      },
+      {
+        "id": "190",
+        "quantity": 100
+      },
+      {
+        "id": "352",
+        "quantity": 100
+      },
+      {
+        "id": "491",
+        "quantity": 25
+      },
+      {
+        "id": "508",
+        "quantity": 50
+      }
+    ],
+    "id": "1090545",
+    "name": "Strange Companions XVI",
+    "prereq": "1090502",
+    "isPersonal": false,
+    "from": "Holger",
+    "fromImage": "/img/items/a_028.png",
+    "text": "Holger looks at you with sunken eyes that seem half-focused on the past and present. When no words come, you sit, taking in the view and the odd moment, hoping the silence breaks eventually.\n“These days are long and full of sorrows.\" He pauses, \"We both know you've seen many of those. Townsfolk gone missing, some sent to work camps, Ric demanding more of us, and me, keeping a secret I don't even understand.\" Holger sighs, \"The town is barely recognizable with these confounded dragon walls and the pervasive scent of fear and expectation. Soon we won’t even call this place home. I don’t recognize it, and I don’t like it. Almost makes you wish you could just leave and never come back.\"\nYou sit silent, waiting for more to come, something hopeful or helpful, but he offers no other words for nearly ten minutes. \n“This gift, it wasn’t necessary, but it lightened my heart. Tell Rosalie thank you.” \nNodding, you realize there is nothing to do but leave and head back to Beatrix’s home empty-handed. \nA flash of inspiration strikes you, and you turn around to give Holger one last gift.",
+    "requiresFarming": 75,
+    "requiresExploring": 70
+  },
+  {
+    "firstSeen": 1665259613623,
+    "itemRequests": [
+      {
+        "id": "42",
+        "quantity": 400
+      },
+      {
+        "id": "427",
+        "quantity": 400
+      },
+      {
+        "id": "89",
+        "quantity": 300
+      },
+      {
+        "id": "199",
+        "quantity": 300
+      },
+      {
+        "id": "456",
+        "quantity": 10
+      },
+      {
+        "id": "305",
+        "quantity": 200
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "346",
+        "quantity": 2
+      },
+      {
+        "id": "363",
+        "quantity": 4
+      },
+      {
+        "id": "634",
+        "quantity": 5
+      },
+      {
+        "id": "635",
+        "quantity": 5
+      },
+      {
+        "id": "258",
+        "quantity": 1
+      },
+      {
+        "id": "347",
+        "quantity": 10
+      }
+    ],
+    "id": "1090561",
+    "name": "Strange Companions XVII",
+    "prereq": "1090545",
+    "isPersonal": false,
+    "from": "Holger",
+    "fromImage": "/img/items/a_028.png",
+    "text": "Holger marvels at the beauty of the golden potato.\n“I’ve no idea how you’ve come by this, but it is truly a majestic and unique piece.” He gives you a grand smile, \"Probably don't tell Cecil about this though.\"\nHolger’s smile is enough to brighten even the clearest sky. He pauses for a moment before offering you a single phrase. “Find Buddy.”\nAs you leave, you are reminded of all the good in this town, the people and the community. The smiles of the townsfolk and others you've met in your journey, those memories bring you hope, and your resolve to figure out the mystery of Star is renewed.\nAnd yet, wending your way through the streets and alleys, the trauma of the unsettling shadow again begins to grip you, the sense of someone following you gnaws at your mind. A sound, the scuff of feet comes from behind you and impulsively you glance backwards and the world rushes to greet your face.\nFear seizes your gut and despair overwhelms as a shadow looms over you. This is the end.",
+    "requiresFarming": 75,
+    "requiresExploring": 70
+  },
+  {
+    "firstSeen": 1665292159290,
+    "itemRequests": [
+      {
+        "id": "266",
+        "quantity": 1
+      },
+      {
+        "id": "219",
+        "quantity": 1
+      },
+      {
+        "id": "258",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "646",
+        "quantity": 5
+      },
+      {
+        "id": "84",
+        "quantity": 200
+      },
+      {
+        "id": "508",
+        "quantity": 25
+      },
+      {
+        "id": "379",
+        "quantity": 25
+      }
+    ],
+    "id": "1090568",
+    "name": "Buddy Found",
+    "prereq": "1090561",
+    "isPersonal": false,
+    "from": "Buddy",
+    "fromImage": "/img/items/buddy.png",
+    "text": "“I didn’t see you there!” A familiar voice squeaks quietly from above. You blink and the face of Buddy looms over you, a giant blob of smile that blots out the sun above. After reorienting yourself, you reach out your hand and Buddy pulls you upright in one impressive motion. You begin to talk but Buddy reaches out a hand and puts a finger to your mouth. “Quiet, I’m hunting something evil.”",
+    "requiresFarming": 75,
+    "requiresExploring": 70
+  },
+  {
     "firstSeen": 1646724107935,
     "itemRequests": [
       {

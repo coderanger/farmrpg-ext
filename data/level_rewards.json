@@ -278,5 +278,33 @@
     "level": 99,
     "silver": 99999999,
     "skill": "Exploring"
+  },
+  {
+    "ak": 0,
+    "id": "Cooking-10",
+    "level": 10,
+    "silver": 1500000,
+    "skill": "Cooking"
+  },
+  {
+    "ak": 0,
+    "id": "Cooking-20",
+    "level": 20,
+    "silver": 7500000,
+    "skill": "Cooking"
+  },
+  {
+    "ak": 0,
+    "id": "Cooking-30",
+    "level": 30,
+    "silver": 12500000,
+    "skill": "Cooking"
+  },
+  {
+    "ak": 0,
+    "id": "Cooking-50",
+    "level": 50,
+    "silver": 50000000,
+    "skill": "Cooking"
   }
 ]

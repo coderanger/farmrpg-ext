@@ -478,5 +478,53 @@
     "level_reward_id": "Exploring-99",
     "order": 1,
     "quantity": 99
+  },
+  {
+    "item_name": "Cooking Pot",
+    "level_reward_id": "Cooking-10",
+    "order": 0,
+    "quantity": 3
+  },
+  {
+    "item_name": "Coal",
+    "level_reward_id": "Cooking-10",
+    "order": 1,
+    "quantity": 25
+  },
+  {
+    "item_name": "Onion",
+    "level_reward_id": "Cooking-20",
+    "order": 0,
+    "quantity": 150
+  },
+  {
+    "item_name": "Bone",
+    "level_reward_id": "Cooking-20",
+    "order": 1,
+    "quantity": 25
+  },
+  {
+    "item_name": "Mushroom",
+    "level_reward_id": "Cooking-30",
+    "order": 0,
+    "quantity": 500
+  },
+  {
+    "item_name": "Mushroom Stew",
+    "level_reward_id": "Cooking-30",
+    "order": 1,
+    "quantity": 10
+  },
+  {
+    "item_name": "Butter",
+    "level_reward_id": "Cooking-50",
+    "order": 0,
+    "quantity": 100
+  },
+  {
+    "item_name": "Fruit Punch",
+    "level_reward_id": "Cooking-50",
+    "order": 1,
+    "quantity": 25
   }
 ]

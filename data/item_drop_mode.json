@@ -840,6 +840,10 @@
     "id": "632"
   },
   {
+    "dropMode": "harvests",
+    "id": "658"
+  },
+  {
     "dropMode": "fishes",
     "id": "463"
   },

@@ -74,8 +74,8 @@
     Cooking Pot: 1
     Bone Broth: 1
 
-- name: Neigh Neigh Neigh
-  recipe: Charles’s Neigh Neigh Neigh
+- name: Neigh Neigh
+  recipe: Charles’s Neigh Neigh
   time: 3h
   level: 30
   items:
@@ -117,3 +117,16 @@
     Salt: 2
     Cooking Pot: 1
     Bone Broth: 1
+
+- name: Breakfast Boost
+  recipe: Lorn's Breakfast Boost
+  time: 2h
+  level: 40
+  items:
+    Coal: 120
+    Flour: 4
+    Eggs: 3
+    Cabbage: 2
+    Grape Juice: 1
+    Cheese: 1
+    Butter: 1

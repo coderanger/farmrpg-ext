@@ -6796,9 +6796,10 @@
     "name": "Mushroom Stew",
     "id": "634",
     "image": "/img/items/mushroomstew.png",
-    "xp": 500,
+    "xp": 1500,
     "givable": true,
-    "rarity": "Very Rare"
+    "rarity": "Very Rare",
+    "mastery": true
   },
   {
     "firstSeen": 1661875062181,
@@ -6910,7 +6911,7 @@
     "id": "645",
     "name": "Sea Pincher Special",
     "image": "/img/items/crabclawsoup.png",
-    "xp": 2000,
+    "xp": 3000,
     "givable": true,
     "mastery": true
   },
@@ -7023,7 +7024,7 @@
   {
     "firstSeen": 1664326828865,
     "id": "654",
-    "name": "Neigh Neigh Neigh",
+    "name": "Neigh Neigh",
     "image": "/img/items/vegsoup4.png",
     "xp": 1500,
     "givable": true,
@@ -7032,9 +7033,48 @@
   {
     "firstSeen": 1664326772347,
     "id": "655",
-    "name": "Charles’s Neigh Neigh Neigh",
+    "name": "Charles’s Neigh Neigh",
     "image": "/img/items/recipe.png",
     "rarity": "Very Rare"
+  },
+  {
+    "firstSeen": 1664547159254,
+    "name": "Spooky Cookies",
+    "id": "657",
+    "image": "/img/items/854.png",
+    "event": true,
+    "xp": 1500,
+    "givable": true,
+    "rarity": "Very Rare"
+  },
+  {
+    "firstSeen": 1665099337370,
+    "id": "658",
+    "name": "Gold Potato",
+    "image": "/img/items/gp.png",
+    "rarity": "Super Rare"
+  },
+  {
+    "firstSeen": 1665160208679,
+    "id": "659",
+    "name": "Butter Churn",
+    "image": "/img/items/churn.png",
+    "sellPrice": 500,
+    "craftPrice": 10,
+    "xp": 500,
+    "mastery": true,
+    "recipe": [
+      {
+        "id": "21",
+        "name": "Board",
+        "quantity": 1
+      },
+      {
+        "id": "72",
+        "name": "Wooden Barrel",
+        "quantity": 1
+      }
+    ]
   },
   {
     "id": "66",
@@ -7047,6 +7087,46 @@
     "possibleDrops": [
       "Cabbage"
     ]
+  },
+  {
+    "firstSeen": 1665160213300,
+    "id": "660",
+    "name": "Butter",
+    "image": "/img/items/4431.png",
+    "sellPrice": 60000,
+    "craftPrice": 100,
+    "xp": 3000,
+    "mastery": true,
+    "recipe": [
+      {
+        "id": "659",
+        "name": "Butter Churn",
+        "quantity": 1
+      },
+      {
+        "id": "85",
+        "name": "Milk",
+        "quantity": 25
+      },
+      {
+        "id": "305",
+        "name": "Salt",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "firstSeen": 1665499146487,
+    "name": "Breakfast Boost",
+    "id": "661",
+    "image": "/img/items/eggsandwich.png"
+  },
+  {
+    "firstSeen": 1665509168935,
+    "id": "662",
+    "name": "Lorn's Breakfast Boost",
+    "image": "/img/items/recipe.png",
+    "rarity": "Very Rare"
   },
   {
     "name": "Cabbage",

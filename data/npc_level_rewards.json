@@ -85,6 +85,16 @@
     "npc_name": "Cecil"
   },
   {
+    "id": "Cecil-50",
+    "level": 50,
+    "npc_name": "Cecil"
+  },
+  {
+    "id": "Cecil-60",
+    "level": 60,
+    "npc_name": "Cecil"
+  },
+  {
     "id": "George-10",
     "level": 10,
     "npc_name": "George"
@@ -145,6 +155,11 @@
     "npc_name": "Vincent"
   },
   {
+    "id": "Vincent-50",
+    "level": 50,
+    "npc_name": "Vincent"
+  },
+  {
     "id": "Lorn-10",
     "level": 10,
     "npc_name": "Lorn"
@@ -157,6 +172,11 @@
   {
     "id": "Lorn-30",
     "level": 30,
+    "npc_name": "Lorn"
+  },
+  {
+    "id": "Lorn-40",
+    "level": 40,
     "npc_name": "Lorn"
   },
   {
@@ -277,6 +297,11 @@
   {
     "id": "Captain Thomas-20",
     "level": 20,
+    "npc_name": "Captain Thomas"
+  },
+  {
+    "id": "Captain Thomas-30",
+    "level": 30,
     "npc_name": "Captain Thomas"
   },
   {
