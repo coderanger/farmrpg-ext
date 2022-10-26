@@ -14846,7 +14846,7 @@
     "giveQuantity": 500,
     "receiveItem": "Arnold Palmer",
     "receiveQuantity": 5,
-    "completed": false,
+    "completed": true,
     "oneShot": false
   },
   {
@@ -14875,6 +14875,56 @@
     "giveItem": "Pocket Watch",
     "giveQuantity": 100,
     "receiveItem": "Rubber Duckie",
+    "receiveQuantity": 1,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1666761260417,
+    "date": "2022-10-26-0",
+    "giveItem": "Arrowhead",
+    "giveQuantity": 100,
+    "receiveItem": "Apple",
+    "receiveQuantity": 50,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1666761260421,
+    "date": "2022-10-26-0",
+    "giveItem": "Axe",
+    "giveQuantity": 400,
+    "receiveItem": "Mug of Beer",
+    "receiveQuantity": 3,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1666761260422,
+    "date": "2022-10-26-0",
+    "giveItem": "Hammer",
+    "giveQuantity": 250,
+    "receiveItem": "Bell",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1666761260419,
+    "date": "2022-10-26-0",
+    "giveItem": "Old Boot",
+    "giveQuantity": 50,
+    "receiveItem": "Leather",
+    "receiveQuantity": 50,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1666761260423,
+    "date": "2022-10-26-0",
+    "giveItem": "Runestone 11",
+    "giveQuantity": 500,
+    "receiveItem": "Buddystone",
     "receiveQuantity": 1,
     "completed": false,
     "oneShot": false

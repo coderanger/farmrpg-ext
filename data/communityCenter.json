@@ -2601,6 +2601,15 @@
     "goalQuantity": 3061200,
     "rewardItem": "Chattering Teeth",
     "rewardQuantity": 1,
-    "progress": 3599204
+    "progress": 3787419
+  },
+  {
+    "firstSeen": 1666761260105,
+    "date": "2022-10-26",
+    "goalItem": "Pumpkin",
+    "goalQuantity": 1595000,
+    "rewardItem": "Glass Eyes",
+    "rewardQuantity": 1,
+    "progress": 320364
   }
 ]

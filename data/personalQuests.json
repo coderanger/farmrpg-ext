@@ -4207,6 +4207,171 @@
     "silverReward": 50410000
   },
   {
+    "firstSeen": 1666762725392,
+    "itemRequests": [
+      {
+        "id": "17",
+        "quantity": 250
+      },
+      {
+        "id": "35",
+        "quantity": 35
+      },
+      {
+        "id": "306",
+        "quantity": 35
+      },
+      {
+        "id": "104",
+        "quantity": 250
+      },
+      {
+        "id": "146",
+        "quantity": 250
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "366",
+        "quantity": 90
+      },
+      {
+        "id": "653",
+        "quantity": 25
+      },
+      {
+        "id": "427",
+        "quantity": 90
+      },
+      {
+        "id": "535",
+        "quantity": 90
+      },
+      {
+        "id": "586",
+        "quantity": 5
+      }
+    ],
+    "id": "1326405",
+    "name": "Special Gift",
+    "prereq": null,
+    "isPersonal": true,
+    "from": "Beatrix",
+    "fromImage": "/img/items/a_011.png",
+    "text": "Beatrix is preparing a gift for Cecil. Will you help gather a few more items to make the gift really special?\n\n\n&nbsp;",
+    "silverReward": 51705000
+  },
+  {
+    "firstSeen": 1666762628635,
+    "itemRequests": [
+      {
+        "id": "90",
+        "quantity": 250
+      },
+      {
+        "id": "202",
+        "quantity": 250
+      },
+      {
+        "id": "35",
+        "quantity": 35
+      },
+      {
+        "id": "238",
+        "quantity": 250
+      },
+      {
+        "id": "19",
+        "quantity": 250
+      },
+      {
+        "id": "311",
+        "quantity": 35
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "240",
+        "quantity": 90
+      },
+      {
+        "id": "15",
+        "quantity": 90
+      },
+      {
+        "id": "586",
+        "quantity": 5
+      }
+    ],
+    "id": "1326406",
+    "name": "Helping Hand",
+    "prereq": null,
+    "isPersonal": true,
+    "from": "Lorn",
+    "fromImage": "/img/items/a_088.png",
+    "text": "Lorn needs some things and is having trouble finding them. Can you bring the following?\n\n\n&nbsp;",
+    "silverReward": 50945000
+  },
+  {
+    "firstSeen": 1666762621030,
+    "itemRequests": [
+      {
+        "id": "61",
+        "quantity": 250
+      },
+      {
+        "id": "118",
+        "quantity": 250
+      },
+      {
+        "id": "173",
+        "quantity": 250
+      },
+      {
+        "id": "102",
+        "quantity": 250
+      },
+      {
+        "id": "82",
+        "quantity": 250
+      },
+      {
+        "id": "187",
+        "quantity": 250
+      },
+      {
+        "id": "178",
+        "quantity": 250
+      },
+      {
+        "id": "74",
+        "quantity": 250
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "67",
+        "quantity": 90
+      },
+      {
+        "id": "471",
+        "quantity": 90
+      },
+      {
+        "id": "586",
+        "quantity": 5
+      }
+    ],
+    "id": "1326407",
+    "name": "House Cleaning",
+    "prereq": null,
+    "isPersonal": true,
+    "from": "Vincent",
+    "fromImage": "/img/items/a_047.png",
+    "text": "Vincent is doing some house cleaning and will give you some nice items if you can bring the following.",
+    "silverReward": 50880000
+  },
+  {
     "firstSeen": 1655455973645,
     "itemRequests": [
       {
