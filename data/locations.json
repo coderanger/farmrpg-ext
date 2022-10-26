@@ -77,6 +77,28 @@
   },
   {
     "items": [
+      "Apple",
+      "Jack-o-lantern",
+      "Chattering Teeth",
+      "Witch Hat",
+      "Candy",
+      "Lollipop",
+      "Treat Bag 01",
+      "Candy Corn",
+      "Spider",
+      "Treat Bag 02",
+      "Hockey Mask",
+      "Taffy",
+      "Treat Bag 03",
+      "Bat Wing"
+    ],
+    "id": "14",
+    "type": "explore",
+    "name": "Haunted House",
+    "image": "/img/items/hauntedhouse.png"
+  },
+  {
+    "items": [
       "Wood",
       "Stone",
       "Feathers",

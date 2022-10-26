@@ -2221,13 +2221,121 @@
     "beta": false
   },
   {
+    "firstSeen": 1665763115690,
+    "id": "526",
+    "image": "img/emblems/BuddyBuddyBuddy96.png",
+    "beta": true
+  },
+  {
+    "firstSeen": 1666064368007,
+    "id": "529",
+    "image": "img/emblems/0C12A741-EA5F-476A-9D64-C22FF3AF7717.png",
+    "beta": false
+  },
+  {
     "id": "53",
     "image": "img/emblems/InTents96.png",
     "beta": false
   },
   {
+    "firstSeen": 1666109689431,
+    "id": "530",
+    "image": "img/emblems/DA721543-F2C9-4499-B44E-2E4A210CCC1A.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1666109689482,
+    "id": "531",
+    "image": "img/emblems/8E7C00D4-F276-4DE3-941E-7715B7E9E261.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1666109689460,
+    "id": "533",
+    "image": "img/emblems/Energite96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1666120704829,
+    "id": "534",
+    "image": "img/emblems/5789CAA2-5C1B-42DD-BC05-1CB7F7CA5074.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1666120704833,
+    "id": "535",
+    "image": "img/emblems/8A716747-C600-43D2-8BEB-5614E4577AFC.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1666120704834,
+    "id": "536",
+    "image": "img/emblems/D0FBA5DF-A938-4F29-9D84-549B7D5F721F.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1666120704832,
+    "id": "537",
+    "image": "img/emblems/C8550301-ED93-478E-9354-07CDE3F41772.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1666120704897,
+    "id": "538",
+    "image": "img/emblems/46F76A0B-48F5-458D-87C9-DCD4CF56215E.png",
+    "beta": true
+  },
+  {
+    "firstSeen": 1666158373743,
+    "id": "539",
+    "image": "img/emblems/BuddyExplorer96.png",
+    "beta": false
+  },
+  {
     "id": "54",
     "image": "img/emblems/SharkFin96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1666158373808,
+    "id": "541",
+    "image": "img/emblems/05BA43FD-1706-4B42-99F9-B0E57073BEBD.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1666158373804,
+    "id": "542",
+    "image": "img/emblems/B5FEC96B-0322-42C1-8EE5-77F5C3FC90CE.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1666158373741,
+    "id": "544",
+    "image": "img/emblems/7F0987DA-C6CB-4F86-A3E9-3E6E7B3A38DB.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1666158373779,
+    "id": "545",
+    "image": "img/emblems/34A141E0-15BB-4D7F-A14D-F7E382684DAB.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1666199989184,
+    "id": "546",
+    "image": "img/emblems/LightElemental96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1666281919699,
+    "id": "550",
+    "image": "img/emblems/TowerLevel30OCharm-v3-96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1666381590180,
+    "id": "551",
+    "image": "img/emblems/PurpleFlower96.png",
     "beta": false
   },
   {

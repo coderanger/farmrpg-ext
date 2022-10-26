@@ -2020,11 +2020,63 @@
     ]
   },
   {
-    "availableFrom": 1634187600000,
+    "availableFrom": 1634965200000,
     "availableTo": 1636001999000,
     "id": "310",
+    "next": "311",
+    "prev": null,
     "questlines": [
       "Pyramid Scheme"
+    ]
+  },
+  {
+    "availableFrom": 1666501200000,
+    "availableTo": 1667537999000,
+    "id": "311",
+    "next": "312",
+    "prev": "310",
+    "questlines": [
+      "Pyramid Scheme"
+    ]
+  },
+  {
+    "availableFrom": 1666501200000,
+    "availableTo": 1667537999000,
+    "id": "312",
+    "next": null,
+    "prev": "311",
+    "questlines": [
+      "Pyramid Scheme"
+    ]
+  },
+  {
+    "availableFrom": 1666501200000,
+    "availableTo": 1667537999000,
+    "id": "313",
+    "next": "314",
+    "prev": null,
+    "questlines": [
+      "Dread Stations"
+    ]
+  },
+  {
+    "availableFrom": 1666501200000,
+    "availableTo": 1667537999000,
+    "id": "314",
+    "next": "315",
+    "prev": "313",
+    "questlines": [
+      "Dread Stations"
+    ]
+  },
+  {
+    "availableFrom": 1666501200000,
+    "availableTo": 1667537999000,
+    "id": "315",
+    "next": null,
+    "prev": "314",
+    "questlines": [
+      "Dread Stations"
     ]
   },
   {
@@ -2092,33 +2144,179 @@
     ]
   },
   {
-    "availableFrom": 1634187600000,
+    "availableFrom": 1666501200000,
+    "availableTo": 1667537999000,
+    "id": "324",
+    "next": "325",
+    "prev": null,
+    "questlines": [
+      "Frog Got Your Tongue"
+    ]
+  },
+  {
+    "availableFrom": 1666501200000,
+    "availableTo": 1667537999000,
+    "id": "325",
+    "next": "326",
+    "prev": "324",
+    "questlines": [
+      "Frog Got Your Tongue"
+    ]
+  },
+  {
+    "availableFrom": 1666501200000,
+    "availableTo": 1667537999000,
+    "id": "326",
+    "next": null,
+    "prev": "325",
+    "questlines": [
+      "Frog Got Your Tongue"
+    ]
+  },
+  {
+    "availableFrom": 1666501200000,
+    "availableTo": 1667537999000,
+    "id": "327",
+    "next": "328",
+    "prev": null,
+    "questlines": [
+      "Tricks Not Treats"
+    ]
+  },
+  {
+    "availableFrom": 1666501200000,
+    "availableTo": 1667537999000,
+    "id": "328",
+    "next": "329",
+    "prev": "327",
+    "questlines": [
+      "Tricks Not Treats"
+    ]
+  },
+  {
+    "availableFrom": 1666501200000,
+    "availableTo": 1667537999000,
+    "id": "329",
+    "next": "330",
+    "prev": "328",
+    "questlines": [
+      "Tricks Not Treats"
+    ]
+  },
+  {
+    "availableFrom": 1666501200000,
+    "availableTo": 1667537999000,
+    "id": "330",
+    "next": null,
+    "prev": "329",
+    "questlines": [
+      "Tricks Not Treats"
+    ]
+  },
+  {
+    "availableFrom": 1666501200000,
+    "availableTo": 1667537999000,
+    "id": "331",
+    "next": "332",
+    "prev": null,
+    "questlines": [
+      "Limerick or Treat"
+    ]
+  },
+  {
+    "availableFrom": 1666501200000,
+    "availableTo": 1667537999000,
+    "id": "332",
+    "next": "333",
+    "prev": "331",
+    "questlines": [
+      "Limerick or Treat"
+    ]
+  },
+  {
+    "availableFrom": 1666501200000,
+    "availableTo": 1667537999000,
+    "id": "333",
+    "next": null,
+    "prev": "332",
+    "questlines": [
+      "Limerick or Treat"
+    ]
+  },
+  {
+    "availableFrom": 1666501200000,
+    "availableTo": 1667537999000,
+    "id": "334",
+    "questlines": []
+  },
+  {
+    "availableFrom": 1634965200000,
     "availableTo": 1636001999000,
     "id": "335",
     "questlines": []
   },
   {
-    "availableFrom": 1634187600000,
+    "availableFrom": 1634965200000,
     "availableTo": 1636001999000,
     "id": "336",
     "questlines": []
   },
   {
-    "availableFrom": 1634187600000,
+    "availableFrom": 1666501200000,
+    "availableTo": 1667537999000,
+    "id": "337",
+    "questlines": []
+  },
+  {
+    "availableFrom": 1666501200000,
+    "availableTo": 1667537999000,
+    "id": "338",
+    "questlines": []
+  },
+  {
+    "availableFrom": 1666501200000,
+    "availableTo": 1667537999000,
+    "id": "339",
+    "questlines": []
+  },
+  {
+    "availableFrom": 1634965200000,
     "availableTo": 1636001999000,
     "id": "340",
     "questlines": []
   },
   {
-    "availableFrom": 1634187600000,
+    "availableFrom": 1634965200000,
     "availableTo": 1636001999000,
     "id": "341",
     "questlines": []
   },
   {
-    "availableFrom": 1634274000000,
+    "availableFrom": 1634965200000,
     "availableTo": 1636001999000,
     "id": "342",
+    "next": "343",
+    "prev": null,
+    "questlines": [
+      "Temporary Prankster"
+    ]
+  },
+  {
+    "availableFrom": 1666501200000,
+    "availableTo": 1667537999000,
+    "id": "343",
+    "next": "344",
+    "prev": "342",
+    "questlines": [
+      "Temporary Prankster"
+    ]
+  },
+  {
+    "availableFrom": 1666501200000,
+    "availableTo": 1667537999000,
+    "id": "344",
+    "next": null,
+    "prev": "343",
     "questlines": [
       "Temporary Prankster"
     ]
@@ -2164,11 +2362,123 @@
     ]
   },
   {
-    "availableFrom": 1634446800000,
+    "availableFrom": 1634965200000,
     "availableTo": 1636001999000,
     "id": "350",
+    "next": "351",
+    "prev": null,
     "questlines": [
       "Free Candy"
+    ]
+  },
+  {
+    "availableFrom": 1666501200000,
+    "availableTo": 1667537999000,
+    "id": "351",
+    "next": "352",
+    "prev": "350",
+    "questlines": [
+      "Free Candy"
+    ]
+  },
+  {
+    "availableFrom": 1666501200000,
+    "availableTo": 1667537999000,
+    "id": "352",
+    "next": "353",
+    "prev": "351",
+    "questlines": [
+      "Free Candy"
+    ]
+  },
+  {
+    "availableFrom": 1666501200000,
+    "availableTo": 1667537999000,
+    "id": "353",
+    "next": "354",
+    "prev": "352",
+    "questlines": [
+      "Free Candy"
+    ]
+  },
+  {
+    "availableFrom": 1666501200000,
+    "availableTo": 1667537999000,
+    "id": "354",
+    "next": null,
+    "prev": "353",
+    "questlines": [
+      "Free Candy"
+    ]
+  },
+  {
+    "availableFrom": 1666501200000,
+    "availableTo": 1667537999000,
+    "id": "355",
+    "next": "356",
+    "prev": null,
+    "questlines": [
+      "Candy Mystery"
+    ]
+  },
+  {
+    "availableFrom": 1666501200000,
+    "availableTo": 1667537999000,
+    "id": "356",
+    "next": "357",
+    "prev": "355",
+    "questlines": [
+      "Candy Mystery"
+    ]
+  },
+  {
+    "availableFrom": 1666501200000,
+    "availableTo": 1667537999000,
+    "id": "357",
+    "next": "358",
+    "prev": "356",
+    "questlines": [
+      "Candy Mystery"
+    ]
+  },
+  {
+    "availableFrom": 1666501200000,
+    "availableTo": 1667537999000,
+    "id": "358",
+    "next": null,
+    "prev": "357",
+    "questlines": [
+      "Candy Mystery"
+    ]
+  },
+  {
+    "availableFrom": 1666501200000,
+    "availableTo": 1667537999000,
+    "id": "359",
+    "next": "360",
+    "prev": null,
+    "questlines": [
+      "Trapper\u2019s Delight"
+    ]
+  },
+  {
+    "availableFrom": 1666501200000,
+    "availableTo": 1667537999000,
+    "id": "360",
+    "next": "361",
+    "prev": "359",
+    "questlines": [
+      "Trapper\u2019s Delight"
+    ]
+  },
+  {
+    "availableFrom": 1666501200000,
+    "availableTo": 1667537999000,
+    "id": "361",
+    "next": null,
+    "prev": "360",
+    "questlines": [
+      "Trapper\u2019s Delight"
     ]
   },
   {
@@ -2196,8 +2506,48 @@
     ]
   },
   {
-    "availableFrom": 1635138000000,
-    "availableTo": 1635310799000,
+    "availableFrom": 1666501200000,
+    "availableTo": 1667537999000,
+    "id": "365",
+    "next": "366",
+    "prev": null,
+    "questlines": [
+      "The Hat Which Makes The Magic"
+    ]
+  },
+  {
+    "availableFrom": 1666501200000,
+    "availableTo": 1667537999000,
+    "id": "366",
+    "next": "367",
+    "prev": "365",
+    "questlines": [
+      "The Hat Which Makes The Magic"
+    ]
+  },
+  {
+    "availableFrom": 1666501200000,
+    "availableTo": 1667537999000,
+    "id": "367",
+    "next": "368",
+    "prev": "366",
+    "questlines": [
+      "The Hat Which Makes The Magic"
+    ]
+  },
+  {
+    "availableFrom": 1666501200000,
+    "availableTo": 1667537999000,
+    "id": "368",
+    "next": null,
+    "prev": "367",
+    "questlines": [
+      "The Hat Which Makes The Magic"
+    ]
+  },
+  {
+    "availableFrom": 1634965200000,
+    "availableTo": 1636001999000,
     "id": "369",
     "questlines": []
   },
@@ -2246,7 +2596,67 @@
     ]
   },
   {
-    "availableFrom": 1635656400000,
+    "availableFrom": 1666501200000,
+    "availableTo": 1667537999000,
+    "id": "375",
+    "next": "376",
+    "prev": null,
+    "questlines": [
+      "Once Upon A Halloween"
+    ]
+  },
+  {
+    "availableFrom": 1666501200000,
+    "availableTo": 1667537999000,
+    "id": "376",
+    "next": "377",
+    "prev": "375",
+    "questlines": [
+      "Once Upon A Halloween"
+    ]
+  },
+  {
+    "availableFrom": 1666501200000,
+    "availableTo": 1667537999000,
+    "id": "377",
+    "next": "378",
+    "prev": "376",
+    "questlines": [
+      "Once Upon A Halloween"
+    ]
+  },
+  {
+    "availableFrom": 1666501200000,
+    "availableTo": 1667537999000,
+    "id": "378",
+    "next": "379",
+    "prev": "377",
+    "questlines": [
+      "Once Upon A Halloween"
+    ]
+  },
+  {
+    "availableFrom": 1666501200000,
+    "availableTo": 1667537999000,
+    "id": "379",
+    "next": "380",
+    "prev": "378",
+    "questlines": [
+      "Once Upon A Halloween"
+    ]
+  },
+  {
+    "availableFrom": 1666501200000,
+    "availableTo": 1667537999000,
+    "id": "380",
+    "next": null,
+    "prev": "379",
+    "questlines": [
+      "Once Upon A Halloween"
+    ]
+  },
+  {
+    "availableFrom": 1634965200000,
     "availableTo": 1636001999000,
     "id": "381",
     "questlines": []
@@ -8368,5 +8778,405 @@
   {
     "id": "1090568",
     "questlines": []
+  },
+  {
+    "id": "1090572",
+    "questlines": [
+      "Strange Companions"
+    ]
+  },
+  {
+    "id": "1090579",
+    "questlines": [
+      "Strange Companions"
+    ]
+  },
+  {
+    "id": "1090580",
+    "questlines": [
+      "Strange Companions"
+    ]
+  },
+  {
+    "id": "1090584",
+    "questlines": [
+      "Neighs Of Our Lives"
+    ]
+  },
+  {
+    "availableFrom": 1666674000000,
+    "availableTo": 1667537999000,
+    "id": "1119430",
+    "next": "1153076",
+    "prev": null,
+    "questlines": [
+      "frank's pranks"
+    ]
+  },
+  {
+    "availableFrom": 1666674000000,
+    "availableTo": 1667537999000,
+    "id": "1153076",
+    "next": "1153172",
+    "prev": "1119430",
+    "questlines": [
+      "frank's pranks"
+    ]
+  },
+  {
+    "availableFrom": 1666674000000,
+    "availableTo": 1667537999000,
+    "id": "1153170",
+    "next": "1153251",
+    "prev": "1153171",
+    "questlines": [
+      "frank's pranks"
+    ]
+  },
+  {
+    "availableFrom": 1666674000000,
+    "availableTo": 1667537999000,
+    "id": "1153171",
+    "next": "1153170",
+    "prev": "1153172",
+    "questlines": [
+      "frank's pranks"
+    ]
+  },
+  {
+    "availableFrom": 1666674000000,
+    "availableTo": 1667537999000,
+    "id": "1153172",
+    "next": "1153171",
+    "prev": "1153076",
+    "questlines": [
+      "frank's pranks"
+    ]
+  },
+  {
+    "availableFrom": 1666674000000,
+    "availableTo": 1667537999000,
+    "id": "1153251",
+    "next": "1153516",
+    "prev": "1153170",
+    "questlines": [
+      "frank's pranks"
+    ]
+  },
+  {
+    "availableFrom": 1666674000000,
+    "availableTo": 1667537999000,
+    "id": "1153516",
+    "next": "1153532",
+    "prev": "1153251",
+    "questlines": [
+      "frank's pranks"
+    ]
+  },
+  {
+    "availableFrom": 1666674000000,
+    "availableTo": 1667537999000,
+    "id": "1153532",
+    "next": "1153554",
+    "prev": "1153516",
+    "questlines": [
+      "frank's pranks"
+    ]
+  },
+  {
+    "availableFrom": 1666674000000,
+    "availableTo": 1667537999000,
+    "id": "1153554",
+    "next": "1153753",
+    "prev": "1153532",
+    "questlines": [
+      "frank's pranks"
+    ]
+  },
+  {
+    "availableFrom": 1666674000000,
+    "availableTo": 1667537999000,
+    "id": "1153753",
+    "next": "1153754",
+    "prev": "1153554",
+    "questlines": [
+      "frank's pranks"
+    ]
+  },
+  {
+    "availableFrom": 1666674000000,
+    "availableTo": 1667537999000,
+    "id": "1153754",
+    "next": "1153779",
+    "prev": "1153753",
+    "questlines": [
+      "frank's pranks"
+    ]
+  },
+  {
+    "availableFrom": 1666674000000,
+    "availableTo": 1667537999000,
+    "id": "1153779",
+    "next": "1153801",
+    "prev": "1153754",
+    "questlines": [
+      "frank's pranks"
+    ]
+  },
+  {
+    "availableFrom": 1666674000000,
+    "availableTo": 1667537999000,
+    "id": "1153801",
+    "next": "1286507",
+    "prev": "1153779",
+    "questlines": [
+      "frank's pranks"
+    ]
+  },
+  {
+    "availableFrom": 1666587600000,
+    "availableTo": 1667537999000,
+    "id": "1265669",
+    "questlines": []
+  },
+  {
+    "availableFrom": 1666587600000,
+    "availableTo": 1667537999000,
+    "id": "1265694",
+    "questlines": []
+  },
+  {
+    "availableFrom": 1666587600000,
+    "availableTo": 1667537999000,
+    "id": "1265710",
+    "questlines": []
+  },
+  {
+    "availableFrom": 1666587600000,
+    "availableTo": 1667537999000,
+    "id": "1265723",
+    "next": "1265727",
+    "prev": null,
+    "questlines": [
+      "Fear or Treat"
+    ]
+  },
+  {
+    "availableFrom": 1666587600000,
+    "availableTo": 1667537999000,
+    "id": "1265727",
+    "next": null,
+    "prev": "1265723",
+    "questlines": [
+      "Fear or Treat"
+    ]
+  },
+  {
+    "availableFrom": 1666587600000,
+    "availableTo": 1667537999000,
+    "id": "1265731",
+    "questlines": [
+      "Treat or Fear"
+    ]
+  },
+  {
+    "availableFrom": 1666674000000,
+    "availableTo": 1667537999000,
+    "id": "1286507",
+    "next": "1286511",
+    "prev": "1153801",
+    "questlines": [
+      "frank's pranks"
+    ]
+  },
+  {
+    "availableFrom": 1666674000000,
+    "availableTo": 1667537999000,
+    "id": "1286511",
+    "next": "1286513",
+    "prev": "1286507",
+    "questlines": [
+      "frank's pranks"
+    ]
+  },
+  {
+    "availableFrom": 1666674000000,
+    "availableTo": 1667537999000,
+    "id": "1286512",
+    "next": "1286553",
+    "prev": "1286513",
+    "questlines": [
+      "frank's pranks"
+    ]
+  },
+  {
+    "availableFrom": 1666674000000,
+    "availableTo": 1667537999000,
+    "id": "1286513",
+    "next": "1286512",
+    "prev": "1286511",
+    "questlines": [
+      "frank's pranks"
+    ]
+  },
+  {
+    "availableFrom": 1666674000000,
+    "availableTo": 1667537999000,
+    "id": "1286553",
+    "next": "1286560",
+    "prev": "1286512",
+    "questlines": [
+      "frank's pranks"
+    ]
+  },
+  {
+    "availableFrom": 1666674000000,
+    "availableTo": 1667537999000,
+    "id": "1286560",
+    "next": "1286576",
+    "prev": "1286553",
+    "questlines": [
+      "frank's pranks"
+    ]
+  },
+  {
+    "availableFrom": 1666674000000,
+    "availableTo": 1667537999000,
+    "id": "1286576",
+    "next": null,
+    "prev": "1286560",
+    "questlines": [
+      "frank's pranks"
+    ]
+  },
+  {
+    "availableFrom": 1666587600000,
+    "availableTo": 1667537999000,
+    "id": "1286943",
+    "next": "1287079",
+    "prev": null,
+    "questlines": [
+      "Let\u2019s Do The Time Warp"
+    ]
+  },
+  {
+    "availableFrom": 1666587600000,
+    "availableTo": 1667537999000,
+    "id": "1287079",
+    "next": "1288202",
+    "prev": "1286943",
+    "questlines": [
+      "Let\u2019s Do The Time Warp"
+    ]
+  },
+  {
+    "availableFrom": 1666587600000,
+    "availableTo": 1667537999000,
+    "id": "1288202",
+    "next": "1308567",
+    "prev": "1287079",
+    "questlines": [
+      "Let\u2019s Do The Time Warp"
+    ]
+  },
+  {
+    "availableFrom": 1666587600000,
+    "availableTo": 1667537999000,
+    "id": "1308567",
+    "next": "1308640",
+    "prev": "1288202",
+    "questlines": [
+      "Let\u2019s Do The Time Warp"
+    ]
+  },
+  {
+    "availableFrom": 1666587600000,
+    "availableTo": 1667537999000,
+    "id": "1308640",
+    "next": null,
+    "prev": "1308567",
+    "questlines": [
+      "Let\u2019s Do The Time Warp"
+    ]
+  },
+  {
+    "availableFrom": 1666587600000,
+    "availableTo": 1667537999000,
+    "id": "1310342",
+    "next": "1310346",
+    "prev": null,
+    "questlines": [
+      "Tell-Tale Beat"
+    ]
+  },
+  {
+    "availableFrom": 1666587600000,
+    "availableTo": 1667537999000,
+    "id": "1310346",
+    "next": "1310374",
+    "prev": "1310342",
+    "questlines": [
+      "Tell-Tale Beat"
+    ]
+  },
+  {
+    "availableFrom": 1666587600000,
+    "availableTo": 1667537999000,
+    "id": "1310374",
+    "next": null,
+    "prev": "1310346",
+    "questlines": [
+      "Tell-Tale Beat"
+    ]
+  },
+  {
+    "availableFrom": 1666587600000,
+    "availableTo": 1667537999000,
+    "id": "1310888",
+    "next": "1310904",
+    "prev": null,
+    "questlines": [
+      "Which Wizard Hats And Which Witch Hats"
+    ]
+  },
+  {
+    "availableFrom": 1666587600000,
+    "availableTo": 1667537999000,
+    "id": "1310904",
+    "next": "1310908",
+    "prev": "1310888",
+    "questlines": [
+      "Which Wizard Hats And Which Witch Hats"
+    ]
+  },
+  {
+    "availableFrom": 1666587600000,
+    "availableTo": 1667537999000,
+    "id": "1310908",
+    "next": "1310918",
+    "prev": "1310904",
+    "questlines": [
+      "Which Wizard Hats And Which Witch Hats"
+    ]
+  },
+  {
+    "availableFrom": 1666587600000,
+    "availableTo": 1667537999000,
+    "id": "1310918",
+    "next": "1310943",
+    "prev": "1310908",
+    "questlines": [
+      "Which Wizard Hats And Which Witch Hats"
+    ]
+  },
+  {
+    "availableFrom": 1666587600000,
+    "availableTo": 1667537999000,
+    "id": "1310943",
+    "next": null,
+    "prev": "1310918",
+    "questlines": [
+      "Which Wizard Hats And Which Witch Hats"
+    ]
   }
 ]

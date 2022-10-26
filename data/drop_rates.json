@@ -97,8 +97,8 @@
   },
   {
     "drop_rates": {
-      "Popcorn": 67.05405405405405,
-      "Runestone 11": 736.0
+      "Popcorn": 67.39473684210526,
+      "Runestone 11": 738.0512820512821
     },
     "iron_depot_rates": {},
     "location": "Corn Seeds",
@@ -318,6 +318,39 @@
   },
   {
     "drop_rates": {
+      "Apple": 41.20879120879121,
+      "Bat Wing": 572.0338983050848,
+      "Candy": 4.374337221633086,
+      "Candy Corn": 559.3922651933701,
+      "Chattering Teeth": 602.6785714285714,
+      "Hockey Mask": 50625.0,
+      "Jack-o-lantern": 1446.4285714285713,
+      "Lollipop": 12.10082977118431,
+      "Spider": 250.0,
+      "Taffy": 18.922528940338378,
+      "Treat Bag 01": 602.6785714285714,
+      "Witch Hat": 503.7313432835821
+    },
+    "iron_depot_rates": {
+      "Apple": 41.20879120879121,
+      "Bat Wing": 572.0338983050848,
+      "Candy": 4.374337221633086,
+      "Candy Corn": 559.3922651933701,
+      "Chattering Teeth": 602.6785714285714,
+      "Hockey Mask": 50625.0,
+      "Jack-o-lantern": 1446.4285714285713,
+      "Lollipop": 12.10082977118431,
+      "Spider": 250.0,
+      "Taffy": 18.922528940338378,
+      "Treat Bag 01": 602.6785714285714,
+      "Witch Hat": 503.7313432835821
+    },
+    "location": "Haunted House",
+    "manual_fish_rates": {},
+    "mode": "explores"
+  },
+  {
+    "drop_rates": {
       "Amethyst": 96.00829051844933,
       "Caterpillar": 872.839702760085,
       "Egg 08": 68861.2,
@@ -470,7 +503,7 @@
   },
   {
     "drop_rates": {
-      "Runestone 10": 868.0
+      "Runestone 10": 884.0
     },
     "iron_depot_rates": {},
     "location": "Leek Seeds",
@@ -620,7 +653,7 @@
   },
   {
     "drop_rates": {
-      "Gold Potato": 576.0
+      "Gold Potato": 696.0
     },
     "iron_depot_rates": {},
     "location": "Potato Seeds",
@@ -770,7 +803,7 @@
   },
   {
     "drop_rates": {
-      "Winged Amulet": 3139.0
+      "Winged Amulet": 3499.0
     },
     "iron_depot_rates": {},
     "location": "Tomato Seeds",

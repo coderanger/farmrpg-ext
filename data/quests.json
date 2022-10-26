@@ -648,6 +648,220 @@
     "requiresExploring": 70
   },
   {
+    "firstSeen": 1665629506036,
+    "itemRequests": [
+      {
+        "id": "389",
+        "quantity": 100
+      },
+      {
+        "id": "499",
+        "quantity": 400
+      },
+      {
+        "id": "185",
+        "quantity": 400
+      },
+      {
+        "id": "234",
+        "quantity": 400
+      },
+      {
+        "id": "242",
+        "quantity": 300
+      },
+      {
+        "id": "85",
+        "quantity": 400
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "84",
+        "quantity": 300
+      },
+      {
+        "id": "75",
+        "quantity": 500
+      },
+      {
+        "id": "145",
+        "quantity": 250
+      },
+      {
+        "id": "194",
+        "quantity": 200
+      }
+    ],
+    "id": "1090572",
+    "name": "Strange Companions XVIII",
+    "prereq": "1090568",
+    "isPersonal": false,
+    "from": "Buddy",
+    "fromImage": "/img/items/buddy.png",
+    "text": "You look up baffled and Buddy's smile fades briefly before Buddy moves to follow you, his footsteps quiet, eyes alert. \n“A shadow has fallen over our town, and I’m going to stop it. I saw it attacking you earlier but I couldn’t get there in time to attack it. But, with us together, we’ll be unstoppable!” His enthusiasm is infectious as he casts an imposing figure in the daylight, you briefly consider his proposal before your better judgment takes over, and you suggest talking to the rest of the Golden Leaf before he does anything rash. \nOn your walk back Holger’s words ring through your ears “find Buddy…” \nPeculiarly, no more episodes of shadow occur on your trip back. Sometimes, you get the sense of being watched, and even catch a glimpse of a (the?) shadow in the window and a glint of light, but before you can react it’s gone from your vision. \nBuddy notices your nerves and puts a hand on your shoulder, “Nothing will hurt you while I’m here, friend.”\nYou trudge back to Beatrix’s home, feeling strangely comforted on the journey. Arriving back at Beatrix’s you find you’re the first to arrive in her home. Rosalie is nowhere in sight, and neither is Lorn. Nothing to do but drink tea and wait for Buddy’s story when the rest of the golden leaf arrive.",
+    "requiresFarming": 75,
+    "requiresExploring": 70
+  },
+  {
+    "firstSeen": 1665645509331,
+    "itemRequests": [
+      {
+        "id": "499",
+        "quantity": 400
+      },
+      {
+        "id": "185",
+        "quantity": 400
+      },
+      {
+        "id": "264",
+        "quantity": 400
+      },
+      {
+        "id": "265",
+        "quantity": 400
+      },
+      {
+        "id": "250",
+        "quantity": 250
+      },
+      {
+        "id": "349",
+        "quantity": 200
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "508",
+        "quantity": 100
+      },
+      {
+        "id": "75",
+        "quantity": 500
+      },
+      {
+        "id": "236",
+        "quantity": 200
+      },
+      {
+        "id": "641",
+        "quantity": 5
+      },
+      {
+        "id": "645",
+        "quantity": 2
+      }
+    ],
+    "id": "1090579",
+    "name": "Strange Companions XIX",
+    "prereq": "1090572",
+    "isPersonal": false,
+    "from": "Beatrix",
+    "fromImage": "/img/items/a_011.png",
+    "text": "The tea helps to calm your nerves, and Rosalie’s presence radiates a serenity that belies the discomfort on her face. Beatrix is the picture of radiant intensity. Lorn seems to be resting peacefully in a chair nearby quietly. The entire combination is at once discomforting and soothing. Peculiar. It takes a moment before you realize that Cecil is not there.\n“Well,” Beatrix breaks the silence with an irascible look, “Tell us why you’re here, Buddy.”\nBuddy looks at the assembled group, a smile on his face. “A few weeks ago, I noticed a weird blob of black moving around the town. It was really creepy and unfriendly, so I started tracking it, and when I started tracking it, it would simply...go away.” \n“This happened several more times over the next few days, and I saw several townsfolk touched by this…thing…for a moment, but then it would leave quickly. Obviously, it knew I was there and I was coming to protect them.”\nThe assembled group is nonplussed by this revelation and ask for a few moments to gather their thoughts.",
+    "requiresFarming": 75,
+    "requiresExploring": 75,
+    "silverReward": 250000000
+  },
+  {
+    "firstSeen": 1665725153285,
+    "itemRequests": [
+      {
+        "id": "350",
+        "quantity": 250
+      },
+      {
+        "id": "389",
+        "quantity": 217
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "78",
+        "quantity": 500
+      },
+      {
+        "id": "643",
+        "quantity": 5
+      },
+      {
+        "id": "654",
+        "quantity": 5
+      },
+      {
+        "id": "375",
+        "quantity": 1
+      },
+      {
+        "id": "75",
+        "quantity": 400
+      }
+    ],
+    "id": "1090580",
+    "name": "Strange Companions XX",
+    "prereq": "1090579",
+    "isPersonal": false,
+    "from": "Rosalie",
+    "fromImage": "/img/items/a_098.png",
+    "text": "After the assembled Golden Leaf members have had a chance to compose themselves, Lorn stands up and confronts Buddy. “Buddy you insensitive clod, there’s no way you did that, and there’s no way some semi-intelligent blob of,” Lorn stumbles over his words momentarily, “whatever, is going around attacking townspeople. Don’t jest. Are you making up children’s tales? This is serious.”\nBuddy gives the assembled group a hurt look, and spurred by your own experiences, you quickly speak up, recounting your encounter from earlier that day. Looking at you, Buddy nods enthusiastically along with your recounting, but his expression quickly becomes baffled.\n“Well, I wasn’t there for that, I was on the other side of town eating tacos.”\nRosalie seems startled out of her intense thought by this peculiar admission from Buddy. \n“Then, it must be someone or something else dealing with this situation, and we’ve got to figure it out. Let’s go do some digging Buddy, we’ll all meet back in a week.”\nBuddy begins to protest but Rosalie heads towards the door before anyone else can speak and Buddy rushes to follow her. \nThose two are strange companions, you think to yourself as you walk home.",
+    "requiresFarming": 75,
+    "requiresExploring": 75
+  },
+  {
+    "firstSeen": 1665758864556,
+    "itemRequests": [
+      {
+        "id": "44",
+        "quantity": 600
+      },
+      {
+        "id": "379",
+        "quantity": 200
+      },
+      {
+        "id": "123",
+        "quantity": 600
+      },
+      {
+        "id": "176",
+        "quantity": 600
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "217",
+        "quantity": 500
+      },
+      {
+        "id": "188",
+        "quantity": 20
+      },
+      {
+        "id": "163",
+        "quantity": 500
+      },
+      {
+        "id": "170",
+        "quantity": 250
+      },
+      {
+        "id": "84",
+        "quantity": 200
+      }
+    ],
+    "id": "1090584",
+    "name": "Neighs Of Our Lives I",
+    "prereq": "1090580",
+    "isPersonal": false,
+    "from": "Charles Horsington III",
+    "fromImage": "/img/items/npc_horse.png",
+    "text": "On your walk home, Charles clip-clops up next to you. Golden Leaf proudly displayed on his mane, he gently steers you in a direction that is decidedly not your home. It completely slipped your mind that he was a part of your little group.\n“Good day it is I, Charles Horsington the Third, we require your presence immediately at the manor. I am in dire need of your assistance. Bring apples, ancient coins, and that trusty translation ring with you.”\nAfter a brief moment of shock, you remember the Ring of Renthisj on your finger and follow Charles.",
+    "requiresFarming": 75,
+    "requiresExploring": 75,
+    "silverReward": 200000000
+  },
+  {
     "firstSeen": 1646724107935,
     "itemRequests": [
       {
@@ -739,6 +953,39 @@
     "text": "Holger has heard of the legendary Milk Chugging challenge. Drink a gallon of milk in under an hour? Sounds like child's play to Holger. He would like you to provide a much larger quantity of milk to show how this challenge should be done. He will pay you fair market value for the milk, and even throw in a shiny feather.",
     "requiresFarming": 15,
     "silverReward": 50000
+  },
+  {
+    "firstSeen": 1666722830919,
+    "itemRequests": [
+      {
+        "id": "26",
+        "quantity": 5000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "360",
+        "quantity": 10
+      },
+      {
+        "id": "364",
+        "quantity": 10
+      },
+      {
+        "id": "361",
+        "quantity": 25
+      }
+    ],
+    "id": "1119430",
+    "name": "frank's pranks I",
+    "prereq": null,
+    "isPersonal": false,
+    "from": "frank",
+    "fromImage": "/img/items/../emblems/franklyFrightening96.png",
+    "text": "frank has been waiting all year for his chance to pull the most epic pranks on everyone. Naturally, he needs you to help him gather supplies. He assures you he probably won’t prank you, as a payment for your services. First on his list is a bunch of eggs.",
+    "requiresTower": 100,
+    "availableFrom": "Oct 25",
+    "availableTo": "Nov 3"
   },
   {
     "firstSeen": 1646727848097,
@@ -840,6 +1087,350 @@
     "availableFrom": "Jul 26",
     "availableTo": "Jul 28",
     "requiresFarming": 1
+  },
+  {
+    "firstSeen": 1666722836864,
+    "itemRequests": [
+      {
+        "id": "26",
+        "quantity": 1000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "508",
+        "quantity": 100
+      }
+    ],
+    "id": "1153076",
+    "name": "frank's pranks II",
+    "prereq": "1119430",
+    "isPersonal": false,
+    "from": "frank",
+    "fromImage": "/img/items/../emblems/franklyFrightening96.png",
+    "text": "With the eggs delivered, he instructs you to place them all over the town square. “don’t step on any, it’ll ruin the immersion.”He cackles, and pulls out his list. “alright, from here, we need some bugs. a lot of ‘em. let’s start with spiders. and some bottles to keep ‘em in.”",
+    "requiresTower": 100,
+    "availableFrom": "Oct 25",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666733300706,
+    "itemRequests": [
+      {
+        "id": "287",
+        "quantity": 5000
+      },
+      {
+        "id": "117",
+        "quantity": 5000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "664",
+        "quantity": 4
+      }
+    ],
+    "id": "1153170",
+    "name": "frank's pranks V",
+    "prereq": "1153171",
+    "isPersonal": false,
+    "from": "frank",
+    "fromImage": "/img/items/../emblems/franklyFrightening96.png",
+    "text": "“alright alright, stop making that face. the last bugs i need are grasshoppers.”",
+    "requiresTower": 100,
+    "availableFrom": "Oct 25",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666732861163,
+    "itemRequests": [
+      {
+        "id": "282",
+        "quantity": 2500
+      },
+      {
+        "id": "283",
+        "quantity": 2500
+      },
+      {
+        "id": "117",
+        "quantity": 5000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "372",
+        "quantity": 20
+      },
+      {
+        "id": "653",
+        "quantity": 25
+      }
+    ],
+    "id": "1153171",
+    "name": "frank's pranks IV",
+    "prereq": "1153172",
+    "isPersonal": false,
+    "from": "frank",
+    "fromImage": "/img/items/../emblems/franklyFrightening96.png",
+    "text": "You repeat the process, and frank reassures you these will not be used on you. “you’d already know what’s coming. wouldn’t be any fun in that. we need some of those leggy fellas now. i forget what they’re called. you know the ones. go get ‘em.”",
+    "requiresTower": 100,
+    "availableFrom": "Oct 25",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666732851716,
+    "itemRequests": [
+      {
+        "id": "362",
+        "quantity": 2500
+      },
+      {
+        "id": "117",
+        "quantity": 2500
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "357",
+        "quantity": 25
+      }
+    ],
+    "id": "1153172",
+    "name": "frank's pranks III",
+    "prereq": "1153076",
+    "isPersonal": false,
+    "from": "frank",
+    "fromImage": "/img/items/../emblems/franklyFrightening96.png",
+    "text": "frank casts some spell on the bottles to ensure the bugs can breathe properly. You gingerly capture one spider for each bottle. “great start, lets go for those beetles now.”",
+    "requiresTower": 100,
+    "availableFrom": "Oct 25",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666733512994,
+    "itemRequests": [
+      {
+        "id": "382",
+        "quantity": 1000
+      },
+      {
+        "id": "117",
+        "quantity": 1000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "665",
+        "quantity": 25
+      }
+    ],
+    "id": "1153251",
+    "name": "frank's pranks VI",
+    "prereq": "1153170",
+    "isPersonal": false,
+    "from": "frank",
+    "fromImage": "/img/items/../emblems/franklyFrightening96.png",
+    "text": "You hope you never have to touch another bug again, after this evening’s activities. frank informs you these bug jars will live hidden on your property, for now. “it’s not time to deliver these guys just yet. i’ll let you know. for NOW though…lets start setting up my next prank with some red dye.”",
+    "requiresTower": 100,
+    "availableFrom": "Oct 25",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666733528345,
+    "itemRequests": [
+      {
+        "id": "536",
+        "quantity": 2500
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "65",
+        "quantity": 2000
+      },
+      {
+        "id": "43",
+        "quantity": 2000
+      }
+    ],
+    "id": "1153516",
+    "name": "frank's pranks VII",
+    "prereq": "1153251",
+    "isPersonal": false,
+    "from": "frank",
+    "fromImage": "/img/items/../emblems/franklyFrightening96.png",
+    "text": "“that’s not nearly enough. do you have any idea what i’m trying to accomplish here? this has to be the biggest prank this town has ever seen. if you’re no longer interested in helping, let me know and i’ll find some other two legged person to help.” You don’t want to feel frank’s pranking wrath, so you hurriedly gather more red dye.",
+    "requiresTower": 100,
+    "availableFrom": "Oct 25",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666735921071,
+    "itemRequests": [
+      {
+        "id": "536",
+        "quantity": 4000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "629",
+        "quantity": 50
+      },
+      {
+        "id": "644",
+        "quantity": 5
+      },
+      {
+        "id": "62",
+        "quantity": 2000
+      }
+    ],
+    "id": "1153532",
+    "name": "frank's pranks VIII",
+    "prereq": "1153516",
+    "isPersonal": false,
+    "from": "frank",
+    "fromImage": "/img/items/../emblems/franklyFrightening96.png",
+    "text": "You return, and frank is talking with Charles Horsington III. Seems they’ve just finished conducting some business. They see you, and promptly end their discussion. Charles greets you, and trots off. “Neigh!””man, that horse is one funny -blam!-. totally on board, loved my idea. anyways, glad to see you’re back on board. lets get these loaded up. you cart them, and i’ll supervise.”“next up for preparation is uh…” He scans his list. “oh! toilet paper! as much as you can carry. i’ve got to survey the areas to plan when we’re pulling this off. just meet me back here when you’ve got it.”",
+    "requiresTower": 100,
+    "availableFrom": "Oct 25",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666739627606,
+    "itemRequests": [
+      {
+        "id": "616",
+        "quantity": 1000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "666",
+        "quantity": 5
+      }
+    ],
+    "id": "1153554",
+    "name": "frank's pranks IX",
+    "prereq": "1153532",
+    "isPersonal": false,
+    "from": "frank",
+    "fromImage": "/img/items/../emblems/franklyFrightening96.png",
+    "text": "frank can be seen sniffing the air, seemingly tracking something. “this is great. almost enough. could use some extra feathers, too, if you wouldn’t mind.”",
+    "requiresTower": 100,
+    "availableFrom": "Oct 25",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666739633447,
+    "itemRequests": [
+      {
+        "id": "616",
+        "quantity": 1000
+      },
+      {
+        "id": "42",
+        "quantity": 500
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "657",
+        "quantity": 1
+      },
+      {
+        "id": "250",
+        "quantity": 2000
+      }
+    ],
+    "id": "1153753",
+    "name": "frank's pranks X",
+    "prereq": "1153554",
+    "isPersonal": false,
+    "from": "frank",
+    "fromImage": "/img/items/../emblems/franklyFrightening96.png",
+    "text": "You begin to question your complicity, but after a brief moment of weighing your options, you decide to continue helping frank. He knows where you live, and you don’t want to make things awkward. You go back to the town square, towing a cart of toilet paper. frank is nowhere to be found, but he left a literal trail of crumbs for you to follow.",
+    "requiresTower": 100,
+    "availableFrom": "Oct 25",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666739641449,
+    "itemRequests": [
+      {
+        "id": "42",
+        "quantity": 2000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "661",
+        "quantity": 5
+      }
+    ],
+    "id": "1153754",
+    "name": "frank's pranks XI",
+    "prereq": "1153753",
+    "isPersonal": false,
+    "from": "frank",
+    "fromImage": "/img/items/../emblems/franklyFrightening96.png",
+    "text": "As you follow this trail, a piece of parchment flies into your face. You look at it, and an oddly familiar sense comes over you.”Tread Carefully.”You find frank north of town, and show him the note. “UGH! how did he figure it out? i mean, a silly little note won’t stop us. but it’ll just mean more hard work for yo– for us. i need some lemonade.”",
+    "requiresTower": 100,
+    "availableFrom": "Oct 25",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666739646477,
+    "itemRequests": [
+      {
+        "id": "86",
+        "quantity": 750
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "168",
+        "quantity": 20
+      }
+    ],
+    "id": "1153779",
+    "name": "frank's pranks XII",
+    "prereq": "1153754",
+    "isPersonal": false,
+    "from": "frank",
+    "fromImage": "/img/items/../emblems/franklyFrightening96.png",
+    "text": "Lemonade in hand, you return to find frank. “he’s not here. perfect. i’ve gotta start setting up, you got those pictures?” You stare blankly at frank. “oh. did i not... ok. yeah you know those super freaky pictures of that lady? i need about 20 of ‘em. go toss some stuff into the wishing well.” He shoos you off. You look back, and catch just a glimpse of the materials you brought levitating.",
+    "requiresTower": 100,
+    "availableFrom": "Oct 25",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666739650584,
+    "itemRequests": [
+      {
+        "id": "259",
+        "quantity": 20
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "656",
+        "quantity": 1
+      }
+    ],
+    "id": "1153801",
+    "name": "frank's pranks XIII",
+    "prereq": "1153779",
+    "isPersonal": false,
+    "from": "frank",
+    "fromImage": "/img/items/../emblems/franklyFrightening96.png",
+    "text": "When you return, the materials you brought previously are gone, as is frank. All you can find is a piece of parchment, which reads, “stack the pictures exactly where this letter was sitting, and meet me back at the town hall. if you could bring me a snack too, that would be great.”",
+    "requiresTower": 100,
+    "availableFrom": "Oct 25",
+    "availableTo": "Nov 3"
   },
   {
     "firstSeen": 1646727840084,
@@ -1238,6 +1829,167 @@
     "silverReward": 15000000
   },
   {
+    "firstSeen": 1666625112235,
+    "itemRequests": [
+      {
+        "id": "170",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "357",
+        "quantity": 1
+      }
+    ],
+    "id": "1265669",
+    "name": "ribbetribbetribbetribbet ribbet ribbetcroakribbetribbetribbetcroakcroakribbet croakcroak ribbet ribbetribbet",
+    "prereq": null,
+    "isPersonal": false,
+    "from": "Ribbit",
+    "fromImage": "/img/items/frog_t_01.png",
+    "text": "ribbitcroakcroak ribbitribbitribbitribbit ribbitribbit croakribbitcroakribbit ribbitribbitribbitribbit ribbitcroakcroak ribbitribbit croak croakribbitcroakribbit ribbitribbitribbitribbit croakribbitribbitribbit ribbit croakribbitcroakribbit croakcroakcroak croakcroak ribbit ribbitribbitribbit ribbitcroak ribbitribbitcroakribbit ribbitcroakribbit croakcroakcroak croakcroakribbit \nribbitribbit ribbitcroakcroakribbit ribbitcroakribbitribbit ribbitcroak croakribbit ribbitribbitcroakribbit croakcroakcroak ribbitcroakribbit ribbitcroakcroakribbit ribbitcroak ribbitcroakribbit croak ribbitribbit ribbit ribbitribbitribbit ribbitribbit croakribbit ribbitcroak croakribbit ribbitcroak ribbitcroakribbitribbit croakcroakcroak croakcroakribbit",
+    "availableFrom": "Oct 24",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666625117553,
+    "itemRequests": [
+      {
+        "id": "11",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "358",
+        "quantity": 10
+      }
+    ],
+    "id": "1265694",
+    "name": "ribbetribbetribbetribbet ribbet ribbetcroakribbetribbetribbetcroakcroakribbet croakcroak ribbetribbetribbet ribbetribbet",
+    "prereq": "1265669",
+    "isPersonal": false,
+    "from": "Ribbet",
+    "fromImage": "/img/items/frog_t_01.png",
+    "text": "croak ribbitribbitribbitribbit ribbit croakribbitcroak ribbit croakribbitcroakcroak croakcroak croakribbitcroakcroak ribbitribbitcroakribbit ribbitcroakribbit ribbitribbit ribbit croakribbit croakribbitribbit ribbitribbitribbit ribbitribbit ribbitribbitribbit ribbitribbitribbit ribbitribbit croakcroak ribbitcroakcroakribbit ribbitcroakribbitribbit ribbit ribbitcroak croakribbit croakribbitribbit croakribbitcroakribbit ribbitcroakribbitribbit ribbit ribbitcroak ribbitcroakribbit \nribbitribbitcroak ribbitribbitribbit ribbit croakcroak croakribbitcroakcroak croakribbit ribbitcroak croakcroak ribbit ribbitcroak croakribbit croakribbitribbit ribbitribbitribbitribbit ribbitcroak ribbitribbitribbitcroak ribbit croakribbit croakcroakcroak ribbitribbitcroakribbit ribbit ribbitcroak ribbitcroakribbit",
+    "availableFrom": "Oct 24",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666625123049,
+    "itemRequests": [
+      {
+        "id": "369",
+        "quantity": 100
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "357",
+        "quantity": 1
+      },
+      {
+        "id": "84",
+        "quantity": 200
+      },
+      {
+        "id": "86",
+        "quantity": 200
+      }
+    ],
+    "id": "1265710",
+    "name": "ribbetribbetribbetribbet ribbet ribbetcroakribbetribbetibbetcroakcroakribbet croakcroak ribbetribbetribbet ribbetribbet ribbetribbet",
+    "prereq": "1265694",
+    "isPersonal": false,
+    "from": "Ribbit",
+    "fromImage": "/img/items/frog_t_01.png",
+    "text": "ribbitcroakcroakribbit ribbitcroak ribbitribbitribbit ribbitribbitribbit croak ribbitribbitribbitribbit ribbit ribbitcroakcroak croakcroakcroak ribbitcroakribbit croakribbitribbit ribbitribbitribbit ribbitcroak croak ribbitcroakribbitribbit ribbit ribbitcroak ribbitribbitribbit croak croakcroakcroak croakribbit ribbit croak ribbitribbit croakcroak ribbit \ncroak ribbitribbitribbitribbit ribbit croakribbitcroakribbit croakcroakcroak ribbitribbitcroak croakribbit croak ribbit croakcroakribbitcroak ribbitribbitcroak ribbitcroak ribbitcroakribbitribbit ribbitribbitribbit croak ribbitribbitribbitribbit ribbit croakcroakribbit ribbit ribbitribbitcroak ribbitribbitribbit ribbit croakribbitcroakcroak ribbitcroakcroakribbit ribbitcroakribbit ribbitribbit croakcroak ribbit",
+    "availableFrom": "Oct 24",
+    "availableTo": "Nov 3",
+    "silverReward": 25000000
+  },
+  {
+    "firstSeen": 1666625128105,
+    "itemRequests": [
+      {
+        "id": "18",
+        "quantity": 2
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "23",
+        "quantity": 1
+      }
+    ],
+    "id": "1265723",
+    "name": "Fear or Treat I",
+    "prereq": null,
+    "isPersonal": false,
+    "from": "Ghosty McGhostface",
+    "fromImage": "/img/items/ghost.png",
+    "text": "Thomas oath – only worm and rods \nInvisible strings",
+    "availableFrom": "Oct 24",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666625132811,
+    "itemRequests": [
+      {
+        "id": "23",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "359",
+        "quantity": 10
+      }
+    ],
+    "id": "1265727",
+    "name": "Fear or Treat II",
+    "prereq": "1265723",
+    "isPersonal": false,
+    "from": "Ghosty McGhostface",
+    "fromImage": "/img/items/ghost.png",
+    "text": "Searching academic amazed, fisher enviously decided",
+    "availableFrom": "Oct 24",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666640969564,
+    "itemRequests": [
+      {
+        "id": "369",
+        "quantity": 100
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "84",
+        "quantity": 200
+      },
+      {
+        "id": "194",
+        "quantity": 200
+      },
+      {
+        "id": "361",
+        "quantity": 1
+      }
+    ],
+    "id": "1265731",
+    "name": "Treat or Fear III",
+    "prereq": "1265727",
+    "isPersonal": false,
+    "from": "Ghosty McGhostface",
+    "fromImage": "/img/items/ghost.png",
+    "text": "Unto fish\nFew only remember, mens struggles.",
+    "availableFrom": "Oct 24",
+    "availableTo": "Nov 3"
+  },
+  {
     "firstSeen": 1646727818058,
     "itemRequests": [
       {
@@ -1325,6 +2077,312 @@
     "requiresCrafting": 10,
     "requiresExploring": 50,
     "silverReward": 500000
+  },
+  {
+    "firstSeen": 1666739655150,
+    "itemRequests": [
+      {
+        "id": "361",
+        "quantity": 400
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "355",
+        "quantity": 50
+      },
+      {
+        "id": "50",
+        "quantity": 2000
+      }
+    ],
+    "id": "1286507",
+    "name": "frank's pranks XIV",
+    "prereq": "1153801",
+    "isPersonal": false,
+    "from": "frank",
+    "fromImage": "/img/items/../emblems/franklyFrightening96.png",
+    "text": "frank sits by the town hall, ready to hoist Charles. They’re about to begin, when he has an amazing idea, and turns to Charles to discuss it. “hey what if we covered you in bat wings?” Charles whinnies excitedly, and they both look at you. “oh also i need some feathers while you’re out and about.”",
+    "requiresTower": 100,
+    "availableFrom": "Oct 25",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666739661384,
+    "itemRequests": [
+      {
+        "id": "667",
+        "quantity": 1000
+      },
+      {
+        "id": "75",
+        "quantity": 600
+      },
+      {
+        "id": "42",
+        "quantity": 1000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "654",
+        "quantity": 10
+      }
+    ],
+    "id": "1286511",
+    "name": "frank's pranks XV",
+    "prereq": "1286507",
+    "isPersonal": false,
+    "from": "frank",
+    "fromImage": "/img/items/../emblems/franklyFrightening96.png",
+    "text": "Now that Charles has been spookified, frank instructs you to meet him near Jill’s corn field with another snack for him.",
+    "requiresTower": 100,
+    "availableFrom": "Oct 25",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666739772416,
+    "itemRequests": [
+      {
+        "id": "370",
+        "quantity": 4000
+      },
+      {
+        "id": "361",
+        "quantity": 1200
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "614",
+        "quantity": 100
+      }
+    ],
+    "id": "1286512",
+    "name": "frank's pranks XVII",
+    "prereq": "1286513",
+    "isPersonal": false,
+    "from": "frank",
+    "fromImage": "/img/items/../emblems/franklyFrightening96.png",
+    "text": "Back at the town square, you can see Charles Horsington III in the distance, his stoic posture now a frightening silhouette. frank motions for you to hide with him. “someone's coming this way, lets watch the chaos.”\nBuddy, in full pirate attire, is skipping down the road. He lands on an egg, and abruptly stops. “Hello? Did somebody drop these?” When no response is given, he looks around, and jumps on each egg. “This is better than crunching leaves!” He laughs to himself. His non-peg leg shoe flies off his foot, in your general direction. It's drenched in in raw egg, dirt, and a horrid stench.\nBuddy walks over to retrieve it, and sees you. Of course, frank is nowhere to be seen. “Hi friend! That shoe is kind of ruined now. Would you mind picking up another one at the post office for me? I ordered it, and was actually on my way to go pick it up, but they won’t let me in without shoes! You’ll know it’s mine because my face is on it!”",
+    "requiresTower": 100,
+    "availableFrom": "Oct 25",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666739730271,
+    "itemRequests": [
+      {
+        "id": "358",
+        "quantity": 5000
+      },
+      {
+        "id": "359",
+        "quantity": 5000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "602",
+        "quantity": 3
+      },
+      {
+        "id": "629",
+        "quantity": 10
+      }
+    ],
+    "id": "1286513",
+    "name": "frank's pranks XVI",
+    "prereq": "1286511",
+    "isPersonal": false,
+    "from": "frank",
+    "fromImage": "/img/items/../emblems/franklyFrightening96.png",
+    "text": "Somehow, both frank and the red dye you gathered earlier are both already here and waiting. “hey go pour this into that.” He gestures to Jill’s water irrigation system. “don’t worry, this stuff is safe, it won’t hurt her precious cobs.” He senses your hesitation, and takes a swig of the dye. “see? i’m fine.” Feeling more confident that no crops will be harmed in the process, you agree to help out. Once frank sees you begin, he hops away, mumbling something about more snacks and the town square.",
+    "requiresTower": 100,
+    "availableFrom": "Oct 25",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666739777096,
+    "itemRequests": [
+      {
+        "id": "669",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "298",
+        "quantity": 1
+      }
+    ],
+    "id": "1286553",
+    "name": "frank's pranks XVIII",
+    "prereq": "1286512",
+    "isPersonal": false,
+    "from": "Buddy",
+    "fromImage": "/img/items/buddy.png",
+    "text": "You return with the shoe, and Buddy is delighted. He leaves an absolute mess in the town square, and skips further down the road.”that did not go as planned.” frank reappears, conveniently as soon as Buddy is out of sight. “we’re almost done, need some more foodstuff though. meet me back in the clearing.”",
+    "requiresTower": 100,
+    "availableFrom": "Oct 25",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666740133060,
+    "itemRequests": [
+      {
+        "id": "359",
+        "quantity": 4000
+      },
+      {
+        "id": "358",
+        "quantity": 5000
+      },
+      {
+        "id": "361",
+        "quantity": 2000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "657",
+        "quantity": 4
+      }
+    ],
+    "id": "1286560",
+    "name": "frank's pranks XIX",
+    "prereq": "1286553",
+    "isPersonal": false,
+    "from": "frank",
+    "fromImage": "/img/items/../emblems/franklyFrightening96.png",
+    "text": "The clearing is no longer empty. Star’s castle sits before you; a truly spectacular sight to see. frank, the toilet paper and lemonade are waiting for you when you arrive. “now this is important. he’s not home, so you have to go inside and replace everything in the fridge with the lemonade. i’ve got to do some stuff out here. we only have a few minutes, so chop chop.”\nYou’re not sure if Star left the door unlocked, or if frank did something to unlock it, but you enter the castle. You don’t dare to look around, and beeline straight for the fridge. You quickly replace the items inside with lemonade, and return to frank.\nOnce you shut the door, the ground rumbles. frank is out of sight, and the castle is wrapped entirely in toilet paper. The rumbling stops, and frank hops out from behind the castle. “okay, we’re done. get outta here, you do NOT want to be around when star gets back.”\nAs you're leaving, frank calls out, \"thanks for all the help. left you a little something special at home.\"",
+    "requiresTower": 100,
+    "availableFrom": "Oct 25",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666740220002,
+    "itemRequests": [],
+    "itemRewards": [
+      {
+        "id": "519",
+        "quantity": 1
+      }
+    ],
+    "id": "1286576",
+    "name": "frank's pranks XX",
+    "prereq": "1286560",
+    "isPersonal": false,
+    "from": "frank",
+    "fromImage": "/img/items/../emblems/franklyFrightening96.png",
+    "text": "Back home, you realize there’s one set of items frank never used. Sitting in your house are thousands of jars with bugs in them. Maybe frank did prank you, after all.",
+    "requiresTower": 100,
+    "availableFrom": "Oct 25",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666640645559,
+    "itemRequests": [
+      {
+        "id": "215",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "338",
+        "quantity": 5
+      },
+      {
+        "id": "361",
+        "quantity": 10
+      },
+      {
+        "id": "360",
+        "quantity": 5
+      }
+    ],
+    "id": "1286943",
+    "name": "Let’s Do The Time Warp I",
+    "prereq": "330",
+    "isPersonal": false,
+    "from": "Star Meerif",
+    "fromImage": "/img/items/npc_figure.png",
+    "text": "Something is not right. Something has changed. Star has discovered an aberration in the flow of time. The events of exactly one year ago are leaking into the present. Ghosts of the past are interacting with us here and now. Visions of what was are mingling with the moments before our eyes. They seem harmless, so far, but some things have changed.\n\nWill you help Star get to the bottom of this chronological conundrum before anything truly devastating happens to the present or our future? If you’ll bring him a cogwheel, he should be able to get pointed to the cause of this temporal overflow.",
+    "availableFrom": "Oct 24",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666640652688,
+    "itemRequests": [
+      {
+        "id": "19",
+        "quantity": 80
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "370",
+        "quantity": 10
+      },
+      {
+        "id": "364",
+        "quantity": 5
+      },
+      {
+        "id": "359",
+        "quantity": 10
+      }
+    ],
+    "id": "1287079",
+    "name": "Let’s Do The Time Warp II",
+    "prereq": "1286943",
+    "isPersonal": false,
+    "from": "Star Meerif",
+    "fromImage": "/img/items/npc_figure.png",
+    "text": "Star has a memory hiding somewhere in his mind that is key to explaining what is happening, at least that’s what his Detector Of Overflowing Time indicates. Unfortunately, the DOOT didn’t show him what memory it was.\n\nWill you bring him some carrots so he can conjur an ocular replay spell?",
+    "availableFrom": "Oct 24",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666640657667,
+    "itemRequests": [
+      {
+        "id": "212",
+        "quantity": 2
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "666",
+        "quantity": 1
+      },
+      {
+        "id": "663",
+        "quantity": 1
+      },
+      {
+        "id": "357",
+        "quantity": 1
+      },
+      {
+        "id": "84",
+        "quantity": 25
+      },
+      {
+        "id": "194",
+        "quantity": 25
+      }
+    ],
+    "id": "1288202",
+    "name": "Let’s Do The Time Warp III",
+    "prereq": "1287079",
+    "isPersonal": false,
+    "from": "Star Meerif",
+    "fromImage": "/img/items/npc_figure.png",
+    "text": "The ocular replay spell is working, but there are a lot of memories to sift through. Will you bring Star some dice so he can focus the spell to a specific date?",
+    "availableFrom": "Oct 24",
+    "availableTo": "Nov 3"
   },
   {
     "firstSeen": 1646727814564,
@@ -1488,6 +2546,85 @@
     "silverReward": 750000
   },
   {
+    "firstSeen": 1666640666071,
+    "itemRequests": [
+      {
+        "id": "42",
+        "quantity": 100
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "665",
+        "quantity": 5
+      },
+      {
+        "id": "667",
+        "quantity": 5
+      },
+      {
+        "id": "372",
+        "quantity": 5
+      },
+      {
+        "id": "84",
+        "quantity": 25
+      },
+      {
+        "id": "358",
+        "quantity": 20
+      },
+      {
+        "id": "355",
+        "quantity": 5
+      },
+      {
+        "id": "356",
+        "quantity": 5
+      },
+      {
+        "id": "370",
+        "quantity": 5
+      },
+      {
+        "id": "389",
+        "quantity": 5
+      },
+      {
+        "id": "657",
+        "quantity": 1
+      }
+    ],
+    "id": "1308567",
+    "name": "Let’s Do The Time Warp IV",
+    "prereq": "1288202",
+    "isPersonal": false,
+    "from": "Star Meerif",
+    "fromImage": "/img/items/npc_figure.png",
+    "text": "Star found it! He suspects you may not remember this, but you were there! Star was searching for a strange blip in aethereal energy, but he got distracted by a certain lovely young lady and the fashion accessory of choice for witches. In his distraction, Star left his Detector Of Aethereal Blips And Inconsequential Runestones running. The DOABAIR must’ve shorted out and created a tiny temporal leak, only visible in the ultraultraviolet spectrum. If you’ll bring Star some feathers, he should be able to patch it right up.",
+    "availableFrom": "Oct 24",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666640675910,
+    "itemRequests": [],
+    "itemRewards": [
+      {
+        "id": "670",
+        "quantity": 1
+      }
+    ],
+    "id": "1308640",
+    "name": "Let’s Do The Time Warp V",
+    "prereq": "1308567",
+    "isPersonal": false,
+    "from": "Star Meerif",
+    "fromImage": "/img/items/npc_figure.png",
+    "text": "Star discovered a significant change that shifted in our time due to the time leak. The lock for the door of the Haunted House was changed…by someone…or perhaps, some thing. Star is quite certain this change wasn’t his doing, but while he was investigating the new lock, he found that he already had a key that unlocked the door. His investigation of the Haunted House’s interior revealed no changes of major significance, even at a subatomic level. Nevertheless, Star is unsettled by the change to the lock. For now, will you keep the new key to the Haunted House? Ensure it is kept safe and secret until Star calls for it.",
+    "availableFrom": "Oct 24",
+    "availableTo": "Nov 3"
+  },
+  {
     "firstSeen": 1646727810042,
     "itemRequests": [
       {
@@ -1547,6 +2684,277 @@
     "requiresCrafting": 10,
     "requiresExploring": 50,
     "silverReward": 50000
+  },
+  {
+    "firstSeen": 1666640685299,
+    "itemRequests": [
+      {
+        "id": "358",
+        "quantity": 100
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "508",
+        "quantity": 5
+      },
+      {
+        "id": "360",
+        "quantity": 5
+      },
+      {
+        "id": "665",
+        "quantity": 5
+      },
+      {
+        "id": "355",
+        "quantity": 5
+      },
+      {
+        "id": "43",
+        "quantity": 200
+      }
+    ],
+    "id": "1310342",
+    "name": "Tell-Tale Beat I",
+    "prereq": "1308640",
+    "isPersonal": false,
+    "from": "Dread",
+    "fromImage": "/img/items/skull.png",
+    "text": "Drum. Tricky letters at indexes…",
+    "availableFrom": "Oct 24",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666640724536,
+    "itemRequests": [
+      {
+        "id": "370",
+        "quantity": 100
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "338",
+        "quantity": 5
+      },
+      {
+        "id": "479",
+        "quantity": 5
+      },
+      {
+        "id": "661",
+        "quantity": 2
+      },
+      {
+        "id": "508",
+        "quantity": 5
+      },
+      {
+        "id": "500",
+        "quantity": 5
+      }
+    ],
+    "id": "1310346",
+    "name": "Tell-Tale Beat II",
+    "prereq": "1310342",
+    "isPersonal": false,
+    "from": "Dread",
+    "fromImage": "/img/items/skull.png",
+    "text": "…done correctly reveal password additions. Stop.",
+    "availableFrom": "Oct 24",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666640961617,
+    "itemRequests": [
+      {
+        "id": "371",
+        "quantity": 100
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "510",
+        "quantity": 1
+      },
+      {
+        "id": "85",
+        "quantity": 200
+      }
+    ],
+    "id": "1310374",
+    "name": "Tell-Tale Beat III",
+    "prereq": "1310346",
+    "isPersonal": false,
+    "from": "Dread",
+    "fromImage": "/img/items/skull.png",
+    "text": "Syllables each move pointer next step.",
+    "availableFrom": "Oct 24",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666714459152,
+    "itemRequests": [
+      {
+        "id": "357",
+        "quantity": 100
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "372",
+        "quantity": 5
+      },
+      {
+        "id": "364",
+        "quantity": 5
+      },
+      {
+        "id": "360",
+        "quantity": 5
+      }
+    ],
+    "id": "1310888",
+    "name": "Which Wizard Hats And Which Witch Hats I",
+    "prereq": "368",
+    "isPersonal": false,
+    "from": "Rosalie",
+    "fromImage": "/img/items/a_098.png",
+    "text": "The festivities in full swing, you walk the streets. Déjà vu strikes you as you stumble upon Rosalie in a witches hat. \n“These hats, they’re magical, the bring me such joy and connection! Perhaps you could bring me a few? The Haunted House gives me some weird vibes, or I’d do it myself.”\nShrugging, you set off. What Halloween is this again?",
+    "availableFrom": "Oct 24",
+    "availableTo": "Nov 3",
+    "silverReward": 75000000
+  },
+  {
+    "firstSeen": 1666714472391,
+    "itemRequests": [
+      {
+        "id": "357",
+        "quantity": 100
+      },
+      {
+        "id": "667",
+        "quantity": 100
+      },
+      {
+        "id": "240",
+        "quantity": 50
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "240",
+        "quantity": 1
+      },
+      {
+        "id": "123",
+        "quantity": 100
+      }
+    ],
+    "id": "1310904",
+    "name": "Which Wizard Hats And Which Witch Hats II",
+    "prereq": "1310888",
+    "isPersonal": false,
+    "from": "Star Meerif",
+    "fromImage": "/img/items/npc_figure.png",
+    "text": "In a flash of feathers in Rosalie’s home, Star Meerif appears in full wizard garb. He bows in a strange fashion you’re not familiar with, and extends a hand towards Rosalie. \n“Witch Hats, they’re so hot right now. Did you notice how when you have them in proximity to…you…that the solar ley lines shift subtly towards the past?”\nRosalie takes Star’s hand with a big smile and replies, \"You know what? Not only that, but if you hang a bat wing from it, it makes for an excellent fashion statement.”\nSensing you’re going to need more hats, you dutifully leave the two of them to their chatter.",
+    "availableFrom": "Oct 24",
+    "availableTo": "Nov 3",
+    "silverReward": 100000000
+  },
+  {
+    "firstSeen": 1666714485587,
+    "itemRequests": [
+      {
+        "id": "357",
+        "quantity": 100
+      },
+      {
+        "id": "667",
+        "quantity": 100
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "240",
+        "quantity": 1
+      },
+      {
+        "id": "123",
+        "quantity": 200
+      }
+    ],
+    "id": "1310908",
+    "name": "Which Wizard Hats And Which Witch Hats III",
+    "prereq": "1310904",
+    "isPersonal": false,
+    "from": "Star Meerif",
+    "fromImage": "/img/items/npc_figure.png",
+    "text": "Leaving the Haunted House, you approach the town to find a dejected Star sitting on a log. You could swear you hear something approaching a sniffle from his direction. Approaching, he takes the hats and bat wings from you and shuffles sadly in the direction of his tower. He mutters something about solar ley lines and candy corn. Maybe Rosalie can help explain…?",
+    "availableFrom": "Oct 24",
+    "availableTo": "Nov 3",
+    "silverReward": 100000000
+  },
+  {
+    "firstSeen": 1666714493109,
+    "itemRequests": [
+      {
+        "id": "358",
+        "quantity": 100
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "360",
+        "quantity": 20
+      },
+      {
+        "id": "364",
+        "quantity": 20
+      },
+      {
+        "id": "372",
+        "quantity": 20
+      }
+    ],
+    "id": "1310918",
+    "name": "Which Wizard Hats And Which Witch Hats IV",
+    "prereq": "1310908",
+    "isPersonal": false,
+    "from": "Rosalie",
+    "fromImage": "/img/items/a_098.png",
+    "text": "Rosalie sits on her porch, a single Wizard Hat in her hand. The sad look on her face, and the context clues from earlier make you think something has gone terribly wrong.\nShe looks at you and takes the delivery. Her soft voice barely reaches you over the sounds of the festivities around you.\n\n\"Trick -\"",
+    "availableFrom": "Oct 24",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666714508616,
+    "itemRequests": [],
+    "itemRewards": [
+      {
+        "id": "657",
+        "quantity": 1
+      },
+      {
+        "id": "663",
+        "quantity": 1
+      },
+      {
+        "id": "666",
+        "quantity": 1
+      }
+    ],
+    "id": "1310943",
+    "name": "Which Wizard Hats And Which Witch Hats V",
+    "prereq": "1310918",
+    "isPersonal": false,
+    "from": "Rosalie",
+    "fromImage": "/img/items/a_098.png",
+    "text": "Flowers suddenly appear around you, Rosalie’s home seems to make the sound like the popping of a cork, and witch hats with bat wings appear lining her roof and porch. \n“or treat!”\n\nStar appears next to you, “Oh, you should have seen the look on your face! Solar ley lines? What even are those?”\nRosalie and Star burst out in laughter, much to your amusement. Halloween is truly a magical time.",
+    "availableFrom": "Oct 24",
+    "availableTo": "Nov 3",
+    "silverRequest": 1
   },
   {
     "firstSeen": 1646727808038,
@@ -10355,12 +11763,152 @@
     ],
     "id": "310",
     "name": "Pyramid Scheme I",
+    "prereq": null,
+    "isPersonal": false,
     "from": "Mummy",
     "fromImage": "/img/items/mummy_t_01.png",
     "text": "A mummy has stumbled into town and needs your help. This mummy is making treats for the Harvest Festival. Will you help the mummy find a missing ingredient? There’s candy in it for you, if you help.\n\nAlso, each Halloween quest contains clues to which townsperson is in disguise. This knowledge will help you to unlock a mailbox password needed to complete the final quest!",
-    "availableFrom": "Oct 14",
-    "availableTo": "Nov 3",
-    "requiresFarming": 5
+    "requiresFarming": 5,
+    "availableFrom": "Oct 23",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666578441080,
+    "itemRequests": [
+      {
+        "id": "26",
+        "quantity": 6
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "358",
+        "quantity": 12
+      }
+    ],
+    "id": "311",
+    "name": "Pyramid Scheme II",
+    "prereq": "310",
+    "isPersonal": false,
+    "from": "Mummy",
+    "fromImage": "/img/items/mummy_t_01.png",
+    "text": "The mummy is getting ready to bake cookies, but the mummy needs more ingredients! Bring some eggs to the mummy’s large farm to help.\n\nAlso, each Halloween quest contains clues to which townsperson is in disguise. This knowledge will help you to unlock a mailbox password needed to complete the final quest!",
+    "requiresFarming": 5,
+    "availableFrom": "Oct 23",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666578444471,
+    "itemRequests": [
+      {
+        "id": "22",
+        "quantity": 6
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "355",
+        "quantity": 1
+      }
+    ],
+    "id": "312",
+    "name": "Pyramid Scheme III",
+    "prereq": "311",
+    "isPersonal": false,
+    "from": "Mummy",
+    "fromImage": "/img/items/mummy_t_01.png",
+    "text": "The mummy needs a sheet pan to bake the cookies. It’s hard work, but will you bring the items to make one?\n\nAlso, each Halloween quest contains clues to which townsperson is in disguise. This knowledge will help you to unlock a mailbox password needed to complete the final quest!",
+    "requiresFarming": 5,
+    "availableFrom": "Oct 23",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666578447966,
+    "itemRequests": [
+      {
+        "id": "131",
+        "quantity": 2
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "361",
+        "quantity": 20
+      }
+    ],
+    "id": "313",
+    "name": "Dread Stations I",
+    "prereq": "312",
+    "isPersonal": false,
+    "from": "Dread",
+    "fromImage": "/img/items/skull.png",
+    "text": "*Static* \nI amp hour full hand hid in. \n*Static*\n.neddih dna lufrewop ma I \n*Static*",
+    "requiresFarming": 12,
+    "requiresCrafting": 8,
+    "requiresFishing": 15,
+    "requiresExploring": 5,
+    "availableFrom": "Oct 23",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666578454064,
+    "itemRequests": [
+      {
+        "id": "199",
+        "quantity": 2
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "359",
+        "quantity": 20
+      }
+    ],
+    "id": "314",
+    "name": "Dread Stations II",
+    "prereq": "313",
+    "isPersonal": false,
+    "from": "Dread",
+    "fromImage": "/img/items/skull.png",
+    "text": "*Static* \nHi dis pies yell oh sit truss. \n*Static* \n.surtic wolley esipsed I \n*Static*",
+    "requiresFarming": 12,
+    "requiresCrafting": 8,
+    "requiresFishing": 15,
+    "requiresExploring": 5,
+    "availableFrom": "Oct 23",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666578457545,
+    "itemRequests": [
+      {
+        "id": "215",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "364",
+        "quantity": 1
+      },
+      {
+        "id": "360",
+        "quantity": 1
+      }
+    ],
+    "id": "315",
+    "name": "Dread Stations III",
+    "prereq": "314",
+    "isPersonal": false,
+    "from": "Dread",
+    "fromImage": "/img/items/skull.png",
+    "text": "*Static* \nMine aim his tar. \n*Static* \n.ratS si eman yM \n*Static* \nPast word his haul Star. \n*Static* \n.ratS lla si drowssaP \n*Static*",
+    "requiresFarming": 12,
+    "requiresCrafting": 8,
+    "requiresFishing": 15,
+    "requiresExploring": 5,
+    "availableFrom": "Oct 23",
+    "availableTo": "Nov 3"
   },
   {
     "firstSeen": 1646727438996,
@@ -10844,6 +12392,166 @@
     "silverReward": 1000000
   },
   {
+    "firstSeen": 1666578587603,
+    "itemRequests": [
+      {
+        "id": "54",
+        "quantity": 2
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "358",
+        "quantity": 20
+      }
+    ],
+    "id": "324",
+    "name": "Frog Got Your Tongue I",
+    "prereq": "312",
+    "isPersonal": false,
+    "from": "Ribbit",
+    "fromImage": "/img/items/frog_t_01.png",
+    "text": "ribbitribbitribbitribbit ribbit ribbitcroakribbitribbit ribbitcroakcroakribbit / ribbitribbit / ribbitcroakcroak ribbitcroak ribbitribbitribbit / croak ribbitribbitcroak ribbitcroakribbit croakribbit ribbit croakribbitribbit / ribbitribbit croakribbit croak croakcroakcroak / ribbitcroak / ribbitribbitcroakribbit ribbitcroakribbit croakcroakcroak croakcroakribbit",
+    "availableFrom": "Oct 23",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666578598155,
+    "itemRequests": [
+      {
+        "id": "282",
+        "quantity": 3
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "360",
+        "quantity": 1
+      }
+    ],
+    "id": "325",
+    "name": "Frog Got Your Tongue II",
+    "prereq": "324",
+    "isPersonal": false,
+    "from": "Ribbit",
+    "fromImage": "/img/items/frog_t_01.png",
+    "text": "ribbitribbit / ribbitcroakribbit ribbit ribbitcroak ribbitcroakribbitribbit ribbitcroakribbitribbit croakribbitcroakcroak / croakribbit ribbit ribbit croakribbitribbit / croak croakcroakcroak / ribbitcroakcroakribbit ribbitcroakribbitribbit ribbitcroak croakribbit / croak ribbitribbitribbitribbit ribbitribbit ribbitribbitribbit / ribbitcroakcroakribbit ribbitcroak ribbitcroakribbit croak croakribbitcroakcroak",
+    "availableFrom": "Oct 23",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666578605954,
+    "itemRequests": [
+      {
+        "id": "351",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "364",
+        "quantity": 2
+      }
+    ],
+    "id": "326",
+    "name": "Frog Got Your Tongue III",
+    "prereq": "325",
+    "isPersonal": false,
+    "from": "Ribbit",
+    "fromImage": "/img/items/frog_t_01.png",
+    "text": "croak ribbitribbitribbitribbit ribbit / ribbitcroakcroakribbit ribbitcroak ribbitribbitribbit ribbitribbitribbit ribbitcroakcroak croakcroakcroak ribbitcroakribbit croakribbitribbit / ribbitribbit ribbitribbitribbit / ribbitribbit croakribbit / croakcroak croakribbitcroakcroak / croakribbit ribbitcroak croakcroak ribbit",
+    "availableFrom": "Oct 23",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666578610468,
+    "itemRequests": [
+      {
+        "id": "358",
+        "quantity": 25
+      },
+      {
+        "id": "370",
+        "quantity": 5
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "44",
+        "quantity": 10
+      },
+      {
+        "id": "62",
+        "quantity": 12
+      }
+    ],
+    "id": "327",
+    "name": "Tricks Not Treats I",
+    "prereq": "326",
+    "isPersonal": false,
+    "from": "Buddy R. Pirate",
+    "fromImage": "/img/items/buddypatch.png",
+    "text": "Your friend, Buddy, is very concerned about your health. So, Buddy wants to help manage your diet, as best friends do, and protect you from the dangers of candy.",
+    "availableFrom": "Oct 23",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666578613778,
+    "itemRequests": [
+      {
+        "id": "359",
+        "quantity": 25
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "61",
+        "quantity": 7
+      },
+      {
+        "id": "256",
+        "quantity": 7
+      }
+    ],
+    "id": "328",
+    "name": "Tricks Not Treats II",
+    "prereq": "327",
+    "isPersonal": false,
+    "from": "Captain One-eyed Buddy",
+    "fromImage": "/img/items/buddypatch.png",
+    "text": "Friend Buddy is still very concerned about your candy intake, specifically your unhealthy obsession with lollipops. Buddy is here to protect your molars!",
+    "availableFrom": "Oct 23",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666578616979,
+    "itemRequests": [
+      {
+        "id": "361",
+        "quantity": 15
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "62",
+        "quantity": 8
+      },
+      {
+        "id": "67",
+        "quantity": 20
+      }
+    ],
+    "id": "329",
+    "name": "Tricks Not Treats III",
+    "prereq": "328",
+    "isPersonal": false,
+    "from": "Admiral Buddy Robinson Piratus",
+    "fromImage": "/img/items/buddypatch.png",
+    "text": "Your friend Buddy is very sad. Buddy suspects that you have indulged in the most dangerous candy of all. He’s ready to help you quit! Bring him your candy corn as quick as possible!",
+    "availableFrom": "Oct 23",
+    "availableTo": "Nov 3"
+  },
+  {
     "firstSeen": 1646728006542,
     "itemRequests": [
       {
@@ -10872,6 +12580,130 @@
     "silverReward": 12000
   },
   {
+    "firstSeen": 1666578622206,
+    "itemRequests": [
+      {
+        "id": "23",
+        "quantity": 2
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "366",
+        "quantity": 1
+      }
+    ],
+    "id": "330",
+    "name": "Tricks Not Treats IV",
+    "prereq": "329",
+    "isPersonal": false,
+    "from": "Buddy",
+    "fromImage": "/img/items/buddy.png",
+    "text": "Your dearest friend’s health is failing. In his efforts to protect you, Buddy has mortally wounded himself in the digester. If you’ll help him purge the evils within, he’ll show you something fantastic that he found.",
+    "availableFrom": "Oct 23",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666578543346,
+    "itemRequests": [
+      {
+        "id": "107",
+        "quantity": 3
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "359",
+        "quantity": 10
+      }
+    ],
+    "id": "331",
+    "name": "Limerick or Treat I",
+    "prereq": "312",
+    "isPersonal": false,
+    "from": "Ghosty McGhostface",
+    "fromImage": "/img/items/ghost.png",
+    "text": "There once was a ghost who fishes\nHe asked you for what he wishes",
+    "availableFrom": "Oct 23",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666578550159,
+    "itemRequests": [
+      {
+        "id": "17",
+        "quantity": 20
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "360",
+        "quantity": 1
+      },
+      {
+        "id": "364",
+        "quantity": 1
+      }
+    ],
+    "id": "332",
+    "name": "Limerick or Treat II",
+    "prereq": "331",
+    "isPersonal": false,
+    "from": "Ghosty McGhostface",
+    "fromImage": "/img/items/ghost.png",
+    "text": "Only first letters\nMailboxed from debtors",
+    "availableFrom": "Oct 23",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666578570747,
+    "itemRequests": [
+      {
+        "id": "369",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "370",
+        "quantity": 10
+      }
+    ],
+    "id": "333",
+    "name": "Limerick or Treat III",
+    "prereq": "332",
+    "isPersonal": false,
+    "from": "Ghosty McGhostface",
+    "fromImage": "/img/items/ghost.png",
+    "text": "A name who left candy dishes",
+    "availableFrom": "Oct 23",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666578540218,
+    "itemRequests": [
+      {
+        "id": "44",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "359",
+        "quantity": 3
+      }
+    ],
+    "id": "334",
+    "name": "Hay-lloween ",
+    "prereq": "312",
+    "isPersonal": false,
+    "from": "Charles Horsington III",
+    "fromImage": "/img/items/npc_horse.png",
+    "text": "Neigh neigh neigh neigh neigh neigh!",
+    "availableFrom": "Oct 23",
+    "availableTo": "Nov 3"
+  },
+  {
     "firstSeen": 1646727400896,
     "itemRequests": [
       {
@@ -10887,10 +12719,12 @@
     ],
     "id": "335",
     "name": "Halloween Safety",
+    "prereq": "255",
+    "isPersonal": false,
     "from": "Ric Ryph",
     "fromImage": "/img/items/npc_figure2.png",
     "text": "Ric wants you to have a safe Halloween, and to keep an eye out for dragons.",
-    "availableFrom": "Oct 14",
+    "availableFrom": "Oct 23",
     "availableTo": "Nov 3"
   },
   {
@@ -10950,10 +12784,12 @@
     ],
     "id": "336",
     "name": "I <3 Halloween",
+    "prereq": "309",
+    "isPersonal": false,
     "from": "Geist",
     "fromImage": "/img/items/npc_beast.png",
     "text": "Geist isn’t sure why, but she loves Halloween. She wishes it was safe for her to go to a party.",
-    "availableFrom": "Oct 14",
+    "availableFrom": "Oct 23",
     "availableTo": "Nov 3"
   },
   {
@@ -11055,6 +12891,31 @@
     "silverReward": 10000
   },
   {
+    "firstSeen": 1666578529323,
+    "itemRequests": [
+      {
+        "id": "123",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "358",
+        "quantity": 5
+      }
+    ],
+    "id": "337",
+    "name": "Halloween Trade",
+    "prereq": "312",
+    "isPersonal": false,
+    "from": "Borgen",
+    "fromImage": "/img/items/borgen.png",
+    "text": "Borgen will gladly trade you some of his candy!",
+    "requiresExploring": 40,
+    "availableFrom": "Oct 23",
+    "availableTo": "Nov 3"
+  },
+  {
     "firstSeen": 1656736135038,
     "itemRequests": [
       {
@@ -11094,6 +12955,34 @@
     "availableFrom": "Jul 1",
     "availableTo": "Jul 31",
     "silverReward": 500000
+  },
+  {
+    "firstSeen": 1666578525392,
+    "itemRequests": [
+      {
+        "id": "11",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "358",
+        "quantity": 3
+      },
+      {
+        "id": "359",
+        "quantity": 1
+      }
+    ],
+    "id": "338",
+    "name": "Happy Halloween",
+    "prereq": "312",
+    "isPersonal": false,
+    "from": "Lorn",
+    "fromImage": "/img/items/a_088.png",
+    "text": "Don’t tell anyone, but Holger is actually dressed up as Lorn today. Unfortunately, Lorn is busy, but he still wanted to give out candy. Happy Halloween!",
+    "availableFrom": "Oct 23",
+    "availableTo": "Nov 3"
   },
   {
     "firstSeen": 1656736162541,
@@ -11173,6 +13062,38 @@
     "silverReward": 100000
   },
   {
+    "firstSeen": 1666578634434,
+    "itemRequests": [
+      {
+        "id": "355",
+        "quantity": 1
+      },
+      {
+        "id": "42",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "357",
+        "quantity": 1
+      },
+      {
+        "id": "240",
+        "quantity": 1
+      }
+    ],
+    "id": "339",
+    "name": "Carve Out Some Time",
+    "prereq": "330",
+    "isPersonal": false,
+    "from": "Star Meerif",
+    "fromImage": "/img/items/npc_figure.png",
+    "text": "Star appears in a shower of feathers before you, glee on his face!\n\"Halloween is one of my favorite holidays! It's so fortunate it's between the time locus of October and the 20th number of pi! Let's celebrate together, I've found something special for you, just bring me something special to decorate my tower with!\"",
+    "availableFrom": "Oct 23",
+    "availableTo": "Nov 3"
+  },
+  {
     "firstSeen": 1646728004547,
     "itemRequests": [
       {
@@ -11224,10 +13145,12 @@
     ],
     "id": "340",
     "name": "What is Halloween?",
+    "prereq": "294",
+    "isPersonal": false,
     "from": "ROOMBA",
     "fromImage": "/img/items/robot_02.png",
     "text": "ROOMBA whirrs softly.\n\"PROCESSING HALLOWEEN\"\n\"...\"\n\"MY MATRIX DOES NOT LIKE TRICKS.\"\n\"WOULD YOU LIKE TO GIVE ME A TREAT?\"",
-    "availableFrom": "Oct 14",
+    "availableFrom": "Oct 23",
     "availableTo": "Nov 3"
   },
   {
@@ -11254,12 +13177,14 @@
     ],
     "id": "341",
     "name": "Funny Teeth",
+    "prereq": null,
+    "isPersonal": false,
     "from": "Lorn",
     "fromImage": "/img/items/a_088.png",
     "text": "Lorn thinks it would be funny to replace his dentures with some chattering teeth for Halloween. If you can bring him some chattering teeth he'll give you something nice.",
-    "availableFrom": "Oct 14",
-    "availableTo": "Nov 3",
-    "requiresFarming": 10
+    "requiresFarming": 10,
+    "availableFrom": "Oct 23",
+    "availableTo": "Nov 3"
   },
   {
     "firstSeen": 1646727386873,
@@ -11281,12 +13206,62 @@
     ],
     "id": "342",
     "name": "Temporary Prankster I",
+    "prereq": null,
+    "isPersonal": false,
     "from": "George",
     "fromImage": "/img/items/a_034.png",
     "text": "George needs a load of parchment so that he can “decorate” the trees of a few of his friends on Halloween. If you’ll help him gather the parchment, he’ll give you lots of candy.",
-    "availableFrom": "Oct 15",
-    "availableTo": "Nov 3",
-    "requiresCrafting": 2
+    "requiresCrafting": 2,
+    "availableFrom": "Oct 23",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666578516984,
+    "itemRequests": [
+      {
+        "id": "26",
+        "quantity": 24
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "361",
+        "quantity": 15
+      }
+    ],
+    "id": "343",
+    "name": "Temporary Prankster II",
+    "prereq": "342",
+    "isPersonal": false,
+    "from": "George",
+    "fromImage": "/img/items/a_034.png",
+    "text": "George could also use some eggs, but he thinks the less you know about his plans, the better off you’ll be. He’s going to show a certain someone that he’s not “afraid of hard work”.",
+    "availableFrom": "Oct 23",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666578521294,
+    "itemRequests": [
+      {
+        "id": "23",
+        "quantity": 3
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "359",
+        "quantity": 25
+      }
+    ],
+    "id": "344",
+    "name": "Temporary Prankster III",
+    "prereq": "343",
+    "isPersonal": false,
+    "from": "George",
+    "fromImage": "/img/items/a_034.png",
+    "text": "As part of any good prank, George is prepared to clean up the mess he’s going to make. He could use your help getting some cleaning supplies.",
+    "availableFrom": "Oct 23",
+    "availableTo": "Nov 3"
   },
   {
     "firstSeen": 1646727380923,
@@ -11504,13 +13479,298 @@
     ],
     "id": "350",
     "name": "Free Candy I",
+    "prereq": null,
+    "isPersonal": false,
     "from": "Rosalie",
     "fromImage": "/img/items/a_098.png",
     "text": "Rosalie found a bag of candy on the ground. It's probably fine and she doesn't eat much candy. Do you want it?",
-    "silverRequest": 1,
-    "availableFrom": "Oct 17",
+    "requiresFarming": 10,
+    "availableFrom": "Oct 23",
     "availableTo": "Nov 3",
-    "requiresFarming": 10
+    "silverRequest": 1
+  },
+  {
+    "firstSeen": 1666578419766,
+    "itemRequests": [],
+    "itemRewards": [
+      {
+        "id": "358",
+        "quantity": 5
+      },
+      {
+        "id": "370",
+        "quantity": 5
+      }
+    ],
+    "id": "351",
+    "name": "Free Candy II",
+    "prereq": "350",
+    "isPersonal": false,
+    "from": "Rosalie",
+    "fromImage": "/img/items/a_098.png",
+    "text": "Rosalie found another bag of candy with some taffy. Would you like it?",
+    "requiresFarming": 10,
+    "availableFrom": "Oct 23",
+    "availableTo": "Nov 3",
+    "silverRequest": 1
+  },
+  {
+    "firstSeen": 1666578423393,
+    "itemRequests": [],
+    "itemRewards": [
+      {
+        "id": "358",
+        "quantity": 5
+      },
+      {
+        "id": "361",
+        "quantity": 5
+      }
+    ],
+    "id": "352",
+    "name": "Free Candy III",
+    "prereq": "351",
+    "isPersonal": false,
+    "from": "Rosalie",
+    "fromImage": "/img/items/a_098.png",
+    "text": "Rosalie found another bag of candy with some candy corn on the ground. Who keeps throwing their candy out? It's probably safe to eat. Do you want it?",
+    "requiresFarming": 10,
+    "availableFrom": "Oct 23",
+    "availableTo": "Nov 3",
+    "silverRequest": 1
+  },
+  {
+    "firstSeen": 1666578426323,
+    "itemRequests": [],
+    "itemRewards": [
+      {
+        "id": "358",
+        "quantity": 5
+      },
+      {
+        "id": "361",
+        "quantity": 5
+      },
+      {
+        "id": "355",
+        "quantity": 1
+      },
+      {
+        "id": "370",
+        "quantity": 5
+      },
+      {
+        "id": "359",
+        "quantity": 5
+      }
+    ],
+    "id": "353",
+    "name": "Free Candy IV",
+    "prereq": "352",
+    "isPersonal": false,
+    "from": "Rosalie",
+    "fromImage": "/img/items/a_098.png",
+    "text": "Rosalie found a Jack-o-Lantern full of candy this time. However, she would like a little bit more in return for this. Can you help her out?",
+    "requiresFarming": 10,
+    "availableFrom": "Oct 23",
+    "availableTo": "Nov 3",
+    "silverRequest": 50000
+  },
+  {
+    "firstSeen": 1666578428988,
+    "itemRequests": [
+      {
+        "id": "54",
+        "quantity": 5
+      },
+      {
+        "id": "285",
+        "quantity": 2
+      },
+      {
+        "id": "53",
+        "quantity": 20
+      },
+      {
+        "id": "214",
+        "quantity": 1
+      },
+      {
+        "id": "75",
+        "quantity": 5
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "355",
+        "quantity": 4
+      },
+      {
+        "id": "358",
+        "quantity": 25
+      },
+      {
+        "id": "370",
+        "quantity": 25
+      },
+      {
+        "id": "361",
+        "quantity": 10
+      },
+      {
+        "id": "359",
+        "quantity": 5
+      }
+    ],
+    "id": "354",
+    "name": "Free Candy V",
+    "prereq": "353",
+    "isPersonal": false,
+    "from": "Rosalie",
+    "fromImage": "/img/items/a_098.png",
+    "text": "Rosalie has a few more Jack-o-lanterns with candy in them. She was making them to give to the other townsfolk, but made a few extra. Rosalie is working on a scary Halloween mask to wear. If you can bring here a few things she will give you the Jack-o-lanterns.",
+    "requiresFarming": 10,
+    "availableFrom": "Oct 23",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666578625958,
+    "itemRequests": [
+      {
+        "id": "358",
+        "quantity": 200
+      }
+    ],
+    "itemRewards": [],
+    "id": "355",
+    "name": "Candy Mystery I",
+    "prereq": "330",
+    "isPersonal": false,
+    "from": "Beatrix",
+    "fromImage": "/img/items/a_011.png",
+    "text": "Beatrix needs more candy. She bought loads of it, but somehow it has dwindled down over the past couple of weeks. She suspects Holger’s friendly visits may be to blame for the vanishing treats.",
+    "requiresFarming": 20,
+    "availableFrom": "Oct 23",
+    "availableTo": "Nov 3",
+    "silverReward": 700000
+  },
+  {
+    "firstSeen": 1666578638327,
+    "itemRequests": [
+      {
+        "id": "359",
+        "quantity": 200
+      }
+    ],
+    "itemRewards": [],
+    "id": "356",
+    "name": "Candy Mystery II",
+    "prereq": "355",
+    "isPersonal": false,
+    "from": "Beatrix",
+    "fromImage": "/img/items/a_011.png",
+    "text": "Holger claims he didn’t steal Beatrix’s candy. Beatrix isn’t sure she believes him, but Holger is generally pretty honest. The only other person that Beatrix suspects is Lorn, but he doesn’t really seem like the candy-stealing type.\n\nWhile Beatrix investigates, will you get her some more lollipops?",
+    "requiresFarming": 20,
+    "availableFrom": "Oct 23",
+    "availableTo": "Nov 3",
+    "silverReward": 700000
+  },
+  {
+    "firstSeen": 1666640925226,
+    "itemRequests": [
+      {
+        "id": "370",
+        "quantity": 200
+      }
+    ],
+    "itemRewards": [],
+    "id": "357",
+    "name": "Candy Mystery III",
+    "prereq": "356",
+    "isPersonal": false,
+    "from": "Beatrix",
+    "fromImage": "/img/items/a_011.png",
+    "text": "Beatrix is still investigating Lorn. She found several white lollipop sticks while going through his garbage.\n\nIn the meantime, Beatrix needs more taffy. Will you bring her as much as you can find?",
+    "requiresFarming": 20,
+    "availableFrom": "Oct 23",
+    "availableTo": "Nov 3",
+    "silverReward": 700000
+  },
+  {
+    "firstSeen": 1666640930469,
+    "itemRequests": [
+      {
+        "id": "361",
+        "quantity": 200
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "360",
+        "quantity": 6
+      },
+      {
+        "id": "364",
+        "quantity": 6
+      },
+      {
+        "id": "372",
+        "quantity": 6
+      },
+      {
+        "id": "347",
+        "quantity": 2
+      },
+      {
+        "id": "346",
+        "quantity": 1
+      },
+      {
+        "id": "363",
+        "quantity": 1
+      }
+    ],
+    "id": "358",
+    "name": "Candy Mystery IV",
+    "prereq": "357",
+    "isPersonal": false,
+    "from": "Beatrix",
+    "fromImage": "/img/items/a_011.png",
+    "text": "Beatrix confronted Lorn after overhearing him complaining to Doctor Feroc about tooth pain and stomach aches. Lorn owned his treachery instantly.\n\nLorn said that it all started so innocently. He was just grabbing a piece or two of candy as he left Beatrix’s house each day after tea. Somewhere along the way it escalated to handfuls on his way out the door. Lorn thinks he might have a problem.\n\nIf you’ll replenish the candy corn that Lorn purloined, Beatrix would like to compensate you for all your troubles. Lorn would also like to make it up to both of you.",
+    "requiresFarming": 20,
+    "availableFrom": "Oct 23",
+    "availableTo": "Nov 3",
+    "silverReward": 20000000,
+    "goldReward": 20
+  },
+  {
+    "firstSeen": 1666578630748,
+    "itemRequests": [
+      {
+        "id": "358",
+        "quantity": 100
+      },
+      {
+        "id": "359",
+        "quantity": 100
+      },
+      {
+        "id": "370",
+        "quantity": 100
+      }
+    ],
+    "itemRewards": [],
+    "id": "359",
+    "name": "Trapper’s Delight I",
+    "prereq": "330",
+    "isPersonal": false,
+    "from": "Vincent",
+    "fromImage": "/img/items/a_047.png",
+    "text": "Vincent is preparing for Halloween. He would like to set up a booth in town and give out some candy. Will you help him get a small assortment of candy to hand out?",
+    "requiresFarming": 20,
+    "availableFrom": "Oct 23",
+    "availableTo": "Nov 3",
+    "silverReward": 1000000
   },
   {
     "firstSeen": 1646728000539,
@@ -11535,6 +13795,93 @@
     "text": "Rosalie has had trouble sleeping lately, and she thinks her old pillow is to blame. She has heard that Blue Feathers are softer than normal feathers, and wants to try making a pillow out of them to remedy her lack of sleep.",
     "requiresExploring": 30,
     "silverReward": 2000
+  },
+  {
+    "firstSeen": 1666640910696,
+    "itemRequests": [
+      {
+        "id": "355",
+        "quantity": 30
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "123",
+        "quantity": 50
+      },
+      {
+        "id": "336",
+        "quantity": 4
+      },
+      {
+        "id": "337",
+        "quantity": 4
+      },
+      {
+        "id": "335",
+        "quantity": 8
+      }
+    ],
+    "id": "360",
+    "name": "Trapper’s Delight II",
+    "prereq": "359",
+    "isPersonal": false,
+    "from": "Vincent",
+    "fromImage": "/img/items/a_047.png",
+    "text": "Vincent would also like to get some simple decorations for his booth. Will you get him some jack o’ lanterns?",
+    "requiresFarming": 20,
+    "availableFrom": "Oct 23",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666640914831,
+    "itemRequests": [
+      {
+        "id": "356",
+        "quantity": 200
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "360",
+        "quantity": 6
+      },
+      {
+        "id": "364",
+        "quantity": 6
+      },
+      {
+        "id": "372",
+        "quantity": 6
+      },
+      {
+        "id": "361",
+        "quantity": 20
+      },
+      {
+        "id": "347",
+        "quantity": 4
+      },
+      {
+        "id": "346",
+        "quantity": 2
+      },
+      {
+        "id": "363",
+        "quantity": 2
+      }
+    ],
+    "id": "361",
+    "name": "Trapper’s Delight III",
+    "prereq": "360",
+    "isPersonal": false,
+    "from": "Vincent",
+    "fromImage": "/img/items/a_047.png",
+    "text": "To help protect Vincent’s booth until the big night, Vincent would like to set up some traps. He thinks he could use chattering teeth to make some pretty effective, yet festive, traps. Will you get him the chattering teeth?",
+    "requiresFarming": 20,
+    "availableFrom": "Oct 23",
+    "availableTo": "Nov 3",
+    "silverReward": 50000000
   },
   {
     "firstSeen": 1646727346783,
@@ -11623,6 +13970,128 @@
     "requiresFarming": 75
   },
   {
+    "firstSeen": 1666578642013,
+    "itemRequests": [
+      {
+        "id": "357",
+        "quantity": 50
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "240",
+        "quantity": 1
+      }
+    ],
+    "id": "365",
+    "name": "The Hat Which Makes The Magic I",
+    "prereq": "330",
+    "isPersonal": false,
+    "from": "Star Meerif",
+    "fromImage": "/img/items/npc_figure.png",
+    "text": "It’s a cold morning when Star appears on your farm with very little warning. There is a distinct lack of feathers, and that strikes you as a little odd. \n“Have you seen these witch hats? Everyone’s talking about them, and I want some. Are they better than wizard hats? Well, that’s a ludicrous idea, but maybe it’s worth checking some of them out anyways. Could you bring me some to study?”",
+    "availableFrom": "Oct 23",
+    "availableTo": "Nov 3",
+    "silverReward": 20000000
+  },
+  {
+    "firstSeen": 1666640940506,
+    "itemRequests": [
+      {
+        "id": "357",
+        "quantity": 50
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "360",
+        "quantity": 10
+      },
+      {
+        "id": "364",
+        "quantity": 10
+      },
+      {
+        "id": "372",
+        "quantity": 10
+      }
+    ],
+    "id": "366",
+    "name": "The Hat Which Makes The Magic II",
+    "prereq": "365",
+    "isPersonal": false,
+    "from": "Rosalie",
+    "fromImage": "/img/items/a_098.png",
+    "text": "As you stroll into town, the festivities are in full swing! You notice Rosalie waving at you in the distance so you make your way to her. \n“Witch hats, why are they so fascinating? I feel very drawn to them, and I’d like to have some around my house and to maybe give away. I wonder what Star Meerif thinks of witch hats. Could you bring me some?”",
+    "availableFrom": "Oct 23",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666640943691,
+    "itemRequests": [
+      {
+        "id": "357",
+        "quantity": 50
+      }
+    ],
+    "itemRewards": [],
+    "id": "367",
+    "name": "The Hat Which Makes The Magic III",
+    "prereq": "366",
+    "isPersonal": false,
+    "from": "Rosalie",
+    "fromImage": "/img/items/a_098.png",
+    "text": "Star Meerif appears in a flash of feathers beside you and Rosalie in her home. Star bows profusely before you both, and snaps his fingers, feathers disappearing in an instant. \n“What a surprise to see you both here. I was trying to locate a strange blip in aethereal energy when – Oh my! Are those witch hats? Why do you have them?! Maybe these are the source!”\nStar immediately teleports away, and the witch hats are gone too. \nRosalie looks devastated and you immediately set to work to replace the ones Star took.",
+    "availableFrom": "Oct 23",
+    "availableTo": "Nov 3",
+    "silverReward": 30000000
+  },
+  {
+    "firstSeen": 1666640956166,
+    "itemRequests": [
+      {
+        "id": "357",
+        "quantity": 50
+      },
+      {
+        "id": "358",
+        "quantity": 200
+      },
+      {
+        "id": "240",
+        "quantity": 50
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "360",
+        "quantity": 15
+      },
+      {
+        "id": "364",
+        "quantity": 15
+      },
+      {
+        "id": "372",
+        "quantity": 15
+      },
+      {
+        "id": "240",
+        "quantity": 1
+      }
+    ],
+    "id": "368",
+    "name": "The Hat Which Makes The Magic IV",
+    "prereq": "367",
+    "isPersonal": false,
+    "from": "Star Meerif",
+    "fromImage": "/img/items/npc_figure.png",
+    "text": "As you and Rosalie place the last hat back where they disappeared, a knock comes at the front door. Rosalie jumps in surprise and rushes to the door, and Star Meerif enters. \n“Rosalie, I am sorry for my rudeness, the hats were not what I was looking for, but I realized quite quickly my arcane aspirations got in the way of social protocols. I am truly sorry, and I hope these flowers can be a part of my forgiveness along with – well, I see our friend has already found the hats I was going to bring back. Perhaps instead we could celebrate Halloween by giving out candy and hats to everyone… together?” \nStar bows and produces a bouquet of roses. Rosalie’s smile lights up the room, and you set to work getting a few more hats for the occasion. Halloween is truly a magical time.",
+    "availableFrom": "Oct 23",
+    "availableTo": "Nov 3",
+    "silverReward": 30000000
+  },
+  {
     "firstSeen": 1646727332815,
     "itemRequests": [],
     "itemRewards": [
@@ -11657,14 +14126,16 @@
     ],
     "id": "369",
     "name": "Take this.",
+    "prereq": null,
+    "isPersonal": false,
     "from": "Firestream",
     "fromImage": "/img/items/gold.png",
     "text": "Having game downtime is something I work hard to avoid, but sometimes things go wrong. Either way, I'm sorry it happened and will work to ensure it doesn't happen in the future.\n\nIt's dangerous to go alone! Take this.",
+    "requiresFarming": 1,
+    "availableFrom": "Oct 23",
+    "availableTo": "Nov 3",
     "silverRequest": 1,
-    "goldReward": 50,
-    "availableFrom": "Oct 25",
-    "availableTo": "Oct 26",
-    "requiresFarming": 1
+    "goldReward": 50
   },
   {
     "firstSeen": 1646727998544,
@@ -11809,6 +14280,134 @@
     "text": "Neigh neigh neigh. Neigh neigh."
   },
   {
+    "firstSeen": 1666578574827,
+    "itemRequests": [
+      {
+        "id": "358",
+        "quantity": 2
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "366",
+        "quantity": 1
+      }
+    ],
+    "id": "375",
+    "name": "Once Upon A Halloween I",
+    "prereq": "312",
+    "isPersonal": false,
+    "from": "Captain Thomas",
+    "fromImage": "/img/items/MustacheTom96.png",
+    "text": "Captain Thomas isn’t from here. On his world they do Halloween a little differently. Instead of children going door-to-door and being given candy, children go door-to-door and give candy. Then, the Halloween reveler at the door either gives the candy-giving-child a trick or a treat in return.\n\nIn the spirit of his homeworld, Captain Thomas invited a few occupants of the haunted house to celebrate Halloween his way. He would like you to bring some candy and get ready for tricks and treats.",
+    "availableFrom": "Oct 23",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666578579822,
+    "itemRequests": [
+      {
+        "id": "359",
+        "quantity": 3
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "355",
+        "quantity": 25
+      }
+    ],
+    "id": "376",
+    "name": "Once Upon A Halloween II",
+    "prereq": "375",
+    "isPersonal": false,
+    "from": "Buddy",
+    "fromImage": "/img/items/buddy.png",
+    "text": "Buddy loves this new way to celebrate Halloween. However, he doesn’t want a lot of candy from you. He recently had a bad experience with too much candy. He’ll just take a few lollipops.",
+    "availableFrom": "Oct 23",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666578583525,
+    "itemRequests": [
+      {
+        "id": "370",
+        "quantity": 3
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "356",
+        "quantity": 25
+      }
+    ],
+    "id": "377",
+    "name": "Once Upon A Halloween III",
+    "prereq": "376",
+    "isPersonal": false,
+    "from": "Titan Minnie",
+    "fromImage": "/img/items/a_083.png",
+    "text": "Titan Minnie isn’t sure about this new version of trick-or-treating. Honestly, she’d rather be eating locals, but she’ll settle for some taffy….for now….",
+    "availableFrom": "Oct 23",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666578591367,
+    "itemRequests": [
+      {
+        "id": "358",
+        "quantity": 5
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "361",
+        "quantity": 25
+      }
+    ],
+    "id": "378",
+    "name": "Once Upon A Halloween IV",
+    "prereq": "377",
+    "isPersonal": false,
+    "from": "Weredragon",
+    "fromImage": "/img/items/a_056.png",
+    "text": "Weredragon loves Halloween. He loves candy. He loves this weird way of doing trick-or-treating. Just so you don’t think he’s one dimensional, Weredragon also wants you to know that he loves sourdough bread, herbal tea, and reading the news before bed.",
+    "availableFrom": "Oct 23",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666578594834,
+    "itemRequests": [
+      {
+        "id": "358",
+        "quantity": 1
+      },
+      {
+        "id": "359",
+        "quantity": 1
+      },
+      {
+        "id": "370",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "357",
+        "quantity": 25
+      }
+    ],
+    "id": "379",
+    "name": "Once Upon A Halloween V",
+    "prereq": "378",
+    "isPersonal": false,
+    "from": "Skele-Tori",
+    "fromImage": "/img/items/a_009.png",
+    "text": "Skele-Tori is truly sorry about her bad breath. Maybe some candy would help. It could also give her a cavity. Now, Skele-Tori is feeling her anxiety spike. She’s going home.",
+    "availableFrom": "Oct 23",
+    "availableTo": "Nov 3"
+  },
+  {
     "firstSeen": 1646727997302,
     "itemRequests": [
       {
@@ -11831,6 +14430,38 @@
     "text": "Cecil is looking for some trophies to hang on his walls to make him look like a great outdoorsman. Can he \"borrow\" some from you?",
     "requiresExploring": 20,
     "silverReward": 2500
+  },
+  {
+    "firstSeen": 1666578601814,
+    "itemRequests": [
+      {
+        "id": "42",
+        "quantity": 1
+      },
+      {
+        "id": "358",
+        "quantity": 3
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "240",
+        "quantity": 1
+      },
+      {
+        "id": "361",
+        "quantity": 25
+      }
+    ],
+    "id": "380",
+    "name": "Once Upon A Halloween VI",
+    "prereq": "379",
+    "isPersonal": false,
+    "from": "Dread",
+    "fromImage": "/img/items/skull.png",
+    "text": "*Static* \nappy\n*Static* \nalloween \n*Static*",
+    "availableFrom": "Oct 23",
+    "availableTo": "Nov 3"
   },
   {
     "firstSeen": 1646727308313,
@@ -11875,14 +14506,16 @@
     ],
     "id": "381",
     "name": "Happy All Hallows' Eve",
+    "prereq": null,
+    "isPersonal": false,
     "from": "Rosalie",
     "fromImage": "/img/items/a_098.png",
     "text": "Rosalie has been hoarding candy and junk all month to finally give out today. Please take this stuff so she can clear out her storage bins for the next event!",
-    "silverRequest": 1,
-    "goldReward": 30,
-    "availableFrom": "Oct 31",
+    "requiresFarming": 1,
+    "availableFrom": "Oct 23",
     "availableTo": "Nov 3",
-    "requiresFarming": 1
+    "silverRequest": 1,
+    "goldReward": 30
   },
   {
     "firstSeen": 1646727306316,

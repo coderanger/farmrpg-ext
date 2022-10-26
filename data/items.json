@@ -7038,6 +7038,16 @@
     "rarity": "Very Rare"
   },
   {
+    "firstSeen": 1666581438264,
+    "id": "656",
+    "name": "Treat Bag 04",
+    "image": "/img/items/bag_t_03.png",
+    "event": true,
+    "xp": 1,
+    "givable": true,
+    "rarity": "Very Rare"
+  },
+  {
     "firstSeen": 1664547159254,
     "name": "Spooky Cookies",
     "id": "657",
@@ -7129,6 +7139,124 @@
     "rarity": "Very Rare"
   },
   {
+    "firstSeen": 1666387255102,
+    "id": "663",
+    "name": "Witch's Broom",
+    "image": "/img/items/broom_t_01.png",
+    "event": true,
+    "sellPrice": 12500,
+    "xp": 1750,
+    "rarity": "Uncommon",
+    "craftPrice": 200,
+    "mastery": true,
+    "recipe": [
+      {
+        "id": "129",
+        "name": "Broom",
+        "quantity": 1
+      },
+      {
+        "id": "176",
+        "name": "Magicite",
+        "quantity": 10
+      },
+      {
+        "id": "338",
+        "name": "Magna Quartz",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "firstSeen": 1666387141499,
+    "id": "664",
+    "name": "Glass Eyes",
+    "image": "/img/items/eyes_t_01.png",
+    "event": true,
+    "sellPrice": 1750,
+    "xp": 1750,
+    "rarity": "Uncommon"
+  },
+  {
+    "firstSeen": 1666387251889,
+    "id": "665",
+    "name": "Garlic",
+    "image": "/img/items/garlic_t_02.png",
+    "event": true,
+    "sellPrice": 1750,
+    "xp": 1750,
+    "rarity": "Uncommon"
+  },
+  {
+    "firstSeen": 1666387253714,
+    "id": "666",
+    "name": "Witch's Brew",
+    "image": "/img/items/pot_t_01.png",
+    "event": true,
+    "sellPrice": 17500,
+    "xp": 1750,
+    "rarity": "Uncommon",
+    "craftPrice": 500,
+    "mastery": true,
+    "recipe": [
+      {
+        "id": "667",
+        "name": "Bat Wing",
+        "quantity": 5
+      },
+      {
+        "id": "113",
+        "name": "Bone",
+        "quantity": 5
+      },
+      {
+        "id": "637",
+        "name": "Cooking Pot",
+        "quantity": 1
+      },
+      {
+        "id": "492",
+        "name": "Essence of Slime",
+        "quantity": 5
+      },
+      {
+        "id": "479",
+        "name": "Frog",
+        "quantity": 5
+      },
+      {
+        "id": "389",
+        "name": "Orange Gecko",
+        "quantity": 5
+      }
+    ]
+  },
+  {
+    "firstSeen": 1666387256462,
+    "id": "667",
+    "name": "Bat Wing",
+    "image": "/img/items/5990.png",
+    "event": true,
+    "sellPrice": 1750,
+    "xp": 1750,
+    "rarity": "Uncommon"
+  },
+  {
+    "firstSeen": 1666581488820,
+    "id": "668",
+    "name": "Runecorn",
+    "image": "/img/items/runecorn.png",
+    "rarity": "Super Rare"
+  },
+  {
+    "firstSeen": 1666581512520,
+    "id": "669",
+    "name": "Fancy Shoe",
+    "image": "/img/items/bshoe2.png",
+    "xp": 1,
+    "rarity": "Uncommon"
+  },
+  {
     "name": "Cabbage",
     "id": "67",
     "image": "/img/items/8319-3.png?1",
@@ -7137,6 +7265,14 @@
     "growthTime": 28800,
     "rarity": "",
     "mastery": true
+  },
+  {
+    "firstSeen": 1666581524110,
+    "id": "670",
+    "name": "Jack-o-key",
+    "image": "/img/items/jkey.png",
+    "xp": 1750,
+    "rarity": "Very Rare"
   },
   {
     "id": "68",

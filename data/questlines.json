@@ -515,6 +515,17 @@
     "secondary": false
   },
   {
+    "image": "/img/items/a_011.png",
+    "name": "Candy Mystery",
+    "quests": [
+      "355",
+      "356",
+      "357",
+      "358"
+    ],
+    "secondary": false
+  },
+  {
     "image": "/img/items/a_098.png",
     "name": "Conjure Up A New Recipe",
     "quests": [
@@ -699,6 +710,16 @@
     "secondary": false
   },
   {
+    "image": "/img/items/skull.png",
+    "name": "Dread Stations",
+    "quests": [
+      "313",
+      "314",
+      "315"
+    ],
+    "secondary": false
+  },
+  {
     "image": "/img/items/npc_bunny1.png",
     "name": "Eggstra Lucky",
     "quests": [
@@ -764,6 +785,15 @@
       "815158",
       "815183",
       "815217"
+    ],
+    "secondary": false
+  },
+  {
+    "image": "/img/items/ghost.png",
+    "name": "Fear or Treat",
+    "quests": [
+      "1265723",
+      "1265727"
     ],
     "secondary": false
   },
@@ -880,7 +910,21 @@
     "image": "/img/items/a_098.png",
     "name": "Free Candy",
     "quests": [
-      "350"
+      "350",
+      "351",
+      "352",
+      "353",
+      "354"
+    ],
+    "secondary": false
+  },
+  {
+    "image": "/img/items/frog_t_01.png",
+    "name": "Frog Got Your Tongue",
+    "quests": [
+      "324",
+      "325",
+      "326"
     ],
     "secondary": false
   },
@@ -1120,6 +1164,28 @@
     "secondary": false
   },
   {
+    "image": "/img/items/npc_figure.png",
+    "name": "Let\u2019s Do The Time Warp",
+    "quests": [
+      "1286943",
+      "1287079",
+      "1288202",
+      "1308567",
+      "1308640"
+    ],
+    "secondary": false
+  },
+  {
+    "image": "/img/items/ghost.png",
+    "name": "Limerick or Treat",
+    "quests": [
+      "331",
+      "332",
+      "333"
+    ],
+    "secondary": false
+  },
+  {
     "image": "/img/items/a_088.png",
     "name": "Lorn's Advice",
     "quests": [
@@ -1269,6 +1335,14 @@
     "secondary": false
   },
   {
+    "image": "/img/items/npc_horse.png",
+    "name": "Neighs Of Our Lives",
+    "quests": [
+      "1090584"
+    ],
+    "secondary": false
+  },
+  {
     "image": "/img/items/mariya.png",
     "name": "New Neighbor",
     "quests": [
@@ -1288,6 +1362,19 @@
       "191",
       "192",
       "193"
+    ],
+    "secondary": false
+  },
+  {
+    "image": "/img/items/MustacheTom96.png",
+    "name": "Once Upon A Halloween",
+    "quests": [
+      "375",
+      "376",
+      "377",
+      "378",
+      "379",
+      "380"
     ],
     "secondary": false
   },
@@ -1403,7 +1490,9 @@
     "image": "/img/items/mummy_t_01.png",
     "name": "Pyramid Scheme",
     "quests": [
-      "310"
+      "310",
+      "311",
+      "312"
     ],
     "secondary": false
   },
@@ -1548,7 +1637,10 @@
       "865",
       "1090502",
       "1090545",
-      "1090561"
+      "1090561",
+      "1090572",
+      "1090579",
+      "1090580"
     ],
     "secondary": true
   },
@@ -1587,10 +1679,22 @@
     "secondary": false
   },
   {
+    "image": "/img/items/skull.png",
+    "name": "Tell-Tale Beat",
+    "quests": [
+      "1310342",
+      "1310346",
+      "1310374"
+    ],
+    "secondary": false
+  },
+  {
     "image": "/img/items/a_034.png",
     "name": "Temporary Prankster",
     "quests": [
-      "342"
+      "342",
+      "343",
+      "344"
     ],
     "secondary": false
   },
@@ -1600,6 +1704,17 @@
     "quests": [
       "866",
       "867"
+    ],
+    "secondary": false
+  },
+  {
+    "image": "/img/items/npc_figure.png",
+    "name": "The Hat Which Makes The Magic",
+    "quests": [
+      "365",
+      "366",
+      "367",
+      "368"
     ],
     "secondary": false
   },
@@ -1660,6 +1775,35 @@
       "945",
       "946",
       "947"
+    ],
+    "secondary": false
+  },
+  {
+    "image": "/img/items/a_047.png",
+    "name": "Trapper\u2019s Delight",
+    "quests": [
+      "359",
+      "360",
+      "361"
+    ],
+    "secondary": false
+  },
+  {
+    "image": "/img/items/ghost.png",
+    "name": "Treat or Fear",
+    "quests": [
+      "1265731"
+    ],
+    "secondary": false
+  },
+  {
+    "image": "/img/items/buddypatch.png",
+    "name": "Tricks Not Treats",
+    "quests": [
+      "327",
+      "328",
+      "329",
+      "330"
     ],
     "secondary": false
   },
@@ -1736,6 +1880,18 @@
     "secondary": false
   },
   {
+    "image": "/img/items/a_098.png",
+    "name": "Which Wizard Hats And Which Witch Hats",
+    "quests": [
+      "1310888",
+      "1310904",
+      "1310908",
+      "1310918",
+      "1310943"
+    ],
+    "secondary": false
+  },
+  {
     "image": "/img/items/a_047.png",
     "name": "You Must Build A Boat",
     "quests": [
@@ -1746,5 +1902,32 @@
       "126"
     ],
     "secondary": true
+  },
+  {
+    "image": "/img/items/../emblems/franklyFrightening96.png",
+    "name": "frank's pranks",
+    "quests": [
+      "1119430",
+      "1153076",
+      "1153172",
+      "1153171",
+      "1153170",
+      "1153251",
+      "1153516",
+      "1153532",
+      "1153554",
+      "1153753",
+      "1153754",
+      "1153779",
+      "1153801",
+      "1286507",
+      "1286511",
+      "1286513",
+      "1286512",
+      "1286553",
+      "1286560",
+      "1286576"
+    ],
+    "secondary": false
   }
 ]

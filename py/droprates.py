@@ -14,10 +14,9 @@ from typing import Any, Iterable, Optional, Union
 
 import attrs
 import cattrs
-import typer
-
 import fixtures
 import parse_logs
+import typer
 
 BASE_DROP_RATES = {
     "Black Rock Canyon": 1 / 3,
@@ -31,6 +30,7 @@ BASE_DROP_RATES = {
     "Small Spring": 1 / 3,
     "Whispering Creek": 4 / 15,
     "Jundland Desert": 4 / 15,
+    "Haunted House": 2 / 5,
 }
 
 CACHE_PATH_BASE = f"{os.path.dirname(__file__)}/.dropscache/{'{}'}.json"
@@ -52,6 +52,8 @@ HARVEST_DROPS = {
     "Piece of Heart": "Watermelon Seeds",
     "Winged Amulet": "Tomato Seeds",
     "Egg 03": "Carrot Seeds",
+    "Popcorn": "Corn Seeds",
+    "Gold Potato": "Potato Seeds",
 }
 
 # When the Iron Depot drop change went live.
@@ -104,6 +106,9 @@ def when_dropped(item: fixtures.Item, location: fixtures.Location) -> range:
         # Hack, Thursday, March 31, 2022 1:00:00 PM GMT-07:00
         # Salt Rock was added.
         first_dropped = 1648756800000
+    if item.name == "Popcorn" and location.name == "Corn Seeds":
+        # September 12th, time unknown so saying midnight for simplicity.
+        first_dropped = 1662958800000
     last_dropped = item.last_dropped or round((time.time() + 10000000) * 1000)
     return range(first_dropped, last_dropped + 1)
 
@@ -276,12 +281,24 @@ def compile_drops(
             return cattrs.structure(json.load(cachef), Drops)
 
     items = list(fixtures.load_items())
+    items_by_name = {it.name: it for it in items}
     when_items_dropped: dict[tuple[str, str], Union[range, InfRange]] = defaultdict(
         InfRange
     )
     for loc in fixtures.load_locations():
         for item in items:
             when_items_dropped[(item.name, loc.name)] = when_dropped(item, loc)
+    for item_name, loc_name in HARVEST_DROPS.items():
+        when_items_dropped[(item_name, loc_name)] = when_dropped(
+            items_by_name[item_name],
+            fixtures.Location(
+                name=loc_name,
+                id="",
+                type="harvest",
+                image="",
+                items=tuple(),
+            ),
+        )
     affected_by_iron_depot = {
         loc.name: ("Iron" in loc.items or "Nails" in loc.items)
         for loc in fixtures.load_locations()

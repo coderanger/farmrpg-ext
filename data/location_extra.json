@@ -54,6 +54,15 @@
     "xpPerHitIronDepot": 187.09037976609434
   },
   {
+    "baseDropRate": 0.4,
+    "id": "14",
+    "name": "Haunted House",
+    "silverPerHit": 808.0920050174954,
+    "silverPerHitIronDepot": 808.0920050174954,
+    "xpPerHit": 693.3423062520633,
+    "xpPerHitIronDepot": 693.3423062520633
+  },
+  {
     "baseDropRate": 0.3333333333333333,
     "id": "2",
     "name": "Small Spring",

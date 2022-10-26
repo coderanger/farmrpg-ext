@@ -2475,6 +2475,132 @@
     "goalQuantity": 33500,
     "rewardItem": "Grab Bag 04",
     "rewardQuantity": 2,
-    "progress": 11023
+    "progress": 12452
+  },
+  {
+    "firstSeen": 1665551606909,
+    "date": "2022-10-12",
+    "goalItem": "Blue Catfish",
+    "goalQuantity": 2245100,
+    "rewardItem": "Orange Juice",
+    "rewardQuantity": 100,
+    "progress": 2879558
+  },
+  {
+    "firstSeen": 1665637761410,
+    "date": "2022-10-13",
+    "goalItem": "Apple",
+    "goalQuantity": 652500,
+    "rewardItem": "Fishing Net",
+    "rewardQuantity": 75,
+    "progress": 735061
+  },
+  {
+    "firstSeen": 1665725407131,
+    "date": "2022-10-14",
+    "goalItem": "Cucumber",
+    "goalQuantity": 1140000,
+    "rewardItem": "Candy Corn",
+    "rewardQuantity": 10,
+    "progress": 1531570
+  },
+  {
+    "firstSeen": 1665815869345,
+    "date": "2022-10-15",
+    "goalItem": "Coal",
+    "goalQuantity": 4968200,
+    "rewardItem": "Apple Cider",
+    "rewardQuantity": 10,
+    "progress": 3839572
+  },
+  {
+    "firstSeen": 1665896991656,
+    "date": "2022-10-16",
+    "goalItem": "Shovel",
+    "goalQuantity": 1409600,
+    "rewardItem": "Crab Claw",
+    "rewardQuantity": 10,
+    "progress": 1113271
+  },
+  {
+    "firstSeen": 1665983461529,
+    "date": "2022-10-17",
+    "goalItem": "Bacon",
+    "goalQuantity": 311600,
+    "rewardItem": "Apple",
+    "rewardQuantity": 100,
+    "progress": 469073
+  },
+  {
+    "firstSeen": 1666080069564,
+    "date": "2022-10-18",
+    "goalItem": "Leek",
+    "goalQuantity": 458800,
+    "rewardItem": "Sea Dragon",
+    "rewardQuantity": 7,
+    "progress": 473452
+  },
+  {
+    "firstSeen": 1666158373474,
+    "date": "2022-10-19",
+    "goalItem": "Feed",
+    "goalQuantity": 1455800,
+    "rewardItem": "Orange Gecko",
+    "rewardQuantity": 10,
+    "progress": 1995102
+  },
+  {
+    "firstSeen": 1666244467754,
+    "date": "2022-10-20",
+    "goalItem": "Corn",
+    "goalQuantity": 554900,
+    "rewardItem": "Gold Feather",
+    "rewardQuantity": 15,
+    "progress": 371666
+  },
+  {
+    "firstSeen": 1666331652960,
+    "date": "2022-10-21",
+    "goalItem": "Tomato",
+    "goalQuantity": 714100,
+    "rewardItem": "Fishing Net",
+    "rewardQuantity": 75,
+    "progress": 334713
+  },
+  {
+    "firstSeen": 1666422191156,
+    "date": "2022-10-22",
+    "goalItem": "Trout",
+    "goalQuantity": 6142100,
+    "rewardItem": "Orange Juice",
+    "rewardQuantity": 125,
+    "progress": 6701660
+  },
+  {
+    "firstSeen": 1666502600250,
+    "date": "2022-10-23",
+    "goalItem": "Apple",
+    "goalQuantity": 1088200,
+    "rewardItem": "Carbon Sphere",
+    "rewardQuantity": 100,
+    "progress": 578805
+  },
+  {
+    "firstSeen": 1666589438643,
+    "date": "2022-10-24",
+    "goalItem": "Twine",
+    "goalQuantity": 1378200,
+    "rewardItem": "Jack-o-lantern",
+    "rewardQuantity": 1,
+    "progress": 2814947
+  },
+  {
+    "firstSeen": 1666674247967,
+    "date": "2022-10-25",
+    "goalItem": "Acorn",
+    "goalQuantity": 3061200,
+    "rewardItem": "Chattering Teeth",
+    "rewardQuantity": 1,
+    "progress": 3599204
   }
 ]

@@ -164,64 +164,64 @@
     "boxId": "334",
     "group": 0,
     "itemId": "123",
-    "quantityHigh": null,
-    "quantityLow": 1
+    "quantityHigh": 25,
+    "quantityLow": 10
   },
   {
     "boxId": "334",
     "group": 0,
     "itemId": "164",
-    "quantityHigh": null,
-    "quantityLow": 1
+    "quantityHigh": 25,
+    "quantityLow": 10
   },
   {
     "boxId": "334",
     "group": 0,
     "itemId": "170",
-    "quantityHigh": null,
-    "quantityLow": 1
+    "quantityHigh": 25,
+    "quantityLow": 10
   },
   {
     "boxId": "334",
     "group": 0,
     "itemId": "199",
-    "quantityHigh": null,
+    "quantityHigh": 10,
     "quantityLow": 1
   },
   {
     "boxId": "334",
     "group": 0,
     "itemId": "277",
-    "quantityHigh": null,
-    "quantityLow": 1
+    "quantityHigh": 25,
+    "quantityLow": 10
   },
   {
     "boxId": "334",
     "group": 0,
     "itemId": "282",
-    "quantityHigh": null,
-    "quantityLow": 1
+    "quantityHigh": 25,
+    "quantityLow": 10
   },
   {
     "boxId": "334",
     "group": 0,
     "itemId": "284",
-    "quantityHigh": null,
-    "quantityLow": 1
+    "quantityHigh": 25,
+    "quantityLow": 10
   },
   {
     "boxId": "334",
     "group": 0,
     "itemId": "286",
-    "quantityHigh": null,
-    "quantityLow": 1
+    "quantityHigh": 25,
+    "quantityLow": 10
   },
   {
     "boxId": "334",
     "group": 0,
     "itemId": "287",
-    "quantityHigh": null,
-    "quantityLow": 1
+    "quantityHigh": 25,
+    "quantityLow": 10
   },
   {
     "boxId": "336",
