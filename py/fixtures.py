@@ -11,9 +11,8 @@ from zoneinfo import ZoneInfo
 
 import attrs
 import httpx
-import yaml
-
 import roman
+import yaml
 
 # From https://stackoverflow.com/questions/1175208/elegant-python-function-to-convert-camelcase-to-snake-case
 CAMEL_ONE_RE = re.compile(r"(.)([A-Z][a-z]+)")
@@ -118,6 +117,7 @@ class Quest:
     requires_crafting: Optional[int] = None
     requires_exploring: Optional[int] = None
     requires_tower: Optional[int] = None
+    requires_cooking: Optional[int] = None
     is_personal: Optional[bool] = None
     prereq: Optional[str] = None
 
