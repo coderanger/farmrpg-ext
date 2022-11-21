@@ -178,5 +178,23 @@
     "quiz_id": 16,
     "reward": "Ancient Coin",
     "score": 100
+  },
+  {
+    "amount": 5,
+    "quiz_id": 17,
+    "reward": "Onion Soup",
+    "score": 80
+  },
+  {
+    "amount": 100,
+    "quiz_id": 17,
+    "reward": "Orange Juice",
+    "score": 90
+  },
+  {
+    "amount": 1,
+    "quiz_id": 17,
+    "reward": "Treat Bag 04",
+    "score": 100
   }
 ]

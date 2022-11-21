@@ -108,5 +108,16 @@
     "score80reward": "Fishing Net",
     "score90amt": 100,
     "score90reward": "Orange Juice"
+  },
+  {
+    "description": "spooky",
+    "id": 17,
+    "name": "Halloween for everyone",
+    "score100amt": 1,
+    "score100reward": "Treat Bag 04",
+    "score80amt": 5,
+    "score80reward": "Onion Soup",
+    "score90amt": 100,
+    "score90reward": "Orange Juice"
   }
 ]

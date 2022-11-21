@@ -862,6 +862,331 @@
     "silverReward": 200000000
   },
   {
+    "firstSeen": 1667534644590,
+    "itemRequests": [
+      {
+        "id": "36",
+        "quantity": 600
+      },
+      {
+        "id": "44",
+        "quantity": 600
+      },
+      {
+        "id": "75",
+        "quantity": 600
+      },
+      {
+        "id": "21",
+        "quantity": 600
+      },
+      {
+        "id": "145",
+        "quantity": 600
+      },
+      {
+        "id": "236",
+        "quantity": 600
+      },
+      {
+        "id": "22",
+        "quantity": 600
+      },
+      {
+        "id": "38",
+        "quantity": 600
+      },
+      {
+        "id": "40",
+        "quantity": 600
+      },
+      {
+        "id": "128",
+        "quantity": 600
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "217",
+        "quantity": 4
+      },
+      {
+        "id": "536",
+        "quantity": 300
+      },
+      {
+        "id": "203",
+        "quantity": 300
+      },
+      {
+        "id": "427",
+        "quantity": 300
+      },
+      {
+        "id": "127",
+        "quantity": 300
+      },
+      {
+        "id": "116",
+        "quantity": 300
+      },
+      {
+        "id": "160",
+        "quantity": 300
+      },
+      {
+        "id": "108",
+        "quantity": 300
+      }
+    ],
+    "id": "1090591",
+    "name": "As The Horse Clops II",
+    "prereq": "1090584",
+    "isPersonal": false,
+    "from": "Charles Horsington III",
+    "fromImage": "/img/items/npc_horse.png",
+    "text": "You step into a field and look around for Charles’ home. \n\n\"Neigh neigh.\" (As you can see, I need a stable. The last one I had was destroyed by a dragon and I need a new one anyways, for my future family.)\n\nCharles indicates a list of construction materials for a stable for at least two horses. You see some basic items and some rarer items and start with the easier things. \n\n\"Neigh.\" (I don't have much, but I promise to make it worth your while in the long run.)",
+    "requiresFarming": 75,
+    "requiresExploring": 75,
+    "silverReward": 1
+  },
+  {
+    "firstSeen": 1667579075740,
+    "itemRequests": [
+      {
+        "id": "123",
+        "quantity": 300
+      },
+      {
+        "id": "170",
+        "quantity": 250
+      },
+      {
+        "id": "71",
+        "quantity": 300
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "389",
+        "quantity": 350
+      },
+      {
+        "id": "317",
+        "quantity": 350
+      }
+    ],
+    "id": "1090592",
+    "name": "Mane Hospital III",
+    "prereq": "1090591",
+    "isPersonal": false,
+    "from": "Charles Horsington III",
+    "fromImage": "/img/items/npc_horse.png",
+    "text": "As you turn around to leave, Charles also follows you. Going down your list, you realize you’ll need to also talk to some townsfolk for ideas on some of the rarer materials on this list. First on your list would be seeing Rosalie about getting some orange geckos and garnet.\n\n\nOn the walk back, Charles glances around in a way that could be described as skittish, but seems generally pleasant to be around, and he has a rapport you didn't realize with most townsfolk.\n\nYou get the feeling Charles may have forgotten you’re wearing the ring as you walk through town. \n\n“Neigh!” (Good day Borgen, hope you find that extra special potato someday!)\n\n“Neigh!” (Ric you're a jerk and really scary, but misunderstood all the same.)\n\n“Neigh neigh!” (Buddy, I swear if you try to put a saddle on my back again)\n\n“Neigh neigh!” (Cecil, you scamp, I know what you have in that house!)\n\n“Neigh neigh, neigh! Neigh!” (Jill smells like metal again.)\n\n“Neigh.” (A pleasant day to you frank old chap, hope that you find what you’re looking for, and you realize your self-worth isn’t tied up into that silly wizard.)\n\n\nNearing Rosalie’s home, you see her talking with Buddy in hushed whispers.\n\n“The Shadow, it seems to wait until no one is around… but it avoids certain people entirely. Beatrix has never seen it,” you hear Rosalie say. \n\n\nBuddy responds quietly, “Maybe if she left her home ever.”\n\n\nAs you clear your throat, they turn to you. After a moment of describing what you need, Rosalie smiles, and says she can gladly get you what you need.",
+    "requiresFarming": 75,
+    "requiresExploring": 75
+  },
+  {
+    "firstSeen": 1667579129774,
+    "itemRequests": [
+      {
+        "id": "91",
+        "quantity": 500
+      },
+      {
+        "id": "188",
+        "quantity": 500
+      },
+      {
+        "id": "161",
+        "quantity": 500
+      },
+      {
+        "id": "473",
+        "quantity": 50
+      },
+      {
+        "id": "107",
+        "quantity": 300
+      },
+      {
+        "id": "207",
+        "quantity": 300
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "254",
+        "quantity": 100
+      },
+      {
+        "id": "339",
+        "quantity": 100
+      },
+      {
+        "id": "382",
+        "quantity": 100
+      },
+      {
+        "id": "280",
+        "quantity": 1
+      },
+      {
+        "id": "491",
+        "quantity": 100
+      }
+    ],
+    "id": "1090593",
+    "name": "Gossip Gelding IV",
+    "prereq": "1090592",
+    "isPersonal": false,
+    "from": "Charles Horsington III",
+    "fromImage": "/img/items/npc_horse.png",
+    "text": "Geckos and garnets in hand, Charles gently steers you towards your next objective.\n\n\n\"Neigh! Neigh. Neigh, neigh neigh neigh\" (Lorn is a good one, I know he’ll help us.) Charles whinnies. \n\nAfter a short walk, you find Lorn quietly sitting on his porch with Thomas on the outskirts of town. Tea in hand, they see you approaching and nod at you. \n\n\n“My good fellow, I’m telling you, it’s all in the cast.” \n\nThomas rolls his eyes at Lorn, “Well, it may be all in the wrist, but I hear you’ve been keeping a secret from me all these years you old geezer.”\n\n\nCharles immediately stops moving, while Lorn responds, “I couldn’t possibly know what you mean, Thomas.”\n\n\nThomas laughs and looks conspiratorially at all of you, “Pirate’s Cove, the greatest fishing hole of them all!”\n\nCharles lets out a derisive snort. (Thomas will believe any old fairytale!)\n\nLorn laughs as he turns to you, “It probably doesn’t exist. Anyways, what can we do for you?”\n\nCharles flashes his golden leaf at Lorn, and you explain to Lorn what you need.",
+    "requiresFarming": 75,
+    "requiresExploring": 75
+  },
+  {
+    "firstSeen": 1667579142493,
+    "itemRequests": [
+      {
+        "id": "365",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "363",
+        "quantity": 10
+      },
+      {
+        "id": "347",
+        "quantity": 12
+      },
+      {
+        "id": "397",
+        "quantity": 100
+      },
+      {
+        "id": "398",
+        "quantity": 100
+      }
+    ],
+    "id": "1090600",
+    "name": "One Hoof to Live V",
+    "prereq": "1090593",
+    "isPersonal": false,
+    "from": "Charles Horsington III",
+    "fromImage": "/img/items/npc_horse.png",
+    "text": "Leaving, Charles directs you towards Beatrix’s home. \n\n\n\"Neigh.\" (Two more stops old chap. You’ve been quite helpful so far.)\n\nBeatrix opens the door after two knocks. \n\n“Oh, hello there, what can I do for you?”\n\nYou explain that you’re helping Charles build his stable, and she gives you a look of disbelief. “How would you know what Charles is looking for?”\n\n\nCharles whinnies, (don’t tell her!) but you wink at Charles and explain to Beatrix about the Ring of Renthisj. \n\n\n“Oh wow, I'd completely forgotten Rosalie had made this ring, I haven't had the opportunity to truly use one in a thousand years!\" Beatrix gives the ring a look of wonderment, \"I'm impressed that it is still working so well for a first time magical enchantment, Rosalie is a natural. Could I borrow it, just for a bit? This reminds us of better times. Perhaps we could make some new friends...I’ll trade some time with it to you for some of the things on your list!”\n\n\nCharles suddenly seems impatient as he responds, “Neigh! Neigh neigh, neigh.” (Well, we just need to take all these back and build the stable, I’m sure we won’t need the ring for a few days.)\n\nCharles gives what you interpret as an impatient nod of assent, and you trade the ring over.",
+    "requiresFarming": 75,
+    "requiresExploring": 75
+  },
+  {
+    "firstSeen": 1667579152682,
+    "itemRequests": [
+      {
+        "id": "86",
+        "quantity": 300
+      },
+      {
+        "id": "84",
+        "quantity": 300
+      },
+      {
+        "id": "23",
+        "quantity": 3
+      },
+      {
+        "id": "389",
+        "quantity": 350
+      },
+      {
+        "id": "317",
+        "quantity": 300
+      },
+      {
+        "id": "254",
+        "quantity": 250
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "660",
+        "quantity": 100
+      },
+      {
+        "id": "85",
+        "quantity": 200
+      },
+      {
+        "id": "382",
+        "quantity": 100
+      },
+      {
+        "id": "185",
+        "quantity": 300
+      },
+      {
+        "id": "282",
+        "quantity": 350
+      },
+      {
+        "id": "283",
+        "quantity": 350
+      }
+    ],
+    "id": "1090604",
+    "name": "Bright Horseshoe VI",
+    "prereq": "1090600",
+    "isPersonal": false,
+    "from": "Charles Horsington III",
+    "fromImage": "/img/items/npc_horse.png",
+    "text": "Whistling happily to yourself , you head back towards the meadow that Charles indicated earlier in the day. \n\n\nIn the meadow, you take another look at the plans and begin to realize this project is bigger than you realized at first. Lucky for you, Vincent and Holger were out on patrol and stop by, volunteering to help in their spare time.\n\n\nYou expect this project might take less than a week after all. After some light refreshments and some more of the materials Charles requested, you get to work.",
+    "requiresFarming": 75,
+    "requiresExploring": 75
+  },
+  {
+    "firstSeen": 1667579164054,
+    "itemRequests": [
+      {
+        "id": "350",
+        "quantity": 1
+      },
+      {
+        "id": "188",
+        "quantity": 1
+      },
+      {
+        "id": "245",
+        "quantity": 1
+      },
+      {
+        "id": "254",
+        "quantity": 1
+      },
+      {
+        "id": "177",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "381",
+        "quantity": 1
+      }
+    ],
+    "id": "1090611",
+    "name": "The Young and the Mareless VII",
+    "prereq": "1090604",
+    "isPersonal": false,
+    "from": "Charles Horsington III",
+    "fromImage": "/img/items/npc_horse.png",
+    "text": "The shape of the stable comes together much more quickly than you realized and as night begins to fall on the third day, you pack up your tools and realize Charles is nowhere to be seen. Curious, you see some fresh hoof prints and follow them. What could a horse possibly be doing at nighttime, you think to yourself. \n\n\nAs you step quietly, the distinctive hoof prints of Charles lead you directly to Cecil’s home. Following further, you continue towards a stable you remember helping Cecil rebuild for his horse, Lucky Lady. \n\nBefore you can go further, a familiar gruff, clipped voice emerges from ahead. Ric Ryph! You quickly seek a hiding place in the hedgerow near the stable.\n\n“Well, that’s not enough. A thousand years and weird self-referential pronouns? That could mean anything.”\n\n\nA second, unfamiliar accented voice emerges from the stables. \n\n“You said this was it, that if I figured out what they were up to, and if we found the dragon, I could go back to the way life was going to be…”\n\n“Maybe that’s true, but the deal has changed. If you want your love to live, you’ll get more concrete proof that Beatrix is more than what she claims. Or else. You have two days. Now wizard, shut this fleabag up.”\n\n\nA flash of light emerges from the stable, and you see Ric Ryph and Cecil emerge. \n\n“And wizard,” Ric spits the word out derisively, “Don’t forget our deal. I know your secrets too…” he trails off as he stops in his tracks and stares straight towards you in the bushes next to the fenceline. \n\nYour heart pounds louder and louder.\n\nSweat breaks out on your forehead.\n\nYou can feel Ric’s scheming eyes on you.\n\nOne second turns into five seconds.\n\nNo one's here, you find yourself thinking over and over again.\n\nCecil looks in your direction and coughs, Ric shakes his head as if returning from a reverie and mutters to himself unintelligibly before continuing more loudly, “... secrets I know a certain few people in Bahltruvia would be very interested to hear about.”\n\nYou continue to hold your breath as Cecil leans on a staff you’ve never seen before. The staff is adorned with a hauntingly peculiar sparkle that catches your eye. Cecil spends a few moments gazing out into the darkness, as Ric strides off in the distance.\n\nSensing this is your moment to get away unseen, you race back to your home. Moonlight illuminates your path. When you arrive, a single dagger is stuck in your door.",
+    "requiresFarming": 75,
+    "requiresExploring": 75
+  },
+  {
     "firstSeen": 1646724107935,
     "itemRequests": [
       {
@@ -2992,6 +3317,80 @@
     "requiresExploring": 50
   },
   {
+    "firstSeen": 1666891241043,
+    "itemRequests": [
+      {
+        "id": "355",
+        "quantity": 200
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "508",
+        "quantity": 200
+      },
+      {
+        "id": "354",
+        "quantity": 100
+      },
+      {
+        "id": "33",
+        "quantity": 200
+      }
+    ],
+    "id": "1321378",
+    "name": "Deck The Town (With Bats And Lanterns) I",
+    "prereq": "1308640",
+    "isPersonal": false,
+    "from": "Rosalie",
+    "fromImage": "/img/items/a_098.png",
+    "text": "The town is desperately in need of more decoration, and Rosalie knows the perfect person to ask... surprise, it's you!",
+    "availableFrom": "Oct 25",
+    "availableTo": "Nov 3",
+    "requiresTower": 100
+  },
+  {
+    "firstSeen": 1666979684872,
+    "itemRequests": [
+      {
+        "id": "355",
+        "quantity": 350
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "382",
+        "quantity": 100
+      },
+      {
+        "id": "283",
+        "quantity": 100
+      },
+      {
+        "id": "282",
+        "quantity": 100
+      },
+      {
+        "id": "500",
+        "quantity": 200
+      },
+      {
+        "id": "657",
+        "quantity": 2
+      }
+    ],
+    "id": "1321421",
+    "name": "Deck The Town (With Bats And Lanterns) II",
+    "prereq": "1321378",
+    "isPersonal": false,
+    "from": "Rosalie",
+    "fromImage": "/img/items/a_098.png",
+    "text": "Jack-o-lanterns placed, you realize that these barely cover Rosalie's home and you're going to need a lot more. Rosalie agrees and thinks that the town could go...bigger.",
+    "requiresTower": 100,
+    "availableFrom": "Oct 25",
+    "availableTo": "Nov 3"
+  },
+  {
     "firstSeen": 1646727806048,
     "itemRequests": [
       {
@@ -3013,6 +3412,708 @@
     "goldReward": 10
   },
   {
+    "firstSeen": 1666979727833,
+    "itemRequests": [
+      {
+        "id": "663",
+        "quantity": 25
+      },
+      {
+        "id": "163",
+        "quantity": 200
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "65",
+        "quantity": 2000
+      },
+      {
+        "id": "85",
+        "quantity": 2000
+      }
+    ],
+    "id": "1334610",
+    "name": "Deck The Town (With Bats And Lanterns) III",
+    "prereq": "1321421",
+    "isPersonal": false,
+    "from": "Rosalie",
+    "fromImage": "/img/items/a_098.png",
+    "text": "You begin lining the streets of the town, and Rosalie looks lost in thought before she suggests bundles of twine and broomsticks would be great additions to the decorations.",
+    "requiresTower": 100,
+    "availableFrom": "Oct 25",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666979869780,
+    "itemRequests": [
+      {
+        "id": "666",
+        "quantity": 25
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "240",
+        "quantity": 1
+      },
+      {
+        "id": "392",
+        "quantity": 1000
+      },
+      {
+        "id": "50",
+        "quantity": 2000
+      },
+      {
+        "id": "630",
+        "quantity": 500
+      }
+    ],
+    "id": "1334614",
+    "name": "Deck The Town (With Bats And Lanterns) IV",
+    "prereq": "1334610",
+    "isPersonal": false,
+    "from": "Star Meerif",
+    "fromImage": "/img/items/npc_figure.png",
+    "text": "The town begins to take shape under Rosalie's discerning eye. At this point, other townsfolk drop by with suggestions. In a shower of feathers, Star suggests a few cauldrons of Witch's Brew he read about in a book once, and suggests some, for atmosphere.",
+    "requiresTower": 100,
+    "availableFrom": "Oct 25",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666980202313,
+    "itemRequests": [
+      {
+        "id": "355",
+        "quantity": 500
+      },
+      {
+        "id": "667",
+        "quantity": 500
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "583",
+        "quantity": 100
+      },
+      {
+        "id": "491",
+        "quantity": 100
+      },
+      {
+        "id": "589",
+        "quantity": 100
+      }
+    ],
+    "id": "1334615",
+    "name": "Deck The Town (With Bats And Lanterns) V",
+    "prereq": "1334614",
+    "isPersonal": false,
+    "from": "Rosalie",
+    "fromImage": "/img/items/a_098.png",
+    "text": "The town feels transformed, with an aura of Halloween around every bend, but Rosalie gets the sense that the town needs more pizazz, and sets you on a task for more!",
+    "requiresTower": 100,
+    "availableFrom": "Oct 25",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666980207635,
+    "itemRequests": [
+      {
+        "id": "666",
+        "quantity": 25
+      },
+      {
+        "id": "637",
+        "quantity": 100
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "236",
+        "quantity": 1000
+      },
+      {
+        "id": "237",
+        "quantity": 1000
+      },
+      {
+        "id": "44",
+        "quantity": 2000
+      },
+      {
+        "id": "634",
+        "quantity": 10
+      }
+    ],
+    "id": "1334655",
+    "name": "Deck The Town (With Bats And Lanterns) VI",
+    "prereq": "1334615",
+    "isPersonal": false,
+    "from": "Holger",
+    "fromImage": "/img/items/a_028.png",
+    "text": "Holger, intrigued by the growing commotion and decorating drops by and makes the agreeable suggestion that you double the number cauldrons in the area.",
+    "requiresTower": 100,
+    "availableFrom": "Oct 25",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666980217971,
+    "itemRequests": [
+      {
+        "id": "667",
+        "quantity": 800
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "629",
+        "quantity": 100
+      },
+      {
+        "id": "644",
+        "quantity": 10
+      },
+      {
+        "id": "657",
+        "quantity": 2
+      }
+    ],
+    "id": "1334662",
+    "name": "Deck The Town (With Bats And Lanterns) VII",
+    "prereq": "1334655",
+    "isPersonal": false,
+    "from": "Jill",
+    "fromImage": "/img/items/a_024.png",
+    "text": "Jill, on her way to the store, admires the decorating, as it reminds her of simpler times. She suggests hanging bat wings across the town like she saw when she was younger. Feeling inspired, you set to work.",
+    "requiresTower": 100,
+    "availableFrom": "Oct 25",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666980223056,
+    "itemRequests": [
+      {
+        "id": "663",
+        "quantity": 75
+      },
+      {
+        "id": "361",
+        "quantity": 400
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "234",
+        "quantity": 2000
+      },
+      {
+        "id": "505",
+        "quantity": 10
+      },
+      {
+        "id": "508",
+        "quantity": 200
+      }
+    ],
+    "id": "1334672",
+    "name": "Deck The Town (With Bats And Lanterns) VIII",
+    "prereq": "1334662",
+    "isPersonal": false,
+    "from": "George",
+    "fromImage": "/img/items/a_034.png",
+    "text": "George, strolling through town really likes the brooms. He pauses and after a brief moment suggests more brooms but this time adorning each one with candy corn!",
+    "requiresTower": 100,
+    "availableFrom": "Oct 25",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666980500628,
+    "itemRequests": [
+      {
+        "id": "355",
+        "quantity": 500
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "84",
+        "quantity": 2000
+      },
+      {
+        "id": "641",
+        "quantity": 25
+      },
+      {
+        "id": "500",
+        "quantity": 2000
+      }
+    ],
+    "id": "1334682",
+    "name": "Deck The Town (With Bats And Lanterns) IX",
+    "prereq": "1334672",
+    "isPersonal": false,
+    "from": "Borgen",
+    "fromImage": "/img/items/borgen.png",
+    "text": "Borgen watches as you busily help with decorations and haughtily suggests that your ratio of jack-o-lanterns to other decoration ratio is now off. Not wanting to upset him, you set out to get more for the streets.",
+    "requiresTower": 100,
+    "availableFrom": "Oct 25",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666980910616,
+    "itemRequests": [
+      {
+        "id": "666",
+        "quantity": 50
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "491",
+        "quantity": 100
+      }
+    ],
+    "id": "1334689",
+    "name": "Deck The Town (With Bats And Lanterns) X",
+    "prereq": "1334682",
+    "isPersonal": false,
+    "from": "Thomas",
+    "fromImage": "/img/items/a_048.png",
+    "text": "Thomas thinks you've put down too many jack-o-lanterns and suggests you balance it out with more bubbling Witch's Brew.",
+    "requiresTower": 100,
+    "availableFrom": "Oct 25",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666980916816,
+    "itemRequests": [
+      {
+        "id": "663",
+        "quantity": 100
+      },
+      {
+        "id": "667",
+        "quantity": 400
+      },
+      {
+        "id": "103",
+        "quantity": 400
+      },
+      {
+        "id": "368",
+        "quantity": 400
+      },
+      {
+        "id": "104",
+        "quantity": 400
+      },
+      {
+        "id": "106",
+        "quantity": 400
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "397",
+        "quantity": 1000
+      },
+      {
+        "id": "398",
+        "quantity": 1000
+      }
+    ],
+    "id": "1334693",
+    "name": "Deck The Town (With Bats And Lanterns) XI",
+    "prereq": "1334689",
+    "isPersonal": false,
+    "from": "Beatrix",
+    "fromImage": "/img/items/a_011.png",
+    "text": "Beatrix stops by and really likes the broom and bat wing aesthetic and wants her house to stand out with an added component of fire.",
+    "requiresTower": 100,
+    "availableFrom": "Oct 25",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666980950855,
+    "itemRequests": [
+      {
+        "id": "23",
+        "quantity": 500
+      },
+      {
+        "id": "367",
+        "quantity": 100
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "323",
+        "quantity": 100
+      },
+      {
+        "id": "657",
+        "quantity": 2
+      },
+      {
+        "id": "616",
+        "quantity": 1000
+      },
+      {
+        "id": "263",
+        "quantity": 2000
+      }
+    ],
+    "id": "1334697",
+    "name": "Deck The Town (With Bats And Lanterns) XII",
+    "prereq": "1334693",
+    "isPersonal": false,
+    "from": "Lorn",
+    "fromImage": "/img/items/a_088.png",
+    "text": "Lorn is alarmed at the town's sudden fire hazard and suggests some countermeasures.",
+    "requiresTower": 100,
+    "availableFrom": "Oct 25",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666981097626,
+    "itemRequests": [
+      {
+        "id": "367",
+        "quantity": 50
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "116",
+        "quantity": 2000
+      },
+      {
+        "id": "298",
+        "quantity": 10
+      },
+      {
+        "id": "606",
+        "quantity": 1
+      },
+      {
+        "id": "508",
+        "quantity": 500
+      }
+    ],
+    "id": "1334728",
+    "name": "Deck The Town (With Bats And Lanterns) XIII",
+    "prereq": "1334697",
+    "isPersonal": false,
+    "from": "Charles Horsington III",
+    "fromImage": "/img/items/npc_horse.png",
+    "text": "Neigh!",
+    "requiresTower": 100,
+    "availableFrom": "Oct 25",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666981136934,
+    "itemRequests": [
+      {
+        "id": "370",
+        "quantity": 2000
+      },
+      {
+        "id": "358",
+        "quantity": 2000
+      },
+      {
+        "id": "359",
+        "quantity": 2000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "588",
+        "quantity": 100
+      },
+      {
+        "id": "581",
+        "quantity": 20
+      },
+      {
+        "id": "375",
+        "quantity": 50
+      },
+      {
+        "id": "607",
+        "quantity": 1
+      }
+    ],
+    "id": "1334738",
+    "name": "Deck The Town (With Bats And Lanterns) XIV",
+    "prereq": "1334728",
+    "isPersonal": false,
+    "from": "Captain Thomas",
+    "fromImage": "/img/items/MustacheTom96.png",
+    "text": "Captain Thomas loves all the decorations that are now placed around town, but he also misses some of the unique decorations of his homeworld. He humbly requests your assistance in finding enough candy to make strings of garland to hang around town. This may take awhile.",
+    "requiresTower": 100,
+    "availableFrom": "Oct 25",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666981188949,
+    "itemRequests": [
+      {
+        "id": "427",
+        "quantity": 500
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "500",
+        "quantity": 100
+      },
+      {
+        "id": "665",
+        "quantity": 10
+      },
+      {
+        "id": "608",
+        "quantity": 1
+      }
+    ],
+    "id": "1334760",
+    "name": "Deck The Town (With Bats And Lanterns) XV",
+    "prereq": "1334738",
+    "isPersonal": false,
+    "from": "Captain Thomas",
+    "fromImage": "/img/items/MustacheTom96.png",
+    "text": "Captain Thomas is hard at work stringing the candy you brought, but he grossly underestimated how much yarn he would need. He would greatly appreciate your assistance in finding some additional yarn.",
+    "requiresTower": 100,
+    "availableFrom": "Oct 25",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666981195221,
+    "itemRequests": [
+      {
+        "id": "122",
+        "quantity": 2000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "660",
+        "quantity": 200
+      },
+      {
+        "id": "175",
+        "quantity": 25
+      },
+      {
+        "id": "605",
+        "quantity": 1
+      }
+    ],
+    "id": "1334779",
+    "name": "Deck The Town (With Bats And Lanterns) XVI",
+    "prereq": "1334760",
+    "isPersonal": false,
+    "from": "Captain Thomas",
+    "fromImage": "/img/items/MustacheTom96.png",
+    "text": "Captain Thomas is really feeling festive now! The last thing he needs for the garland is a load of coin purses to attach here and there. The purses will let folks take a little of the candy from the garland and save it for later.",
+    "requiresTower": 100,
+    "availableFrom": "Oct 25",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666981201428,
+    "itemRequests": [
+      {
+        "id": "600",
+        "quantity": 2000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "592",
+        "quantity": 50
+      },
+      {
+        "id": "628",
+        "quantity": 50
+      },
+      {
+        "id": "647",
+        "quantity": 10
+      }
+    ],
+    "id": "1335563",
+    "name": "Deck The Town (With Bats And Lanterns) XVII",
+    "prereq": "1334779",
+    "isPersonal": false,
+    "from": "ROOMBA",
+    "fromImage": "/img/items/robot_02.png",
+    "text": "ROOMBA does not want to feel left out in the festivities, and requests some scrap wire to hang around Jill's Barn. Hopefully she won't mind.",
+    "requiresTower": 100,
+    "availableFrom": "Oct 25",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666981215040,
+    "itemRequests": [
+      {
+        "id": "203",
+        "quantity": 1000
+      },
+      {
+        "id": "492",
+        "quantity": 500
+      },
+      {
+        "id": "499",
+        "quantity": 500
+      },
+      {
+        "id": "143",
+        "quantity": 2000
+      },
+      {
+        "id": "67",
+        "quantity": 1000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "160",
+        "quantity": 1000
+      },
+      {
+        "id": "158",
+        "quantity": 1000
+      },
+      {
+        "id": "162",
+        "quantity": 1000
+      },
+      {
+        "id": "352",
+        "quantity": 1000
+      },
+      {
+        "id": "190",
+        "quantity": 1000
+      }
+    ],
+    "id": "1335573",
+    "name": "Deck The Town (With Bats And Lanterns) XVIII",
+    "prereq": "1335563",
+    "isPersonal": false,
+    "from": "frank",
+    "fromImage": "/img/items/npc_bunny1.png",
+    "text": "frank cackles at the absurdity happening around town, and desperately wants to participate in the mischief. \"hey lets turn the river green again for old time's sake.\"",
+    "requiresTower": 100,
+    "availableFrom": "Oct 25",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666981283304,
+    "itemRequests": [
+      {
+        "id": "368",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "669",
+        "quantity": 1
+      }
+    ],
+    "id": "1335586",
+    "name": "Deck The Town (With Bats And Lanterns) XX",
+    "prereq": "1335587",
+    "isPersonal": false,
+    "from": "Rosalie",
+    "fromImage": "/img/items/a_098.png",
+    "text": "Despite the growing chaos, Rosalie thinks this was the best Halloween yet. All the townsfolk agree.\nHappy Halloween everyone!",
+    "requiresTower": 100,
+    "availableFrom": "Oct 25",
+    "availableTo": "Nov 3"
+  },
+  {
+    "firstSeen": 1666981223335,
+    "itemRequests": [
+      {
+        "id": "473",
+        "quantity": 800
+      },
+      {
+        "id": "280",
+        "quantity": 1
+      },
+      {
+        "id": "580",
+        "quantity": 300
+      },
+      {
+        "id": "69",
+        "quantity": 1000
+      },
+      {
+        "id": "44",
+        "quantity": 1000
+      },
+      {
+        "id": "71",
+        "quantity": 1000
+      },
+      {
+        "id": "254",
+        "quantity": 1000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "495",
+        "quantity": 1
+      },
+      {
+        "id": "565",
+        "quantity": 1
+      },
+      {
+        "id": "394",
+        "quantity": 10
+      },
+      {
+        "id": "242",
+        "quantity": 2000
+      },
+      {
+        "id": "186",
+        "quantity": 2000
+      },
+      {
+        "id": "15",
+        "quantity": 2000
+      },
+      {
+        "id": "508",
+        "quantity": 200
+      }
+    ],
+    "id": "1335587",
+    "name": "Deck The Town (With Bats And Lanterns) XIX",
+    "prereq": "1335573",
+    "isPersonal": false,
+    "from": "Mariya",
+    "fromImage": "/img/items/mariya.png",
+    "text": "Mariya doesn't really understand why everyone is decorating the town with such strange displays, and would like to showcase her home in a more pleasant fashion.",
+    "requiresTower": 100,
+    "availableFrom": "Oct 25",
+    "availableTo": "Nov 3"
+  },
+  {
     "firstSeen": 1646727804028,
     "itemRequests": [
       {
@@ -3030,6 +4131,84 @@
     "text": "Buddy claims a family heirloom was recently lost or stolen. He thinks it is a picture of his great-great-great-grandmother trice removed. In any case, it may show up sometime in the flea market for sale. If you can find it for him, he will gladly cover your costs and then some. (Flea Market inventory changes every hour)",
     "requiresExploring": 5,
     "goldReward": 10
+  },
+  {
+    "firstSeen": 1667234360777,
+    "itemRequests": [
+      {
+        "id": "123",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "194",
+        "quantity": 25
+      },
+      {
+        "id": "84",
+        "quantity": 25
+      },
+      {
+        "id": "86",
+        "quantity": 25
+      },
+      {
+        "id": "358",
+        "quantity": 25
+      }
+    ],
+    "id": "1344945",
+    "name": "Happy Halloween I",
+    "prereq": null,
+    "isPersonal": false,
+    "from": "Ghorgen",
+    "fromImage": "/img/items/ghorgen.png",
+    "text": "Ghorgen (no relation to Borgen) would like to wish you a Happy Halloween full of costumes, candy, chocolate, monsters, ghosts, spooky stuff and more! All he asks of you is a single Ancient Coin.",
+    "requiresFarming": 20
+  },
+  {
+    "firstSeen": 1667234370623,
+    "itemRequests": [
+      {
+        "id": "616",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "358",
+        "quantity": 100
+      },
+      {
+        "id": "360",
+        "quantity": 10
+      },
+      {
+        "id": "370",
+        "quantity": 100
+      },
+      {
+        "id": "364",
+        "quantity": 10
+      },
+      {
+        "id": "654",
+        "quantity": 1
+      },
+      {
+        "id": "84",
+        "quantity": 50
+      }
+    ],
+    "id": "1346191",
+    "name": "Happy Halloween II",
+    "prereq": "1344945",
+    "isPersonal": false,
+    "from": "Mummy",
+    "fromImage": "/img/items/mummy_t_01.png",
+    "text": "Mummy loves Halloween so much and hopes you have a great time trick-or-treating. Here's some extra candy and treat bags you can have. Just bring him 1 roll of TP.",
+    "requiresFarming": 75
   },
   {
     "firstSeen": 1646727802007,
@@ -3116,6 +4295,49 @@
     "requiresFarming": 65,
     "requiresCrafting": 15,
     "requiresExploring": 60
+  },
+  {
+    "firstSeen": 1667234379644,
+    "itemRequests": [
+      {
+        "id": "69",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "355",
+        "quantity": 10
+      },
+      {
+        "id": "500",
+        "quantity": 100
+      },
+      {
+        "id": "508",
+        "quantity": 100
+      },
+      {
+        "id": "379",
+        "quantity": 100
+      },
+      {
+        "id": "661",
+        "quantity": 1
+      },
+      {
+        "id": "75",
+        "quantity": 500
+      }
+    ],
+    "id": "1377056",
+    "name": "Happy Halloween III",
+    "prereq": "1346191",
+    "isPersonal": false,
+    "from": "Rosalie",
+    "fromImage": "/img/items/a_098.png",
+    "text": "From everybody in Redbrook, we hope you had a great time celebrating Halloween with us! Hope these items are useful to you.",
+    "requiresTower": 100
   },
   {
     "firstSeen": 1646727795912,
@@ -3265,6 +4487,82 @@
     "requiresCrafting": 10,
     "requiresFishing": 10,
     "requiresExploring": 60
+  },
+  {
+    "firstSeen": 1667534650453,
+    "itemRequests": [
+      {
+        "id": "632",
+        "quantity": 40
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "253",
+        "quantity": 1
+      },
+      {
+        "id": "240",
+        "quantity": 1
+      }
+    ],
+    "id": "1400577",
+    "name": "Excuuuse me, Farmer I",
+    "prereq": null,
+    "isPersonal": false,
+    "from": "Star Meerif",
+    "fromImage": "/img/items/npc_figure.png",
+    "text": "Poof! Star appears in your home, stereotypical mess of feathers in tow. \n\n\n\"I'm looking for some rare relics. Langstaff Crests, ya heard of 'em? They're special to me - I'm hoping to use them for a ritual later.\"\n\n\nThe look of indignation on your face seems to offend Star, \"Well, excuuuse me, farmer, I can give you something nice as a reward. These were in my tower after the great watermelon surplus a few years ago, maybe we can trade?\"",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "requiresTower": 100,
+    "silverReward": 2147483647
+  },
+  {
+    "firstSeen": 1667579683326,
+    "itemRequests": [
+      {
+        "id": "632",
+        "quantity": 40
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "253",
+        "quantity": 1
+      },
+      {
+        "id": "240",
+        "quantity": 1
+      },
+      {
+        "id": "508",
+        "quantity": 500
+      },
+      {
+        "id": "379",
+        "quantity": 500
+      },
+      {
+        "id": "84",
+        "quantity": 2000
+      }
+    ],
+    "id": "1408018",
+    "name": "Excuuuse me, Farmer II",
+    "prereq": "1400577",
+    "isPersonal": false,
+    "from": "Star Meerif",
+    "fromImage": "/img/items/npc_figure.png",
+    "text": "Covered in coarse, rough sand that seems to have gotten everywhere, you return home to find a note pinned to your door. \n\n\nI keep losing these things, something about their residual Romuskan energy makes them hard to find. There's another rare item in it for your trouble.\n\n\n\nRolling your eyes and dusting yourself off, you head back out.",
+    "silverReward": 2147483647,
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "requiresTower": 100
   },
   {
     "firstSeen": 1646727789929,
@@ -4049,6 +5347,33 @@
     "from": "Charles Horsington III",
     "fromImage": "/img/items/npc_horse.png",
     "text": "Neigh!!\n\n\n&nbsp;"
+  },
+  {
+    "firstSeen": 1668725171639,
+    "itemRequests": [
+      {
+        "id": "641",
+        "quantity": 1
+      },
+      {
+        "id": "635",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "298",
+        "quantity": 1
+      }
+    ],
+    "id": "1572908",
+    "name": "Flu Away I",
+    "prereq": null,
+    "isPersonal": false,
+    "from": "Buddy",
+    "fromImage": "/img/items/buddy.png",
+    "text": "Buddy isn’t feeling well today. He suspects it’s either the night vapors or an infection of infusoria from some bad water he drank recently. If it’s the night vapors, there’s no cure but plenty of rest. If it’s an infection of infusoria, Buddy needs some bone broth and onion soup quickly. Will you cook for Buddy’s health?",
+    "requiresCooking": 5
   },
   {
     "firstSeen": 1646727755856,
@@ -4897,6 +6222,230 @@
     "requiresFarming": 75,
     "requiresExploring": 75,
     "silverReward": 5000000
+  },
+  {
+    "firstSeen": 1668992469944,
+    "itemRequests": [
+      {
+        "id": "11",
+        "quantity": 3
+      },
+      {
+        "id": "29",
+        "quantity": 3
+      },
+      {
+        "id": "19",
+        "quantity": 3
+      },
+      {
+        "id": "27",
+        "quantity": 3
+      },
+      {
+        "id": "13",
+        "quantity": 3
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "84",
+        "quantity": 25
+      },
+      {
+        "id": "500",
+        "quantity": 3
+      },
+      {
+        "id": "86",
+        "quantity": 25
+      },
+      {
+        "id": "120",
+        "quantity": 25
+      },
+      {
+        "id": "75",
+        "quantity": 25
+      },
+      {
+        "id": "44",
+        "quantity": 25
+      },
+      {
+        "id": "379",
+        "quantity": 3
+      },
+      {
+        "id": "635",
+        "quantity": 1
+      }
+    ],
+    "id": "1606021",
+    "name": "200,000",
+    "prereq": null,
+    "isPersonal": false,
+    "from": "Rosalie",
+    "fromImage": "/img/items/a_098.png",
+    "text": "Wow! Over 200,000 people have tried their hand at farming around Redbrook. To celebrate, here are some items that you might find useful. Thanks for being a part of Farm RPG!",
+    "requiresFarming": 1,
+    "requiresCrafting": 1,
+    "requiresFishing": 1,
+    "requiresExploring": 1,
+    "availableFrom": "Nov 20",
+    "availableTo": "Nov 22"
+  },
+  {
+    "firstSeen": 1669002826315,
+    "itemRequests": [
+      {
+        "id": "31",
+        "quantity": 5
+      },
+      {
+        "id": "33",
+        "quantity": 5
+      },
+      {
+        "id": "15",
+        "quantity": 5
+      },
+      {
+        "id": "48",
+        "quantity": 5
+      },
+      {
+        "id": "15",
+        "quantity": 5
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "462",
+        "quantity": 10
+      },
+      {
+        "id": "508",
+        "quantity": 25
+      },
+      {
+        "id": "500",
+        "quantity": 25
+      },
+      {
+        "id": "65",
+        "quantity": 25
+      },
+      {
+        "id": "84",
+        "quantity": 100
+      },
+      {
+        "id": "643",
+        "quantity": 3
+      },
+      {
+        "id": "475",
+        "quantity": 5
+      },
+      {
+        "id": "389",
+        "quantity": 5
+      },
+      {
+        "id": "305",
+        "quantity": 10
+      }
+    ],
+    "id": "1606073",
+    "name": "200,000 II",
+    "prereq": "1606021",
+    "isPersonal": false,
+    "from": "Rosalie",
+    "fromImage": "/img/items/a_098.png",
+    "text": "Amazing! Over 200,000 people have tried their hand at farming around Redbrook. To celebrate, here are some items that you might find useful. Thanks for being a part of Farm RPG!",
+    "requiresFarming": 75,
+    "requiresCrafting": 75,
+    "requiresFishing": 75,
+    "requiresExploring": 75,
+    "availableFrom": "Nov 20",
+    "availableTo": "Nov 22"
+  },
+  {
+    "firstSeen": 1669002831988,
+    "itemRequests": [
+      {
+        "id": "50",
+        "quantity": 7
+      },
+      {
+        "id": "59",
+        "quantity": 7
+      },
+      {
+        "id": "65",
+        "quantity": 7
+      },
+      {
+        "id": "67",
+        "quantity": 7
+      },
+      {
+        "id": "409",
+        "quantity": 7
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "123",
+        "quantity": 500
+      },
+      {
+        "id": "254",
+        "quantity": 50
+      },
+      {
+        "id": "450",
+        "quantity": 50
+      },
+      {
+        "id": "427",
+        "quantity": 50
+      },
+      {
+        "id": "646",
+        "quantity": 3
+      },
+      {
+        "id": "660",
+        "quantity": 10
+      },
+      {
+        "id": "508",
+        "quantity": 50
+      },
+      {
+        "id": "653",
+        "quantity": 10
+      },
+      {
+        "id": "323",
+        "quantity": 2
+      }
+    ],
+    "id": "1606092",
+    "name": "200,000 III",
+    "prereq": "1606073",
+    "isPersonal": false,
+    "from": "Rosalie",
+    "fromImage": "/img/items/a_098.png",
+    "text": "Incredible! Over 200,000 people have tried their hand at farming around Redbrook. To celebrate, here are some items that you might find useful. Thanks for being a part of Farm RPG!",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "availableFrom": "Nov 20",
+    "availableTo": "Nov 22"
   },
   {
     "firstSeen": 1658883100593,

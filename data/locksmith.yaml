@@ -151,6 +151,7 @@
     Wine: 1
 
 - box: Cornucopia
+  gold: 25
   items:
     Apple: 10
     Corn: 5

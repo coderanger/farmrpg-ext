@@ -86,9 +86,9 @@
   },
   {
     "drop_rates": {
-      "Egg 03": 3915.5,
-      "Gold Carrot": 241.08860759493672,
-      "Runestone 01": 134.6007067137809
+      "Egg 03": 3955.5,
+      "Gold Carrot": 243.1139240506329,
+      "Runestone 01": 134.30769230769232
     },
     "iron_depot_rates": {},
     "location": "Carrot Seeds",
@@ -97,8 +97,8 @@
   },
   {
     "drop_rates": {
-      "Popcorn": 67.39473684210526,
-      "Runestone 11": 738.0512820512821
+      "Popcorn": 65.39024390243902,
+      "Runestone 11": 722.6
     },
     "iron_depot_rates": {},
     "location": "Corn Seeds",
@@ -503,7 +503,7 @@
   },
   {
     "drop_rates": {
-      "Runestone 10": 884.0
+      "Runestone 10": 908.0
     },
     "iron_depot_rates": {},
     "location": "Leek Seeds",
@@ -601,7 +601,7 @@
   },
   {
     "drop_rates": {
-      "Gold Peas": 515.2857142857143
+      "Gold Peas": 483.8
     },
     "iron_depot_rates": {},
     "location": "Pea Seeds",
@@ -653,7 +653,7 @@
   },
   {
     "drop_rates": {
-      "Gold Potato": 696.0
+      "Gold Potato": 1112.0
     },
     "iron_depot_rates": {},
     "location": "Potato Seeds",

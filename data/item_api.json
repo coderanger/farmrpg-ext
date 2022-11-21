@@ -11034,6 +11034,24 @@
     "xp": 1750
   },
   {
+    "base_yield_minutes": 0,
+    "buy_price": 0,
+    "can_buy": 0,
+    "can_sell": 0,
+    "craftable": 1,
+    "crafting_level": 99,
+    "description": "It's dangerous to go alone",
+    "id": "671",
+    "img": "/img/items/heartcontainer.png?1",
+    "mailable": 1,
+    "masterable": 0,
+    "min_mailable_level": 0,
+    "name": "Heart Container",
+    "sell_price": 0,
+    "type": "item",
+    "xp": 0
+  },
+  {
     "base_yield_minutes": 720,
     "buy_price": 9360,
     "can_buy": 1,

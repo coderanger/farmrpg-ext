@@ -2271,7 +2271,11 @@
     "availableFrom": 1666501200000,
     "availableTo": 1667537999000,
     "id": "338",
-    "questlines": []
+    "next": "1346191",
+    "prev": "1344945",
+    "questlines": [
+      "Happy Halloween"
+    ]
   },
   {
     "availableFrom": 1666501200000,
@@ -8804,6 +8808,42 @@
     ]
   },
   {
+    "id": "1090591",
+    "questlines": [
+      "As The Horse Clops"
+    ]
+  },
+  {
+    "id": "1090592",
+    "questlines": [
+      "Mane Hospital"
+    ]
+  },
+  {
+    "id": "1090593",
+    "questlines": [
+      "Gossip Gelding"
+    ]
+  },
+  {
+    "id": "1090600",
+    "questlines": [
+      "One Hoof to Live"
+    ]
+  },
+  {
+    "id": "1090604",
+    "questlines": [
+      "Bright Horseshoe"
+    ]
+  },
+  {
+    "id": "1090611",
+    "questlines": [
+      "The Young and the Mareless"
+    ]
+  },
+  {
     "availableFrom": 1666674000000,
     "availableTo": 1667537999000,
     "id": "1119430",
@@ -9177,6 +9217,282 @@
     "prev": "1310918",
     "questlines": [
       "Which Wizard Hats And Which Witch Hats"
+    ]
+  },
+  {
+    "availableFrom": 1666674000000,
+    "availableTo": 1667537999000,
+    "id": "1321378",
+    "next": "1321421",
+    "prev": null,
+    "questlines": [
+      "Deck The Town (With Bats And Lanterns)"
+    ]
+  },
+  {
+    "availableFrom": 1666674000000,
+    "availableTo": 1667537999000,
+    "id": "1321421",
+    "next": "1334610",
+    "prev": "1321378",
+    "questlines": [
+      "Deck The Town (With Bats And Lanterns)"
+    ]
+  },
+  {
+    "availableFrom": 1666674000000,
+    "availableTo": 1667537999000,
+    "id": "1334610",
+    "next": "1334614",
+    "prev": "1321421",
+    "questlines": [
+      "Deck The Town (With Bats And Lanterns)"
+    ]
+  },
+  {
+    "availableFrom": 1666674000000,
+    "availableTo": 1667537999000,
+    "id": "1334614",
+    "next": "1334615",
+    "prev": "1334610",
+    "questlines": [
+      "Deck The Town (With Bats And Lanterns)"
+    ]
+  },
+  {
+    "availableFrom": 1666674000000,
+    "availableTo": 1667537999000,
+    "id": "1334615",
+    "next": "1334655",
+    "prev": "1334614",
+    "questlines": [
+      "Deck The Town (With Bats And Lanterns)"
+    ]
+  },
+  {
+    "availableFrom": 1666674000000,
+    "availableTo": 1667537999000,
+    "id": "1334655",
+    "next": "1334662",
+    "prev": "1334615",
+    "questlines": [
+      "Deck The Town (With Bats And Lanterns)"
+    ]
+  },
+  {
+    "availableFrom": 1666674000000,
+    "availableTo": 1667537999000,
+    "id": "1334662",
+    "next": "1334672",
+    "prev": "1334655",
+    "questlines": [
+      "Deck The Town (With Bats And Lanterns)"
+    ]
+  },
+  {
+    "availableFrom": 1666674000000,
+    "availableTo": 1667537999000,
+    "id": "1334672",
+    "next": "1334682",
+    "prev": "1334662",
+    "questlines": [
+      "Deck The Town (With Bats And Lanterns)"
+    ]
+  },
+  {
+    "availableFrom": 1666674000000,
+    "availableTo": 1667537999000,
+    "id": "1334682",
+    "next": "1334689",
+    "prev": "1334672",
+    "questlines": [
+      "Deck The Town (With Bats And Lanterns)"
+    ]
+  },
+  {
+    "availableFrom": 1666674000000,
+    "availableTo": 1667537999000,
+    "id": "1334689",
+    "next": "1334693",
+    "prev": "1334682",
+    "questlines": [
+      "Deck The Town (With Bats And Lanterns)"
+    ]
+  },
+  {
+    "availableFrom": 1666674000000,
+    "availableTo": 1667537999000,
+    "id": "1334693",
+    "next": "1334697",
+    "prev": "1334689",
+    "questlines": [
+      "Deck The Town (With Bats And Lanterns)"
+    ]
+  },
+  {
+    "availableFrom": 1666674000000,
+    "availableTo": 1667537999000,
+    "id": "1334697",
+    "next": "1334728",
+    "prev": "1334693",
+    "questlines": [
+      "Deck The Town (With Bats And Lanterns)"
+    ]
+  },
+  {
+    "availableFrom": 1666674000000,
+    "availableTo": 1667537999000,
+    "id": "1334728",
+    "next": "1334738",
+    "prev": "1334697",
+    "questlines": [
+      "Deck The Town (With Bats And Lanterns)"
+    ]
+  },
+  {
+    "availableFrom": 1666674000000,
+    "availableTo": 1667537999000,
+    "id": "1334738",
+    "next": "1334760",
+    "prev": "1334728",
+    "questlines": [
+      "Deck The Town (With Bats And Lanterns)"
+    ]
+  },
+  {
+    "availableFrom": 1666674000000,
+    "availableTo": 1667537999000,
+    "id": "1334760",
+    "next": "1334779",
+    "prev": "1334738",
+    "questlines": [
+      "Deck The Town (With Bats And Lanterns)"
+    ]
+  },
+  {
+    "availableFrom": 1666674000000,
+    "availableTo": 1667537999000,
+    "id": "1334779",
+    "next": "1335563",
+    "prev": "1334760",
+    "questlines": [
+      "Deck The Town (With Bats And Lanterns)"
+    ]
+  },
+  {
+    "availableFrom": 1666674000000,
+    "availableTo": 1667537999000,
+    "id": "1335563",
+    "next": "1335573",
+    "prev": "1334779",
+    "questlines": [
+      "Deck The Town (With Bats And Lanterns)"
+    ]
+  },
+  {
+    "availableFrom": 1666674000000,
+    "availableTo": 1667537999000,
+    "id": "1335573",
+    "next": "1335587",
+    "prev": "1335563",
+    "questlines": [
+      "Deck The Town (With Bats And Lanterns)"
+    ]
+  },
+  {
+    "availableFrom": 1666674000000,
+    "availableTo": 1667537999000,
+    "id": "1335586",
+    "next": null,
+    "prev": "1335587",
+    "questlines": [
+      "Deck The Town (With Bats And Lanterns)"
+    ]
+  },
+  {
+    "availableFrom": 1666674000000,
+    "availableTo": 1667537999000,
+    "id": "1335587",
+    "next": "1335586",
+    "prev": "1335573",
+    "questlines": [
+      "Deck The Town (With Bats And Lanterns)"
+    ]
+  },
+  {
+    "id": "1344945",
+    "next": "338",
+    "prev": null,
+    "questlines": [
+      "Happy Halloween"
+    ]
+  },
+  {
+    "id": "1346191",
+    "next": "1377056",
+    "prev": "338",
+    "questlines": [
+      "Happy Halloween"
+    ]
+  },
+  {
+    "id": "1377056",
+    "next": null,
+    "prev": "1346191",
+    "questlines": [
+      "Happy Halloween"
+    ]
+  },
+  {
+    "id": "1400577",
+    "next": "1408018",
+    "prev": null,
+    "questlines": [
+      "Excuuuse me, Farmer"
+    ]
+  },
+  {
+    "id": "1408018",
+    "next": null,
+    "prev": "1400577",
+    "questlines": [
+      "Excuuuse me, Farmer"
+    ]
+  },
+  {
+    "id": "1572908",
+    "questlines": [
+      "Flu Away"
+    ]
+  },
+  {
+    "availableFrom": 1668924000000,
+    "availableTo": 1669183199000,
+    "id": "1606021",
+    "next": "1606073",
+    "prev": null,
+    "questlines": [
+      "200,000"
+    ]
+  },
+  {
+    "availableFrom": 1668924000000,
+    "availableTo": 1669183199000,
+    "id": "1606073",
+    "next": "1606092",
+    "prev": "1606021",
+    "questlines": [
+      "200,000"
+    ]
+  },
+  {
+    "availableFrom": 1668924000000,
+    "availableTo": 1669183199000,
+    "id": "1606092",
+    "next": null,
+    "prev": "1606073",
+    "questlines": [
+      "200,000"
     ]
   }
 ]

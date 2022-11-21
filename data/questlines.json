@@ -19,6 +19,16 @@
     "secondary": false
   },
   {
+    "image": "/img/items/a_098.png",
+    "name": "200,000",
+    "quests": [
+      "1606021",
+      "1606073",
+      "1606092"
+    ],
+    "secondary": false
+  },
+  {
     "image": "/img/items/a_028.png",
     "name": "5 Times Tastier",
     "quests": [
@@ -385,6 +395,14 @@
     "secondary": false
   },
   {
+    "image": "/img/items/npc_horse.png",
+    "name": "As The Horse Clops",
+    "quests": [
+      "1090591"
+    ],
+    "secondary": false
+  },
+  {
     "image": "/img/items/a_028.png",
     "name": "Be Mine",
     "quests": [
@@ -487,6 +505,14 @@
       "785",
       "786",
       "787"
+    ],
+    "secondary": false
+  },
+  {
+    "image": "/img/items/npc_horse.png",
+    "name": "Bright Horseshoe",
+    "quests": [
+      "1090604"
     ],
     "secondary": false
   },
@@ -642,6 +668,33 @@
     "secondary": false
   },
   {
+    "image": "/img/items/a_098.png",
+    "name": "Deck The Town (With Bats And Lanterns)",
+    "quests": [
+      "1321378",
+      "1321421",
+      "1334610",
+      "1334614",
+      "1334615",
+      "1334655",
+      "1334662",
+      "1334672",
+      "1334682",
+      "1334689",
+      "1334693",
+      "1334697",
+      "1334728",
+      "1334738",
+      "1334760",
+      "1334779",
+      "1335563",
+      "1335573",
+      "1335587",
+      "1335586"
+    ],
+    "secondary": false
+  },
+  {
     "image": "/img/items/a_034.png",
     "name": "Defenses and Consequences",
     "quests": [
@@ -747,6 +800,15 @@
       "841",
       "842",
       "843"
+    ],
+    "secondary": false
+  },
+  {
+    "image": "/img/items/npc_figure.png",
+    "name": "Excuuuse me, Farmer",
+    "quests": [
+      "1400577",
+      "1408018"
     ],
     "secondary": false
   },
@@ -896,6 +958,14 @@
   },
   {
     "image": "/img/items/buddy.png",
+    "name": "Flu Away",
+    "quests": [
+      "1572908"
+    ],
+    "secondary": false
+  },
+  {
+    "image": "/img/items/buddy.png",
     "name": "Fooled",
     "quests": [
       "822",
@@ -950,6 +1020,14 @@
     "secondary": false
   },
   {
+    "image": "/img/items/npc_horse.png",
+    "name": "Gossip Gelding",
+    "quests": [
+      "1090593"
+    ],
+    "secondary": false
+  },
+  {
     "image": "/img/items/npc_bunny1.png",
     "name": "Green Initiative",
     "quests": [
@@ -963,6 +1041,17 @@
       "813",
       "814",
       "815"
+    ],
+    "secondary": false
+  },
+  {
+    "image": "/img/items/ghorgen.png",
+    "name": "Happy Halloween",
+    "quests": [
+      "1344945",
+      "338",
+      "1346191",
+      "1377056"
     ],
     "secondary": false
   },
@@ -1312,6 +1401,14 @@
   },
   {
     "image": "/img/items/npc_horse.png",
+    "name": "Mane Hospital",
+    "quests": [
+      "1090592"
+    ],
+    "secondary": false
+  },
+  {
+    "image": "/img/items/npc_horse.png",
     "name": "May The Horse Be With You",
     "quests": [
       "882",
@@ -1375,6 +1472,14 @@
       "378",
       "379",
       "380"
+    ],
+    "secondary": false
+  },
+  {
+    "image": "/img/items/npc_horse.png",
+    "name": "One Hoof to Live",
+    "quests": [
+      "1090600"
     ],
     "secondary": false
   },
@@ -1745,6 +1850,14 @@
       "43966",
       "43974",
       "51372"
+    ],
+    "secondary": false
+  },
+  {
+    "image": "/img/items/npc_horse.png",
+    "name": "The Young and the Mareless",
+    "quests": [
+      "1090611"
     ],
     "secondary": false
   },

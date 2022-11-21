@@ -5237,7 +5237,7 @@
     "firstSeen": 1646770772226,
     "name": "Large Net",
     "id": "500",
-    "image": "/img/items/lnet.png?1",
+    "image": "/img/items/lnet.png?3",
     "craftPrice": 100,
     "xp": 3500,
     "mastery": true,
@@ -7019,7 +7019,8 @@
         "name": "Peach",
         "quantity": 5
       }
-    ]
+    ],
+    "rarity": "Very Rare"
   },
   {
     "firstSeen": 1664326828865,
@@ -7129,7 +7130,10 @@
     "firstSeen": 1665499146487,
     "name": "Breakfast Boost",
     "id": "661",
-    "image": "/img/items/eggsandwich.png"
+    "image": "/img/items/eggsandwich.png",
+    "xp": 900,
+    "givable": true,
+    "mastery": true
   },
   {
     "firstSeen": 1665509168935,
@@ -7273,6 +7277,22 @@
     "image": "/img/items/jkey.png",
     "xp": 1750,
     "rarity": "Very Rare"
+  },
+  {
+    "firstSeen": 1666888319378,
+    "id": "671",
+    "name": "Heart Container",
+    "image": "/img/items/heartcontainer.png?1",
+    "craftPrice": 1000000000,
+    "givable": true,
+    "rarity": "Super Rare",
+    "recipe": [
+      {
+        "id": "253",
+        "name": "Piece of Heart",
+        "quantity": 4
+      }
+    ]
   },
   {
     "id": "68",

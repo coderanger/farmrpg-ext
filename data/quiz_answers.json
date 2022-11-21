@@ -898,5 +898,205 @@
     "display_order": 5,
     "question": "The spiral galaxy NGC 175 is located in which constellation?",
     "quiz_id": 16
+  },
+  {
+    "answer1": "October 1st",
+    "answer2": "October 31st",
+    "answer3": "February 30th",
+    "answer4": "December 25th",
+    "correct": 2,
+    "display_order": 1,
+    "question": "When is Halloween?",
+    "quiz_id": 17
+  },
+  {
+    "answer1": "Trick or treat",
+    "answer2": "Knock knock",
+    "answer3": "Give me candy NOW",
+    "answer4": "Nothing",
+    "correct": 1,
+    "display_order": 2,
+    "question": "What's the phrase children commonly say when going door to door for candy?",
+    "quiz_id": 17
+  },
+  {
+    "answer1": "Pumpkin monsters",
+    "answer2": "Eye guy",
+    "answer3": "Jack o lantern",
+    "answer4": "a menace to society",
+    "correct": 3,
+    "display_order": 3,
+    "question": "What are carved pumpkins commonly called?",
+    "quiz_id": 17
+  },
+  {
+    "answer1": "A ghost",
+    "answer2": "lazy",
+    "answer3": "Mummy",
+    "answer4": "Vampire",
+    "correct": 1,
+    "display_order": 4,
+    "question": "If you poke eye holes in a sheet and wear that as a costume, what are you?",
+    "quiz_id": 17
+  },
+  {
+    "answer1": "Orange Juice",
+    "answer2": "Fruit Punch",
+    "answer3": "Blood",
+    "answer4": "Apple Cider",
+    "correct": 3,
+    "display_order": 5,
+    "question": "What's a vampires favorite thing to drink",
+    "quiz_id": 17
+  },
+  {
+    "answer1": "George",
+    "answer2": "Lorn",
+    "answer3": "Jill",
+    "answer4": "Beatrix ",
+    "correct": 3,
+    "display_order": 6,
+    "question": "Which one of the townsfolk dressed up as the mummy?",
+    "quiz_id": 17
+  },
+  {
+    "answer1": "Thomas",
+    "answer2": "Vincent ",
+    "answer3": "Holger",
+    "answer4": "Star",
+    "correct": 4,
+    "display_order": 7,
+    "question": "Which one of the townsfolk dressed up as Dread?",
+    "quiz_id": 17
+  },
+  {
+    "answer1": "Star",
+    "answer2": "Rosalie ",
+    "answer3": "Cecil ",
+    "answer4": "Borgen",
+    "correct": 2,
+    "display_order": 8,
+    "question": "Which one of the townsfolk was turned into a frog for Halloween?",
+    "quiz_id": 17
+  },
+  {
+    "answer1": "Captain Thomas ",
+    "answer2": "Thomas ",
+    "answer3": "Jill",
+    "answer4": "Rosalie",
+    "correct": 2,
+    "display_order": 9,
+    "question": "Which one of the townsfolk dressed in a simple ghost costume?",
+    "quiz_id": 17
+  },
+  {
+    "answer1": "Ghorgen",
+    "answer2": "Gorgon",
+    "answer3": "Frankenstein\u2019s monster ",
+    "answer4": "Weredragon",
+    "correct": 1,
+    "display_order": 10,
+    "question": "Borgen dressed up as which frightening monster?",
+    "quiz_id": 17
+  },
+  {
+    "answer1": "His foot",
+    "answer2": "His ear",
+    "answer3": "His mouth ",
+    "answer4": "His digester",
+    "correct": 4,
+    "display_order": 11,
+    "question": "Where was Buddy wounded when he ate all your candy?",
+    "quiz_id": 17
+  },
+  {
+    "answer1": "Chattering teeth",
+    "answer2": "Sturdy swords",
+    "answer3": "Ruby scorpions",
+    "answer4": "Bears",
+    "correct": 1,
+    "display_order": 12,
+    "question": "What did Vincent use to protect his booth and candy until Halloween night?",
+    "quiz_id": 17
+  },
+  {
+    "answer1": "Lorn",
+    "answer2": "Holger",
+    "answer3": "Buddy",
+    "answer4": "Cecil ",
+    "correct": 1,
+    "display_order": 13,
+    "question": "Who was stealing Beatrix\u2019s candy?",
+    "quiz_id": 17
+  },
+  {
+    "answer1": "DOOT",
+    "answer2": "DOBAIR",
+    "answer3": "DODO",
+    "answer4": "DOOBY-DOO",
+    "correct": 2,
+    "display_order": 14,
+    "question": "What caused the time leak?",
+    "quiz_id": 17
+  },
+  {
+    "answer1": "The post office",
+    "answer2": "The wishing well",
+    "answer3": "Buddy\u2019s cave",
+    "answer4": "The ground ",
+    "correct": 4,
+    "display_order": 15,
+    "question": "Where did Rosalie find all the \u201cfree candy\u201d she gave you?",
+    "quiz_id": 17
+  },
+  {
+    "answer1": "True",
+    "answer2": "False",
+    "answer3": "",
+    "answer4": "",
+    "correct": 1,
+    "display_order": 16,
+    "question": "Halloween is a little different on Captain Thomas\u2019s homeworld. Trick-or-treaters go door-to-door and give away candy. ",
+    "quiz_id": 17
+  },
+  {
+    "answer1": "Coffee",
+    "answer2": "Oatmeal ",
+    "answer3": "Herbal tea ",
+    "answer4": "Long walks",
+    "correct": 3,
+    "display_order": 17,
+    "question": "Weredragon loves which of the following?",
+    "quiz_id": 17
+  },
+  {
+    "answer1": "Bears",
+    "answer2": "Intergalactic war",
+    "answer3": "Cavities ",
+    "answer4": "Raptors ",
+    "correct": 3,
+    "display_order": 18,
+    "question": "What potential risk caused Skele-Tori\u2019s anxiety to spike?",
+    "quiz_id": 17
+  },
+  {
+    "answer1": "Taffy",
+    "answer2": "Hockey mask",
+    "answer3": "Captain Kirk mask",
+    "answer4": "Santa\u2019s hat",
+    "correct": 2,
+    "display_order": 19,
+    "question": "What is the super rare item that can be found in the Haunted House?",
+    "quiz_id": 17
+  },
+  {
+    "answer1": "Bat",
+    "answer2": "Chicken  ",
+    "answer3": "Eagle",
+    "answer4": "Raptor ",
+    "correct": 1,
+    "display_order": 20,
+    "question": "Which animal\u2019s wings are available to find in the Haunted House?",
+    "quiz_id": 17
   }
 ]
