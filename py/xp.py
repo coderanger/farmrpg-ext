@@ -1,25 +1,28 @@
-import typer
-
 import droprates
 import fixtures
+import typer
 
 
 def value_per_hit(
-    fishing: bool = False,
     verbose: bool = False,
     silver: bool = False,
     iron_depot: bool = False,
+    runecube: bool = False,
 ) -> dict[str, float]:
     items = {it.name: it for it in fixtures.load_items()}
     totals = {}
     for location, loc_drops in droprates.compile_drops(
-        explore=not fishing,
-        lemonade=not fishing,
-        fish=fishing,
-        net=fishing,
+        explore=True,
+        lemonade=True,
+        cider=True,
+        palmer=True,
+        fish=True,
+        net=True,
+        large_net=True,
         lemonade_fake_explores=True,
         nets_fake_fishes=True,
         iron_depot=iron_depot,
+        runecube=runecube,
     ).locations.items():
         loc_total = 0
         for item_name, drops in loc_drops.items.items():
@@ -40,18 +43,16 @@ def value_per_hit(
 
 
 def xp_cmd(
-    fishing: bool = False,
     verbose: bool = False,
     silver: bool = False,
-    iron_depot: bool = False,
+    iron_depot: bool = True,
+    runecube: bool = False,
 ) -> None:
     for location, val in sorted(
-        value_per_hit(fishing, verbose, silver, iron_depot).items(),
+        value_per_hit(verbose, silver, iron_depot, runecube).items(),
         key=lambda kv: kv[1],
     ):
-        print(
-            f"{location}: {val:.2f} {'silver' if silver else 'xp'} / {'fish' if fishing else 'explore'}"
-        )
+        print(f"{location}: {val:.2f} {'silver' if silver else 'xp'} / hit")
 
 
 if __name__ == "__main__":

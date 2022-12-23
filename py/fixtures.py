@@ -238,6 +238,13 @@ def _get_drops(runecube: bool = False):
             "Model Ship"
         ] = iron_depot_drops.locations["Small Cave"].items["Model Ship"]
 
+    normal_drops.locations["Haunted House"] = iron_depot_drops.locations[
+        "Haunted House"
+    ]
+    normal_drops.locations["Santa's Workshop"] = iron_depot_drops.locations[
+        "Santa's Workshop"
+    ]
+
     # NOTES ABOUT GOLD BOOT DROP RATE
     # RySwim
     # @coderanger as of right now: 11 gold boots in exactly 46,850 casts
@@ -661,27 +668,29 @@ def gen_location_extra():
     import droprates
     import xp
 
-    xp_per_hit = xp.value_per_hit()
-    xp_per_hit_fishing = xp.value_per_hit(fishing=True)
-    xp_per_hit_iron_depot = xp.value_per_hit(iron_depot=True)
+    xp_per_hit = xp.value_per_hit(iron_depot=False, runecube=False)
+    xp_per_hit_iron_depot = xp.value_per_hit(iron_depot=True, runecube=False)
+    xp_per_hit_runecube = xp.value_per_hit(iron_depot=True, runecube=True)
 
-    silver_per_hit = xp.value_per_hit(silver=True)
-    silver_per_hit_fishing = xp.value_per_hit(silver=True)
-    silver_per_hit_iron_depot = xp.value_per_hit(silver=True, iron_depot=True)
+    silver_per_hit = xp.value_per_hit(iron_depot=False, runecube=False, silver=True)
+    silver_per_hit_iron_depot = xp.value_per_hit(
+        iron_depot=True, runecube=False, silver=True
+    )
+    silver_per_hit_runecube = xp.value_per_hit(
+        iron_depot=True, runecube=True, silver=True
+    )
 
     loc_extra = [
         {
             "id": loc.id,
             "name": loc.name,
             "baseDropRate": droprates.BASE_DROP_RATES.get(loc.name),
-            "xpPerHit": (
-                xp_per_hit_fishing if loc.type == "fishing" else xp_per_hit
-            ).get(loc.name),
+            "xpPerHit": xp_per_hit.get(loc.name),
             "xpPerHitIronDepot": xp_per_hit_iron_depot.get(loc.name),
-            "silverPerHit": (
-                silver_per_hit_fishing if loc.type == "fishing" else silver_per_hit
-            ).get(loc.name),
+            "xpPerHitRunecube": xp_per_hit_runecube.get(loc.name),
+            "silverPerHit": silver_per_hit.get(loc.name),
             "silverPerHitIronDepot": silver_per_hit_iron_depot.get(loc.name),
+            "silverPerHitRunecube": silver_per_hit_runecube.get(loc.name),
         }
         for loc in load_locations()
     ]
