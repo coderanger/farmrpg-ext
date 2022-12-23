@@ -1916,5 +1916,40 @@
     "itemId": "608",
     "quantityHigh": 1,
     "quantityLow": 1
+  },
+  {
+    "boxId": "698",
+    "group": 0,
+    "itemId": "508",
+    "quantityHigh": 10,
+    "quantityLow": 10
+  },
+  {
+    "boxId": "698",
+    "group": 1,
+    "itemId": "397",
+    "quantityHigh": 3,
+    "quantityLow": 3
+  },
+  {
+    "boxId": "698",
+    "group": 2,
+    "itemId": "398",
+    "quantityHigh": 3,
+    "quantityLow": 3
+  },
+  {
+    "boxId": "698",
+    "group": 3,
+    "itemId": "699",
+    "quantityHigh": 2,
+    "quantityLow": 2
+  },
+  {
+    "boxId": "698",
+    "group": 4,
+    "itemId": "500",
+    "quantityHigh": 10,
+    "quantityLow": 10
   }
 ]

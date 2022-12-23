@@ -3,10 +3,10 @@
     "baseDropRate": 0.4,
     "id": "1",
     "name": "Small Cave",
-    "silverPerHit": 9.947144404410015,
-    "silverPerHitIronDepot": 9.947144404410015,
-    "xpPerHit": 11.599067674445006,
-    "xpPerHitIronDepot": 11.599067674445006
+    "silverPerHit": 9.860402855013826,
+    "silverPerHitIronDepot": 9.860402855013826,
+    "xpPerHit": 11.563256324162404,
+    "xpPerHitIronDepot": 11.563256324162404
   },
   {
     "baseDropRate": null,
@@ -21,10 +21,10 @@
     "baseDropRate": 0.26666666666666666,
     "id": "10",
     "name": "Whispering Creek",
-    "silverPerHit": 166.5335160606785,
-    "silverPerHitIronDepot": 166.5335160606785,
-    "xpPerHit": 181.7152983224423,
-    "xpPerHitIronDepot": 181.7152983224423
+    "silverPerHit": 166.53605161114294,
+    "silverPerHitIronDepot": 166.53605161114294,
+    "xpPerHit": 181.7200466215615,
+    "xpPerHitIronDepot": 181.7200466215615
   },
   {
     "baseDropRate": null,
@@ -36,12 +36,21 @@
     "xpPerHitIronDepot": null
   },
   {
+    "baseDropRate": 0.4,
+    "id": "11",
+    "name": "Santa's Workshop",
+    "silverPerHit": 142.79738861547472,
+    "silverPerHitIronDepot": 142.79738861547472,
+    "xpPerHit": 591.6546350255989,
+    "xpPerHitIronDepot": 591.6546350255989
+  },
+  {
     "baseDropRate": null,
     "id": "11",
     "name": "Pirate's Cove",
     "silverPerHit": null,
     "silverPerHitIronDepot": null,
-    "xpPerHit": 8061.736875883173,
+    "xpPerHit": 8061.838150114891,
     "xpPerHitIronDepot": null
   },
   {
@@ -120,10 +129,10 @@
     "baseDropRate": 0.3333333333333333,
     "id": "5",
     "name": "Misty Forest",
-    "silverPerHit": 30.990850317277367,
-    "silverPerHitIronDepot": 30.990850317277367,
-    "xpPerHit": 37.14537778831734,
-    "xpPerHitIronDepot": 37.14537778831734
+    "silverPerHit": 31.697186924613312,
+    "silverPerHitIronDepot": 31.697186924613312,
+    "xpPerHit": 38.50145226979585,
+    "xpPerHitIronDepot": 38.50145226979585
   },
   {
     "baseDropRate": null,
@@ -192,10 +201,10 @@
     "baseDropRate": 0.3333333333333333,
     "id": "9",
     "name": "Ember Lagoon",
-    "silverPerHit": 97.82648816061645,
-    "silverPerHitIronDepot": 97.82648816061645,
-    "xpPerHit": 53.02993050380658,
-    "xpPerHitIronDepot": 53.02993050380658
+    "silverPerHit": 97.73074031506525,
+    "silverPerHitIronDepot": 97.73074031506525,
+    "xpPerHit": 53.03205518362262,
+    "xpPerHitIronDepot": 53.03205518362262
   },
   {
     "baseDropRate": null,
@@ -203,7 +212,7 @@
     "name": "Lake Minerva",
     "silverPerHit": null,
     "silverPerHitIronDepot": null,
-    "xpPerHit": 3070.8422855989775,
+    "xpPerHit": 3071.7296991488843,
     "xpPerHitIronDepot": null
   }
 ]

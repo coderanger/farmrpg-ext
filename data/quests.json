@@ -4683,6 +4683,158 @@
     "goldReward": 5
   },
   {
+    "firstSeen": 1669314733143,
+    "itemRequests": [
+      {
+        "id": "632",
+        "quantity": 40
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "253",
+        "quantity": 1
+      },
+      {
+        "id": "240",
+        "quantity": 1
+      },
+      {
+        "id": "508",
+        "quantity": 750
+      },
+      {
+        "id": "379",
+        "quantity": 750
+      },
+      {
+        "id": "84",
+        "quantity": 2500
+      }
+    ],
+    "id": "1420007",
+    "name": "Excuuuse me, Farmer III",
+    "prereq": "1408018",
+    "isPersonal": false,
+    "from": "Star Meerif",
+    "fromImage": "/img/items/npc_figure.png",
+    "text": "You return back from your second grueling trip to the Wastes. As you sit down for a nice cup of tea, feathers appear yet again. POOF! Star appears before you, looking ragged and tired.\n\n\n\"Hey, listen! You wouldn't believe how hard these things are to keep track of. I hate losing! I'm going to need a few more before the uh, spell evaporates due to ley line dissonance, stat!\"\n\n\nYou roll your eyes at Star and you hear his voice echo as he disappears. \n\n\n\"Well, excuuuuse me, farmer!\"\n\n\nNothing to be done but help, you think begrudgingly.",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "requiresTower": 100,
+    "silverReward": 2147483647
+  },
+  {
+    "firstSeen": 1671696841599,
+    "itemRequests": [
+      {
+        "id": "632",
+        "quantity": 41
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "253",
+        "quantity": 1
+      },
+      {
+        "id": "240",
+        "quantity": 1
+      },
+      {
+        "id": "508",
+        "quantity": 2500
+      },
+      {
+        "id": "379",
+        "quantity": 2500
+      },
+      {
+        "id": "84",
+        "quantity": 3000
+      },
+      {
+        "id": "608",
+        "quantity": 1
+      },
+      {
+        "id": "605",
+        "quantity": 1
+      }
+    ],
+    "id": "1420032",
+    "name": "Excuuuse me, Farmer IV",
+    "prereq": "1420007",
+    "isPersonal": false,
+    "from": "Star Meerif",
+    "fromImage": "/img/items/npc_figure.png",
+    "text": "You return home. Surely, this must have been the last journey to the wastes. \n\n\nPoof! The inevitable shower of feathers and a very exhausted Star appears before you. \n\n\n\"I. Won't! Lose!\" he mutters under his breath before looking up to see you. \"Oh? Back so soon? Great! I need one more shipment. The autumnal equinox and Romuskan ionic positivity do NOT mix and I'm gonna need a little more. Promise to make it worth your while!\"",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "requiresTower": 100,
+    "silverReward": 2147483647
+  },
+  {
+    "firstSeen": 1671700426806,
+    "itemRequests": [
+      {
+        "id": "632",
+        "quantity": 42
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "240",
+        "quantity": 1
+      },
+      {
+        "id": "508",
+        "quantity": 5000
+      },
+      {
+        "id": "472",
+        "quantity": 1
+      },
+      {
+        "id": "379",
+        "quantity": 5000
+      },
+      {
+        "id": "84",
+        "quantity": 5000
+      },
+      {
+        "id": "44",
+        "quantity": 5000
+      },
+      {
+        "id": "607",
+        "quantity": 1
+      },
+      {
+        "id": "606",
+        "quantity": 1
+      }
+    ],
+    "id": "1420198",
+    "name": "Excuuuse me, Farmer V",
+    "prereq": "1420032",
+    "isPersonal": false,
+    "from": "Star Meerif",
+    "fromImage": "/img/items/npc_figure.png",
+    "text": "Star appears one last time in your home. \n\n\n\"Thanks to you, that was the the most epic game of capture the flag this universe has ever seen, I'm quite sure.\" A twinkle in his eye as he disappears, you can't stop wondering exactly who Star might have been playing with. A single mysteriously labelled map is left under the hat he left behind.",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "requiresTower": 100,
+    "silverReward": 2147483647
+  },
+  {
     "firstSeen": 1646727785891,
     "itemRequests": [
       {
@@ -5862,6 +6014,112 @@
     "silverReward": 3000000
   },
   {
+    "firstSeen": 1669313547087,
+    "itemRequests": [
+      {
+        "id": "637",
+        "quantity": 100
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "69",
+        "quantity": 400
+      },
+      {
+        "id": "391",
+        "quantity": 5
+      }
+    ],
+    "id": "1595113",
+    "name": "Gourd Intentions I",
+    "prereq": "1626181",
+    "isPersonal": false,
+    "from": "Mariya",
+    "fromImage": "/img/items/mariya.png",
+    "text": "There’s a knock at your front door. Much to your surprise, Mariya is standing there. She’s grinning from ear to ear, and holding a gigantic pumpkin. \n\n“Hope I didn’t catch you at a bad time, friend. I need an extra set of hands to prepare a very special dessert.” You agree to help out, and she seems elated. This is the most excited you’ve seen Mariya. \n\n“Great! Bring over some cooking pots when you’re ready and we’ll get started!”",
+    "requiresFarming": 90,
+    "requiresCrafting": 90,
+    "requiresFishing": 90,
+    "requiresExploring": 90,
+    "requiresCooking": 10,
+    "availableFrom": "Nov 24",
+    "availableTo": "Dec 1"
+  },
+  {
+    "firstSeen": 1669313564822,
+    "itemRequests": [
+      {
+        "id": "660",
+        "quantity": 100
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "68",
+        "quantity": 300
+      },
+      {
+        "id": "583",
+        "quantity": 10
+      },
+      {
+        "id": "397",
+        "quantity": 10
+      },
+      {
+        "id": "398",
+        "quantity": 10
+      },
+      {
+        "id": "453",
+        "quantity": 10
+      },
+      {
+        "id": "500",
+        "quantity": 50
+      }
+    ],
+    "id": "1595135",
+    "name": "Gourd Intentions II",
+    "prereq": "1595113",
+    "isPersonal": false,
+    "from": "Mariya",
+    "fromImage": "/img/items/mariya.png",
+    "text": "Mariya’s kitchen is very chaotic, but she seems to know exactly where everything is. “Hey, when you ask a pumpkin how it’s feeling, what does it say?”\n\n”I’m vine, thanks for asking.” She busts out laughing for a moment, composes herself, and remembers the task at hand.\n\n”Oh, right. I need a LOT of butter, so please churn some while I carve out this pumpkin!”",
+    "requiresFarming": 90,
+    "requiresCrafting": 90,
+    "requiresFishing": 90,
+    "requiresExploring": 90,
+    "requiresCooking": 10,
+    "availableFrom": "Nov 24",
+    "availableTo": "Dec 1"
+  },
+  {
+    "firstSeen": 1669313571069,
+    "itemRequests": [],
+    "itemRewards": [
+      {
+        "id": "672",
+        "quantity": 1
+      }
+    ],
+    "id": "1595139",
+    "name": "Gourd Intentions III",
+    "prereq": "1595135",
+    "isPersonal": false,
+    "from": "Mariya",
+    "fromImage": "/img/items/mariya.png",
+    "text": "Exhausted from churning for what felt like ages, you return to the kitchen. Mariya is humming to herself. She’s moving so efficiently, handling food so skillfully, and for a moment you imagine what she could do with a larger space.\n\n”Perfect timing! Hey, what do you get when you drop a pumpkin? A squash!” She laughs, and again, quickly recomposes herself. She puts the finishing touches on her desserts, and sticks them in the oven. “Now, we wait.”\n\nMariya offers some refreshments and the two of you talk to pass the time. “My sister and I would bake these every year, and we would always think up the best puns. I’m thankful that you came today.” She takes a sip of her drink. “I miss her, and keeping up our traditions just warms my heart.”\n\nAnother hour passes, and the aroma is unlike anything you’ve smelled before. Mariya removes the desserts, and quickly chills one. She wraps it up for you to take home. “I hope you enjoy this as much as I’ve enjoyed making it with you!”",
+    "requiresFarming": 90,
+    "requiresCrafting": 90,
+    "requiresFishing": 90,
+    "requiresExploring": 90,
+    "requiresCooking": 10,
+    "availableFrom": "Nov 24",
+    "availableTo": "Dec 1"
+  },
+  {
     "firstSeen": 1658573702368,
     "itemRequests": [
       {
@@ -6599,6 +6857,54 @@
     "requiresExploring": 50
   },
   {
+    "firstSeen": 1669313518972,
+    "itemRequests": [
+      {
+        "id": "473",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "508",
+        "quantity": 25
+      },
+      {
+        "id": "500",
+        "quantity": 50
+      },
+      {
+        "id": "491",
+        "quantity": 10
+      },
+      {
+        "id": "44",
+        "quantity": 200
+      },
+      {
+        "id": "391",
+        "quantity": 2
+      },
+      {
+        "id": "338",
+        "quantity": 2
+      }
+    ],
+    "id": "1618796",
+    "name": "Remember To Be Thankful II",
+    "prereq": "1626138",
+    "isPersonal": false,
+    "from": "Cecil",
+    "fromImage": "/img/items/a_027.png",
+    "text": "Cecil does not typically share stories from his past, but he feels a great nostalgia today. If you do not mind listening, he would love to reminisce for a moment. There is a strange power in telling a memory to an audience.\n\n\n\nThe place where Cecil grew up was very different from Redbrook. It was a place where dreams seemed to spring to life, almost as if by magic, and the people were so densely packed into the city that they had to start constructing enormously tall buildings, including underground.\n\n\n\nNevertheless, many of the customs of the rural areas were brought into the city and stirred into the amalgamation of the city’s own customs. So, they still celebrated a harvest festival even though one would have to travel many kilometers to actually see a field being harvested.\n\n\n\nBecause of Cecil’s family’s position within the city, Cecil’s mother would invite seemingly random families to join their harvest feast. The family joining them could be extremely wealthy, extremely poor, from a far off land, from a few blocks away, a small family, or a large family. This exposure to such a variety of different people and conversations during the meal taught Cecil much about the world and its people. He quickly began to recognize, despite the obvious differences, the many similarities between all people, for better and worse.\n\n\n\nAt one of theses harvest feasts, a fisherman and his family brought a small gift for young Cecil. No one had ever done that before. Many brought gifts for his parents and many brought gifts for the entire family, but no one had ever brought something just for Cecil. Not only that, but the gift was something Cecil had not seen before. It was a beautiful spiked shell. The fisherman told Cecil it was very rare and was used for magical spells long ago. It was amazing to young Cecil.\n\n\n\nUnfortunately, that shell was lost in a terrible disaster many years ago. Cecil would love to have another spiked shell, as fine as that one from his youth. If you could find a spiked shell for Cecil, he would be very grateful.",
+    "requiresFarming": 50,
+    "requiresCrafting": 50,
+    "requiresFishing": 50,
+    "requiresExploring": 50,
+    "availableFrom": "Nov 24",
+    "availableTo": "Dec 1"
+  },
+  {
     "firstSeen": 1646727747836,
     "itemRequests": [
       {
@@ -6622,6 +6928,253 @@
     "requiresFarming": 26,
     "requiresExploring": 10,
     "silverReward": 2500
+  },
+  {
+    "firstSeen": 1669313510907,
+    "itemRequests": [
+      {
+        "id": "19",
+        "quantity": 10
+      },
+      {
+        "id": "27",
+        "quantity": 10
+      },
+      {
+        "id": "11",
+        "quantity": 10
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "391",
+        "quantity": 1
+      },
+      {
+        "id": "112",
+        "quantity": 2
+      },
+      {
+        "id": "508",
+        "quantity": 1
+      },
+      {
+        "id": "500",
+        "quantity": 1
+      },
+      {
+        "id": "44",
+        "quantity": 10
+      }
+    ],
+    "id": "1626138",
+    "name": "Remember To Be Thankful I",
+    "prereq": null,
+    "isPersonal": false,
+    "from": "Holger",
+    "fromImage": "/img/items/a_028.png",
+    "text": "Holger loves this time of year. He and Borgen grew up with lots of friends and family gathering for the harvest feast. Holger’s dad was a fisherman and always exchanged fresh fish for a variety of harvest produce. Because of these exchanges the harvest feast always showcased a wide variety of delicious dishes.\n\n\n\nOne year, when Holger was thirteen, the fishing haul was abnormally meager. Holger’s dad wasn’t sure if they would have enough food to get through the winter, much less trade for the harvest feast. Holger prepared himself for the worst. The day of the feast came and friends and family gathered. One by one all of Holger’s favorite dishes appeared, and in more abundance than usual. Somehow, that harvest feast tasted better than any before.\n\n\n\nHolger isn’t sure if his friends and family knew that Holger’s family was in need, but he’s never forgotten their kindness.\n\n\n\nWill you help Holger gather some harvest produce to share with others?",
+    "requiresFarming": 5,
+    "requiresCrafting": 5,
+    "requiresFishing": 5,
+    "requiresExploring": 5,
+    "availableFrom": "Nov 24",
+    "availableTo": "Dec 1"
+  },
+  {
+    "firstSeen": 1669313525643,
+    "itemRequests": [
+      {
+        "id": "256",
+        "quantity": 10
+      },
+      {
+        "id": "65",
+        "quantity": 10
+      },
+      {
+        "id": "71",
+        "quantity": 10
+      },
+      {
+        "id": "13",
+        "quantity": 10
+      },
+      {
+        "id": "120",
+        "quantity": 10
+      },
+      {
+        "id": "33",
+        "quantity": 10
+      },
+      {
+        "id": "50",
+        "quantity": 10
+      },
+      {
+        "id": "69",
+        "quantity": 10
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "508",
+        "quantity": 50
+      },
+      {
+        "id": "379",
+        "quantity": 100
+      },
+      {
+        "id": "254",
+        "quantity": 100
+      },
+      {
+        "id": "363",
+        "quantity": 10
+      },
+      {
+        "id": "347",
+        "quantity": 12
+      },
+      {
+        "id": "391",
+        "quantity": 5
+      }
+    ],
+    "id": "1626181",
+    "name": "Remember To Be Thankful III",
+    "prereq": "1618796",
+    "isPersonal": false,
+    "from": "Jill",
+    "fromImage": "/img/items/a_024.png",
+    "text": "Jill wants your help and tells you a small story in the process. When she was young, her parents had a tradition. Every year around this time, they would take some gathered crops from the year’s harvest and offer thanks to the farmers in the surrounding area and try to give back to those who had helped them. Will you help gather some of the crops her family used to gather to give to others around town?",
+    "requiresFarming": 80,
+    "requiresCrafting": 80,
+    "requiresFishing": 80,
+    "requiresExploring": 80,
+    "availableFrom": "Nov 24",
+    "availableTo": "Dec 1"
+  },
+  {
+    "firstSeen": 1669313577135,
+    "itemRequests": [
+      {
+        "id": "242",
+        "quantity": 10
+      },
+      {
+        "id": "641",
+        "quantity": 1
+      },
+      {
+        "id": "48",
+        "quantity": 5
+      },
+      {
+        "id": "19",
+        "quantity": 5
+      },
+      {
+        "id": "69",
+        "quantity": 1
+      },
+      {
+        "id": "92",
+        "quantity": 5
+      },
+      {
+        "id": "391",
+        "quantity": 1
+      },
+      {
+        "id": "33",
+        "quantity": 5
+      },
+      {
+        "id": "276",
+        "quantity": 5
+      },
+      {
+        "id": "305",
+        "quantity": 5
+      },
+      {
+        "id": "27",
+        "quantity": 10
+      },
+      {
+        "id": "44",
+        "quantity": 10
+      },
+      {
+        "id": "186",
+        "quantity": 2
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "346",
+        "quantity": 10
+      },
+      {
+        "id": "491",
+        "quantity": 10
+      },
+      {
+        "id": "583",
+        "quantity": 20
+      },
+      {
+        "id": "508",
+        "quantity": 100
+      },
+      {
+        "id": "500",
+        "quantity": 100
+      },
+      {
+        "id": "375",
+        "quantity": 10
+      },
+      {
+        "id": "478",
+        "quantity": 5
+      }
+    ],
+    "id": "1626191",
+    "name": "Rapturous Thanksgiving I",
+    "prereq": "1595139",
+    "isPersonal": false,
+    "from": "Captain Thomas",
+    "fromImage": "/img/items/MustacheTom96.png",
+    "text": "In the evening before dinner, you see a lantern lighting your path to your home. Captain Thomas’ familiar frame is illuminated in the early evening hours by a beautiful sunset.\n“Friend, I miss home and you have been so good to me in the past year. Let me tell you about how we celebrate Thanksgiving where I’m from.”\nYou invite Captain Thomas into your home and offer to share a meal with him.",
+    "requiresTower": 1,
+    "requiresCooking": 1,
+    "availableFrom": "Nov 24",
+    "availableTo": "Dec 1"
+  },
+  {
+    "firstSeen": 1669313586702,
+    "itemRequests": [],
+    "itemRewards": [
+      {
+        "id": "394",
+        "quantity": 1
+      }
+    ],
+    "id": "1626216",
+    "name": "Rapturous Thanksgiving II",
+    "prereq": "1626191",
+    "isPersonal": false,
+    "from": "Captain Thomas",
+    "fromImage": "/img/items/MustacheTom96.png",
+    "text": "After a delicious turkey and side, Captain Thomas puts a foot up by your fireplace and lights a fancy pipe.\n“In my world, Sarafina and I would join in the glorious celebration of cooking raptors for Thanksgiving. Each year we would find the time to raise raptors and help repopulate the raptor population, but one, that raptor would always be given the tenderest of care. They weren’t bred for fighting and hunting, like your barbaric Redbrook traditions, but they were for eating. We gave thanks each year by giving some of that raptor to our closest friends.”\nCaptain Thomas wipes a tear from his eye and continues, “And Sarafina, she always cooked the best…”\nCaptain Thomas stops abruptly and smiles at you. “Thank you for entertaining my story. I found this egg, and while I don’t agree with your traditions, I’ll gladly give this one to your care. Have a happy Thanksgiving.”",
+    "requiresTower": 1,
+    "requiresCooking": 1,
+    "availableFrom": "Nov 24",
+    "availableTo": "Dec 1"
   },
   {
     "firstSeen": 1646727745837,
@@ -6655,6 +7208,63 @@
     "requiresFarming": 26,
     "requiresExploring": 10,
     "silverReward": 50000
+  },
+  {
+    "firstSeen": 1669313593565,
+    "itemRequests": [
+      {
+        "id": "48",
+        "quantity": 3000
+      },
+      {
+        "id": "660",
+        "quantity": 300
+      },
+      {
+        "id": "85",
+        "quantity": 500
+      },
+      {
+        "id": "305",
+        "quantity": 300
+      },
+      {
+        "id": "628",
+        "quantity": 10
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "508",
+        "quantity": 1000
+      },
+      {
+        "id": "123",
+        "quantity": 1000
+      },
+      {
+        "id": "500",
+        "quantity": 1000
+      },
+      {
+        "id": "632",
+        "quantity": 1
+      },
+      {
+        "id": "391",
+        "quantity": 25
+      }
+    ],
+    "id": "1638586",
+    "name": "Remember To Be Thankful IV",
+    "prereq": "1626216",
+    "isPersonal": false,
+    "from": "Borgen",
+    "fromImage": "/img/items/borgen.png",
+    "text": "Borgen just wants mashed potatoes. Unfortunately, just like when they were kids, Holger keeps eating the entire bowl. It is maddening.\n\n\n\nWill you help Borgen get enough mashed potatoes to finally fill Holger?",
+    "requiresTower": 100,
+    "availableFrom": "Nov 24",
+    "availableTo": "Dec 1"
   },
   {
     "firstSeen": 1646727743873,
@@ -6979,6 +7589,42 @@
     "goldReward": 15
   },
   {
+    "firstSeen": 1669876952725,
+    "itemRequests": [
+      {
+        "id": "674",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "412",
+        "quantity": 10
+      },
+      {
+        "id": "508",
+        "quantity": 5
+      },
+      {
+        "id": "425",
+        "quantity": 1
+      }
+    ],
+    "id": "1714402",
+    "name": "Letters To Sarafina",
+    "prereq": null,
+    "isPersonal": false,
+    "from": "Captain Thomas",
+    "fromImage": "/img/items/MustacheTom96.png",
+    "text": "Captain Thomas dearly misses his Sarafina. Even though he has no way to reach her here and now, he is keeping a collection of letters that he has written her during his time on this world.\n\n\n\nFor the winter holiday, Sarafina’s favorite, Captain Thomas would like to write Sarafina a letter enclosed in a nice holiday card. Will you accept the challenge of acquiring a perfect holiday card for Captain Thomas?\n\n\nNote: You can get a Christmas Card from trading with other players, the 25-day Daily Chores reward, or the December Starter Pack (Open the Lovely Present at the Locksmith)",
+    "requiresFarming": 10,
+    "requiresCrafting": 10,
+    "requiresFishing": 10,
+    "requiresExploring": 10,
+    "availableFrom": "Dec 1",
+    "availableTo": "Jan 3"
+  },
+  {
     "firstSeen": 1646727727634,
     "itemRequests": [
       {
@@ -7039,6 +7685,35 @@
     "requiresFarming": 26,
     "requiresExploring": 30,
     "silverReward": 100000
+  },
+  {
+    "firstSeen": 1670305097883,
+    "itemRequests": [
+      {
+        "id": "331",
+        "quantity": 1
+      },
+      {
+        "id": "428",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "686",
+        "quantity": 1
+      }
+    ],
+    "id": "1737396",
+    "name": "Shoveling Snow X",
+    "prereq": "619",
+    "isPersonal": false,
+    "from": "Santa",
+    "fromImage": "/img/items/lornsanta.png",
+    "text": "Instead of sneaking into his workshop, Santa would like to officially invite you to come and go and explore the workshop as you please. You are on his nice list, with a list of helpful good deeds filling several pages. If you will bring him a Snow Globe and a Small Key, he'll craft you an official key to enter his workshop.",
+    "requiresExploring": 20,
+    "availableFrom": "Dec 5",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646727723678,
@@ -7688,6 +8363,492 @@
     "requiresFarming": 75
   },
   {
+    "firstSeen": 1671652846398,
+    "itemRequests": [
+      {
+        "id": "67",
+        "quantity": 500
+      },
+      {
+        "id": "65",
+        "quantity": 500
+      },
+      {
+        "id": "630",
+        "quantity": 500
+      },
+      {
+        "id": "137",
+        "quantity": 500
+      },
+      {
+        "id": "579",
+        "quantity": 500
+      },
+      {
+        "id": "460",
+        "quantity": 150
+      },
+      {
+        "id": "279",
+        "quantity": 5
+      },
+      {
+        "id": "373",
+        "quantity": 2
+      },
+      {
+        "id": "478",
+        "quantity": 100
+      },
+      {
+        "id": "473",
+        "quantity": 100
+      },
+      {
+        "id": "250",
+        "quantity": 300
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "363",
+        "quantity": 50
+      }
+    ],
+    "id": "1893466",
+    "name": "A Wall In The Way I",
+    "prereq": "958",
+    "isPersonal": false,
+    "from": "Lorn",
+    "fromImage": "/img/items/a_088.png",
+    "text": "Dark clouds on the horizon, you check your mailbox and find a letter.\n\n\nI hope this letter finds you well. It burdens my heart to write you this, but I think our dear friend Thomas is not well. He has seemed distant of late, and complained of various ailments that my books cannot identify. Would you be so kind as to join me for dinner tomorrow night with our esteemed friend? Since you’ll be in the area, could you help me restock my stores as well? \n\n\nA list of ingredients and fish follow.",
+    "requiresFishing": 90,
+    "silverReward": 700000000
+  },
+  {
+    "firstSeen": 1671652889681,
+    "itemRequests": [
+      {
+        "id": "135",
+        "quantity": 200
+      },
+      {
+        "id": "570",
+        "quantity": 600
+      },
+      {
+        "id": "577",
+        "quantity": 600
+      },
+      {
+        "id": "219",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "352",
+        "quantity": 500
+      }
+    ],
+    "id": "1893533",
+    "name": "A Wall In The Way II",
+    "prereq": "1893466",
+    "isPersonal": false,
+    "from": "Lorn",
+    "fromImage": "/img/items/a_088.png",
+    "text": "The evening approaches and you head to Lorn’s home. The sky is peaceful, almost serene after looking dark previously. Your steps feel light and you take a deep breath of the evening air. Lorn is on his porch, chatting amiably with Thomas when you arrive. You catch the tail end of their conversation.\n\n\n“…estimated! I just have to prove to you I can be better.”\n\n\nLorn chuckles as you walk up his porch steps, “Hello there! Won’t you join us for dinner? The supplies can all be stocked later tonight.”\nAs Lorn stands, he seems older, more frail than you remember. Maybe it’s a trick of the evening light, you think to yourself. \n\n\nAt dinnertime, you all enjoy a well prepared meal out of some of the ingredients you brought, and some strange fish you don’t recognize.\nThomas and Lorn again begin to talk spiritedly. Lorn’s eyes positively gleam the entire time, returning the youthful countenance you view in him, despite his advancing age.\n\n\n“You just gotta let me prove to you that I’ve gotten better! Our friend here has seen it firsthand! Look at the haul we’ve made at Pirate’s Cove! I was a part of that, you know…” Before Thomas continues, you notice a slight hitch in Thomas’s arm as he winces, spearing a piece of fish. “What is this fish anyways?”\n\n\n“It’s extremely rare. In fact, no one I know could find or identify it, but the trader called it a Glassback, it’s not native to our oceans or lakes, so I’ve no idea how they came across it, but I paid a pretty penny for the privilege. I bought it a few months ago but never had the right time to share it, but now seems as good as any, eh?”\n\n\nYou mention how good the fish is, and Thomas agrees. Lorn suggests you reconvene on the deck.\n\n\n“Would you like to hear about a lake encircled in ice?”",
+    "requiresFishing": 90,
+    "silverReward": 200000000
+  },
+  {
+    "firstSeen": 1671652946280,
+    "itemRequests": [
+      {
+        "id": "414",
+        "quantity": 600
+      },
+      {
+        "id": "581",
+        "quantity": 10
+      },
+      {
+        "id": "350",
+        "quantity": 250
+      },
+      {
+        "id": "167",
+        "quantity": 600
+      },
+      {
+        "id": "456",
+        "quantity": 600
+      },
+      {
+        "id": "300",
+        "quantity": 600
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "508",
+        "quantity": 50
+      },
+      {
+        "id": "255",
+        "quantity": 200
+      },
+      {
+        "id": "75",
+        "quantity": 600
+      },
+      {
+        "id": "123",
+        "quantity": 100
+      },
+      {
+        "id": "190",
+        "quantity": 500
+      }
+    ],
+    "id": "1893597",
+    "name": "A Wall In The Way III",
+    "prereq": "1893533",
+    "isPersonal": false,
+    "from": "Lorn",
+    "fromImage": "/img/items/a_088.png",
+    "text": "Thomas can hardly contain himself as you sit on the porch, he squirms uncomfortably and impatiently, between odd winces. Lorn looks at the sunset and smiles, seeming unhurried by the circumstances he has created. \n\n\nYou take a sip of tea, knowing that good things come to those who wait. \n\n\n“Before Thomas wears a hole in my porch, let me tell you what I know…”\nThomas stares at Lorn with rapt attention. \n\n\n“In the days before, legend tells us the guardians of the world were sent forth to oversee the land, to give it a final shape and form. To walk amongst the people and care for them as one might care for a flock. Among them was Zho, though you might know them as Zholice or perhaps Shva, their ancient name is written in books I have read. Zho was the guardian of water and sapphire and they made their home among the people. There are legends of an unending cold known as Shva’s Playground, and within it lies Zho’s Lake. The lake is as clear as day, and it’s said you can walk on the lake and ice will form under your feet as you walk.” Lorn guffaws, “Fairy tales, I tell you…”\nAfter another pause, he continues “Other legends say that there is but one stream that leaves the lake, and that is how a fish from that mythical place could be found in the ocean. These fish are so rare, their value would be greater than anything you’ve seen so far. I didn’t believe it myself until I discovered the one from tonight a few months back.” \n\n\nThomas, leaning over the balcony, looks back to you both. “I’m gonna find that Lake, and I’m gonna fish up the best fish you’ve ever had Lorn, on my honor!” He looks to you and says, “Pack your things, we’re going north!” As he strides away, Lorn carries a wistful but knowing smile as he turns back to his house. “But I haven’t finished my story…” \n\n\nYou wonder if Lorn hadn’t planned this all along, but in the meantime, you realize you need to prepare for a trek to the north.",
+    "requiresFishing": 90
+  },
+  {
+    "firstSeen": 1671653001116,
+    "itemRequests": [
+      {
+        "id": "680",
+        "quantity": 100
+      },
+      {
+        "id": "683",
+        "quantity": 100
+      },
+      {
+        "id": "679",
+        "quantity": 100
+      },
+      {
+        "id": "678",
+        "quantity": 500
+      },
+      {
+        "id": "677",
+        "quantity": 500
+      },
+      {
+        "id": "629",
+        "quantity": 100
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "635",
+        "quantity": 5
+      },
+      {
+        "id": "654",
+        "quantity": 5
+      },
+      {
+        "id": "646",
+        "quantity": 5
+      },
+      {
+        "id": "583",
+        "quantity": 100
+      },
+      {
+        "id": "632",
+        "quantity": 1
+      }
+    ],
+    "id": "1893628",
+    "name": "A Wall In The Way IV",
+    "prereq": "1893597",
+    "isPersonal": false,
+    "from": "Thomas",
+    "fromImage": "/img/items/a_048.png",
+    "text": "You wake up the next morning to a loud banging at your door. Groggily, you find Thomas, looking full of energy and excitement standing in front of you. \n\n\n“We can’t leave today, I know, you need to make plans, so I have an idea too. Maybe we should use some parts from the rest of your journeys to make our current journey easier. I’ve asked Jill for a little help in the designs…”",
+    "requiresFishing": 90
+  },
+  {
+    "firstSeen": 1671653062072,
+    "itemRequests": [
+      {
+        "id": "350",
+        "quantity": 600
+      },
+      {
+        "id": "52",
+        "quantity": 600
+      },
+      {
+        "id": "427",
+        "quantity": 600
+      },
+      {
+        "id": "414",
+        "quantity": 600
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "508",
+        "quantity": 50
+      }
+    ],
+    "id": "1893638",
+    "name": "A Wall In The Way V",
+    "prereq": "1893628",
+    "isPersonal": false,
+    "from": "Thomas",
+    "fromImage": "/img/items/a_048.png",
+    "text": "After delivering the requested items to Jill, you gather a few more things before setting forth. Of extreme importance is food, clothing, and general traveling supplies.\n\n\nThe day of the trip you agreed on with Thomas comes and Thomas is nowhere to be found. You find him later in his cabin, collapsed on the floor. \n\n\nLorn looks to you, “He seems to have taken a nasty spill. I noticed him acting oddly lately, but didn’t expect anything like this. I suggested the trip because I suspected a goal might help with whatever ails him, but it doesn’t seem to have made much difference.”\n\n\nAfter a moment of consideration, you suggest that it has in fact invigorated him, as you noticed in his interactions less of the odd behavior. Between the two of you, you decide not to talk to Thomas more about this incident and proceed as planned after Thomas awakens.",
+    "requiresFishing": 90,
+    "silverReward": 250000000
+  },
+  {
+    "firstSeen": 1671653095361,
+    "itemRequests": [
+      {
+        "id": "629",
+        "quantity": 100
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "145",
+        "quantity": 600
+      },
+      {
+        "id": "328",
+        "quantity": 4
+      },
+      {
+        "id": "628",
+        "quantity": 20
+      }
+    ],
+    "id": "1893648",
+    "name": "A Wall In The Way VI",
+    "prereq": "1893638",
+    "isPersonal": false,
+    "from": "Thomas",
+    "fromImage": "/img/items/a_048.png",
+    "text": "The trek north is slow but steady progress. The carts carrying your snow machines are well prepared thanks to the weight balancing steel plates and large tyres with treads Jill added. They also work off a strange system of wheel propulsion you nor Thomas understand, but they lighten your trek significantly and make obstructions significantly easier to navigate.Maybe Lorn was right, you think to yourself.(not a farmer)”\n\n\n\n\n\n&nbsp;\n\n\nMain Quest\nA quest by forcepath </br\n</br\n</br",
+    "silverReward": 200000000
+  },
+  {
+    "firstSeen": 1671653289386,
+    "itemRequests": [
+      {
+        "id": "253",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "112",
+        "quantity": 100
+      }
+    ],
+    "id": "1893688",
+    "name": "A Wall In The Way VIII",
+    "prereq": "1930152",
+    "isPersonal": false,
+    "from": "Thomas",
+    "fromImage": "/img/items/a_048.png",
+    "text": "Thomas is cold and lifeless as you approach him. He seems to have faded in some ways. Frost creeps up his fingers unnaturally. It seems slow, almost imperceptible, but after a quick check he is breathing. You pick up Thomas as gingerly as possible, the cold seems to emanate from his body, penetrating all the layers of covering you’re wearing. Gingerly, you put Thomas in front of you on the snow machine and rush back the way you came. \n\n\nLorn will know what to do, the thought crosses your mind.\n\n\nYou return to the edge of the phenomenon and quickly fashion a makeshift cart for Thomas.\nJill's going to be very mad at me as well, you think to yourself as you leave the snow machine behind. You grab the cart, make sure Thomas is safe, and rush back to Redbrook. The trip takes less time, as you skip breaks, traveling on minimal sleep, you travel recklessly to get back sooner. Each time you check on Thomas, you see the frost has crawled farther up his arms and legs. \n\n\nExhausted, you reach Redbrook after seven days of hard, almost ceaseless travel and caring for Thomas the best you can, you find yourself collapsing on Lorn’s doorstep.\n\n\nLorn opens his door as you weakly gesture towards the cart and even though you are pointing towards the cart, you don’t understand why Lorn is trying to help you to a chair.\n\n\n“You fools. You bloody fools!” The words come from Lorn's mouth, but you hear Star Meerif's voice.",
+    "requiresFishing": 90,
+    "silverReward": 100000000
+  },
+  {
+    "firstSeen": 1671653328428,
+    "itemRequests": [
+      {
+        "id": "42",
+        "quantity": 600
+      },
+      {
+        "id": "172",
+        "quantity": 250
+      },
+      {
+        "id": "249",
+        "quantity": 600
+      },
+      {
+        "id": "261",
+        "quantity": 5
+      },
+      {
+        "id": "250",
+        "quantity": 300
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "240",
+        "quantity": 1
+      }
+    ],
+    "id": "1893821",
+    "name": "A Wall In The Way IX",
+    "prereq": "1893688",
+    "isPersonal": false,
+    "from": "Star Meerif",
+    "fromImage": "/img/items/npc_figure.png",
+    "text": "You feel something tickle your nose and startle you back to consciousness, but your eyes won’t open despite your best efforts.\n“YOU SENT THEM TO SHVA’S PLAYGROUND!? In the name of Tvas, why would you do that, Lorn?”\n\n\n“Sometimes, people need a push. You, of all people should respect this given your long history. It was not my choice, but theirs. I just… gave them a little nudge out the door. It was for his own good.”\n\n\n“…It’s enchanted, and powerfully so. Every book and being I’ve ever spoken with, including text from the Golden Leaf tell us to stay away! Even I am not stupid enough to try and penetrate Shva’s Wall.”\n\n\n“Be that as it may, you’re obligated to help these two now, you’ve heard Thomas’ plight, it is beyond their abilities.”\n\n\n“I am obligated to do no such thing. You think I'm a fool? Yes, and before you say it, that business before was different. Shva is not to be trifled with and I…am not knowledgeable enough, not by half in some of those realms to do what you seek.”\n\n\nA pause.\n\n\n“Cecil, then?”\n\n\nA long, uncomfortable pause follows.\n\n\n“If you must continue this folly.”\n\n\nYou feel another tickle on your nose.\n\n\n“He won’t get better if we avoid the problem, Star.”\n\n\nThere is no response, and you lose consciousness again.",
+    "requiresFishing": 90
+  },
+  {
+    "firstSeen": 1671653375146,
+    "itemRequests": [
+      {
+        "id": "84",
+        "quantity": 250
+      },
+      {
+        "id": "86",
+        "quantity": 250
+      },
+      {
+        "id": "508",
+        "quantity": 50
+      },
+      {
+        "id": "137",
+        "quantity": 500
+      },
+      {
+        "id": "197",
+        "quantity": 500
+      },
+      {
+        "id": "185",
+        "quantity": 500
+      },
+      {
+        "id": "630",
+        "quantity": 500
+      },
+      {
+        "id": "305",
+        "quantity": 500
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "160",
+        "quantity": 500
+      },
+      {
+        "id": "397",
+        "quantity": 100
+      },
+      {
+        "id": "398",
+        "quantity": 100
+      },
+      {
+        "id": "653",
+        "quantity": 20
+      },
+      {
+        "id": "170",
+        "quantity": 500
+      }
+    ],
+    "id": "1893846",
+    "name": "A Wall In The Way X",
+    "prereq": "1893821",
+    "isPersonal": false,
+    "from": "Lorn",
+    "fromImage": "/img/items/a_088.png",
+    "text": "You awaken the next morning, and Lorn gives you some more medicine, with orders to take things slow and try not to overdo it over the next few days. You are quickly escorted out of the room and as you leave, you catch a glimpse of Thomas, pale but no longer covered in frost. \n\n\n“He needs rest, but you and Star saved his life, no thanks to me.” He says softly. A look of remorse passes his features quickly.\n\n\nAfter a week of taking things easy, returning to your normal routine has helped your recovery immensely. A balanced diet of orange juice, lemonade, tea, and occasionally lemonade and tea mixed have helped re-hydrate you, and a balanced meal has restored your strength.",
+    "requiresFishing": 90,
+    "silverReward": 1000000000
+  },
+  {
+    "firstSeen": 1671653408961,
+    "itemRequests": [
+      {
+        "id": "499",
+        "quantity": 500
+      },
+      {
+        "id": "185",
+        "quantity": 500
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "508",
+        "quantity": 100
+      }
+    ],
+    "id": "1893958",
+    "name": "A Wall In The Way XI",
+    "prereq": "1893846",
+    "isPersonal": false,
+    "from": "Thomas",
+    "fromImage": "/img/items/a_048.png",
+    "text": "Each day during this week, you have checked on Thomas and his health has returned much more quickly than you or Lorn have anticipated. Lorn has spent much time researching the effects of the item Star requested for healing, but he seems to refuse to want to ask for more information, content to find old parchments in his basement and mutter to himself from beside Thomas’ bed. Thomas on the other hand has been pressing Lorn for as much information on Shva and Shva’s Wall. On one occasion, Lorn let slip that Star or Cecil might know more about it. \n\n\nAfter two weeks, despite both you and Lorn’s protests to the contrary, Thomas’ inquiries into Shva’s Wall have only grown more persistent and with begrudging consent from Lorn, and Thomas’ insistence that he would pursue this with or without you, you’ve found yourself joining Thomas on a trip to Cecil’s manor.\n\n\nBefore the third knock, the door opens, and Cecil appears before you both. His clothes are different from what you remember, more like robes than his typical business attire and he seems quite irate.\n“What do you want? I’m very busy.”\n\n\nThomas shuffles his feet, clearly not expecting this rough welcome. He mumbles through a greeting before clearly stating, “I want to get through Shva’s Wall.” \n\n\nCecil was clearly not expecting this forward statement from Thomas and his face breaks out into a broad smile. “My dear fellow, why didn’t you say that sooner? Come in, come in.”\n\n\nYou step inside Cecil's home. Somehow, the opulence of his home continues to amaze you, the large hall, filled with baubles, gems and other devices always takes your breath away. You recall the room you visited with the energy core, but Cecil instead takes you to his dining room, where three sets of cups, a tea kettle, milk, and sugar are in the middle of the table. Before you can ask how Cecil had these ready, he begins speaking as you sit down. \n\n\n“I heard rumors that hooligan Star wouldn’t help you out, so I’ve been doing a little research of my own and found I might already have something to help you with your journey, if you’re willing to pay the price.”\n\n\nThomas looks intensely at Cecil, “I’ll pay any price.”\n\n\nCecil looks to you both, “Great, let’s have some tea and discuss the…tea.” Cecil laughs to himself, but you don’t quite understand why.",
+    "requiresFishing": 90
+  },
+  {
+    "firstSeen": 1671653456699,
+    "itemRequests": [
+      {
+        "id": "658",
+        "quantity": 1
+      },
+      {
+        "id": "467",
+        "quantity": 2
+      },
+      {
+        "id": "459",
+        "quantity": 200
+      },
+      {
+        "id": "580",
+        "quantity": 200
+      },
+      {
+        "id": "464",
+        "quantity": 200
+      },
+      {
+        "id": "462",
+        "quantity": 200
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "702",
+        "quantity": 1
+      }
+    ],
+    "id": "1894010",
+    "name": "A Wall In The Way XII",
+    "prereq": "1893958",
+    "isPersonal": false,
+    "from": "Cecil",
+    "fromImage": "/img/items/a_027.png",
+    "text": "“Zho was the guardian of water in our world. Their Playground is where they experimented with their Power and where their followers gathered in tribute and followed Zho’s teachings. As the years went on, Zho shared what they learned of Power with others, and the Playground eventually grew into a temple. Zho explored the world, and many knew of their name, until one day Zho returned to their Playground, only to find their temple destroyed and their followers murdered. It was at that moment Zho’s Wall was born, Zho poured their sorrow and pain into this Wall, and then disappeared.”\n\n\nCecil pauses for a moment before pulling a plain case out from underneath his robes. The case has writing on it you don’t recognize and a golden leaf adorns the latch. Considering the splendor of Cecil’s home, the box seems positively ordinary in comparison.\n\n\n“We know this story thanks to ancient wizards of the Golden Leaf who traveled to the Playground – few survived, but this – this is the only relic we have from that time.”\n\n\nCecil opens the case and before you can see what’s inside, a powerful shock wave unlike anything you’ve ever experienced hits you. The sound of the ocean, the roar of the wind, the frigidness of snow, and the scalding heat of boiling water overwhelms your senses. You fall off your chair and see Thomas sitting, staring rapturously at the box. Cecil abruptly closes the box and the sensation is immediately gone.\n“I should have warned you, this is an item of immense Power. I call it Zho’s Dagger, and it most certainly is the item that killed Zho.”\n\n\nA quietness covers the room as the enormity of Cecil’s words wash over you.\n\n\n“I gather now, you understand the enormity of what I am about to suggest. I want you to revisit Zho’s Playground, bring this dagger with you and use its power to counteract the Power of Zho’s Wall and go inside and understand what happened, and bring me back something.”\n\n\nThomas blinks, “And fish.”\n\n\nCecil smiles, “Yes, and fish.”\n\n\nThomas looks at you and without hesitation blurts out, “We’ll do it! What do you want in return?”\n\n\nCecil shakes his head and looks away for a moment, “A safer world for us all, and some information I’ve long pondered. Consider this journey the favor I ask of you…and maybe a few rare things I’ve misplaced. But mostly the first thing.”\n\n\nCecil hands the box to Thomas. “Keep it secret, keep it safe, and when you approach the wall open the box and hold onto that dagger with all your will. Now, I have important things to be doing.” Cecil looks expectantly at you both and you get the impression it’s your time to leave.",
+    "requiresFishing": 90
+  },
+  {
     "firstSeen": 1646724067877,
     "itemRequests": [
       {
@@ -7852,6 +9013,485 @@
     "requiresFishing": 15,
     "requiresExploring": 10,
     "silverReward": 15000
+  },
+  {
+    "firstSeen": 1671653210242,
+    "itemRequests": [
+      {
+        "id": "235",
+        "quantity": 5
+      }
+    ],
+    "itemRewards": [],
+    "id": "1930152",
+    "name": "A Wall In The Way VII",
+    "prereq": "1893648",
+    "isPersonal": false,
+    "from": "Thomas",
+    "fromImage": "/img/items/a_048.png",
+    "text": "After half an hour, you both feel comfortable enough with the machinery to start traveling with it, so you set off. The machines are not very noisy, but the occasional clang and ping is quite jarring in the quiet intensity of the growing cold and snow as you travel further north. For each minute that passes, you grow more and more unsettled. Distinctly to the east and west you can still see green. The area slowly grows more forested in all directions but only in the small swathe of land you travel is there snow as it slopes gently upwards. Slowly over the next hour the snow-covered land expands on both sides, greenery becoming overtaken by white, making you believe you started near the point of this mysterious phenomenon.\n\n\nThomas seems determined to trek onward, and his determination is met suddenly by a fierce blowing wind. Snow begins falling from the sky at a rapid pace, though no clouds appear overhead. The effect of wind, snow, and bright sun are disorienting, the light glinting off the snow crystals creating beautiful fleeting patterns of reflected light all around you.\n\n\nYou both lean forward, almost willing your machines to traverse the snow faster as the winds intensify until suddenly, you reach a barrier of snow, ice, and wind.\n“It’s too dangerous!” you shout to Thomas. The roaring maelstrom in front of you fills you with terror and a hint of sorrow. “We must go back!”\n\n\nThomas looks to you, a mad gleam in his eye, “No!”\n\n\nYou try to call out again, but Thomas lurches forward. His machine begins to enter the maelstrom and as he enters you hear an unearthly roar from all around you as Thomas and the snow contraption are both lifted into the air. Ice covers the machine and Thomas is thrown viciously backwards. He crumples to the ground unnaturally and the storm subsides as you run towards Thomas.",
+    "requiresFishing": 90,
+    "silverReward": 500000000
+  },
+  {
+    "firstSeen": 1671652839541,
+    "itemRequests": [
+      {
+        "id": "118",
+        "quantity": 3000
+      },
+      {
+        "id": "207",
+        "quantity": 3000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "417",
+        "quantity": 10
+      },
+      {
+        "id": "84",
+        "quantity": 1000
+      },
+      {
+        "id": "508",
+        "quantity": 1000
+      }
+    ],
+    "id": "1937893",
+    "name": "Buddy's Christmas Adventure I",
+    "prereq": null,
+    "isPersonal": false,
+    "from": "Buddy",
+    "fromImage": "/img/items/buddyelf.png",
+    "text": "It’s Christmas-time, Buddy’s favorite time of year. Santa gave him a task, to find someone on the naughty list and help them believe in Santa again. \n\n\n\nFirst, Buddy and Santa searched through many, many books to find all the names of people in Redbrook when he was shocked to find his very good friend, Vincent, on the naughty list!\n\n\n\nBuddy and Santa parted ways and Buddy claims he rode an iceberg pushed by a narwhal who was sad to see him leave. “Bye Buddy, hope you find your friend!”",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "requiresTower": 100,
+    "availableFrom": "Dec 21",
+    "availableTo": "Jan 3"
+  },
+  {
+    "firstSeen": 1671669387677,
+    "itemRequests": [
+      {
+        "id": "426",
+        "quantity": 3000
+      },
+      {
+        "id": "401",
+        "quantity": 3000
+      },
+      {
+        "id": "44",
+        "quantity": 3000
+      },
+      {
+        "id": "256",
+        "quantity": 3000
+      },
+      {
+        "id": "71",
+        "quantity": 3000
+      },
+      {
+        "id": "112",
+        "quantity": 1000
+      },
+      {
+        "id": "635",
+        "quantity": 100
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "420",
+        "quantity": 10
+      },
+      {
+        "id": "86",
+        "quantity": 1000
+      },
+      {
+        "id": "491",
+        "quantity": 500
+      },
+      {
+        "id": "352",
+        "quantity": 500
+      },
+      {
+        "id": "588",
+        "quantity": 500
+      }
+    ],
+    "id": "1937951",
+    "name": "Buddy's Christmas Adventure II",
+    "prereq": "1937893",
+    "isPersonal": false,
+    "from": "Buddy",
+    "fromImage": "/img/items/buddyelf.png",
+    "text": "Buddy loves eating candy, candy corn, candy cane and syrup! Maybe you could help him gather some of his favorite candy (and some healthier stuff too) to help him have the energy to find his very good friend when he returns to Redbrook?",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "requiresTower": 100,
+    "availableFrom": "Dec 21",
+    "availableTo": "Jan 3"
+  },
+  {
+    "firstSeen": 1671679944263,
+    "itemRequests": [
+      {
+        "id": "65",
+        "quantity": 2000
+      },
+      {
+        "id": "629",
+        "quantity": 250
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "379",
+        "quantity": 500
+      },
+      {
+        "id": "415",
+        "quantity": 5
+      },
+      {
+        "id": "423",
+        "quantity": 5
+      },
+      {
+        "id": "602",
+        "quantity": 100
+      },
+      {
+        "id": "608",
+        "quantity": 1
+      },
+      {
+        "id": "508",
+        "quantity": 1000
+      }
+    ],
+    "id": "1937979",
+    "name": "Buddy's Christmas Adventure III",
+    "prereq": "1937951",
+    "isPersonal": false,
+    "from": "Buddy",
+    "fromImage": "/img/items/buddyelf.png",
+    "text": "Buddy loves exploring the streets of Redbrook, there’s so many colorful objects! He briefly remember’s Santa’s advice. \n\n\n“I’ve been to Redbrook tons of times, but there are some things you should know. If you see gum on the streets, leave it there, it’s not candy. Second, there are, like thirty, Jill’s Corn, but the original is on the outside of town. And finally, if you see an advertisement for free gold, it’s probably a rick roll.”",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "requiresTower": 100,
+    "availableFrom": "Dec 21",
+    "availableTo": "Jan 3"
+  },
+  {
+    "firstSeen": 1671680686734,
+    "itemRequests": [
+      {
+        "id": "408",
+        "quantity": 3000
+      },
+      {
+        "id": "687",
+        "quantity": 3000
+      },
+      {
+        "id": "404",
+        "quantity": 3000
+      },
+      {
+        "id": "405",
+        "quantity": 3000
+      },
+      {
+        "id": "403",
+        "quantity": 3000
+      },
+      {
+        "id": "406",
+        "quantity": 3000
+      },
+      {
+        "id": "407",
+        "quantity": 3000
+      },
+      {
+        "id": "428",
+        "quantity": 1000
+      },
+      {
+        "id": "411",
+        "quantity": 1000
+      },
+      {
+        "id": "416",
+        "quantity": 1500
+      },
+      {
+        "id": "418",
+        "quantity": 25
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "508",
+        "quantity": 2000
+      },
+      {
+        "id": "396",
+        "quantity": 500
+      },
+      {
+        "id": "605",
+        "quantity": 1
+      },
+      {
+        "id": "586",
+        "quantity": 1000
+      }
+    ],
+    "id": "1938013",
+    "name": "Buddy's Christmas Adventure IV",
+    "prereq": "1937979",
+    "isPersonal": false,
+    "from": "Buddy",
+    "fromImage": "/img/items/buddyelf.png",
+    "text": "As Buddy wanders the streets, he realizes the perfect way to convince his friend Vincent to reform his ways is with a gift that he picks out, to really give him some Christmas spirit. Buddy spent so long in the store and was so intent on looking for a gift that the store closed with him inside it!\n\n\nBuddy saw a sign near the front that says “Santa Tomorrow” and in excitement, he decides to decorate the whole store overnight.",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "requiresTower": 100,
+    "availableFrom": "Dec 21",
+    "availableTo": "Jan 3"
+  },
+  {
+    "firstSeen": 1671694154992,
+    "itemRequests": [
+      {
+        "id": "412",
+        "quantity": 3000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "500",
+        "quantity": 500
+      },
+      {
+        "id": "421",
+        "quantity": 10
+      },
+      {
+        "id": "424",
+        "quantity": 10
+      },
+      {
+        "id": "508",
+        "quantity": 1000
+      },
+      {
+        "id": "607",
+        "quantity": 1
+      }
+    ],
+    "id": "1938071",
+    "name": "Buddy's Christmas Adventure VI",
+    "prereq": "1938120",
+    "isPersonal": false,
+    "from": "Buddy",
+    "fromImage": "/img/items/buddyelf.png",
+    "text": "After a few hours Buddy is visited by none other than Vincent, just the person Buddy was looking for! Vincent offers to take Buddy home to make sure he doesn’t cause anymore trouble. \n\n\nOn the way home, Buddy tells Vincent about Santa Claus, but Vincent shakes his head. “Santa isn’t real, Buddy!”\nBefore Buddy can reply, a snowball zings by the two of them, and before long, Vincent and Buddy are in the snowball fight of their life against a bunch of the town children!",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "requiresTower": 100,
+    "availableFrom": "Dec 21",
+    "availableTo": "Jan 3"
+  },
+  {
+    "firstSeen": 1671688250442,
+    "itemRequests": [
+      {
+        "id": "408",
+        "quantity": 3000
+      },
+      {
+        "id": "687",
+        "quantity": 3000
+      },
+      {
+        "id": "404",
+        "quantity": 3000
+      },
+      {
+        "id": "405",
+        "quantity": 3000
+      },
+      {
+        "id": "403",
+        "quantity": 3000
+      },
+      {
+        "id": "406",
+        "quantity": 3000
+      },
+      {
+        "id": "407",
+        "quantity": 3000
+      },
+      {
+        "id": "428",
+        "quantity": 1000
+      },
+      {
+        "id": "411",
+        "quantity": 1000
+      },
+      {
+        "id": "416",
+        "quantity": 1500
+      },
+      {
+        "id": "418",
+        "quantity": 25
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "137",
+        "quantity": 1
+      },
+      {
+        "id": "186",
+        "quantity": 1
+      },
+      {
+        "id": "379",
+        "quantity": 250
+      },
+      {
+        "id": "699",
+        "quantity": 3
+      },
+      {
+        "id": "508",
+        "quantity": 2000
+      },
+      {
+        "id": "606",
+        "quantity": 1
+      }
+    ],
+    "id": "1938120",
+    "name": "Buddy's Christmas Adventure V",
+    "prereq": "1938013",
+    "isPersonal": false,
+    "from": "Buddy",
+    "fromImage": "/img/items/buddyelf.png",
+    "text": "In the morning, the store opens and Buddy is very excited to see Santa! In moments, the store is full of excited parents and children when who should arrive but someone that looks suspiciously not like Santa. \n\n\nBuddy jumps in front of the line and contronts Santa-Lorn,\n“Who the heck are you?”\n\nSanta-Lorn gives Buddy an odd look, “What are you talkin’ about? I’m Santa Claus!”\n\n“No, you’re not.”\n\n\n“Uh, why of course I am! Ho, ho, ho, ho, ho.”\n\n“Well, if you're Santa, what song did I sing for you on your birthday this year? “\n\n“Um, Happy Birthday of course.”\n\nBuddy gives a momentary look of frustration. \n\n“You sit on a throne of lies! You’re a fake!”\n\nSanta-Lorn gives Buddy a look of confusion and scorn. “I’m a fake?”\n\n“Yes! You stink! You smell like beef and cheese, you don’t smell like Santa!”\n\nAs the commotion grows louder, some of the store security drag Buddy away, and put him in the town jail.",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "requiresTower": 100,
+    "availableFrom": "Dec 21",
+    "availableTo": "Jan 3"
+  },
+  {
+    "firstSeen": 1671695162177,
+    "itemRequests": [
+      {
+        "id": "412",
+        "quantity": 3000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "500",
+        "quantity": 1000
+      },
+      {
+        "id": "508",
+        "quantity": 1000
+      },
+      {
+        "id": "178",
+        "quantity": 3000
+      },
+      {
+        "id": "113",
+        "quantity": 3000
+      },
+      {
+        "id": "346",
+        "quantity": 100
+      },
+      {
+        "id": "583",
+        "quantity": 200
+      }
+    ],
+    "id": "1938343",
+    "name": "Buddy's Christmas Adventure VII",
+    "prereq": "1938071",
+    "isPersonal": false,
+    "from": "Buddy",
+    "fromImage": "/img/items/buddyelf.png",
+    "text": "It was a really epic snowball fight!",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "requiresTower": 100,
+    "availableFrom": "Dec 21",
+    "availableTo": "Jan 3"
+  },
+  {
+    "firstSeen": 1671695901781,
+    "itemRequests": [
+      {
+        "id": "274",
+        "quantity": 5
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "419",
+        "quantity": 5
+      },
+      {
+        "id": "422",
+        "quantity": 1
+      }
+    ],
+    "id": "1938416",
+    "name": "Buddy's Christmas Adventure VIII",
+    "prereq": "1938343",
+    "isPersonal": false,
+    "from": "Buddy",
+    "fromImage": "/img/items/buddyelf.png",
+    "text": "After a victorious battle, Buddy and Vincent complete their journey home. Buddy again implores Vincent to reconsider his belief in Santa and get off the naughty list. This time, before Vincent can respond a knock comes at the door but Buddy, quick as lightning, answers. “Buddy the Thumb, what’s your favorite color?”\n\n\nIt’s a package of letters, but no one’s at the door. It says “To” but the rest of the address is completely illegible. Buddy decides that the best way to spread Christmas cheer is to go to the post office and figure out who this Christmas letters are for!",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "requiresTower": 100,
+    "availableFrom": "Dec 21",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646727683519,
@@ -17943,10 +19583,6 @@
         "quantity": 100
       },
       {
-        "id": "377",
-        "quantity": 10
-      },
-      {
         "id": "194",
         "quantity": 100
       },
@@ -17961,16 +19597,54 @@
       {
         "id": "84",
         "quantity": 100
+      },
+      {
+        "id": "91",
+        "quantity": 500
+      },
+      {
+        "id": "44",
+        "quantity": 250
+      },
+      {
+        "id": "65",
+        "quantity": 250
+      },
+      {
+        "id": "281",
+        "quantity": 30
+      },
+      {
+        "id": "120",
+        "quantity": 100
+      },
+      {
+        "id": "61",
+        "quantity": 100
+      },
+      {
+        "id": "69",
+        "quantity": 10
+      },
+      {
+        "id": "373",
+        "quantity": 10
+      },
+      {
+        "id": "71",
+        "quantity": 30
       }
     ],
     "id": "426",
     "name": "Naturally Thankful",
+    "prereq": "309",
+    "isPersonal": false,
     "from": "Geist",
     "fromImage": "/img/items/npc_beast.png",
-    "text": "Behind Beatrix’s house is a maple tree as straight as an arrow. Geist likes to relax in the grass and watch that tree blow about in the wind. Geist really enjoyed the leaves turning red this fall, until they all fell off. Now there’s only one small leaf left flapping madly in the wind.\n\nGeist is thankful for beautiful leaves in grand trees and all sorts of other beauties of the natural world. Will you bring her some of her favorite things?",
+    "text": "Behind Beatrix’s house is a maple tree as straight as an arrow. Geist likes to relax in the grass and watch that tree blow about in the wind. Geist really enjoyed the leaves turning red this fall, until they all fell off. Now there’s only one small leaf left flapping madly in the wind.\n\n\n\nGeist is thankful for beautiful leaves in grand trees and all sorts of other beauties of the natural world. Will you bring her some of her favorite things?",
+    "requiresFarming": 75,
     "availableFrom": "Nov 24",
-    "availableTo": "Nov 28",
-    "requiresFarming": 75
+    "availableTo": "Nov 28"
   },
   {
     "firstSeen": 1646727215971,
@@ -18008,13 +19682,15 @@
     ],
     "id": "427",
     "name": "A Feathery Thanks",
+    "prereq": "192",
+    "isPersonal": false,
     "from": "Star Meerif",
     "fromImage": "/img/items/npc_figure.png",
-    "text": "*poof*\nStar is thankful for his favorite spell.\n*poof*\nStar really loves this spell.\n*poof*\nWon't you help Star keep using his favorite spell?\n*poof*\nStar is thankful for you too.\n*poof*",
-    "goldReward": 10,
+    "text": "*poof*\n\n\nStar is thankful for his favorite spell.\n\n\n*poof*\n\n\nStar really loves this spell.\n\n\n*poof*\n\n\nWon't you help Star keep using his favorite spell?\n\n\n*poof*\n\n\nStar is thankful for you too.\n\n\n*poof*",
+    "requiresExploring": 30,
     "availableFrom": "Nov 24",
     "availableTo": "Nov 28",
-    "requiresExploring": 30
+    "goldReward": 10
   },
   {
     "firstSeen": 1646727213990,
@@ -18074,12 +19750,14 @@
     ],
     "id": "429",
     "name": "My Favorite Corn",
+    "prereq": "294",
+    "isPersonal": false,
     "from": "ROOMBA",
     "fromImage": "/img/items/robot_02.png",
-    "text": "ROOMBA has cleanest source of energy its ever used. His data matrix does not understand what being thankful is, can you bring him corn? It's ROOMBA's programmatically most requested item, which sounds a lot like being its favorite thing.",
-    "silverReward": 3000000,
+    "text": "ROOMBA has cleanest source of energy its ever used. His data matrix does not understand what being thankful is, can you bring him corn? It's ROOMBA's programmatically most requested item, which sounds a lot like being its favorite thing.\n\n\n&nbsp;",
     "availableFrom": "Nov 24",
-    "availableTo": "Nov 28"
+    "availableTo": "Nov 28",
+    "silverReward": 3000000
   },
   {
     "firstSeen": 1646727209972,
@@ -19873,19 +21551,53 @@
         "quantity": 1
       },
       {
-        "id": "377",
+        "id": "91",
+        "quantity": 50
+      },
+      {
+        "id": "44",
+        "quantity": 25
+      },
+      {
+        "id": "65",
+        "quantity": 25
+      },
+      {
+        "id": "281",
+        "quantity": 3
+      },
+      {
+        "id": "120",
+        "quantity": 10
+      },
+      {
+        "id": "61",
+        "quantity": 10
+      },
+      {
+        "id": "69",
         "quantity": 1
+      },
+      {
+        "id": "373",
+        "quantity": 1
+      },
+      {
+        "id": "71",
+        "quantity": 3
       }
     ],
     "id": "475",
     "name": "Thankfully Treacherous ",
+    "prereq": "387",
+    "isPersonal": false,
     "from": "Ric Ryph",
     "fromImage": "/img/items/npc_figure2.png",
     "text": "Ric is thankful for all the things that can be accomplished when everyone pitches in for the greater good. Ric thinks it’s time for you to make another contribution.",
-    "silverRequest": 1000000,
+    "requiresFarming": 75,
     "availableFrom": "Nov 24",
     "availableTo": "Nov 28",
-    "requiresFarming": 75
+    "silverRequest": 1000000
   },
   {
     "firstSeen": 1646727117816,
@@ -20211,10 +21923,6 @@
     ],
     "itemRewards": [
       {
-        "id": "377",
-        "quantity": 20
-      },
-      {
         "id": "391",
         "quantity": 20
       },
@@ -20229,16 +21937,54 @@
       {
         "id": "84",
         "quantity": 50
+      },
+      {
+        "id": "91",
+        "quantity": 1000
+      },
+      {
+        "id": "44",
+        "quantity": 500
+      },
+      {
+        "id": "65",
+        "quantity": 500
+      },
+      {
+        "id": "281",
+        "quantity": 60
+      },
+      {
+        "id": "120",
+        "quantity": 200
+      },
+      {
+        "id": "61",
+        "quantity": 200
+      },
+      {
+        "id": "69",
+        "quantity": 20
+      },
+      {
+        "id": "373",
+        "quantity": 20
+      },
+      {
+        "id": "71",
+        "quantity": 60
       }
     ],
     "id": "478",
     "name": "Thankfully In Love",
+    "prereq": "308",
+    "isPersonal": false,
     "from": "Charles Horsington III",
     "fromImage": "/img/items/npc_horse.png",
     "text": "Charles is thankful for love and relationships! Will you bring him some gifts for his girlfriend?",
+    "requiresFarming": 75,
     "availableFrom": "Nov 24",
-    "availableTo": "Nov 28",
-    "requiresFarming": 75
+    "availableTo": "Nov 28"
   },
   {
     "firstSeen": 1660155452660,

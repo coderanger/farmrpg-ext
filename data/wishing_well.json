@@ -876,6 +876,26 @@
   },
   {
     "chance": 0.25,
+    "input": "418",
+    "output": "441"
+  },
+  {
+    "chance": 0.25,
+    "input": "418",
+    "output": "491"
+  },
+  {
+    "chance": 0.25,
+    "input": "418",
+    "output": "687"
+  },
+  {
+    "chance": 0.25,
+    "input": "418",
+    "output": "443"
+  },
+  {
+    "chance": 0.25,
     "input": "177",
     "output": "147"
   },

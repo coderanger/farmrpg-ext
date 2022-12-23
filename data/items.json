@@ -294,7 +294,7 @@
   {
     "name": "Pepper Seeds",
     "id": "12",
-    "image": "/img/items/8301.png",
+    "image": "/img/items/seeds_peppers.png",
     "xp": 10,
     "buyPrice": 9,
     "growthTime": 60,
@@ -614,7 +614,7 @@
   {
     "name": "Eggplant Seeds",
     "id": "14",
-    "image": "/img/items/eggplant.png",
+    "image": "/img/items/seeds_eggplants.png",
     "xp": 50,
     "buyPrice": 47,
     "growthTime": 300,
@@ -852,7 +852,7 @@
   {
     "name": "Gold Pepper Seeds",
     "id": "158",
-    "image": "/img/items/8301g.png?1",
+    "image": "/img/items/seeds_gpeppers.png",
     "xp": 53,
     "growthTime": 60
   },
@@ -871,7 +871,7 @@
   {
     "name": "Tomato Seeds",
     "id": "16",
-    "image": "/img/items/8290.png",
+    "image": "/img/items/seeds_tomato.png",
     "xp": 300,
     "buyPrice": 330,
     "growthTime": 1800,
@@ -884,7 +884,7 @@
   {
     "name": "Gold Carrot Seeds",
     "id": "160",
-    "image": "/img/items/8391g.png",
+    "image": "/img/items/seeds_gcarrots.png",
     "xp": 56,
     "growthTime": 120
   },
@@ -903,7 +903,7 @@
   {
     "name": "Gold Pea Seeds",
     "id": "162",
-    "image": "/img/items/8259g.png",
+    "image": "/img/items/seeds_gpeas.png",
     "xp": 60,
     "growthTime": 180
   },
@@ -1313,7 +1313,7 @@
   {
     "name": "Gold Cucumber Seeds",
     "id": "190",
-    "image": "/img/items/5805g.png?1",
+    "image": "/img/items/seeds_gcucumber.png",
     "xp": 63,
     "growthTime": 240
   },
@@ -1463,7 +1463,7 @@
   {
     "name": "Carrot Seeds",
     "id": "20",
-    "image": "/img/items/8391.PNG",
+    "image": "/img/items/seeds_carrots.png",
     "xp": 20,
     "buyPrice": 18,
     "growthTime": 120,
@@ -2279,7 +2279,7 @@
   {
     "name": "Cotton Seeds",
     "id": "255",
-    "image": "/img/items/8311.png",
+    "image": "/img/items/seeds_cotton.png",
     "xp": 40320,
     "buyPrice": 84000,
     "growthTime": 345600,
@@ -2301,7 +2301,7 @@
   {
     "id": "257",
     "name": "Broccoli Seeds",
-    "image": "/img/items/8757.png",
+    "image": "/img/items/seeds_broccoli.png",
     "xp": 20160,
     "buyPrice": 42880,
     "growthTime": 172800,
@@ -2555,7 +2555,7 @@
   {
     "id": "28",
     "name": "Pea Seeds",
-    "image": "/img/items/8259.PNG",
+    "image": "/img/items/seeds_peas.png",
     "buyPrice": 29,
     "xp": 30,
     "growthTime": 180,
@@ -2773,7 +2773,7 @@
   {
     "id": "30",
     "name": "Cucumber Seeds",
-    "image": "/img/items/5805.png",
+    "image": "/img/items/seeds_cucumber.png",
     "buyPrice": 38,
     "xp": 40,
     "growthTime": 240,
@@ -3094,7 +3094,7 @@
   {
     "name": "Radish Seeds",
     "id": "32",
-    "image": "/img/items/radish.png?1",
+    "image": "/img/items/seeds_radish.png",
     "xp": 100,
     "buyPrice": 100,
     "growthTime": 600,
@@ -3316,7 +3316,7 @@
   {
     "id": "34",
     "name": "Onion Seeds",
-    "image": "/img/items/8317.png",
+    "image": "/img/items/seeds_onions.png",
     "buyPrice": 159,
     "xp": 150,
     "growthTime": 900,
@@ -3512,7 +3512,7 @@
   {
     "name": "Gold Eggplant Seeds",
     "id": "352",
-    "image": "/img/items/geggplant.png?1",
+    "image": "/img/items/seeds_geggplants.png",
     "xp": 66,
     "growthTime": 300
   },
@@ -3771,7 +3771,7 @@
   {
     "name": "Sunflower Seeds",
     "id": "374",
-    "image": "/img/items/sunflower.png",
+    "image": "/img/items/seeds_sunflower.png",
     "xp": 60480,
     "buyPrice": 126000,
     "growthTime": 518400,
@@ -4061,7 +4061,7 @@
   {
     "name": "Mushroom Spores",
     "id": "395",
-    "image": "/img/items/mushroom.png",
+    "image": "/img/items/seeds_mushroom.png",
     "xp": 600,
     "buyPrice": 3000,
     "growthTime": 5400,
@@ -4181,7 +4181,50 @@
     "sellPrice": 100000,
     "xp": 25000,
     "rarity": "Uncommon",
-    "mastery": true
+    "mastery": true,
+    "craftPrice": 10000,
+    "recipe": [
+      {
+        "id": "406",
+        "name": "Blue Ornament",
+        "quantity": 3
+      },
+      {
+        "id": "403",
+        "name": "Green Ornament",
+        "quantity": 3
+      },
+      {
+        "id": "402",
+        "name": "Orange Ornament",
+        "quantity": 3
+      },
+      {
+        "id": "409",
+        "name": "Pine Tree",
+        "quantity": 1
+      },
+      {
+        "id": "407",
+        "name": "Purple Ornament",
+        "quantity": 3
+      },
+      {
+        "id": "404",
+        "name": "Red Ornament",
+        "quantity": 3
+      },
+      {
+        "id": "416",
+        "name": "Star",
+        "quantity": 1
+      },
+      {
+        "id": "405",
+        "name": "Yellow Ornament",
+        "quantity": 3
+      }
+    ]
   },
   {
     "name": "Pine Tree",
@@ -4190,7 +4233,8 @@
     "sellPrice": 10000,
     "xp": 5000,
     "growthTime": 28800,
-    "mastery": true
+    "mastery": true,
+    "fleaMarket": 4
   },
   {
     "name": "Aquamarine",
@@ -4204,7 +4248,7 @@
   {
     "name": "Pine Seeds",
     "id": "410",
-    "image": "/img/items/cr_t_06.png",
+    "image": "/img/items/seeds_pine.png",
     "xp": 5000,
     "buyPrice": 9000,
     "growthTime": 28800,
@@ -4221,7 +4265,35 @@
     "sellPrice": 50000,
     "xp": 2500,
     "rarity": "Uncommon",
-    "mastery": true
+    "mastery": true,
+    "craftPrice": 2500,
+    "recipe": [
+      {
+        "id": "19",
+        "name": "Carrot",
+        "quantity": 1
+      },
+      {
+        "id": "103",
+        "name": "Coal",
+        "quantity": 2
+      },
+      {
+        "id": "414",
+        "name": "Green Scarf",
+        "quantity": 1
+      },
+      {
+        "id": "412",
+        "name": "Snowball",
+        "quantity": 10
+      },
+      {
+        "id": "40",
+        "name": "Stone",
+        "quantity": 5
+      }
+    ]
   },
   {
     "name": "Snowball",
@@ -4329,7 +4401,7 @@
     "xp": 1750
   },
   {
-    "name": "Bag of Presents",
+    "name": "Bag of Presents 01",
     "id": "422",
     "image": "/img/items/12_sm.png",
     "event": true,
@@ -4392,7 +4464,32 @@
     "id": "428",
     "image": "/img/items/21_sm.png",
     "event": true,
-    "xp": 1750
+    "xp": 1750,
+    "sellPrice": 75000,
+    "craftPrice": 250,
+    "mastery": true,
+    "recipe": [
+      {
+        "id": "78",
+        "name": "Glass Orb",
+        "quantity": 1
+      },
+      {
+        "id": "75",
+        "name": "Mushroom Paste",
+        "quantity": 1
+      },
+      {
+        "id": "411",
+        "name": "Snowman",
+        "quantity": 1
+      },
+      {
+        "id": "35",
+        "name": "Wood",
+        "quantity": 3
+      }
+    ]
   },
   {
     "name": "Christmas Present 02",
@@ -4586,7 +4683,7 @@
   {
     "id": "449",
     "name": "Beet Seeds",
-    "image": "/img/items/2850.png",
+    "image": "/img/items/seeds_beet.png",
     "xp": 90720,
     "buyPrice": 189000,
     "growthTime": 777600,
@@ -4836,7 +4933,7 @@
     "image": "/img/items/goldboot.png?1",
     "sellPrice": 500000,
     "xp": 5000,
-    "rarity": "Super Rare",
+    "rarity": "Very Rare",
     "manualFishingOnly": true
   },
   {
@@ -4857,7 +4954,7 @@
   {
     "name": "Hops Seeds",
     "id": "47",
-    "image": "/img/items/8248.PNG",
+    "image": "/img/items/seeds_hops.png",
     "xp": 200,
     "buyPrice": 212,
     "growthTime": 1200,
@@ -5106,7 +5203,7 @@
   {
     "name": "Potato Seeds",
     "id": "49",
-    "image": "/img/items/potato.png",
+    "image": "/img/items/seeds_potato.png",
     "xp": 250,
     "buyPrice": 267,
     "growthTime": 1500,
@@ -5355,7 +5452,7 @@
   {
     "name": "Leek Seeds",
     "id": "51",
-    "image": "/img/items/8291.png",
+    "image": "/img/items/seeds_leek.png",
     "xp": 600,
     "buyPrice": 680,
     "growthTime": 3600,
@@ -6173,7 +6270,7 @@
     "firstSeen": 1655441581230,
     "name": "Mega Beet Seeds",
     "id": "588",
-    "image": "/img/items/mbeet.png",
+    "image": "/img/items/seeds_mbeet.png",
     "xp": 90720,
     "growthTime": 777600
   },
@@ -6181,7 +6278,7 @@
     "firstSeen": 1656366690897,
     "name": "Mega Sunflower Seeds",
     "id": "589",
-    "image": "/img/items/msun.png?2",
+    "image": "/img/items/seeds_msunflower.png",
     "xp": 60480,
     "growthTime": 518400
   },
@@ -6318,7 +6415,7 @@
   {
     "name": "Watermelon Seeds",
     "id": "60",
-    "image": "/img/items/8293.png",
+    "image": "/img/items/seeds_watermelon.png",
     "xp": 840,
     "buyPrice": 1400,
     "growthTime": 7200,
@@ -6440,7 +6537,7 @@
   {
     "firstSeen": 1659404898951,
     "id": "612",
-    "name": "Blueprint Y73841",
+    "name": "Y73841 Blueprint",
     "image": "/img/items/7793.png",
     "xp": 2500,
     "rarity": "Uncommon"
@@ -6770,7 +6867,7 @@
     "firstSeen": 1660614356227,
     "name": "Rice Seeds",
     "id": "631",
-    "image": "/img/items/riceplant.png",
+    "image": "/img/items/seeds_rice.png",
     "buyPrice": 200000,
     "xp": 100000,
     "growthTime": 864000
@@ -6863,7 +6960,7 @@
   {
     "name": "Corn Seeds",
     "id": "64",
-    "image": "/img/items/8288.png",
+    "image": "/img/items/seeds_corn.png",
     "xp": 1680,
     "buyPrice": 2960,
     "growthTime": 14400,
@@ -7090,7 +7187,7 @@
   {
     "id": "66",
     "name": "Cabbage Seeds",
-    "image": "/img/items/8319-3.png?1",
+    "image": "/img/items/seeds_cabbage.png",
     "buyPrice": 6080,
     "xp": 3360,
     "growthTime": 28800,
@@ -7295,15 +7392,296 @@
     ]
   },
   {
+    "firstSeen": 1669051934776,
+    "id": "672",
+    "name": "Pumpkin Pie",
+    "image": "/img/items/ppie.png",
+    "event": true,
+    "rarity": "Very Rare"
+  },
+  {
+    "firstSeen": 1669751811909,
+    "id": "673",
+    "name": "Lovely Present",
+    "image": "/img/items/lpres.png",
+    "event": true,
+    "xp": 1,
+    "givable": true,
+    "rarity": "Very Rare"
+  },
+  {
+    "firstSeen": 1669751815917,
+    "id": "674",
+    "name": "Christmas Card",
+    "image": "/img/items/16_sm.png",
+    "event": true,
+    "xp": 1750,
+    "givable": true,
+    "rarity": "Very Rare"
+  },
+  {
+    "firstSeen": 1669667678842,
+    "name": "Spoon",
+    "id": "675",
+    "image": "/img/items/2473.png",
+    "sellPrice": 7500,
+    "craftPrice": 750,
+    "xp": 5500,
+    "mastery": true,
+    "recipe": [
+      {
+        "id": "237",
+        "name": "Axe",
+        "quantity": 1
+      },
+      {
+        "id": "113",
+        "name": "Bone",
+        "quantity": 1
+      },
+      {
+        "id": "163",
+        "name": "Twine",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "firstSeen": 1669758208692,
+    "id": "677",
+    "name": "Belt Drive",
+    "image": "/img/items/9347.png",
+    "sellPrice": 10000,
+    "craftPrice": 100,
+    "xp": 6000,
+    "rarity": "Uncommon",
+    "mastery": true,
+    "recipe": [
+      {
+        "id": "590",
+        "name": "Pulley",
+        "quantity": 2
+      },
+      {
+        "id": "537",
+        "name": "Purple Dye",
+        "quantity": 1
+      },
+      {
+        "id": "193",
+        "name": "Rope",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "firstSeen": 1669758211600,
+    "id": "678",
+    "name": "Metal Spool",
+    "image": "/img/items/9325.png",
+    "sellPrice": 11000,
+    "craftPrice": 100,
+    "xp": 6500,
+    "rarity": "Uncommon",
+    "mastery": true,
+    "recipe": [
+      {
+        "id": "593",
+        "name": "Broken Pipe",
+        "quantity": 1
+      },
+      {
+        "id": "103",
+        "name": "Coal",
+        "quantity": 5
+      },
+      {
+        "id": "38",
+        "name": "Nails",
+        "quantity": 2
+      },
+      {
+        "id": "601",
+        "name": "Scrap Metal",
+        "quantity": 12
+      }
+    ]
+  },
+  {
+    "firstSeen": 1669758214234,
+    "id": "679",
+    "name": "Spool of Copper",
+    "image": "/img/items/9324.png",
+    "sellPrice": 50000,
+    "craftPrice": 10,
+    "xp": 6500,
+    "rarity": "Uncommon",
+    "mastery": true,
+    "recipe": [
+      {
+        "id": "591",
+        "name": "Copper Wire",
+        "quantity": 10
+      },
+      {
+        "id": "678",
+        "name": "Metal Spool",
+        "quantity": 1
+      }
+    ]
+  },
+  {
     "id": "68",
     "name": "Pumpkin Seeds",
-    "image": "/img/items/8294.png",
+    "image": "/img/items/seeds_pumpkin.png",
     "buyPrice": 9360,
     "xp": 5040,
     "growthTime": 43200,
     "type": "seed",
     "possibleDrops": [
       "Pumpkin"
+    ]
+  },
+  {
+    "firstSeen": 1669758216153,
+    "id": "680",
+    "name": "Energy Coil",
+    "image": "/img/items/9379b.png",
+    "sellPrice": 100000,
+    "craftPrice": 5000,
+    "xp": 10000,
+    "rarity": "Uncommon",
+    "mastery": true,
+    "recipe": [
+      {
+        "id": "78",
+        "name": "Glass Orb",
+        "quantity": 1
+      },
+      {
+        "id": "600",
+        "name": "Scrap Wire",
+        "quantity": 8
+      },
+      {
+        "id": "679",
+        "name": "Spool of Copper",
+        "quantity": 1
+      },
+      {
+        "id": "145",
+        "name": "Steel",
+        "quantity": 2
+      },
+      {
+        "id": "597",
+        "name": "Transistor",
+        "quantity": 25
+      },
+      {
+        "id": "594",
+        "name": "Wrench",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "firstSeen": 1669758218523,
+    "id": "683",
+    "name": "Pear Grease",
+    "image": "/img/items/8957.png",
+    "sellPrice": 10000,
+    "craftPrice": 500,
+    "xp": 3000,
+    "rarity": "Uncommon",
+    "mastery": true,
+    "recipe": [
+      {
+        "id": "314",
+        "name": "Blue Gel",
+        "quantity": 5
+      },
+      {
+        "id": "117",
+        "name": "Glass Bottle",
+        "quantity": 1
+      },
+      {
+        "id": "596",
+        "name": "Prickly Pear",
+        "quantity": 30
+      }
+    ]
+  },
+  {
+    "firstSeen": 1670020478793,
+    "id": "686",
+    "name": "Keyglobe",
+    "image": "/img/items/keyglobe.png",
+    "rarity": "Very Rare"
+  },
+  {
+    "firstSeen": 1670013969841,
+    "name": "Holiday Wreath",
+    "id": "687",
+    "image": "/img/items/wreath.png?2",
+    "event": true,
+    "sellPrice": 125000,
+    "craftPrice": 2500,
+    "xp": 50000,
+    "rarity": "Uncommon",
+    "mastery": true,
+    "recipe": [
+      {
+        "id": "406",
+        "name": "Blue Ornament",
+        "quantity": 3
+      },
+      {
+        "id": "403",
+        "name": "Green Ornament",
+        "quantity": 3
+      },
+      {
+        "id": "402",
+        "name": "Orange Ornament",
+        "quantity": 3
+      },
+      {
+        "id": "289",
+        "name": "Pine Cone",
+        "quantity": 6
+      },
+      {
+        "id": "409",
+        "name": "Pine Tree",
+        "quantity": 1
+      },
+      {
+        "id": "407",
+        "name": "Purple Ornament",
+        "quantity": 3
+      },
+      {
+        "id": "319",
+        "name": "Red Berries",
+        "quantity": 6
+      },
+      {
+        "id": "404",
+        "name": "Red Ornament",
+        "quantity": 3
+      },
+      {
+        "id": "392",
+        "name": "Steel Wire",
+        "quantity": 1
+      },
+      {
+        "id": "405",
+        "name": "Yellow Ornament",
+        "quantity": 3
+      }
     ]
   },
   {
@@ -7316,9 +7694,27 @@
     "mastery": true
   },
   {
+    "firstSeen": 1670880092490,
+    "id": "698",
+    "name": "Bag of Presents 02",
+    "image": "/img/items/12_sm.png",
+    "event": true,
+    "xp": 1750
+  },
+  {
+    "firstSeen": 1670880083374,
+    "id": "699",
+    "name": "Happy Cookies",
+    "image": "/img/items/ccookies.png",
+    "event": true,
+    "xp": 1500,
+    "givable": true,
+    "rarity": "Very Rare"
+  },
+  {
     "name": "Wheat Seeds",
     "id": "70",
-    "image": "/img/items/8249.png",
+    "image": "/img/items/seeds_wheet.png",
     "xp": 10080,
     "buyPrice": 19440,
     "growthTime": 86400,
@@ -7326,6 +7722,22 @@
     "possibleDrops": [
       "Wheat"
     ]
+  },
+  {
+    "firstSeen": 1670954160979,
+    "id": "701",
+    "name": "Water Orb",
+    "image": "/img/items/2324.png?1",
+    "xp": 5000,
+    "rarity": "Super Rare"
+  },
+  {
+    "firstSeen": 1671653526081,
+    "id": "702",
+    "name": "Zho's Dagger",
+    "image": "/img/items/4773.png",
+    "xp": 2500,
+    "rarity": "Uncommon"
   },
   {
     "name": "Wheat",

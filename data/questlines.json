@@ -310,6 +310,25 @@
     "secondary": false
   },
   {
+    "image": "/img/items/a_088.png",
+    "name": "A Wall In The Way",
+    "quests": [
+      "1893466",
+      "1893533",
+      "1893597",
+      "1893628",
+      "1893638",
+      "1893648",
+      "1930152",
+      "1893688",
+      "1893821",
+      "1893846",
+      "1893958",
+      "1894010"
+    ],
+    "secondary": false
+  },
+  {
     "image": "/img/items/MustacheTom96.png",
     "name": "A Way Back",
     "quests": [
@@ -529,6 +548,21 @@
       "851",
       "850",
       "854"
+    ],
+    "secondary": false
+  },
+  {
+    "image": "/img/items/buddyelf.png",
+    "name": "Buddy's Christmas Adventure",
+    "quests": [
+      "1937893",
+      "1937951",
+      "1937979",
+      "1938013",
+      "1938120",
+      "1938071",
+      "1938343",
+      "1938416"
     ],
     "secondary": false
   },
@@ -808,7 +842,10 @@
     "name": "Excuuuse me, Farmer",
     "quests": [
       "1400577",
-      "1408018"
+      "1408018",
+      "1420007",
+      "1420032",
+      "1420198"
     ],
     "secondary": false
   },
@@ -1024,6 +1061,16 @@
     "name": "Gossip Gelding",
     "quests": [
       "1090593"
+    ],
+    "secondary": false
+  },
+  {
+    "image": "/img/items/mariya.png",
+    "name": "Gourd Intentions",
+    "quests": [
+      "1595113",
+      "1595135",
+      "1595139"
     ],
     "secondary": false
   },
@@ -1602,6 +1649,26 @@
     "secondary": false
   },
   {
+    "image": "/img/items/MustacheTom96.png",
+    "name": "Rapturous Thanksgiving",
+    "quests": [
+      "1626191",
+      "1626216"
+    ],
+    "secondary": false
+  },
+  {
+    "image": "/img/items/a_028.png",
+    "name": "Remember To Be Thankful",
+    "quests": [
+      "1626138",
+      "1618796",
+      "1626181",
+      "1638586"
+    ],
+    "secondary": false
+  },
+  {
     "image": "/img/items/a_088.png",
     "name": "Return Our Lost Friend",
     "quests": [
@@ -1680,6 +1747,7 @@
       "617",
       "618",
       "619",
+      "1737396",
       "594",
       "595",
       "596",

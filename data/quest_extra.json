@@ -4328,7 +4328,7 @@
     "availableTo": 1641275999000,
     "id": "594",
     "next": "595",
-    "prev": "619",
+    "prev": "1737396",
     "questlines": [
       "Shoveling Snow"
     ]
@@ -4577,7 +4577,7 @@
     "availableFrom": 1639461600000,
     "availableTo": 1641275999000,
     "id": "619",
-    "next": "594",
+    "next": "1737396",
     "prev": "618",
     "questlines": [
       "Shoveling Snow"
@@ -9453,8 +9453,32 @@
   },
   {
     "id": "1408018",
-    "next": null,
+    "next": "1420007",
     "prev": "1400577",
+    "questlines": [
+      "Excuuuse me, Farmer"
+    ]
+  },
+  {
+    "id": "1420007",
+    "next": "1420032",
+    "prev": "1408018",
+    "questlines": [
+      "Excuuuse me, Farmer"
+    ]
+  },
+  {
+    "id": "1420032",
+    "next": "1420198",
+    "prev": "1420007",
+    "questlines": [
+      "Excuuuse me, Farmer"
+    ]
+  },
+  {
+    "id": "1420198",
+    "next": null,
+    "prev": "1420032",
     "questlines": [
       "Excuuuse me, Farmer"
     ]
@@ -9463,6 +9487,36 @@
     "id": "1572908",
     "questlines": [
       "Flu Away"
+    ]
+  },
+  {
+    "availableFrom": 1669269600000,
+    "availableTo": 1669960799000,
+    "id": "1595113",
+    "next": "1595135",
+    "prev": null,
+    "questlines": [
+      "Gourd Intentions"
+    ]
+  },
+  {
+    "availableFrom": 1669269600000,
+    "availableTo": 1669960799000,
+    "id": "1595135",
+    "next": "1595139",
+    "prev": "1595113",
+    "questlines": [
+      "Gourd Intentions"
+    ]
+  },
+  {
+    "availableFrom": 1669269600000,
+    "availableTo": 1669960799000,
+    "id": "1595139",
+    "next": null,
+    "prev": "1595135",
+    "questlines": [
+      "Gourd Intentions"
     ]
   },
   {
@@ -9493,6 +9547,258 @@
     "prev": "1606073",
     "questlines": [
       "200,000"
+    ]
+  },
+  {
+    "availableFrom": 1669269600000,
+    "availableTo": 1669960799000,
+    "id": "1618796",
+    "next": "1626181",
+    "prev": "1626138",
+    "questlines": [
+      "Remember To Be Thankful"
+    ]
+  },
+  {
+    "availableFrom": 1669269600000,
+    "availableTo": 1669960799000,
+    "id": "1626138",
+    "next": "1618796",
+    "prev": null,
+    "questlines": [
+      "Remember To Be Thankful"
+    ]
+  },
+  {
+    "availableFrom": 1669269600000,
+    "availableTo": 1669960799000,
+    "id": "1626181",
+    "next": "1638586",
+    "prev": "1618796",
+    "questlines": [
+      "Remember To Be Thankful"
+    ]
+  },
+  {
+    "availableFrom": 1669269600000,
+    "availableTo": 1669960799000,
+    "id": "1626191",
+    "next": "1626216",
+    "prev": null,
+    "questlines": [
+      "Rapturous Thanksgiving"
+    ]
+  },
+  {
+    "availableFrom": 1669269600000,
+    "availableTo": 1669960799000,
+    "id": "1626216",
+    "next": null,
+    "prev": "1626191",
+    "questlines": [
+      "Rapturous Thanksgiving"
+    ]
+  },
+  {
+    "availableFrom": 1669269600000,
+    "availableTo": 1669960799000,
+    "id": "1638586",
+    "next": null,
+    "prev": "1626181",
+    "questlines": [
+      "Remember To Be Thankful"
+    ]
+  },
+  {
+    "availableFrom": 1669874400000,
+    "availableTo": 1672811999000,
+    "id": "1714402",
+    "questlines": []
+  },
+  {
+    "availableFrom": 1670220000000,
+    "availableTo": 1672811999000,
+    "id": "1737396",
+    "next": "594",
+    "prev": "619",
+    "questlines": [
+      "Shoveling Snow"
+    ]
+  },
+  {
+    "id": "1893466",
+    "next": "1893533",
+    "prev": null,
+    "questlines": [
+      "A Wall In The Way"
+    ]
+  },
+  {
+    "id": "1893533",
+    "next": "1893597",
+    "prev": "1893466",
+    "questlines": [
+      "A Wall In The Way"
+    ]
+  },
+  {
+    "id": "1893597",
+    "next": "1893628",
+    "prev": "1893533",
+    "questlines": [
+      "A Wall In The Way"
+    ]
+  },
+  {
+    "id": "1893628",
+    "next": "1893638",
+    "prev": "1893597",
+    "questlines": [
+      "A Wall In The Way"
+    ]
+  },
+  {
+    "id": "1893638",
+    "next": "1893648",
+    "prev": "1893628",
+    "questlines": [
+      "A Wall In The Way"
+    ]
+  },
+  {
+    "id": "1893648",
+    "next": "1930152",
+    "prev": "1893638",
+    "questlines": [
+      "A Wall In The Way"
+    ]
+  },
+  {
+    "id": "1893688",
+    "next": "1893821",
+    "prev": "1930152",
+    "questlines": [
+      "A Wall In The Way"
+    ]
+  },
+  {
+    "id": "1893821",
+    "next": "1893846",
+    "prev": "1893688",
+    "questlines": [
+      "A Wall In The Way"
+    ]
+  },
+  {
+    "id": "1893846",
+    "next": "1893958",
+    "prev": "1893821",
+    "questlines": [
+      "A Wall In The Way"
+    ]
+  },
+  {
+    "id": "1893958",
+    "next": "1894010",
+    "prev": "1893846",
+    "questlines": [
+      "A Wall In The Way"
+    ]
+  },
+  {
+    "id": "1894010",
+    "next": null,
+    "prev": "1893958",
+    "questlines": [
+      "A Wall In The Way"
+    ]
+  },
+  {
+    "id": "1930152",
+    "next": "1893688",
+    "prev": "1893648",
+    "questlines": [
+      "A Wall In The Way"
+    ]
+  },
+  {
+    "availableFrom": 1671602400000,
+    "availableTo": 1672811999000,
+    "id": "1937893",
+    "next": "1937951",
+    "prev": null,
+    "questlines": [
+      "Buddy's Christmas Adventure"
+    ]
+  },
+  {
+    "availableFrom": 1671602400000,
+    "availableTo": 1672811999000,
+    "id": "1937951",
+    "next": "1937979",
+    "prev": "1937893",
+    "questlines": [
+      "Buddy's Christmas Adventure"
+    ]
+  },
+  {
+    "availableFrom": 1671602400000,
+    "availableTo": 1672811999000,
+    "id": "1937979",
+    "next": "1938013",
+    "prev": "1937951",
+    "questlines": [
+      "Buddy's Christmas Adventure"
+    ]
+  },
+  {
+    "availableFrom": 1671602400000,
+    "availableTo": 1672811999000,
+    "id": "1938013",
+    "next": "1938120",
+    "prev": "1937979",
+    "questlines": [
+      "Buddy's Christmas Adventure"
+    ]
+  },
+  {
+    "availableFrom": 1671602400000,
+    "availableTo": 1672811999000,
+    "id": "1938071",
+    "next": "1938343",
+    "prev": "1938120",
+    "questlines": [
+      "Buddy's Christmas Adventure"
+    ]
+  },
+  {
+    "availableFrom": 1671602400000,
+    "availableTo": 1672811999000,
+    "id": "1938120",
+    "next": "1938071",
+    "prev": "1938013",
+    "questlines": [
+      "Buddy's Christmas Adventure"
+    ]
+  },
+  {
+    "availableFrom": 1671602400000,
+    "availableTo": 1672811999000,
+    "id": "1938343",
+    "next": "1938416",
+    "prev": "1938071",
+    "questlines": [
+      "Buddy's Christmas Adventure"
+    ]
+  },
+  {
+    "availableFrom": 1671602400000,
+    "availableTo": 1672811999000,
+    "id": "1938416",
+    "next": null,
+    "prev": "1938343",
+    "questlines": [
+      "Buddy's Christmas Adventure"
     ]
   }
 ]

@@ -243,5 +243,12 @@
         "item": "534",
         "frequency": "1 Year After Joining",
         "sort": 1
+    },
+    {
+        "building": "Soap Shop",
+        "image": "/img/items/soap_r.png",
+        "item": "441",
+        "frequency": "2000 Soap",
+        "sort": 1
     }
 ]

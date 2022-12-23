@@ -31,6 +31,7 @@
       "Pocket Watch",
       "Lima Bean",
       "Horned Beetle",
+      "Snowball",
       "Tea Leaves"
     ],
     "id": "4",
@@ -108,7 +109,8 @@
       "Strange Letter",
       "Runestone 14",
       "Caterpillar",
-      "Medium Chest 01"
+      "Medium Chest 01",
+      "Snowball"
     ],
     "id": "3",
     "type": "explore",
@@ -154,6 +156,7 @@
       "Shiny Beetle",
       "Pine Cone",
       "Spider",
+      "Snowball",
       "Frog"
     ],
     "id": "5",
@@ -180,6 +183,32 @@
     "type": "explore",
     "name": "Mount Banon",
     "image": "/img/items/mountain.png"
+  },
+  {
+    "items": [
+      "Board",
+      "Iron",
+      "Nails",
+      "Carbon Sphere",
+      "Antler",
+      "Candy Cane",
+      "Orange Ornament",
+      "Green Ornament",
+      "Red Ornament",
+      "Yellow Ornament",
+      "Blue Ornament",
+      "Purple Ornament",
+      "Snowball",
+      "Star",
+      "Milk and Cookies",
+      "Candy Roll",
+      "Yarn",
+      "Rudolph"
+    ],
+    "id": "11",
+    "type": "explore",
+    "name": "Santa's Workshop",
+    "image": "/img/items/santa_ws.png"
   },
   {
     "items": [
@@ -211,7 +240,8 @@
       "Spectacles",
       "Skull Coin",
       "Snail",
-      "Small Chest 01"
+      "Small Chest 01",
+      "Snowball"
     ],
     "id": "2",
     "type": "explore",
