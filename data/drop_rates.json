@@ -49,7 +49,9 @@
     "mode": "harvests"
   },
   {
-    "drop_rates": {},
+    "drop_rates": {
+      "Frozen Cabbage": 30.105263157894736
+    },
     "iron_depot_rates": {},
     "location": "Cabbage Seeds",
     "manual_fish_rates": {},
@@ -86,9 +88,9 @@
   },
   {
     "drop_rates": {
-      "Egg 03": 4080.5,
-      "Gold Carrot": 244.7950310559006,
-      "Runestone 01": 134.51194539249147
+      "Egg 03": 4408.5,
+      "Gold Carrot": 213.38071065989848,
+      "Runestone 01": 124.73590504451039
     },
     "iron_depot_rates": {},
     "location": "Carrot Seeds",
@@ -140,8 +142,8 @@
   },
   {
     "drop_rates": {
-      "Gold Cucumber": 780.6666666666666,
-      "Runestone 06": 585.5
+      "Gold Cucumber": 300.55555555555554,
+      "Runestone 06": 338.125
     },
     "iron_depot_rates": {},
     "location": "Cucumber Seeds",
@@ -150,8 +152,8 @@
   },
   {
     "drop_rates": {
-      "Gold Eggplant": 545.0833333333334,
-      "Runestone 20": 1308.2
+      "Gold Eggplant": 477.14285714285717,
+      "Runestone 20": 954.2857142857143
     },
     "iron_depot_rates": {},
     "location": "Eggplant Seeds",
@@ -313,6 +315,35 @@
       "Square Key": 1165.0,
       "Water Lily": 582.5,
       "Yellow Perch": 3.426470588235294
+    },
+    "mode": "fishes"
+  },
+  {
+    "drop_rates": {
+      "Bullfish": 7.026359494102117,
+      "Crowfish": 5.339488098108788,
+      "Frost Snapper Shell": 13750.0,
+      "Frosteye": 4.507725308546026,
+      "Glassback": 8.674166754284512,
+      "Grab Bag 08": 12692.307692307691,
+      "Ice Shark": 13.524590163934427,
+      "Sea Crest": 10.20534388916378,
+      "Seeker": 11.539268480313309,
+      "Stone Jelly": 13.37223437879893
+    },
+    "iron_depot_rates": {},
+    "location": "Glacier Lake",
+    "manual_fish_rates": {
+      "Bullfish": 6.551724137931035,
+      "Crowfish": 4.691358024691358,
+      "Frosteye": 5.066666666666666,
+      "Glassback": 12.258064516129032,
+      "Gold Sea Crest": 38.0,
+      "Grab Bag 08": 380.0,
+      "Ice Shark": 14.074074074074074,
+      "Sea Crest": 9.047619047619047,
+      "Seeker": 11.875,
+      "Stone Jelly": 16.52173913043478
     },
     "mode": "fishes"
   },
@@ -603,7 +634,8 @@
   },
   {
     "drop_rates": {
-      "Gold Peas": 483.8
+      "Frozen Peas": 50.64705882352941,
+      "Gold Peas": 222.87755102040816
     },
     "iron_depot_rates": {},
     "location": "Pea Seeds",
@@ -612,7 +644,7 @@
   },
   {
     "drop_rates": {
-      "Gold Peppers": 123.35483870967742
+      "Gold Peppers": 115.92156862745098
     },
     "iron_depot_rates": {},
     "location": "Pepper Seeds",
@@ -620,7 +652,9 @@
     "mode": "harvests"
   },
   {
-    "drop_rates": {},
+    "drop_rates": {
+      "Frozen Pine": 18.0
+    },
     "iron_depot_rates": {},
     "location": "Pine Seeds",
     "manual_fish_rates": {},
@@ -655,7 +689,7 @@
   },
   {
     "drop_rates": {
-      "Gold Potato": 1112.0
+      "Gold Potato": 578.0
     },
     "iron_depot_rates": {},
     "location": "Potato Seeds",

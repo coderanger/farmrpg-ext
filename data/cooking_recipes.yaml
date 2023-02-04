@@ -74,8 +74,8 @@
     Cooking Pot: 1
     Bone Broth: 1
 
-- name: Neigh Neigh
-  recipe: Charles’s Neigh Neigh
+- name: Neigh
+  recipe: Charles’s Neigh
   time: 3h
   level: 30
   items:

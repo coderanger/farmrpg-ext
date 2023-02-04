@@ -415,6 +415,29 @@
   },
   {
     "level1Items": [
+      "Runestone 06",
+      "Moonstone",
+      "Snowball",
+      "Blue Purse"
+    ],
+    "level3Items": [
+      "Iced Tea",
+      "Seaweed",
+      "Mittens",
+      "Rice"
+    ],
+    "level6Items": [
+      "Blue Gel",
+      "Gold Sea Crest",
+      "Frost Snapper Shell",
+      "Glacierstone"
+    ],
+    "id": "23",
+    "image": "/img/pets/pet_seal.png",
+    "name": "Spotted Seal"
+  },
+  {
+    "level1Items": [
       "Tomato",
       "Onion",
       "Hops",

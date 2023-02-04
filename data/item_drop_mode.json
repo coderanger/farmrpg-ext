@@ -669,6 +669,10 @@
   },
   {
     "dropMode": "harvests",
+    "id": "706"
+  },
+  {
+    "dropMode": "harvests",
     "id": "221"
   },
   {
@@ -888,6 +892,54 @@
     "id": "367"
   },
   {
+    "dropMode": "harvests",
+    "id": "708"
+  },
+  {
+    "dropMode": "harvests",
+    "id": "707"
+  },
+  {
+    "dropMode": "fishes",
+    "id": "688"
+  },
+  {
+    "dropMode": "fishes",
+    "id": "690"
+  },
+  {
+    "dropMode": "fishes",
+    "id": "692"
+  },
+  {
+    "dropMode": "fishes",
+    "id": "691"
+  },
+  {
+    "dropMode": "fishes",
+    "id": "696"
+  },
+  {
+    "dropMode": "fishes",
+    "id": "689"
+  },
+  {
+    "dropMode": "fishes",
+    "id": "693"
+  },
+  {
+    "dropMode": "fishes",
+    "id": "694"
+  },
+  {
+    "dropMode": "fishes",
+    "id": "583"
+  },
+  {
+    "dropMode": "fishes",
+    "id": "697"
+  },
+  {
     "dropMode": "explores",
     "id": "21"
   },
@@ -986,5 +1038,9 @@
   {
     "dropMode": "fishes",
     "id": "580"
+  },
+  {
+    "dropMode": "fishes",
+    "id": "695"
   }
 ]

@@ -194,7 +194,7 @@
     ],
     "craftPrice": 500,
     "sellPrice": 60000,
-    "fleaMarket": 25
+    "fleaMarket": 10
   },
   {
     "name": "Bone",
@@ -1258,7 +1258,7 @@
         "quantity": 3
       }
     ],
-    "fleaMarket": 10
+    "fleaMarket": 1
   },
   {
     "name": "Cheese",
@@ -3311,7 +3311,7 @@
     "sellPrice": 1750,
     "xp": 1750,
     "rarity": "Uncommon",
-    "fleaMarket": 10
+    "fleaMarket": 3
   },
   {
     "id": "34",
@@ -4860,7 +4860,7 @@
     "sellPrice": 120,
     "xp": 120,
     "givable": true,
-    "rarity": "Common",
+    "rarity": "Very Rare",
     "mastery": true,
     "manualFishingOnly": true
   },
@@ -4930,10 +4930,10 @@
   {
     "id": "467",
     "name": "Gold Boot",
-    "image": "/img/items/goldboot.png?1",
+    "image": "/img/items/gboot.png?1",
     "sellPrice": 500000,
     "xp": 5000,
-    "rarity": "Very Rare",
+    "rarity": "Super Rare",
     "manualFishingOnly": true
   },
   {
@@ -5130,7 +5130,7 @@
   {
     "firstSeen": 1643749229927,
     "id": "483",
-    "name": "Box of Chocolate",
+    "name": "Box of Chocolate 01",
     "image": "/img/items/l_06_t.png?1",
     "event": true,
     "xp": 1,
@@ -5189,7 +5189,29 @@
     "craftPrice": 150,
     "mastery": true,
     "sellPrice": 500,
-    "givable": true
+    "givable": true,
+    "recipe": [
+      {
+        "id": "42",
+        "name": "Feathers",
+        "quantity": 3
+      },
+      {
+        "id": "45",
+        "name": "Fish Bones",
+        "quantity": 1
+      },
+      {
+        "id": "75",
+        "name": "Mushroom Paste",
+        "quantity": 1
+      },
+      {
+        "id": "81",
+        "name": "White Parchment",
+        "quantity": 2
+      }
+    ]
   },
   {
     "firstSeen": 1644110892988,
@@ -6185,7 +6207,7 @@
     "name": "Grab Bag 08",
     "image": "/img/items/4497.png",
     "xp": 1,
-    "rarity": "Uncommon"
+    "rarity": "Super Rare"
   },
   {
     "firstSeen": 1654049057533,
@@ -7122,7 +7144,7 @@
   {
     "firstSeen": 1664326828865,
     "id": "654",
-    "name": "Neigh Neigh",
+    "name": "Neigh",
     "image": "/img/items/vegsoup4.png",
     "xp": 1500,
     "givable": true,
@@ -7131,7 +7153,7 @@
   {
     "firstSeen": 1664326772347,
     "id": "655",
-    "name": "Charles’s Neigh Neigh",
+    "name": "Charles’s Neigh",
     "image": "/img/items/recipe.png",
     "rarity": "Very Rare"
   },
@@ -7159,7 +7181,7 @@
     "firstSeen": 1665099337370,
     "id": "658",
     "name": "Gold Potato",
-    "image": "/img/items/gp.png",
+    "image": "/img/items/gp3.png",
     "rarity": "Super Rare"
   },
   {
@@ -7586,6 +7608,87 @@
     ]
   },
   {
+    "firstSeen": 1673815826765,
+    "name": "Control Box",
+    "id": "681",
+    "image": "/img/items/9306b32.png",
+    "sellPrice": 100000,
+    "craftPrice": 800,
+    "xp": 10000,
+    "rarity": "Uncommon",
+    "mastery": true,
+    "recipe": [
+      {
+        "id": "593",
+        "name": "Broken Pipe",
+        "quantity": 3
+      },
+      {
+        "id": "598",
+        "name": "Machine Part",
+        "quantity": 10
+      },
+      {
+        "id": "177",
+        "name": "Moonstone",
+        "quantity": 3
+      },
+      {
+        "id": "339",
+        "name": "Small Screw",
+        "quantity": 2
+      },
+      {
+        "id": "251",
+        "name": "Small Spring",
+        "quantity": 3
+      },
+      {
+        "id": "592",
+        "name": "Steel Plate",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "firstSeen": 1673815826780,
+    "name": "Kill Switch",
+    "id": "682",
+    "image": "/img/items/9311.png",
+    "sellPrice": 25000,
+    "craftPrice": 250,
+    "xp": 3000,
+    "rarity": "Uncommon",
+    "mastery": true,
+    "recipe": [
+      {
+        "id": "593",
+        "name": "Broken Pipe",
+        "quantity": 1
+      },
+      {
+        "id": "178",
+        "name": "Emberstone",
+        "quantity": 3
+      },
+      {
+        "id": "536",
+        "name": "Red Dye",
+        "quantity": 1
+      },
+      {
+        "id": "601",
+        "name": "Scrap Metal",
+        "quantity": 5
+      },
+      {
+        "id": "600",
+        "name": "Scrap Wire",
+        "quantity": 2
+      }
+    ]
+  },
+  {
     "firstSeen": 1669758218523,
     "id": "683",
     "name": "Pear Grease",
@@ -7610,6 +7713,117 @@
         "id": "596",
         "name": "Prickly Pear",
         "quantity": 30
+      }
+    ]
+  },
+  {
+    "firstSeen": 1673815826784,
+    "name": "Power Monitor",
+    "id": "684",
+    "image": "/img/items/9314.png",
+    "sellPrice": 15000,
+    "craftPrice": 900,
+    "xp": 4500,
+    "rarity": "Uncommon",
+    "mastery": true,
+    "recipe": [
+      {
+        "id": "593",
+        "name": "Broken Pipe",
+        "quantity": 1
+      },
+      {
+        "id": "591",
+        "name": "Copper Wire",
+        "quantity": 1
+      },
+      {
+        "id": "22",
+        "name": "Iron",
+        "quantity": 10
+      },
+      {
+        "id": "213",
+        "name": "Pocket Watch",
+        "quantity": 1
+      },
+      {
+        "id": "597",
+        "name": "Transistor",
+        "quantity": 5
+      }
+    ]
+  },
+  {
+    "firstSeen": 1673815826769,
+    "name": "Engine",
+    "id": "685",
+    "image": "/img/items/engine.png?1",
+    "sellPrice": 1000000,
+    "craftPrice": 250000,
+    "xp": 15000,
+    "rarity": "Uncommon",
+    "mastery": true,
+    "recipe": [
+      {
+        "id": "677",
+        "name": "Belt Drive",
+        "quantity": 1
+      },
+      {
+        "id": "681",
+        "name": "Control Box",
+        "quantity": 1
+      },
+      {
+        "id": "680",
+        "name": "Energy Coil",
+        "quantity": 1
+      },
+      {
+        "id": "341",
+        "name": "Flywheel",
+        "quantity": 1
+      },
+      {
+        "id": "682",
+        "name": "Kill Switch",
+        "quantity": 1
+      },
+      {
+        "id": "176",
+        "name": "Magicite",
+        "quantity": 1
+      },
+      {
+        "id": "683",
+        "name": "Pear Grease",
+        "quantity": 1
+      },
+      {
+        "id": "684",
+        "name": "Power Monitor",
+        "quantity": 1
+      },
+      {
+        "id": "145",
+        "name": "Steel",
+        "quantity": 20
+      },
+      {
+        "id": "592",
+        "name": "Steel Plate",
+        "quantity": 1
+      },
+      {
+        "id": "392",
+        "name": "Steel Wire",
+        "quantity": 50
+      },
+      {
+        "id": "597",
+        "name": "Transistor",
+        "quantity": 12
       }
     ]
   },
@@ -7685,6 +7899,26 @@
     ]
   },
   {
+    "firstSeen": 1672618191708,
+    "id": "688",
+    "name": "Frosteye",
+    "image": "/img/items/frosteye.png",
+    "sellPrice": 9075,
+    "xp": 8250,
+    "rarity": "Common",
+    "mastery": true
+  },
+  {
+    "firstSeen": 1672618207184,
+    "id": "689",
+    "name": "Crowfish",
+    "image": "/img/items/crowfish.png",
+    "sellPrice": 10285,
+    "xp": 8525,
+    "rarity": "Common",
+    "mastery": true
+  },
+  {
     "id": "69",
     "name": "Pumpkin",
     "image": "/img/items/8294.png",
@@ -7692,6 +7926,84 @@
     "xp": 5040,
     "growthTime": 43200,
     "mastery": true
+  },
+  {
+    "firstSeen": 1672618208369,
+    "id": "690",
+    "name": "Bullfish",
+    "image": "/img/items/bullfish.png",
+    "sellPrice": 10890,
+    "xp": 8800,
+    "rarity": "Common",
+    "mastery": true
+  },
+  {
+    "firstSeen": 1672618209417,
+    "id": "691",
+    "name": "Glassback",
+    "image": "/img/items/glassback.png",
+    "sellPrice": 11495,
+    "xp": 9075,
+    "rarity": "Common",
+    "mastery": true
+  },
+  {
+    "firstSeen": 1672618209407,
+    "id": "692",
+    "name": "Sea Crest",
+    "image": "/img/items/seacrest.png",
+    "sellPrice": 12100,
+    "xp": 9350,
+    "rarity": "Common",
+    "mastery": true
+  },
+  {
+    "firstSeen": 1672618209916,
+    "id": "693",
+    "name": "Seeker",
+    "image": "/img/items/seeker.png",
+    "sellPrice": 13310,
+    "xp": 9900,
+    "rarity": "Common",
+    "mastery": true
+  },
+  {
+    "firstSeen": 1672618210936,
+    "id": "694",
+    "name": "Stone Jelly",
+    "image": "/img/items/stonejelly.png",
+    "sellPrice": 12705,
+    "xp": 9625,
+    "rarity": "Common",
+    "mastery": true
+  },
+  {
+    "firstSeen": 1672618210622,
+    "id": "695",
+    "name": "Gold Sea Crest",
+    "image": "/img/items/goldseacrest.png",
+    "sellPrice": 132000,
+    "xp": 10450,
+    "rarity": "Very Rare",
+    "mastery": true
+  },
+  {
+    "firstSeen": 1672618211123,
+    "id": "696",
+    "name": "Ice Shark",
+    "image": "/img/items/iceshark.png",
+    "sellPrice": 14300,
+    "xp": 9900,
+    "rarity": "Common",
+    "mastery": true
+  },
+  {
+    "firstSeen": 1672618176289,
+    "id": "697",
+    "name": "Frost Snapper Shell",
+    "image": "/img/items/iceshell.png",
+    "sellPrice": 110000,
+    "rarity": "Super Rare"
   },
   {
     "firstSeen": 1670880092490,
@@ -7740,6 +8052,68 @@
     "rarity": "Uncommon"
   },
   {
+    "firstSeen": 1672618169622,
+    "id": "703",
+    "name": "Cepathorf's Case",
+    "image": "/img/items/boxes_012.png",
+    "xp": 2500,
+    "rarity": "Uncommon"
+  },
+  {
+    "firstSeen": 1671855962971,
+    "name": "Frozen Playground Key",
+    "id": "704",
+    "image": "/img/items/frozenkey.png",
+    "xp": 2500,
+    "rarity": "Uncommon"
+  },
+  {
+    "firstSeen": 1672618230858,
+    "id": "705",
+    "name": "Winter Basket",
+    "image": "/img/items/winterbasket.png?2",
+    "xp": 1,
+    "givable": true,
+    "rarity": "Very Rare"
+  },
+  {
+    "firstSeen": 1672613154463,
+    "id": "706",
+    "name": "Frozen Peas",
+    "image": "/img/items/frozenpeas.png",
+    "sellPrice": 1000,
+    "xp": 1,
+    "rarity": "Very Rare",
+    "growthTime": 180
+  },
+  {
+    "firstSeen": 1672613152016,
+    "id": "707",
+    "name": "Frozen Cabbage",
+    "image": "/img/items/frozencabbage.png",
+    "sellPrice": 50000,
+    "xp": 1,
+    "rarity": "Very Rare",
+    "growthTime": 28800
+  },
+  {
+    "firstSeen": 1672610357126,
+    "name": "Frozen Pine",
+    "id": "708",
+    "image": "/img/items/frozenpine.png",
+    "sellPrice": 100000,
+    "xp": 1,
+    "rarity": "Uncommon",
+    "growthTime": 28800
+  },
+  {
+    "firstSeen": 1675058272613,
+    "id": "709",
+    "name": "Brooch of the Bahltruvian Elite",
+    "image": "/img/items/brooch.png?1",
+    "rarity": "Super Rare"
+  },
+  {
     "name": "Wheat",
     "id": "71",
     "image": "/img/items/8249.png",
@@ -7747,6 +8121,82 @@
     "xp": 10080,
     "growthTime": 86400,
     "mastery": true
+  },
+  {
+    "firstSeen": 1674519383511,
+    "id": "710",
+    "name": "Glacierstone",
+    "image": "/img/items/icestone.png",
+    "sellPrice": 500000,
+    "rarity": "Very Rare"
+  },
+  {
+    "firstSeen": 1674680219882,
+    "id": "712",
+    "name": "Polished Boot",
+    "image": "/img/items/pboot.png",
+    "sellPrice": 100000,
+    "craftPrice": 500,
+    "xp": 2500,
+    "mastery": true,
+    "recipe": [
+      {
+        "id": "629",
+        "name": "Corn Oil",
+        "quantity": 1
+      },
+      {
+        "id": "116",
+        "name": "Old Boot",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "firstSeen": 1674680221452,
+    "id": "713",
+    "name": "Pair of Boots",
+    "image": "/img/items/pboot2.png",
+    "sellPrice": 210000,
+    "craftPrice": 5,
+    "xp": 2500,
+    "mastery": true,
+    "recipe": [
+      {
+        "id": "712",
+        "name": "Polished Boot",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "firstSeen": 1674881050040,
+    "id": "714",
+    "name": "Bananas",
+    "image": "/img/items/8285.png",
+    "sellPrice": 25000,
+    "xp": 2500,
+    "rarity": "Very Rare"
+  },
+  {
+    "firstSeen": 1675058286227,
+    "id": "715",
+    "name": "Box of Chocolate 02",
+    "image": "/img/items/l_06_t.png?1",
+    "event": true,
+    "xp": 1,
+    "givable": true,
+    "rarity": "Very Rare"
+  },
+  {
+    "firstSeen": 1675058290141,
+    "id": "716",
+    "name": "Lovely Cookies",
+    "image": "/img/items/lcookies.png",
+    "event": true,
+    "xp": 1500,
+    "givable": true,
+    "rarity": "Very Rare"
   },
   {
     "name": "Wooden Barrel",
@@ -8045,7 +8495,7 @@
     ],
     "rarity": "",
     "craftPrice": 2,
-    "fleaMarket": 3
+    "fleaMarket": 2
   },
   {
     "name": "Bone Fish",

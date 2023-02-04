@@ -20728,5 +20728,4085 @@
     "receiveQuantity": 1,
     "completed": false,
     "oneShot": false
+  },
+  {
+    "firstSeen": 1671735467461,
+    "date": "2022-12-22-12",
+    "giveItem": "Arrowhead",
+    "giveQuantity": 100,
+    "receiveItem": "Apple",
+    "receiveQuantity": 50,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1671735467459,
+    "date": "2022-12-22-12",
+    "giveItem": "Bacon",
+    "giveQuantity": 100,
+    "receiveItem": "Honey",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1671735467463,
+    "date": "2022-12-22-12",
+    "giveItem": "Bone",
+    "giveQuantity": 1000,
+    "receiveItem": "Shinefish",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1671735467464,
+    "date": "2022-12-22-12",
+    "giveItem": "Hammer",
+    "giveQuantity": 250,
+    "receiveItem": "Bell",
+    "receiveQuantity": 10,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1671735467463,
+    "date": "2022-12-22-12",
+    "giveItem": "Snail",
+    "giveQuantity": 250,
+    "receiveItem": "Salt",
+    "receiveQuantity": 15,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1671778666327,
+    "date": "2022-12-23-0",
+    "giveItem": "Acorn",
+    "giveQuantity": 250,
+    "receiveItem": "Grapes",
+    "receiveQuantity": 125,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1671778666331,
+    "date": "2022-12-23-0",
+    "giveItem": "Beet Seeds",
+    "giveQuantity": 500,
+    "receiveItem": "Mega Beet Seeds",
+    "receiveQuantity": 50,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1671778666328,
+    "date": "2022-12-23-0",
+    "giveItem": "Jade",
+    "giveQuantity": 100,
+    "receiveItem": "Shark Tooth",
+    "receiveQuantity": 25,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1671778666328,
+    "date": "2022-12-23-0",
+    "giveItem": "Milk",
+    "giveQuantity": 250,
+    "receiveItem": "Gouda",
+    "receiveQuantity": 5,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1671778666330,
+    "date": "2022-12-23-0",
+    "giveItem": "Spider",
+    "giveQuantity": 350,
+    "receiveItem": "Cutlass",
+    "receiveQuantity": 3,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1671819218011,
+    "date": "2022-12-23-12",
+    "giveItem": "Bird Egg",
+    "giveQuantity": 500,
+    "receiveItem": "Arnold Palmer",
+    "receiveQuantity": 5,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1671819218020,
+    "date": "2022-12-23-12",
+    "giveItem": "Blue Gel",
+    "giveQuantity": 500,
+    "receiveItem": "Grab Bag 07",
+    "receiveQuantity": 25,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1671819218016,
+    "date": "2022-12-23-12",
+    "giveItem": "Bone",
+    "giveQuantity": 1000,
+    "receiveItem": "Shinefish",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1671819218017,
+    "date": "2022-12-23-12",
+    "giveItem": "Pocket Watch",
+    "giveQuantity": 100,
+    "receiveItem": "Rubber Duckie",
+    "receiveQuantity": 1,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1671819218014,
+    "date": "2022-12-23-12",
+    "giveItem": "Snail",
+    "giveQuantity": 250,
+    "receiveItem": "Salt",
+    "receiveQuantity": 15,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1671864762989,
+    "date": "2022-12-24-0",
+    "giveItem": "Acorn",
+    "giveQuantity": 250,
+    "receiveItem": "Grapes",
+    "receiveQuantity": 125,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1671864762985,
+    "date": "2022-12-24-0",
+    "giveItem": "Bacon",
+    "giveQuantity": 100,
+    "receiveItem": "Honey",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1671864762992,
+    "date": "2022-12-24-0",
+    "giveItem": "Jade",
+    "giveQuantity": 100,
+    "receiveItem": "Shark Tooth",
+    "receiveQuantity": 25,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1671864762993,
+    "date": "2022-12-24-0",
+    "giveItem": "Milk",
+    "giveQuantity": 250,
+    "receiveItem": "Gouda",
+    "receiveQuantity": 5,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1671864762991,
+    "date": "2022-12-24-0",
+    "giveItem": "Old Boot",
+    "giveQuantity": 50,
+    "receiveItem": "Leather",
+    "receiveQuantity": 50,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1671908263399,
+    "date": "2022-12-24-12",
+    "giveItem": "Arrowhead",
+    "giveQuantity": 100,
+    "receiveItem": "Apple",
+    "receiveQuantity": 50,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1671908263404,
+    "date": "2022-12-24-12",
+    "giveItem": "Beet Seeds",
+    "giveQuantity": 500,
+    "receiveItem": "Mega Beet Seeds",
+    "receiveQuantity": 50,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1671908263400,
+    "date": "2022-12-24-12",
+    "giveItem": "Bird Egg",
+    "giveQuantity": 500,
+    "receiveItem": "Arnold Palmer",
+    "receiveQuantity": 5,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1671908263404,
+    "date": "2022-12-24-12",
+    "giveItem": "Blue Gel",
+    "giveQuantity": 500,
+    "receiveItem": "Grab Bag 07",
+    "receiveQuantity": 25,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1671908263402,
+    "date": "2022-12-24-12",
+    "giveItem": "Bone",
+    "giveQuantity": 1000,
+    "receiveItem": "Shinefish",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1671951462402,
+    "date": "2022-12-25-0",
+    "giveItem": "Jade",
+    "giveQuantity": 100,
+    "receiveItem": "Shark Tooth",
+    "receiveQuantity": 25,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1671951462402,
+    "date": "2022-12-25-0",
+    "giveItem": "Milk",
+    "giveQuantity": 250,
+    "receiveItem": "Gouda",
+    "receiveQuantity": 5,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1671951462401,
+    "date": "2022-12-25-0",
+    "giveItem": "Old Boot",
+    "giveQuantity": 50,
+    "receiveItem": "Leather",
+    "receiveQuantity": 50,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1671951462398,
+    "date": "2022-12-25-0",
+    "giveItem": "Snail",
+    "giveQuantity": 250,
+    "receiveItem": "Salt",
+    "receiveQuantity": 15,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1671951462404,
+    "date": "2022-12-25-0",
+    "giveItem": "Spider",
+    "giveQuantity": 350,
+    "receiveItem": "Cutlass",
+    "receiveQuantity": 3,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1671994661349,
+    "date": "2022-12-25-12",
+    "giveItem": "Acorn",
+    "giveQuantity": 250,
+    "receiveItem": "Grapes",
+    "receiveQuantity": 125,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1671994661350,
+    "date": "2022-12-25-12",
+    "giveItem": "Axe",
+    "giveQuantity": 400,
+    "receiveItem": "Mug of Beer",
+    "receiveQuantity": 3,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1671994661352,
+    "date": "2022-12-25-12",
+    "giveItem": "Beet Seeds",
+    "giveQuantity": 500,
+    "receiveItem": "Mega Beet Seeds",
+    "receiveQuantity": 50,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1671994661352,
+    "date": "2022-12-25-12",
+    "giveItem": "Blue Gel",
+    "giveQuantity": 500,
+    "receiveItem": "Grab Bag 07",
+    "receiveQuantity": 25,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1671994661351,
+    "date": "2022-12-25-12",
+    "giveItem": "Runestone 11",
+    "giveQuantity": 500,
+    "receiveItem": "Buddystone",
+    "receiveQuantity": 1,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672037860336,
+    "date": "2022-12-26-0",
+    "giveItem": "Arrowhead",
+    "giveQuantity": 100,
+    "receiveItem": "Apple",
+    "receiveQuantity": 50,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672037860337,
+    "date": "2022-12-26-0",
+    "giveItem": "Bird Egg",
+    "giveQuantity": 500,
+    "receiveItem": "Arnold Palmer",
+    "receiveQuantity": 5,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672037860337,
+    "date": "2022-12-26-0",
+    "giveItem": "Bone",
+    "giveQuantity": 1000,
+    "receiveItem": "Shinefish",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672037860340,
+    "date": "2022-12-26-0",
+    "giveItem": "Jade",
+    "giveQuantity": 100,
+    "receiveItem": "Shark Tooth",
+    "receiveQuantity": 25,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672037860340,
+    "date": "2022-12-26-0",
+    "giveItem": "Spider",
+    "giveQuantity": 350,
+    "receiveItem": "Cutlass",
+    "receiveQuantity": 3,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672081059455,
+    "date": "2022-12-26-12",
+    "giveItem": "Bacon",
+    "giveQuantity": 100,
+    "receiveItem": "Honey",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672081059463,
+    "date": "2022-12-26-12",
+    "giveItem": "Beet Seeds",
+    "giveQuantity": 500,
+    "receiveItem": "Mega Beet Seeds",
+    "receiveQuantity": 50,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672081059462,
+    "date": "2022-12-26-12",
+    "giveItem": "Hammer",
+    "giveQuantity": 250,
+    "receiveItem": "Bell",
+    "receiveQuantity": 10,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672081059462,
+    "date": "2022-12-26-12",
+    "giveItem": "Milk",
+    "giveQuantity": 250,
+    "receiveItem": "Gouda",
+    "receiveQuantity": 5,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672081059461,
+    "date": "2022-12-26-12",
+    "giveItem": "Old Boot",
+    "giveQuantity": 50,
+    "receiveItem": "Leather",
+    "receiveQuantity": 50,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672124258356,
+    "date": "2022-12-27-0",
+    "giveItem": "Arrowhead",
+    "giveQuantity": 100,
+    "receiveItem": "Apple",
+    "receiveQuantity": 50,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672124258357,
+    "date": "2022-12-27-0",
+    "giveItem": "Bird Egg",
+    "giveQuantity": 500,
+    "receiveItem": "Arnold Palmer",
+    "receiveQuantity": 5,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672124258359,
+    "date": "2022-12-27-0",
+    "giveItem": "Bone",
+    "giveQuantity": 1000,
+    "receiveItem": "Shinefish",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672124258359,
+    "date": "2022-12-27-0",
+    "giveItem": "Jade",
+    "giveQuantity": 100,
+    "receiveItem": "Shark Tooth",
+    "receiveQuantity": 25,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672124258360,
+    "date": "2022-12-27-0",
+    "giveItem": "Runestone 11",
+    "giveQuantity": 500,
+    "receiveItem": "Buddystone",
+    "receiveQuantity": 1,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672167457497,
+    "date": "2022-12-27-12",
+    "giveItem": "Acorn",
+    "giveQuantity": 250,
+    "receiveItem": "Grapes",
+    "receiveQuantity": 125,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672167457497,
+    "date": "2022-12-27-12",
+    "giveItem": "Bacon",
+    "giveQuantity": 100,
+    "receiveItem": "Honey",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672167457501,
+    "date": "2022-12-27-12",
+    "giveItem": "Blue Gel",
+    "giveQuantity": 500,
+    "receiveItem": "Grab Bag 07",
+    "receiveQuantity": 25,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672167457500,
+    "date": "2022-12-27-12",
+    "giveItem": "Milk",
+    "giveQuantity": 250,
+    "receiveItem": "Gouda",
+    "receiveQuantity": 5,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672167457499,
+    "date": "2022-12-27-12",
+    "giveItem": "Snail",
+    "giveQuantity": 250,
+    "receiveItem": "Salt",
+    "receiveQuantity": 15,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672210657905,
+    "date": "2022-12-28-0",
+    "giveItem": "Arrowhead",
+    "giveQuantity": 100,
+    "receiveItem": "Apple",
+    "receiveQuantity": 50,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672210657910,
+    "date": "2022-12-28-0",
+    "giveItem": "Beet Seeds",
+    "giveQuantity": 500,
+    "receiveItem": "Mega Beet Seeds",
+    "receiveQuantity": 50,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672210657907,
+    "date": "2022-12-28-0",
+    "giveItem": "Bone",
+    "giveQuantity": 1000,
+    "receiveItem": "Shinefish",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672210657908,
+    "date": "2022-12-28-0",
+    "giveItem": "Pocket Watch",
+    "giveQuantity": 100,
+    "receiveItem": "Rubber Duckie",
+    "receiveQuantity": 1,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672210657909,
+    "date": "2022-12-28-0",
+    "giveItem": "Runestone 11",
+    "giveQuantity": 500,
+    "receiveItem": "Buddystone",
+    "receiveQuantity": 1,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672253856888,
+    "date": "2022-12-28-12",
+    "giveItem": "Jade",
+    "giveQuantity": 100,
+    "receiveItem": "Shark Tooth",
+    "receiveQuantity": 25,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672253856888,
+    "date": "2022-12-28-12",
+    "giveItem": "Milk",
+    "giveQuantity": 250,
+    "receiveItem": "Gouda",
+    "receiveQuantity": 5,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672253856887,
+    "date": "2022-12-28-12",
+    "giveItem": "Old Boot",
+    "giveQuantity": 50,
+    "receiveItem": "Leather",
+    "receiveQuantity": 50,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672253856886,
+    "date": "2022-12-28-12",
+    "giveItem": "Snail",
+    "giveQuantity": 250,
+    "receiveItem": "Salt",
+    "receiveQuantity": 15,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672253856889,
+    "date": "2022-12-28-12",
+    "giveItem": "Spider",
+    "giveQuantity": 350,
+    "receiveItem": "Cutlass",
+    "receiveQuantity": 3,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672296415238,
+    "date": "2022-12-29-0",
+    "giveItem": "Acorn",
+    "giveQuantity": 250,
+    "receiveItem": "Grapes",
+    "receiveQuantity": 125,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672296415242,
+    "date": "2022-12-29-0",
+    "giveItem": "Axe",
+    "giveQuantity": 400,
+    "receiveItem": "Mug of Beer",
+    "receiveQuantity": 3,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672296415236,
+    "date": "2022-12-29-0",
+    "giveItem": "Bacon",
+    "giveQuantity": 100,
+    "receiveItem": "Honey",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672296415239,
+    "date": "2022-12-29-0",
+    "giveItem": "Bird Egg",
+    "giveQuantity": 500,
+    "receiveItem": "Arnold Palmer",
+    "receiveQuantity": 5,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672296415246,
+    "date": "2022-12-29-0",
+    "giveItem": "Blue Gel",
+    "giveQuantity": 500,
+    "receiveItem": "Grab Bag 07",
+    "receiveQuantity": 25,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672341714063,
+    "date": "2022-12-29-12",
+    "giveItem": "Beet Seeds",
+    "giveQuantity": 500,
+    "receiveItem": "Mega Beet Seeds",
+    "receiveQuantity": 50,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672341714061,
+    "date": "2022-12-29-12",
+    "giveItem": "Milk",
+    "giveQuantity": 250,
+    "receiveItem": "Gouda",
+    "receiveQuantity": 5,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672341714058,
+    "date": "2022-12-29-12",
+    "giveItem": "Old Boot",
+    "giveQuantity": 50,
+    "receiveItem": "Leather",
+    "receiveQuantity": 50,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672341714062,
+    "date": "2022-12-29-12",
+    "giveItem": "Pocket Watch",
+    "giveQuantity": 100,
+    "receiveItem": "Rubber Duckie",
+    "receiveQuantity": 1,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672341714062,
+    "date": "2022-12-29-12",
+    "giveItem": "Spider",
+    "giveQuantity": 350,
+    "receiveItem": "Cutlass",
+    "receiveQuantity": 3,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672381313182,
+    "date": "2022-12-30-0",
+    "giveItem": "Axe",
+    "giveQuantity": 400,
+    "receiveItem": "Mug of Beer",
+    "receiveQuantity": 3,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672381313176,
+    "date": "2022-12-30-0",
+    "giveItem": "Bacon",
+    "giveQuantity": 100,
+    "receiveItem": "Honey",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672381313183,
+    "date": "2022-12-30-0",
+    "giveItem": "Blue Gel",
+    "giveQuantity": 500,
+    "receiveItem": "Grab Bag 07",
+    "receiveQuantity": 25,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672381313181,
+    "date": "2022-12-30-0",
+    "giveItem": "Bone",
+    "giveQuantity": 1000,
+    "receiveItem": "Shinefish",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672381313178,
+    "date": "2022-12-30-0",
+    "giveItem": "Snail",
+    "giveQuantity": 250,
+    "receiveItem": "Salt",
+    "receiveQuantity": 15,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672424512159,
+    "date": "2022-12-30-12",
+    "giveItem": "Acorn",
+    "giveQuantity": 250,
+    "receiveItem": "Grapes",
+    "receiveQuantity": 125,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672424512160,
+    "date": "2022-12-30-12",
+    "giveItem": "Jade",
+    "giveQuantity": 100,
+    "receiveItem": "Shark Tooth",
+    "receiveQuantity": 25,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672424512161,
+    "date": "2022-12-30-12",
+    "giveItem": "Pocket Watch",
+    "giveQuantity": 100,
+    "receiveItem": "Rubber Duckie",
+    "receiveQuantity": 1,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672424512161,
+    "date": "2022-12-30-12",
+    "giveItem": "Runestone 11",
+    "giveQuantity": 500,
+    "receiveItem": "Buddystone",
+    "receiveQuantity": 1,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672424512161,
+    "date": "2022-12-30-12",
+    "giveItem": "Spider",
+    "giveQuantity": 350,
+    "receiveItem": "Cutlass",
+    "receiveQuantity": 3,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672467711134,
+    "date": "2022-12-31-0",
+    "giveItem": "Arrowhead",
+    "giveQuantity": 100,
+    "receiveItem": "Apple",
+    "receiveQuantity": 50,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672467711135,
+    "date": "2022-12-31-0",
+    "giveItem": "Axe",
+    "giveQuantity": 400,
+    "receiveItem": "Mug of Beer",
+    "receiveQuantity": 3,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672467711138,
+    "date": "2022-12-31-0",
+    "giveItem": "Beet Seeds",
+    "giveQuantity": 500,
+    "receiveItem": "Mega Beet Seeds",
+    "receiveQuantity": 50,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672467711137,
+    "date": "2022-12-31-0",
+    "giveItem": "Hammer",
+    "giveQuantity": 250,
+    "receiveItem": "Bell",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672467711135,
+    "date": "2022-12-31-0",
+    "giveItem": "Milk",
+    "giveQuantity": 250,
+    "receiveItem": "Gouda",
+    "receiveQuantity": 5,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672510910217,
+    "date": "2022-12-31-12",
+    "giveItem": "Acorn",
+    "giveQuantity": 250,
+    "receiveItem": "Grapes",
+    "receiveQuantity": 125,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672510910219,
+    "date": "2022-12-31-12",
+    "giveItem": "Bird Egg",
+    "giveQuantity": 500,
+    "receiveItem": "Arnold Palmer",
+    "receiveQuantity": 5,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672510910221,
+    "date": "2022-12-31-12",
+    "giveItem": "Jade",
+    "giveQuantity": 100,
+    "receiveItem": "Shark Tooth",
+    "receiveQuantity": 25,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672510910221,
+    "date": "2022-12-31-12",
+    "giveItem": "Pocket Watch",
+    "giveQuantity": 100,
+    "receiveItem": "Rubber Duckie",
+    "receiveQuantity": 1,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672510910223,
+    "date": "2022-12-31-12",
+    "giveItem": "Runestone 11",
+    "giveQuantity": 500,
+    "receiveItem": "Buddystone",
+    "receiveQuantity": 1,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672554109236,
+    "date": "2023-01-01-0",
+    "giveItem": "Arrowhead",
+    "giveQuantity": 100,
+    "receiveItem": "Apple",
+    "receiveQuantity": 50,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672554109238,
+    "date": "2023-01-01-0",
+    "giveItem": "Axe",
+    "giveQuantity": 400,
+    "receiveItem": "Mug of Beer",
+    "receiveQuantity": 3,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672554109240,
+    "date": "2023-01-01-0",
+    "giveItem": "Beet Seeds",
+    "giveQuantity": 500,
+    "receiveItem": "Mega Beet Seeds",
+    "receiveQuantity": 50,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672554109244,
+    "date": "2023-01-01-0",
+    "giveItem": "Blue Gel",
+    "giveQuantity": 500,
+    "receiveItem": "Grab Bag 07",
+    "receiveQuantity": 25,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672554109239,
+    "date": "2023-01-01-0",
+    "giveItem": "Hammer",
+    "giveQuantity": 250,
+    "receiveItem": "Bell",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672597308137,
+    "date": "2023-01-01-12",
+    "giveItem": "Bird Egg",
+    "giveQuantity": 500,
+    "receiveItem": "Arnold Palmer",
+    "receiveQuantity": 5,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672597308138,
+    "date": "2023-01-01-12",
+    "giveItem": "Old Boot",
+    "giveQuantity": 50,
+    "receiveItem": "Leather",
+    "receiveQuantity": 50,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672597308140,
+    "date": "2023-01-01-12",
+    "giveItem": "Pocket Watch",
+    "giveQuantity": 100,
+    "receiveItem": "Rubber Duckie",
+    "receiveQuantity": 1,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672597308141,
+    "date": "2023-01-01-12",
+    "giveItem": "Runestone 11",
+    "giveQuantity": 500,
+    "receiveItem": "Buddystone",
+    "receiveQuantity": 1,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672597308138,
+    "date": "2023-01-01-12",
+    "giveItem": "Snail",
+    "giveQuantity": 250,
+    "receiveItem": "Salt",
+    "receiveQuantity": 15,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672640507176,
+    "date": "2023-01-02-0",
+    "giveItem": "Acorn",
+    "giveQuantity": 250,
+    "receiveItem": "Grapes",
+    "receiveQuantity": 125,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672640507175,
+    "date": "2023-01-02-0",
+    "giveItem": "Bacon",
+    "giveQuantity": 100,
+    "receiveItem": "Honey",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672640507178,
+    "date": "2023-01-02-0",
+    "giveItem": "Hammer",
+    "giveQuantity": 250,
+    "receiveItem": "Bell",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672640507177,
+    "date": "2023-01-02-0",
+    "giveItem": "Jade",
+    "giveQuantity": 100,
+    "receiveItem": "Shark Tooth",
+    "receiveQuantity": 25,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672640507180,
+    "date": "2023-01-02-0",
+    "giveItem": "Spider",
+    "giveQuantity": 350,
+    "receiveItem": "Cutlass",
+    "receiveQuantity": 3,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672683706246,
+    "date": "2023-01-02-12",
+    "giveItem": "Axe",
+    "giveQuantity": 400,
+    "receiveItem": "Mug of Beer",
+    "receiveQuantity": 3,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672683706253,
+    "date": "2023-01-02-12",
+    "giveItem": "Beet Seeds",
+    "giveQuantity": 500,
+    "receiveItem": "Mega Beet Seeds",
+    "receiveQuantity": 50,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672683706242,
+    "date": "2023-01-02-12",
+    "giveItem": "Bone",
+    "giveQuantity": 1000,
+    "receiveItem": "Shinefish",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672683706248,
+    "date": "2023-01-02-12",
+    "giveItem": "Milk",
+    "giveQuantity": 250,
+    "receiveItem": "Gouda",
+    "receiveQuantity": 5,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672683706250,
+    "date": "2023-01-02-12",
+    "giveItem": "Pocket Watch",
+    "giveQuantity": 100,
+    "receiveItem": "Rubber Duckie",
+    "receiveQuantity": 1,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672726659114,
+    "date": "2023-01-03-0",
+    "giveItem": "Bacon",
+    "giveQuantity": 100,
+    "receiveItem": "Honey",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672726659117,
+    "date": "2023-01-03-0",
+    "giveItem": "Jade",
+    "giveQuantity": 100,
+    "receiveItem": "Shark Tooth",
+    "receiveQuantity": 25,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672726659116,
+    "date": "2023-01-03-0",
+    "giveItem": "Old Boot",
+    "giveQuantity": 50,
+    "receiveItem": "Leather",
+    "receiveQuantity": 50,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672726659118,
+    "date": "2023-01-03-0",
+    "giveItem": "Runestone 11",
+    "giveQuantity": 500,
+    "receiveItem": "Buddystone",
+    "receiveQuantity": 1,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672726659115,
+    "date": "2023-01-03-0",
+    "giveItem": "Snail",
+    "giveQuantity": 250,
+    "receiveItem": "Salt",
+    "receiveQuantity": 15,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672769858122,
+    "date": "2023-01-03-12",
+    "giveItem": "Axe",
+    "giveQuantity": 400,
+    "receiveItem": "Mug of Beer",
+    "receiveQuantity": 3,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672769858129,
+    "date": "2023-01-03-12",
+    "giveItem": "Beet Seeds",
+    "giveQuantity": 500,
+    "receiveItem": "Mega Beet Seeds",
+    "receiveQuantity": 50,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672769858132,
+    "date": "2023-01-03-12",
+    "giveItem": "Blue Gel",
+    "giveQuantity": 500,
+    "receiveItem": "Grab Bag 07",
+    "receiveQuantity": 25,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672769858127,
+    "date": "2023-01-03-12",
+    "giveItem": "Hammer",
+    "giveQuantity": 250,
+    "receiveItem": "Bell",
+    "receiveQuantity": 10,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672769858125,
+    "date": "2023-01-03-12",
+    "giveItem": "Milk",
+    "giveQuantity": 250,
+    "receiveItem": "Gouda",
+    "receiveQuantity": 5,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672813057186,
+    "date": "2023-01-04-0",
+    "giveItem": "Arrowhead",
+    "giveQuantity": 100,
+    "receiveItem": "Apple",
+    "receiveQuantity": 50,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672813057181,
+    "date": "2023-01-04-0",
+    "giveItem": "Bacon",
+    "giveQuantity": 100,
+    "receiveItem": "Honey",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672813057187,
+    "date": "2023-01-04-0",
+    "giveItem": "Bird Egg",
+    "giveQuantity": 500,
+    "receiveItem": "Arnold Palmer",
+    "receiveQuantity": 5,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672813057189,
+    "date": "2023-01-04-0",
+    "giveItem": "Bone",
+    "giveQuantity": 1000,
+    "receiveItem": "Shinefish",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672813057193,
+    "date": "2023-01-04-0",
+    "giveItem": "Pocket Watch",
+    "giveQuantity": 100,
+    "receiveItem": "Rubber Duckie",
+    "receiveQuantity": 1,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672856256078,
+    "date": "2023-01-04-12",
+    "giveItem": "Acorn",
+    "giveQuantity": 250,
+    "receiveItem": "Grapes",
+    "receiveQuantity": 125,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672856256081,
+    "date": "2023-01-04-12",
+    "giveItem": "Axe",
+    "giveQuantity": 400,
+    "receiveItem": "Mug of Beer",
+    "receiveQuantity": 3,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672856256083,
+    "date": "2023-01-04-12",
+    "giveItem": "Runestone 11",
+    "giveQuantity": 500,
+    "receiveItem": "Buddystone",
+    "receiveQuantity": 1,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672856256079,
+    "date": "2023-01-04-12",
+    "giveItem": "Snail",
+    "giveQuantity": 250,
+    "receiveItem": "Salt",
+    "receiveQuantity": 15,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672856256084,
+    "date": "2023-01-04-12",
+    "giveItem": "Spider",
+    "giveQuantity": 350,
+    "receiveItem": "Cutlass",
+    "receiveQuantity": 3,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672899455045,
+    "date": "2023-01-05-0",
+    "giveItem": "Beet Seeds",
+    "giveQuantity": 500,
+    "receiveItem": "Mega Beet Seeds",
+    "receiveQuantity": 50,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672899455042,
+    "date": "2023-01-05-0",
+    "giveItem": "Bird Egg",
+    "giveQuantity": 500,
+    "receiveItem": "Arnold Palmer",
+    "receiveQuantity": 5,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672899455047,
+    "date": "2023-01-05-0",
+    "giveItem": "Blue Gel",
+    "giveQuantity": 500,
+    "receiveItem": "Grab Bag 07",
+    "receiveQuantity": 25,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672899455044,
+    "date": "2023-01-05-0",
+    "giveItem": "Bone",
+    "giveQuantity": 1000,
+    "receiveItem": "Shinefish",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672899455045,
+    "date": "2023-01-05-0",
+    "giveItem": "Jade",
+    "giveQuantity": 100,
+    "receiveItem": "Shark Tooth",
+    "receiveQuantity": 25,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672942654055,
+    "date": "2023-01-05-12",
+    "giveItem": "Acorn",
+    "giveQuantity": 250,
+    "receiveItem": "Grapes",
+    "receiveQuantity": 125,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672942654050,
+    "date": "2023-01-05-12",
+    "giveItem": "Arrowhead",
+    "giveQuantity": 100,
+    "receiveItem": "Apple",
+    "receiveQuantity": 50,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672942654045,
+    "date": "2023-01-05-12",
+    "giveItem": "Bacon",
+    "giveQuantity": 100,
+    "receiveItem": "Honey",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672942654058,
+    "date": "2023-01-05-12",
+    "giveItem": "Milk",
+    "giveQuantity": 250,
+    "receiveItem": "Gouda",
+    "receiveQuantity": 5,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672942654062,
+    "date": "2023-01-05-12",
+    "giveItem": "Spider",
+    "giveQuantity": 350,
+    "receiveItem": "Cutlass",
+    "receiveQuantity": 3,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672985852951,
+    "date": "2023-01-06-0",
+    "giveItem": "Axe",
+    "giveQuantity": 400,
+    "receiveItem": "Mug of Beer",
+    "receiveQuantity": 3,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672985852948,
+    "date": "2023-01-06-0",
+    "giveItem": "Bone",
+    "giveQuantity": 1000,
+    "receiveItem": "Shinefish",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672985852951,
+    "date": "2023-01-06-0",
+    "giveItem": "Jade",
+    "giveQuantity": 100,
+    "receiveItem": "Shark Tooth",
+    "receiveQuantity": 25,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672985852949,
+    "date": "2023-01-06-0",
+    "giveItem": "Old Boot",
+    "giveQuantity": 50,
+    "receiveItem": "Leather",
+    "receiveQuantity": 50,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1672985852948,
+    "date": "2023-01-06-0",
+    "giveItem": "Snail",
+    "giveQuantity": 250,
+    "receiveItem": "Salt",
+    "receiveQuantity": 15,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673029052125,
+    "date": "2023-01-06-12",
+    "giveItem": "Arrowhead",
+    "giveQuantity": 100,
+    "receiveItem": "Apple",
+    "receiveQuantity": 50,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673029052124,
+    "date": "2023-01-06-12",
+    "giveItem": "Bacon",
+    "giveQuantity": 100,
+    "receiveItem": "Honey",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673029052127,
+    "date": "2023-01-06-12",
+    "giveItem": "Beet Seeds",
+    "giveQuantity": 500,
+    "receiveItem": "Mega Beet Seeds",
+    "receiveQuantity": 50,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673029052128,
+    "date": "2023-01-06-12",
+    "giveItem": "Blue Gel",
+    "giveQuantity": 500,
+    "receiveItem": "Grab Bag 07",
+    "receiveQuantity": 25,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673029052127,
+    "date": "2023-01-06-12",
+    "giveItem": "Runestone 11",
+    "giveQuantity": 500,
+    "receiveItem": "Buddystone",
+    "receiveQuantity": 1,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673072250973,
+    "date": "2023-01-07-0",
+    "giveItem": "Acorn",
+    "giveQuantity": 250,
+    "receiveItem": "Grapes",
+    "receiveQuantity": 125,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673072250974,
+    "date": "2023-01-07-0",
+    "giveItem": "Bird Egg",
+    "giveQuantity": 500,
+    "receiveItem": "Arnold Palmer",
+    "receiveQuantity": 5,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673072250976,
+    "date": "2023-01-07-0",
+    "giveItem": "Milk",
+    "giveQuantity": 250,
+    "receiveItem": "Gouda",
+    "receiveQuantity": 5,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673072250975,
+    "date": "2023-01-07-0",
+    "giveItem": "Snail",
+    "giveQuantity": 250,
+    "receiveItem": "Salt",
+    "receiveQuantity": 15,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673072250978,
+    "date": "2023-01-07-0",
+    "giveItem": "Spider",
+    "giveQuantity": 350,
+    "receiveItem": "Cutlass",
+    "receiveQuantity": 3,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673115449924,
+    "date": "2023-01-07-12",
+    "giveItem": "Beet Seeds",
+    "giveQuantity": 500,
+    "receiveItem": "Mega Beet Seeds",
+    "receiveQuantity": 50,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673115449925,
+    "date": "2023-01-07-12",
+    "giveItem": "Blue Gel",
+    "giveQuantity": 500,
+    "receiveItem": "Grab Bag 07",
+    "receiveQuantity": 25,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673115449922,
+    "date": "2023-01-07-12",
+    "giveItem": "Bone",
+    "giveQuantity": 1000,
+    "receiveItem": "Shinefish",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673115449924,
+    "date": "2023-01-07-12",
+    "giveItem": "Jade",
+    "giveQuantity": 100,
+    "receiveItem": "Shark Tooth",
+    "receiveQuantity": 25,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673115449923,
+    "date": "2023-01-07-12",
+    "giveItem": "Old Boot",
+    "giveQuantity": 50,
+    "receiveItem": "Leather",
+    "receiveQuantity": 50,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673158649508,
+    "date": "2023-01-08-0",
+    "giveItem": "Acorn",
+    "giveQuantity": 250,
+    "receiveItem": "Grapes",
+    "receiveQuantity": 125,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673158649505,
+    "date": "2023-01-08-0",
+    "giveItem": "Bacon",
+    "giveQuantity": 100,
+    "receiveItem": "Honey",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673158649513,
+    "date": "2023-01-08-0",
+    "giveItem": "Hammer",
+    "giveQuantity": 250,
+    "receiveItem": "Bell",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673158649515,
+    "date": "2023-01-08-0",
+    "giveItem": "Pocket Watch",
+    "giveQuantity": 100,
+    "receiveItem": "Rubber Duckie",
+    "receiveQuantity": 1,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673158649517,
+    "date": "2023-01-08-0",
+    "giveItem": "Spider",
+    "giveQuantity": 350,
+    "receiveItem": "Cutlass",
+    "receiveQuantity": 3,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673201848164,
+    "date": "2023-01-08-12",
+    "giveItem": "Arrowhead",
+    "giveQuantity": 100,
+    "receiveItem": "Apple",
+    "receiveQuantity": 50,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673201848167,
+    "date": "2023-01-08-12",
+    "giveItem": "Axe",
+    "giveQuantity": 400,
+    "receiveItem": "Mug of Beer",
+    "receiveQuantity": 3,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673201848168,
+    "date": "2023-01-08-12",
+    "giveItem": "Beet Seeds",
+    "giveQuantity": 500,
+    "receiveItem": "Mega Beet Seeds",
+    "receiveQuantity": 50,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673201848168,
+    "date": "2023-01-08-12",
+    "giveItem": "Runestone 11",
+    "giveQuantity": 500,
+    "receiveItem": "Buddystone",
+    "receiveQuantity": 1,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673201848165,
+    "date": "2023-01-08-12",
+    "giveItem": "Snail",
+    "giveQuantity": 250,
+    "receiveItem": "Salt",
+    "receiveQuantity": 15,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673245047082,
+    "date": "2023-01-09-0",
+    "giveItem": "Acorn",
+    "giveQuantity": 250,
+    "receiveItem": "Grapes",
+    "receiveQuantity": 125,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673245047083,
+    "date": "2023-01-09-0",
+    "giveItem": "Bone",
+    "giveQuantity": 1000,
+    "receiveItem": "Shinefish",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673245047086,
+    "date": "2023-01-09-0",
+    "giveItem": "Milk",
+    "giveQuantity": 250,
+    "receiveItem": "Gouda",
+    "receiveQuantity": 5,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673245047084,
+    "date": "2023-01-09-0",
+    "giveItem": "Old Boot",
+    "giveQuantity": 50,
+    "receiveItem": "Leather",
+    "receiveQuantity": 50,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673245047087,
+    "date": "2023-01-09-0",
+    "giveItem": "Spider",
+    "giveQuantity": 350,
+    "receiveItem": "Cutlass",
+    "receiveQuantity": 3,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673288246172,
+    "date": "2023-01-09-12",
+    "giveItem": "Arrowhead",
+    "giveQuantity": 100,
+    "receiveItem": "Apple",
+    "receiveQuantity": 50,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673288246171,
+    "date": "2023-01-09-12",
+    "giveItem": "Bacon",
+    "giveQuantity": 100,
+    "receiveItem": "Honey",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673288246175,
+    "date": "2023-01-09-12",
+    "giveItem": "Beet Seeds",
+    "giveQuantity": 500,
+    "receiveItem": "Mega Beet Seeds",
+    "receiveQuantity": 50,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673288246173,
+    "date": "2023-01-09-12",
+    "giveItem": "Bird Egg",
+    "giveQuantity": 500,
+    "receiveItem": "Arnold Palmer",
+    "receiveQuantity": 5,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673288246174,
+    "date": "2023-01-09-12",
+    "giveItem": "Pocket Watch",
+    "giveQuantity": 100,
+    "receiveItem": "Rubber Duckie",
+    "receiveQuantity": 1,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673331445160,
+    "date": "2023-01-10-0",
+    "giveItem": "Acorn",
+    "giveQuantity": 250,
+    "receiveItem": "Grapes",
+    "receiveQuantity": 125,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673331445171,
+    "date": "2023-01-10-0",
+    "giveItem": "Axe",
+    "giveQuantity": 400,
+    "receiveItem": "Mug of Beer",
+    "receiveQuantity": 3,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673331445169,
+    "date": "2023-01-10-0",
+    "giveItem": "Bone",
+    "giveQuantity": 1000,
+    "receiveItem": "Shinefish",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673331445173,
+    "date": "2023-01-10-0",
+    "giveItem": "Milk",
+    "giveQuantity": 250,
+    "receiveItem": "Gouda",
+    "receiveQuantity": 5,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673331445180,
+    "date": "2023-01-10-0",
+    "giveItem": "Runestone 11",
+    "giveQuantity": 500,
+    "receiveItem": "Buddystone",
+    "receiveQuantity": 1,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673374645989,
+    "date": "2023-01-10-12",
+    "giveItem": "Arrowhead",
+    "giveQuantity": 100,
+    "receiveItem": "Apple",
+    "receiveQuantity": 50,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673374645995,
+    "date": "2023-01-10-12",
+    "giveItem": "Beet Seeds",
+    "giveQuantity": 500,
+    "receiveItem": "Mega Beet Seeds",
+    "receiveQuantity": 50,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673374645991,
+    "date": "2023-01-10-12",
+    "giveItem": "Bird Egg",
+    "giveQuantity": 500,
+    "receiveItem": "Arnold Palmer",
+    "receiveQuantity": 5,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673385445068,
+    "date": "2023-01-10-12",
+    "giveItem": "Cabbage",
+    "giveQuantity": 100,
+    "receiveItem": "Frozen Cabbage",
+    "receiveQuantity": 5,
+    "completed": false,
+    "oneShot": true
+  },
+  {
+    "firstSeen": 1673374645994,
+    "date": "2023-01-10-12",
+    "giveItem": "Jade",
+    "giveQuantity": 100,
+    "receiveItem": "Shark Tooth",
+    "receiveQuantity": 25,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673385445067,
+    "date": "2023-01-10-12",
+    "giveItem": "Peas",
+    "giveQuantity": 500,
+    "receiveItem": "Frozen Peas",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": true
+  },
+  {
+    "firstSeen": 1673385445069,
+    "date": "2023-01-10-12",
+    "giveItem": "Pine Tree",
+    "giveQuantity": 100,
+    "receiveItem": "Frozen Pine",
+    "receiveQuantity": 5,
+    "completed": false,
+    "oneShot": true
+  },
+  {
+    "firstSeen": 1673374645993,
+    "date": "2023-01-10-12",
+    "giveItem": "Snail",
+    "giveQuantity": 250,
+    "receiveItem": "Salt",
+    "receiveQuantity": 15,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673417844464,
+    "date": "2023-01-11-0",
+    "giveItem": "Axe",
+    "giveQuantity": 400,
+    "receiveItem": "Mug of Beer",
+    "receiveQuantity": 3,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673417844462,
+    "date": "2023-01-11-0",
+    "giveItem": "Bacon",
+    "giveQuantity": 100,
+    "receiveItem": "Honey",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673417844463,
+    "date": "2023-01-11-0",
+    "giveItem": "Bone",
+    "giveQuantity": 1000,
+    "receiveItem": "Shinefish",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673417844465,
+    "date": "2023-01-11-0",
+    "giveItem": "Runestone 11",
+    "giveQuantity": 500,
+    "receiveItem": "Buddystone",
+    "receiveQuantity": 1,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673417844466,
+    "date": "2023-01-11-0",
+    "giveItem": "Spider",
+    "giveQuantity": 350,
+    "receiveItem": "Cutlass",
+    "receiveQuantity": 3,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673461044201,
+    "date": "2023-01-11-12",
+    "giveItem": "Acorn",
+    "giveQuantity": 250,
+    "receiveItem": "Grapes",
+    "receiveQuantity": 125,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673461044200,
+    "date": "2023-01-11-12",
+    "giveItem": "Arrowhead",
+    "giveQuantity": 100,
+    "receiveItem": "Apple",
+    "receiveQuantity": 50,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673461044204,
+    "date": "2023-01-11-12",
+    "giveItem": "Beet Seeds",
+    "giveQuantity": 500,
+    "receiveItem": "Mega Beet Seeds",
+    "receiveQuantity": 50,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673461044203,
+    "date": "2023-01-11-12",
+    "giveItem": "Jade",
+    "giveQuantity": 100,
+    "receiveItem": "Shark Tooth",
+    "receiveQuantity": 25,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673461044202,
+    "date": "2023-01-11-12",
+    "giveItem": "Old Boot",
+    "giveQuantity": 50,
+    "receiveItem": "Leather",
+    "receiveQuantity": 50,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673504243497,
+    "date": "2023-01-12-0",
+    "giveItem": "Bird Egg",
+    "giveQuantity": 500,
+    "receiveItem": "Arnold Palmer",
+    "receiveQuantity": 5,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673504243505,
+    "date": "2023-01-12-0",
+    "giveItem": "Blue Gel",
+    "giveQuantity": 500,
+    "receiveItem": "Grab Bag 07",
+    "receiveQuantity": 25,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673504243499,
+    "date": "2023-01-12-0",
+    "giveItem": "Pocket Watch",
+    "giveQuantity": 100,
+    "receiveItem": "Rubber Duckie",
+    "receiveQuantity": 1,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673504243503,
+    "date": "2023-01-12-0",
+    "giveItem": "Runestone 11",
+    "giveQuantity": 500,
+    "receiveItem": "Buddystone",
+    "receiveQuantity": 1,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673504243504,
+    "date": "2023-01-12-0",
+    "giveItem": "Spider",
+    "giveQuantity": 350,
+    "receiveItem": "Cutlass",
+    "receiveQuantity": 3,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673547441334,
+    "date": "2023-01-12-12",
+    "giveItem": "Acorn",
+    "giveQuantity": 250,
+    "receiveItem": "Grapes",
+    "receiveQuantity": 125,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673547441339,
+    "date": "2023-01-12-12",
+    "giveItem": "Hammer",
+    "giveQuantity": 250,
+    "receiveItem": "Bell",
+    "receiveQuantity": 10,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673547441337,
+    "date": "2023-01-12-12",
+    "giveItem": "Milk",
+    "giveQuantity": 250,
+    "receiveItem": "Gouda",
+    "receiveQuantity": 5,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673547441336,
+    "date": "2023-01-12-12",
+    "giveItem": "Old Boot",
+    "giveQuantity": 50,
+    "receiveItem": "Leather",
+    "receiveQuantity": 50,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673547441335,
+    "date": "2023-01-12-12",
+    "giveItem": "Snail",
+    "giveQuantity": 250,
+    "receiveItem": "Salt",
+    "receiveQuantity": 15,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673590640359,
+    "date": "2023-01-13-0",
+    "giveItem": "Arrowhead",
+    "giveQuantity": 100,
+    "receiveItem": "Apple",
+    "receiveQuantity": 50,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673590640363,
+    "date": "2023-01-13-0",
+    "giveItem": "Beet Seeds",
+    "giveQuantity": 500,
+    "receiveItem": "Mega Beet Seeds",
+    "receiveQuantity": 50,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673590640360,
+    "date": "2023-01-13-0",
+    "giveItem": "Bird Egg",
+    "giveQuantity": 500,
+    "receiveItem": "Arnold Palmer",
+    "receiveQuantity": 5,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673590640361,
+    "date": "2023-01-13-0",
+    "giveItem": "Jade",
+    "giveQuantity": 100,
+    "receiveItem": "Shark Tooth",
+    "receiveQuantity": 25,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673590640363,
+    "date": "2023-01-13-0",
+    "giveItem": "Pocket Watch",
+    "giveQuantity": 100,
+    "receiveItem": "Rubber Duckie",
+    "receiveQuantity": 1,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673633839401,
+    "date": "2023-01-13-12",
+    "giveItem": "Axe",
+    "giveQuantity": 400,
+    "receiveItem": "Mug of Beer",
+    "receiveQuantity": 3,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673633839397,
+    "date": "2023-01-13-12",
+    "giveItem": "Bacon",
+    "giveQuantity": 100,
+    "receiveItem": "Honey",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673633839402,
+    "date": "2023-01-13-12",
+    "giveItem": "Hammer",
+    "giveQuantity": 250,
+    "receiveItem": "Bell",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673633839401,
+    "date": "2023-01-13-12",
+    "giveItem": "Milk",
+    "giveQuantity": 250,
+    "receiveItem": "Gouda",
+    "receiveQuantity": 5,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673633839402,
+    "date": "2023-01-13-12",
+    "giveItem": "Spider",
+    "giveQuantity": 350,
+    "receiveItem": "Cutlass",
+    "receiveQuantity": 3,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673677476879,
+    "date": "2023-01-14-0",
+    "giveItem": "Arrowhead",
+    "giveQuantity": 100,
+    "receiveItem": "Apple",
+    "receiveQuantity": 50,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673677476881,
+    "date": "2023-01-14-0",
+    "giveItem": "Blue Gel",
+    "giveQuantity": 500,
+    "receiveItem": "Grab Bag 07",
+    "receiveQuantity": 25,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673677476880,
+    "date": "2023-01-14-0",
+    "giveItem": "Bone",
+    "giveQuantity": 1000,
+    "receiveItem": "Shinefish",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673677476881,
+    "date": "2023-01-14-0",
+    "giveItem": "Jade",
+    "giveQuantity": 100,
+    "receiveItem": "Shark Tooth",
+    "receiveQuantity": 25,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673677476879,
+    "date": "2023-01-14-0",
+    "giveItem": "Snail",
+    "giveQuantity": 250,
+    "receiveItem": "Salt",
+    "receiveQuantity": 15,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673720675898,
+    "date": "2023-01-14-12",
+    "giveItem": "Axe",
+    "giveQuantity": 400,
+    "receiveItem": "Mug of Beer",
+    "receiveQuantity": 3,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673720675897,
+    "date": "2023-01-14-12",
+    "giveItem": "Bacon",
+    "giveQuantity": 100,
+    "receiveItem": "Honey",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673720675900,
+    "date": "2023-01-14-12",
+    "giveItem": "Beet Seeds",
+    "giveQuantity": 500,
+    "receiveItem": "Mega Beet Seeds",
+    "receiveQuantity": 50,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673720675899,
+    "date": "2023-01-14-12",
+    "giveItem": "Pocket Watch",
+    "giveQuantity": 100,
+    "receiveItem": "Rubber Duckie",
+    "receiveQuantity": 1,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673720675899,
+    "date": "2023-01-14-12",
+    "giveItem": "Runestone 11",
+    "giveQuantity": 500,
+    "receiveItem": "Buddystone",
+    "receiveQuantity": 1,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673814604684,
+    "date": "2023-01-15-12",
+    "giveItem": "Acorn",
+    "giveQuantity": 250,
+    "receiveItem": "Grapes",
+    "receiveQuantity": 125,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673814604682,
+    "date": "2023-01-15-12",
+    "giveItem": "Bacon",
+    "giveQuantity": 100,
+    "receiveItem": "Honey",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673814604685,
+    "date": "2023-01-15-12",
+    "giveItem": "Bird Egg",
+    "giveQuantity": 500,
+    "receiveItem": "Arnold Palmer",
+    "receiveQuantity": 5,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673814604686,
+    "date": "2023-01-15-12",
+    "giveItem": "Blue Gel",
+    "giveQuantity": 500,
+    "receiveItem": "Grab Bag 07",
+    "receiveQuantity": 25,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673814604686,
+    "date": "2023-01-15-12",
+    "giveItem": "Pocket Watch",
+    "giveQuantity": 100,
+    "receiveItem": "Rubber Duckie",
+    "receiveQuantity": 1,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673852992103,
+    "date": "2023-01-16-0",
+    "giveItem": "Arrowhead",
+    "giveQuantity": 100,
+    "receiveItem": "Apple",
+    "receiveQuantity": 50,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673852992104,
+    "date": "2023-01-16-0",
+    "giveItem": "Bone",
+    "giveQuantity": 1000,
+    "receiveItem": "Shinefish",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673852992106,
+    "date": "2023-01-16-0",
+    "giveItem": "Old Boot",
+    "giveQuantity": 50,
+    "receiveItem": "Leather",
+    "receiveQuantity": 50,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673852992107,
+    "date": "2023-01-16-0",
+    "giveItem": "Runestone 11",
+    "giveQuantity": 500,
+    "receiveItem": "Buddystone",
+    "receiveQuantity": 1,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673852992107,
+    "date": "2023-01-16-0",
+    "giveItem": "Spider",
+    "giveQuantity": 350,
+    "receiveItem": "Cutlass",
+    "receiveQuantity": 3,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673892310143,
+    "date": "2023-01-16-12",
+    "giveItem": "Axe",
+    "giveQuantity": 400,
+    "receiveItem": "Mug of Beer",
+    "receiveQuantity": 3,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673892310141,
+    "date": "2023-01-16-12",
+    "giveItem": "Bacon",
+    "giveQuantity": 100,
+    "receiveItem": "Honey",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673892310145,
+    "date": "2023-01-16-12",
+    "giveItem": "Beet Seeds",
+    "giveQuantity": 500,
+    "receiveItem": "Mega Beet Seeds",
+    "receiveQuantity": 50,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673892310142,
+    "date": "2023-01-16-12",
+    "giveItem": "Bird Egg",
+    "giveQuantity": 500,
+    "receiveItem": "Arnold Palmer",
+    "receiveQuantity": 5,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673892310143,
+    "date": "2023-01-16-12",
+    "giveItem": "Jade",
+    "giveQuantity": 100,
+    "receiveItem": "Shark Tooth",
+    "receiveQuantity": 25,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673978563438,
+    "date": "2023-01-17-12",
+    "giveItem": "Arrowhead",
+    "giveQuantity": 100,
+    "receiveItem": "Apple",
+    "receiveQuantity": 50,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673978563441,
+    "date": "2023-01-17-12",
+    "giveItem": "Axe",
+    "giveQuantity": 400,
+    "receiveItem": "Mug of Beer",
+    "receiveQuantity": 3,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673978563442,
+    "date": "2023-01-17-12",
+    "giveItem": "Beet Seeds",
+    "giveQuantity": 500,
+    "receiveItem": "Mega Beet Seeds",
+    "receiveQuantity": 50,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673978563439,
+    "date": "2023-01-17-12",
+    "giveItem": "Bone",
+    "giveQuantity": 1000,
+    "receiveItem": "Shinefish",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1673978563441,
+    "date": "2023-01-17-12",
+    "giveItem": "Runestone 11",
+    "giveQuantity": 500,
+    "receiveItem": "Buddystone",
+    "receiveQuantity": 1,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674026924422,
+    "date": "2023-01-18-0",
+    "giveItem": "Bird Egg",
+    "giveQuantity": 500,
+    "receiveItem": "Arnold Palmer",
+    "receiveQuantity": 5,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674026924426,
+    "date": "2023-01-18-0",
+    "giveItem": "Hammer",
+    "giveQuantity": 250,
+    "receiveItem": "Bell",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674026924425,
+    "date": "2023-01-18-0",
+    "giveItem": "Old Boot",
+    "giveQuantity": 50,
+    "receiveItem": "Leather",
+    "receiveQuantity": 50,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674026924427,
+    "date": "2023-01-18-0",
+    "giveItem": "Pocket Watch",
+    "giveQuantity": 100,
+    "receiveItem": "Rubber Duckie",
+    "receiveQuantity": 1,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674026924425,
+    "date": "2023-01-18-0",
+    "giveItem": "Snail",
+    "giveQuantity": 250,
+    "receiveItem": "Salt",
+    "receiveQuantity": 15,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674069927135,
+    "date": "2023-01-18-12",
+    "giveItem": "Axe",
+    "giveQuantity": 400,
+    "receiveItem": "Mug of Beer",
+    "receiveQuantity": 3,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674069927133,
+    "date": "2023-01-18-12",
+    "giveItem": "Bacon",
+    "giveQuantity": 100,
+    "receiveItem": "Honey",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674069927139,
+    "date": "2023-01-18-12",
+    "giveItem": "Beet Seeds",
+    "giveQuantity": 500,
+    "receiveItem": "Mega Beet Seeds",
+    "receiveQuantity": 50,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674069927134,
+    "date": "2023-01-18-12",
+    "giveItem": "Bone",
+    "giveQuantity": 1000,
+    "receiveItem": "Shinefish",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674069927137,
+    "date": "2023-01-18-12",
+    "giveItem": "Spider",
+    "giveQuantity": 350,
+    "receiveItem": "Cutlass",
+    "receiveQuantity": 3,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674108518114,
+    "date": "2023-01-19-0",
+    "giveItem": "Acorn",
+    "giveQuantity": 250,
+    "receiveItem": "Grapes",
+    "receiveQuantity": 125,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674108518116,
+    "date": "2023-01-19-0",
+    "giveItem": "Bird Egg",
+    "giveQuantity": 500,
+    "receiveItem": "Arnold Palmer",
+    "receiveQuantity": 5,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674108518119,
+    "date": "2023-01-19-0",
+    "giveItem": "Jade",
+    "giveQuantity": 100,
+    "receiveItem": "Shark Tooth",
+    "receiveQuantity": 25,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674108518118,
+    "date": "2023-01-19-0",
+    "giveItem": "Old Boot",
+    "giveQuantity": 50,
+    "receiveItem": "Leather",
+    "receiveQuantity": 50,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674108518119,
+    "date": "2023-01-19-0",
+    "giveItem": "Runestone 11",
+    "giveQuantity": 500,
+    "receiveItem": "Buddystone",
+    "receiveQuantity": 1,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674151717330,
+    "date": "2023-01-19-12",
+    "giveItem": "Arrowhead",
+    "giveQuantity": 100,
+    "receiveItem": "Apple",
+    "receiveQuantity": 50,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674151717333,
+    "date": "2023-01-19-12",
+    "giveItem": "Beet Seeds",
+    "giveQuantity": 500,
+    "receiveItem": "Mega Beet Seeds",
+    "receiveQuantity": 50,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674151717332,
+    "date": "2023-01-19-12",
+    "giveItem": "Bone",
+    "giveQuantity": 1000,
+    "receiveItem": "Shinefish",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674151717331,
+    "date": "2023-01-19-12",
+    "giveItem": "Snail",
+    "giveQuantity": 250,
+    "receiveItem": "Salt",
+    "receiveQuantity": 15,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674151717332,
+    "date": "2023-01-19-12",
+    "giveItem": "Spider",
+    "giveQuantity": 350,
+    "receiveItem": "Cutlass",
+    "receiveQuantity": 3,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674194916300,
+    "date": "2023-01-20-0",
+    "giveItem": "Acorn",
+    "giveQuantity": 250,
+    "receiveItem": "Grapes",
+    "receiveQuantity": 125,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674194916297,
+    "date": "2023-01-20-0",
+    "giveItem": "Bacon",
+    "giveQuantity": 100,
+    "receiveItem": "Honey",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674194916303,
+    "date": "2023-01-20-0",
+    "giveItem": "Hammer",
+    "giveQuantity": 250,
+    "receiveItem": "Bell",
+    "receiveQuantity": 10,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674194916301,
+    "date": "2023-01-20-0",
+    "giveItem": "Milk",
+    "giveQuantity": 250,
+    "receiveItem": "Gouda",
+    "receiveQuantity": 5,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674194916304,
+    "date": "2023-01-20-0",
+    "giveItem": "Runestone 11",
+    "giveQuantity": 500,
+    "receiveItem": "Buddystone",
+    "receiveQuantity": 1,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674238115338,
+    "date": "2023-01-20-12",
+    "giveItem": "Arrowhead",
+    "giveQuantity": 100,
+    "receiveItem": "Apple",
+    "receiveQuantity": 50,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674238115340,
+    "date": "2023-01-20-12",
+    "giveItem": "Axe",
+    "giveQuantity": 400,
+    "receiveItem": "Mug of Beer",
+    "receiveQuantity": 3,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674238115341,
+    "date": "2023-01-20-12",
+    "giveItem": "Beet Seeds",
+    "giveQuantity": 500,
+    "receiveItem": "Mega Beet Seeds",
+    "receiveQuantity": 50,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674238115341,
+    "date": "2023-01-20-12",
+    "giveItem": "Blue Gel",
+    "giveQuantity": 500,
+    "receiveItem": "Grab Bag 07",
+    "receiveQuantity": 25,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674238115341,
+    "date": "2023-01-20-12",
+    "giveItem": "Spider",
+    "giveQuantity": 350,
+    "receiveItem": "Cutlass",
+    "receiveQuantity": 3,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674281314369,
+    "date": "2023-01-21-0",
+    "giveItem": "Bone",
+    "giveQuantity": 1000,
+    "receiveItem": "Shinefish",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674281314371,
+    "date": "2023-01-21-0",
+    "giveItem": "Hammer",
+    "giveQuantity": 250,
+    "receiveItem": "Bell",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674281314370,
+    "date": "2023-01-21-0",
+    "giveItem": "Jade",
+    "giveQuantity": 100,
+    "receiveItem": "Shark Tooth",
+    "receiveQuantity": 25,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674281314370,
+    "date": "2023-01-21-0",
+    "giveItem": "Milk",
+    "giveQuantity": 250,
+    "receiveItem": "Gouda",
+    "receiveQuantity": 5,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674281314367,
+    "date": "2023-01-21-0",
+    "giveItem": "Snail",
+    "giveQuantity": 250,
+    "receiveItem": "Salt",
+    "receiveQuantity": 15,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674324513345,
+    "date": "2023-01-21-12",
+    "giveItem": "Bird Egg",
+    "giveQuantity": 500,
+    "receiveItem": "Arnold Palmer",
+    "receiveQuantity": 5,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674324513352,
+    "date": "2023-01-21-12",
+    "giveItem": "Blue Gel",
+    "giveQuantity": 500,
+    "receiveItem": "Grab Bag 07",
+    "receiveQuantity": 25,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674324513347,
+    "date": "2023-01-21-12",
+    "giveItem": "Old Boot",
+    "giveQuantity": 50,
+    "receiveItem": "Leather",
+    "receiveQuantity": 50,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674324513347,
+    "date": "2023-01-21-12",
+    "giveItem": "Pocket Watch",
+    "giveQuantity": 100,
+    "receiveItem": "Rubber Duckie",
+    "receiveQuantity": 1,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674324513352,
+    "date": "2023-01-21-12",
+    "giveItem": "Spider",
+    "giveQuantity": 350,
+    "receiveItem": "Cutlass",
+    "receiveQuantity": 3,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674367712280,
+    "date": "2023-01-22-0",
+    "giveItem": "Acorn",
+    "giveQuantity": 250,
+    "receiveItem": "Grapes",
+    "receiveQuantity": 125,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674367712282,
+    "date": "2023-01-22-0",
+    "giveItem": "Axe",
+    "giveQuantity": 400,
+    "receiveItem": "Mug of Beer",
+    "receiveQuantity": 3,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674367712278,
+    "date": "2023-01-22-0",
+    "giveItem": "Bacon",
+    "giveQuantity": 100,
+    "receiveItem": "Honey",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674367712287,
+    "date": "2023-01-22-0",
+    "giveItem": "Beet Seeds",
+    "giveQuantity": 500,
+    "receiveItem": "Mega Beet Seeds",
+    "receiveQuantity": 50,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674367712285,
+    "date": "2023-01-22-0",
+    "giveItem": "Jade",
+    "giveQuantity": 100,
+    "receiveItem": "Shark Tooth",
+    "receiveQuantity": 25,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674410912143,
+    "date": "2023-01-22-12",
+    "giveItem": "Bone",
+    "giveQuantity": 1000,
+    "receiveItem": "Shinefish",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674410912148,
+    "date": "2023-01-22-12",
+    "giveItem": "Milk",
+    "giveQuantity": 250,
+    "receiveItem": "Gouda",
+    "receiveQuantity": 5,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674410912152,
+    "date": "2023-01-22-12",
+    "giveItem": "Pocket Watch",
+    "giveQuantity": 100,
+    "receiveItem": "Rubber Duckie",
+    "receiveQuantity": 1,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674410912137,
+    "date": "2023-01-22-12",
+    "giveItem": "Snail",
+    "giveQuantity": 250,
+    "receiveItem": "Salt",
+    "receiveQuantity": 15,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674410912157,
+    "date": "2023-01-22-12",
+    "giveItem": "Spider",
+    "giveQuantity": 350,
+    "receiveItem": "Cutlass",
+    "receiveQuantity": 3,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674454110345,
+    "date": "2023-01-23-0",
+    "giveItem": "Acorn",
+    "giveQuantity": 250,
+    "receiveItem": "Grapes",
+    "receiveQuantity": 125,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674454110342,
+    "date": "2023-01-23-0",
+    "giveItem": "Bacon",
+    "giveQuantity": 100,
+    "receiveItem": "Honey",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674454110349,
+    "date": "2023-01-23-0",
+    "giveItem": "Beet Seeds",
+    "giveQuantity": 500,
+    "receiveItem": "Mega Beet Seeds",
+    "receiveQuantity": 50,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674454110350,
+    "date": "2023-01-23-0",
+    "giveItem": "Blue Gel",
+    "giveQuantity": 500,
+    "receiveItem": "Grab Bag 07",
+    "receiveQuantity": 25,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674454110347,
+    "date": "2023-01-23-0",
+    "giveItem": "Old Boot",
+    "giveQuantity": 50,
+    "receiveItem": "Leather",
+    "receiveQuantity": 50,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674497309365,
+    "date": "2023-01-23-12",
+    "giveItem": "Arrowhead",
+    "giveQuantity": 100,
+    "receiveItem": "Apple",
+    "receiveQuantity": 50,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674497309368,
+    "date": "2023-01-23-12",
+    "giveItem": "Bird Egg",
+    "giveQuantity": 500,
+    "receiveItem": "Arnold Palmer",
+    "receiveQuantity": 5,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674497309376,
+    "date": "2023-01-23-12",
+    "giveItem": "Pocket Watch",
+    "giveQuantity": 100,
+    "receiveItem": "Rubber Duckie",
+    "receiveQuantity": 1,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674497309379,
+    "date": "2023-01-23-12",
+    "giveItem": "Runestone 11",
+    "giveQuantity": 500,
+    "receiveItem": "Buddystone",
+    "receiveQuantity": 1,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674497309373,
+    "date": "2023-01-23-12",
+    "giveItem": "Snail",
+    "giveQuantity": 250,
+    "receiveItem": "Salt",
+    "receiveQuantity": 15,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674540508396,
+    "date": "2023-01-24-0",
+    "giveItem": "Beet Seeds",
+    "giveQuantity": 500,
+    "receiveItem": "Mega Beet Seeds",
+    "receiveQuantity": 50,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674540508397,
+    "date": "2023-01-24-0",
+    "giveItem": "Blue Gel",
+    "giveQuantity": 500,
+    "receiveItem": "Grab Bag 07",
+    "receiveQuantity": 25,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674540508386,
+    "date": "2023-01-24-0",
+    "giveItem": "Bone",
+    "giveQuantity": 1000,
+    "receiveItem": "Shinefish",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674540508390,
+    "date": "2023-01-24-0",
+    "giveItem": "Jade",
+    "giveQuantity": 100,
+    "receiveItem": "Shark Tooth",
+    "receiveQuantity": 25,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674540508393,
+    "date": "2023-01-24-0",
+    "giveItem": "Spider",
+    "giveQuantity": 350,
+    "receiveItem": "Cutlass",
+    "receiveQuantity": 3,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674583707428,
+    "date": "2023-01-24-12",
+    "giveItem": "Bird Egg",
+    "giveQuantity": 500,
+    "receiveItem": "Arnold Palmer",
+    "receiveQuantity": 5,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674583707435,
+    "date": "2023-01-24-12",
+    "giveItem": "Hammer",
+    "giveQuantity": 250,
+    "receiveItem": "Bell",
+    "receiveQuantity": 10,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674583707434,
+    "date": "2023-01-24-12",
+    "giveItem": "Milk",
+    "giveQuantity": 250,
+    "receiveItem": "Gouda",
+    "receiveQuantity": 5,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674583707437,
+    "date": "2023-01-24-12",
+    "giveItem": "Runestone 11",
+    "giveQuantity": 500,
+    "receiveItem": "Buddystone",
+    "receiveQuantity": 1,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674583707432,
+    "date": "2023-01-24-12",
+    "giveItem": "Snail",
+    "giveQuantity": 250,
+    "receiveItem": "Salt",
+    "receiveQuantity": 15,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674626906912,
+    "date": "2023-01-25-0",
+    "giveItem": "Arrowhead",
+    "giveQuantity": 100,
+    "receiveItem": "Apple",
+    "receiveQuantity": 50,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674626906916,
+    "date": "2023-01-25-0",
+    "giveItem": "Axe",
+    "giveQuantity": 400,
+    "receiveItem": "Mug of Beer",
+    "receiveQuantity": 3,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674626906917,
+    "date": "2023-01-25-0",
+    "giveItem": "Beet Seeds",
+    "giveQuantity": 500,
+    "receiveItem": "Mega Beet Seeds",
+    "receiveQuantity": 50,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674626906915,
+    "date": "2023-01-25-0",
+    "giveItem": "Bone",
+    "giveQuantity": 1000,
+    "receiveItem": "Shinefish",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674626906917,
+    "date": "2023-01-25-0",
+    "giveItem": "Pocket Watch",
+    "giveQuantity": 100,
+    "receiveItem": "Rubber Duckie",
+    "receiveQuantity": 1,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674670106960,
+    "date": "2023-01-25-12",
+    "giveItem": "Acorn",
+    "giveQuantity": 250,
+    "receiveItem": "Grapes",
+    "receiveQuantity": 125,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674670106966,
+    "date": "2023-01-25-12",
+    "giveItem": "Hammer",
+    "giveQuantity": 250,
+    "receiveItem": "Bell",
+    "receiveQuantity": 10,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674670106965,
+    "date": "2023-01-25-12",
+    "giveItem": "Old Boot",
+    "giveQuantity": 50,
+    "receiveItem": "Leather",
+    "receiveQuantity": 50,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674670106963,
+    "date": "2023-01-25-12",
+    "giveItem": "Snail",
+    "giveQuantity": 250,
+    "receiveItem": "Salt",
+    "receiveQuantity": 15,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674670106967,
+    "date": "2023-01-25-12",
+    "giveItem": "Spider",
+    "giveQuantity": 350,
+    "receiveItem": "Cutlass",
+    "receiveQuantity": 3,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674713319886,
+    "date": "2023-01-26-0",
+    "giveItem": "Bird Egg",
+    "giveQuantity": 500,
+    "receiveItem": "Arnold Palmer",
+    "receiveQuantity": 5,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674713319907,
+    "date": "2023-01-26-0",
+    "giveItem": "Blue Gel",
+    "giveQuantity": 500,
+    "receiveItem": "Grab Bag 07",
+    "receiveQuantity": 25,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674713319889,
+    "date": "2023-01-26-0",
+    "giveItem": "Bone",
+    "giveQuantity": 1000,
+    "receiveItem": "Shinefish",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674713319891,
+    "date": "2023-01-26-0",
+    "giveItem": "Jade",
+    "giveQuantity": 100,
+    "receiveItem": "Shark Tooth",
+    "receiveQuantity": 25,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674713319895,
+    "date": "2023-01-26-0",
+    "giveItem": "Runestone 11",
+    "giveQuantity": 500,
+    "receiveItem": "Buddystone",
+    "receiveQuantity": 1,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674756507916,
+    "date": "2023-01-26-12",
+    "giveItem": "Axe",
+    "giveQuantity": 400,
+    "receiveItem": "Mug of Beer",
+    "receiveQuantity": 3,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674756507914,
+    "date": "2023-01-26-12",
+    "giveItem": "Bacon",
+    "giveQuantity": 100,
+    "receiveItem": "Honey",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674756507917,
+    "date": "2023-01-26-12",
+    "giveItem": "Beet Seeds",
+    "giveQuantity": 500,
+    "receiveItem": "Mega Beet Seeds",
+    "receiveQuantity": 50,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674756507917,
+    "date": "2023-01-26-12",
+    "giveItem": "Hammer",
+    "giveQuantity": 250,
+    "receiveItem": "Bell",
+    "receiveQuantity": 10,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674756507917,
+    "date": "2023-01-26-12",
+    "giveItem": "Pocket Watch",
+    "giveQuantity": 100,
+    "receiveItem": "Rubber Duckie",
+    "receiveQuantity": 1,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674799706875,
+    "date": "2023-01-27-0",
+    "giveItem": "Acorn",
+    "giveQuantity": 250,
+    "receiveItem": "Grapes",
+    "receiveQuantity": 125,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674799706877,
+    "date": "2023-01-27-0",
+    "giveItem": "Jade",
+    "giveQuantity": 100,
+    "receiveItem": "Shark Tooth",
+    "receiveQuantity": 25,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674799706878,
+    "date": "2023-01-27-0",
+    "giveItem": "Milk",
+    "giveQuantity": 250,
+    "receiveItem": "Gouda",
+    "receiveQuantity": 5,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674799706878,
+    "date": "2023-01-27-0",
+    "giveItem": "Runestone 11",
+    "giveQuantity": 500,
+    "receiveItem": "Buddystone",
+    "receiveQuantity": 1,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674799706876,
+    "date": "2023-01-27-0",
+    "giveItem": "Snail",
+    "giveQuantity": 250,
+    "receiveItem": "Salt",
+    "receiveQuantity": 15,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674842905875,
+    "date": "2023-01-27-12",
+    "giveItem": "Axe",
+    "giveQuantity": 400,
+    "receiveItem": "Mug of Beer",
+    "receiveQuantity": 3,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674842905873,
+    "date": "2023-01-27-12",
+    "giveItem": "Bacon",
+    "giveQuantity": 100,
+    "receiveItem": "Honey",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674842905877,
+    "date": "2023-01-27-12",
+    "giveItem": "Beet Seeds",
+    "giveQuantity": 500,
+    "receiveItem": "Mega Beet Seeds",
+    "receiveQuantity": 50,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674842905875,
+    "date": "2023-01-27-12",
+    "giveItem": "Bone",
+    "giveQuantity": 1000,
+    "receiveItem": "Shinefish",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674842905876,
+    "date": "2023-01-27-12",
+    "giveItem": "Hammer",
+    "giveQuantity": 250,
+    "receiveItem": "Bell",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674887957561,
+    "date": "2023-01-28-0",
+    "giveItem": "Acorn",
+    "giveQuantity": 250,
+    "receiveItem": "Grapes",
+    "receiveQuantity": 125,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674887957562,
+    "date": "2023-01-28-0",
+    "giveItem": "Old Boot",
+    "giveQuantity": 50,
+    "receiveItem": "Leather",
+    "receiveQuantity": 50,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674887957564,
+    "date": "2023-01-28-0",
+    "giveItem": "Pocket Watch",
+    "giveQuantity": 100,
+    "receiveItem": "Rubber Duckie",
+    "receiveQuantity": 1,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674887957561,
+    "date": "2023-01-28-0",
+    "giveItem": "Snail",
+    "giveQuantity": 250,
+    "receiveItem": "Salt",
+    "receiveQuantity": 15,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674887957564,
+    "date": "2023-01-28-0",
+    "giveItem": "Spider",
+    "giveQuantity": 350,
+    "receiveItem": "Cutlass",
+    "receiveQuantity": 3,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674931156609,
+    "date": "2023-01-28-12",
+    "giveItem": "Arrowhead",
+    "giveQuantity": 100,
+    "receiveItem": "Apple",
+    "receiveQuantity": 50,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674931156611,
+    "date": "2023-01-28-12",
+    "giveItem": "Beet Seeds",
+    "giveQuantity": 500,
+    "receiveItem": "Mega Beet Seeds",
+    "receiveQuantity": 50,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674931156611,
+    "date": "2023-01-28-12",
+    "giveItem": "Blue Gel",
+    "giveQuantity": 500,
+    "receiveItem": "Grab Bag 07",
+    "receiveQuantity": 25,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674931156610,
+    "date": "2023-01-28-12",
+    "giveItem": "Hammer",
+    "giveQuantity": 250,
+    "receiveItem": "Bell",
+    "receiveQuantity": 10,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674931156609,
+    "date": "2023-01-28-12",
+    "giveItem": "Milk",
+    "giveQuantity": 250,
+    "receiveItem": "Gouda",
+    "receiveQuantity": 5,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674974355601,
+    "date": "2023-01-29-0",
+    "giveItem": "Bacon",
+    "giveQuantity": 100,
+    "receiveItem": "Honey",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674974355601,
+    "date": "2023-01-29-0",
+    "giveItem": "Bird Egg",
+    "giveQuantity": 500,
+    "receiveItem": "Arnold Palmer",
+    "receiveQuantity": 5,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674974355601,
+    "date": "2023-01-29-0",
+    "giveItem": "Old Boot",
+    "giveQuantity": 50,
+    "receiveItem": "Leather",
+    "receiveQuantity": 50,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674974355603,
+    "date": "2023-01-29-0",
+    "giveItem": "Pocket Watch",
+    "giveQuantity": 100,
+    "receiveItem": "Rubber Duckie",
+    "receiveQuantity": 1,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1674974355603,
+    "date": "2023-01-29-0",
+    "giveItem": "Runestone 11",
+    "giveQuantity": 500,
+    "receiveItem": "Buddystone",
+    "receiveQuantity": 1,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1675017554612,
+    "date": "2023-01-29-12",
+    "giveItem": "Arrowhead",
+    "giveQuantity": 100,
+    "receiveItem": "Apple",
+    "receiveQuantity": 50,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1675017554614,
+    "date": "2023-01-29-12",
+    "giveItem": "Axe",
+    "giveQuantity": 400,
+    "receiveItem": "Mug of Beer",
+    "receiveQuantity": 3,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1675017554616,
+    "date": "2023-01-29-12",
+    "giveItem": "Beet Seeds",
+    "giveQuantity": 500,
+    "receiveItem": "Mega Beet Seeds",
+    "receiveQuantity": 50,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1675017554616,
+    "date": "2023-01-29-12",
+    "giveItem": "Blue Gel",
+    "giveQuantity": 500,
+    "receiveItem": "Grab Bag 07",
+    "receiveQuantity": 25,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1675017554615,
+    "date": "2023-01-29-12",
+    "giveItem": "Milk",
+    "giveQuantity": 250,
+    "receiveItem": "Gouda",
+    "receiveQuantity": 5,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1675060753430,
+    "date": "2023-01-30-0",
+    "giveItem": "Bacon",
+    "giveQuantity": 100,
+    "receiveItem": "Honey",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1675060753432,
+    "date": "2023-01-30-0",
+    "giveItem": "Bird Egg",
+    "giveQuantity": 500,
+    "receiveItem": "Arnold Palmer",
+    "receiveQuantity": 5,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1675060753433,
+    "date": "2023-01-30-0",
+    "giveItem": "Hammer",
+    "giveQuantity": 250,
+    "receiveItem": "Bell",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1675060753433,
+    "date": "2023-01-30-0",
+    "giveItem": "Jade",
+    "giveQuantity": 100,
+    "receiveItem": "Shark Tooth",
+    "receiveQuantity": 25,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1675060753432,
+    "date": "2023-01-30-0",
+    "giveItem": "Snail",
+    "giveQuantity": 250,
+    "receiveItem": "Salt",
+    "receiveQuantity": 15,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1675103952539,
+    "date": "2023-01-30-12",
+    "giveItem": "Axe",
+    "giveQuantity": 400,
+    "receiveItem": "Mug of Beer",
+    "receiveQuantity": 3,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1675103952620,
+    "date": "2023-01-30-12",
+    "giveItem": "Blue Gel",
+    "giveQuantity": 500,
+    "receiveItem": "Grab Bag 07",
+    "receiveQuantity": 25,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1675103952555,
+    "date": "2023-01-30-12",
+    "giveItem": "Milk",
+    "giveQuantity": 250,
+    "receiveItem": "Gouda",
+    "receiveQuantity": 5,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1675103952576,
+    "date": "2023-01-30-12",
+    "giveItem": "Runestone 11",
+    "giveQuantity": 500,
+    "receiveItem": "Buddystone",
+    "receiveQuantity": 1,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1675103952598,
+    "date": "2023-01-30-12",
+    "giveItem": "Spider",
+    "giveQuantity": 350,
+    "receiveItem": "Cutlass",
+    "receiveQuantity": 3,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1675147151497,
+    "date": "2023-01-31-0",
+    "giveItem": "Acorn",
+    "giveQuantity": 250,
+    "receiveItem": "Grapes",
+    "receiveQuantity": 125,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1675147151497,
+    "date": "2023-01-31-0",
+    "giveItem": "Arrowhead",
+    "giveQuantity": 100,
+    "receiveItem": "Apple",
+    "receiveQuantity": 50,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1675147151495,
+    "date": "2023-01-31-0",
+    "giveItem": "Bacon",
+    "giveQuantity": 100,
+    "receiveItem": "Honey",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1675147151502,
+    "date": "2023-01-31-0",
+    "giveItem": "Bird Egg",
+    "giveQuantity": 500,
+    "receiveItem": "Arnold Palmer",
+    "receiveQuantity": 5,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1675147151502,
+    "date": "2023-01-31-0",
+    "giveItem": "Snail",
+    "giveQuantity": 250,
+    "receiveItem": "Salt",
+    "receiveQuantity": 15,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1675190350571,
+    "date": "2023-01-31-12",
+    "giveItem": "Bone",
+    "giveQuantity": 1000,
+    "receiveItem": "Shinefish",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1675190350573,
+    "date": "2023-01-31-12",
+    "giveItem": "Hammer",
+    "giveQuantity": 250,
+    "receiveItem": "Bell",
+    "receiveQuantity": 10,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1675190350572,
+    "date": "2023-01-31-12",
+    "giveItem": "Milk",
+    "giveQuantity": 250,
+    "receiveItem": "Gouda",
+    "receiveQuantity": 5,
+    "completed": true,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1675190350573,
+    "date": "2023-01-31-12",
+    "giveItem": "Pocket Watch",
+    "giveQuantity": 100,
+    "receiveItem": "Rubber Duckie",
+    "receiveQuantity": 1,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1675190350574,
+    "date": "2023-01-31-12",
+    "giveItem": "Runestone 11",
+    "giveQuantity": 500,
+    "receiveItem": "Buddystone",
+    "receiveQuantity": 1,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1675233549395,
+    "date": "2023-02-01-0",
+    "giveItem": "Acorn",
+    "giveQuantity": 250,
+    "receiveItem": "Grapes",
+    "receiveQuantity": 125,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1675233549393,
+    "date": "2023-02-01-0",
+    "giveItem": "Arrowhead",
+    "giveQuantity": 100,
+    "receiveItem": "Apple",
+    "receiveQuantity": 50,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1675233549397,
+    "date": "2023-02-01-0",
+    "giveItem": "Jade",
+    "giveQuantity": 100,
+    "receiveItem": "Shark Tooth",
+    "receiveQuantity": 25,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1675233549396,
+    "date": "2023-02-01-0",
+    "giveItem": "Old Boot",
+    "giveQuantity": 50,
+    "receiveItem": "Leather",
+    "receiveQuantity": 50,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1675233549398,
+    "date": "2023-02-01-0",
+    "giveItem": "Spider",
+    "giveQuantity": 350,
+    "receiveItem": "Cutlass",
+    "receiveQuantity": 3,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1675276748548,
+    "date": "2023-02-01-12",
+    "giveItem": "Bacon",
+    "giveQuantity": 100,
+    "receiveItem": "Honey",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1675276748549,
+    "date": "2023-02-01-12",
+    "giveItem": "Bone",
+    "giveQuantity": 1000,
+    "receiveItem": "Shinefish",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1675276748551,
+    "date": "2023-02-01-12",
+    "giveItem": "Hammer",
+    "giveQuantity": 250,
+    "receiveItem": "Bell",
+    "receiveQuantity": 10,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1675276748550,
+    "date": "2023-02-01-12",
+    "giveItem": "Milk",
+    "giveQuantity": 250,
+    "receiveItem": "Gouda",
+    "receiveQuantity": 5,
+    "completed": false,
+    "oneShot": false
+  },
+  {
+    "firstSeen": 1675276748551,
+    "date": "2023-02-01-12",
+    "giveItem": "Pocket Watch",
+    "giveQuantity": 100,
+    "receiveItem": "Rubber Duckie",
+    "receiveQuantity": 1,
+    "completed": false,
+    "oneShot": false
   }
 ]

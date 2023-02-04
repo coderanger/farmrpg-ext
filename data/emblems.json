@@ -2327,6 +2327,24 @@
     "beta": false
   },
   {
+    "firstSeen": 1673068651489,
+    "id": "547",
+    "image": "img/emblems/AshesPentagorn96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1673068651490,
+    "id": "548",
+    "image": "img/emblems/DragonHeart96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1675060753742,
+    "id": "549",
+    "image": "img/emblems/MagicMirror96.png",
+    "beta": false
+  },
+  {
     "firstSeen": 1666281919699,
     "id": "550",
     "image": "img/emblems/TowerLevel30OCharm-v3-96.png",
@@ -2611,6 +2629,144 @@
     "firstSeen": 1671590525336,
     "id": "608",
     "image": "img/emblems/88417D95-5B8F-4FC0-9A5B-1655496BBCA4.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1671753467142,
+    "id": "610",
+    "image": "img/emblems/169891A6-05BF-4DBE-BC24-B511B7C511A9.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1672676506538,
+    "id": "611",
+    "image": "img/emblems/52CFE2FE-E543-4100-BC3E-AF25D1766710.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1672676506539,
+    "id": "612",
+    "image": "img/emblems/A4ED2884-0FA8-4436-9294-13B37F4A914B.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1672701705973,
+    "id": "613",
+    "image": "img/emblems/DC03D55B-2DF6-4808-AEAE-FBAD708EAAB6.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1672701705975,
+    "id": "614",
+    "image": "img/emblems/7E6B140A-570E-4D7F-8FF0-8C75B53DE45C.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1672701705975,
+    "id": "615",
+    "image": "img/emblems/69938277-96E7-4015-BE45-8C67D9D7E59B.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1672712259717,
+    "id": "616",
+    "image": "img/emblems/7222D957-14FC-4B8D-8C3D-8F0154870B22.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1672759058612,
+    "id": "617",
+    "image": "img/emblems/48701B98-1B6A-42BE-90C7-60998BFDE7B9.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1672849056470,
+    "id": "619",
+    "image": "img/emblems/3007E06B-2C5A-47F1-AA7A-1F47E663AA96.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1672946254092,
+    "id": "620",
+    "image": "img/emblems/2DB9B8C9-5D9F-4947-9BBE-428A8016B6EC.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1673054251739,
+    "id": "624",
+    "image": "img/emblems/0F390623-E535-4518-8B52-4EBA4765F920.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1673054251806,
+    "id": "625",
+    "image": "img/emblems/74DEDE22-DFBB-42E6-B32D-6F5BF585295B.png",
+    "beta": true
+  },
+  {
+    "firstSeen": 1673461044426,
+    "id": "626",
+    "image": "img/emblems/E01833E4-D05E-44EA-8B84-914B9238AF9E.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1673497043507,
+    "id": "627",
+    "image": "img/emblems/6F0E9C79-FA94-4416-857A-5714DB2BBC9D.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1673978563620,
+    "id": "628",
+    "image": "img/emblems/8BF947AE-E6D6-408E-919C-480B4EEEDF7D.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1675175951028,
+    "id": "630",
+    "image": "img/emblems/CEB58A3A-8F53-4DE6-BAFD-D69FF23DBF80.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1675179550991,
+    "id": "631",
+    "image": "img/emblems/4A24193D-5A7F-46CA-92C1-74FA971A1DB2.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1675179550993,
+    "id": "632",
+    "image": "img/emblems/53D7D0FF-B602-4C2F-A8E3-F827E4E98595.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1675179551033,
+    "id": "633",
+    "image": "img/emblems/3981878D-671A-448A-BFE8-016993856555.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1675179550993,
+    "id": "634",
+    "image": "img/emblems/BC6CEB9C-4297-4531-9DDE-27AF62C2E33E.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1675186750819,
+    "id": "637",
+    "image": "img/emblems/5B16056A-68D8-4617-A1ED-8E3529D28601.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1675193950712,
+    "id": "638",
+    "image": "img/emblems/994303E0-1B75-4F19-B9ED-438FDAA616FB.png",
+    "beta": false
+  },
+  {
+    "firstSeen": 1675290911219,
+    "id": "640",
+    "image": "img/emblems/8D03F821-11B4-4912-92EC-5A71780E0163.png",
     "beta": false
   },
   {

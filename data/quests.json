@@ -5557,6 +5557,87 @@
     "silverReward": 25000
   },
   {
+    "firstSeen": 1673032897184,
+    "itemRequests": [
+      {
+        "id": "379",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "473",
+        "quantity": 5
+      }
+    ],
+    "id": "1583316",
+    "name": "Far Away XV",
+    "prereq": "815217",
+    "isPersonal": false,
+    "from": "Ragvin",
+    "fromImage": "/img/items/ragvin.png?1",
+    "text": "Ragvin found some friends of yours. They were stranded out in the open ocean with their engine malfunctioning and their sails shredded by a storm. Other than the troubles with their boat, and the one lad looking pale as a sheet, Ragvin thought they were in high spirits. Ragvin offered to tow them to the nearest port so they could repair their boat and make for home, but the boys wouldn’t hear of it. Instead, they asked for some materials to repair their engine and sails, so they could continue on to some glowing island…\n\n\n\nRagvin has more of the story to tell you, but he could use a drink before continuing. Will you bring him something refreshing?",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "requiresTower": 30
+  },
+  {
+    "firstSeen": 1673032901999,
+    "itemRequests": [
+      {
+        "id": "86",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "583",
+        "quantity": 5
+      }
+    ],
+    "id": "1583386",
+    "name": "Far Away XVI",
+    "prereq": "1583316",
+    "isPersonal": false,
+    "from": "Ragvin",
+    "fromImage": "/img/items/ragvin.png?1",
+    "text": "After helping the boys get back up and running, Ragvin intended to continue on his route, but curiosity got the better of him and his crew. Your friends seemed so eager and sincere. So, Ragvin offered to accompany Thomas and Thomas on their search for the glowing island for a few days.\n\n\n\nJust before sundown the following day, an island was spotted and the pale Thomas got really excited. Ragvin called for a halt of both ships. He loaded a dinghy with the Thomases, himself, and a couple of his crew, and they launched for the shore. As soon as the pale Thomas set foot on the island, he passed out…\n\n\n\nRagvin is feeling a bit parched again. Will you get him something else to drink? The cider didn’t quite refresh him.",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "requiresTower": 30
+  },
+  {
+    "firstSeen": 1673032907347,
+    "itemRequests": [
+      {
+        "id": "508",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "491",
+        "quantity": 5
+      }
+    ],
+    "id": "1583423",
+    "name": "Far Away XVII",
+    "prereq": "1583386",
+    "isPersonal": false,
+    "from": "Ragvin",
+    "fromImage": "/img/items/ragvin.png?1",
+    "text": "When the pale Thomas finally woke, he was no longer pale. He also said the glow was gone, or at least he couldn’t see it anymore. Ragvin left the no-longer-pale Thomas with his two crewmen to recover himself while Ragvin and the healthy Thomas took a short look around the island.\n\n\n\nRagvin and the healthy Thomas didn’t find anything particularly noteworthy as they searched the island, but your friend looked surprised anyway. When Ragvin addressed the surprised look, Thomas said that the island they were exploring was exactly the same as an island he and the other Thomas set sail from, rock for rock and tree for tree.\n\n\n\nRagvin found that claim extremely curious, but with a pressing need to continue his trade route, Ragvin couldn’t remain on the island for much longer. The next day, Ragvin brought more of his crew to the island to help explore. Like the night before, they couldn’t find anything valuable…\n\n\n\nRagvin could use another drink. The telling of this story is really drying out his throat.",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "requiresTower": 30
+  },
+  {
     "firstSeen": 1657909426589,
     "itemRequests": [
       {
@@ -5675,6 +5756,33 @@
     "text": "You’re met with another door, once you reach the bottom of the stairs. It’s very shiny, and much sturdier than your doors at home. You open the door, and are met with a plume of smoke. You cough, and wave away the fumes, and search for Jill. Her basement is filled with half built gizmos, tools, and… Corn. Her corn silo feeds directly into a huge barrel in her basement.\n\n\n\nYou maneuver through piles of gadgets and gizmos, and find Jill, mumbling to herself. Her back is to you, and she’s hammering away at some device. “Why won’t you WORK?” You accidentally kick a bucket of nails, and they scatter. She hears you, and whips a handful of nails in your direction. Luckily, she’s not very good at aiming. “WHAT ARE YOU DOING HERE?!?!?!” Jill grabs you by the arm and drags you upstairs.",
     "requiresFarming": 65,
     "requiresExploring": 65
+  },
+  {
+    "firstSeen": 1673032912138,
+    "itemRequests": [
+      {
+        "id": "505",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "586",
+        "quantity": 10
+      }
+    ],
+    "id": "1587942",
+    "name": "Far Away XVIII",
+    "prereq": "1583423",
+    "isPersonal": false,
+    "from": "Ragvin",
+    "fromImage": "/img/items/ragvin.png?1",
+    "text": "Ragvin informed the Thomases that he would be leaving at sunrise the next morning. He also invited the boys to join his crew and leave the island. As if they had already discussed the prospect, both Thomases said no at the same time. They decided to remain on the island and continue exploring, but they expressed their gratitude for Ragvin’s kindness.\n\n\n\nThe next morning, Ragvin and his crew left behind some supplies for the Thomases and then left the island for their ship. They continued on their trade route until they were nearly to Redbrook. As they approached the coast, they met Captain Logan and his crew. Captain Logan informed Ragvin of the missing Thomases and requested that Ragvin find you or Lorn if he had any information on their fate.\n\n\n\nUnfortunately, that’s all Ragvin can tell you of the fate of your friends.\n\n\n\nHowever, if you’ll bring Ragvin one more drink, he’d be happy to discuss what he and his crew can do to help check on the Thomases as they continue on their trade route.",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "requiresTower": 30
   },
   {
     "firstSeen": 1657909517743,
@@ -6706,6 +6814,58 @@
     "availableTo": "Nov 22"
   },
   {
+    "firstSeen": 1673032918573,
+    "itemRequests": [
+      {
+        "id": "450",
+        "quantity": 2000
+      },
+      {
+        "id": "71",
+        "quantity": 2000
+      },
+      {
+        "id": "67",
+        "quantity": 2000
+      },
+      {
+        "id": "110",
+        "quantity": 2000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "346",
+        "quantity": 10
+      },
+      {
+        "id": "363",
+        "quantity": 10
+      },
+      {
+        "id": "573",
+        "quantity": 10
+      },
+      {
+        "id": "347",
+        "quantity": 50
+      }
+    ],
+    "id": "1606114",
+    "name": "Far Away XIX",
+    "prereq": "1587942",
+    "isPersonal": false,
+    "from": "Ragvin",
+    "fromImage": "/img/items/ragvin.png?1",
+    "text": "Ragvin would be glad to go and check up on your friends. The only thing he asks is that you’ll help him refill his boat so he can feed his crew and keep them from hardship on the long voyage to that remote island. He’ll still pay you for the goods you supply. Once Ragvin and his crew reach the island and check on the Thomases, they will immediately turn back for Redbrook with an update, or if your friends are ready to make for home, Ragvin will escort them the whole way.\n\n\n\nIf you’re inclined to agree with his plan, Ragvin will get his ship loaded as quickly as you can bring the goods he needs.",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "requiresTower": 30,
+    "silverReward": 2147483647
+  },
+  {
     "firstSeen": 1658883100593,
     "itemRequests": [
       {
@@ -7478,6 +7638,81 @@
     "goldReward": 5
   },
   {
+    "firstSeen": 1673032935602,
+    "itemRequests": [
+      {
+        "id": "581",
+        "quantity": 1
+      },
+      {
+        "id": "368",
+        "quantity": 1
+      },
+      {
+        "id": "166",
+        "quantity": 3
+      },
+      {
+        "id": "42",
+        "quantity": 10
+      },
+      {
+        "id": "118",
+        "quantity": 4
+      },
+      {
+        "id": "239",
+        "quantity": 10
+      },
+      {
+        "id": "165",
+        "quantity": 10
+      },
+      {
+        "id": "79",
+        "quantity": 1
+      },
+      {
+        "id": "116",
+        "quantity": 2
+      },
+      {
+        "id": "258",
+        "quantity": 4
+      },
+      {
+        "id": "538",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "75",
+        "quantity": 2000
+      },
+      {
+        "id": "108",
+        "quantity": 2000
+      },
+      {
+        "id": "284",
+        "quantity": 2000
+      }
+    ],
+    "id": "1694834",
+    "name": "Far Away XX",
+    "prereq": "1606114",
+    "isPersonal": false,
+    "from": "Lorn",
+    "fromImage": "/img/items/a_088.png",
+    "text": "Lorn agrees with your suspicions, but he doesn’t understand why Ragvin paid you with items you clearly gave to Thomas and Captain Thomas during his last visit, and then said that he met them after that last visit to Redbrook. Ragvin has to know that you know he’s lying. But why?\n\n\n\nLorn has a plan. If you’re willing to help, Lorn is going to ask Ragvin if he can join his crew for the trip to check on Thomas and Captain Thomas. Will you help him prepare for the voyage?",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "requiresTower": 30
+  },
+  {
     "firstSeen": 1646724077905,
     "itemRequests": [
       {
@@ -7524,6 +7759,78 @@
     "requiresFarming": 26,
     "requiresExploring": 30,
     "silverReward": 30000
+  },
+  {
+    "firstSeen": 1673036278452,
+    "itemRequests": [
+      {
+        "id": "37",
+        "quantity": 100
+      },
+      {
+        "id": "128",
+        "quantity": 2000
+      },
+      {
+        "id": "683",
+        "quantity": 2000
+      },
+      {
+        "id": "595",
+        "quantity": 2000
+      },
+      {
+        "id": "677",
+        "quantity": 1000
+      },
+      {
+        "id": "492",
+        "quantity": 2000
+      },
+      {
+        "id": "679",
+        "quantity": 2000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "583",
+        "quantity": 1000
+      },
+      {
+        "id": "508",
+        "quantity": 1000
+      },
+      {
+        "id": "491",
+        "quantity": 200
+      },
+      {
+        "id": "346",
+        "quantity": 25
+      },
+      {
+        "id": "363",
+        "quantity": 25
+      },
+      {
+        "id": "347",
+        "quantity": 60
+      }
+    ],
+    "id": "1706013",
+    "name": "Far Away XXI",
+    "prereq": "1694834",
+    "isPersonal": false,
+    "from": "Ragvin",
+    "fromImage": "/img/items/ragvin.png?1",
+    "text": "Ragvin is ready for another load. His crew is working as quickly as possible to load the ship and make sail.",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "requiresTower": 30,
+    "silverReward": 2147483647
   },
   {
     "firstSeen": 1646727729642,
@@ -7623,6 +7930,45 @@
     "requiresExploring": 10,
     "availableFrom": "Dec 1",
     "availableTo": "Jan 3"
+  },
+  {
+    "firstSeen": 1673036306016,
+    "itemRequests": [],
+    "itemRewards": [
+      {
+        "id": "160",
+        "quantity": 500
+      },
+      {
+        "id": "190",
+        "quantity": 500
+      },
+      {
+        "id": "352",
+        "quantity": 500
+      },
+      {
+        "id": "162",
+        "quantity": 500
+      },
+      {
+        "id": "158",
+        "quantity": 500
+      }
+    ],
+    "id": "1716464",
+    "name": "Far Away XXII",
+    "prereq": "1706013",
+    "isPersonal": false,
+    "from": "Lorn",
+    "fromImage": "/img/items/a_088.png",
+    "text": "Ragvin did not agree to let Lorn join his crew. He did, however, offer to guide another ship to the island, if Lorn could find one willing to make the long journey.\n\n\n\nCaptain Logan is willing to lease out one of his ships, and some of the crew that work the ship are willing to work the vessel for this voyage. However, the ship will require a few extra hands to fully function. Lorn has volunteered to go and he asked George and Mariya to also come along. If you would be willing to join the crew, Lorn would be very grateful and he would feel more confident that this crew can handle any chaos that may come blowing on the wind.",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "requiresTower": 30,
+    "silverRequest": 2000000000
   },
   {
     "firstSeen": 1646727727634,
@@ -8423,6 +8769,7 @@
     "from": "Lorn",
     "fromImage": "/img/items/a_088.png",
     "text": "Dark clouds on the horizon, you check your mailbox and find a letter.\n\n\nI hope this letter finds you well. It burdens my heart to write you this, but I think our dear friend Thomas is not well. He has seemed distant of late, and complained of various ailments that my books cannot identify. Would you be so kind as to join me for dinner tomorrow night with our esteemed friend? Since you’ll be in the area, could you help me restock my stores as well? \n\n\nA list of ingredients and fish follow.",
+    "requiresFarming": 91,
     "requiresFishing": 90,
     "silverReward": 700000000
   },
@@ -8846,6 +9193,318 @@
     "from": "Cecil",
     "fromImage": "/img/items/a_027.png",
     "text": "“Zho was the guardian of water in our world. Their Playground is where they experimented with their Power and where their followers gathered in tribute and followed Zho’s teachings. As the years went on, Zho shared what they learned of Power with others, and the Playground eventually grew into a temple. Zho explored the world, and many knew of their name, until one day Zho returned to their Playground, only to find their temple destroyed and their followers murdered. It was at that moment Zho’s Wall was born, Zho poured their sorrow and pain into this Wall, and then disappeared.”\n\n\nCecil pauses for a moment before pulling a plain case out from underneath his robes. The case has writing on it you don’t recognize and a golden leaf adorns the latch. Considering the splendor of Cecil’s home, the box seems positively ordinary in comparison.\n\n\n“We know this story thanks to ancient wizards of the Golden Leaf who traveled to the Playground – few survived, but this – this is the only relic we have from that time.”\n\n\nCecil opens the case and before you can see what’s inside, a powerful shock wave unlike anything you’ve ever experienced hits you. The sound of the ocean, the roar of the wind, the frigidness of snow, and the scalding heat of boiling water overwhelms your senses. You fall off your chair and see Thomas sitting, staring rapturously at the box. Cecil abruptly closes the box and the sensation is immediately gone.\n“I should have warned you, this is an item of immense Power. I call it Zho’s Dagger, and it most certainly is the item that killed Zho.”\n\n\nA quietness covers the room as the enormity of Cecil’s words wash over you.\n\n\n“I gather now, you understand the enormity of what I am about to suggest. I want you to revisit Zho’s Playground, bring this dagger with you and use its power to counteract the Power of Zho’s Wall and go inside and understand what happened, and bring me back something.”\n\n\nThomas blinks, “And fish.”\n\n\nCecil smiles, “Yes, and fish.”\n\n\nThomas looks at you and without hesitation blurts out, “We’ll do it! What do you want in return?”\n\n\nCecil shakes his head and looks away for a moment, “A safer world for us all, and some information I’ve long pondered. Consider this journey the favor I ask of you…and maybe a few rare things I’ve misplaced. But mostly the first thing.”\n\n\nCecil hands the box to Thomas. “Keep it secret, keep it safe, and when you approach the wall open the box and hold onto that dagger with all your will. Now, I have important things to be doing.” Cecil looks expectantly at you both and you get the impression it’s your time to leave.",
+    "requiresFishing": 90
+  },
+  {
+    "firstSeen": 1674175933534,
+    "itemRequests": [
+      {
+        "id": "139",
+        "quantity": 600
+      },
+      {
+        "id": "256",
+        "quantity": 600
+      },
+      {
+        "id": "112",
+        "quantity": 50
+      },
+      {
+        "id": "615",
+        "quantity": 200
+      },
+      {
+        "id": "630",
+        "quantity": 500
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "346",
+        "quantity": 50
+      },
+      {
+        "id": "347",
+        "quantity": 55
+      },
+      {
+        "id": "162",
+        "quantity": 500
+      },
+      {
+        "id": "375",
+        "quantity": 50
+      }
+    ],
+    "id": "1894047",
+    "name": "A Wall In The Way XIII",
+    "prereq": "1894010",
+    "isPersonal": false,
+    "from": "Thomas",
+    "fromImage": "/img/items/a_048.png",
+    "text": "You both leave Cecil’s house in a rushed fog. Thomas has the plain case close to him.\n\n\n“Well, that was…interesting. I’m not so worried about all the high-falutin god stuff, but think of the riches! The fame! The prestige! Lucky for you, I happen to have a backup store, in case I need to get out of town a second time in a hurry. Let’s go tomorrow! Skip town before Lorn and anyone else realize we’ve gone. They’ll only try to stop us anyways…”\n\n\nYou cautiously agree, remembering the argument between Lorn and Star. You put your misgivings aside for your friend, and you prepare yourself for another long trek north in the morning.",
+    "requiresFishing": 90
+  },
+  {
+    "firstSeen": 1674175947763,
+    "itemRequests": [
+      {
+        "id": "481",
+        "quantity": 600
+      },
+      {
+        "id": "172",
+        "quantity": 250
+      },
+      {
+        "id": "281",
+        "quantity": 250
+      },
+      {
+        "id": "171",
+        "quantity": 600
+      },
+      {
+        "id": "349",
+        "quantity": 500
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "240",
+        "quantity": 1
+      }
+    ],
+    "id": "1894168",
+    "name": "A Wall In The Way XIV",
+    "prereq": "1894047",
+    "isPersonal": false,
+    "from": "Star Meerif",
+    "fromImage": "/img/items/npc_figure.png",
+    "text": "As you prepare for sleep, a knock at the door interrupts your evening routine. You quickly stash your cookies and your accounting books in the drawer and answer the door.\n\n\nLorn swings the door wide open, followed by Star who immediately begins speaking to you animatedly, “Good sir, I must protest. I cannot in good conscience allow you to go forth with this journey. Whatever Cecil has told you, I’m sure it is well intentioned, but you are messing with powers you cannot possibly understand. He has sent you to your death. How very Langstaffian of him, to send others to do his bidding.” \n\n\nLorn rolls his eyes towards you, “Star, why are you here, exactly? You refuse to help, you refuse to not help, and you refuse to keep to yourself. Are you not the town mage…”\n\n\n“Wizard.” Star mumbles absentmindedly.\n\n\n“...that we have trusted all these long years? Either speak plainly, or kindly stop speaking at all.”\n\n\nStar looks to Lorn for a moment, and you can see his internal struggle before he smooths his robes and takes a deep breath. \n\n\n“There are powers in this world even I do not dare trifle with, but if I cannot convince you to change your mind, I shall share with you the only helpful legend I know regarding Zho. His followers were known to be extraordinarily kind, and when in his domain you had but to ‘speak the ancient word for friend’. What happens beyond that is something only the gods know now.” Star pauses for a moment before practically pleading with you. “Consider once last time staying home and safe - ignore this fools errand.” \n\n\nYou shake your head, intent on ensuring Thomas’ safety.\n\n\nStar looks quietly to Lorn and disappears in a cloud of feathers but words echo, “Friendship. More enriches life, less offers nothing.”\n\n\nLorn looks quietly to you, “Whatever ails Thomas, he seems inextricably bound in all this, in ways I don’t understand and no one will explain to me, for better or worse. I…don’t want either of you to go. I’m a fool - I believed Thomas having a goal would help heal him, instead I’ve put you both in terrible, terrible danger.” Lorn pauses a moment, and a single tear runs down his left cheek. “Even now, I realize I’m not too old to have new regrets, new follies. Be safe. Bring my friend back safely.”\n\n\nLorn lingers a moment longer, seemingly wanting to say more but he turns slowly and steps out of the house and you are left alone, feeling as though you’re on the precipice of something bigger than you understand.",
+    "requiresFishing": 90
+  },
+  {
+    "firstSeen": 1674175992618,
+    "itemRequests": [
+      {
+        "id": "629",
+        "quantity": 250
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "103",
+        "quantity": 600
+      },
+      {
+        "id": "104",
+        "quantity": 600
+      },
+      {
+        "id": "508",
+        "quantity": 500
+      },
+      {
+        "id": "158",
+        "quantity": 500
+      }
+    ],
+    "id": "1894415",
+    "name": "A Wall In The Way XV",
+    "prereq": "1894168",
+    "isPersonal": false,
+    "from": "Thomas",
+    "fromImage": "/img/items/a_048.png",
+    "text": "The morning is clear, and you wake up to finish your final chores before Thomas arrives. Thomas’ enthusiasm is apparent, he practically runs and skips as you depart. With no cart and the food in your packs, you expect to make excellent time. \n\n\nWith no significant rain, and having recently traveled this way, you are able to pick your way back north faster than you expected. After a few days on the journey, Thomas seems quieter than usual. You reflect, for a moment before realizing he seems almost unrecognizable from the man you met when you moved to Redbrook. His drive, confidence, intensity and joy for adventure are far removed from the nervous, novice fisherman you met all that time ago. \n\n\nAs you approach the snowy phenomenon, you find Jill’s snow machine waiting for you, looking worn and covered in a few weeks of outdoor weather, but otherwise in good working order. \n\n\n“What luck! This will cut down our snow travel considerably!”\nYou press the big red start button and the machine sputters and whirs to life briefly before it dies.\n\n\n“Must be out of corn oil.” Thomas quips.\n\n\nLuckily, you brought some spare.",
+    "requiresFishing": 90,
+    "silverReward": 2147483647
+  },
+  {
+    "firstSeen": 1674176473305,
+    "itemRequests": [
+      {
+        "id": "702",
+        "quantity": 1
+      },
+      {
+        "id": "324",
+        "quantity": 5
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "703",
+        "quantity": 1
+      }
+    ],
+    "id": "1894542",
+    "name": "The Fall of Water I",
+    "prereq": "1894415",
+    "isPersonal": false,
+    "from": "Thomas",
+    "fromImage": "/img/items/thomasblue.png",
+    "text": "The machine whirs and hums, brought to life again and you both hop on, there’s just enough room if you shed the non essential items from your packs. \n\n\nThe trail you both left on your first trip up the phenomenon is crystal clear in the snow and ice. Knowing what to expect, you push forward faster than you did originally, the snow and wind pick up as you approach the Wall. \n\n\nYou both agree to leave the machine outside the Wall and step off, buffeted by the wind and snow, Thomas steps forward, you see the plain case in one hand and he motions to you with the other.\n\n\n“STAY CLOSE!” The wind is deafening at this point. Thomas kneels to the ground and sets the box on the snow. He grabs your hand and opens the box. Immediately, the shockwave erupts from the box, but mysteriously, you are unaffected. The unnatural sensations of the sound of the ocean, the roar of the wind, the frigidness of snow, the steam heat of boiled water are present, but encapsulate you both in an aura of comfort, instead of pushing you away. You feel a serenity in the midst of this otherworldly sensation.\n\n\nThomas looks at you, wide eyed. “Here goes nothing.” He picks up the dagger and you see a glow emit from his eyes. His voice grows deeper, more resonant. It’s Thomas, but there is something more there. “Take the box, the wizard would not appreciate losing it.” he states matter-of-factly. There is an edge to his words and you look to him unsure how to hold onto his hand and pick up the box with the other. Releasing your hand, Thomas’s voice is even less natural than before. “Have no fear, I shall keep you safe.” \n\n\nYou put the box in your bag and step forward with Thomas. The Wall looms before you, and as you near it, there is an intensity you can’t quite put your finger on, but the aura extends forward and the Wall parts as you move closer. You move forward slowly, until you are completely surrounded by the wall. A storm rages around you, but the dagger, or Thomas, or both, keep you safe from the raging forces around you. All around, a deep scream echoes. Pain and weariness intermixed with bitter rage. You shut your eyes and put your hands over your ears to stop the assault on your senses until Thomas puts a hand on your shoulder, and the screams subside. You both press on, there is an odd gleam in Thomas’ eyes, somewhere between determination you get the sense that he is having fun.",
+    "requiresFishing": 90
+  },
+  {
+    "firstSeen": 1674176616491,
+    "itemRequests": [
+      {
+        "id": "219",
+        "quantity": 5
+      },
+      {
+        "id": "235",
+        "quantity": 5
+      }
+    ],
+    "itemRewards": [],
+    "id": "1894582",
+    "name": "The Fall of Water II",
+    "prereq": "1894542",
+    "isPersonal": false,
+    "from": "Thomas?",
+    "fromImage": "/img/items/thomasblue.png",
+    "text": "Suddenly, as quickly as the wall began, you see clear skies pierce the horrors of the Wall around you. The Wall recedes as you move forward together and the pressure and noise surrounding you ceases immediately. \n\n\nWhat you see before you is unlike any majesty you’ve ever witnessed. Sun glistens off patches of ice, vibrant green grass grows in between patches of pristine white snow. A tree blossoms in a small frozen pond, purple and red hues accenting the light green leaves leaving you dazzled. Moments later, you realize water is continually falling from various branches, as though a fountain. Far away, a wall of ice seems to climb higher and higher out of the ground and water falls from its peak into a waterfall, glistening in the sun. The sound of the massive waterfall is at once tumultuous and calming. The water falls into a lake that you now see is the centerpiece of this area. The lake is surrounded by ice and a massive ice formation with one small stream running east towards the ocean. \n\n\nAfter a moment of appreciating the splendor surrounded by Shva’s Wall, you gather yourself and offer the plain box to Thomas, but he looks at it suspiciously. “Perhaps I should keep the dagger…close.” He clenches the dagger tightly in one hand and steps towards the lake. “I’m being called. What you are seeing, is…my home.” Thomas winces at these words and without another word, he begins to move towards the lake.\n\n\nCalling out, Thomas completely ignores you as he takes step after step forward. Reaching the lake, he steps onto it and ice spreads out beneath his feet. He looks back to you, expectantly, but as you gingerly step on a shallow pool of water your foot plunges directly through. \n\n\n“Ah yes. Hm. You’re going to need a boat. Or well, an approximation of one.”",
+    "requiresFishing": 90,
+    "silverReward": 1000000000
+  },
+  {
+    "firstSeen": 1674176754623,
+    "itemRequests": [
+      {
+        "id": "368",
+        "quantity": 600
+      },
+      {
+        "id": "103",
+        "quantity": 600
+      },
+      {
+        "id": "163",
+        "quantity": 600
+      },
+      {
+        "id": "21",
+        "quantity": 600
+      },
+      {
+        "id": "314",
+        "quantity": 600
+      },
+      {
+        "id": "104",
+        "quantity": 600
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "389",
+        "quantity": 100
+      }
+    ],
+    "id": "1894706",
+    "name": "The Fall of Water III",
+    "prereq": "1894582",
+    "isPersonal": false,
+    "from": "Not Thomas",
+    "fromImage": "/img/items/thomasglow.png",
+    "text": "You present the ships and rings to Thomas and wordlessly, he draws the dagger from his belt and with both hands grasping the hilt, a sensation of power overwhelms you. The boats gently rise up into the air and drift towards the lake, and the rings disappear, strangely. You blink, and before you is a small boat fashioned out of ice. \n\n\n“It’s entirely safe, let’s be off.” The being known as Thomas smiles with satisfaction, and you feel a breeze in the air and a sound like a gentle sigh crosses your ears.\n\n\nThomas grasps the side of your ice boat and you begin to travel inward. The lake seems limitless. Fish flit in mesmerizing chaotic patterns, the sun cascades off the fish and the ripples of the lake, highlighting the brilliant oddity of the situation. All around you, a chaotic wall of rage and raw elemental energy swirls, but in this moment, you feel calm. \n\n\nThe northernmost part of the lake is where the ice grows highest, and Thomas propels himself and your boat towards it. The majesty of the moment strikes you, and you lose all sense of time taking in your surroundings. As you approach, you realize there is a small landing, and a doorway in a shaded alcove. The closer you get, the more it seems something is very wrong. The alcove has a large gash, and the doorway is agape - a large door of ice lays on the entryway. The quiet calm gives way to a sense of unease. \n\n\n“You’ll need a torch.” The echo of Thomas says. Looking at your companion, he seems faded, as though his energy is being withered away, even faster than before you began your journey.",
+    "requiresFishing": 90
+  },
+  {
+    "firstSeen": 1674176939157,
+    "itemRequests": [
+      {
+        "id": "475",
+        "quantity": 150
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "702",
+        "quantity": 1
+      }
+    ],
+    "id": "1894764",
+    "name": "The Fall of Water IV",
+    "prereq": "1894706",
+    "isPersonal": false,
+    "from": "Echo of Zho",
+    "fromImage": "/img/items/thomasglow.png",
+    "text": "Your torch alight, you step inside. There is a small chamber with a large stone pedestal. It is flanked by 6 small statues made of ice that look vaguely human, each with a symbol in front of it.\n\nThe Echo signals and you hold your torch high and with a spark of magic from the dagger, your torch turns blue and strange symbols appear on the wall. Their script is unfamiliar to you, it seems almost alive, telling a story of its own, but the meaning is made clear in your mind.\n\n\nWhere once was six, there now are but five\n\nWhat fun, new games, with stories come alive!\n\nThe first was water, so dull and boring,\n\nCan you make the next one more fun exploring?\n\nGuess the next story, we’ll go together,\n\nWhirling, swirling, breezy forever.\n\nRys, come play I’ve made more delightful games\n\nWithout you, the pictures are plain dull frames.\n-V\n\n\n\nThere is a small echo in the chamber and a shadow covers the words, laughter, terrible, horrible, powerful laughter fills the room and you look over to see Thomas begin to shiver uncontrollably, the dagger falls, the point of the dagger hits the floor and the sound pierces the chamber and the laughter overwhelms the moment. You rush to your friend and he points to the shadow. “It’s not real, it’s not real, but I…no…not me…the dagger…needs to go…there!” He points towards the raised stone. You grab the dagger and race towards the pedestal.",
+    "requiresFishing": 90
+  },
+  {
+    "firstSeen": 1674176986615,
+    "itemRequests": [
+      {
+        "id": "702",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "509",
+        "quantity": 1
+      }
+    ],
+    "id": "1894891",
+    "name": "The Fall of Water V",
+    "prereq": "1894764",
+    "isPersonal": false,
+    "from": "Zho?",
+    "fromImage": "/img/items/a_048.png",
+    "text": "Belatedly, you recognize that the pedestal is in fact a tomb, and on top is the figure that looks vaguely human, arms crossed but one hand held open. As you inspect the figure, you feel the dagger pull itself towards the figure and in a moment of instinct, you take the dagger and place it in the carved hand. \n\n\n“Child, I was Zho, Guardian of Water. You have returned the dagger Vail betrayed Zho with, and in doing so have righted a terrible wrong in the world. Here is our memory, the Golden Leaf stands with Rys. Take it and learn of our terrible past and the burden you now carry.”",
+    "requiresFishing": 90
+  },
+  {
+    "firstSeen": 1674177012311,
+    "itemRequests": [
+      {
+        "id": "500",
+        "quantity": 250
+      },
+      {
+        "id": "18",
+        "quantity": 250
+      },
+      {
+        "id": "277",
+        "quantity": 250
+      },
+      {
+        "id": "192",
+        "quantity": 250
+      },
+      {
+        "id": "481",
+        "quantity": 250
+      },
+      {
+        "id": "194",
+        "quantity": 500
+      },
+      {
+        "id": "498",
+        "quantity": 250
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "701",
+        "quantity": 1
+      }
+    ],
+    "id": "1894913",
+    "name": "The Fall of Water VI",
+    "prereq": "1894891",
+    "isPersonal": false,
+    "from": "Thomas",
+    "fromImage": "/img/items/a_048.png",
+    "text": "The orb shines brightly, reflecting the light coming from outside. As you take the orb and put it in your pocket, Thomas falls to the ground, no longer shaking. The shadow immediately recedes, and again, you feel your head clear from the horrors of the moment. Taking a deep breath you feel a gentle wind rush through the chamber carrying a sound that could only be described as contentment.\n\n\nThomas is prone on the floor and you rush to his side. He is unresponsive at first but after a moment he looks at you with a lopsided smile.\n\n\n“Was…it all a dream? I was me, but I was more. Or, I was someone or maybe something else?” He pauses momentarily, “Either way, it was so cool! I wish I could remember more.” he seems lost in thought, and you notice Thomas winces again as he uses his arms to stand up off the ground. For a brief moment, you swear you could see his hand disappear entirely. \n\n\nA gentle snow falls in the room, the single opening in the chamber illuminates the Tomb of Zho, Guardian of Water, and for a moment, you close your eyes, the enormity of the moment giving you pause. You motion quietly to Thomas, not ready to disturb the serenity of the tomb. You both step outside the cavern and quickly realize that Zho’s Wall is gone, but the majesty of Zho’s Playground remains. \n\n\n“Oh man, Glacier Lake is so cool! Let’s go fishing!” Thomas exclaims. You both laugh, and Thomas seems to be back to his old (new?) self, and after reflection you realize you might also like to take a moment to explore the lake. You both get into the ice boat and cast off, worries forgotten for the moment, the joy of discovery, fishing, and friendship are the only things you see on the horizon.",
     "requiresFishing": 90
   },
   {
@@ -9494,6 +10153,228 @@
     "availableTo": "Jan 3"
   },
   {
+    "firstSeen": 1671948258230,
+    "itemRequests": [
+      {
+        "id": "418",
+        "quantity": 25
+      },
+      {
+        "id": "168",
+        "quantity": 3000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "425",
+        "quantity": 20
+      },
+      {
+        "id": "505",
+        "quantity": 20
+      },
+      {
+        "id": "397",
+        "quantity": 500
+      },
+      {
+        "id": "398",
+        "quantity": 500
+      },
+      {
+        "id": "508",
+        "quantity": 2000
+      },
+      {
+        "id": "85",
+        "quantity": 3000
+      },
+      {
+        "id": "84",
+        "quantity": 3000
+      },
+      {
+        "id": "336",
+        "quantity": 100
+      },
+      {
+        "id": "482",
+        "quantity": 50
+      },
+      {
+        "id": "583",
+        "quantity": 300
+      }
+    ],
+    "id": "1938450",
+    "name": "Buddy's Christmas Adventure IX",
+    "prereq": "1938416",
+    "isPersonal": false,
+    "from": "Buddy",
+    "fromImage": "/img/items/buddyelf.png",
+    "text": "At the post office, Buddy is shocked to find the most efficient post office he’s ever seen! One particularly knowledgeable individual offers him a cup of coffee and puts some syrup in it. “Syrup in coffee? Why didn’t I think of that!” Buddy exclaims. \n\n\nIt turns out Buddy is extremely good at sorting mail, and spends most of the rest of the day helping the post office catch up from the extreme volume of mail (along with a few dance breaks) in Redbrook before Buddy realizes the time and shows his friend the letter. \n\n\n“Oh, these letters are for Vincent, what a grinch!”\n\n\nBuddy is saddened by his new friend’s opinion of Vincent, but a sound from the other room distracts Buddy, by the time he looks back, his friend has disappeared.",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "requiresTower": 100,
+    "availableFrom": "Dec 21",
+    "availableTo": "Jan 3"
+  },
+  {
+    "firstSeen": 1671948823799,
+    "itemRequests": [
+      {
+        "id": "677",
+        "quantity": 2000
+      },
+      {
+        "id": "680",
+        "quantity": 2000
+      },
+      {
+        "id": "598",
+        "quantity": 2000
+      },
+      {
+        "id": "341",
+        "quantity": 200
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "413",
+        "quantity": 1
+      },
+      {
+        "id": "280",
+        "quantity": 50
+      },
+      {
+        "id": "84",
+        "quantity": 1000
+      },
+      {
+        "id": "698",
+        "quantity": 1
+      },
+      {
+        "id": "653",
+        "quantity": 100
+      },
+      {
+        "id": "162",
+        "quantity": 500
+      },
+      {
+        "id": "500",
+        "quantity": 3000
+      }
+    ],
+    "id": "1938583",
+    "name": "Buddy's Christmas Adventure X",
+    "prereq": "1938450",
+    "isPersonal": false,
+    "from": "Santa",
+    "fromImage": "/img/items/lornsanta.png",
+    "text": "Buddy heads back to Vincent’s house, when along the way he sees a streak, a sparkle, and suddenly Santa’s sleigh colliding in a snowbank north of town! He gasps and sprints towards the explosion of snow. When he arrives he finds Vincent already on the scene, swords at the ready. \n\n\n“Whoa Vincent, this is SANTA!” Buddy cries out.\n\n\n“Ho ho ho, it is me, the real Santa!” the real Santa bellylaughs!\n\n\n“If you’re the real Santa, then why are Ric Ryph’s Redbrook Rangers after you?” Vincent replies skeptically.\n\n\n“I put them on the naughty list and they never forgave me.” Santa looks to Vincent. “Can you both help me fix my sleigh tonight, before they find me?”",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "requiresTower": 100,
+    "availableFrom": "Dec 21",
+    "availableTo": "Jan 3"
+  },
+  {
+    "firstSeen": 1672251706000,
+    "itemRequests": [
+      {
+        "id": "401",
+        "quantity": 100
+      },
+      {
+        "id": "426",
+        "quantity": 100
+      },
+      {
+        "id": "416",
+        "quantity": 100
+      },
+      {
+        "id": "163",
+        "quantity": 100
+      },
+      {
+        "id": "404",
+        "quantity": 200
+      },
+      {
+        "id": "409",
+        "quantity": 100
+      },
+      {
+        "id": "144",
+        "quantity": 100
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "508",
+        "quantity": 10
+      },
+      {
+        "id": "500",
+        "quantity": 10
+      },
+      {
+        "id": "415",
+        "quantity": 10
+      },
+      {
+        "id": "452",
+        "quantity": 5
+      }
+    ],
+    "id": "1938632",
+    "name": "The Light Continues I",
+    "prereq": "1737396",
+    "isPersonal": false,
+    "from": "Mariya",
+    "fromImage": "/img/items/mariya.png",
+    "text": "As the old year passes and a new year begins, Mariya looks forward to enjoying the tradition of passing the light. This tradition originated with Mithar sharing the light of power with the guardians at the dawn of creation. To celebrate, a burning candle lit in the old year is used to light a new candle at the rising of the sun on the first day of the new year. In this way, the light of the old year is brought into the new year to help all see more clearly.\n\n\n\nMariya wants to make some very special candles for passing the light this year. She wants to bring in the holiday traditions of Redbrook and make them a part of the candles. Will you help her gather some traditional Redbrook holiday items to use in making her candles?",
+    "requiresFarming": 40,
+    "requiresCrafting": 40,
+    "requiresFishing": 40,
+    "requiresExploring": 40,
+    "availableFrom": "Dec 28",
+    "availableTo": "Jan 3"
+  },
+  {
+    "firstSeen": 1671948834922,
+    "itemRequests": [],
+    "itemRewards": [
+      {
+        "id": "673",
+        "quantity": 1
+      }
+    ],
+    "id": "1938636",
+    "name": "Buddy's Christmas Adventure XI",
+    "prereq": "1938583",
+    "isPersonal": false,
+    "from": "Buddy",
+    "fromImage": "/img/items/buddyelf.png",
+    "text": "Repairs finished, Buddy and Vincent watch Santa and his reindeer take off. Vincent looks to Buddy as you walk back into town. “The best way to spread Christmas cheer is singing loud for all to hear!” \n\n\nBuddy and Vincent enter the town singing “Santa Claus is Coming to Town” at their loudest volume, and one by one, the rest of the townsfolk (minus Ric) join them. \n\n\nEnd.",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "requiresTower": 100,
+    "availableFrom": "Dec 21",
+    "availableTo": "Jan 3"
+  },
+  {
     "firstSeen": 1646727683519,
     "itemRequests": [
       {
@@ -9961,6 +10842,125 @@
     "requiresExploring": 10
   },
   {
+    "firstSeen": 1672251721647,
+    "itemRequests": [],
+    "itemRewards": [
+      {
+        "id": "451",
+        "quantity": 1
+      }
+    ],
+    "id": "2031565",
+    "name": "The Light Continues II",
+    "prereq": "1938632",
+    "isPersonal": false,
+    "from": "Mariya",
+    "fromImage": "/img/items/mariya.png",
+    "text": "Mariya’s candles turned out perfectly. If you’re interested in celebrating passing the light with Mariya, she would love to share some of her candles with you.",
+    "requiresFarming": 40,
+    "requiresCrafting": 40,
+    "requiresFishing": 40,
+    "requiresExploring": 40,
+    "availableFrom": "Dec 28",
+    "availableTo": "Jan 3"
+  },
+  {
+    "firstSeen": 1672613124812,
+    "itemRequests": [
+      {
+        "id": "706",
+        "quantity": 1
+      },
+      {
+        "id": "707",
+        "quantity": 1
+      },
+      {
+        "id": "708",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "491",
+        "quantity": 10
+      },
+      {
+        "id": "452",
+        "quantity": 10
+      },
+      {
+        "id": "699",
+        "quantity": 1
+      },
+      {
+        "id": "661",
+        "quantity": 1
+      }
+    ],
+    "id": "2032028",
+    "name": "Glacier Lake Effect I",
+    "prereq": null,
+    "isPersonal": false,
+    "from": "Beatrix",
+    "fromImage": "/img/items/a_011.png",
+    "text": "A strange cold front came through recently from the north. It appeared and vanished within a few hours. After it passed, the temperature dropped swiftly and then bounced back up. The next morning, Beatrix was checking her garden and found that some of her crops froze completely solid. She gathered the crops and attempted to thaw them, but these frozen crops refused to cooperate. Beatrix tried everything she could think of to thaw them, but nothing worked. She even tried some mild explosives.\n\n\n\nNow, the frozen crops are gone, but Beatrix is still curious about them. She needs to find more that she can examine. Will you check your fields to see if you have any?\n\n\n\nNote: You can get some frozen crops by growing the regular version of the crop and they will drop randomly. You can also get them via the Winter Basket, which can be obtained from trading with other players, the 28-day Daily Chores reward, or the January Starter Pack (Open the Winter Basket at the Locksmith)",
+    "requiresFarming": 10,
+    "requiresCrafting": 10,
+    "requiresFishing": 10,
+    "requiresExploring": 10,
+    "availableFrom": "Jan 1",
+    "availableTo": "Jan 31"
+  },
+  {
+    "firstSeen": 1672635485242,
+    "itemRequests": [
+      {
+        "id": "706",
+        "quantity": 50
+      },
+      {
+        "id": "707",
+        "quantity": 10
+      },
+      {
+        "id": "708",
+        "quantity": 10
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "699",
+        "quantity": 2
+      },
+      {
+        "id": "375",
+        "quantity": 50
+      },
+      {
+        "id": "653",
+        "quantity": 10
+      },
+      {
+        "id": "508",
+        "quantity": 10
+      }
+    ],
+    "id": "2066472",
+    "name": "Glacier Lake Effect II",
+    "prereq": "2032028",
+    "isPersonal": false,
+    "from": "Beatrix",
+    "fromImage": "/img/items/a_011.png",
+    "text": "These frozen crops do not hold up well to extreme methods of heating. Will you bring Beatrix some more frozen crops, if you can find them?\n\n\n\nNote: You can get some frozen crops by growing the regular version of the crop and they will drop randomly. You can also get them via the Winter Basket, which can be obtained from trading with other players, the 28-day Daily Chores reward, or the January Starter Pack (Open the Winter Basket at the Locksmith)",
+    "requiresFarming": 80,
+    "requiresCrafting": 80,
+    "requiresFishing": 80,
+    "requiresExploring": 80,
+    "availableFrom": "Jan 1",
+    "availableTo": "Jan 31"
+  },
+  {
     "firstSeen": 1646725493738,
     "itemRequests": [
       {
@@ -9999,6 +10999,106 @@
     "silverReward": 6000
   },
   {
+    "firstSeen": 1672876394388,
+    "itemRequests": [
+      {
+        "id": "706",
+        "quantity": 100
+      },
+      {
+        "id": "707",
+        "quantity": 20
+      },
+      {
+        "id": "708",
+        "quantity": 20
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "110",
+        "quantity": 500
+      },
+      {
+        "id": "75",
+        "quantity": 500
+      },
+      {
+        "id": "113",
+        "quantity": 500
+      },
+      {
+        "id": "65",
+        "quantity": 500
+      },
+      {
+        "id": "250",
+        "quantity": 100
+      },
+      {
+        "id": "186",
+        "quantity": 100
+      },
+      {
+        "id": "392",
+        "quantity": 500
+      },
+      {
+        "id": "203",
+        "quantity": 500
+      },
+      {
+        "id": "537",
+        "quantity": 500
+      },
+      {
+        "id": "536",
+        "quantity": 500
+      },
+      {
+        "id": "535",
+        "quantity": 500
+      },
+      {
+        "id": "120",
+        "quantity": 500
+      },
+      {
+        "id": "363",
+        "quantity": 50
+      },
+      {
+        "id": "583",
+        "quantity": 100
+      },
+      {
+        "id": "645",
+        "quantity": 10
+      },
+      {
+        "id": "661",
+        "quantity": 10
+      },
+      {
+        "id": "644",
+        "quantity": 10
+      }
+    ],
+    "id": "2113273",
+    "name": "Glacier Lake Effect III",
+    "prereq": "2066472",
+    "isPersonal": false,
+    "from": "Beatrix",
+    "fromImage": "/img/items/a_011.png",
+    "text": "Beatrix is still experimenting with thawing the frozen crops. Nothing has worked so far. Either the crop stays frozen or it is destroyed. It’s very discouraging.\n\n\n\nWill you find some more frozen crops for her to test?",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "availableFrom": "Jan 4",
+    "availableTo": "Feb 28"
+  },
+  {
     "firstSeen": 1646727647441,
     "itemRequests": [
       {
@@ -10025,6 +11125,67 @@
     "text": "\"Hey, I know you have a lot of work to do, and sometimes these help requests can take a while to complete,\" Lorn tells you. \"If you click that button there, yup, the one that says 'Track Items', I'll track your progress for you!\n\n\n\nOf course, if you have everything needed, only 'Collect and Complete' will show up. Oh, and if you hand over a few worms and some stones, I have a treat for you too. It is never too early to get a good breakfast!\"",
     "requiresExploring": 5,
     "silverReward": 25
+  },
+  {
+    "firstSeen": 1673244848724,
+    "itemRequests": [
+      {
+        "id": "706",
+        "quantity": 400
+      },
+      {
+        "id": "707",
+        "quantity": 40
+      },
+      {
+        "id": "708",
+        "quantity": 40
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "323",
+        "quantity": 10
+      },
+      {
+        "id": "632",
+        "quantity": 5
+      },
+      {
+        "id": "500",
+        "quantity": 500
+      },
+      {
+        "id": "508",
+        "quantity": 500
+      },
+      {
+        "id": "509",
+        "quantity": 1
+      },
+      {
+        "id": "602",
+        "quantity": 10
+      },
+      {
+        "id": "699",
+        "quantity": 5
+      }
+    ],
+    "id": "2124302",
+    "name": "Glacier Lake Effect IV",
+    "prereq": "2113273",
+    "isPersonal": false,
+    "from": "Beatrix",
+    "fromImage": "/img/items/a_011.png",
+    "text": "Beatrix has discovered a process for thawing the frozen crops without destroying them! She’s pretty sure. It only worked on the last one she tried, and there were a couple of additional variables in play. However, if you’ll help her one more time by bringing her a large load of frozen crops, she can make sure that her method works.\n\n\n\nBeatrix appreciates your continued efforts to help with her curiosities.",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "requiresTower": 100,
+    "availableFrom": "Jan 5",
+    "availableTo": "Feb 28"
   },
   {
     "firstSeen": 1646727645426,
@@ -10076,6 +11237,61 @@
     "text": "Thomas wants to ride with a fishing charter out to the vast ocean. He’s searching for a hidden island. Unfortunately, he doesn’t have any gold to pay for the charter. So, he made a deal with Captain Logan. Thomas is supposed to provide a variety of fish to make up for the lost fishing opportunities the captain will experience while hauling Thomas around, and a little extra.\n\n\n\nWill you help Thomas catch the fish he needs? He can’t pay much, but he promises to also share anything exciting he finds on the hidden island.",
     "requiresFishing": 68,
     "silverReward": 1000000
+  },
+  {
+    "firstSeen": 1674169230914,
+    "itemRequests": [],
+    "itemRewards": [
+      {
+        "id": "706",
+        "quantity": 200
+      },
+      {
+        "id": "707",
+        "quantity": 20
+      },
+      {
+        "id": "708",
+        "quantity": 20
+      }
+    ],
+    "id": "2136649",
+    "name": "Glacier Lake Effect V",
+    "prereq": "2124302",
+    "isPersonal": false,
+    "from": "Beatrix",
+    "fromImage": "/img/items/a_011.png",
+    "text": "Thanks to all of your help, Beatrix figured out how to thaw the frozen crops! It was pepper juice! Anyway, she’s finished experimenting and has quite a few frozen crops left. She doesn’t want them to go to waste. Will you take them?",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "requiresTower": 100,
+    "availableFrom": "Jan 6",
+    "availableTo": "Feb 28"
+  },
+  {
+    "firstSeen": 1675058236003,
+    "itemRequests": [],
+    "itemRewards": [
+      {
+        "id": "385",
+        "quantity": 1
+      }
+    ],
+    "id": "2137829",
+    "name": "Flexible Spending I",
+    "prereq": null,
+    "isPersonal": false,
+    "from": "Cecil",
+    "fromImage": "/img/items/a_027.png",
+    "text": "You meet Cecil on a walk near the Bank of Redbrook. His expression is ineffable as he approaches you and joins you in lockstep. “I have a proposition. I have the ability to acquire some extremely rare artifacts, but I am a little short of liquid assets right now, how about a trade for two of the rarest? You will have to give me half up front to make sure I know you are good for the rest.”",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "requiresTower": 149,
+    "silverRequest": 5000000000000
   },
   {
     "firstSeen": 1660933172457,
@@ -10352,6 +11568,154 @@
     "silverReward": 1000000
   },
   {
+    "firstSeen": 1674256339199,
+    "itemRequests": [
+      {
+        "id": "450",
+        "quantity": 2000
+      },
+      {
+        "id": "71",
+        "quantity": 2000
+      },
+      {
+        "id": "91",
+        "quantity": 2000
+      },
+      {
+        "id": "59",
+        "quantity": 2000
+      },
+      {
+        "id": "596",
+        "quantity": 2000
+      },
+      {
+        "id": "349",
+        "quantity": 2000
+      },
+      {
+        "id": "499",
+        "quantity": 2000
+      },
+      {
+        "id": "65",
+        "quantity": 2000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "112",
+        "quantity": 100
+      },
+      {
+        "id": "583",
+        "quantity": 100
+      }
+    ],
+    "id": "2175452",
+    "name": "Far Away XXIII",
+    "prereq": "1716464",
+    "isPersonal": false,
+    "from": "Ragvin",
+    "fromImage": "/img/items/ragvin.png?1",
+    "text": "Ragvin is ready for the next load to fill his boat. He thinks three more loads should fill it after this one.",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "requiresTower": 30,
+    "silverReward": 3000000000
+  },
+  {
+    "firstSeen": 1674256392664,
+    "itemRequests": [
+      {
+        "id": "677",
+        "quantity": 1000
+      },
+      {
+        "id": "683",
+        "quantity": 2000
+      },
+      {
+        "id": "492",
+        "quantity": 2000
+      },
+      {
+        "id": "314",
+        "quantity": 2000
+      },
+      {
+        "id": "592",
+        "quantity": 2000
+      },
+      {
+        "id": "338",
+        "quantity": 500
+      },
+      {
+        "id": "680",
+        "quantity": 2000
+      },
+      {
+        "id": "684",
+        "quantity": 1000
+      },
+      {
+        "id": "682",
+        "quantity": 1000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "397",
+        "quantity": 100
+      },
+      {
+        "id": "398",
+        "quantity": 100
+      },
+      {
+        "id": "230",
+        "quantity": 100
+      },
+      {
+        "id": "508",
+        "quantity": 1000
+      },
+      {
+        "id": "653",
+        "quantity": 10
+      },
+      {
+        "id": "323",
+        "quantity": 10
+      },
+      {
+        "id": "112",
+        "quantity": 100
+      },
+      {
+        "id": "632",
+        "quantity": 1
+      }
+    ],
+    "id": "2175549",
+    "name": "Far Away XXIV",
+    "prereq": "2175452",
+    "isPersonal": false,
+    "from": "Ragvin",
+    "fromImage": "/img/items/ragvin.png?1",
+    "text": "Ragvin’s crew is working quickly. They’re ready for another load.",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "requiresTower": 30,
+    "silverReward": 3000000000
+  },
+  {
     "firstSeen": 1646727635412,
     "itemRequests": [
       {
@@ -10533,6 +11897,112 @@
     "silverReward": 1000000
   },
   {
+    "firstSeen": 1673589675663,
+    "itemRequests": [
+      {
+        "id": "260",
+        "quantity": 5
+      },
+      {
+        "id": "63",
+        "quantity": 50
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "657",
+        "quantity": 1
+      },
+      {
+        "id": "84",
+        "quantity": 10
+      }
+    ],
+    "id": "2214046",
+    "name": "Friday the 13th I",
+    "prereq": null,
+    "isPersonal": false,
+    "from": "frank",
+    "fromImage": "/img/items/npc_bunny1.png",
+    "text": "Unlucky, unlucky, unlucky. frank needs your help to ward off the onslaught of bad luck from Friday the 13th. Collect all the ladders in town so he won’t accidentally walk under them, and he heard some friends say trout scales are lucky.",
+    "requiresFarming": 10,
+    "requiresCrafting": 10,
+    "requiresFishing": 10,
+    "requiresExploring": 10
+  },
+  {
+    "firstSeen": 1673592478420,
+    "itemRequests": [
+      {
+        "id": "217",
+        "quantity": 200
+      },
+      {
+        "id": "188",
+        "quantity": 10
+      },
+      {
+        "id": "282",
+        "quantity": 5
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "657",
+        "quantity": 1
+      },
+      {
+        "id": "194",
+        "quantity": 25
+      }
+    ],
+    "id": "2214050",
+    "name": "Friday the 13th II",
+    "prereq": "2214046",
+    "isPersonal": false,
+    "from": "frank",
+    "fromImage": "/img/items/npc_bunny1.png",
+    "text": "frank is still worried about all the bad luck out there. Help him with some more lucky charms. Some horseshoes and clovers should keep most of it at bay, and bring a few scarabs just in case.",
+    "requiresFarming": 50,
+    "requiresCrafting": 50,
+    "requiresFishing": 50,
+    "requiresExploring": 50
+  },
+  {
+    "firstSeen": 1673592498000,
+    "itemRequests": [
+      {
+        "id": "305",
+        "quantity": 50
+      },
+      {
+        "id": "188",
+        "quantity": 25
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "657",
+        "quantity": 1
+      },
+      {
+        "id": "491",
+        "quantity": 10
+      }
+    ],
+    "id": "2214054",
+    "name": "Friday the 13th III",
+    "prereq": "2214050",
+    "isPersonal": false,
+    "from": "frank",
+    "fromImage": "/img/items/npc_bunny1.png",
+    "text": "Salt, frank needs salt to throw over his shoulder. And more clovers too, there’s no taking any chances on such an unlucky day.",
+    "requiresFarming": 90,
+    "requiresCrafting": 90,
+    "requiresFishing": 90,
+    "requiresExploring": 90
+  },
+  {
     "firstSeen": 1646727627388,
     "itemRequests": [
       {
@@ -10663,6 +12133,136 @@
     "silverReward": 10000000
   },
   {
+    "firstSeen": 1673815732147,
+    "itemRequests": [],
+    "itemRewards": [
+      {
+        "id": "112",
+        "quantity": 1
+      },
+      {
+        "id": "661",
+        "quantity": 1
+      },
+      {
+        "id": "708",
+        "quantity": 3
+      },
+      {
+        "id": "12",
+        "quantity": 20
+      },
+      {
+        "id": "30",
+        "quantity": 20
+      },
+      {
+        "id": "20",
+        "quantity": 20
+      },
+      {
+        "id": "28",
+        "quantity": 20
+      },
+      {
+        "id": "14",
+        "quantity": 20
+      }
+    ],
+    "id": "2245978",
+    "name": "Bad Dirt I",
+    "prereq": null,
+    "isPersonal": false,
+    "from": "Lorn",
+    "fromImage": "/img/items/a_088.png",
+    "text": "Lorn acquired some special dirt that was supposed to maximize growth for planted crops. He thought he could surprise you with a small experiment on your farm. Turns out, the special dirt simply dissolves anything planted in it!\n\n\n\nHe feels really bad about it and would like to give you some items to try to make it right. Here take these!",
+    "requiresFarming": 10,
+    "silverReward": 50000
+  },
+  {
+    "firstSeen": 1673815742205,
+    "itemRequests": [],
+    "itemRewards": [
+      {
+        "id": "699",
+        "quantity": 1
+      },
+      {
+        "id": "657",
+        "quantity": 1
+      },
+      {
+        "id": "707",
+        "quantity": 3
+      },
+      {
+        "id": "661",
+        "quantity": 1
+      },
+      {
+        "id": "706",
+        "quantity": 10
+      },
+      {
+        "id": "70",
+        "quantity": 40
+      },
+      {
+        "id": "395",
+        "quantity": 40
+      },
+      {
+        "id": "257",
+        "quantity": 40
+      }
+    ],
+    "id": "2246207",
+    "name": "Bad Dirt II",
+    "prereq": "2245978",
+    "isPersonal": false,
+    "from": "Lorn",
+    "fromImage": "/img/items/a_088.png",
+    "text": "Lorn still regrets what happened and found a few more items you might find useful.",
+    "requiresFarming": 70,
+    "silverReward": 1000000
+  },
+  {
+    "firstSeen": 1673815747566,
+    "itemRequests": [],
+    "itemRewards": [
+      {
+        "id": "588",
+        "quantity": 25
+      },
+      {
+        "id": "589",
+        "quantity": 25
+      },
+      {
+        "id": "84",
+        "quantity": 25
+      },
+      {
+        "id": "508",
+        "quantity": 25
+      },
+      {
+        "id": "661",
+        "quantity": 1
+      }
+    ],
+    "id": "2246268",
+    "name": "Bad Dirt III",
+    "prereq": "2246207",
+    "isPersonal": false,
+    "from": "Lorn",
+    "fromImage": "/img/items/a_088.png",
+    "text": "Regret lingers like a bad cold. Lorn just can't seem to shake what happened and just wants you to know he's really sorry. Maybe these items will help.",
+    "requiresFarming": 99,
+    "requiresTower": 20,
+    "silverReward": 10000000
+  },
+  {
     "firstSeen": 1646727621375,
     "itemRequests": [
       {
@@ -10780,6 +12380,82 @@
     "fromImage": "/img/items/npc_figure.png",
     "text": "*poof*\n\n\nAs you put the last piece of Magicite down, Star again appears as if he has been watching you the whole time. Very strange, and he really does love that spell. Feathers, feathers everywhere.\n\n\n“I’m out of feathers, would you mind collecting some more for me while I get to work on this staff? I can’t teleport anymore!”\nStar begins to walk, stops, looks at you and laughs, then teleports away in a shower of feathers.\n\n\n“Just kidding! But seriously, running low on feather juice!” Star’s voice floats in the air in a very odd and melodic way.\n\n\nWell, you’ve done this much, hopefully the reward is worth it, time to get some feathers.",
     "requiresFarming": 75
+  },
+  {
+    "firstSeen": 1674528069176,
+    "itemRequests": [
+      {
+        "id": "44",
+        "quantity": 2000
+      },
+      {
+        "id": "61",
+        "quantity": 2000
+      },
+      {
+        "id": "62",
+        "quantity": 2000
+      },
+      {
+        "id": "120",
+        "quantity": 2000
+      },
+      {
+        "id": "586",
+        "quantity": 100
+      },
+      {
+        "id": "59",
+        "quantity": 2000
+      },
+      {
+        "id": "660",
+        "quantity": 2000
+      },
+      {
+        "id": "186",
+        "quantity": 2000
+      },
+      {
+        "id": "92",
+        "quantity": 2000
+      },
+      {
+        "id": "26",
+        "quantity": 2000
+      },
+      {
+        "id": "276",
+        "quantity": 2000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "363",
+        "quantity": 100
+      },
+      {
+        "id": "347",
+        "quantity": 200
+      },
+      {
+        "id": "491",
+        "quantity": 50
+      }
+    ],
+    "id": "2262325",
+    "name": "Far Away XXV",
+    "prereq": "2175549",
+    "isPersonal": false,
+    "from": "Ragvin",
+    "fromImage": "/img/items/ragvin.png?1",
+    "text": "Ragvin’s crew is ready for the next load.",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "requiresTower": 30,
+    "silverReward": 3000000000
   },
   {
     "firstSeen": 1646727617380,
@@ -10940,6 +12616,149 @@
     "text": "You know the drill at this point, feathers, sudden appearances, strange jokes…the usual.\n\n\n\nStar looks gleefully at the things you’ve collected and mutters under his breath something about giving a mile, and hands you another piece of parchment.\n\n\n\n“You’ve been quite helpful, the damage Geist has done should mostly be repaired at this point, but my kitchen and cellar were damaged by fire also! Could you help me restoc- I mean restore these too?”\n\n\n\nStar looks thoughtful for a moment and takes the parchment back and scribbles something at the bottom of the list.\n\n\n\nHe hands the list back which reads:\n\n\n\n\n\nShopping List:\n\n\nGolden Veggies - a variety of nutritious foods\n\n\nOranges - delicious and fight scurvy!\n\n\nMilk - does a body good\n\n\nEggs - part of a nutritious breakfast\n\n\nBacon - it’s so hard to find right now!\n\n\nFlour - For baking and making bread\n\n\nHoney - For baking and bread\n\n\nWine - for those lazy nights reading magical theory\n\n\nCheese - for the wine\n\n\nSteak - the market’s probably stable right now\n\n\nKabobs - perfect for grilling after Friday\n\n\nScribbled at the bottom:\n\n\nABSOLUTELY NO LEMONS!",
     "requiresFarming": 75,
     "silverReward": 15000000
+  },
+  {
+    "firstSeen": 1674542578129,
+    "itemRequests": [
+      {
+        "id": "500",
+        "quantity": 2000
+      },
+      {
+        "id": "498",
+        "quantity": 2000
+      },
+      {
+        "id": "191",
+        "quantity": 2000
+      },
+      {
+        "id": "277",
+        "quantity": 2000
+      },
+      {
+        "id": "192",
+        "quantity": 2000
+      },
+      {
+        "id": "481",
+        "quantity": 2000
+      }
+    ],
+    "itemRewards": [],
+    "id": "2283134",
+    "name": "Far Away XXVI",
+    "prereq": "2262325",
+    "isPersonal": false,
+    "from": "Captain Logan",
+    "fromImage": "/img/items/captainlogan.png",
+    "text": "After talking more with Lorn, Captain Logan has decided to command the ship that Lorn leased. He wants to make sure that you all make it safely home after you find Thomas and Captain Thomas. Also, he doesn’t trust this Ragvin. There’s something off about his story, specifically the route he claimed to take.\n\n\n\nCaptain Logan has prepared his crews to continue their fishing operations in his absence, but he would like to make sure they have more resources than they need to keep things running smoothly while he’s gone. Will you sell Captain Logan some additional supplies for his crews?",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "requiresTower": 30,
+    "silverReward": 40000000000
+  },
+  {
+    "firstSeen": 1674749449865,
+    "itemRequests": [
+      {
+        "id": "261",
+        "quantity": 100
+      },
+      {
+        "id": "288",
+        "quantity": 25
+      },
+      {
+        "id": "176",
+        "quantity": 2000
+      },
+      {
+        "id": "273",
+        "quantity": 25
+      },
+      {
+        "id": "177",
+        "quantity": 2000
+      },
+      {
+        "id": "211",
+        "quantity": 100
+      },
+      {
+        "id": "262",
+        "quantity": 1000
+      },
+      {
+        "id": "159",
+        "quantity": 1000
+      },
+      {
+        "id": "189",
+        "quantity": 1000
+      },
+      {
+        "id": "161",
+        "quantity": 1000
+      },
+      {
+        "id": "157",
+        "quantity": 1000
+      },
+      {
+        "id": "695",
+        "quantity": 100
+      },
+      {
+        "id": "697",
+        "quantity": 100
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "453",
+        "quantity": 50
+      },
+      {
+        "id": "508",
+        "quantity": 1000
+      },
+      {
+        "id": "363",
+        "quantity": 100
+      },
+      {
+        "id": "347",
+        "quantity": 200
+      },
+      {
+        "id": "661",
+        "quantity": 10
+      },
+      {
+        "id": "75",
+        "quantity": 2000
+      },
+      {
+        "id": "380",
+        "quantity": 50
+      }
+    ],
+    "id": "2283381",
+    "name": "Far Away XXVII",
+    "prereq": "2283134",
+    "isPersonal": false,
+    "from": "Ragvin",
+    "fromImage": "/img/items/ragvin.png?1",
+    "text": "Ragvin is ready for the final load. Some of these items may seem strange, but he has a buyer looking for these very specific items. So, he will need all of them.",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "requiresTower": 30,
+    "silverReward": 30000000000
   },
   {
     "firstSeen": 1660933269057,
@@ -11134,6 +12953,480 @@
     "fromImage": "/img/items/npc_figure.png",
     "text": "Did you just give me a lemon when I explicitly said not to? Did I not write “No lemons!” in all capital letters on my list? You’ve violated one of my most inviolable rules – don’t bring me things I don’t want! Especially lemons! So, you get nothing! You lose! Good day!",
     "requiresFarming": 75
+  },
+  {
+    "firstSeen": 1674589484785,
+    "itemRequests": [
+      {
+        "id": "50",
+        "quantity": 1
+      },
+      {
+        "id": "244",
+        "quantity": 1
+      },
+      {
+        "id": "499",
+        "quantity": 50
+      },
+      {
+        "id": "316",
+        "quantity": 600
+      },
+      {
+        "id": "146",
+        "quantity": 600
+      },
+      {
+        "id": "249",
+        "quantity": 600
+      },
+      {
+        "id": "36",
+        "quantity": 600
+      },
+      {
+        "id": "252",
+        "quantity": 600
+      },
+      {
+        "id": "55",
+        "quantity": 600
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "195",
+        "quantity": 500
+      },
+      {
+        "id": "389",
+        "quantity": 100
+      },
+      {
+        "id": "508",
+        "quantity": 250
+      },
+      {
+        "id": "33",
+        "quantity": 500
+      }
+    ],
+    "id": "2296205",
+    "name": "Strange Companions XXI",
+    "prereq": "1090580",
+    "isPersonal": false,
+    "from": "Buddy",
+    "fromImage": "/img/items/buddy.png",
+    "text": "The night of observing Ric and Cecil, your fitful sleep is interrupted by peculiar dreams. Far off lands that look familiar but feel foreign. Always a shadow and a glint haunt your steps as you explore. A man who follows you but does not speak. A hooded figure in the distance, lights flashing before they disappear. \n\n\nWhen you wake, the dawn has already passed and given way to a beautiful clear morning. As you open your door, a familiar figure stands up, hand on their side. Buddy gives you a lopsided smile, “Rosalie told me you were in danger before she sprinted off, she muttered something about magical infetterance and transformational diagetic conventions…something or other. Anyways, I came here as fast as I could. She kind of sounds like Star sometimes now.” \n\n\nFor a moment, you’re taken aback by Buddy’s tone of caring before he continues, “Anyways, Rosalie and I had a few leads and good conversations. I’m really good at getting townsfolk to talk, on account of me being so friendly! We talked to a few more townsfolk who asked to stay anonymous and we think we can identify where the shadow is going to show up next. So later today, we are gonna find that thing and win! Rosalie needs a little help with the spell she’s preparing, so meet us later today in town with this stuff!”\n\n\nBefore you can explain what you saw last night, Buddy bounds off.",
+    "requiresFarming": 75,
+    "requiresExploring": 75
+  },
+  {
+    "firstSeen": 1674593903461,
+    "itemRequests": [
+      {
+        "id": "50",
+        "quantity": 1
+      },
+      {
+        "id": "244",
+        "quantity": 1
+      },
+      {
+        "id": "499",
+        "quantity": 50
+      },
+      {
+        "id": "316",
+        "quantity": 600
+      },
+      {
+        "id": "146",
+        "quantity": 600
+      },
+      {
+        "id": "249",
+        "quantity": 600
+      },
+      {
+        "id": "36",
+        "quantity": 600
+      },
+      {
+        "id": "252",
+        "quantity": 600
+      },
+      {
+        "id": "55",
+        "quantity": 600
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "385",
+        "quantity": 1
+      }
+    ],
+    "id": "2296212",
+    "name": "Strange Companions XXII",
+    "prereq": "2296205",
+    "isPersonal": false,
+    "from": "Ric Ryph",
+    "fromImage": "/img/items/npc_figure2.png",
+    "text": "You’ve brought what Buddy requests into town. Halfway to town, Charles joins you whinnying persistently, but seems to have forgotten you don’t have the ring you normally have. You’ve no idea what he is trying to communicate with you, but it’s probably not important.\nRosalie’s home is empty when you get into town as Charles stamps impatiently behind you. There’s no note or markings outside her home, so you decide it might be best to keep searching around town.\nOn your way towards Beatrix’s house, you stumble across Ric Ryph, who is inspecting some of the town's defenses.\n\n\n“Ah yes, good to see you!” Ric’s cheer is evident from behind his helmet, “I want to thank you for some of your donations during these trying times, and remind you that we’re all doing our part to make Redbrook safer than it has ever been, and you’re a big part of that!” He lowers his voice so only you can hear, “Just don’t get too involved in things you have no business being a part of, alright? I like you well enough but any friend of a dragon is not a friend of mine…”\nAs Ric stands back up again, you can see his attention move towards the items you planned on giving to Rosalie, “And these items, thank you for the donation to the town, you continue to be one of my greatest supporters!”\n\n\nRight before you can respond, you notice a peculiar glimmer and a shadow around the next corner and you excuse yourself quickly as Ric hands you a paper receipt.",
+    "requiresFarming": 75,
+    "requiresExploring": 75
+  },
+  {
+    "firstSeen": 1674595260306,
+    "itemRequests": [
+      {
+        "id": "389",
+        "quantity": 500
+      },
+      {
+        "id": "290",
+        "quantity": 5
+      },
+      {
+        "id": "316",
+        "quantity": 600
+      },
+      {
+        "id": "261",
+        "quantity": 5
+      },
+      {
+        "id": "171",
+        "quantity": 500
+      },
+      {
+        "id": "188",
+        "quantity": 500
+      },
+      {
+        "id": "383",
+        "quantity": 500
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "333",
+        "quantity": 50
+      },
+      {
+        "id": "572",
+        "quantity": 50
+      },
+      {
+        "id": "280",
+        "quantity": 10
+      }
+    ],
+    "id": "2296219",
+    "name": "Strange Companions XXIII",
+    "prereq": "2296212",
+    "isPersonal": false,
+    "from": "Rosalie",
+    "fromImage": "/img/items/a_098.png",
+    "text": "You race down the sidestreet, the strange glimmer stuck in your mind’s eye. Cecil? The connections run through your brain in an instant, connecting the two images. You come to a back alley but something feels very wrong about this situation. You step forward only to find your foot mired in a substance black as the night.\nThe shadow is here. The thought enters your mind as despair courses through your entire body. You’re not prepared. You’re not ready. \n\n\nThe shadow begins to creep up your legs and your mind is filled with images of spite and hatred. Dragons dying. Spells you don’t understand explode around you, and hideous laughter, a smile you can’t quite place. \n\n\n“VENTAS LUX PROVIA!”\n\n\nA cascade of light envelops you and the Shadow recoils immediately.\n\n\nYou recognize the familiar faces of Rosalie, Beatrix, and Buddy momentarily before taking in your surroundings. Rising to your feet, you turn towards the Shadow. To your left, Buddy draws his sword looking past you and Beatrix widens her stance slightly, her eyes dilating in a strange pattern. \n\n\nGlancing to your right, a wide-eyed Rosalie looks to you, one hand reaching out to you, in the other a staff gleaming bright white, yet emitting the colors of the rainbow.\n\n\n“Quick! The materials!”",
+    "requiresFarming": 75,
+    "requiresExploring": 75
+  },
+  {
+    "firstSeen": 1674789679674,
+    "itemRequests": [
+      {
+        "id": "581",
+        "quantity": 50
+      },
+      {
+        "id": "325",
+        "quantity": 1
+      },
+      {
+        "id": "124",
+        "quantity": 600
+      },
+      {
+        "id": "127",
+        "quantity": 500
+      },
+      {
+        "id": "300",
+        "quantity": 500
+      }
+    ],
+    "itemRewards": [],
+    "id": "2296226",
+    "name": "Strange Companions XXIV",
+    "prereq": "2296219",
+    "isPersonal": false,
+    "from": "Cecil",
+    "fromImage": "/img/items/a_027.png",
+    "text": "As Rosalie stands, another silhouette appears from behind the Shadow. The staff you recognize from last night appears from underneath the cloaked figure’s robe as a voice calls out.\n\n\n“Put your staff away, Rosalie. Do you not realize who you face? Senca the Meticulous. Skugga the Inexorable. Yes, I know who you are, Trickster.”\n\n\nCecil steps forward, his cloak billowing out behind him as he slams his staff to the ground. The impact of his staff echoes like a thunderclap in a spring storm. The sound stuns you, and the crystal on the staff emits an iridescent white light that focuses into a tight beam aimed at the center of the Shadow.\n\n\n\"Ah, lowly mage, come back for another tussle with gifts undeserved and changed? You delay…nothing…\"\n The words echo in your mind unlike anything you’ve ever experienced. As the voice speaks, the Shadow grows and coalesces, a barrier of pure black meets the light from Cecil. \n\n\nDetermination evident on Cecil’s face, he levels his staff at the shadow and the beam of light grows more intense. Pressure builds in the area around you, power beyond what you can see but rather feel gathers between the two figures, the light intensifies and shadows play across Cecil's face in a dizzying array of color. The air crackles around the two as cracks appear on the barrier of black and light begins to pierce the Shadow itself. Moments later, the Shadow disperses in a brilliant explosion of color. Silence reigns.\n\n\nBefore anyone can speak, Cecil sweeps his staff in a circle and as Rosalie tries to speak, no words come out of her mouth. Buddy crosses his eyes in confusion as his mouth moves for a moment with no discernable sound before Cecil addresses the assembled members of the Golden Leaf. \n\n\n“You have meddled far too much in something you do not understand, fools! Only a student of Meerif would do something so reckless and foolish. From this moment forward, you will put your heads down and ensure this town’s safety. I know your secrets, and I won’t let you interfere any longer.” He pauses, looking at each of you for a moment with unnerving intensity. “Were I a dragon, or a sorceress out of her league, or even a wanted pirate, I certainly would not wish to let my secrets be known to a certain town mayor. I trust we can all agree? Now, leave these pathetic weapons behind, you have no need of them anymore.”",
+    "requiresFarming": 75,
+    "requiresExploring": 75,
+    "silverReward": 2000000000
+  },
+  {
+    "firstSeen": 1674789732391,
+    "itemRequests": [
+      {
+        "id": "379",
+        "quantity": 50
+      },
+      {
+        "id": "26",
+        "quantity": 500
+      },
+      {
+        "id": "322",
+        "quantity": 500
+      },
+      {
+        "id": "84",
+        "quantity": 50
+      },
+      {
+        "id": "85",
+        "quantity": 500
+      },
+      {
+        "id": "660",
+        "quantity": 50
+      },
+      {
+        "id": "71",
+        "quantity": 500
+      },
+      {
+        "id": "373",
+        "quantity": 500
+      },
+      {
+        "id": "296",
+        "quantity": 5
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "508",
+        "quantity": 250
+      },
+      {
+        "id": "177",
+        "quantity": 250
+      },
+      {
+        "id": "537",
+        "quantity": 500
+      }
+    ],
+    "id": "2296227",
+    "name": "Strange Companions XXV",
+    "prereq": "2296226",
+    "isPersonal": false,
+    "from": "Beatrix",
+    "fromImage": "/img/items/a_011.png",
+    "text": "“As an added gesture, I forbid you from discussing this matter further until I deem it so.”\n\n\nCecil waves his staff, muttering something incoherent and instantly, you feel the inability to grasp thoughts about this evening or the…incident? Was it food you came on this trip for? You can’t quite remember what it was you were doing.\n\n\n“All of you go home and have a nice rest, all will be better in the morning. Charles, I expect you won’t be at my home seeing your…friend later?”\n\n\nAll of you part ways in a daze, the events of the past few days feel hazier and hazier. Maybe Cecil is right and a good night’s sleep will clear you right up. You head back to your home in a fog. \n\n\nWhen you arrive a note is already on your door. You are a little tired of getting notes on your door, but can’t remember why.\n\n\n“I summon the Golden Leaf to my home tomorrow morning.\n\n\nBeatrix”",
+    "requiresFarming": 75,
+    "requiresExploring": 75
+  },
+  {
+    "firstSeen": 1674789760671,
+    "itemRequests": [
+      {
+        "id": "84",
+        "quantity": 50
+      },
+      {
+        "id": "373",
+        "quantity": 500
+      },
+      {
+        "id": "185",
+        "quantity": 500
+      },
+      {
+        "id": "86",
+        "quantity": 500
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "250",
+        "quantity": 500
+      }
+    ],
+    "id": "2296231",
+    "name": "Strange Companions XXVI",
+    "prereq": "2296227",
+    "isPersonal": false,
+    "from": "Beatrix",
+    "fromImage": "/img/items/a_011.png",
+    "text": "Morning comes, and once you’ve accomplished your morning chores, you run into Charles on the way to Beatrix’s home. He gives you a polite neigh and you realize you don’t have your Ring of Renthisj. How peculiar, you think to yourself. You don’t remember leaving it at home. \n\n\nThe walk to Beatrix’s house takes almost no time at all. You can’t quite remember the last time you were there, but it’s a lovely house. Charles whinnies at you as you stop to admire her home and briefly wonder what he’s on about. \n\n\nBeatrix welcomes you to her home, and she indicates Charles can walk around to the back. Stepping through Beatrix’s home, it’s precisely placed ornamentation sticks out to you like never before. The precision is both jarring and peaceful. Relics you didn’t know exist line her walls, but as you’re ready to ask about them, you find yourself on the porch, Lorn and Rosalie already sitting in chairs. No Cecil though, how peculiar. You think to yourself. \n\n\nRosalie gives you an odd look as Beatrix speaks to the assembled group, “Refreshments, anyone?”",
+    "requiresFarming": 75,
+    "requiresExploring": 75,
+    "silverReward": 500000000
+  },
+  {
+    "firstSeen": 1674789785827,
+    "itemRequests": [
+      {
+        "id": "106",
+        "quantity": 500
+      },
+      {
+        "id": "126",
+        "quantity": 500
+      },
+      {
+        "id": "137",
+        "quantity": 500
+      },
+      {
+        "id": "475",
+        "quantity": 600
+      },
+      {
+        "id": "197",
+        "quantity": 500
+      },
+      {
+        "id": "675",
+        "quantity": 500
+      },
+      {
+        "id": "499",
+        "quantity": 500
+      },
+      {
+        "id": "185",
+        "quantity": 500
+      },
+      {
+        "id": "471",
+        "quantity": 50
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "190",
+        "quantity": 500
+      },
+      {
+        "id": "352",
+        "quantity": 500
+      },
+      {
+        "id": "500",
+        "quantity": 500
+      },
+      {
+        "id": "643",
+        "quantity": 5
+      }
+    ],
+    "id": "2296235",
+    "name": "Strange Companions XXVII",
+    "prereq": "2296231",
+    "isPersonal": false,
+    "from": "Beatrix",
+    "fromImage": "/img/items/a_011.png",
+    "text": "Lorn and Rosalie engage in a lively debate about water speeds of various fish during the first parts of their refreshments, but Beatrix looks at the group with a growing intensity. Charles has taken up a position right off the porch and has been very quiet. \n\n\n“My dear Rosalie, there is simply no way a pond trout could outswim a river trout. Clearly you’re unfamiliar with the patterns of the northern fjord trout…in my younger days I even - “ \n\n\nAt this moment, Beatrix slams her drink on the table, a disgusted look on her face. All drinks go flying as everyone looks at Beatrix in bewilderment. “Beatrix! Explain yourself!” Lorn’s face is twisted up in an angry look you’re confident is typically reserved for particularly bad Buddy pranks.\n\n\n“Golden Leaf! Are you content to whittle the days of your life away knowing what we know of Cecil? The shadow? Are you all content to move on with life knowing something is *out there* threatening our lives? To say nothing of Cecil threatening to expose Geist to Ric?” You can feel the heat in the air as Beatrix’s indignation rises. “We must act!!” \n\n\nBeatrix seems ready to burst before she sees the clear confusion on the faces of the rest of the group. She pauses a moment, “Oh? Oh. He didn’t. Yes, this is beyond me, if we must. For the Leaf.”\n\n\nBeatrix calmly steps away from the group, “We will need you all to go inside for a moment, come back outside in about 5 minutes. Charles, please keep watch at the front of the house. We’ll be hungry when you get back.”",
+    "requiresFarming": 75,
+    "requiresExploring": 75
+  },
+  {
+    "firstSeen": 1674789838119,
+    "itemRequests": [
+      {
+        "id": "124",
+        "quantity": 500
+      },
+      {
+        "id": "80",
+        "quantity": 500
+      },
+      {
+        "id": "368",
+        "quantity": 1
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "160",
+        "quantity": 500
+      },
+      {
+        "id": "536",
+        "quantity": 500
+      }
+    ],
+    "id": "2296239",
+    "name": "Strange Companions XXVIII",
+    "prereq": "2296235",
+    "isPersonal": false,
+    "from": "Geist",
+    "fromImage": "/img/items/npc_beast.png",
+    "text": "Before long, you all step back outside and before you is what you can only believe to be a dragon. Geist dwarfs her home, more majestic than a mountain. As she lowers her head to address you, flame crackles from her nose and a different fire burns in her eyes that can only be described as sheer intelligent determination. A single ring hangs off a chain on her neck. As Charles steps back, you see his ears pin back, a wild terror gleams in his eyes and for a moment, he stands still, before bolting past Geist and towards the town proper.\n\n\n“It is clear by your countenance that you do not remember the events of the past few days. Let me remind you. Do not worry about Charles, I should have considered seeing a dragon might affect him, he will return soon, I’m sure.” \n\n\nYou all stand for a moment, struck by Geist’s majesty. She first meets Rosalie’s gaze, then Lorn, and finally her eyes rest on you. For a moment, you are dumbfounded, transfixed by the sheer otherworldly nature of a dragon in the flesh. You feel yourself get lost in Geist’s eyes, a swirling vortex of fire, time and yet something deep in her eyes hypnotizes you when suddenly like a shattered mirror, your memory of the past few days snaps into focus, like a bad dream made reality you stumble backwards only to see your comrades all gasping for air. \n\n\n“Cecil’s magic is strong, but he is simply a novice. Please, step inside again for a few moments and we will decide what course of action is appropriate.”",
+    "requiresFarming": 75,
+    "requiresExploring": 75
+  },
+  {
+    "firstSeen": 1674789870162,
+    "itemRequests": [
+      {
+        "id": "350",
+        "quantity": 500
+      },
+      {
+        "id": "116",
+        "quantity": 500
+      },
+      {
+        "id": "456",
+        "quantity": 500
+      },
+      {
+        "id": "127",
+        "quantity": 500
+      },
+      {
+        "id": "299",
+        "quantity": 500
+      },
+      {
+        "id": "300",
+        "quantity": 500
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "573",
+        "quantity": 50
+      },
+      {
+        "id": "363",
+        "quantity": 50
+      },
+      {
+        "id": "333",
+        "quantity": 50
+      }
+    ],
+    "id": "2296243",
+    "name": "Strange Companions XXIX",
+    "prereq": "2296239",
+    "isPersonal": false,
+    "from": "Beatrix",
+    "fromImage": "/img/items/a_011.png",
+    "text": "“First, I’m sorry I wasn’t able to recognize and stop Cecil’s mind wipe. I do not have the…aptitude Geist has for recognizing magical influences. Perhaps our first order of business is discussing with Cecil why he would use magic on members of the Golden Leaf?”\n\n\nYou all agree this is a good first step, and set out towards Cecil’s home together. \n\n\nBuddy suggests you cut through the middle of town, so he can stop and grab lunch at Mariya’s. As you round the corner, you all realize that there has been no one on the streets to greet you. In the town square, a figure in armor stands addressing a sizable crowd. \n\n\n“Our town will not be safe until this dragon is brought to heel. Your families, your friends, your livestock, they can never feel true security! We must bring Beatrix to justice for the terror she has reigned upon this town! Are you with me?”\n\n\nBeatrix quickly moves, wide-eyed behind Buddy attempting to hide herself, but it’s too late. You hear cries of “There she is! The evil dragon!” \n\n\nRic turns abruptly towards you and your friends and realizing there’s no quick way out of this, you all set yourself up for a confrontation with Ric Ryph.",
+    "requiresFarming": 75,
+    "requiresExploring": 75,
+    "silverReward": 4000000000
   },
   {
     "firstSeen": 1646725489715,
@@ -11456,6 +13749,92 @@
     "requiresCrafting": 32,
     "requiresExploring": 30,
     "silverReward": 150000
+  },
+  {
+    "firstSeen": 1675281247923,
+    "itemRequests": [
+      {
+        "id": "688",
+        "quantity": 500
+      },
+      {
+        "id": "693",
+        "quantity": 500
+      },
+      {
+        "id": "690",
+        "quantity": 500
+      },
+      {
+        "id": "689",
+        "quantity": 500
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "573",
+        "quantity": 10
+      },
+      {
+        "id": "347",
+        "quantity": 15
+      }
+    ],
+    "id": "2379820",
+    "name": "Breaking The Ice I",
+    "prereq": "1894913",
+    "isPersonal": false,
+    "from": "Captain Logan",
+    "fromImage": "/img/items/captainlogan.png",
+    "text": "Captain Logan heard a tale about your experience at Glacier Lake. He also heard about the fish you have caught there. All of it sounds amazing, and he would love to start fishing there too. The market for these exotic fish could be incredible! Unfortunately, Captain Logan doesn’t have a great way of getting a ship into those waters. For now, could you provide him some of the fish from your hauls to help get the market for these fish going, while he works on getting his operation set up?",
+    "requiresFarming": 92,
+    "requiresCrafting": 92,
+    "requiresFishing": 92,
+    "requiresExploring": 92,
+    "silverReward": 200000000
+  },
+  {
+    "firstSeen": 1675281647069,
+    "itemRequests": [
+      {
+        "id": "688",
+        "quantity": 500
+      },
+      {
+        "id": "690",
+        "quantity": 500
+      },
+      {
+        "id": "689",
+        "quantity": 500
+      },
+      {
+        "id": "691",
+        "quantity": 500
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "645",
+        "quantity": 5
+      },
+      {
+        "id": "352",
+        "quantity": 50
+      }
+    ],
+    "id": "2379902",
+    "name": "Breaking The Ice II",
+    "prereq": "2379820",
+    "isPersonal": false,
+    "from": "Captain Logan",
+    "fromImage": "/img/items/captainlogan.png",
+    "text": "Captain Logan would love to get two more loads of the fish you caught for him, and then he’d like for you to bring him two loads of any new fish you can find. There is a lot of interest building for these Glacier Lake fish.",
+    "requiresFarming": 92,
+    "requiresCrafting": 92,
+    "requiresFishing": 92,
+    "requiresExploring": 92,
+    "silverReward": 200000000
   },
   {
     "firstSeen": 1646727595325,
@@ -12269,6 +14648,178 @@
     "silverReward": 50000
   },
   {
+    "firstSeen": 1675281654814,
+    "itemRequests": [
+      {
+        "id": "688",
+        "quantity": 500
+      },
+      {
+        "id": "690",
+        "quantity": 500
+      },
+      {
+        "id": "689",
+        "quantity": 500
+      },
+      {
+        "id": "691",
+        "quantity": 500
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "363",
+        "quantity": 10
+      },
+      {
+        "id": "347",
+        "quantity": 12
+      },
+      {
+        "id": "65",
+        "quantity": 500
+      }
+    ],
+    "id": "2425640",
+    "name": "Breaking The Ice III",
+    "prereq": "2379902",
+    "isPersonal": false,
+    "from": "Captain Logan",
+    "fromImage": "/img/items/captainlogan.png",
+    "text": "Captain Logan is ready for the next load at your earliest convenience.",
+    "requiresFarming": 92,
+    "requiresCrafting": 92,
+    "requiresFishing": 92,
+    "requiresExploring": 92,
+    "silverReward": 200000000
+  },
+  {
+    "firstSeen": 1675281665684,
+    "itemRequests": [
+      {
+        "id": "692",
+        "quantity": 500
+      },
+      {
+        "id": "693",
+        "quantity": 500
+      },
+      {
+        "id": "694",
+        "quantity": 500
+      },
+      {
+        "id": "696",
+        "quantity": 500
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "646",
+        "quantity": 5
+      },
+      {
+        "id": "645",
+        "quantity": 5
+      },
+      {
+        "id": "256",
+        "quantity": 500
+      }
+    ],
+    "id": "2425737",
+    "name": "Breaking The Ice IV",
+    "prereq": "2425640",
+    "isPersonal": false,
+    "from": "Captain Logan",
+    "fromImage": "/img/items/captainlogan.png",
+    "text": "If you’ve found any new and exciting fish in your nets, Captain Logan is ready to bring them to market.",
+    "requiresFarming": 92,
+    "requiresCrafting": 92,
+    "requiresFishing": 92,
+    "requiresExploring": 92,
+    "silverReward": 250000000
+  },
+  {
+    "firstSeen": 1675281670475,
+    "itemRequests": [
+      {
+        "id": "692",
+        "quantity": 500
+      },
+      {
+        "id": "693",
+        "quantity": 500
+      },
+      {
+        "id": "694",
+        "quantity": 500
+      },
+      {
+        "id": "696",
+        "quantity": 500
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "453",
+        "quantity": 10
+      },
+      {
+        "id": "491",
+        "quantity": 10
+      },
+      {
+        "id": "33",
+        "quantity": 500
+      }
+    ],
+    "id": "2425810",
+    "name": "Breaking The Ice V",
+    "prereq": "2425737",
+    "isPersonal": false,
+    "from": "Captain Logan",
+    "fromImage": "/img/items/captainlogan.png",
+    "text": "Captain Logan would love another load of the more rare fish that you caught. Everyone is fascinated by these strange fish.",
+    "requiresFarming": 92,
+    "requiresCrafting": 92,
+    "requiresFishing": 92,
+    "requiresExploring": 92,
+    "silverReward": 250000000
+  },
+  {
+    "firstSeen": 1675281676860,
+    "itemRequests": [
+      {
+        "id": "697",
+        "quantity": 10
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "500",
+        "quantity": 200
+      },
+      {
+        "id": "710",
+        "quantity": 5
+      }
+    ],
+    "id": "2425853",
+    "name": "Breaking The Ice VI",
+    "prereq": "2425810",
+    "isPersonal": false,
+    "from": "Captain Logan",
+    "fromImage": "/img/items/captainlogan.png",
+    "text": "The market is loving Glacier Lake fish! Your help was absolutely essential to getting this market growing and it was very much appreciated.\n\n\n\nNow, Captain Logan’s crew is making good progress at fishing Glacier Lake on their own. Unfortunately, there is a strange shell that continues to elude their nets. The crew has encountered these shells several times, but they can’t haul one in.\n\n\n\nWill you try your nets at hauling in a load of these shells for Captain Logan?",
+    "requiresFarming": 92,
+    "requiresCrafting": 92,
+    "requiresFishing": 92,
+    "requiresExploring": 92,
+    "silverReward": 1000000000
+  },
+  {
     "firstSeen": 1646727585285,
     "itemRequests": [
       {
@@ -12343,6 +14894,130 @@
     "requiresCrafting": 2,
     "requiresFishing": 2,
     "requiresExploring": 2
+  },
+  {
+    "firstSeen": 1675281684881,
+    "itemRequests": [
+      {
+        "id": "500",
+        "quantity": 100
+      },
+      {
+        "id": "481",
+        "quantity": 1000
+      },
+      {
+        "id": "191",
+        "quantity": 1000
+      },
+      {
+        "id": "277",
+        "quantity": 1000
+      },
+      {
+        "id": "498",
+        "quantity": 1000
+      },
+      {
+        "id": "192",
+        "quantity": 1000
+      },
+      {
+        "id": "18",
+        "quantity": 1000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "491",
+        "quantity": 25
+      },
+      {
+        "id": "508",
+        "quantity": 25
+      },
+      {
+        "id": "75",
+        "quantity": 1000
+      }
+    ],
+    "id": "2450095",
+    "name": "Breaking The Ice Even Icier I",
+    "prereq": "2425853",
+    "isPersonal": false,
+    "from": "Captain Logan",
+    "fromImage": "/img/items/captainlogan.png",
+    "text": "Many of Captain Logan’s regular net suppliers are still nervous about traveling up to Glacier Lake, even though he assured them that it’s perfectly safe now. Will you help Captain Logan supply his crew with nets?",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "requiresTower": 10,
+    "silverReward": 2000000000
+  },
+  {
+    "firstSeen": 1675293196896,
+    "itemRequests": [
+      {
+        "id": "500",
+        "quantity": 3000
+      },
+      {
+        "id": "481",
+        "quantity": 3000
+      },
+      {
+        "id": "191",
+        "quantity": 3000
+      },
+      {
+        "id": "498",
+        "quantity": 3000
+      },
+      {
+        "id": "277",
+        "quantity": 3000
+      },
+      {
+        "id": "192",
+        "quantity": 3000
+      },
+      {
+        "id": "18",
+        "quantity": 3000
+      }
+    ],
+    "itemRewards": [
+      {
+        "id": "491",
+        "quantity": 50
+      },
+      {
+        "id": "508",
+        "quantity": 100
+      },
+      {
+        "id": "630",
+        "quantity": 1000
+      },
+      {
+        "id": "27",
+        "quantity": 1000
+      }
+    ],
+    "id": "2450156",
+    "name": "Breaking The Ice Even Icier II",
+    "prereq": "2450095",
+    "isPersonal": false,
+    "from": "Captain Logan",
+    "fromImage": "/img/items/captainlogan.png",
+    "text": "The fish of Glacier Lake are a tough lot, and Captain Logan is still struggling to get a reliable supplier of nets and bait. Will you help him out again with supplying his crew?",
+    "requiresFarming": 99,
+    "requiresCrafting": 99,
+    "requiresFishing": 99,
+    "requiresExploring": 99,
+    "requiresTower": 100,
+    "silverReward": 60000000000
   },
   {
     "firstSeen": 1646727579285,
@@ -31072,12 +33747,14 @@
     ],
     "id": "695",
     "name": "Hay Holidays IV",
+    "prereq": "308",
+    "isPersonal": false,
     "from": "Charles Horsington III",
     "fromImage": "/img/items/horsehat.png",
     "text": "Charles is so grateful for your help with getting a gift together for his girlfriend. He needs one more thing to really make it great. Will you give him a hand?",
-    "availableFrom": "Dec 25",
-    "availableTo": "Jan 3",
-    "requiresFarming": 75
+    "requiresFarming": 75,
+    "availableFrom": "Dec 31",
+    "availableTo": "Jan 3"
   },
   {
     "firstSeen": 1646726676614,
@@ -31383,13 +34060,15 @@
     ],
     "id": "700",
     "name": "A New Year IV",
+    "prereq": "699",
+    "isPersonal": false,
     "from": "Rosalie",
     "fromImage": "/img/items/a_098.png",
     "text": "Rosalie needs drinks for the toast to the new year. Will you help her?",
-    "silverReward": 2147483647,
+    "requiresFarming": 99,
     "availableFrom": "Dec 31",
-    "availableTo": "Jan 8",
-    "requiresFarming": 99
+    "availableTo": "Jan 3",
+    "silverReward": 2147483647
   },
   {
     "firstSeen": 1646726666595,

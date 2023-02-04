@@ -31,7 +31,6 @@
       "Pocket Watch",
       "Lima Bean",
       "Horned Beetle",
-      "Snowball",
       "Tea Leaves"
     ],
     "id": "4",
@@ -156,7 +155,6 @@
       "Shiny Beetle",
       "Pine Cone",
       "Spider",
-      "Snowball",
       "Frog"
     ],
     "id": "5",
@@ -348,6 +346,25 @@
     "type": "fishing",
     "name": "Forest Pond",
     "image": "/img/items/fpond.png"
+  },
+  {
+    "items": [
+      "Grab Bag 08",
+      "Frosteye",
+      "Crowfish",
+      "Bullfish",
+      "Glassback",
+      "Sea Crest",
+      "Seeker",
+      "Stone Jelly",
+      "Gold Sea Crest",
+      "Ice Shark",
+      "Frost Snapper Shell"
+    ],
+    "id": "12",
+    "type": "fishing",
+    "name": "Glacier Lake",
+    "image": "/img/items/glacier.png"
   },
   {
     "items": [

@@ -141,7 +141,7 @@
     Bacon: 1
     Steak Kabob: 3
 
-- box: Box of Chocolate
+- box: Box of Chocolate 01
   gold: 25
   items:
     Apple: 5
@@ -521,3 +521,24 @@
     Grab Bag 05: 3
     Happy Cookies: 2
     Large Net: 10
+
+- box: Grab Bag 08
+  mode: single
+  items:
+    Small Key: 1-5
+    Square Key: 1-5
+    Treasure Key: 1-3
+    Skeleton Key: 1
+
+- box: Winter Basket
+  gold: 25
+  items:
+    Apple Cider: 5
+    Arnold Palmer: 5
+    Fishing Net: 25
+    Frozen Cabbage: 4
+    Frozen Peas: 10
+    Frozen Pine: 3
+    Large Net: 5
+    Lemonade: 25
+    Orange Juice: 25

@@ -196,23 +196,5 @@
     "quiz_id": 17,
     "reward": "Treat Bag 04",
     "score": 100
-  },
-  {
-    "amount": 10,
-    "quiz_id": 18,
-    "reward": "Teddy Bear",
-    "score": 80
-  },
-  {
-    "amount": 1,
-    "quiz_id": 18,
-    "reward": "Cupid",
-    "score": 90
-  },
-  {
-    "amount": 1,
-    "quiz_id": 18,
-    "reward": "Bag of Presents 02",
-    "score": 100
   }
 ]

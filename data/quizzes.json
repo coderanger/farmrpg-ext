@@ -119,16 +119,5 @@
     "score80reward": "Onion Soup",
     "score90amt": 100,
     "score90reward": "Orange Juice"
-  },
-  {
-    "description": "Ho ho ho!",
-    "id": 18,
-    "name": "December To Remember ",
-    "score100amt": 1,
-    "score100reward": "Bag of Presents 02",
-    "score80amt": 10,
-    "score80reward": "Teddy Bear",
-    "score90amt": 1,
-    "score90reward": "Cupid"
   }
 ]

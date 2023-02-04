@@ -324,7 +324,10 @@
       "1893821",
       "1893846",
       "1893958",
-      "1894010"
+      "1894010",
+      "1894047",
+      "1894168",
+      "1894415"
     ],
     "secondary": false
   },
@@ -418,6 +421,16 @@
     "name": "As The Horse Clops",
     "quests": [
       "1090591"
+    ],
+    "secondary": false
+  },
+  {
+    "image": "/img/items/a_088.png",
+    "name": "Bad Dirt",
+    "quests": [
+      "2245978",
+      "2246207",
+      "2246268"
     ],
     "secondary": false
   },
@@ -528,6 +541,28 @@
     "secondary": false
   },
   {
+    "image": "/img/items/captainlogan.png",
+    "name": "Breaking The Ice",
+    "quests": [
+      "2379820",
+      "2379902",
+      "2425640",
+      "2425737",
+      "2425810",
+      "2425853"
+    ],
+    "secondary": false
+  },
+  {
+    "image": "/img/items/captainlogan.png",
+    "name": "Breaking The Ice Even Icier",
+    "quests": [
+      "2450095",
+      "2450156"
+    ],
+    "secondary": false
+  },
+  {
     "image": "/img/items/npc_horse.png",
     "name": "Bright Horseshoe",
     "quests": [
@@ -562,7 +597,10 @@
       "1938120",
       "1938071",
       "1938343",
-      "1938416"
+      "1938416",
+      "1938450",
+      "1938583",
+      "1938636"
     ],
     "secondary": false
   },
@@ -883,7 +921,20 @@
       "815142",
       "815158",
       "815183",
-      "815217"
+      "815217",
+      "1583316",
+      "1583386",
+      "1583423",
+      "1587942",
+      "1606114",
+      "1694834",
+      "1706013",
+      "1716464",
+      "2175452",
+      "2175549",
+      "2262325",
+      "2283134",
+      "2283381"
     ],
     "secondary": false
   },
@@ -994,6 +1045,14 @@
     "secondary": false
   },
   {
+    "image": "/img/items/a_027.png",
+    "name": "Flexible Spending",
+    "quests": [
+      "2137829"
+    ],
+    "secondary": false
+  },
+  {
     "image": "/img/items/buddy.png",
     "name": "Flu Away",
     "quests": [
@@ -1026,6 +1085,16 @@
     "secondary": false
   },
   {
+    "image": "/img/items/npc_bunny1.png",
+    "name": "Friday the 13th",
+    "quests": [
+      "2214046",
+      "2214050",
+      "2214054"
+    ],
+    "secondary": false
+  },
+  {
     "image": "/img/items/frog_t_01.png",
     "name": "Frog Got Your Tongue",
     "quests": [
@@ -1053,6 +1122,18 @@
       "910",
       "911",
       "912"
+    ],
+    "secondary": false
+  },
+  {
+    "image": "/img/items/a_011.png",
+    "name": "Glacier Lake Effect",
+    "quests": [
+      "2032028",
+      "2066472",
+      "2113273",
+      "2124302",
+      "2136649"
     ],
     "secondary": false
   },
@@ -1813,7 +1894,16 @@
       "1090561",
       "1090572",
       "1090579",
-      "1090580"
+      "1090580",
+      "2296205",
+      "2296212",
+      "2296219",
+      "2296226",
+      "2296227",
+      "2296231",
+      "2296235",
+      "2296239",
+      "2296243"
     ],
     "secondary": true
   },
@@ -1881,6 +1971,19 @@
     "secondary": false
   },
   {
+    "image": "/img/items/thomasblue.png",
+    "name": "The Fall of Water",
+    "quests": [
+      "1894542",
+      "1894582",
+      "1894706",
+      "1894764",
+      "1894891",
+      "1894913"
+    ],
+    "secondary": false
+  },
+  {
     "image": "/img/items/npc_figure.png",
     "name": "The Hat Which Makes The Magic",
     "quests": [
@@ -1888,6 +1991,15 @@
       "366",
       "367",
       "368"
+    ],
+    "secondary": false
+  },
+  {
+    "image": "/img/items/mariya.png",
+    "name": "The Light Continues",
+    "quests": [
+      "1938632",
+      "2031565"
     ],
     "secondary": false
   },

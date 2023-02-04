@@ -142,5 +142,13 @@
         "fishingLevel": 99,
         "craftingLevel": 99,
         "exploringLevel": 99
+    },
+    {
+        "name": "Spotted Seal",
+        "cost": 4000000000,
+        "farmingLevel": 99,
+        "fishingLevel": 99,
+        "craftingLevel": 99,
+        "exploringLevel": 99
     }
 ]
