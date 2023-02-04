@@ -31,6 +31,7 @@ BASE_DROP_RATES = {
     "Whispering Creek": 4 / 15,
     "Jundland Desert": 4 / 15,
     "Haunted House": 2 / 5,
+    "Santa's Workshop": 2 / 5,
 }
 
 CACHE_PATH_BASE = f"{os.path.dirname(__file__)}/.dropscache/{'{}'}.json"
@@ -54,6 +55,9 @@ HARVEST_DROPS = {
     "Egg 03": "Carrot Seeds",
     "Popcorn": "Corn Seeds",
     "Gold Potato": "Potato Seeds",
+    "Frozen Pine": "Pine Seeds",
+    "Frozen Cabbage": "Cabbage Seeds",
+    "Frozen Peas": "Pea Seeds",
 }
 
 # When the Iron Depot drop change went live.
@@ -79,6 +83,13 @@ RUNECUBE_FIX = 1656534341000
 
 # Drop log types which are immune from the runecube perk.
 RUNECUBE_IMMUNE_TYPES = {"harvestall"}
+
+# Timestamp for when the new drop code went into effect.
+NEW_DROP_CODE = 1667244595000
+
+# Timestamp for when xmas 2022 started (for snowball drops)
+XMAS_2022 = 1669874400000
+XMAS_2022_END = 1672801200000
 
 
 def cache_path_for(**kwargs) -> str:
@@ -109,6 +120,9 @@ def when_dropped(item: fixtures.Item, location: fixtures.Location) -> range:
     if item.name == "Popcorn" and location.name == "Corn Seeds":
         # September 12th, time unknown so saying midnight for simplicity.
         first_dropped = 1662958800000
+    if item.name == "Snowball":
+        first_dropped = XMAS_2022
+        last_dropped = XMAS_2022_END
     last_dropped = item.last_dropped or round((time.time() + 10000000) * 1000)
     return range(first_dropped, last_dropped + 1)
 
@@ -194,9 +208,12 @@ def count_sources(
     nets_fake_fishes: bool = False,
     cider_location: Optional[str] = None,
 ) -> None:
+    mult = row.get("results", {}).get("mult", 1)
     if row["type"] == "explore":
+        assert mult == 1
         drops.explores += row["results"]["stamina"]
     elif row["type"] == "lemonade":
+        assert mult == 1
         drops.lemonades += 1
         if lemonade_fake_explores_location is not None:
             drops.explores += round(
@@ -204,6 +221,7 @@ def count_sources(
                 * sum(it.get("quantity", 1) for it in row["results"]["items"])
             )
     elif row["type"] == "cider":
+        # assert mult == 1
         drops.ciders += 1
         cider_explores = row["results"]["explores"]
         if row["ts"] >= CIDER_CHANGE:
@@ -217,22 +235,26 @@ def count_sources(
         # for all items but it's more correct than not.
         drops.explores += cider_explores
     elif row["type"] == "palmer":
+        assert mult == 1
         drops.palmers += 1
         if lemonade_fake_explores_location is not None:
             drops.explores += round(
                 (1 / BASE_DROP_RATES[lemonade_fake_explores_location]) * 500
             )
     elif row["type"] == "fish":
+        assert mult == 1
         drops.fishes += 1
     elif row["type"] == "net":
+        # assert mult == 1
         drops.nets += 1
         if nets_fake_fishes:
             drops.fishes += sum(it.get("quantity", 1) for it in row["results"]["items"])
     elif row["type"] == "large_net":
-        drops.large_nets += 1
+        drops.large_nets += mult
         if nets_fake_fishes:
-            drops.fishes += 500 if row["ts"] >= TRIGON_KNOT else 400
+            drops.fishes += (500 if row["ts"] >= TRIGON_KNOT else 400) * mult
     elif row["type"] == "harvestall":
+        assert mult == 1
         # We already checked that only mono-seed logs are considered.
         drops.harvests += len(row["results"]["crops"])
 
